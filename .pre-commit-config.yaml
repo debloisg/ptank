@@ -1,0 +1,8 @@
+# Runs gitleaks on every commit to block secrets from being committed.
+# Activate once:  pre-commit install
+# gitleaks itself is fetched & managed by pre-commit — no separate install.
+repos:
+  - repo: https://github.com/gitleaks/gitleaks
+    rev: v8.30.1
+    hooks:
+      - id: gitleaks

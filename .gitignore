@@ -22,3 +22,7 @@ logs
 .env
 .env.*
 !.env.example
+
+# Local tooling / editor state (may hold machine-specific config)
+.claude/
+.mcp.json

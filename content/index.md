@@ -1,24 +1,20 @@
-# Welcome to Nuxt Content Starter
-
-This is the main page displaying Markdown located at [content/index.md](https://github.com/nuxt/starter/blob/content/content/index.md).
-
-Move to [about](/about) page.
-
-## Manage your Contents
-
-Create new pages or modify the existing ones in `content/` directory.
-
-## Query & Render Pages
-
-You can find an example of querying contents and rendering them in a [catch-all page](https://github.com/nuxt/starter/blob/content/app/pages/%5B...slug%5D.vue)
-
-## Integrate Vue Component
-
-::alert{color="green"}
-The current [alert](https://github.com/nuxt/starter/blob/content/app/components/Alert.vue) and the [counter](https://github.com/nuxt/starter/blob/content/app/components/Counter.vue) below are `Vue` components integrated into the Markdown.
-::
-
-::counter
-::
-
-Checkout out the [documentation](https://content.nuxt.com/docs/getting-started) to learn more.
+---
+title: La Pétanque Fouesnantaise
+eyebrow: Depuis 1978 · Fouesnant, Finistère
+tagline: Le pointer, le tirer, le grand air breton.
+description: Un club convivial à deux pas des plages de Fouesnant, où l'on joue à la pétanque toute l'année, du débutant au licencié FFPJP.
+stats:
+  - value: 120+
+    label: licenciés
+  - value: 12
+    label: concours par an
+  - value: "1978"
+    label: année de création
+highlights:
+  - title: Boulodrome couvert
+    description: Six pistes intérieures pour jouer par tous les temps, éclairées jusqu'à 22h.
+  - title: Terrains extérieurs
+    description: Douze jeux ombragés au cœur du parc municipal de Bréhoulou.
+  - title: École de pétanque
+    description: Encadrement gratuit des 8–17 ans le mercredi après-midi.
+---

@@ -1,0 +1,186 @@
+@import "tailwindcss";
+@import "@nuxt/ui";
+
+/* ============================================================
+   Brand palette — custom Nuxt UI colours (full 50→950 ramps)
+   marine = deep navy ink · clay = terracotta accent
+   ============================================================ */
+@theme static {
+  --color-marine-50: #f1f6f7;
+  --color-marine-100: #dcecee;
+  --color-marine-200: #bbd7dc;
+  --color-marine-300: #8fbcc4;
+  --color-marine-400: #5c98a4;
+  --color-marine-500: #3d7b88;
+  --color-marine-600: #305f6b;
+  --color-marine-700: #294c56;
+  --color-marine-800: #1f3c45;
+  --color-marine-900: #13303c;
+  --color-marine-950: #0a1f27;
+
+  --color-clay-50: #fdf5ef;
+  --color-clay-100: #f9e7d7;
+  --color-clay-200: #f1cbae;
+  --color-clay-300: #e7a97d;
+  --color-clay-400: #db8452;
+  --color-clay-500: #c8632e;
+  --color-clay-600: #b04f26;
+  --color-clay-700: #923d22;
+  --color-clay-800: #763321;
+  --color-clay-900: #602c1f;
+  --color-clay-950: #34140d;
+
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Fraunces", ui-serif, Georgia, "Times New Roman", serif;
+}
+
+/* ============================================================
+   Cream light theme — override Nuxt UI semantic tokens.
+   Site is intentionally light-only (see colorMode in nuxt.config).
+   ============================================================ */
+:root {
+  --ui-bg: #fbf7ef; /* surfaces: cards, header, inputs */
+  --ui-bg-muted: #f3ebdd; /* page canvas / alternating bands */
+  --ui-bg-elevated: #ffffff;
+  --ui-bg-accented: #ece2cf;
+  --ui-bg-inverted: #13303c;
+
+  --ui-border: #e7dcc7;
+  --ui-border-muted: #efe6d5;
+  --ui-border-accented: #dccdb4;
+  --ui-border-inverted: #13303c;
+
+  --ui-text-dimmed: #a49b88;
+  --ui-text-muted: #7c7568;
+  --ui-text-toned: #625b4f;
+  --ui-text: #4a4841;
+  --ui-text-highlighted: #13303c;
+
+  --ui-primary: var(--color-marine-900);
+  --ui-secondary: var(--color-clay-500);
+}
+
+body {
+  font-family: var(--font-sans);
+  background: var(--ui-bg-muted);
+  color: var(--ui-text);
+  -webkit-font-smoothing: antialiased;
+}
+
+h1,
+h2,
+h3,
+h4,
+.font-serif {
+  font-family: var(--font-serif);
+}
+
+/* ============================================================
+   Small brand helpers
+   ============================================================ */
+.eyebrow {
+  display: inline-block;
+  text-transform: uppercase;
+  letter-spacing: 0.16em;
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: var(--color-clay-500);
+}
+
+/* ============================================================
+   Article body — Markdown rendered by @nuxt/content (Studio)
+   ============================================================ */
+.content-prose {
+  line-height: 1.75;
+  color: var(--ui-text);
+}
+.content-prose > :first-child {
+  margin-top: 0;
+}
+.content-prose h1,
+.content-prose h2,
+.content-prose h3 {
+  font-family: var(--font-serif);
+  color: var(--ui-text-highlighted);
+  letter-spacing: -0.01em;
+}
+.content-prose h1 {
+  font-size: 2rem;
+  font-weight: 600;
+  margin: 2.25rem 0 1rem;
+}
+.content-prose h2 {
+  font-size: 1.6rem;
+  font-weight: 600;
+  margin: 2rem 0 0.75rem;
+}
+.content-prose h3 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin: 1.5rem 0 0.5rem;
+}
+.content-prose p {
+  margin: 1rem 0;
+}
+.content-prose a {
+  color: var(--color-clay-600);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  font-weight: 500;
+}
+.content-prose ul {
+  list-style: disc;
+  padding-left: 1.5rem;
+  margin: 1rem 0;
+}
+.content-prose ol {
+  list-style: decimal;
+  padding-left: 1.5rem;
+  margin: 1rem 0;
+}
+.content-prose li {
+  margin: 0.35rem 0;
+}
+.content-prose blockquote {
+  border-left: 3px solid var(--color-clay-400);
+  padding-left: 1rem;
+  margin: 1.25rem 0;
+  color: var(--ui-text-muted);
+  font-style: italic;
+}
+.content-prose img {
+  border-radius: 0.75rem;
+  margin: 1.5rem 0;
+  max-width: 100%;
+  height: auto;
+}
+.content-prose hr {
+  border: 0;
+  border-top: 1px solid var(--ui-border);
+  margin: 2rem 0;
+}
+.content-prose code {
+  background: var(--ui-bg-accented);
+  padding: 0.15rem 0.4rem;
+  border-radius: 0.3rem;
+  font-size: 0.9em;
+}
+.content-prose table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.5rem 0;
+  font-size: 0.95rem;
+  display: block;
+  overflow-x: auto;
+}
+.content-prose th,
+.content-prose td {
+  border-bottom: 1px solid var(--ui-border);
+  padding: 0.6rem 0.75rem;
+  text-align: left;
+}
+.content-prose th {
+  font-weight: 600;
+  color: var(--ui-text-highlighted);
+  border-bottom-color: var(--ui-border-accented);
+}
