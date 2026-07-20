@@ -1,0 +1,27 @@
+{
+	"$schema": "node_modules/wrangler/config-schema.json",
+	"name": "ptank",
+	"compatibility_date": "2026-07-20",
+	"compatibility_flags": [
+		"nodejs_compat"
+	],
+	// Nitro's cloudflare_module build output.
+	"main": "./.output/server/index.mjs",
+	// Prerendered static pages are served directly from the edge (no function hit).
+	"assets": {
+		"binding": "ASSETS",
+		"directory": "./.output/public/"
+	},
+	// @nuxt/content requires a D1 database on Cloudflare (binding must be `DB`).
+	// Create it once with `wrangler d1 create ptank`, then paste the returned id below.
+	"d1_databases": [
+		{
+			"binding": "DB",
+			"database_name": "ptank",
+			"database_id": "6a577a6c-a4f8-4ea2-9624-962ed8492a23"
+		}
+	],
+	"observability": {
+		"enabled": true
+	}
+}

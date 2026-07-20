@@ -5,6 +5,18 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   compatibilityDate: '2024-04-03',
 
+  // Cloudflare Workers (with static assets) deploy target.
+  // Hybrid rendering: every page is prerendered to static HTML, and only
+  // Studio's server routes (/_studio, /__nuxt_studio/*) run as edge functions.
+  // Runtime bindings (D1 `DB`, static assets) live in wrangler.jsonc.
+  nitro: {
+    preset: 'cloudflare_module',
+    prerender: {
+      crawlLinks: true,
+      routes: ['/'],
+    },
+  },
+
   // Register the terracotta accent so `color="secondary"` works alongside navy.
   ui: {
     theme: {
