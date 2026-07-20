@@ -3,7 +3,10 @@ export default defineNuxtConfig({
   modules: ['@nuxt/content', '@nuxt/ui', 'nuxt-studio'],
   css: ['~/assets/css/main.css'],
   devtools: { enabled: true },
-  compatibilityDate: '2024-04-03',
+  // Recent date so Nitro selects the modern `cloudflare_module` preset
+  // (nodejs_compat) instead of `cloudflare-module-legacy`, whose polyfill
+  // injection fails to parse unhead's iife bundle. Matches wrangler.jsonc.
+  compatibilityDate: '2026-07-20',
 
   // Cloudflare Workers (with static assets) deploy target.
   // Hybrid rendering: every page is prerendered to static HTML, and only
