@@ -18,6 +18,14 @@ export default defineNuxtConfig({
       crawlLinks: true,
       routes: ['/'],
     },
+    // Cloudflare presets replace `typeof window` → `"undefined"`. unhead ships
+    // JS-as-a-string (streamingIifeCode) that contains the text `typeof window`;
+    // the double-quoted replacement corrupts that string literal and breaks the
+    // Rollup parse. Backticks evaluate the same but don't terminate a "…" string.
+    // See https://github.com/nitrojs/nitro/issues/3071
+    replace: {
+      'typeof window': '`undefined`',
+    },
   },
 
   // Register the terracotta accent so `color="secondary"` works alongside navy.
