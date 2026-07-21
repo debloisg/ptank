@@ -2,7 +2,7 @@
 // Renders any single markdown page: news/event/competition/result articles
 // and standalone pages (content/a-propos.md).
 const route = useRoute()
-const runtimeConfig = useRuntimeConfig()
+const { siteUrl, siteName, toAbsoluteUrl } = useSiteSeo()
 
 // Pick the collection from the first path segment (Phase 0 split); top-level
 // pages like /a-propos fall back to the `pages` collection.
@@ -41,16 +41,8 @@ const sections: Record<string, { label: string, to: string }> = {
 }
 const backLink = computed(() => sections[route.path.split('/').filter(Boolean)[0] ?? ''])
 
-const siteUrl = computed(() => (runtimeConfig.public.siteUrl as string).replace(/\/$/, ''))
-const siteName = runtimeConfig.public.siteName as string
-
 const canonicalUrl = computed(() => `${siteUrl.value}${route.path.startsWith('/') ? route.path : `/${route.path}`}`)
-const pageImageUrl = computed(() => {
-  const image = page.value?.image
-  if (!image)
-    return undefined
-  return image.startsWith('http') ? image : `${siteUrl.value}${image.startsWith('/') ? image : `/${image}`}`
-})
+const pageImageUrl = computed(() => toAbsoluteUrl(page.value?.image))
 
 const detailSchema = computed<Record<string, unknown> | null>(() => {
   if (!page.value)
@@ -63,7 +55,6 @@ const detailSchema = computed<Record<string, unknown> | null>(() => {
       headline: page.value.title,
       description: page.value.description,
       datePublished: page.value.date,
-      dateModified: page.value.date,
       image: pageImageUrl.value ? [pageImageUrl.value] : undefined,
       inLanguage: 'fr-FR',
       mainEntityOfPage: canonicalUrl.value,

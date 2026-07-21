@@ -4,9 +4,7 @@
 import { fr } from '@nuxt/ui/locale'
 
 const route = useRoute()
-const runtimeConfig = useRuntimeConfig()
-const siteUrl = computed(() => (runtimeConfig.public.siteUrl as string).replace(/\/$/, ''))
-const siteName = runtimeConfig.public.siteName as string
+const { siteUrl, siteName, repositoryUrl, defaultSocialImage: defaultSocialImagePath, toAbsoluteUrl } = useSiteSeo()
 
 const canonicalUrl = computed(() => {
   const path = route.path || '/'
@@ -14,8 +12,8 @@ const canonicalUrl = computed(() => {
 })
 
 const defaultSocialImage = computed(() => {
-  const image = (runtimeConfig.public.defaultSocialImage as string) || '/images/hero-terrain.jpg'
-  return image.startsWith('http') ? image : `${siteUrl.value}${image.startsWith('/') ? image : `/${image}`}`
+  const image = defaultSocialImagePath || '/images/hero-terrain.jpg'
+  return toAbsoluteUrl(image)
 })
 
 useHead(() => ({
@@ -29,7 +27,7 @@ useHead(() => ({
         '@type': 'SportsOrganization',
         name: siteName,
         url: siteUrl.value,
-        sameAs: ['https://github.com/debloisg/ptank'],
+        sameAs: [repositoryUrl],
       }),
     },
     {

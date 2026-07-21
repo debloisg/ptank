@@ -1,17 +1,20 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
+const defaultSiteUrl = 'https://petanque-fouesnantaise.fr'
+
 export default defineNuxtConfig({
   modules: ['@nuxt/content', '@nuxt/ui', '@nuxtjs/sitemap', '@nuxtjs/robots', 'nuxt-studio'],
   css: ['~/assets/css/main.css'],
   devtools: { enabled: true },
   runtimeConfig: {
     public: {
-      siteUrl: process.env.NUXT_PUBLIC_SITE_URL || 'https://petanque-fouesnantaise.fr',
+      siteUrl: process.env.NUXT_PUBLIC_SITE_URL || defaultSiteUrl,
       siteName: 'La Pétanque Fouesnantaise',
       defaultSocialImage: '/images/hero-terrain.jpg',
+      repositoryUrl: 'https://github.com/debloisg/ptank',
     },
   },
   site: {
-    url: process.env.NUXT_PUBLIC_SITE_URL || 'https://petanque-fouesnantaise.fr',
+    url: process.env.NUXT_PUBLIC_SITE_URL || defaultSiteUrl,
     name: 'La Pétanque Fouesnantaise',
     defaultLocale: 'fr-FR',
   },
