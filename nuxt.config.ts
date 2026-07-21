@@ -8,9 +8,10 @@ export default defineNuxtConfig({
   // injection fails to parse unhead's iife bundle. Matches wrangler.jsonc.
   compatibilityDate: '2026-07-20',
 
-  // Cloudflare Workers (with static assets) deploy target.
-  // Hybrid rendering: every page is prerendered to static HTML, and only
-  // Studio's server routes (/_studio, /__nuxt_studio/*) run as edge functions.
+  // Cloudflare Workers (with static assets) deploy target. One Worker serves both the
+  // public site and the Studio editor; the Studio routes (/_studio, /__nuxt_studio/*)
+  // are gated by Cloudflare Access on this hostname (see README / Access config).
+  // Hybrid rendering: pages prerendered to static HTML, dynamic routes run at the edge.
   // Runtime bindings (D1 `DB`, static assets) live in wrangler.jsonc.
   nitro: {
     preset: 'cloudflare_module',
@@ -41,8 +42,10 @@ export default defineNuxtConfig({
     fallback: 'light',
   },
 
-  // Nuxt Studio — the in-browser CMS non-coders use to edit content.
-  // Floating editor lives at /_studio once the site is deployed with SSR.
+  // Nuxt Studio — the in-browser CMS non-coders use to edit content, at /_studio.
+  // SECURITY: /_studio AND /__nuxt_studio/* must be gated by Cloudflare Access on this
+  // hostname. /__nuxt_studio/ipx/** is a server-side proxy (SSRF) if left public.
+  // Do NOT gate /__nuxt_content/* (the public runtime content API) or the site pages.
   studio: {
     route: '/_studio',
     repository: {

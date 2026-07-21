@@ -226,6 +226,125 @@ Secrets**: add `STUDIO_GITHUB_CLIENT_ID` as a plaintext variable and
 | `STUDIO_GITHUB_REDIRECT_URL` | Override the callback URL (auto-detected from the request; set only if wrong) |
 | `STUDIO_GITHUB_MODERATORS`   | Comma-separated GitHub usernames allowed to edit (locks Studio down)          |
 
+## 🔒 Securing the Studio routes (important)
+
+Studio's convenience comes with a real security caveat, and it's worth
+understanding before the site goes public.
+
+The edge functions Studio adds — `/_studio` and everything under
+`/__nuxt_studio/*` — are gated by **authentication only, not authorization**. The
+module checks *"are you logged in?"*, never *"do you have permission to edit this
+repo?"*. The only permission gate is the `STUDIO_GITHUB_MODERATORS` allowlist, and
+**when that variable is unset it is skipped entirely** — so *any* GitHub user who
+completes the OAuth login gets a full Studio session.
+
+### What an attacker can — and can't — do
+
+A logged-in non-collaborator **cannot change the live site**: they can't commit
+(that needs GitHub write access), and they can't tamper with content — edits live
+as drafts in the editor's *own browser* until published, and the content database
+is rebuilt from Git on every deploy.
+
+But they **can** reach `/__nuxt_studio/ipx/**`, Studio's image-proxy route. With the
+default media config (no external-domain allowlist), it fetches an **arbitrary URL
+server-side and returns the response** — turning your Worker into an authenticated
+**open proxy / SSRF** running from Cloudflare's edge:
+
+```
+GET /__nuxt_studio/ipx/_/https://any-target/...      # with any valid Studio session
+```
+
+That can relay traffic, reach services that trust Cloudflare's IPs, or burn your
+Worker quota. It's the reason the Studio routes must **not** be openly reachable on
+the public internet.
+
+### The fix: gate the Studio routes with Cloudflare Access
+
+Put **Cloudflare Access** (Zero Trust) in front of the Studio routes. Access
+authenticates at the **edge, before the Worker runs**, so unauthenticated requests —
+browser or `curl` — are bounced before they touch a single Studio route.
+
+**Gate these paths** — one Access application, with an *Allow* policy that
+email-one-time-PINs your editors:
+
+| Path                                | What it is                                          |
+| ----------------------------------- | --------------------------------------------------- |
+| `/_studio`, `/_studio/*`            | the editor / login page                             |
+| `/__nuxt_studio`, `/__nuxt_studio/*` | the Studio API — **includes the `ipx` SSRF route**  |
+
+**Leave these public** — gating them breaks the site:
+
+| Path                | Why it must stay open                                |
+| ------------------- | ---------------------------------------------------- |
+| `/_nuxt/*`          | the site's own JS/CSS bundle                         |
+| `/__nuxt_content/*` | read-only content API the pages call at runtime      |
+| everything else     | the actual public website                            |
+
+### Every route at a glance
+
+| Route                        | What it does                                                     | Reachable by            |
+| ---------------------------- | --------------------------------------------------------------- | ----------------------- |
+| `/`, `/actualites`, `/resultats`, … | Prerendered site pages (static HTML)                     | 🌐 everyone             |
+| `/_nuxt/*`                   | The site's compiled JS & CSS                                    | 🌐 everyone             |
+| `/__nuxt_content/*`          | Read-only content query API (reads D1) the pages call at runtime | 🌐 everyone            |
+| `/_studio-app/*`             | Static assets of the editor UI (inert — syntax highlighters, …) | 🌐 everyone (safe)      |
+| `/_studio`                   | Studio editor + login page                                      | 🔒 Access only          |
+| `/__nuxt_studio/auth/*`      | OAuth login handshake + session                                 | 🔒 Access only          |
+| `/__nuxt_studio/meta`        | Editor metadata                                                 | 🔒 Access only          |
+| `/__nuxt_studio/ipx/**`      | Server-side image proxy — **the SSRF route**                    | 🔒 Access only          |
+
+Three kinds of request, one edge gate:
+
+```mermaid
+sequenceDiagram
+    actor V as 🌐 Visitor
+    actor E as ✍️ Editor (allow-listed)
+    actor X as 🚫 Attacker
+    participant A as 🛡️ Cloudflare Access
+    participant W as ⚙️ Worker (edge)
+    participant DB as 🗄️ D1
+    participant GH as GitHub
+
+    Note over V,DB: Public site — never gated
+    V->>W: GET / (prerendered page)
+    W-->>V: static HTML from edge cache
+    V->>W: GET /_nuxt/* (site JS + CSS)
+    W-->>V: assets
+    V->>W: GET /__nuxt_content/news/query
+    W->>DB: read-only SELECT
+    DB-->>W: rows
+    W-->>V: content JSON
+
+    Note over E,GH: Editing — Access gates every Studio route
+    E->>A: GET /_studio
+    A-->>E: email one-time-PIN login
+    E->>A: valid code, allow-listed
+    A->>W: forward /_studio
+    W-->>E: Studio editor loads
+    E->>A: /__nuxt_studio/* (auth, meta, ipx, preview)
+    A->>W: forward (Access passed)
+    W-->>E: editor APIs
+    E->>GH: Publish commits via editor's own token
+
+    Note over X,W: Attack — stopped before the Worker runs
+    X->>A: GET /__nuxt_studio/ipx/_/<any URL>
+    A-->>X: 403 / login redirect
+    Note over X,W: SSRF route never reached
+```
+
+> **Access needs a custom domain.** A self-hosted Access application's hostname must
+> be an active zone in your Cloudflare account — you **cannot** path-scope Access on
+> a raw `*.workers.dev` subdomain. Move the site to a custom domain first (add the
+> domain to Cloudflare, then assign it to the Worker under *Settings → Domains &
+> Routes*), and update the OAuth callback URL (and `STUDIO_GITHUB_REDIRECT_URL` if
+> set) to match.
+
+> **No custom domain yet?** As an interim measure set `STUDIO_GITHUB_MODERATORS` to
+> your editors' GitHub usernames. That closes the hole — the `ipx` route needs a
+> session, and a session now needs an allowlisted user. It's weaker than Access (it
+> trusts the module's own check and still exposes the routes to any GitHub login),
+> but while the routes are public it is **not optional**.
+
 ## Local development
 
 ```bash
