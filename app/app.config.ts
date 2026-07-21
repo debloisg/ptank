@@ -19,7 +19,7 @@ export default defineAppConfig({
     blogPost: {
       slots: {
         root: 'rounded-2xl border border-default !bg-elevated !ring-0 shadow-sm transition duration-200 hover:-translate-y-0.5 hover:shadow-md hover:border-accented hover:!bg-elevated',
-        title: 'font-serif transition-colors group-hover/blog-post:text-primary',
+        title: 'font-serif sm:text-2xl transition-colors group-hover/blog-post:text-primary',
       },
     },
     // Serif titles + clay eyebrow on the native hero (heroStyle: native).

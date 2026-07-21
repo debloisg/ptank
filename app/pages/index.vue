@@ -219,25 +219,26 @@ useSeoMeta({
       </UContainer>
     </section>
 
-    <!-- ============ PARTENAIRES ============ -->
-    <section v-if="home?.partners?.length" class="border-b border-default">
-      <UContainer class="py-16 sm:py-20">
+    <!-- ============ PARTENAIRES (full-bleed carousel) ============ -->
+    <section v-if="home?.partners?.length" class="border-b border-default py-16 sm:py-20">
+      <UContainer>
         <p class="eyebrow mb-3 text-center">Ils nous soutiennent</p>
         <h2 class="font-serif text-3xl sm:text-4xl font-semibold text-highlighted mb-10 text-center">
           Nos partenaires
         </h2>
-        <PartnersCarousel :partners="home.partners" />
       </UContainer>
+      <PartnersCarousel :partners="home.partners" />
     </section>
 
-    <!-- ============ CTA ADHÉSION ============ -->
-    <UContainer class="py-16">
-      <UPageCTA
-        variant="solid"
-        :title="ctaTitle"
-        :description="ctaDescription"
-        :links="ctaLinks"
-      />
-    </UContainer>
+    <!-- ============ CTA ADHÉSION (full-bleed navy band) ============ -->
+    <UPageCTA
+      orientation="vertical"
+      variant="solid"
+      class="rounded-none"
+      :ui="{ container: 'max-w-7xl mx-auto' }"
+      :title="ctaTitle"
+      :description="ctaDescription"
+      :links="ctaLinks"
+    />
   </div>
 </template>
