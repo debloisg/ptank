@@ -52,6 +52,7 @@
    Site is intentionally light-only (see colorMode in nuxt.config).
    ============================================================ */
 :root {
+  --ui-header-height: 4.5rem; /* UHeader bar height (was h-18) */
   --ui-bg: #fbf7ef; /* surfaces: cards, header, inputs */
   --ui-bg-muted: #f3ebdd; /* page canvas / alternating bands */
   --ui-bg-elevated: #ffffff;
