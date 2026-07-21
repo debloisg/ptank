@@ -2,6 +2,7 @@
 // Renders any single markdown page: news/event/competition/result articles
 // and standalone pages (content/a-propos.md).
 const route = useRoute()
+const { siteUrl, siteName, toAbsoluteUrl } = useSiteSeo()
 
 // Pick the collection from the first path segment (Phase 0 split); top-level
 // pages like /a-propos fall back to the `pages` collection.
@@ -39,6 +40,77 @@ const sections: Record<string, { label: string, to: string }> = {
   resultats: { label: 'Tous les résultats', to: '/resultats' },
 }
 const backLink = computed(() => sections[route.path.split('/').filter(Boolean)[0] ?? ''])
+
+const canonicalUrl = computed(() => toAbsoluteUrl(route.path) || siteUrl.value)
+const pageImageUrl = computed(() => toAbsoluteUrl(page.value?.image))
+
+const detailSchema = computed<Record<string, unknown> | null>(() => {
+  if (!page.value)
+    return null
+
+  if (collection === 'news') {
+    return {
+      '@context': 'https://schema.org',
+      '@type': 'Article',
+      headline: page.value.title,
+      description: page.value.description,
+      datePublished: page.value.date,
+      image: pageImageUrl.value ? [pageImageUrl.value] : undefined,
+      inLanguage: 'fr-FR',
+      mainEntityOfPage: canonicalUrl.value,
+      author: {
+        '@type': 'SportsOrganization',
+        name: siteName,
+        url: siteUrl.value,
+      },
+      publisher: {
+        '@type': 'SportsOrganization',
+        name: siteName,
+        url: siteUrl.value,
+      },
+    }
+  }
+
+  if (collection === 'events' || collection === 'competitions') {
+    return {
+      '@context': 'https://schema.org',
+      '@type': 'Event',
+      name: page.value.title,
+      description: page.value.description,
+      startDate: page.value.date,
+      eventAttendanceMode: 'https://schema.org/OfflineEventAttendanceMode',
+      eventStatus: 'https://schema.org/EventScheduled',
+      location: page.value.location
+        ? {
+            '@type': 'Place',
+            name: page.value.location,
+          }
+        : undefined,
+      image: pageImageUrl.value ? [pageImageUrl.value] : undefined,
+      url: canonicalUrl.value,
+      organizer: {
+        '@type': 'SportsOrganization',
+        name: siteName,
+        url: siteUrl.value,
+      },
+    }
+  }
+
+  return null
+})
+
+useHead(() => ({
+  link: [{ rel: 'canonical', href: canonicalUrl.value }],
+  script: detailSchema.value
+    ? [
+        {
+          key: 'ld-detail',
+          type: 'application/ld+json',
+          children: JSON.stringify(detailSchema.value),
+        },
+      ]
+    : [],
+}))
 
 useSeoMeta({
   title: () => (page.value?.title ? `${page.value.title} · La Pétanque Fouesnantaise` : undefined),
@@ -80,6 +152,13 @@ useSeoMeta({
       >
 
       <ContentRenderer v-if="page" :value="page" class="content-prose mt-8" />
+
+      <UPageCTA
+        class="mt-12"
+        title="Envie de rejoindre le club ?"
+        description="Venez nous rencontrer et participer à la vie de La Pétanque Fouesnantaise."
+        :links="[{ label: 'Nous rejoindre', to: '/contact', color: 'secondary', trailingIcon: 'i-lucide-arrow-right' }]"
+      />
     </article>
   </UContainer>
 </template>
