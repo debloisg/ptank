@@ -43,5 +43,14 @@ export default defineAppConfig({
         title: 'font-serif font-semibold',
       },
     },
+    // Listing-page header: big borderless serif title + clay eyebrow (matches
+    // the old SectionHeader). Neutralises UPageHeader's default border + padding.
+    pageHeader: {
+      slots: {
+        root: 'border-0 pt-0 pb-0',
+        title: 'font-serif text-4xl sm:text-5xl font-semibold tracking-tight',
+        headline: 'text-secondary uppercase tracking-[0.16em] text-sm font-semibold',
+      },
+    },
   },
 })

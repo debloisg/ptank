@@ -34,7 +34,7 @@ const badge = (category?: string) =>
 
 <template>
   <UContainer class="py-14 sm:py-20">
-    <SectionHeader :eyebrow="eyebrow" :title="title" :subtitle="subtitle" />
+    <UPageHeader :headline="eyebrow" :title="title" :description="subtitle" class="mb-10" />
 
     <template v-if="items?.length">
       <div v-if="layout === 'rows'" class="border-b border-default">
