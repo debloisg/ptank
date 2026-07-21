@@ -39,10 +39,24 @@ export default defineContentConfig({
       type: 'page',
       source: 'index.md',
       schema: z.object({
+        heroStyle: z
+          .enum(['photo', 'native'])
+          .optional()
+          .editor({
+            label: 'Style du hero',
+            description: 'photo = grande image plein écran (défaut) · native = hero Nuxt UI (texte + image à côté)',
+          }),
         eyebrow: z.string().optional().editor({ label: 'Sur-titre', description: 'Petit texte au-dessus du titre' }),
         tagline: z.string().optional().editor({ label: 'Accroche', description: 'Sous-titre court sous le grand titre' }),
         image: imageField(), // hero background photo
         links: z.array(linkField()).optional().editor({ label: 'Boutons du hero' }),
+        cta: z
+          .object({
+            title: z.string().editor({ label: 'Titre' }),
+            description: z.string().optional().editor({ label: 'Description' }),
+          })
+          .optional()
+          .editor({ label: "Bloc d'appel à l'action (bas de page)" }),
         stats: z
           .array(z.object({
             value: z.string().editor({ label: 'Valeur' }),

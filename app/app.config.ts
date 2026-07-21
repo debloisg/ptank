@@ -22,5 +22,26 @@ export default defineAppConfig({
         title: 'font-serif transition-colors group-hover/blog-post:text-primary',
       },
     },
+    // Serif titles + clay eyebrow on the native hero (heroStyle: native).
+    pageHero: {
+      slots: {
+        title: 'font-serif font-semibold',
+        headline: 'text-secondary uppercase tracking-[0.16em] text-sm font-semibold',
+      },
+    },
+    // Highlight cards → brand card (solid cream, soft border, serif title).
+    // `!` overrides the outline variant's bg-default + ring.
+    pageCard: {
+      slots: {
+        root: 'rounded-2xl border border-default !bg-elevated !ring-0 shadow-sm',
+        title: 'font-serif text-xl',
+      },
+    },
+    // CTA band uses the solid (navy) variant; just make its title serif.
+    pageCTA: {
+      slots: {
+        title: 'font-serif font-semibold',
+      },
+    },
   },
 })

@@ -1,6 +1,7 @@
 <script setup lang="ts">
-// Editable hero (eyebrow, title, tagline, paragraph, stats, highlights)
-// all live in content/index.md — non-coders edit them in Nuxt Studio.
+// Every editable string/asset on the homepage lives in content/index.md
+// frontmatter — non-coders edit it in Nuxt Studio, including the hero style
+// (photo vs native), the hero buttons and the closing call-to-action.
 const { data: home } = await useAsyncData('home', () =>
   queryCollection('home').path('/').first(),
 )
@@ -18,22 +19,82 @@ const upcoming = computed(() =>
 )
 const latestNews = computed(() => (news.value ?? []).slice(0, 3))
 
+const heroStyle = computed(() => home.value?.heroStyle ?? 'photo')
+const heroImage = computed(() => home.value?.image ?? '/images/hero-terrain.jpg')
+
+// Hero buttons: editable in Studio; fall back to the two default CTAs.
+const heroLinks = computed(() =>
+  home.value?.links?.length
+    ? home.value.links
+    : [
+        { label: "Adhérer à l'association", to: '/contact' },
+        { label: 'Voir les concours', to: '/evenements' },
+      ],
+)
+// Same links mapped to ButtonProps for the native <UPageHero> variant
+// (brand styling by index: first = clay solid, rest = outline).
+const heroButtons = computed(() =>
+  heroLinks.value.map((l, i) => ({
+    label: l.label,
+    to: l.to,
+    size: 'lg' as const,
+    color: (i === 0 ? 'secondary' : 'neutral') as const,
+    variant: (i === 0 ? 'solid' : 'outline') as const,
+    trailingIcon: i === 0 ? 'i-lucide-arrow-right' : undefined,
+    class: 'rounded-full px-7',
+  })),
+)
+
+const ctaTitle = computed(() => home.value?.cta?.title ?? 'Envie de lancer quelques boules ?')
+const ctaDescription = computed(
+  () =>
+    home.value?.cta?.description
+    ?? "Première séance d'essai gratuite. Débutant ou licencié, venez nous rencontrer sur les terrains.",
+)
+const ctaLinks = [
+  {
+    label: 'Nous rejoindre',
+    to: '/contact',
+    color: 'secondary' as const,
+    size: 'lg' as const,
+    trailingIcon: 'i-lucide-arrow-right',
+    class: 'rounded-full px-7',
+  },
+]
+
 useSeoMeta({
-  title: 'La Pétanque Fouesnantaise · Club de pétanque à Fouesnant',
-  description:
-    'Un club convivial à Fouesnant (29) où l\'on joue à la pétanque toute l\'année, du débutant au licencié FFPJP.',
+  title: () => home.value?.title ?? 'La Pétanque Fouesnantaise · Club de pétanque à Fouesnant',
+  description: () =>
+    home.value?.description
+    ?? "Un club convivial à Fouesnant (29) où l'on joue à la pétanque toute l'année, du débutant au licencié FFPJP.",
 })
 </script>
 
 <template>
   <div>
-    <!-- HERO + STATS share this wrapper so the card's negative margin never
-         exposes the page canvas color in its side gutters. -->
+    <!-- HERO + STATS share this wrapper so the photo hero's overlapping stats
+         card never exposes the page canvas colour in its side gutters. -->
     <div class="bg-default">
-      <!-- ============ HERO ============ -->
-      <section class="relative overflow-hidden">
+      <!-- ============ HERO — native (heroStyle: native) ============ -->
+      <UPageHero
+        v-if="heroStyle === 'native'"
+        orientation="horizontal"
+        :headline="home?.eyebrow ?? 'Depuis 1982 · Fouesnant, Finistère'"
+        :title="home?.title ?? 'La Pétanque Fouesnantaise'"
+        :description="home?.tagline ?? home?.description"
+        :links="heroButtons"
+      >
         <img
-          src="/images/hero-terrain.jpg"
+          :src="heroImage"
+          alt="Terrain de pétanque à Fouesnant"
+          class="w-full rounded-2xl border border-default object-cover shadow-xl aspect-[4/3]"
+        >
+      </UPageHero>
+
+      <!-- ============ HERO — photo (brand, default) ============ -->
+      <section v-else class="relative overflow-hidden">
+        <img
+          :src="heroImage"
           alt="Mouette avec un bandana du club sur un terrain de pétanque à Fouesnant"
           class="absolute inset-0 h-full w-full object-cover"
         >
@@ -56,15 +117,29 @@ useSeoMeta({
             </p>
 
             <div class="mt-9 flex flex-wrap gap-3">
-              <UButton to="/contact" size="lg" color="secondary" class="rounded-full px-7" trailing-icon="i-lucide-arrow-right" label="Adhérer à l'association" />
-              <UButton to="/evenements" size="lg" color="neutral" variant="outline" class="rounded-full px-7 border-white/70 bg-white/10 text-white backdrop-blur-sm hover:bg-white/20" label="Voir les concours" />
+              <UButton
+                v-for="(l, i) in heroLinks"
+                :key="i"
+                :to="l.to"
+                :label="l.label"
+                size="lg"
+                :color="i === 0 ? 'secondary' : 'neutral'"
+                :variant="i === 0 ? 'solid' : 'outline'"
+                :trailing-icon="i === 0 ? 'i-lucide-arrow-right' : undefined"
+                :class="i === 0
+                  ? 'rounded-full px-7'
+                  : 'rounded-full px-7 border-white/70 bg-white/10 text-white backdrop-blur-sm hover:bg-white/20'"
+              />
             </div>
           </div>
         </UContainer>
       </section>
 
       <!-- ============ STATS ============ -->
-      <UContainer v-if="home?.stats?.length" class="relative -mt-16 sm:-mt-20">
+      <UContainer
+        v-if="home?.stats?.length"
+        :class="heroStyle === 'native' ? 'pb-4' : 'relative -mt-16 sm:-mt-20'"
+      >
         <dl class="grid grid-cols-2 divide-x divide-y divide-default rounded-2xl border border-default bg-elevated shadow-xl sm:grid-cols-4 sm:divide-y-0">
           <div v-for="stat in home.stats" :key="stat.label" class="p-6 sm:p-8">
             <dt class="font-serif text-4xl font-semibold text-secondary">{{ stat.value }}</dt>
@@ -132,16 +207,15 @@ useSeoMeta({
         <h2 class="font-serif text-3xl sm:text-4xl font-semibold text-highlighted mb-10">
           Un club, cent terrains, mille parties
         </h2>
-        <div class="grid gap-6 sm:grid-cols-3">
-          <div
+        <UPageGrid>
+          <UPageCard
             v-for="h in home.highlights"
             :key="h.title"
-            class="rounded-2xl border border-default bg-elevated p-6"
-          >
-            <h3 class="font-serif text-xl font-semibold text-highlighted">{{ h.title }}</h3>
-            <p class="mt-2 text-sm text-toned">{{ h.description }}</p>
-          </div>
-        </div>
+            :icon="h.icon"
+            :title="h.title"
+            :description="h.description"
+          />
+        </UPageGrid>
       </UContainer>
     </section>
 
@@ -157,14 +231,13 @@ useSeoMeta({
     </section>
 
     <!-- ============ CTA ADHÉSION ============ -->
-    <section class="bg-primary text-inverted">
-      <UContainer class="py-16 text-center">
-        <h2 class="font-serif text-3xl sm:text-4xl font-semibold">Envie de lancer quelques boules ?</h2>
-        <p class="mx-auto mt-3 max-w-xl text-marine-100">
-          Première séance d'essai gratuite. Débutant ou licencié, venez nous rencontrer sur les terrains.
-        </p>
-        <UButton to="/contact" size="lg" color="secondary" class="mt-7 rounded-full px-7" label="Nous rejoindre" trailing-icon="i-lucide-arrow-right" />
-      </UContainer>
-    </section>
+    <UContainer class="py-16">
+      <UPageCTA
+        variant="solid"
+        :title="ctaTitle"
+        :description="ctaDescription"
+        :links="ctaLinks"
+      />
+    </UContainer>
   </div>
 </template>
