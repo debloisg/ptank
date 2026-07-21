@@ -2,6 +2,59 @@
 // French locale drives Nuxt UI's built-in date formatting (UBlogPost `date`),
 // pagination labels, aria text, etc.
 import { fr } from '@nuxt/ui/locale'
+
+const route = useRoute()
+const runtimeConfig = useRuntimeConfig()
+const siteUrl = computed(() => (runtimeConfig.public.siteUrl as string).replace(/\/$/, ''))
+const siteName = runtimeConfig.public.siteName as string
+
+const canonicalUrl = computed(() => {
+  const path = route.path || '/'
+  return `${siteUrl.value}${path.startsWith('/') ? path : `/${path}`}`
+})
+
+const defaultSocialImage = computed(() => {
+  const image = (runtimeConfig.public.defaultSocialImage as string) || '/images/hero-terrain.jpg'
+  return image.startsWith('http') ? image : `${siteUrl.value}${image.startsWith('/') ? image : `/${image}`}`
+})
+
+useHead(() => ({
+  link: [{ rel: 'canonical', href: canonicalUrl.value }],
+  script: [
+    {
+      key: 'ld-organization',
+      type: 'application/ld+json',
+      children: JSON.stringify({
+        '@context': 'https://schema.org',
+        '@type': 'SportsOrganization',
+        name: siteName,
+        url: siteUrl.value,
+        sameAs: ['https://github.com/debloisg/ptank'],
+      }),
+    },
+    {
+      key: 'ld-website',
+      type: 'application/ld+json',
+      children: JSON.stringify({
+        '@context': 'https://schema.org',
+        '@type': 'WebSite',
+        name: siteName,
+        url: siteUrl.value,
+        inLanguage: 'fr-FR',
+      }),
+    },
+  ],
+}))
+
+useSeoMeta({
+  ogSiteName: siteName,
+  ogType: 'website',
+  ogLocale: 'fr_FR',
+  ogUrl: () => canonicalUrl.value,
+  ogImage: () => defaultSocialImage.value,
+  twitterCard: 'summary_large_image',
+  twitterImage: () => defaultSocialImage.value,
+})
 </script>
 
 <template>

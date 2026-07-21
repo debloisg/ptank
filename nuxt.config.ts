@@ -1,8 +1,38 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  modules: ['@nuxt/content', '@nuxt/ui', 'nuxt-studio'],
+  modules: ['@nuxt/content', '@nuxt/ui', '@nuxtjs/sitemap', '@nuxtjs/robots', 'nuxt-studio'],
   css: ['~/assets/css/main.css'],
   devtools: { enabled: true },
+  runtimeConfig: {
+    public: {
+      siteUrl: process.env.NUXT_PUBLIC_SITE_URL || 'https://petanque-fouesnantaise.fr',
+      siteName: 'La Pétanque Fouesnantaise',
+      defaultSocialImage: '/images/hero-terrain.jpg',
+    },
+  },
+  site: {
+    url: process.env.NUXT_PUBLIC_SITE_URL || 'https://petanque-fouesnantaise.fr',
+    name: 'La Pétanque Fouesnantaise',
+    defaultLocale: 'fr-FR',
+  },
+  sitemap: {
+    exclude: ['/_studio/**', '/__nuxt_studio/**', '/auth/github'],
+  },
+  robots: {
+    disallow: ['/_studio', '/_studio/**', '/__nuxt_studio', '/__nuxt_studio/**'],
+    sitemap: ['/sitemap.xml'],
+  },
+  routeRules: {
+    '/_studio/**': {
+      headers: { 'X-Robots-Tag': 'noindex, nofollow, noarchive' },
+    },
+    '/__nuxt_studio/**': {
+      headers: { 'X-Robots-Tag': 'noindex, nofollow, noarchive' },
+    },
+    '/auth/github': {
+      headers: { 'X-Robots-Tag': 'noindex, nofollow, noarchive' },
+    },
+  },
   // Recent date so Nitro selects the modern `cloudflare_module` preset
   // (nodejs_compat) instead of `cloudflare-module-legacy`, whose polyfill
   // injection fails to parse unhead's iife bundle. Matches wrangler.jsonc.

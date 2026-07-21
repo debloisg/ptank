@@ -64,5 +64,12 @@ const { data: items } = await useAsyncData(`list-${props.prefix}`, () =>
       <UIcon name="i-lucide-inbox" class="mx-auto mb-3 h-8 w-8 text-dimmed" />
       <p class="text-muted">{{ empty ?? 'Le contenu publié depuis Nuxt Studio apparaîtra ici.' }}</p>
     </div>
+
+    <UPageCTA
+      class="mt-10"
+      title="Prêt à jouer avec nous ?"
+      description="Contactez le club pour une séance d'essai ou une adhésion."
+      :links="[{ label: 'Nous rejoindre', to: '/contact', color: 'secondary', trailingIcon: 'i-lucide-arrow-right' }]"
+    />
   </UContainer>
 </template>
