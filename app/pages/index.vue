@@ -160,16 +160,16 @@ useSeoMeta({
           <UButton to="/actualites" variant="link" color="primary" class="shrink-0" label="Toutes les actualités" trailing-icon="i-lucide-arrow-right" />
         </div>
 
-        <UBlogPosts v-if="latestNews.length">
-          <UBlogPost
+        <UBlogPosts v-if="latestNews.length" orientation="vertical" class="lg:gap-y-8">
+          <PostCard
             v-for="n in latestNews"
             :key="n.path"
             :to="n.path"
             :title="n.title"
             :description="n.description"
             :date="n.date"
+            :category="n.category"
             :image="n.image"
-            :badge="n.category ? { label: n.category, color: 'secondary', variant: 'subtle' } : undefined"
           />
         </UBlogPosts>
         <p v-else class="text-muted">Pas encore d'actualité publiée.</p>
