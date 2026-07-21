@@ -2,7 +2,7 @@
 // The listing config (title, intro, layout) lives in content/actualites.md so
 // non-coders can edit it — including the list orientation — from Nuxt Studio.
 const { data: cfg } = await useAsyncData('actualites-cfg', () =>
-  queryCollection('content').path('/actualites').first(),
+  queryCollection('sections').path('/actualites').first(),
 )
 
 useSeoMeta({

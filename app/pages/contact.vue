@@ -1,7 +1,7 @@
 <script setup lang="ts">
 // Editable adhésion text comes from content/contact.md (title, description, body).
 const { data: page } = await useAsyncData('contact', () =>
-  queryCollection('content').path('/contact').first(),
+  queryCollection('pages').path('/contact').first(),
 )
 
 const CLUB_EMAIL = 'contact@petanque-fouesnantaise.fr'

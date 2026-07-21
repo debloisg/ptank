@@ -3,8 +3,19 @@
 // and standalone pages (content/a-propos.md).
 const route = useRoute()
 
+// Pick the collection from the first path segment (Phase 0 split); top-level
+// pages like /a-propos fall back to the `pages` collection.
+const COLLECTION_BY_SEGMENT = {
+  actualites: 'news',
+  evenements: 'events',
+  competitions: 'competitions',
+  resultats: 'results',
+} as const
+const segment = route.path.split('/').filter(Boolean)[0] ?? ''
+const collection = COLLECTION_BY_SEGMENT[segment as keyof typeof COLLECTION_BY_SEGMENT] ?? 'pages'
+
 const { data: page } = await useAsyncData(`page-${route.path}`, () =>
-  queryCollection('content').path(route.path).first(),
+  queryCollection(collection).path(route.path).first(),
 )
 
 if (!page.value) {

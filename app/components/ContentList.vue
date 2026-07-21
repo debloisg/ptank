@@ -13,9 +13,16 @@ const props = defineProps<{
   empty?: string
 }>()
 
+// Each section folder is now its own typed collection (Phase 0 split).
+const COLLECTION = {
+  '/actualites': 'news',
+  '/evenements': 'events',
+  '/competitions': 'competitions',
+  '/resultats': 'results',
+} as const
+
 const { data: items } = await useAsyncData(`list-${props.prefix}`, () =>
-  queryCollection('content')
-    .where('path', 'LIKE', `${props.prefix}/%`)
+  queryCollection(COLLECTION[props.prefix as keyof typeof COLLECTION])
     .order('date', 'DESC')
     .all(),
 )

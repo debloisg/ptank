@@ -2,14 +2,14 @@
 // Editable hero (eyebrow, title, tagline, paragraph, stats, highlights)
 // all live in content/index.md — non-coders edit them in Nuxt Studio.
 const { data: home } = await useAsyncData('home', () =>
-  queryCollection('content').path('/').first(),
+  queryCollection('home').path('/').first(),
 )
 
 const { data: events } = await useAsyncData('home-events', () =>
-  queryCollection('content').where('path', 'LIKE', '/evenements/%').order('date', 'ASC').all(),
+  queryCollection('events').order('date', 'ASC').all(),
 )
 const { data: news } = await useAsyncData('home-news', () =>
-  queryCollection('content').where('path', 'LIKE', '/actualites/%').order('date', 'DESC').all(),
+  queryCollection('news').order('date', 'DESC').all(),
 )
 
 const today = new Date().toISOString().slice(0, 10)
