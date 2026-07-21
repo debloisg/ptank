@@ -8,9 +8,12 @@ export function useSiteSeo() {
   function toAbsoluteUrl(pathOrUrl?: string | null) {
     if (!pathOrUrl)
       return undefined
-    return pathOrUrl.startsWith('http')
-      ? pathOrUrl
-      : `${siteUrl.value}${pathOrUrl.startsWith('/') ? pathOrUrl : `/${pathOrUrl}`}`
+    try {
+      return new URL(pathOrUrl, `${siteUrl.value}/`).toString()
+    }
+    catch {
+      return undefined
+    }
   }
 
   return {

@@ -41,7 +41,7 @@ const sections: Record<string, { label: string, to: string }> = {
 }
 const backLink = computed(() => sections[route.path.split('/').filter(Boolean)[0] ?? ''])
 
-const canonicalUrl = computed(() => `${siteUrl.value}${route.path.startsWith('/') ? route.path : `/${route.path}`}`)
+const canonicalUrl = computed(() => toAbsoluteUrl(route.path) || siteUrl.value)
 const pageImageUrl = computed(() => toAbsoluteUrl(page.value?.image))
 
 const detailSchema = computed<Record<string, unknown> | null>(() => {

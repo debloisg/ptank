@@ -7,8 +7,7 @@ const route = useRoute()
 const { siteUrl, siteName, repositoryUrl, defaultSocialImage: defaultSocialImagePath, toAbsoluteUrl } = useSiteSeo()
 
 const canonicalUrl = computed(() => {
-  const path = route.path || '/'
-  return `${siteUrl.value}${path.startsWith('/') ? path : `/${path}`}`
+  return toAbsoluteUrl(route.path || '/') || siteUrl.value
 })
 
 const defaultSocialImage = computed(() => {
