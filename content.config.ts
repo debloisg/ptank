@@ -15,6 +15,17 @@ export default defineContentConfig({
         location: z.string().optional(), // ex: Boulodrome de Bréhoulou
         category: z.string().optional(), // ex: Officiel FFPJP, Doublette, Club
 
+        // Listing pages (ex: content/actualites.md) — how the post list renders.
+        // `.editor()` turns the enum into a labelled dropdown inside Nuxt Studio.
+        orientation: z
+          .enum(['horizontal', 'vertical'])
+          .optional()
+          .editor({
+            label: 'Disposition de la liste',
+            description:
+              'horizontal = grille de cartes · vertical = liste pleine largeur (idéale avec des images)',
+          }),
+
         // Homepage hero (content/index.md)
         eyebrow: z.string().optional(), // ex: Depuis 1978 · Fouesnant, Finistère
         tagline: z.string().optional(), // sous-titre court sous le grand titre
@@ -23,6 +34,13 @@ export default defineContentConfig({
           .optional(),
         highlights: z
           .array(z.object({ title: z.string(), description: z.string() }))
+          .optional(),
+        partners: z
+          .array(z.object({
+            name: z.string(),
+            logo: z.string(), // ex: /images/partenaires/agence-du-steir.jpg
+            href: z.string().optional(),
+          }))
           .optional(),
       }),
     }),

@@ -8,7 +8,7 @@ const links = [
   { label: 'Événements', to: '/evenements' },
   { label: 'Compétitions', to: '/competitions' },
   { label: 'Résultats', to: '/resultats' },
-  { label: 'À propos', to: '/a-propos' },
+  { label: 'Le Club', to: '/a-propos' },
 ]
 
 const isActive = (to: string) =>

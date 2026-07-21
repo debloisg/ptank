@@ -7,6 +7,9 @@ const props = defineProps<{
   title: string
   subtitle?: string
   layout?: 'cards' | 'rows'
+  // Blog list direction (Studio-editable). horizontal = card grid,
+  // vertical = stacked full-width rows. Ignored by the agenda (`rows`) layout.
+  orientation?: 'horizontal' | 'vertical'
   empty?: string
 }>()
 
@@ -16,6 +19,10 @@ const { data: items } = await useAsyncData(`list-${props.prefix}`, () =>
     .order('date', 'DESC')
     .all(),
 )
+
+// Map a content `category` to a <UBlogPost> badge (clay, subtle).
+const badge = (category?: string) =>
+  category ? { label: category, color: 'secondary' as const, variant: 'subtle' as const } : undefined
 </script>
 
 <template>
@@ -35,8 +42,8 @@ const { data: items } = await useAsyncData(`list-${props.prefix}`, () =>
         />
       </div>
 
-      <div v-else class="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-        <ArticleCard
+      <UBlogPosts v-else :orientation="orientation ?? 'horizontal'">
+        <UBlogPost
           v-for="item in items"
           :key="item.path"
           :to="item.path"
@@ -44,10 +51,10 @@ const { data: items } = await useAsyncData(`list-${props.prefix}`, () =>
           :description="item.description"
           :date="item.date"
           :image="item.image"
-          :location="item.location"
-          :category="item.category"
+          :badge="badge(item.category)"
+          :orientation="(orientation ?? 'horizontal') === 'vertical' ? 'horizontal' : 'vertical'"
         />
-      </div>
+      </UBlogPosts>
     </template>
 
     <div v-else class="rounded-2xl border border-dashed border-accented bg-elevated/50 px-6 py-12 text-center">

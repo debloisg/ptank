@@ -8,12 +8,12 @@ const CLUB_EMAIL = 'contact@petanque-fouesnantaise.fr'
 
 // Practical info block — change these once here if the club details evolve.
 const infos = [
-  { label: 'Adresse', value: 'Boulodrome de Bréhoulou, 29170 Fouesnant' },
+  { label: 'Adresse', value: "Allée de Loc'Hilaire, 29170 Fouesnant" },
   { label: 'E-mail', value: CLUB_EMAIL, href: `mailto:${CLUB_EMAIL}` },
   { label: 'Téléphone', value: '02 98 00 00 00', href: 'tel:+33298000000' },
   { label: 'Cotisation adulte', value: '45 € / an (licence FFPJP incluse)' },
   { label: 'Cotisation jeune', value: '20 € / an' },
-  { label: 'Créneaux', value: 'Mardi & vendredi 18h30 · Dimanche 10h' },
+  { label: 'Créneaux', value: 'Lundi, mercredi & samedi, 14h à 19h' },
 ]
 
 const form = reactive({ name: '', email: '', message: '' })

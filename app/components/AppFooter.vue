@@ -6,13 +6,13 @@ const nav = [
   { label: 'Événements', to: '/evenements' },
   { label: 'Compétitions', to: '/competitions' },
   { label: 'Résultats', to: '/resultats' },
-  { label: 'À propos', to: '/a-propos' },
+  { label: 'Le Club', to: '/a-propos' },
   { label: 'Contact & Adhésion', to: '/contact' },
 ]
 </script>
 
 <template>
-  <footer class="border-t border-default bg-default mt-20">
+  <footer class="border-t border-default bg-default">
     <UContainer class="py-14 grid gap-10 sm:grid-cols-2 lg:grid-cols-3">
       <div class="lg:col-span-1">
         <div class="flex items-center gap-3 mb-4">
@@ -43,7 +43,7 @@ const nav = [
         <ul class="space-y-3 text-sm text-toned">
           <li class="flex items-start gap-2.5">
             <UIcon name="i-lucide-map-pin" class="w-4 h-4 mt-0.5 shrink-0 text-primary" />
-            Boulodrome de Bréhoulou, 29170 Fouesnant
+            Allée de Loc'Hilaire, 29170 Fouesnant
           </li>
           <li class="flex items-center gap-2.5">
             <UIcon name="i-lucide-mail" class="w-4 h-4 shrink-0 text-primary" />

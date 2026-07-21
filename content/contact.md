@@ -23,3 +23,11 @@ toute l'année.
 
 Une licence FFPJP peut être établie pour les joueurs souhaitant participer aux
 compétitions officielles.
+
+## Où nous trouver
+
+- **Boulodrome** : Allée de Loc'Hilaire, 29170 Fouesnant (à côté du centre
+  aquatique « Les Balnéides » et du terrain de football).
+- **Siège social** : Mairie de Fouesnant, Place du Général de Gaulle, 29170
+  Fouesnant.
+- **Site internet** : [petanque-fouesnantaise.fr](https://petanque-fouesnantaise.fr)
