@@ -59,25 +59,24 @@ useSeoMeta({
     />
 
     <article>
-      <div v-if="page?.category || formattedDate || page?.location" class="mb-4 flex flex-wrap items-center gap-x-4 gap-y-1 text-sm text-muted">
-        <span v-if="page?.category" class="eyebrow">{{ page.category }}</span>
-        <span v-if="formattedDate" class="inline-flex items-center gap-1.5">
-          <UIcon name="i-lucide-calendar" class="h-4 w-4" />{{ formattedDate }}
-        </span>
-        <span v-if="page?.location" class="inline-flex items-center gap-1.5">
-          <UIcon name="i-lucide-map-pin" class="h-4 w-4" />{{ page.location }}
-        </span>
-      </div>
-
-      <h1 class="font-serif text-4xl sm:text-5xl font-semibold leading-tight tracking-tight text-highlighted">
-        {{ page?.title }}
-      </h1>
+      <UPageHeader :headline="page?.category" :title="page?.title" class="mb-8">
+        <template v-if="formattedDate || page?.location" #description>
+          <div class="flex flex-wrap items-center gap-x-4 gap-y-1 text-sm text-muted">
+            <span v-if="formattedDate" class="inline-flex items-center gap-1.5">
+              <UIcon name="i-lucide-calendar" class="h-4 w-4" />{{ formattedDate }}
+            </span>
+            <span v-if="page?.location" class="inline-flex items-center gap-1.5">
+              <UIcon name="i-lucide-map-pin" class="h-4 w-4" />{{ page.location }}
+            </span>
+          </div>
+        </template>
+      </UPageHeader>
 
       <img
         v-if="page?.image"
         :src="page.image"
         :alt="page?.title"
-        class="mt-8 w-full rounded-2xl border border-default"
+        class="w-full rounded-2xl border border-default"
       >
 
       <ContentRenderer v-if="page" :value="page" class="content-prose mt-8" />

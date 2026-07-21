@@ -36,13 +36,11 @@ useSeoMeta({
 <template>
   <UContainer class="py-12 sm:py-16">
     <!-- Hero -->
-    <div class="max-w-2xl">
-      <p class="eyebrow mb-3">Nous rejoindre</p>
-      <h1 class="font-serif text-4xl sm:text-5xl font-semibold tracking-tight text-highlighted">
-        {{ page?.title ?? 'Contact & Adhésion' }}
-      </h1>
-      <p v-if="page?.description" class="mt-4 text-lg text-muted">{{ page.description }}</p>
-    </div>
+    <UPageHeader
+      headline="Nous rejoindre"
+      :title="page?.title ?? 'Contact & Adhésion'"
+      :description="page?.description"
+    />
 
     <div class="mt-12 grid gap-12 lg:grid-cols-2">
       <!-- Form -->
