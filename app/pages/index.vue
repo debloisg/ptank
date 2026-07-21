@@ -152,7 +152,7 @@ useSeoMeta({
     <!-- ============ DERNIÈRES ACTUALITÉS ============ -->
     <section class="bg-default border-t border-default">
       <UContainer class="py-16 sm:py-20">
-        <div class="mb-8 flex items-end justify-between gap-4">
+        <div class="mb-8 flex flex-col gap-4 sm:flex-row sm:items-end sm:justify-between">
           <div>
             <p class="eyebrow mb-3">À la une</p>
             <h2 class="font-serif text-3xl sm:text-4xl font-semibold text-highlighted">Dernières nouvelles du boulodrome</h2>
@@ -178,7 +178,7 @@ useSeoMeta({
 
     <!-- ============ PROCHAINS RENDEZ-VOUS ============ -->
     <UContainer class="py-16 sm:py-20">
-      <div class="mb-8 flex items-end justify-between gap-4">
+      <div class="mb-8 flex flex-col gap-4 sm:flex-row sm:items-end sm:justify-between">
         <div>
           <p class="eyebrow mb-3">Agenda</p>
           <h2 class="font-serif text-3xl sm:text-4xl font-semibold text-highlighted">Prochains rendez-vous</h2>
