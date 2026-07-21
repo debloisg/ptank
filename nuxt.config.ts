@@ -2,7 +2,7 @@
 const defaultSiteUrl = process.env.NUXT_PUBLIC_SITE_URL || process.env.SITE_URL || 'https://petanque-fouesnantaise.fr'
 
 export default defineNuxtConfig({
-  modules: ['@nuxt/content', '@nuxt/ui', '@nuxtjs/sitemap', '@nuxtjs/robots', 'nuxt-studio'],
+  modules: ['@nuxt/content', '@nuxt/ui', '@nuxtjs/seo', 'nuxt-studio'],
   css: ['~/assets/css/main.css'],
   devtools: { enabled: true },
   runtimeConfig: {
