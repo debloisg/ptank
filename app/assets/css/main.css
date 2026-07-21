@@ -69,6 +69,10 @@
   --ui-text-toned: #625b4f;
   --ui-text: #4a4841;
   --ui-text-highlighted: #13303c;
+  /* Pinned so `text-inverted` (PF badges, solid CTA) stays white even if the
+     browser resolves color-mode to dark — the rest of the palette is already
+     pinned on :root, this token was the one leak that flipped to near-black. */
+  --ui-text-inverted: #fff;
 
   --ui-primary: var(--color-marine-900);
   --ui-secondary: var(--color-clay-500);

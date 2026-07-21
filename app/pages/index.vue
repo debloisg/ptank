@@ -240,5 +240,23 @@ useSeoMeta({
       :description="ctaDescription"
       :links="ctaLinks"
     />
+
+    <!-- ============ OPEN SOURCE BANNER (just above footer) ============ -->
+    <section class="border-t border-default bg-muted">
+      <UContainer class="py-4">
+        <p class="flex flex-wrap items-center justify-center gap-x-2 gap-y-1 text-sm text-toned text-center">
+          <span>🚀 Ce site est open source, les contributions sont bienvenues&nbsp;:</span>
+          <a
+            href="https://github.com/debloisg/ptank"
+            target="_blank"
+            rel="noopener"
+            class="inline-flex items-center gap-1.5 font-medium text-highlighted hover:text-primary transition-colors"
+          >
+            debloisg/ptank
+            <UIcon name="i-lucide-github" class="w-4 h-4" />
+          </a>
+        </p>
+      </UContainer>
+    </section>
   </div>
 </template>
