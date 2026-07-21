@@ -12,7 +12,17 @@ const links = [
 </script>
 
 <template>
-  <UHeader mode="slideover" :ui="{ center: 'hidden lg:flex' }">
+  <!-- The brand + 6 nav items + CTA don't fit at `lg`, so the inline nav only
+       appears at `xl`; below that the slideover (hamburger) takes over. -->
+  <UHeader
+    mode="slideover"
+    :ui="{
+      center: '!hidden xl:!flex',
+      toggle: 'lg:!inline-flex xl:!hidden',
+      content: 'lg:!block xl:!hidden',
+      overlay: 'lg:!block xl:!hidden',
+    }"
+  >
     <!-- Wordmark -->
     <template #left>
       <NuxtLink to="/" class="flex items-center gap-3 shrink-0">
