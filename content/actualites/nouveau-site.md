@@ -1,8 +1,8 @@
 ---
 title: Le site fait peau neuve
-description: Un nouveau site plus simple, plus rapide et plus respectueux — et un grand merci à Roger Croguennec pour dix-huit ans de bénévolat.
 date: 2026-07-23
-image: /images/a-propos-partie.jpg
+description: Un nouveau site plus simple, plus rapide et plus respectueux — et un grand merci à Roger Croguennec pour dix-huit ans de bénévolat.
+image: https://pub-6d40831c9da84a2a900724d5a4e2c0dd.r2.dev/images/IMG-5473.jpeg
 ---
 
 Vous l'avez peut-être remarqué : le site du club a changé de visage.
