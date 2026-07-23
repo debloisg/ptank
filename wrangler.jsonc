@@ -21,6 +21,17 @@
 			"database_id": "6a577a6c-a4f8-4ea2-9624-962ed8492a23"
 		}
 	],
+	// R2 bucket for images. Studio uploads media here (via NuxtHub blob, which
+	// expects the binding named `BLOB`); the curated originals in /image-sources
+	// are pushed here too (scripts/upload-images-to-r2.sh). One bucket, two
+	// prefixes: `studio/` (editor uploads) and `images/` (curated).
+	// Create it once with `wrangler r2 bucket create ptank-images`.
+	"r2_buckets": [
+		{
+			"binding": "BLOB",
+			"bucket_name": "ptank-images"
+		}
+	],
 	"observability": {
 		"enabled": true
 	}

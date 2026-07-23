@@ -1,6 +1,25 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
+
+// Dev serves images straight from /public; prod resizes them through
+// Cloudflare Image Transformations, pulling the originals from R2. See the
+// `image` block below and the "Images" section of the README.
+const isDev = process.env.NODE_ENV !== 'production'
+// Public domain of the R2 bucket that holds /images/** (e.g.
+// https://img.petanque-fouesnantaise.fr, or a pub-xxx.r2.dev dev URL).
+const r2Base = process.env.NUXT_IMAGE_R2_BASE
+// Cloudflare Image Transformations only resize sources on the SAME zone as the
+// site (subdomains OK). The shared r2.dev domain is off-zone, so it can't be
+// transformed — serve originals as-is from it. Point NUXT_IMAGE_R2_BASE at a
+// custom domain on your zone (e.g. img.<site>) to unlock resizing/WebP/AVIF.
+const canTransform = !!r2Base && !/\.r2\.dev(?:\/|$)/.test(r2Base)
+
 export default defineNuxtConfig({
-  modules: ['@nuxt/content', '@nuxt/ui', 'nuxt-studio'],
+  // @nuxthub/core must come BEFORE nuxt-studio (Studio detects its blob
+  // storage to enable external media uploads → R2). @nuxt/image is before
+  // @nuxt/ui so Nuxt UI renders <UBlogPost>/<ProseImg>/etc. through NuxtImg.
+  // @nuxtjs/seo = sitemap + robots + schema.org + canonical/OG meta.
+  // nuxt-a11y runs axe-core in the dev console only (no prod overhead).
+  modules: ['@nuxthub/core', '@nuxt/image', '@nuxt/content', '@nuxt/ui', '@nuxtjs/seo', 'nuxt-a11y', 'nuxt-studio'],
   css: ['~/assets/css/main.css'],
   devtools: { enabled: true },
   // Recent date so Nitro selects the modern `cloudflare_module` preset
@@ -42,6 +61,43 @@ export default defineNuxtConfig({
     fallback: 'light',
   },
 
+  // ── Images (R2 + Cloudflare Image Transformations) ──────────────────────
+  // The image originals live in R2, NOT in /public — they are never copied
+  // into the deploy bundle (source files are kept in /image-sources purely to
+  // upload from; see scripts/upload-images-to-r2.sh). NUXT_IMAGE_R2_BASE (the
+  // bucket's public domain) is therefore required to see images anywhere,
+  // dev included — set it in .env locally.
+  //
+  // `alias` rewrites the /images/** paths used in content + components to the
+  // R2 bucket. When the bucket is on your zone (custom domain), the `cloudflare`
+  // provider wraps them in /cdn-cgi/image/<opts>/… so the edge (free tier
+  // includes Transformations) returns a resized WebP/AVIF. On an r2.dev URL —
+  // or in dev — it falls back to `none`, serving the originals untouched.
+  // NuxtImg adds lazy loading + srcset either way; the blur placeholder needs
+  // the resizing provider, so it only appears once you're on a custom domain.
+  image: {
+    provider: canTransform && !isDev ? 'cloudflare' : 'none',
+    // baseURL '/' → transforms resolve on the deployed Worker's own origin,
+    // so the production domain never has to be hardcoded here.
+    cloudflare: { baseURL: '/' },
+    ...(r2Base ? { alias: { '/images': `${r2Base}/images` } } : {}),
+    quality: 75,
+  },
+
+  // ── SEO (@nuxtjs/seo) ───────────────────────────────────────────────────
+  // Drives sitemap.xml, robots.txt, schema.org JSON-LD and canonical/OG tags.
+  // Set NUXT_PUBLIC_SITE_URL to the real production URL (placeholder below).
+  site: {
+    url: process.env.NUXT_PUBLIC_SITE_URL || 'https://www.petanque-fouesnantaise.fr',
+    name: 'La Pétanque Fouesnantaise',
+    description:
+      'Club de pétanque à Fouesnant (29) — actualités, événements, compétitions, résultats et adhésion.',
+    defaultLocale: 'fr',
+  },
+  // Dynamic OG image rendering (satori wasm) would push the Worker past the
+  // Cloudflare free-tier size limit — disabled. Static og:image tags still work.
+  ogImage: { enabled: false },
+
   // Nuxt Studio — the in-browser CMS non-coders use to edit content, at /_studio.
   // SECURITY: /_studio AND /__nuxt_studio/* must be gated by Cloudflare Access on this
   // hostname. /__nuxt_studio/ipx/** is a server-side proxy (SSRF) if left public.
@@ -54,12 +110,31 @@ export default defineNuxtConfig({
       repo: 'ptank',
       branch: 'main',
     },
+    // Media uploaded in Studio goes to R2 (via NuxtHub blob, below) instead of
+    // being committed to Git — so editor uploads never bloat the repo or the
+    // deploy bundle. `publicUrl` (S3_PUBLIC_URL = the bucket's public domain)
+    // is how the uploaded files are then served/referenced.
+    media: {
+      external: true,
+      publicUrl: process.env.S3_PUBLIC_URL,
+    },
+  },
+
+  // NuxtHub blob = the R2 storage Studio uploads land in. Native `cloudflare-r2`
+  // driver on binding `BLOB` (mapped to the `ptank-images` bucket in
+  // wrangler.jsonc). Only blob is enabled — content's D1 (`DB`) is untouched.
+  hub: {
+    blob: true,
   },
 
   app: {
     head: {
       htmlAttrs: { lang: 'fr' },
       title: 'La Pétanque Fouesnantaise',
+      // Pages already brand their own titles (e.g. "X · La Pétanque
+      // Fouesnantaise"), so use the title verbatim. Without this, @nuxtjs/seo
+      // would append the site name a second time ("… | La Pétanque Fouesnantaise").
+      titleTemplate: '%s',
       meta: [
         { name: 'viewport', content: 'width=device-width, initial-scale=1' },
         {
