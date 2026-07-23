@@ -42,6 +42,14 @@ export default defineNuxtConfig({
       crawlLinks: true,
       routes: ['/'],
     },
+    // Studio's tiptap editor renders markdown `![](/images/…)` against the
+    // worker origin directly (it bypasses @nuxt/image's R2 alias), so image
+    // previews 404. Redirect worker-origin /images/** to the R2 bucket so the
+    // editor resolves them. Invisible to the public site — its <NuxtImg> already
+    // emits full r2.dev URLs and never hits this path.
+    routeRules: {
+      '/images/**': { redirect: { to: `${r2Base}/images/**`, statusCode: 302 } },
+    },
     // Cloudflare presets replace `typeof window` → `"undefined"`. unhead ships
     // JS-as-a-string (streamingIifeCode) that contains the text `typeof window`;
     // the double-quoted replacement corrupts that string literal and breaks the
