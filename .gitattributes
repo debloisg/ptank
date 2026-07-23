@@ -1,0 +1,9 @@
+# Binary image assets are tracked with Git LFS so they never bloat the main
+# repo history. They're served from R2, not the deploy bundle (see README
+# "Images"); the masters live in /image-sources.
+*.jpg  filter=lfs diff=lfs merge=lfs -text
+*.jpeg filter=lfs diff=lfs merge=lfs -text
+*.png  filter=lfs diff=lfs merge=lfs -text
+*.webp filter=lfs diff=lfs merge=lfs -text
+*.avif filter=lfs diff=lfs merge=lfs -text
+*.gif  filter=lfs diff=lfs merge=lfs -text

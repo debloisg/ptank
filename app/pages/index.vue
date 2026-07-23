@@ -84,20 +84,30 @@ useSeoMeta({
         :description="home?.tagline ?? home?.description"
         :links="heroButtons"
       >
-        <img
+        <NuxtImg
           :src="heroImage"
           alt="Terrain de pétanque à Fouesnant"
+          format="auto"
+          sizes="sm:100vw md:100vw lg:600px"
+          loading="eager"
+          fetchpriority="high"
+          preload
           class="w-full rounded-2xl border border-default object-cover shadow-xl aspect-[4/3]"
-        >
+        />
       </UPageHero>
 
       <!-- ============ HERO — photo (brand, default) ============ -->
       <section v-else class="relative overflow-hidden">
-        <img
+        <NuxtImg
           :src="heroImage"
           alt="Mouette avec un bandana du club sur un terrain de pétanque à Fouesnant"
+          format="auto"
+          sizes="sm:100vw md:100vw lg:100vw xl:100vw 2xl:100vw"
+          loading="eager"
+          fetchpriority="high"
+          preload
           class="absolute inset-0 h-full w-full object-cover"
-        >
+        />
         <div class="absolute inset-0 bg-gradient-to-t from-marine-950/85 via-marine-950/35 to-marine-950/10" />
         <div class="absolute inset-0 bg-gradient-to-r from-marine-950/80 via-marine-950/25 to-transparent" />
 
