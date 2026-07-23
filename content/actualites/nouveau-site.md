@@ -5,17 +5,12 @@ date: 2026-07-23
 image: /images/a-propos-partie.jpg
 ---
 
-Vous l'avez peut-être remarqué : le site du club a changé de visage. L'occasion
-de revenir sur ce nouveau chapitre, et surtout de dire merci.
+Vous l'avez peut-être remarqué : le site du club a changé de visage.
 
 ## Merci Roger
 
-Pendant **dix-huit ans**, Roger Croguennec a fait vivre le site de La Pétanque
-Fouesnantaise, bénévolement, avec constance et générosité. Publier les résultats,
-annoncer les concours, tenir l'agenda à jour : autant de petites tâches
-invisibles, semaine après semaine, qui ont accompagné la vie du club pendant
-près de deux décennies. Pour tout ce travail patient et discret, un immense
-merci Roger.
+Merci à Roger Croguennec, qui a maintenu bénévolement le site du club pendant
+dix-huit ans.
 
 ## Un site pensé pour durer
 
