@@ -91,7 +91,7 @@ useSeoMeta({
           sizes="sm:100vw md:100vw lg:600px"
           loading="eager"
           fetchpriority="high"
-          preload
+          :preload="{ fetchPriority: 'high' }"
           class="w-full rounded-2xl border border-default object-cover shadow-xl aspect-[4/3]"
         />
       </UPageHero>
@@ -105,7 +105,7 @@ useSeoMeta({
           sizes="sm:100vw md:100vw lg:100vw xl:100vw 2xl:100vw"
           loading="eager"
           fetchpriority="high"
-          preload
+          :preload="{ fetchPriority: 'high' }"
           class="absolute inset-0 h-full w-full object-cover"
         />
         <div class="absolute inset-0 bg-gradient-to-t from-marine-950/85 via-marine-950/35 to-marine-950/10" />
