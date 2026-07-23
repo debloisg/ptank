@@ -120,7 +120,13 @@ export default defineNuxtConfig({
     // is how the uploaded files are then served/referenced.
     media: {
       external: true,
-      // Same bucket as images — defaults to r2Base (one bucket, studio/ prefix).
+      // Browse AND upload the same `images/` prefix the site already serves from,
+      // so the Media tab lists the curated images pushed to R2 by
+      // scripts/upload-images-to-r2.sh, and new Studio uploads land beside them.
+      // nuxt-studio defaults this to "studio/" (module.mjs) — an empty prefix here,
+      // which is why the Media tab showed nothing despite R2 being full.
+      prefix: 'images',
+      // Same bucket as images — defaults to r2Base (one bucket, images/ prefix).
       publicUrl: process.env.S3_PUBLIC_URL || r2Base,
     },
   },
