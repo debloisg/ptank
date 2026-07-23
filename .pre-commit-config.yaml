@@ -6,3 +6,15 @@ repos:
     rev: v8.30.1
     hooks:
       - id: gitleaks
+
+  # Canonicalize content markdown to the exact serialized form the @nuxt/content
+  # build writes to D1 (and that nuxt-studio round-trips), so hand edits (nvim)
+  # match Studio publishes and don't trigger phantom Studio conflicts. Rewrites
+  # staged files; re-stage and re-commit if it changes anything (formatter norm).
+  - repo: local
+    hooks:
+      - id: canonicalize-content
+        name: Canonicalize Nuxt content markdown
+        entry: node scripts/canonicalize-content.mjs
+        language: system
+        files: ^content/.*\.md$

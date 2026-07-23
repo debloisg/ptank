@@ -2,3 +2,15 @@ onlyBuiltDependencies:
   - '@parcel/watcher'
   - better-sqlite3
   - esbuild
+  - sharp
+  - workerd
+
+# Force a single @nuxtjs/mdc across the tree so the content build (writes D1)
+# and nuxt-studio (compares against D1) serialize markdown identically.
+# content@3.15 wants ^0.22.1, nuxt-studio@1.7 still declares ^0.21.1 (stale range);
+# without this they diverge and Studio shows phantom "conflicts". See a-propos.
+overrides:
+  unhead: ^3.2.3
+  '@unhead/vue@^3.0.0': ^3.2.3
+  '@unhead/bundler': ^3.2.3
+  '@nuxtjs/mdc': 0.22.2

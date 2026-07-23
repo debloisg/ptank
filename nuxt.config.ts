@@ -65,6 +65,24 @@ export default defineNuxtConfig({
     fallback: 'light',
   },
 
+  // Align the build's markdown parse with nuxt-studio, which hardcodes
+  // remark-mdc `autoUnwrap: true` (dist/.../document/generate.js). The @nuxt/content
+  // build otherwise parses with autoUnwrap OFF, so single-paragraph MDC-component
+  // bodies (callout/card/accordion-item) are stored in D1 wrapped as `["p",…]` while
+  // Studio parses them unwrapped — an AST mismatch Studio reports as a phantom
+  // "conflict" on every file (unfixable by any text formatting). Matching it here
+  // makes D1 == Studio's parse. Paired with the single @nuxtjs/mdc version pinned in
+  // pnpm-workspace.yaml. NOTE: unwraps the <p> around single-paragraph MDC bodies.
+  content: {
+    build: {
+      markdown: {
+        remarkPlugins: {
+          'remark-mdc': { options: { autoUnwrap: true } },
+        },
+      },
+    },
+  },
+
   // ── Images (R2 + Cloudflare Image Transformations) ──────────────────────
   // The image originals live in R2, NOT in /public — they are never copied
   // into the deploy bundle (source files are kept in /image-sources purely to
