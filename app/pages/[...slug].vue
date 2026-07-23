@@ -72,10 +72,10 @@ useSeoMeta({
         </template>
       </UPageHeader>
 
-      <NuxtImg
+      <ProseImg
         v-if="page?.image"
         :src="page.image"
-        :alt="page?.title"
+        :alt="page?.title ?? ''"
         format="auto"
         sizes="sm:100vw md:768px"
         loading="lazy"
