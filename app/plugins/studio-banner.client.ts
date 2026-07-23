@@ -3,12 +3,16 @@
 // (server/utils/session.ts). Invisible to the public — no cookie, no banner — and it
 // never redirects, so public visitors are never bounced to /_studio.
 //
-// Two contexts, because the same page runs in both:
-//  • Public site (top window): offer "Ouvrir le Studio" to jump into the editor.
-//  • Inside Studio's live-preview iframe (window.top !== self): "Ouvrir le Studio" is
-//    nonsensical (already open), so instead offer a RESET that wipes local pending
-//    changes and resyncs with the latest published version — the escape hatch for the
-//    "content on GitHub differs from your website version" conflict.
+// IMPORTANT: nuxt-studio has NO preview iframe. Its activation plugin mounts a
+// <nuxt-studio> web component onto the site's own <body> and overlays the editor on the
+// live page (dist/.../plugins/studio.client.js + utils/activation.js), so editor and
+// site share one window — window.self === window.top always. "Am I in Studio?" is
+// therefore detected by the presence of that <nuxt-studio> element (or the
+// window.useStudioHost hook activation sets), which appears ASYNCHRONOUSLY after this
+// plugin runs, so we also watch for it. While Studio is active, "Ouvrir le Studio" is
+// nonsensical, so the banner offers a RESET that wipes local pending changes and
+// resyncs with the latest published version — the escape hatch for the "content on
+// GitHub differs from your website version" conflict.
 export default defineNuxtPlugin(() => {
   const STUDIO_ROUTE = '/_studio'
   if (window.location.pathname.startsWith(STUDIO_ROUTE)) return
@@ -17,9 +21,6 @@ export default defineNuxtPlugin(() => {
     .split('; ')
     .some(c => c.startsWith('studio-session-check='))
   if (!loggedIn) return
-
-  // The site page is embedded as an iframe by the Studio editor's preview pane.
-  const inStudioPreview = window.self !== window.top
 
   const bar = document.createElement('div')
   bar.setAttribute('data-studio-banner', '')
@@ -41,17 +42,45 @@ export default defineNuxtPlugin(() => {
   const link = document.createElement('a')
   link.style.cssText = 'color:#7dd3fc;text-decoration:underline;cursor:pointer'
 
-  if (inStudioPreview) {
-    label.textContent = 'Aperçu Studio —'
-    link.textContent = 'Réinitialiser (annuler les modifications en attente)'
-    link.addEventListener('click', (e) => {
-      e.preventDefault()
-      void resetStudio()
-    })
-  } else {
+  // Studio not yet active: offer a jump into the full editor route.
+  function renderOpenMode() {
     label.textContent = 'Mode édition —'
     link.textContent = 'Ouvrir le Studio'
+    link.onclick = null
     link.href = STUDIO_ROUTE
+  }
+
+  // Studio active/overlaid: "open" is pointless — offer the reset instead.
+  function renderResetMode() {
+    label.textContent = 'Studio actif —'
+    link.textContent = 'Réinitialiser (annuler les modifications en attente)'
+    link.removeAttribute('href')
+    link.onclick = (e) => {
+      e.preventDefault()
+      void resetStudio()
+    }
+  }
+
+  const studioActive = () =>
+    !!document.querySelector('nuxt-studio')
+    || typeof (window as unknown as { useStudioHost?: unknown }).useStudioHost === 'function'
+
+  if (studioActive()) {
+    renderResetMode()
+  }
+  else {
+    renderOpenMode()
+    // Activation is async (session fetch + dynamic import of the editor); flip to reset
+    // mode the moment <nuxt-studio> is appended to the body.
+    const obs = new MutationObserver(() => {
+      if (studioActive()) {
+        renderResetMode()
+        obs.disconnect()
+      }
+    })
+    obs.observe(document.body, { childList: true })
+    // Stop watching after 10s so we never leave a dangling observer running.
+    setTimeout(() => obs.disconnect(), 10_000)
   }
 
   bar.append(label, link)
@@ -86,7 +115,6 @@ async function resetStudio() {
   try { localStorage.clear() } catch { /* ignore */ }
   try { sessionStorage.clear() } catch { /* ignore */ }
 
-  // Reload the whole Studio app (top window), not just the preview iframe.
-  try { (window.top ?? window).location.reload() }
-  catch { window.location.reload() }
+  // Reload the whole page so Studio re-initialises against the freshly published state.
+  window.location.reload()
 }
