@@ -73,13 +73,15 @@ peut la regarder, s'en inspirer, ou donner un coup de main pour l'améliorer.
 La recette complète est publique : [github.com/debloisg/ptank](https://github.com/debloisg/ptank).
 ::
 
-## L'ancien site conservé
+## Voyager dans le temps
+
+### L'ancien site conservé
 
 Rien ne sera perdu. L'ancien site sera **archivé** afin que son contenu — toutes
 ces années de nouvelles, de résultats et de souvenirs — reste préservé pour
 toujours.
 
-## Voyager dans le temps
+### Wayback machine
 
 Pour les curieux, il existe même une sorte de machine à remonter le temps du web :
 la *Wayback Machine*. Imaginez un très grand album photo qui, de temps en temps,
@@ -91,25 +93,15 @@ années, et voir comment il a grandi petit à petit.
 Feuilletez l'album : [snapshots de notre site sur la Wayback Machine](https://web.archive.org/web/*/petanque-fouesnantaise.fr).
 ::
 
-## Pour les curieux : sous le capot
+## Pour les curieux
 
-::accordion
-  :::accordion-item{icon="i-lucide-cog" label="Comment le site est fabriqué"}
-  Le site est construit avec des outils modernes du web (Nuxt et Nuxt Content).
-  Ses pages sont *statiques* : préparées une fois pour toutes à l'avance, plutôt
-  que recalculées à chaque visite. On parle aussi de *serverless* — il n'y a pas
-  de serveur qui tourne en permanence en attendant les visiteurs.
+### sous le capot
 
-  Ces pages sont ensuite copiées sur le réseau mondial de Cloudflare et servies
-  depuis le point le plus proche de chaque visiteur. Les images sont
-  redimensionnées automatiquement pour rester légères. Résultat : un affichage
-  quasi instantané, une facture d'hébergement minime et très peu d'énergie
-  consommée. Et comme le contenu est séparé de la mise en forme, le club peut
-  publier une nouvelle sans toucher à une seule ligne de code.
-  :::
-::
+Le site repose sur des technologies web modernes (**Nuxt** et **Nuxt Content**). Ses pages sont générées à l'avance sous forme statique, évitant d'être recalculées à chaque visite. Le projet adopte ainsi une architecture *serverless* : aucun serveur ne tourne en continu dans l'attente des visiteurs.
 
-## Écrit à quatre mains, avec l'intelligence artificielle
+Ces pages sont hébergées sur le réseau mondial de **Cloudflare**, au plus près de chaque utilisateur, tandis que les images sont automatiquement optimisées pour rester légères. Résultat : un affichage quasi instantané, une consommation d'énergie minimale et des coûts réduits au strict minimum. Enfin, grâce à la séparation nette entre contenu et mise en forme, le club peut publier de nouvelles actualités sans toucher à une seule ligne de code.
+
+### Écrit à quatre mains, avec l'intelligence artificielle
 
 Ce site a été conçu main dans la main avec une
 intelligence artificielle, *Claude*. Un
