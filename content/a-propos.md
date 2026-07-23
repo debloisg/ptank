@@ -17,7 +17,7 @@ n'a jamais cessé de jouer depuis sa création en 1982.
 
 ![Partie de pétanque en famille, ambiance conviviale](/images/a-propos-famille.jpg){format="auto" loading="lazy" placeholder="" sizes="sm:100vw md:720px"}
 
-*Illustration — [Alex59123](https://commons.wikimedia.org/wiki/File\:Partie_de_petanque.jpg), Wikimedia Commons, CC BY-SA 4.0.*
+*Illustration —* [Alex59123](https://commons.wikimedia.org/wiki/File\:Partie_de_petanque.jpg)*, Wikimedia Commons, CC BY-SA 4.0.*
 
 ## Un club d'envergure
 
@@ -85,7 +85,7 @@ adversaires.
 
 ![Joueur au tir, boules pétanque](/images/a-propos-partie.jpg){format="auto" loading="lazy" placeholder="" sizes="sm:100vw md:720px"}
 
-*Illustration — [Peter Gugerell](https://commons.wikimedia.org/wiki/File\:Boule_GUG.jpg), Wikimedia Commons, CC BY-SA 3.0.*
+*Illustration —* [Peter Gugerell](https://commons.wikimedia.org/wiki/File\:Boule_GUG.jpg)*, Wikimedia Commons, CC BY-SA 3.0.*
 
 ## Compétitions et événements annuels
 
