@@ -39,7 +39,16 @@ const items = computed(() => {
       :aria-label="item.name"
       class="flex h-24 items-center justify-center rounded-xl border border-default bg-elevated p-4 grayscale transition duration-200 hover:grayscale-0 hover:border-accented hover:shadow-sm"
     >
-      <img :src="item.logo" :alt="item.name" class="max-h-14 w-auto object-contain">
+      <NuxtImg
+        :src="item.logo"
+        :alt="item.name"
+        format="auto"
+        width="200"
+        height="80"
+        loading="lazy"
+        placeholder
+        class="max-h-14 w-auto object-contain"
+      />
     </a>
   </UCarousel>
 </template>

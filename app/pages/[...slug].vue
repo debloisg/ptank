@@ -72,12 +72,16 @@ useSeoMeta({
         </template>
       </UPageHeader>
 
-      <img
+      <NuxtImg
         v-if="page?.image"
         :src="page.image"
         :alt="page?.title"
+        format="auto"
+        sizes="sm:100vw md:768px"
+        loading="lazy"
+        placeholder
         class="w-full rounded-2xl border border-default"
-      >
+      />
 
       <ContentRenderer v-if="page" :value="page" class="content-prose mt-8" />
     </article>

@@ -122,6 +122,8 @@ flowchart LR
 | Nuxt Studio        | In-browser CMS for non-coders      | Free for public repos / small teams           |
 | Cloudflare Workers | Build + host at the edge           | 100k requests/day, static assets free         |
 | Cloudflare D1      | SQLite the content index lives in  | Generous free tier (millions of reads/month)  |
+| Cloudflare R2      | Stores + serves the images         | 10 GB storage, 1M reads/mo free               |
+| CF Image Transforms | Resizes/reformats images at the edge | 5,000 unique transforms/mo free            |
 
 The reason it stays comfortably inside those limits: **the site is prerendered.**
 Every visitor page is built to static HTML at deploy time and served from the
@@ -141,6 +143,61 @@ Studio — which is rare and low-volume.
   future-proof.
 - **Fast everywhere.** Static HTML from Cloudflare's global edge means fast loads
   without any caching layer to configure.
+
+## Images (hosted on R2)
+
+Images are **not** shipped in the deploy bundle. The originals live in
+`/image-sources` purely as an upload source; the deployed site serves every
+image from a Cloudflare **R2** bucket, resized on the fly by Cloudflare **Image
+Transformations** (both free-tier). `@nuxt/image` (`<NuxtImg>`) drives it:
+
+- The **hero** is eager + preloaded (it's the LCP image).
+- **Everything else** is lazy-loaded with a blurred low-res placeholder.
+- Each image ships a responsive `srcset` (WebP/AVIF via `f=auto`).
+
+Content and components reference images as `/images/<name>`; `nuxt.config.ts`
+rewrites that to the R2 bucket and wraps it in `/cdn-cgi/image/<opts>/…`.
+
+**One bucket, two prefixes.** The `ptank-images` bucket holds:
+- `images/**` — the curated originals, pushed from `/image-sources` with the
+  upload script.
+- `studio/**` — media that editors upload through Nuxt Studio, written straight
+  to R2 (never committed to Git) via **NuxtHub blob** (`@nuxthub/core`, `hub.blob`,
+  bound as `BLOB` in `wrangler.jsonc`). `@nuxthub/core` runs in self-hosted mode —
+  just the R2 binding, no NuxtHub account. (NuxtHub's hosted admin dashboard was
+  sunset 2025-12-31; browse the bucket in the Cloudflare dashboard or via
+  `wrangler r2 object …` instead.)
+
+### One-time setup (Cloudflare dashboard + CLI)
+
+1. **Create the bucket:** `pnpm dlx wrangler r2 bucket create ptank-images`
+2. **Upload the curated originals:** `BUCKET=ptank-images ./scripts/upload-images-to-r2.sh`
+   (needs `pnpm dlx wrangler login` first).
+3. **Make the bucket public** via a custom domain (R2 → Settings → Public
+   access → Connect domain, e.g. `img.<your-domain>`). A subdomain of the site's
+   own zone is ideal.
+4. **Enable Image Transformations** on the zone (dashboard → Images →
+   Transformations → *Enable for zone*).
+5. **Set the env vars** (Worker Settings → Variables, and local `.env` — see
+   `.env.example`):
+   - `NUXT_IMAGE_R2_BASE=https://img.<your-domain>` — how `/images/**` is served.
+   - `S3_PUBLIC_URL=https://img.<your-domain>` — how Studio's `studio/**` uploads
+     are served (normally the same value).
+
+Until `NUXT_IMAGE_R2_BASE` is set the images won't resolve, so do the upload
+(step 2) before flipping the env var live. The `BLOB` R2 binding is already in
+`wrangler.jsonc`, so deploys carry it automatically.
+
+## SEO & accessibility
+
+- **`@nuxtjs/seo`** generates `sitemap.xml`, `robots.txt`, canonical + Open
+  Graph tags and schema.org JSON-LD. Set `NUXT_PUBLIC_SITE_URL` to the real
+  domain. (Dynamic OG-image rendering is disabled — its satori/wasm runtime
+  would push the Worker past the free-tier size limit; static `og:image` still
+  works.)
+- **`nuxt-a11y`** + a dev-only plugin (`app/plugins/a11y.client.ts`) run
+  axe-core on every route during `nuxt dev` and log WCAG violations to the
+  browser console. Zero production overhead.
 
 ## ⚠️ The one gotcha: Studio needs serverless functions
 

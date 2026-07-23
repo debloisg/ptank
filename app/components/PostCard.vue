@@ -16,10 +16,26 @@ const formattedDate = computed(() =>
     ? new Date(props.date).toLocaleDateString('fr-FR', { day: 'numeric', month: 'long', year: 'numeric' })
     : '',
 )
+
+// UBlogPost renders its image via NuxtImg (since @nuxt/image is installed).
+// Passing an object instead of a string forwards these props to NuxtImg, so
+// card images load lazily with a blurred placeholder. Undefined when no image.
+const imageProps = computed(() =>
+  props.image
+    ? {
+        src: props.image,
+        alt: props.title,
+        format: 'auto',
+        sizes: 'sm:100vw md:768px lg:600px',
+        loading: 'lazy',
+        placeholder: true,
+      }
+    : undefined,
+)
 </script>
 
 <template>
-  <UBlogPost :to="to" :title="title" :image="image">
+  <UBlogPost :to="to" :title="title" :image="imageProps">
     <template #badge>
       <span class="inline-flex flex-wrap items-center gap-x-2 gap-y-1 text-xs font-semibold uppercase tracking-[0.14em]">
         <span v-if="category" class="text-secondary">{{ category }}</span>

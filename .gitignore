@@ -3,6 +3,8 @@
 .data
 .nuxt
 .nitro
+# Generated Cloudflare deploy config (redirects wrangler to .output/server/wrangler.json)
+.wrangler
 .cache
 dist
 
