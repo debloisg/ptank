@@ -58,8 +58,8 @@ useSeoMeta({
       class="mb-6 -ml-2"
     />
 
-    <article>
-      <UPageHeader :headline="page?.category" :title="page?.title" class="mb-8">
+    <article class="rounded-2xl border border-default bg-elevated shadow-sm p-6 sm:p-10">
+      <UPageHeader :headline="page?.category" :title="page?.title" class="mb-8 pb-6 border-b border-default">
         <template v-if="formattedDate || page?.location" #description>
           <div class="flex flex-wrap items-center gap-x-4 gap-y-1 text-sm text-muted">
             <span v-if="formattedDate" class="inline-flex items-center gap-1.5">

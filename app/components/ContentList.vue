@@ -56,6 +56,7 @@ const { data: items } = await useAsyncData(`list-${props.prefix}`, () =>
           :date="item.date"
           :category="item.category"
           :image="item.image"
+          :orientation="(orientation ?? 'horizontal') === 'vertical' ? 'horizontal' : 'vertical'"
         />
       </UBlogPosts>
     </template>

@@ -112,8 +112,7 @@ adversaires.
 
 ## Le bureau
 
-Le club est animé par une équipe de bénévoles élue chaque année en assemblée
-générale.
+Le club est animé par une équipe de bénévoles élue chaque année en assemblée générale. 
 
 ::card-group
   :::card{title="Prénom Nom"}

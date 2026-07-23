@@ -180,6 +180,7 @@ useSeoMeta({
             :date="n.date"
             :category="n.category"
             :image="n.image"
+            orientation="horizontal"
           />
         </UBlogPosts>
         <p v-else class="text-muted">Pas encore d'actualité publiée.</p>

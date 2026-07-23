@@ -9,7 +9,17 @@ const props = defineProps<{
   date?: string
   category?: string
   image?: string
+  // 'horizontal' = image beside the text (compact rows); 'vertical' = image on
+  // top (grid). Mirrors <UBlogPost>'s own orientation prop.
+  orientation?: 'horizontal' | 'vertical'
 }>()
+
+// Horizontal (image-beside-text) only makes sense with an image; without one
+// UBlogPost's horizontal layout collapses the image column and mangles the body
+// padding, so fall back to vertical for imageless posts.
+const effectiveOrientation = computed(() =>
+  props.image ? (props.orientation ?? 'vertical') : 'vertical',
+)
 
 const formattedDate = computed(() =>
   props.date
@@ -35,7 +45,7 @@ const imageProps = computed(() =>
 </script>
 
 <template>
-  <UBlogPost :to="to" :title="title" :image="imageProps">
+  <UBlogPost :to="to" :title="title" :image="imageProps" :orientation="effectiveOrientation">
     <template #badge>
       <span class="inline-flex flex-wrap items-center gap-x-2 gap-y-1 text-xs font-semibold uppercase tracking-[0.14em]">
         <span v-if="category" class="text-secondary">{{ category }}</span>
