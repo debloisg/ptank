@@ -6,7 +6,11 @@
 const isDev = process.env.NODE_ENV !== 'production'
 // Public domain of the R2 bucket that holds /images/** (e.g.
 // https://img.petanque-fouesnantaise.fr, or a pub-xxx.r2.dev dev URL).
-const r2Base = process.env.NUXT_IMAGE_R2_BASE
+// Falls back to the bucket's r2.dev domain so the Cloudflare Workers build (and
+// dev) render images without a build-time env var — the deploy has no image
+// originals bundled, so an empty base = broken images. Override with
+// NUXT_IMAGE_R2_BASE (a custom img.<site> domain) to unlock transforms.
+const r2Base = process.env.NUXT_IMAGE_R2_BASE || 'https://pub-6d40831c9da84a2a900724d5a4e2c0dd.r2.dev'
 // Cloudflare Image Transformations only resize sources on the SAME zone as the
 // site (subdomains OK). The shared r2.dev domain is off-zone, so it can't be
 // transformed — serve originals as-is from it. Point NUXT_IMAGE_R2_BASE at a
@@ -116,7 +120,8 @@ export default defineNuxtConfig({
     // is how the uploaded files are then served/referenced.
     media: {
       external: true,
-      publicUrl: process.env.S3_PUBLIC_URL,
+      // Same bucket as images — defaults to r2Base (one bucket, studio/ prefix).
+      publicUrl: process.env.S3_PUBLIC_URL || r2Base,
     },
   },
 
@@ -125,6 +130,12 @@ export default defineNuxtConfig({
   // wrangler.jsonc). Only blob is enabled — content's D1 (`DB`) is untouched.
   hub: {
     blob: true,
+    // Connect dev (`nuxt dev`) to the deployed production R2 so Studio media
+    // listing/preview works locally — plain dev has no BLOB binding. Only
+    // affects dev/preview; the deployed worker always uses its real bindings.
+    // Requires NUXT_HUB_PROJECT_URL + NUXT_HUB_PROJECT_SECRET_KEY (see .env),
+    // and the same secret set on the deployed worker.
+    remote: 'production',
   },
 
   app: {
