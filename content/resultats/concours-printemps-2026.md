@@ -11,11 +11,11 @@ un temps idéal. Merci à toutes et à tous pour cette ambiance !
 
 ## Classement
 
-| Position | Équipe                         |
-| -------- | ------------------------------ |
-| 🥇 1ᵉ    | Le Gall / Tanguy               |
-| 🥈 2ᵉ    | Riou / Le Corre                |
-| 🥉 3ᵉ    | Guével / Salaün                |
-| 4ᵉ       | Kerné / Perrot                 |
+| Position | Équipe           |
+| -------- | ---------------- |
+| 🥇 1ᵉ    | Le Gall / Tanguy |
+| 🥈 2ᵉ    | Riou / Le Corre  |
+| 🥉 3ᵉ    | Guével / Salaün  |
+| 4ᵉ       | Kerné / Perrot   |
 
 Rendez-vous l'an prochain, et bravo aux vainqueurs !

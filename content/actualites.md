@@ -4,3 +4,4 @@ title: Actualités
 description: Les dernières nouvelles de La Pétanque Fouesnantaise.
 orientation: vertical
 ---
+

@@ -93,3 +93,4 @@ stats:
     label: compétiteurs / an
 tagline: Le pointer, le tirer, le grand air breton.
 ---
+

@@ -34,6 +34,6 @@ compétitions officielles.
 
 ## Nous contacter
 
-- **E-mail** : [contact@petanque-fouesnantaise.fr](mailto:contact@petanque-fouesnantaise.fr)
+- **E-mail** : <contact@petanque-fouesnantaise.fr>
 - **Téléphone** : 02 98 00 00 00
 - **Créneaux** : lundi, mercredi & samedi, de 14h à 19h
