@@ -53,7 +53,7 @@ export default defineNuxtPlugin(() => {
   // Studio active/overlaid: "open" is pointless — offer the reset instead.
   function renderResetMode() {
     label.textContent = 'Studio actif —'
-    link.textContent = 'Réinitialiser (annuler les modifications en attente)'
+    link.textContent = 'Réinitialiser'
     link.removeAttribute('href')
     link.onclick = (e) => {
       e.preventDefault()
@@ -87,10 +87,15 @@ export default defineNuxtPlugin(() => {
   document.body.prepend(bar)
 })
 
-// Wipe Studio's client-side state so the editor re-pulls the latest published content
-// and GitHub base from scratch. Drafts live in IndexedDB (draftItem/DraftBase stores)
-// alongside the local @nuxt/content preview DB; the session lives in cookies, which we
-// deliberately leave untouched so the editor stays logged in after the reload.
+// Delete Studio's unpublished drafts so the editor re-pulls the latest published
+// version. nuxt-studio has no official discard API — drafts only clear on publish or
+// after ~7 idle days — so we remove them by hand, but SURGICALLY: unpublished edits
+// live in two IndexedDB databases, `studio-document` (content) and `studio-media`
+// (uploads), created by unstorage/localforage (main-*.js: KM=e=>({dbName:`studio-${e}`,
+// storeName:"drafts"})). We delete ONLY those. We deliberately do NOT clear localStorage
+// — `studio-active`, `studio-preferences`, `studio-sidebar-width` there hold the editor's
+// own UI state, and wiping them breaks the Studio launcher/panel. Session cookies are
+// untouched too, so the editor stays logged in.
 async function resetStudio() {
   const ok = window.confirm(
     'Supprimer toutes les modifications non publiées et resynchroniser avec la '
@@ -98,23 +103,25 @@ async function resetStudio() {
   )
   if (!ok) return
 
+  // Known draft DBs, plus any other `studio-*` DB in case the naming changes across
+  // versions. Never matches the localStorage UI-state keys (those aren't IndexedDB).
+  const draftDbs = new Set(['studio-document', 'studio-media'])
   try {
-    // indexedDB.databases() is unsupported in Firefox; there we fall back to a plain
-    // reload, which still re-fetches base content once the stale draft is bypassed.
     if (typeof indexedDB !== 'undefined' && 'databases' in indexedDB) {
       const dbs = await indexedDB.databases()
-      await Promise.all(
-        dbs.map(d => d.name && new Promise<void>((resolve) => {
-          const req = indexedDB.deleteDatabase(d.name!)
-          req.onsuccess = req.onerror = req.onblocked = () => resolve()
-        })),
-      )
+      for (const d of dbs) {
+        if (d.name && d.name.startsWith('studio-')) draftDbs.add(d.name)
+      }
     }
-  } catch { /* best-effort */ }
+  } catch { /* enumeration unsupported (Firefox); fall back to the known names */ }
 
-  try { localStorage.clear() } catch { /* ignore */ }
-  try { sessionStorage.clear() } catch { /* ignore */ }
+  await Promise.all(
+    [...draftDbs].map(name => new Promise<void>((resolve) => {
+      const req = indexedDB.deleteDatabase(name)
+      req.onsuccess = req.onerror = req.onblocked = () => resolve()
+    })),
+  )
 
-  // Reload the whole page so Studio re-initialises against the freshly published state.
+  // Reload so Studio re-initialises against the freshly published state.
   window.location.reload()
 }
