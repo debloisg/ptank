@@ -186,7 +186,7 @@ export default defineNuxtConfig({
             'Club de pétanque à Fouesnant (29) — actualités, événements, compétitions, résultats et adhésion.',
         },
       ],
-      link: [{ rel: 'icon', href: '/favicon.ico' }],
+      link: [{ rel: 'icon', type: 'image/svg+xml', href: '/favicon.svg' }],
     },
   },
 })
