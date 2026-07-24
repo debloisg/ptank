@@ -3,7 +3,7 @@ title: Contact & Adhésion
 description: Comment rejoindre La Pétanque Fouesnantaise et nous contacter.
 ---
 
-## Adhérer au club
+## Nous contacter
 
 Rejoindre La Pétanque Fouesnantaise, c'est participer aux entraînements, aux
 concours internes et représenter le club en compétition. L'adhésion est ouverte
