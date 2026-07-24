@@ -11,7 +11,7 @@ toute l'année.
 
 ### Tarifs de la saison
 
-- **Adulte** : 50 € / an
+- **Adulte** :50 € / an
 - **Jeune (- 18 ans)** : 20 € / an
 - **Découverte** : première séance gratuite
 
@@ -31,9 +31,3 @@ compétitions officielles.
 - **Siège social** : Mairie de Fouesnant, Place du Général de Gaulle, 29170
   Fouesnant.
 - **Site internet** : [petanque-fouesnantaise.fr](https://petanque-fouesnantaise.fr)
-
-## Nous contacter
-
-- **E-mail** : <contact@petanque-fouesnantaise.fr>
-- **Téléphone** : 02 98 00 00 00
-- **Créneaux** : lundi, mercredi & samedi, de 14h à 19h
