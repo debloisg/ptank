@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <circle cx="32" cy="32" r="30" fill="#13303c" />
+  <text
+    x="32"
+    y="32"
+    fill="#ffffff"
+    text-anchor="middle"
+    dominant-baseline="central"
+    font-family="Fraunces, Georgia, serif"
+    font-size="24"
+    font-weight="600"
+    letter-spacing="-0.5"
+  >
+    PF
+  </text>
+</svg>
