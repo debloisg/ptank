@@ -11,8 +11,7 @@ Provençal), elle fait vivre la pétanque à Fouesnant tout au long de l'année,
 du loisir du dimanche à la compétition départementale.
 
 ::callout{color="secondary" icon="i-lucide-flag"}
-Plus de 40 ans d'existence, et toujours la même mêlée du lundi : le club
-n'a jamais cessé de jouer depuis sa création en 1982.
+Plus de 40 ans d'existence, et toujours la même mêlée du mercredi : le club n'a jamais cessé de jouer depuis sa création en 1982.
 ::
 
 ![Partie de pétanque en famille, ambiance conviviale](/images/a-propos-famille.jpg){format="auto" loading="lazy" placeholder="" sizes="sm:100vw md:720px"}
