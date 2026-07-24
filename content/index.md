@@ -88,7 +88,7 @@ seo:
 stats:
   - value: "175"
     label: licenciés
-  - value: "+90"
+  - value: 90+
     label: terrains
   - value: "4"
     label: concours FFPJP / an
