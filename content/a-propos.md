@@ -11,7 +11,8 @@ Provençal), elle fait vivre la pétanque à Fouesnant tout au long de l'année,
 du loisir du dimanche à la compétition départementale.
 
 ::callout{color="secondary" icon="i-lucide-flag"}
-Plus de 40 ans d'existence, et toujours la même mêlée du mercredi : le club n'a jamais cessé de jouer depuis sa création en 1982.
+Plus de 40 ans d'existence, et toujours la même mêlée du lundi : le club
+n'a jamais cessé de jouer depuis sa création en 1982.
 ::
 
 ![Partie de pétanque en famille, ambiance conviviale](/images/a-propos-famille.jpg){format="auto" loading="lazy" placeholder="" sizes="sm:100vw md:720px"}
@@ -22,9 +23,9 @@ Plus de 40 ans d'existence, et toujours la même mêlée du mercredi : le club n
 
 | Chiffre | Ce qu'il représente                                                  |
 | ------- | -------------------------------------------------------------------- |
-| 161     | licenciés en 2024, l'un des clubs les plus importants du Finistère   |
+| 175     | licenciés en 2026, l'un des clubs les plus importants du Finistère   |
 | 3 000+  | compétiteurs accueillis chaque année lors des concours et événements |
-| 100     | joueurs environ chaque semaine aux entraînements                     |
+| 60      | joueurs environ chaque semaine aux entraînements                     |
 | 4       | concours officiels FFPJP organisés par an                            |
 
 > Ici, la pétanque se joue autant pour le classement que pour le plaisir de
@@ -68,8 +69,7 @@ déroule un après-midi type :
 ::steps
 ### Tirage au sort à la mêlée
 
-À 14h15, un tirage au sort forme des équipes en doublette parmi les joueurs
-présents.
+À 14h15, un tirage au sort forme des équipes en doublette ou en triplette parmi les joueurs--- Unknown node: hardBreak ---présents.
 
 ### Partie amicale
 
@@ -114,20 +114,34 @@ adversaires.
 Le club est animé par une équipe de bénévoles élue chaque année en assemblée générale. 
 
 ::card-group
-  :::card{title="Prénom Nom"}
-  Président
+  :::card
+  ---
+  title: Prénom Nom
+  ---
+  Pierre de Blois
+
+  #default
+  Vice-Président (par interim)
   :::
 
-  :::card{title="Prénom Nom"}
-  Vice-Président·e
+  :::card
+  ---
+  title: Prénom Nom
+  ---
+  Pierre de Blois
+
+  #default
+  Trésorier
   :::
 
-  :::card{title="Prénom Nom"}
-  Trésorier·ère
-  :::
+  :::card
+  ---
+  title: Prénom Nom
+  ---
+  Corinne Le Poullen
 
-  :::card{title="Prénom Nom"}
-  Secrétaire
+  #default
+  Secrétaire (par interim)
   :::
 ::
 
