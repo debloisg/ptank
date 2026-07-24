@@ -14,8 +14,7 @@ voici le nouveau site de **La Pétanque Fouesnantaise**.
 
 ## Merci Roger
 
-Merci à Roger Croguennec, qui a maintenu bénévolement le site du club pendant
-dix-huit ans.
+Merci à Roger Croguennec, qui a maintenu bénévolement le site du club pendant--- Unknown node: hardBreak ---dix-huit aans.ce qui veut dire des centaines de mises a jour, mises en forme de textes, chargement de photos ... 
 
 ## Un site pensé pour durer
 
