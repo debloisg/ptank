@@ -62,6 +62,26 @@ const ctaLinks = [
   },
 ]
 
+const developmentModalDismissedKey = 'home-development-modal-dismissed'
+const showDevelopmentModal = ref(false)
+
+const developmentModalOpen = computed({
+  get: () => showDevelopmentModal.value,
+  set: (open: boolean) => {
+    if (!open && import.meta.client)
+      localStorage.setItem(developmentModalDismissedKey, '1')
+
+    showDevelopmentModal.value = open
+  },
+})
+
+onMounted(() => {
+  if (!import.meta.client)
+    return
+
+  showDevelopmentModal.value = localStorage.getItem(developmentModalDismissedKey) !== '1'
+})
+
 useSeoMeta({
   title: () => home.value?.title ?? 'La Pétanque Fouesnantaise · Club de pétanque à Fouesnant',
   description: () =>
@@ -72,6 +92,33 @@ useSeoMeta({
 
 <template>
   <div>
+    <UModal
+      v-model:open="developmentModalOpen"
+      :content="{ class: 'max-w-xl' }"
+      title="Site en cours de développement"
+    >
+      <template #body>
+        <div role="alert" aria-live="polite">
+          <div class="mb-4 flex justify-center">
+            <UIcon name="i-lucide-construction" class="h-20 w-20 text-secondary" />
+          </div>
+          <p class="mt-3 text-toned">
+            Ce site est actuellement en cours de développement. Si vous avez un retour, vous pouvez
+            l’envoyer à
+            <a href="mailto:contact@petanque-fouesnantaise.fr" class="font-medium text-primary hover:underline">
+              contact@petanque-fouesnantaise.fr
+            </a>
+            ou directement à Pierre de Blois sur les terrains du club.
+          </p>
+        </div>
+      </template>
+      <template #footer>
+        <div class="mt-6 flex justify-end">
+          <UButton label="J’ai compris" color="secondary" autofocus @click="developmentModalOpen = false" />
+        </div>
+      </template>
+    </UModal>
+
     <!-- HERO + STATS share this wrapper so the photo hero's overlapping stats
          card never exposes the page canvas colour in its side gutters. -->
     <div class="bg-default">
