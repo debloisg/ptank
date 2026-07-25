@@ -62,7 +62,28 @@ const ctaLinks = [
   },
 ]
 
-const showDevelopmentModal = ref(true)
+const developmentModalDismissedKey = 'home-development-modal-dismissed'
+const showDevelopmentModal = ref(false)
+
+const closeDevelopmentModal = () => {
+  showDevelopmentModal.value = false
+  if (import.meta.client)
+    localStorage.setItem(developmentModalDismissedKey, '1')
+}
+
+const onEscapePress = (event: KeyboardEvent) => {
+  if (event.key === 'Escape' && showDevelopmentModal.value)
+    closeDevelopmentModal()
+}
+
+onMounted(() => {
+  showDevelopmentModal.value = localStorage.getItem(developmentModalDismissedKey) !== '1'
+  window.addEventListener('keydown', onEscapePress)
+})
+
+onBeforeUnmount(() => {
+  window.removeEventListener('keydown', onEscapePress)
+})
 
 useSeoMeta({
   title: () => home.value?.title ?? 'La Pétanque Fouesnantaise · Club de pétanque à Fouesnant',
@@ -91,10 +112,10 @@ useSeoMeta({
           <a href="mailto:contact@petanque-fouesnantaise.fr" class="font-medium text-primary hover:underline">
             contact@petanque-fouesnantaise.fr
           </a>
-          ou directement à Pierre de Blois.
+          ou directement à Pierre de Blois sur les terrains du club.
         </p>
         <div class="mt-6 flex justify-end">
-          <UButton label="J’ai compris" color="secondary" @click="showDevelopmentModal = false" />
+          <UButton label="J’ai compris" color="secondary" @click="closeDevelopmentModal" />
         </div>
       </div>
     </div>
