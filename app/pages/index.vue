@@ -64,6 +64,7 @@ const ctaLinks = [
 
 const developmentModalDismissedKey = 'home-development-modal-dismissed'
 const showDevelopmentModal = ref(false)
+const developmentModalRef = ref<HTMLElement | null>(null)
 
 const closeDevelopmentModal = () => {
   showDevelopmentModal.value = false
@@ -71,24 +72,19 @@ const closeDevelopmentModal = () => {
     localStorage.setItem(developmentModalDismissedKey, '1')
 }
 
-const onEscapePress = (event: KeyboardEvent) => {
-  if (event.key === 'Escape' && showDevelopmentModal.value)
-    closeDevelopmentModal()
-}
-
 onMounted(() => {
   if (!import.meta.client)
     return
 
   showDevelopmentModal.value = localStorage.getItem(developmentModalDismissedKey) !== '1'
-  window.addEventListener('keydown', onEscapePress)
 })
 
-onBeforeUnmount(() => {
-  if (!import.meta.client)
+watch(showDevelopmentModal, async (isOpen) => {
+  if (!isOpen)
     return
 
-  window.removeEventListener('keydown', onEscapePress)
+  await nextTick()
+  developmentModalRef.value?.focus()
 })
 
 useSeoMeta({
@@ -104,12 +100,18 @@ useSeoMeta({
     <div
       v-if="showDevelopmentModal"
       class="fixed inset-0 z-50 flex items-center justify-center bg-black/60 px-4"
-      role="dialog"
-      aria-modal="true"
-      aria-labelledby="dev-modal-title"
       @click="closeDevelopmentModal"
     >
-      <div class="w-full max-w-xl rounded-2xl border border-default bg-default p-6 shadow-2xl" @click.stop>
+      <div
+        ref="developmentModalRef"
+        class="w-full max-w-xl rounded-2xl border border-default bg-default p-6 shadow-2xl"
+        role="dialog"
+        aria-modal="true"
+        aria-labelledby="dev-modal-title"
+        tabindex="-1"
+        @click.stop
+        @keydown.esc="closeDevelopmentModal"
+      >
         <h2 id="dev-modal-title" class="font-serif text-2xl font-semibold text-highlighted">
           Site en cours de développement
         </h2>
