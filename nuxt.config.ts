@@ -4,17 +4,16 @@
 // Cloudflare Image Transformations, pulling the originals from R2. See the
 // `image` block below and the "Images" section of the README.
 const isDev = process.env.NODE_ENV !== 'production'
-// Public domain of the R2 bucket that holds /images/** (e.g.
-// https://img.petanque-fouesnantaise.fr, or a pub-xxx.r2.dev dev URL).
-// Falls back to the bucket's r2.dev domain so the Cloudflare Workers build (and
-// dev) render images without a build-time env var — the deploy has no image
-// originals bundled, so an empty base = broken images. Override with
-// NUXT_IMAGE_R2_BASE (a custom img.<site> domain) to unlock transforms.
-const r2Base = process.env.NUXT_IMAGE_R2_BASE || 'https://pub-6d40831c9da84a2a900724d5a4e2c0dd.r2.dev'
+// Public domain of the R2 bucket that holds /images/** — the bucket's custom
+// domain on the site's own zone. Defaults to it so the Cloudflare Workers build
+// (and dev) render images without a build-time env var; the deploy bundles no
+// image originals, so an empty base = broken images. Override with
+// NUXT_IMAGE_R2_BASE (e.g. a pub-xxx.r2.dev URL) if the bucket moves off-zone.
+const r2Base = process.env.NUXT_IMAGE_R2_BASE || 'https://image.petanque-fouesnantaise.fr'
 // Cloudflare Image Transformations only resize sources on the SAME zone as the
-// site (subdomains OK). The shared r2.dev domain is off-zone, so it can't be
-// transformed — serve originals as-is from it. Point NUXT_IMAGE_R2_BASE at a
-// custom domain on your zone (e.g. img.<site>) to unlock resizing/WebP/AVIF.
+// site (subdomains OK). A shared r2.dev domain is off-zone, so it can't be
+// transformed — originals are then served as-is. image.petanque-fouesnantaise.fr
+// is on-zone, so resizing/WebP/AVIF is available.
 const canTransform = !!r2Base && !/\.r2\.dev(?:\/|$)/.test(r2Base)
 
 export default defineNuxtConfig({
@@ -46,7 +45,7 @@ export default defineNuxtConfig({
     // worker origin directly (it bypasses @nuxt/image's R2 alias), so image
     // previews 404. Redirect worker-origin /images/** to the R2 bucket so the
     // editor resolves them. Invisible to the public site — its <NuxtImg> already
-    // emits full r2.dev URLs and never hits this path.
+    // emits full R2-domain URLs and never hits this path.
     routeRules: {
       '/images/**': { redirect: { to: `${r2Base}/images/**`, statusCode: 302 } },
     },
@@ -101,8 +100,8 @@ export default defineNuxtConfig({
   // `alias` rewrites the /images/** paths used in content + components to the
   // R2 bucket. When the bucket is on your zone (custom domain), the `cloudflare`
   // provider wraps them in /cdn-cgi/image/<opts>/… so the edge (free tier
-  // includes Transformations) returns a resized WebP/AVIF. On an r2.dev URL —
-  // or in dev — it falls back to `none`, serving the originals untouched.
+  // includes Transformations) returns a resized WebP/AVIF. On an off-zone
+  // r2.dev URL — or in dev — it falls back to `none`, serving originals untouched.
   // NuxtImg adds lazy loading + srcset either way; the blur placeholder needs
   // the resizing provider, so it only appears once you're on a custom domain.
   image: {
@@ -116,9 +115,10 @@ export default defineNuxtConfig({
 
   // ── SEO (@nuxtjs/seo) ───────────────────────────────────────────────────
   // Drives sitemap.xml, robots.txt, schema.org JSON-LD and canonical/OG tags.
-  // Set NUXT_PUBLIC_SITE_URL to the real production URL (placeholder below).
+  // Defaults to the live apex domain; NUXT_PUBLIC_SITE_URL can override it
+  // (e.g. a preview deployment).
   site: {
-    url: process.env.NUXT_PUBLIC_SITE_URL || 'https://www.petanque-fouesnantaise.fr',
+    url: process.env.NUXT_PUBLIC_SITE_URL || 'https://petanque-fouesnantaise.fr',
     name: 'La Pétanque Fouesnantaise',
     description:
       'Club de pétanque à Fouesnant (29) — actualités, événements, compétitions, résultats et adhésion.',

@@ -174,14 +174,14 @@ rewrites that to the R2 bucket and wraps it in `/cdn-cgi/image/<opts>/…`.
 2. **Upload the curated originals:** `BUCKET=ptank-images ./scripts/upload-images-to-r2.sh`
    (needs `pnpm dlx wrangler login` first).
 3. **Make the bucket public** via a custom domain (R2 → Settings → Public
-   access → Connect domain, e.g. `img.<your-domain>`). A subdomain of the site's
+   access → Connect domain — here `image.petanque-fouesnantaise.fr`). A subdomain of the site's
    own zone is ideal.
 4. **Enable Image Transformations** on the zone (dashboard → Images →
    Transformations → *Enable for zone*).
 5. **Set the env vars** (Worker Settings → Variables, and local `.env` — see
    `.env.example`):
-   - `NUXT_IMAGE_R2_BASE=https://img.<your-domain>` — how `/images/**` is served.
-   - `S3_PUBLIC_URL=https://img.<your-domain>` — how Studio's `studio/**` uploads
+   - `NUXT_IMAGE_R2_BASE=https://image.petanque-fouesnantaise.fr` — how `/images/**` is served (this is also the built-in default, so the var is only needed to override it).
+   - `S3_PUBLIC_URL=https://image.petanque-fouesnantaise.fr` — how Studio's `studio/**` uploads
      are served (normally the same value).
 
 Until `NUXT_IMAGE_R2_BASE` is set the images won't resolve, so do the upload
@@ -191,8 +191,9 @@ Until `NUXT_IMAGE_R2_BASE` is set the images won't resolve, so do the upload
 ## SEO & accessibility
 
 - **`@nuxtjs/seo`** generates `sitemap.xml`, `robots.txt`, canonical + Open
-  Graph tags and schema.org JSON-LD. Set `NUXT_PUBLIC_SITE_URL` to the real
-  domain. (Dynamic OG-image rendering is disabled — its satori/wasm runtime
+  Graph tags and schema.org JSON-LD. The canonical domain is
+  `https://petanque-fouesnantaise.fr` (default in `nuxt.config.ts`);
+  `NUXT_PUBLIC_SITE_URL` overrides it. (Dynamic OG-image rendering is disabled — its satori/wasm runtime
   would push the Worker past the free-tier size limit; static `og:image` still
   works.)
 - **`nuxt-a11y`** + a dev-only plugin (`app/plugins/a11y.client.ts`) run
@@ -239,8 +240,8 @@ Go to **GitHub → Settings → Developer settings → OAuth Apps → New OAuth 
 | Field                          | Value                                   |
 | ------------------------------ | --------------------------------------- |
 | **Application name**           | e.g. `Pétanque Fouesnantaise – Studio`  |
-| **Homepage URL**               | `https://<your-domain>`                 |
-| **Authorization callback URL** | `https://<your-domain>/auth/github`     |
+| **Homepage URL**               | `https://petanque-fouesnantaise.fr`     |
+| **Authorization callback URL** | `https://petanque-fouesnantaise.fr/auth/github` |
 
 > The callback path is always `/auth/github` — that's the Studio server route
 > that handles the OAuth handshake. Get this exact, or login fails with a
@@ -391,10 +392,10 @@ sequenceDiagram
 
 > **Access needs a custom domain.** A self-hosted Access application's hostname must
 > be an active zone in your Cloudflare account — you **cannot** path-scope Access on
-> a raw `*.workers.dev` subdomain. Move the site to a custom domain first (add the
-> domain to Cloudflare, then assign it to the Worker under *Settings → Domains &
-> Routes*), and update the OAuth callback URL (and `STUDIO_GITHUB_REDIRECT_URL` if
-> set) to match.
+> a raw `*.workers.dev` subdomain. The site's domain is
+> `petanque-fouesnantaise.fr` (assigned to the Worker under *Settings → Domains &
+> Routes*), so gate the Access application on that hostname, and keep the OAuth
+> callback URL (and `STUDIO_GITHUB_REDIRECT_URL` if set) pointed at it.
 
 > **No custom domain yet?** As an interim measure set `STUDIO_GITHUB_MODERATORS` to
 > your editors' GitHub usernames. That closes the hole — the `ipx` route needs a
