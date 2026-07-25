@@ -77,11 +77,17 @@ const onEscapePress = (event: KeyboardEvent) => {
 }
 
 onMounted(() => {
+  if (!import.meta.client)
+    return
+
   showDevelopmentModal.value = localStorage.getItem(developmentModalDismissedKey) !== '1'
   window.addEventListener('keydown', onEscapePress)
 })
 
 onBeforeUnmount(() => {
+  if (!import.meta.client)
+    return
+
   window.removeEventListener('keydown', onEscapePress)
 })
 
@@ -101,8 +107,9 @@ useSeoMeta({
       role="dialog"
       aria-modal="true"
       aria-labelledby="dev-modal-title"
+      @click="closeDevelopmentModal"
     >
-      <div class="w-full max-w-xl rounded-2xl border border-default bg-default p-6 shadow-2xl">
+      <div class="w-full max-w-xl rounded-2xl border border-default bg-default p-6 shadow-2xl" @click.stop>
         <h2 id="dev-modal-title" class="font-serif text-2xl font-semibold text-highlighted">
           Site en cours de développement
         </h2>
