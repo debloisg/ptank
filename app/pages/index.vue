@@ -64,12 +64,16 @@ const ctaLinks = [
 
 const developmentModalDismissedKey = 'home-development-modal-dismissed'
 const showDevelopmentModal = ref(false)
-const developmentModalRef = ref<HTMLElement | null>(null)
+
+const setDevelopmentModalOpen = (open: boolean) => {
+  if (!open && showDevelopmentModal.value && import.meta.client)
+    localStorage.setItem(developmentModalDismissedKey, '1')
+
+  showDevelopmentModal.value = open
+}
 
 const closeDevelopmentModal = () => {
-  showDevelopmentModal.value = false
-  if (import.meta.client)
-    localStorage.setItem(developmentModalDismissedKey, '1')
+  setDevelopmentModalOpen(false)
 }
 
 onMounted(() => {
@@ -77,14 +81,6 @@ onMounted(() => {
     return
 
   showDevelopmentModal.value = localStorage.getItem(developmentModalDismissedKey) !== '1'
-})
-
-watch(showDevelopmentModal, async (isOpen) => {
-  if (!isOpen)
-    return
-
-  await nextTick()
-  developmentModalRef.value?.focus()
 })
 
 useSeoMeta({
@@ -97,24 +93,13 @@ useSeoMeta({
 
 <template>
   <div>
-    <div
-      v-if="showDevelopmentModal"
-      class="fixed inset-0 z-50 flex items-center justify-center bg-black/60 px-4"
-      @click="closeDevelopmentModal"
+    <UModal
+      :open="showDevelopmentModal"
+      :content="{ class: 'max-w-xl' }"
+      title="Site en cours de développement"
+      @update:open="setDevelopmentModalOpen"
     >
-      <div
-        ref="developmentModalRef"
-        class="w-full max-w-xl rounded-2xl border border-default bg-default p-6 shadow-2xl"
-        role="dialog"
-        aria-modal="true"
-        aria-labelledby="dev-modal-title"
-        tabindex="-1"
-        @click.stop
-        @keydown.esc="closeDevelopmentModal"
-      >
-        <h2 id="dev-modal-title" class="font-serif text-2xl font-semibold text-highlighted">
-          Site en cours de développement
-        </h2>
+      <template #body>
         <p class="mt-3 text-toned">
           Ce site est actuellement en cours de développement. Si vous avez un retour, vous pouvez
           l’envoyer à
@@ -123,11 +108,13 @@ useSeoMeta({
           </a>
           ou directement à Pierre de Blois sur les terrains du club.
         </p>
+      </template>
+      <template #footer>
         <div class="mt-6 flex justify-end">
-          <UButton label="J’ai compris" color="secondary" @click="closeDevelopmentModal" />
+          <UButton label="J’ai compris" color="secondary" autofocus @click="closeDevelopmentModal" />
         </div>
-      </div>
-    </div>
+      </template>
+    </UModal>
 
     <!-- HERO + STATS share this wrapper so the photo hero's overlapping stats
          card never exposes the page canvas colour in its side gutters. -->
