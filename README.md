@@ -59,7 +59,7 @@ squarely in the free tier. For the visitor-facing site, static is ideal.
 **What we actually needed: hybrid.** Pure static would mean *no server at all* —
 but Nuxt Studio's in-browser editor can't work that way. Logging in, saving edits,
 and the live preview all rely on server routes (`/_studio`, `/__nuxt_studio/*`,
-`/auth/github`) that must run *per request* — you can't prerender a login. So we
+`/__nuxt_studio/auth/github`) that must run *per request* — you can't prerender a login. So we
 compromise: **every visitor page is prerendered static, and only Studio's handful
 of routes run on-demand as edge functions.** That mix is exactly what "hybrid"
 means, and it's why the site deploys as a Cloudflare Worker instead of a plain
@@ -241,9 +241,10 @@ Go to **GitHub → Settings → Developer settings → OAuth Apps → New OAuth 
 | ------------------------------ | --------------------------------------- |
 | **Application name**           | e.g. `Pétanque Fouesnantaise – Studio`  |
 | **Homepage URL**               | `https://petanque-fouesnantaise.fr`     |
-| **Authorization callback URL** | `https://petanque-fouesnantaise.fr/auth/github` |
+| **Authorization callback URL** | `https://petanque-fouesnantaise.fr/__nuxt_studio/auth/github` |
 
-> The callback path is always `/auth/github` — that's the Studio server route
+> The callback path is always `/__nuxt_studio/auth/github` — that's the Studio server route
+> (registered by nuxt-studio; `/auth/github` is NOT it and returns 404)
 > that handles the OAuth handshake. Get this exact, or login fails with a
 > redirect-mismatch error.
 
