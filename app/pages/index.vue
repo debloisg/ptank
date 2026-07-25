@@ -68,7 +68,7 @@ const showDevelopmentModal = ref(false)
 const developmentModalOpen = computed({
   get: () => showDevelopmentModal.value,
   set: (open: boolean) => {
-    if (!open && showDevelopmentModal.value && import.meta.client)
+    if (!open && import.meta.client)
       localStorage.setItem(developmentModalDismissedKey, '1')
 
     showDevelopmentModal.value = open
@@ -80,9 +80,6 @@ const closeDevelopmentModal = () => {
 }
 
 onMounted(() => {
-  if (!import.meta.client)
-    return
-
   showDevelopmentModal.value = localStorage.getItem(developmentModalDismissedKey) !== '1'
 })
 
