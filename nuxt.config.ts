@@ -21,6 +21,54 @@ const r2Base = (process.env.NUXT_IMAGE_R2_BASE || 'https://image.petanque-fouesn
 // is on-zone, so resizing/WebP/AVIF is available.
 const canTransform = !!r2Base && !/\.r2\.dev(?:\/|$)/.test(r2Base)
 
+// ── Content-Security-Policy ────────────────────────────────────────────────
+// Two policies: a strict one for the public site, a relaxed one for the Studio
+// editor. Both are still REPORT-ONLY (see the routeRules below) — the values
+// here were derived from the violations the first report-only pass logged.
+//
+// `script-src` keeps 'unsafe-inline' because the pages are prerendered static
+// HTML: there is no per-request step in which to mint a nonce, and Nuxt inlines
+// its hydration payload. That's the remaining weak point of this policy.
+const cspBase = [
+  "default-src 'self'",
+  // data: covers the inlined blur placeholders @nuxt/image generates.
+  `img-src 'self' data: ${r2Base}`,
+  "style-src 'self' 'unsafe-inline'",
+  "font-src 'self' data:",
+  "frame-ancestors 'none'",
+  "base-uri 'self'",
+  "form-action 'self'",
+  "object-src 'none'",
+]
+
+// api.iconify.design: @nuxt/icon fetches icon sets from there at runtime for any
+// icon missing from the client bundle. The alternative is bundling every icon
+// locally, which inflates the Worker — kept remote, so the host is allowlisted.
+const ICONIFY = 'https://api.iconify.design'
+
+// Non-CSP security headers, identical on every route.
+const securityHeaders = {
+  'strict-transport-security': 'max-age=31536000; includeSubDomains',
+  'x-content-type-options': 'nosniff',
+  'referrer-policy': 'strict-origin-when-cross-origin',
+  'permissions-policy': 'camera=(), microphone=(), geolocation=()',
+}
+
+const publicCsp = [
+  ...cspBase,
+  "script-src 'self' 'unsafe-inline'",
+  `connect-src 'self' ${ICONIFY}`,
+].join('; ')
+
+const studioCsp = [
+  ...cspBase,
+  // 'unsafe-eval' + 'wasm-unsafe-eval': the editor evaluates strings and
+  // instantiates WebAssembly. worker-src: it registers /sw.js.
+  "script-src 'self' 'unsafe-inline' 'unsafe-eval' 'wasm-unsafe-eval'",
+  "worker-src 'self'",
+  `connect-src 'self' ${ICONIFY}`,
+].join('; ')
+
 export default defineNuxtConfig({
   // @nuxthub/core must come BEFORE nuxt-studio (Studio detects its blob
   // storage to enable external media uploads → R2). @nuxt/image is before
@@ -88,26 +136,22 @@ export default defineNuxtConfig({
       // blind would break the site. Watch the browser console for violation
       // reports, then tighten and switch to `content-security-policy`.
       '/**': {
-        headers: {
-          'strict-transport-security': 'max-age=31536000; includeSubDomains',
-          'x-content-type-options': 'nosniff',
-          'referrer-policy': 'strict-origin-when-cross-origin',
-          'permissions-policy': 'camera=(), microphone=(), geolocation=()',
-          'content-security-policy-report-only': [
-            "default-src 'self'",
-            // R2 images are served from the image subdomain; data: covers the
-            // inlined blur placeholders @nuxt/image generates.
-            `img-src 'self' data: ${r2Base}`,
-            "script-src 'self' 'unsafe-inline'",
-            "style-src 'self' 'unsafe-inline'",
-            "font-src 'self' data:",
-            "connect-src 'self'",
-            "frame-ancestors 'none'",
-            "base-uri 'self'",
-            "form-action 'self'",
-            "object-src 'none'",
-          ].join('; '),
-        },
+        headers: { ...securityHeaders, 'content-security-policy-report-only': publicCsp },
+      },
+      // Studio's editor legitimately needs what the public site must never have:
+      // eval() and WebAssembly (its markdown/tiptap tooling), plus a service
+      // worker. Rather than weaken the whole site to accommodate the CMS, relax
+      // the policy only on these paths — which Cloudflare Access already gates,
+      // so only signed-in editors can reach them.
+      // Each rule repeats the full header set on purpose: a browser that receives
+      // TWO CSPs enforces the INTERSECTION of them, so a leftover strict policy
+      // alongside the relaxed one would still block Studio's eval once these are
+      // enforced rather than report-only.
+      '/_studio/**': {
+        headers: { ...securityHeaders, 'content-security-policy-report-only': studioCsp },
+      },
+      '/__nuxt_studio/**': {
+        headers: { ...securityHeaders, 'content-security-policy-report-only': studioCsp },
       },
     },
     // Cloudflare presets replace `typeof window` → `"undefined"`. unhead ships
