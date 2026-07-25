@@ -62,6 +62,8 @@ const ctaLinks = [
   },
 ]
 
+const showDevelopmentModal = ref(true)
+
 useSeoMeta({
   title: () => home.value?.title ?? 'La Pétanque Fouesnantaise · Club de pétanque à Fouesnant',
   description: () =>
@@ -72,6 +74,31 @@ useSeoMeta({
 
 <template>
   <div>
+    <div
+      v-if="showDevelopmentModal"
+      class="fixed inset-0 z-50 flex items-center justify-center bg-black/60 px-4"
+      role="dialog"
+      aria-modal="true"
+      aria-labelledby="dev-modal-title"
+    >
+      <div class="w-full max-w-xl rounded-2xl border border-default bg-default p-6 shadow-2xl">
+        <h2 id="dev-modal-title" class="font-serif text-2xl font-semibold text-highlighted">
+          Site en cours de développement
+        </h2>
+        <p class="mt-3 text-toned">
+          Ce site est actuellement en cours de développement. Si vous avez un retour, vous pouvez
+          l’envoyer à
+          <a href="mailto:contact@petanque-fouesnantaise.fr" class="font-medium text-primary hover:underline">
+            contact@petanque-fouesnantaise.fr
+          </a>
+          ou directement à Pierre de Blois.
+        </p>
+        <div class="mt-6 flex justify-end">
+          <UButton label="J’ai compris" color="secondary" @click="showDevelopmentModal = false" />
+        </div>
+      </div>
+    </div>
+
     <!-- HERO + STATS share this wrapper so the photo hero's overlapping stats
          card never exposes the page canvas colour in its side gutters. -->
     <div class="bg-default">
