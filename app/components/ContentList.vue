@@ -41,7 +41,7 @@ const { data: items } = await useAsyncData(`list-${props.prefix}`, () =>
           :to="item.path"
           :title="item.title"
           :date="item.date"
-          :location="item.location"
+          :location="'location' in item ? item.location : undefined"
           :category="item.category"
         />
       </div>

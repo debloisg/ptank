@@ -37,7 +37,7 @@ const imageProps = computed(() =>
         alt: props.title,
         format: 'auto',
         sizes: 'sm:100vw md:768px lg:600px',
-        loading: 'lazy',
+        loading: 'lazy' as const,
         placeholder: true,
       }
     : undefined,

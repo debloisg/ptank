@@ -22,6 +22,13 @@ if (!page.value) {
   throw createError({ statusCode: 404, statusMessage: 'Page introuvable', fatal: true })
 }
 
+// `location` exists on the events/competitions/results collections but not on
+// news, and this page renders all of them — so narrow with `in` rather than
+// reaching for `any`.
+const location = computed(() =>
+  page.value && 'location' in page.value ? page.value.location : undefined,
+)
+
 const formattedDate = computed(() =>
   page.value?.date
     ? new Date(page.value.date).toLocaleDateString('fr-FR', {
@@ -60,13 +67,13 @@ useSeoMeta({
 
     <article class="rounded-2xl border border-default bg-elevated shadow-sm p-6 sm:p-10">
       <UPageHeader :headline="page?.category" :title="page?.title" class="mb-8 pb-6 border-b border-default">
-        <template v-if="formattedDate || page?.location" #description>
+        <template v-if="formattedDate || location" #description>
           <div class="flex flex-wrap items-center gap-x-4 gap-y-1 text-sm text-muted">
             <span v-if="formattedDate" class="inline-flex items-center gap-1.5">
               <UIcon name="i-lucide-calendar" class="h-4 w-4" />{{ formattedDate }}
             </span>
-            <span v-if="page?.location" class="inline-flex items-center gap-1.5">
-              <UIcon name="i-lucide-map-pin" class="h-4 w-4" />{{ page.location }}
+            <span v-if="location" class="inline-flex items-center gap-1.5">
+              <UIcon name="i-lucide-map-pin" class="h-4 w-4" />{{ location }}
             </span>
           </div>
         </template>

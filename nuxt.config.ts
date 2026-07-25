@@ -27,8 +27,27 @@ export default defineNuxtConfig({
   // @nuxt/ui so Nuxt UI renders <UBlogPost>/<ProseImg>/etc. through NuxtImg.
   // @nuxtjs/seo = sitemap + robots + schema.org + canonical/OG meta.
   // nuxt-a11y runs axe-core in the dev console only (no prod overhead).
-  modules: ['@nuxthub/core', '@nuxt/image', '@nuxt/content', '@nuxt/ui', '@nuxtjs/seo', 'nuxt-a11y', 'nuxt-studio'],
+  // @nuxt/eslint generates the flat-config base that eslint.config.mjs extends,
+  // so the lint rules know about auto-imports, `#imports`, page/component dirs.
+  modules: ['@nuxthub/core', '@nuxt/image', '@nuxt/content', '@nuxt/ui', '@nuxtjs/seo', 'nuxt-a11y', 'nuxt-studio', '@nuxt/eslint'],
   css: ['~/assets/css/main.css'],
+
+  // Strict TS everywhere. typeCheck stays OFF for `nuxt build` on purpose: it
+  // would add vue-tsc to every Cloudflare deploy build (slower, and a type error
+  // in content types could block a content-only deploy). Run it explicitly with
+  // `pnpm typecheck` instead.
+  typescript: {
+    strict: true,
+    typeCheck: false,
+  },
+
+  // ESLint config generated for this project (extended by eslint.config.mjs).
+  // stylistic: false — formatting is not policed, only correctness.
+  eslint: {
+    config: {
+      stylistic: false,
+    },
+  },
   devtools: { enabled: true },
   // Recent date so Nitro selects the modern `cloudflare_module` preset
   // (nodejs_compat) instead of `cloudflare-module-legacy`, whose polyfill
@@ -53,6 +72,43 @@ export default defineNuxtConfig({
     // emits full R2-domain URLs and never hits this path.
     routeRules: {
       '/images/**': { redirect: { to: `${r2Base}/images/**`, statusCode: 302 } },
+      // ── Security headers ────────────────────────────────────────────────
+      // The site shipped with none of these. Each one below is inert for a
+      // correctly-behaving page and only closes an attack:
+      //   HSTS               — pin HTTPS for a year (Cloudflare already
+      //                        redirects, but the first plain-HTTP request is
+      //                        interceptable until the browser has this).
+      //   nosniff            — stop MIME-sniffing an upload into a script.
+      //   frame-ancestors    — no framing at all: the Studio login page being
+      //                        iframeable is a clickjacking route to the CMS.
+      //   referrer-policy    — don't leak full URLs to third parties.
+      //   permissions-policy — deny camera/mic/geolocation outright.
+      // CSP is REPORT-ONLY on purpose: Nuxt hydration inlines scripts/styles
+      // and Studio's editor loads its own assets, so enforcing a strict policy
+      // blind would break the site. Watch the browser console for violation
+      // reports, then tighten and switch to `content-security-policy`.
+      '/**': {
+        headers: {
+          'strict-transport-security': 'max-age=31536000; includeSubDomains',
+          'x-content-type-options': 'nosniff',
+          'referrer-policy': 'strict-origin-when-cross-origin',
+          'permissions-policy': 'camera=(), microphone=(), geolocation=()',
+          'content-security-policy-report-only': [
+            "default-src 'self'",
+            // R2 images are served from the image subdomain; data: covers the
+            // inlined blur placeholders @nuxt/image generates.
+            `img-src 'self' data: ${r2Base}`,
+            "script-src 'self' 'unsafe-inline'",
+            "style-src 'self' 'unsafe-inline'",
+            "font-src 'self' data:",
+            "connect-src 'self'",
+            "frame-ancestors 'none'",
+            "base-uri 'self'",
+            "form-action 'self'",
+            "object-src 'none'",
+          ].join('; '),
+        },
+      },
     },
     // Cloudflare presets replace `typeof window` → `"undefined"`. unhead ships
     // JS-as-a-string (streamingIifeCode) that contains the text `typeof window`;
@@ -167,12 +223,13 @@ export default defineNuxtConfig({
   // wrangler.jsonc). Only blob is enabled — content's D1 (`DB`) is untouched.
   hub: {
     blob: true,
-    // Connect dev (`nuxt dev`) to the deployed production R2 so Studio media
-    // listing/preview works locally — plain dev has no BLOB binding. Only
-    // affects dev/preview; the deployed worker always uses its real bindings.
-    // Requires NUXT_HUB_PROJECT_URL + NUXT_HUB_PROJECT_SECRET_KEY (see .env),
-    // and the same secret set on the deployed worker.
-    remote: 'production',
+    // NOTE: `remote: 'production'` used to sit here to point `nuxt dev` at the
+    // deployed R2 (so Studio's media tab worked locally). @nuxthub/core 0.10
+    // dropped that option along with NuxtHub's hosted platform, so it was dead
+    // config — typecheck flagged it as unknown. Removed. Studio media listing in
+    // dev now needs a real BLOB binding (`wrangler dev`) instead;
+    // NUXT_HUB_PROJECT_URL / NUXT_HUB_PROJECT_SECRET_KEY in .env are likewise
+    // no longer read by anything.
   },
 
   app: {
