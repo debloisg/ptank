@@ -18,7 +18,10 @@ useSchemaOrg([
     'description':
       'Club de pétanque affilié à la FFPJP, à Fouesnant (Finistère). Entraînements, concours et compétitions officielles.',
     'email': 'contact@petanque-fouesnantaise.fr',
-    'telephone': '+33298000000',
+    // No `telephone`: the only number on the site was the placeholder
+    // 02 98 00 00 00. Structured data is consumed by machines — Google can turn
+    // it into a click-to-call button in a knowledge panel — so publishing a fake
+    // number is worse than publishing none. Add it here once there's a real one.
     'foundingDate': '1982',
     'address': {
       // The boulodrome, not the registered office (mairie) — this is the address

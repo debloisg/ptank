@@ -114,33 +114,15 @@ adversaires.
 Le club est animé par une équipe de bénévoles élue chaque année en assemblée générale. 
 
 ::card-group
-  :::card
-  ---
-  title: Prénom Nom
-  ---
-  Pierre de Blois
-
-  #default
+  :::card{title="Pierre de Blois"}
   Vice-Président (par interim)
   :::
 
-  :::card
-  ---
-  title: Prénom Nom
-  ---
-  Pierre de Blois
-
-  #default
+  :::card{title="Pierre de Blois"}
   Trésorier
   :::
 
-  :::card
-  ---
-  title: Prénom Nom
-  ---
-  Corinne Le Poullen
-
-  #default
+  :::card{title="Corinne Le Poullen"}
   Secrétaire (par interim)
   :::
 ::

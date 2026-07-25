@@ -81,6 +81,16 @@ try { remarkEmoji = (await import(pathToFileURL(emojiReq.resolve('remark-emoji')
 
 const mdcVersion = JSON.parse(readFileSync(join(mdcDir, 'package.json'), 'utf8')).version
 
+// Shared `rel` normalization, used by both the rewrite and the safety check below
+// so a difference in normalization can never look like a difference in meaning.
+const { visit } = await import(pathToFileURL(emojiReq.resolve('unist-util-visit')).href)
+  .catch(() => ({ visit: null }))
+const stripRel = visit
+  ? (ast) => visit(ast, (n) => n?.type === 'element' && n.tag === 'a', (n) => {
+      Reflect.deleteProperty(n.props || {}, 'rel')
+    })
+  : null
+
 // Parse options mirroring nuxt-studio generate.js (the side that flags conflicts).
 const PARSE_OPTS = {
   contentHeading: true, // 'page' collections (all content here are type:'page')
@@ -99,6 +109,16 @@ const STRINGIFY_OPTS = {
 
 const FRONTMATTER_RE = /^(---\r?\n[\s\S]*?\r?\n---)\r?\n?/
 
+// Parse a file's body to the AST, with the same `rel` normalization the rewrite
+// applies, so two ASTs can be compared for MEANING rather than for text.
+async function parseBodyAst (raw) {
+  const m = raw.match(FRONTMATTER_RE)
+  const body = m ? raw.slice(m[0].length) : raw
+  const doc = await parseMarkdown(body, PARSE_OPTS)
+  if (stripRel) stripRel(doc.body)
+  return doc.body
+}
+
 async function canonicalizeMarkdown (raw) {
   const m = raw.match(FRONTMATTER_RE)
   const fmBlock = m ? m[1] : null
@@ -106,8 +126,7 @@ async function canonicalizeMarkdown (raw) {
   const doc = await parseMarkdown(body, PARSE_OPTS)
   // Studio drops rel before stringifying (it is re-added on parse via
   // rehype-external-links), so the committed markdown has clean links.
-  const { visit } = await import(pathToFileURL(emojiReq.resolve('unist-util-visit')).href).catch(() => ({ visit: null }))
-  if (visit) visit(doc.body, (n) => n?.type === 'element' && n.tag === 'a', (n) => { Reflect.deleteProperty(n.props || {}, 'rel') })
+  if (stripRel) stripRel(doc.body)
   let bodyMd = await stringifyMarkdown(doc.body, {}, STRINGIFY_OPTS)
   if (typeof bodyMd === 'string') bodyMd = bodyMd.replace(/&#x2A;/g, '*')
   const out = fmBlock ? `${fmBlock}\n\n${bodyMd}` : bodyMd
@@ -135,15 +154,49 @@ const files = collectFiles(rawArgs.filter((a) => a !== '--check'))
 
 console.error(`[canonicalize] @nuxtjs/mdc@${mdcVersion} (via @nuxt/content) — ${files.length} file(s)`)
 let changed = 0
+let skipped = 0
 for (const file of files) {
   const before = readFileSync(file, 'utf8')
   const after = await canonicalizeMarkdown(before)
   const rel = relative(ROOT, file)
-  if (before !== after) {
-    changed++
-    if (check) console.error(`  CHANGED ${rel}`)
-    else { writeFileSync(file, after); console.error(`  rewrote ${rel}`) }
+  if (before === after) continue
+
+  // SAFETY CHECK — never write a rewrite that changes MEANING.
+  //
+  // Re-parse the rewritten text and compare its AST to the original's. Equal ASTs
+  // mean the rewrite only changed formatting, which is this script's entire
+  // purpose. Unequal means information was lost, so the file is left exactly as it
+  // was with a loud warning. A file that can't be canonicalized safely is not a
+  // build failure — Studio may then flag a conflict on it, which is recoverable,
+  // whereas silently mangled content committed by a pre-commit hook is not.
+  //
+  // NOTE on what this does NOT catch: information already lost at PARSE time. A
+  // card written with both an implicit body and an explicit #default slot has both
+  // concatenated by remark-mdc, so `before` and `after` parse identically and this
+  // check passes — correctly, since the rewrite changed nothing the renderer would
+  // see. content/a-propos.md was in exactly that state, and the merged committee
+  // names were visible on the deployed site before this script ever ran. The fix
+  // for that class of problem is in the markdown, not here.
+  let lossless = false
+  try {
+    const [astBefore, astAfter] = await Promise.all([parseBodyAst(before), parseBodyAst(after)])
+    lossless = JSON.stringify(astBefore) === JSON.stringify(astAfter)
+  } catch (err) {
+    console.error(`  ERROR   ${rel} — could not verify rewrite: ${err.message}`)
   }
+
+  if (!lossless) {
+    skipped++
+    console.error(`  SKIPPED ${rel} — rewrite would change content, left untouched`)
+    continue
+  }
+
+  changed++
+  if (check) console.error(`  CHANGED ${rel}`)
+  else { writeFileSync(file, after); console.error(`  rewrote ${rel}`) }
+}
+if (skipped) {
+  console.error(`[canonicalize] ${skipped} file(s) skipped as unsafe — see SKIPPED above`)
 }
 if (check && changed) { console.error(`[canonicalize] ${changed} file(s) not canonical`); process.exit(1) }
 console.error(`[canonicalize] done (${changed} change(s))`)
