@@ -94,7 +94,7 @@ useSeoMeta({
   <div>
     <UModal
       v-model:open="developmentModalOpen"
-      :content="{ class: 'max-w-xl' }"
+      :ui="{ content: 'max-w-xl' }"
       title="Site en cours de développement"
     >
       <template #body>
