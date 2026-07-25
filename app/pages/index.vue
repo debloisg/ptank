@@ -103,6 +103,9 @@ useSeoMeta({
     >
       <template #body>
         <div role="alert" aria-live="polite">
+          <div class="mb-4 flex justify-center">
+            <UIcon name="i-lucide-construction" class="h-20 w-20 text-secondary" />
+          </div>
           <p class="mt-3 text-toned">
             Ce site est actuellement en cours de développement. Si vous avez un retour, vous pouvez
             l’envoyer à
