@@ -9,7 +9,12 @@ const isDev = process.env.NODE_ENV !== 'production'
 // (and dev) render images without a build-time env var; the deploy bundles no
 // image originals, so an empty base = broken images. Override with
 // NUXT_IMAGE_R2_BASE (e.g. a pub-xxx.r2.dev URL) if the bucket moves off-zone.
-const r2Base = process.env.NUXT_IMAGE_R2_BASE || 'https://image.petanque-fouesnantaise.fr'
+// Trimmed + de-slashed: a stray space or trailing "/" pasted into the Cloudflare
+// build variable would otherwise be concatenated into every image URL
+// ("…fouesnantaise.fr /images/x.jpg") and break every image on the site.
+const r2Base = (process.env.NUXT_IMAGE_R2_BASE || 'https://image.petanque-fouesnantaise.fr')
+  .trim()
+  .replace(/\/+$/, '')
 // Cloudflare Image Transformations only resize sources on the SAME zone as the
 // site (subdomains OK). A shared r2.dev domain is off-zone, so it can't be
 // transformed — originals are then served as-is. image.petanque-fouesnantaise.fr
@@ -118,7 +123,7 @@ export default defineNuxtConfig({
   // Defaults to the live apex domain; NUXT_PUBLIC_SITE_URL can override it
   // (e.g. a preview deployment).
   site: {
-    url: process.env.NUXT_PUBLIC_SITE_URL || 'https://petanque-fouesnantaise.fr',
+    url: (process.env.NUXT_PUBLIC_SITE_URL || 'https://petanque-fouesnantaise.fr').trim(),
     name: 'La Pétanque Fouesnantaise',
     description:
       'Club de pétanque à Fouesnant (29) — actualités, événements, compétitions, résultats et adhésion.',
@@ -153,7 +158,7 @@ export default defineNuxtConfig({
       // which is why the Media tab showed nothing despite R2 being full.
       prefix: 'images',
       // Same bucket as images — defaults to r2Base (one bucket, images/ prefix).
-      publicUrl: process.env.S3_PUBLIC_URL || r2Base,
+      publicUrl: (process.env.S3_PUBLIC_URL || r2Base).trim().replace(/\/+$/, ''),
     },
   },
 
