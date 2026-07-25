@@ -65,22 +65,17 @@ const ctaLinks = [
 const developmentModalDismissedKey = 'home-development-modal-dismissed'
 const showDevelopmentModal = ref(false)
 
-const setDevelopmentModalOpen = (open: boolean) => {
-  if (!open && showDevelopmentModal.value && import.meta.client)
-    localStorage.setItem(developmentModalDismissedKey, '1')
-
-  showDevelopmentModal.value = open
-}
-
 const closeDevelopmentModal = () => {
-  setDevelopmentModalOpen(false)
+  showDevelopmentModal.value = false
 }
 
 onMounted(() => {
-  if (!import.meta.client)
-    return
-
   showDevelopmentModal.value = localStorage.getItem(developmentModalDismissedKey) !== '1'
+})
+
+watch(showDevelopmentModal, (isOpen, wasOpen) => {
+  if (!isOpen && wasOpen && import.meta.client)
+    localStorage.setItem(developmentModalDismissedKey, '1')
 })
 
 useSeoMeta({
@@ -94,10 +89,9 @@ useSeoMeta({
 <template>
   <div>
     <UModal
-      :open="showDevelopmentModal"
+      v-model:open="showDevelopmentModal"
       :content="{ class: 'max-w-xl' }"
       title="Site en cours de développement"
-      @update:open="setDevelopmentModalOpen"
     >
       <template #body>
         <p class="mt-3 text-toned">
