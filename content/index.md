@@ -86,7 +86,7 @@ seo:
   title: La Pétanque Fouesnantaise
   description: Affilié à la FFPJP, l'un des plus importants clubs du Finistère, avec 176 licenciés en 2024 et plus de 3 000 compétiteurs accueillis chaque année sur ses terrains.
 stats:
-  - value: "175"
+  - value: "176"
     label: licenciés
   - value: 90+
     label: terrains
