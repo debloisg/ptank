@@ -1,4 +1,5 @@
 import { defineContentConfig, defineCollection, z } from '@nuxt/content'
+import { defineSitemapSchema } from '@nuxtjs/sitemap/content'
 
 // One collection per content type so Nuxt Studio shows a clean, relevant form
 // for each file instead of one kitchen-sink schema. `type: 'page'` collections
@@ -11,6 +12,21 @@ const dateField = () =>
   z.string().optional().editor({ label: 'Date', description: 'Format AAAA-MM-JJ (ex : 2026-08-10)' })
 const imageField = () =>
   z.string().optional().editor({ input: 'media', label: 'Image' })
+// Emits <lastmod> in sitemap.xml from each entry's frontmatter `date`, so crawlers
+// can see which pages actually changed instead of re-crawling everything. Editors
+// never fill this in — it derives from the date they already set on the post.
+// `name` must match the collection: the module keys its onUrl callbacks by
+// collection name, and errors out without it.
+const sitemapField = (name: string) =>
+  defineSitemapSchema({
+    name,
+    // Arrow function on purpose: the module serialises this callback with
+    // Function.prototype.toString() into a virtual module, and shorthand method
+    // syntax ("onUrl(url, entry) {…}") is not valid there.
+    onUrl: (url, entry) => {
+      if (entry?.date) url.lastmod = new Date(entry.date as string)
+    },
+  })
 const categoryField = () =>
   z.string().optional().editor({ label: 'Catégorie', description: 'Ex : Officiel FFPJP, Doublette, Ouvert à tous' })
 const locationField = () =>
@@ -24,11 +40,12 @@ const linkField = () =>
   })
 
 // Dated post schema shared by news / events / competitions / results.
-const postSchema = (opts: { location?: boolean } = {}) =>
+const postSchema = (opts: { name: string, location?: boolean }) =>
   z.object({
     date: dateField(),
     image: imageField(),
     category: categoryField(),
+    sitemap: sitemapField(opts.name),
     ...(opts.location ? { location: locationField() } : {}),
   })
 
@@ -112,9 +129,9 @@ export default defineContentConfig({
     }),
 
     // ── Dated content ───────────────────────────────────────────────────────
-    news: defineCollection({ type: 'page', source: 'actualites/**', schema: postSchema() }),
-    events: defineCollection({ type: 'page', source: 'evenements/**', schema: postSchema({ location: true }) }),
-    competitions: defineCollection({ type: 'page', source: 'competitions/**', schema: postSchema({ location: true }) }),
-    results: defineCollection({ type: 'page', source: 'resultats/**', schema: postSchema({ location: true }) }),
+    news: defineCollection({ type: 'page', source: 'actualites/**', schema: postSchema({ name: 'news' }) }),
+    events: defineCollection({ type: 'page', source: 'evenements/**', schema: postSchema({ name: 'events', location: true }) }),
+    competitions: defineCollection({ type: 'page', source: 'competitions/**', schema: postSchema({ name: 'competitions', location: true }) }),
+    results: defineCollection({ type: 'page', source: 'resultats/**', schema: postSchema({ name: 'results', location: true }) }),
   },
 })

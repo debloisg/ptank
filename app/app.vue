@@ -2,6 +2,43 @@
 // French locale drives Nuxt UI's built-in date formatting (UBlogPost `date`),
 // pagination labels, aria text, etc.
 import { fr } from '@nuxt/ui/locale'
+
+// Site-wide structured data. @nuxtjs/seo already emits WebSite/WebPage; what was
+// missing is the club as a real-world entity. `SportsClub` (a LocalBusiness
+// subtype) with a postal address and opening hours is what lets Google answer
+// "pétanque fouesnant" with a knowledge panel, a map pin and the training hours —
+// by far the highest-value structured data for a local club.
+useSchemaOrg([
+  defineLocalBusiness({
+    // SportsClub is a real schema.org type (SportsActivityLocation → LocalBusiness)
+    // but it's missing from nuxt-schema-org's subtype union, hence the cast: the
+    // emitted JSON-LD is what matters and Google understands SportsClub.
+    '@type': 'SportsClub' as 'SportsActivityLocation',
+    'name': 'La Pétanque Fouesnantaise',
+    'description':
+      'Club de pétanque affilié à la FFPJP, à Fouesnant (Finistère). Entraînements, concours et compétitions officielles.',
+    'email': 'contact@petanque-fouesnantaise.fr',
+    'telephone': '+33298000000',
+    'foundingDate': '1982',
+    'address': {
+      // The boulodrome, not the registered office (mairie) — this is the address
+      // a visitor needs.
+      streetAddress: "Allée de Loc'Hilaire",
+      addressLocality: 'Fouesnant',
+      postalCode: '29170',
+      addressRegion: 'Bretagne',
+      addressCountry: 'FR',
+    },
+    'openingHoursSpecification': [
+      {
+        dayOfWeek: ['Monday', 'Wednesday', 'Saturday'],
+        opens: '14:00',
+        closes: '19:00',
+      },
+    ],
+    'sameAs': ['https://petanque-fouesnantaise.fr'],
+  }),
+])
 </script>
 
 <template>

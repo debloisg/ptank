@@ -1,6 +1,6 @@
 ---
 title: La Pétanque Fouesnantaise
-description: Affilié à la FFPJP, l'un des plus importants clubs du Finistère, avec 176 licenciés en 2026 et plus de 3 000 compétiteurs accueillis chaque année sur ses terrains.
+description: Affilié à la FFPJP, l'un des plus importants clubs du Finistère : 176 licenciés en 2026 et plus de 3 000 compétiteurs accueillis chaque année.
 eyebrow: Depuis 1982 · Fouesnant, Finistère
 highlights:
   - title: Boulodrome couvert
@@ -96,3 +96,4 @@ stats:
     label: compétiteurs / an
 tagline: Le pointer, le tirer, le grand air breton.
 ---
+

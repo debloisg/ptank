@@ -46,6 +46,25 @@ const cspBase = [
 // locally, which inflates the Worker — kept remote, so the host is allowlisted.
 const ICONIFY = 'https://api.iconify.design'
 
+// Cloudflare Web Analytics: free, cookieless (sets no identifiers, so it needs no
+// consent banner under GDPR). Loads only when the token is provided — dev, forks
+// and previews stay beacon-free. Token: Cloudflare → Analytics & Logs → Web
+// Analytics → add a site.
+const cfBeaconToken = process.env.NUXT_PUBLIC_CF_BEACON_TOKEN?.trim()
+const CF_INSIGHTS = 'https://static.cloudflareinsights.com'
+
+const siteUrl = (process.env.NUXT_PUBLIC_SITE_URL || 'https://petanque-fouesnantaise.fr')
+  .trim()
+  .replace(/\/+$/, '')
+
+// Social-share image. There is no dynamic OG renderer (satori/wasm would blow the
+// Worker past the free-tier size limit), so this is one existing photo cropped to
+// the 1200x630 OG canvas by Cloudflare Image Transformations — free, no new asset
+// to maintain. f=jpeg on purpose: Facebook/WhatsApp/Slack scrapers don't send an
+// Accept header advertising AVIF/WebP, and some reject them outright.
+const OG_IMAGE_SOURCE = '/images/hero-terrain.jpg'
+const ogImage = `${siteUrl}/cdn-cgi/image/w=1200,h=630,fit=cover,f=jpeg,q=80/${r2Base}${OG_IMAGE_SOURCE}`
+
 // Non-CSP security headers, identical on every route.
 const securityHeaders = {
   'strict-transport-security': 'max-age=31536000; includeSubDomains',
@@ -56,8 +75,9 @@ const securityHeaders = {
 
 const publicCsp = [
   ...cspBase,
-  "script-src 'self' 'unsafe-inline'",
-  `connect-src 'self' ${ICONIFY}`,
+  `script-src 'self' 'unsafe-inline' ${CF_INSIGHTS}`,
+  // cloudflareinsights.com is where the analytics beacon POSTs its payload.
+  `connect-src 'self' ${ICONIFY} https://cloudflareinsights.com`,
 ].join('; ')
 
 const studioCsp = [
@@ -223,15 +243,31 @@ export default defineNuxtConfig({
   // Defaults to the live apex domain; NUXT_PUBLIC_SITE_URL can override it
   // (e.g. a preview deployment).
   site: {
-    url: (process.env.NUXT_PUBLIC_SITE_URL || 'https://petanque-fouesnantaise.fr').trim(),
+    url: siteUrl,
     name: 'La Pétanque Fouesnantaise',
     description:
       'Club de pétanque à Fouesnant (29) — actualités, événements, compétitions, résultats et adhésion.',
     defaultLocale: 'fr',
   },
   // Dynamic OG image rendering (satori wasm) would push the Worker past the
-  // Cloudflare free-tier size limit — disabled. Static og:image tags still work.
+  // Cloudflare free-tier size limit — disabled. The static og:image below covers
+  // social sharing instead.
   ogImage: { enabled: false },
+
+  // Exposed so pages can build absolute /cdn-cgi/image/… URLs for their own
+  // og:image (see pages/[...slug].vue) without re-deriving the R2 origin.
+  runtimeConfig: {
+    public: {
+      imageR2Base: r2Base,
+    },
+  },
+
+
+  // Sitemap: emit <lastmod> so crawlers can tell what actually changed. Dates
+  // come from each entry's frontmatter `date` (see content.config.ts).
+  sitemap: {
+    discoverImages: false,
+  },
 
   // Nuxt Studio — the in-browser CMS non-coders use to edit content, at /_studio.
   // SECURITY: /_studio AND /__nuxt_studio/* must be gated by Cloudflare Access on this
@@ -291,8 +327,29 @@ export default defineNuxtConfig({
           content:
             'Club de pétanque à Fouesnant (29) — actualités, événements, compétitions, résultats et adhésion.',
         },
+        // Social sharing. twitter:card was already `summary_large_image`, which
+        // PROMISES an image — with none set, every share (Facebook, WhatsApp,
+        // Slack, Discord) rendered a blank card. Individual pages override
+        // og:image when they have their own photo (see pages/[...slug].vue).
+        { property: 'og:image', content: ogImage },
+        { property: 'og:image:width', content: '1200' },
+        { property: 'og:image:height', content: '630' },
+        { property: 'og:image:alt', content: 'Terrain de pétanque du club à Fouesnant' },
+        { property: 'og:locale', content: 'fr_FR' },
+        { name: 'twitter:image', content: ogImage },
       ],
       link: [{ rel: 'icon', type: 'image/svg+xml', href: '/favicon.svg' }],
+      // Analytics beacon, only when a token is configured (see cfBeaconToken
+      // above). `defer` keeps it off the critical path so it can't affect LCP.
+      script: cfBeaconToken
+        ? [
+            {
+              src: `${CF_INSIGHTS}/beacon.min.js`,
+              defer: true,
+              'data-cf-beacon': JSON.stringify({ token: cfBeaconToken }),
+            },
+          ]
+        : [],
     },
   },
 })

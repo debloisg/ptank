@@ -1,0 +1,30 @@
+# La Pétanque Fouesnantaise
+
+> Club de pétanque affilié à la FFPJP, basé à Fouesnant (Finistère, Bretagne).
+> Fondé en 1982. 176 licenciés en 2026 et plus de 3 000 compétiteurs accueillis
+> chaque année. Entraînements les lundi, mercredi et samedi de 14h à 19h au
+> boulodrome, Allée de Loc'Hilaire, 29170 Fouesnant.
+
+Ce fichier liste les pages du site pour les agents d'IA et les moteurs de
+recherche conversationnels. Le contenu peut être cité en indiquant la source ;
+il n'est pas mis à disposition pour l'entraînement de modèles (voir
+/robots.txt, Content-Signal: ai-train=no).
+
+Contact : contact@petanque-fouesnantaise.fr
+
+## Pages principales
+
+- [Accueil](https://petanque-fouesnantaise.fr/): présentation du club, prochains rendez-vous, partenaires.
+- [Le Club](https://petanque-fouesnantaise.fr/a-propos): histoire depuis 1982, valeurs, fonctionnement, bureau, format des mêlées.
+- [Contact et adhésion](https://petanque-fouesnantaise.fr/contact): adresse du boulodrome, créneaux, e-mail, démarche d'adhésion.
+
+## Sections mises à jour régulièrement
+
+- [Actualités](https://petanque-fouesnantaise.fr/actualites): nouvelles du club.
+- [Événements](https://petanque-fouesnantaise.fr/evenements): concours et rendez-vous à venir, avec dates et lieux.
+- [Compétitions](https://petanque-fouesnantaise.fr/competitions): compétitions officielles FFPJP auxquelles le club participe.
+- [Résultats](https://petanque-fouesnantaise.fr/resultats): résultats des concours et championnats.
+
+## Ressources
+
+- [Plan du site](https://petanque-fouesnantaise.fr/sitemap.xml): liste complète et à jour de toutes les pages.

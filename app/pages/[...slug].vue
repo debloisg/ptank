@@ -12,6 +12,8 @@ const COLLECTION_BY_SEGMENT = {
   resultats: 'results',
 } as const
 const segment = route.path.split('/').filter(Boolean)[0] ?? ''
+// True for the dated collections, false for standalone pages like /a-propos.
+const isArticle = segment in COLLECTION_BY_SEGMENT
 const collection = COLLECTION_BY_SEGMENT[segment as keyof typeof COLLECTION_BY_SEGMENT] ?? 'pages'
 
 const { data: page } = await useAsyncData(`page-${route.path}`, () =>
@@ -47,10 +49,60 @@ const sections: Record<string, { label: string, to: string }> = {
 }
 const backLink = computed(() => sections[route.path.split('/').filter(Boolean)[0] ?? ''])
 
+// Per-article social image: crop the article's own photo to the 1200x630 OG
+// canvas through Cloudflare Image Transformations, so a shared article previews
+// with its own picture instead of the site-wide default set in nuxt.config.
+// f=jpeg because social scrapers don't negotiate AVIF/WebP.
+const siteConfig = useSiteConfig()
+const r2Base = useRuntimeConfig().public.imageR2Base
+const ogImage = computed(() =>
+  page.value?.image
+    ? `${siteConfig.url}/cdn-cgi/image/w=1200,h=630,fit=cover,f=jpeg,q=80/${r2Base}${page.value.image}`
+    : undefined,
+)
+
 useSeoMeta({
   title: () => (page.value?.title ? `${page.value.title} · La Pétanque Fouesnantaise` : undefined),
   description: () => page.value?.description,
+  ogImage: () => ogImage.value,
+  twitterImage: () => ogImage.value,
+  ogType: () => (isArticle ? 'article' : 'website'),
+  articlePublishedTime: () => page.value?.date,
 })
+
+// Event structured data for the dated collections that describe a real gathering
+// — this is what can surface a concours in Google's event results with its date
+// and venue. Skipped for news/standalone pages, which aren't events.
+if (segment === 'evenements' || segment === 'competitions') {
+  useSchemaOrg([
+    defineEvent({
+      name: () => page.value?.title,
+      description: () => page.value?.description,
+      startDate: () => page.value?.date,
+      eventStatus: 'https://schema.org/EventScheduled',
+      eventAttendanceMode: 'https://schema.org/OfflineEventAttendanceMode',
+      location: {
+        '@type': 'Place',
+        'name':
+          page.value && 'location' in page.value
+            ? (page.value.location as string) || 'Boulodrome de Fouesnant'
+            : 'Boulodrome de Fouesnant',
+        'address': {
+          streetAddress: "Allée de Loc'Hilaire",
+          addressLocality: 'Fouesnant',
+          postalCode: '29170',
+          addressCountry: 'FR',
+        },
+      },
+      organizer: {
+        '@type': 'Organization',
+        'name': 'La Pétanque Fouesnantaise',
+        'url': 'https://petanque-fouesnantaise.fr',
+      },
+      image: () => ogImage.value,
+    }),
+  ])
+}
 </script>
 
 <template>
