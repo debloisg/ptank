@@ -75,11 +75,10 @@ const developmentModalOpen = computed({
   },
 })
 
-const closeDevelopmentModal = () => {
-  developmentModalOpen.value = false
-}
-
 onMounted(() => {
+  if (!import.meta.client)
+    return
+
   showDevelopmentModal.value = localStorage.getItem(developmentModalDismissedKey) !== '1'
 })
 
@@ -115,7 +114,7 @@ useSeoMeta({
       </template>
       <template #footer>
         <div class="mt-6 flex justify-end">
-          <UButton label="J’ai compris" color="secondary" autofocus @click="closeDevelopmentModal" />
+          <UButton label="J’ai compris" color="secondary" autofocus @click="developmentModalOpen = false" />
         </div>
       </template>
     </UModal>
