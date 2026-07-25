@@ -65,17 +65,25 @@ const ctaLinks = [
 const developmentModalDismissedKey = 'home-development-modal-dismissed'
 const showDevelopmentModal = ref(false)
 
+const developmentModalOpen = computed({
+  get: () => showDevelopmentModal.value,
+  set: (open: boolean) => {
+    if (!open && showDevelopmentModal.value && import.meta.client)
+      localStorage.setItem(developmentModalDismissedKey, '1')
+
+    showDevelopmentModal.value = open
+  },
+})
+
 const closeDevelopmentModal = () => {
-  showDevelopmentModal.value = false
+  developmentModalOpen.value = false
 }
 
 onMounted(() => {
-  showDevelopmentModal.value = localStorage.getItem(developmentModalDismissedKey) !== '1'
-})
+  if (!import.meta.client)
+    return
 
-watch(showDevelopmentModal, (isOpen, wasOpen) => {
-  if (!isOpen && wasOpen && import.meta.client)
-    localStorage.setItem(developmentModalDismissedKey, '1')
+  showDevelopmentModal.value = localStorage.getItem(developmentModalDismissedKey) !== '1'
 })
 
 useSeoMeta({
@@ -89,19 +97,21 @@ useSeoMeta({
 <template>
   <div>
     <UModal
-      v-model:open="showDevelopmentModal"
+      v-model:open="developmentModalOpen"
       :content="{ class: 'max-w-xl' }"
       title="Site en cours de développement"
     >
       <template #body>
-        <p class="mt-3 text-toned">
-          Ce site est actuellement en cours de développement. Si vous avez un retour, vous pouvez
-          l’envoyer à
-          <a href="mailto:contact@petanque-fouesnantaise.fr" class="font-medium text-primary hover:underline">
-            contact@petanque-fouesnantaise.fr
-          </a>
-          ou directement à Pierre de Blois sur les terrains du club.
-        </p>
+        <div role="alert" aria-live="polite">
+          <p class="mt-3 text-toned">
+            Ce site est actuellement en cours de développement. Si vous avez un retour, vous pouvez
+            l’envoyer à
+            <a href="mailto:contact@petanque-fouesnantaise.fr" class="font-medium text-primary hover:underline">
+              contact@petanque-fouesnantaise.fr
+            </a>
+            ou directement à Pierre de Blois sur les terrains du club.
+          </p>
+        </div>
       </template>
       <template #footer>
         <div class="mt-6 flex justify-end">
