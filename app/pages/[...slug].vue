@@ -72,15 +72,21 @@ useSeoMeta({
         </template>
       </UPageHeader>
 
+      <!-- Fixed aspect box + object-cover so the article never reflows while the
+           image decodes (CLS). Studio uploads carry no dimensions in frontmatter,
+           so the ratio can't come from the content — hence a fixed 4/3 on mobile,
+           16/9 from sm up. Portrait uploads are cropped to fit, by design.
+           Eager + high priority because this is the page's LCP element. -->
       <ProseImg
         v-if="page?.image"
         :src="page.image"
         :alt="page?.title ?? ''"
         format="auto"
         sizes="sm:100vw md:768px"
-        loading="lazy"
+        loading="eager"
+        fetchpriority="high"
         placeholder
-        class="w-full rounded-2xl border border-default"
+        class="w-full aspect-[4/3] sm:aspect-video object-cover rounded-2xl border border-default"
       />
 
       <ContentRenderer v-if="page" :value="page" class="content-prose mt-8" />
