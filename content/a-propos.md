@@ -122,6 +122,14 @@ domicilié à la Mairie de Fouesnant.
 Le club est animé par une équipe de bénévoles élue chaque année en assemblée générale. 
 
 ::card-group
+  :::card{title="Jean-Michel Piguel"}
+  Co-Président
+  :::
+
+  :::card{title="Gildas Razil"}
+  Co-Président
+  :::
+
   :::card{title="Pierre de Blois"}
   Vice-Président (par interim)
   :::
