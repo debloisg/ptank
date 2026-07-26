@@ -3,6 +3,36 @@ title: Le Club
 description: Histoire, valeurs et fonctionnement de La Pétanque Fouesnantaise.
 ---
 
+## Nos activités
+
+Des sessions de formation sont proposées, des concours en équipe inter-clubs, des participations aux championnats qualificatifs ... et l'organisation de concours populaires les mercredi d'été pour les vacanciers.
+
+::callout{color="secondary" icon="i-lucide-flag"}
+Le club est ouvert toute l'année pour ses licenciés du lundi au samedi inclus de 14h à 18h dans le boulodrome couvert et certains soirs pour permettre aux plus jeune de pratiquer en semaine
+::
+
+## Entraînements et loisir
+
+La pratique loisir et les entraînements sont ouverts aux licenciés du
+**lundi au samedi après-midi, de 14h à 19h**. Voici comment se
+déroule un après-midi type :
+
+::steps
+### Tirage au sort à la mêlée
+
+À 14h, un tirage au sort (chacun met une boule dans le rond) forme des équipes en doublette ou en triplette parmi les joueurs présents.
+
+### Partie amicale
+
+Chaque partie dure environ 50 minutes, dans une ambiance conviviale et
+sportive.
+
+### Nouveau tirage
+
+Un nouveau tirage au sort est réalisé pour varier partenaires et
+adversaires.
+::
+
 ## Notre histoire
 
 La Pétanque Fouesnantaise est une association loi 1901 fondée le **9 mars
@@ -59,28 +89,6 @@ couvert de 12 terrains** (pratique par temps de pluie ou en hiver) et **plus de
 Le boulodrome se situe Allée de Loc'Hilaire, à côté du centre aquatique « Les
 Balnéides » et du terrain de football. Le siège social de l'association est
 domicilié à la Mairie de Fouesnant.
-
-## Entraînements et loisir
-
-La pratique loisir et les entraînements sont ouverts aux licenciés les
-**lundis, mercredis et samedis après-midi, de 14h à 19h**. Voici comment se
-déroule un après-midi type :
-
-::steps
-### Tirage au sort à la mêlée
-
-À 14h15, un tirage au sort forme des équipes en doublette ou en triplette parmi les joueurs--- Unknown node: hardBreak ---présents.
-
-### Partie amicale
-
-Chaque partie dure environ 50 minutes, dans une ambiance conviviale et
-sportive.
-
-### Nouveau tirage
-
-Un nouveau tirage au sort est réalisé pour varier partenaires et
-adversaires.
-::
 
 ![Joueur au tir, boules pétanque](/images/a-propos-partie.jpg){format="auto" loading="lazy" placeholder="" sizes="sm:100vw md:720px"}
 
