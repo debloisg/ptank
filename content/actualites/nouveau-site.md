@@ -1,7 +1,7 @@
 ---
 title: Le site fait peau neuve
+description: Un nouveau site simple, rapide réalisé avec les nouvelles technomogies — et un grand merci à Roger Croguennec pour dix-huit ans de bénévolat.
 date: 2026-07-23
-description: Un nouveau site plus simple, plus rapide et plus respectueux — et un grand merci à Roger Croguennec pour dix-huit ans de bénévolat.
 image: /images/IMG-5473.jpeg
 ---
 
