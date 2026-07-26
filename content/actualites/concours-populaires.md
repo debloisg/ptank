@@ -1,8 +1,8 @@
 ---
-title: Concours populaires  file
+title: Concours populaires
 description: Concours d’été ouvert à tous
 seo:
-  title: Concours populaires  file
+  title: Concours populaires d'été
   description: C
 ---
 
@@ -12,4 +12,4 @@ concours d’été 
 
 /
 
-tous les mercredi
+Tous les mercredi le club organise un concours ouvert à tous : 4 parties en doublette à partir de 14h (inscriptions 13h30)
