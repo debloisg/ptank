@@ -12,7 +12,7 @@ toute l'année.
 ### Tarifs de la saison
 
 - **Adulte** :50 € / an
-- **Jeune (- 18 ans)** : 20 € / an
+- **Jeune (- 18 ans)** : 30 € / an
 - **Découverte** : première séance gratuite
 
 ### Comment s'inscrire
