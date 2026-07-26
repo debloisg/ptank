@@ -119,7 +119,7 @@ domicilié à la Mairie de Fouesnant.
 
 ## Le bureau
 
-Le club est animé par une équipe de bénévoles. L'équipe est renouvellée partiellement chaque année en assemblée générale. 
+Le club est animé par une équipe de bénévoles. L'équipe est renouvelée partiellement chaque année en assemblée générale. 
 
 ::card-group
   :::card{title="Jean-Michel Piguel"}
