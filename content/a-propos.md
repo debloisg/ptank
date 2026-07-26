@@ -14,7 +14,7 @@ Le club est ouvert toute l'année pour ses licenciés du lundi au samedi inclus 
 ## Entraînements et loisir
 
 La pratique loisir et les entraînements sont ouverts aux licenciés du
-**lundi au samedi après-midi, de 14h à 19h**. Voici comment se
+**lundi au samedi après-midi, de 14h à 18h**. Voici comment se
 déroule un après-midi type :
 
 ::steps
