@@ -1,6 +1,6 @@
 <script setup lang="ts">
-// Lists every markdown file inside a folder (ex: /actualites) — most recent
-// first. `layout` picks card grid (news/results) or agenda rows (events/comps).
+// Lists every markdown file inside a folder (ex: /actualites), ordered by date
+// (see ORDER). `layout` picks card grid (news/results) or agenda rows (events/comps).
 const props = defineProps<{
   prefix: string
   eyebrow?: string
@@ -21,9 +21,18 @@ const COLLECTION = {
   '/resultats': 'results',
 } as const
 
+// Agenda sections (upcoming stuff) read chronologically; archives read newest
+// first.
+const ORDER = {
+  '/actualites': 'DESC',
+  '/evenements': 'ASC',
+  '/competitions': 'ASC',
+  '/resultats': 'DESC',
+} as const
+
 const { data: items } = await useAsyncData(`list-${props.prefix}`, () =>
   queryCollection(COLLECTION[props.prefix as keyof typeof COLLECTION])
-    .order('date', 'DESC')
+    .order('date', ORDER[props.prefix as keyof typeof ORDER] ?? 'DESC')
     .all(),
 )
 
