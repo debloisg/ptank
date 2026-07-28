@@ -8,7 +8,7 @@ highlights:
   - title: Terrains extérieurs
     description: Plus de 90 terrains en extérieur, à côté du centre aquatique Les Balnéides.
   - title: Entraînements loisir
-    description: Lundi, mercredi et samedi de 14h à 19h — tirage au sort à la mêlée à 14h15 pour des parties en doublette.
+    description: Du lundi au samedi de 14h à 19h — tirage au sort à la mêlée à 14h pour des parties en doublette ou en triplette.
 partners:
   - name: Agence du Steïr
     logo: /images/partenaires/agence-du-steir.jpg
@@ -96,4 +96,3 @@ stats:
     label: compétiteurs / an
 tagline: Le pointer, le tirer, le grand air breton.
 ---
-
