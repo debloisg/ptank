@@ -295,6 +295,17 @@ export default defineNuxtConfig({
       prefix: 'images',
       // Same bucket as images — defaults to r2Base (one bucket, images/ prefix).
       publicUrl: (process.env.S3_PUBLIC_URL || r2Base).trim().replace(/\/+$/, ''),
+      // Studio uploads whatever the editor picked, untouched (upstream
+      // nuxt-content/nuxt-studio#348). app/plugins/studio-media-resize.client.ts
+      // downscales in the browser first; these two are the backstop it can't
+      // bypass. 5 MB fits any phone JPEG that survived the resize — bigger means
+      // the resize was skipped, e.g. a raw dump.
+      maxFileSize: 5 * 1024 * 1024,
+      // Narrower than the default ['image/*', 'video/*', 'audio/*']. HEIC passes
+      // `image/*` but neither Chrome nor Cloudflare Image Transformations can
+      // decode it — it would upload full-size and then render broken. Video and
+      // audio can't be transformed either, so they'd stream raw out of R2.
+      allowedTypes: ['image/jpeg', 'image/png', 'image/webp', 'image/avif'],
     },
   },
 
