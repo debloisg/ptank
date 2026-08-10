@@ -70,7 +70,12 @@ const nav = [
       <span>Association de pétanque de Fouesnant · Finistère Sud</span>
     </template>
     <template #right>
-      <span>© {{ year }} La Pétanque Fouesnantaise · Tous droits réservés</span>
+      <div class="flex items-center gap-3">
+        <NuxtLink to="/mentions-legales" class="hover:text-highlighted transition-colors">
+          Mentions légales
+        </NuxtLink>
+        <span>© {{ year }} La Pétanque Fouesnantaise · Tous droits réservés</span>
+      </div>
     </template>
   </UFooter>
 </template>
