@@ -1,81 +1,85 @@
 <script setup lang="ts">
-// Site footer built on Nuxt UI's <UFooter>: the three info columns live in the
-// #top slot, the copyright bar in the main row (#left / #right).
-const year = new Date().getFullYear()
+import type { FooterColumn } from '@nuxt/ui'
 
-const nav = [
-  { label: 'Actualités', to: '/actualites' },
-  { label: 'Événements', to: '/evenements' },
-  { label: 'Compétitions', to: '/competitions' },
-  { label: 'Résultats', to: '/resultats' },
-  { label: 'Le Club', to: '/a-propos' },
-  { label: 'Contact & Adhésion', to: '/contact' },
+// Site footer: a single <UFooterColumns> section (brand block in #left, link
+// columns from `columns`) rendered inside the footer's container slot.
+const columns: FooterColumn[] = [
+  {
+    label: 'Le club',
+    children: [
+      { label: 'Le Club', to: '/a-propos' },
+      { label: 'Contact & Adhésion', to: '/contact' },
+      { label: 'Actualités', to: '/actualites' },
+    ],
+  },
+  {
+    label: 'Agenda & résultats',
+    children: [
+      { label: 'Événements', to: '/evenements' },
+      { label: 'Compétitions', to: '/competitions' },
+      { label: 'Résultats', to: '/resultats' },
+    ],
+  },
+  {
+    label: 'Nous trouver',
+    children: [
+      {
+        label: "Allée de Loc'Hilaire, 29170 Fouesnant",
+        icon: 'i-lucide-map-pin',
+        to: '/contact',
+      },
+      {
+        label: 'contact@petanque-fouesnantaise.fr',
+        icon: 'i-lucide-mail',
+        to: 'mailto:contact@petanque-fouesnantaise.fr',
+      },
+    ],
+  },
+  {
+    label: 'Informations',
+    children: [
+      { label: 'Mentions légales', to: '/mentions-legales' },
+      { label: 'Confidentialité', to: '/confidentialite' },
+    ],
+  },
 ]
 </script>
 
 <template>
   <UFooter
     class="border-t border-default bg-default"
-    :ui="{ top: 'border-b border-muted', container: 'text-xs text-muted' }"
+    :ui="{ container: 'block py-8 lg:py-12', center: 'block w-full mt-0' }"
   >
-    <!-- Info columns -->
-    <template #top>
-      <UContainer>
-        <div class="grid gap-10 sm:grid-cols-2 lg:grid-cols-3">
-          <div class="lg:col-span-1">
-            <div class="flex items-center gap-3 mb-4">
-              <span class="inline-flex items-center justify-center w-9 h-9 rounded-full bg-primary text-inverted font-serif text-xs font-semibold">
-                PF
-              </span>
-              <span class="font-serif text-lg font-semibold text-highlighted">La Pétanque Fouesnantaise</span>
-            </div>
-            <p class="text-sm text-muted max-w-xs">
-              Un club convivial à deux pas des plages de Fouesnant, où l'on joue à la pétanque toute
-              l'année, du débutant au licencié FFPJP.
-            </p>
-          </div>
-
-          <div>
-            <p class="eyebrow mb-4">Le club</p>
-            <ul class="space-y-2 text-sm">
-              <li v-for="link in nav" :key="link.to">
-                <NuxtLink :to="link.to" class="text-toned hover:text-highlighted transition-colors">
-                  {{ link.label }}
-                </NuxtLink>
-              </li>
-            </ul>
-          </div>
-
-          <div>
-            <p class="eyebrow mb-4">Nous trouver</p>
-            <ul class="space-y-3 text-sm text-toned">
-              <li class="flex items-start gap-2.5">
-                <UIcon name="i-lucide-map-pin" class="w-4 h-4 mt-0.5 shrink-0 text-primary" />
-                Allée de Loc'Hilaire, 29170 Fouesnant
-              </li>
-              <li class="flex items-center gap-2.5">
-                <UIcon name="i-lucide-mail" class="w-4 h-4 shrink-0 text-primary" />
-                <a href="mailto:contact@petanque-fouesnantaise.fr" class="hover:text-highlighted">
-                  contact@petanque-fouesnantaise.fr
-                </a>
-              </li>
-            </ul>
-          </div>
+    <UFooterColumns
+      :columns="columns"
+      :ui="{
+        // 4 link columns instead of the theme's default 2 → give the link grid
+        // 3 of 4 tracks, brand block keeps 1.
+        root: 'xl:grid-cols-4',
+        center: 'xl:col-span-3',
+        label: 'eyebrow',
+        // Theme default (mt-6 space-y-4) makes the tallest column tower over
+        // the shortest ones; tighter rows keep the columns close in height.
+        list: 'mt-4 space-y-2.5',
+        link: 'items-start',
+        // The address label is longer than its column: let it wrap instead of
+        // being clipped by the theme's default `truncate`.
+        linkLabel: 'text-clip whitespace-normal',
+        linkLeadingIcon: 'size-4 shrink-0 mt-0.5 text-primary',
+      }"
+    >
+      <template #left>
+        <div class="flex items-center gap-3 mb-4">
+          <span class="inline-flex items-center justify-center w-9 h-9 rounded-full bg-primary text-inverted font-serif text-xs font-semibold">
+            PF
+          </span>
+          <span class="font-serif text-lg font-semibold text-highlighted">Pétanque Fouesnantaise</span>
         </div>
-      </UContainer>
-    </template>
-
-    <!-- Copyright bar -->
-    <template #left>
-      <span>Association de pétanque de Fouesnant · Finistère Sud</span>
-    </template>
-    <template #right>
-      <div class="flex items-center gap-3">
-        <NuxtLink to="/mentions-legales" class="hover:text-highlighted transition-colors">
-          Mentions légales
-        </NuxtLink>
-        <span>© {{ year }} La Pétanque Fouesnantaise · Tous droits réservés</span>
-      </div>
-    </template>
+        <p class="text-sm text-muted max-w-xs">
+          Un club convivial à deux pas des plages de Fouesnant, où l'on joue à la pétanque toute
+          l'année, du débutant au licencié FFPJP.
+        </p>
+      </template>
+    </UFooterColumns>
   </UFooter>
 </template>

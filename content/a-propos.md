@@ -1,6 +1,6 @@
 ---
 title: Le Club
-description: Histoire, valeurs et fonctionnement de La Pétanque Fouesnantaise.
+description: Histoire, valeurs et fonctionnement de Pétanque Fouesnantaise.
 ---
 
 ## Nos activités
@@ -35,7 +35,7 @@ adversaires.
 
 ## Notre histoire
 
-La Pétanque Fouesnantaise est une association loi 1901 fondée le **9 mars
+Pétanque Fouesnantaise est une association loi 1901 fondée le **9 mars
 1982**. Affiliée à la FFPJP (Fédération Française de Pétanque et Jeu
 Provençal), elle fait vivre la pétanque à Fouesnant tout au long de l'année,
 du loisir du dimanche à la compétition départementale.

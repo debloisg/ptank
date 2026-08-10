@@ -30,7 +30,7 @@ const links = [
           PF
         </span>
         <span class="font-serif text-lg sm:text-xl font-semibold text-highlighted leading-none">
-          La Pétanque<span class="hidden sm:inline"> Fouesnantaise</span>
+          Pétanque<span class="hidden sm:inline"> Fouesnantaise</span>
         </span>
       </NuxtLink>
     </template>

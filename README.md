@@ -1,4 +1,4 @@
-# La Pétanque Fouesnantaise
+# Pétanque Fouesnantaise
 
 Website for the pétanque club of Fouesnant (Finistère, France).
 Built with [Nuxt](https://nuxt.com) + [Nuxt Content](https://content.nuxt.com),

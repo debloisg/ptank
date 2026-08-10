@@ -62,7 +62,7 @@ const ogImage = computed(() =>
 )
 
 useSeoMeta({
-  title: () => (page.value?.title ? `${page.value.title} · La Pétanque Fouesnantaise` : undefined),
+  title: () => (page.value?.title ? `${page.value.title} · Pétanque Fouesnantaise` : undefined),
   description: () => page.value?.description,
   ogImage: () => ogImage.value,
   twitterImage: () => ogImage.value,
@@ -96,7 +96,7 @@ if (segment === 'evenements' || segment === 'competitions') {
       },
       organizer: {
         '@type': 'Organization',
-        'name': 'La Pétanque Fouesnantaise',
+        'name': 'Pétanque Fouesnantaise',
         'url': 'https://petanque-fouesnantaise.fr',
       },
       image: () => ogImage.value,

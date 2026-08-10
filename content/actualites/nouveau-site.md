@@ -9,7 +9,7 @@ Vous l'avez peut-être remarqué si vous êtes arrivés ici : le site de l'assoc
 
 ::callout{color="secondary" icon="i-lucide-sparkles"}
 Rapide, lisible sur téléphone, et mis à jour en quelques minutes :
-voici le nouveau site de **La Pétanque Fouesnantaise**.
+voici le nouveau site de **Pétanque Fouesnantaise**.
 ::
 
 ## Merci Roger

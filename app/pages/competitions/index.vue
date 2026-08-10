@@ -5,7 +5,7 @@ const { data: cfg } = await useAsyncData('competitions-cfg', () =>
 )
 
 useSeoMeta({
-  title: () => `${cfg.value?.title ?? 'Compétitions'} · La Pétanque Fouesnantaise`,
+  title: () => `${cfg.value?.title ?? 'Compétitions'} · Pétanque Fouesnantaise`,
   description: () => cfg.value?.description ?? 'Le calendrier des compétitions officielles du club.',
 })
 </script>

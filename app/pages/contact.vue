@@ -18,8 +18,8 @@ function submit() {
 }
 
 useSeoMeta({
-  title: 'Nous rejoindre · La Pétanque Fouesnantaise',
-  description: 'Rejoignez La Pétanque Fouesnantaise ou contactez le club.',
+  title: 'Nous rejoindre · Pétanque Fouesnantaise',
+  description: 'Rejoignez Pétanque Fouesnantaise ou contactez le club.',
 })
 </script>
 

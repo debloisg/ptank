@@ -6,9 +6,9 @@ const { data: cfg } = await useAsyncData('actualites-cfg', () =>
 )
 
 useSeoMeta({
-  title: () => `${cfg.value?.title ?? 'Actualités'} · La Pétanque Fouesnantaise`,
+  title: () => `${cfg.value?.title ?? 'Actualités'} · Pétanque Fouesnantaise`,
   description: () =>
-    cfg.value?.description ?? 'Toutes les actualités et nouvelles de La Pétanque Fouesnantaise.',
+    cfg.value?.description ?? 'Toutes les actualités et nouvelles de Pétanque Fouesnantaise.',
 })
 </script>
 

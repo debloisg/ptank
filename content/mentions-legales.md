@@ -1,4 +1,7 @@
-# Mentions légales
+---
+title: Mentions légales
+description: Éditeur, hébergement et informations légales du site de Pétanque Fouesnantaise.
+---
 
 ## Éditeur du site
 
@@ -13,7 +16,7 @@ Publiée au Journal Officiel du 21 mars 1982
 Mairie de Fouesnant — Place du Général de Gaulle
 29170 Fouesnant, France
 
-**Contact :** contact@petanque-fouesnantaise.fr
+**Contact :** <contact@petanque-fouesnantaise.fr>
 
 **Directeur de la publication :** Pierre de Blois, Vice-Président
 
@@ -30,7 +33,7 @@ Affiliée à la Fédération Française de Pétanque et Jeu Provençal
 Le site est hébergé par :
 **Cloudflare, Inc.**
 101 Townsend Street, San Francisco, CA 94107, États-Unis
-https://www.cloudflare.com
+<https://www.cloudflare.com>
 
 ## Propriété intellectuelle
 
@@ -40,34 +43,11 @@ mention contraire. Toute reproduction, représentation ou
 diffusion, totale ou partielle, sans autorisation écrite
 préalable est interdite.
 
-## Données personnelles
+## Données personnelles, cookies et photographies
 
-Les informations collectées via le formulaire de contact et les
-demandes d'adhésion sont destinées exclusivement à
-Pétanque Fouesnantaise et ne font l'objet d'aucune cession à des
-tiers. Elles sont conservées 3 ans après le
-dernier contact.
-
-Conformément au Règlement général sur la protection des données
-(RGPD) et à la loi Informatique et Libertés, vous disposez d'un
-droit d'accès, de rectification, d'effacement, de limitation et
-d'opposition sur les données vous concernant. Pour l'exercer,
-écrivez à contact@petanque-fouesnantaise.fr.
-
-Vous pouvez introduire une réclamation auprès de la CNIL
-(www.cnil.fr).
-
-## Cookies
-
-Ce site ne dépose aucun cookie de mesure d'audience ni de
-publicité. Seuls les cookies strictement nécessaires à son
-fonctionnement peuvent être utilisés.
-
-## Photographies
-
-Les photographies publiées sur ce site le sont avec l'accord des
-personnes représentées. Toute personne souhaitant le retrait
-d'une image la concernant peut en faire la demande à
-contact@petanque-fouesnantaise.fr.
+Le traitement des données collectées via le formulaire de contact et
+les demandes d'adhésion, l'usage des cookies et la publication de
+photographies sont décrits dans la
+[politique de confidentialité](/confidentialite).
 
 *Dernière mise à jour : 10/08/2026*

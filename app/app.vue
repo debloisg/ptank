@@ -14,7 +14,7 @@ useSchemaOrg([
     // but it's missing from nuxt-schema-org's subtype union, hence the cast: the
     // emitted JSON-LD is what matters and Google understands SportsClub.
     '@type': 'SportsClub' as 'SportsActivityLocation',
-    'name': 'La Pétanque Fouesnantaise',
+    'name': 'Pétanque Fouesnantaise',
     'description':
       'Club de pétanque affilié à la FFPJP, à Fouesnant (Finistère). Entraînements, concours et compétitions officielles.',
     'email': 'contact@petanque-fouesnantaise.fr',

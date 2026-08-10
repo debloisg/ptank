@@ -63,7 +63,7 @@ const ctaLinks = [
 ]
 
 useSeoMeta({
-  title: () => home.value?.title ?? 'La Pétanque Fouesnantaise · Club de pétanque à Fouesnant',
+  title: () => home.value?.title ?? 'Pétanque Fouesnantaise · Club de pétanque à Fouesnant',
   description: () =>
     home.value?.description
     ?? "Un club convivial à Fouesnant (29) où l'on joue à la pétanque toute l'année, du débutant au licencié FFPJP.",
@@ -80,7 +80,7 @@ useSeoMeta({
         v-if="heroStyle === 'native'"
         orientation="horizontal"
         :headline="home?.eyebrow ?? 'Depuis 1982 · Fouesnant, Finistère'"
-        :title="home?.title ?? 'La Pétanque Fouesnantaise'"
+        :title="home?.title ?? 'Pétanque Fouesnantaise'"
         :description="home?.tagline ?? home?.description"
         :links="heroButtons"
       >
@@ -117,7 +117,7 @@ useSeoMeta({
               {{ home?.eyebrow ?? 'Depuis 1982 · Fouesnant, Finistère' }}
             </p>
             <h1 class="font-serif text-5xl sm:text-7xl font-semibold leading-[1.02] tracking-tight text-white">
-              {{ home?.title ?? 'La Pétanque Fouesnantaise' }}
+              {{ home?.title ?? 'Pétanque Fouesnantaise' }}
             </h1>
             <p v-if="home?.tagline" class="mt-5 text-xl font-medium text-clay-100">
               {{ home.tagline }}

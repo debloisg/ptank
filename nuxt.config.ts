@@ -244,7 +244,7 @@ export default defineNuxtConfig({
   // (e.g. a preview deployment).
   site: {
     url: siteUrl,
-    name: 'La Pétanque Fouesnantaise',
+    name: 'Pétanque Fouesnantaise',
     description:
       'Club de pétanque à Fouesnant (29) — actualités, événements, compétitions, résultats et adhésion.',
     defaultLocale: 'fr',
@@ -315,10 +315,10 @@ export default defineNuxtConfig({
   app: {
     head: {
       htmlAttrs: { lang: 'fr' },
-      title: 'La Pétanque Fouesnantaise',
-      // Pages already brand their own titles (e.g. "X · La Pétanque
+      title: 'Pétanque Fouesnantaise',
+      // Pages already brand their own titles (e.g. "X · Pétanque
       // Fouesnantaise"), so use the title verbatim. Without this, @nuxtjs/seo
-      // would append the site name a second time ("… | La Pétanque Fouesnantaise").
+      // would append the site name a second time ("… | Pétanque Fouesnantaise").
       titleTemplate: '%s',
       meta: [
         { name: 'viewport', content: 'width=device-width, initial-scale=1' },
