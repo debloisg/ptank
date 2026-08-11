@@ -1,0 +1,515 @@
+{
+  "key": "cc-ete",
+  "title": "Coupe du club été",
+  "kind": "photos",
+  "count": 20,
+  "years": [
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+  ],
+  "dateRange": {
+    "from": "2017-07",
+    "to": "2026"
+  },
+  "byYear": {
+    "2017": {
+      "count": 3,
+      "from": "2017-07",
+      "to": "2017-07",
+      "thumbs": [
+        {
+          "src": "/images/galerie/cc-ete/affccete176-2.jpg",
+          "w": 650,
+          "h": 765,
+          "alt": "Coupe du club été — photo d'archive du club"
+        },
+        {
+          "src": "/images/galerie/cc-ete/ccete144.jpg",
+          "w": 640,
+          "h": 291,
+          "alt": "Coupe du club été — photo d'archive du club"
+        },
+        {
+          "src": "/images/galerie/cc-ete/ccete173.jpg",
+          "w": 640,
+          "h": 590,
+          "alt": "Coupe du club été — photo d'archive du club"
+        }
+      ]
+    },
+    "2018": {
+      "count": 1,
+      "from": "2018-06",
+      "to": "2018-06",
+      "thumbs": [
+        {
+          "src": "/images/galerie/cc-ete/affccete176.jpg",
+          "w": 650,
+          "h": 765,
+          "alt": "Coupe du club été — photo d'archive du club"
+        }
+      ]
+    },
+    "2020": {
+      "count": 1,
+      "from": "2020-07-29",
+      "to": "2020-07-29",
+      "thumbs": [
+        {
+          "src": "/images/galerie/cc-ete/pet_ccete29_7_2.jpg",
+          "w": 640,
+          "h": 381,
+          "alt": "Coupe du club été — photo d'archive du club"
+        }
+      ]
+    },
+    "2022": {
+      "count": 1,
+      "from": "2022-06",
+      "to": "2022-06",
+      "thumbs": [
+        {
+          "src": "/images/galerie/cc-ete/cc_ete_22.png",
+          "w": 500,
+          "h": 707,
+          "alt": "Coupe du club été — photo d'archive du club"
+        }
+      ]
+    },
+    "2023": {
+      "count": 2,
+      "from": "2023-05-05",
+      "to": "2023-06-21",
+      "thumbs": [
+        {
+          "src": "/images/galerie/cc-ete/cc_ete23_1.jpg",
+          "w": 680,
+          "h": 314,
+          "alt": "Coupe du club été — photo d'archive du club"
+        },
+        {
+          "src": "/images/galerie/cc-ete/cc_ete_mer_23.jpg",
+          "w": 400,
+          "h": 560,
+          "alt": "Coupe du club été — photo d'archive du club"
+        }
+      ]
+    },
+    "2024": {
+      "count": 9,
+      "from": "2024-06",
+      "to": "2024-08-28",
+      "thumbs": [
+        {
+          "src": "/images/galerie/cc-ete/affiche_cc_ete2.jpg",
+          "w": 400,
+          "h": 566,
+          "alt": "Coupe du club été — photo d'archive du club"
+        },
+        {
+          "src": "/images/galerie/cc-ete/natio_plom_ete24_1.jpg",
+          "w": 800,
+          "h": 606,
+          "alt": "Coupe du club été — photo d'archive du club"
+        },
+        {
+          "src": "/images/galerie/cc-ete/nation_plom_ete24_1.jpg",
+          "w": 800,
+          "h": 514,
+          "alt": "Coupe du club été — photo d'archive du club"
+        },
+        {
+          "src": "/images/galerie/cc-ete/nation_plom_ete24_5.jpg",
+          "w": 800,
+          "h": 600,
+          "alt": "Coupe du club été — photo d'archive du club"
+        }
+      ]
+    },
+    "2025": {
+      "count": 2,
+      "from": "2025-07",
+      "to": "2025-08",
+      "thumbs": [
+        {
+          "src": "/images/galerie/cc-ete/affic_ccete_25_1.jpg",
+          "w": 1024,
+          "h": 1536,
+          "alt": "Coupe du club été — photo d'archive du club"
+        },
+        {
+          "src": "/images/galerie/cc-ete/cc_ete_3_8_25.jpg",
+          "w": 800,
+          "h": 574,
+          "alt": "Coupe du club été — photo d'archive du club"
+        }
+      ]
+    },
+    "2026": {
+      "count": 1,
+      "from": "2026",
+      "to": "2026",
+      "thumbs": [
+        {
+          "src": "/images/galerie/cc-ete/ccete_affich_26.jpg",
+          "w": 600,
+          "h": 851,
+          "alt": "Coupe du club été — photo d'archive du club"
+        }
+      ]
+    }
+  },
+  "cover": "/images/galerie/cc-ete/affic_ccete_25_1.jpg",
+  "photos": [
+    {
+      "src": "/images/galerie/cc-ete/affccete176-2.jpg",
+      "w": 650,
+      "h": 765,
+      "alt": "Coupe du club été — photo d'archive du club",
+      "date": "2017-07",
+      "dateSource": "article",
+      "title": "Journal Juillet/Août 2017",
+      "articles": [
+        {
+          "path": "/archives/2017/journal-2017-07-08",
+          "title": "Journal Juillet/Août 2017",
+          "date": "2017-07"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/cc-ete/ccete144.jpg",
+      "w": 640,
+      "h": 291,
+      "alt": "Coupe du club été — photo d'archive du club",
+      "date": "2017-07",
+      "dateSource": "article",
+      "title": "Journal Juillet/Août 2017",
+      "articles": [
+        {
+          "path": "/archives/2017/journal-2017-07-08",
+          "title": "Journal Juillet/Août 2017",
+          "date": "2017-07"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/cc-ete/ccete173.jpg",
+      "w": 640,
+      "h": 590,
+      "alt": "Coupe du club été — photo d'archive du club",
+      "date": "2017-07",
+      "dateSource": "article",
+      "title": "Journal Juillet/Août 2017",
+      "articles": [
+        {
+          "path": "/archives/2017/journal-2017-07-08",
+          "title": "Journal Juillet/Août 2017",
+          "date": "2017-07"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/cc-ete/affccete176.jpg",
+      "w": 650,
+      "h": 765,
+      "alt": "Coupe du club été — photo d'archive du club",
+      "date": "2018-06",
+      "dateSource": "article",
+      "articles": [
+        {
+          "path": "/archives/2018/journal-2018-06",
+          "title": "Journal Juin 2018",
+          "date": "2018-06"
+        },
+        {
+          "path": "/archives/2018/journal-2018-07-08",
+          "title": "Journal Juil/Août 2018",
+          "date": "2018-07"
+        },
+        {
+          "path": "/archives/2019/journal-2019-06",
+          "title": "Journal Juin 2019",
+          "date": "2019-06"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/cc-ete/pet_ccete29_7_2.jpg",
+      "w": 640,
+      "h": 381,
+      "alt": "Coupe du club été — photo d'archive du club",
+      "date": "2020-07-29",
+      "dateSource": "exif",
+      "title": "journal juillet/août 2020",
+      "articles": [
+        {
+          "path": "/archives/2020/journal-2020-07-08",
+          "title": "journal juillet/août 2020",
+          "date": "2020-07"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/cc-ete/cc_ete_22.png",
+      "w": 500,
+      "h": 707,
+      "alt": "Coupe du club été — photo d'archive du club",
+      "date": "2022-06",
+      "dateSource": "article",
+      "articles": [
+        {
+          "path": "/archives/2022/journal-2022-06",
+          "title": "journal Juin 2022",
+          "date": "2022-06"
+        },
+        {
+          "path": "/archives/2022/journal-2022-07-08",
+          "title": "journal Juill/Août 2022",
+          "date": "2022-07"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/cc-ete/cc_ete23_1.jpg",
+      "w": 680,
+      "h": 314,
+      "alt": "Coupe du club été — photo d'archive du club",
+      "date": "2023-05-05",
+      "dateSource": "exif",
+      "articles": [
+        {
+          "path": "/archives/2023/journal-2023-07",
+          "title": "Journal Juillet 23",
+          "date": "2023-07"
+        },
+        {
+          "path": "/archives/2023/journal-2023-08",
+          "title": "Journal Août 23",
+          "date": "2023-08"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/cc-ete/cc_ete_mer_23.jpg",
+      "w": 400,
+      "h": 560,
+      "alt": "Coupe du club été — photo d'archive du club",
+      "date": "2023-06-21",
+      "dateSource": "exif",
+      "articles": [
+        {
+          "path": "/archives/2023/journal-2023-06",
+          "title": "Journal Juin 23",
+          "date": "2023-06"
+        },
+        {
+          "path": "/archives/2023/journal-2023-07",
+          "title": "Journal Juillet 23",
+          "date": "2023-07"
+        },
+        {
+          "path": "/archives/2023/journal-2023-08",
+          "title": "Journal Août 23",
+          "date": "2023-08"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/cc-ete/affiche_cc_ete2.jpg",
+      "w": 400,
+      "h": 566,
+      "alt": "Coupe du club été — photo d'archive du club",
+      "date": "2024-06",
+      "dateSource": "article",
+      "articles": [
+        {
+          "path": "/archives/2024/journal-2024-06",
+          "title": "Journal Juin 24",
+          "date": "2024-06"
+        },
+        {
+          "path": "/archives/2024/journal-2024-07",
+          "title": "Journal Juillet 24",
+          "date": "2024-07"
+        },
+        {
+          "path": "/archives/2024/journal-2024-08",
+          "title": "Journal Août 24",
+          "date": "2024-08"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/cc-ete/natio_plom_ete24_1.jpg",
+      "w": 800,
+      "h": 606,
+      "alt": "Coupe du club été — photo d'archive du club",
+      "date": "2024-07",
+      "dateSource": "article",
+      "title": "Journal Juillet 24",
+      "articles": [
+        {
+          "path": "/archives/2024/journal-2024-07",
+          "title": "Journal Juillet 24",
+          "date": "2024-07"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/cc-ete/nation_plom_ete24_1.jpg",
+      "w": 800,
+      "h": 514,
+      "alt": "Coupe du club été — photo d'archive du club",
+      "date": "2024-07",
+      "dateSource": "article",
+      "title": "Journal Juillet 24",
+      "articles": [
+        {
+          "path": "/archives/2024/journal-2024-07",
+          "title": "Journal Juillet 24",
+          "date": "2024-07"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/cc-ete/nation_plom_ete24_5.jpg",
+      "w": 800,
+      "h": 600,
+      "alt": "Coupe du club été — photo d'archive du club",
+      "date": "2024-07",
+      "dateSource": "article",
+      "title": "Journal Juillet 24",
+      "articles": [
+        {
+          "path": "/archives/2024/journal-2024-07",
+          "title": "Journal Juillet 24",
+          "date": "2024-07"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/cc-ete/cc_ete_24_2eme1.jpg",
+      "w": 780,
+      "h": 585,
+      "alt": "Coupe du club été — photo d'archive du club",
+      "date": "2024-07-10",
+      "dateSource": "exif",
+      "title": "Journal Juillet 24",
+      "articles": [
+        {
+          "path": "/archives/2024/journal-2024-07",
+          "title": "Journal Juillet 24",
+          "date": "2024-07"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/cc-ete/cc-ete-j3.jpg",
+      "w": 800,
+      "h": 600,
+      "alt": "Coupe du club été — photo d'archive du club",
+      "date": "2024-07-17",
+      "dateSource": "exif",
+      "title": "Journal Juillet 24",
+      "articles": [
+        {
+          "path": "/archives/2024/journal-2024-07",
+          "title": "Journal Juillet 24",
+          "date": "2024-07"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/cc-ete/cc_ete_1.jpg",
+      "w": 800,
+      "h": 389,
+      "alt": "Coupe du club été — photo d'archive du club",
+      "date": "2024-08",
+      "dateSource": "article",
+      "title": "Journal Août 24",
+      "articles": [
+        {
+          "path": "/archives/2024/journal-2024-08",
+          "title": "Journal Août 24",
+          "date": "2024-08"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/cc-ete/cc_ete_24_2.jpg",
+      "w": 800,
+      "h": 587,
+      "alt": "Coupe du club été — photo d'archive du club",
+      "date": "2024-08",
+      "dateSource": "article",
+      "title": "Journal Août 24",
+      "articles": [
+        {
+          "path": "/archives/2024/journal-2024-08",
+          "title": "Journal Août 24",
+          "date": "2024-08"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/cc-ete/cc_ete_robin_papy.jpg",
+      "w": 800,
+      "h": 353,
+      "alt": "Coupe du club été — photo d'archive du club",
+      "date": "2024-08-28",
+      "dateSource": "exif",
+      "title": "Journal Août 24",
+      "articles": [
+        {
+          "path": "/archives/2024/journal-2024-08",
+          "title": "Journal Août 24",
+          "date": "2024-08"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/cc-ete/affic_ccete_25_1.jpg",
+      "w": 1024,
+      "h": 1536,
+      "alt": "Coupe du club été — photo d'archive du club",
+      "date": "2025-07",
+      "dateSource": "article",
+      "title": "Journal juillet 25",
+      "articles": [
+        {
+          "path": "/archives/2025/journal-2025-07",
+          "title": "Journal juillet 25",
+          "date": "2025-07"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/cc-ete/cc_ete_3_8_25.jpg",
+      "w": 800,
+      "h": 574,
+      "alt": "Coupe du club été — photo d'archive du club",
+      "date": "2025-08",
+      "dateSource": "article",
+      "title": "Journal août 25",
+      "articles": [
+        {
+          "path": "/archives/2025/journal-2025-08",
+          "title": "Journal août 25",
+          "date": "2025-08"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/cc-ete/ccete_affich_26.jpg",
+      "w": 600,
+      "h": 851,
+      "alt": "Coupe du club été — photo d'archive du club",
+      "date": "2026",
+      "dateSource": "path"
+    }
+  ]
+}

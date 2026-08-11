@@ -1,0 +1,105 @@
+{
+  "key": "phocagallery-telethon-23",
+  "title": "Téléthon 2023",
+  "kind": "photos",
+  "count": 7,
+  "years": [
+    2023
+  ],
+  "dateRange": {
+    "from": "2023",
+    "to": "2023"
+  },
+  "byYear": {
+    "2023": {
+      "count": 7,
+      "from": "2023",
+      "to": "2023",
+      "thumbs": [
+        {
+          "src": "/images/galerie/phocagallery-telethon-23/2eme_teleth.jpg",
+          "w": 1599,
+          "h": 900,
+          "alt": "Téléthon 2023 — photo d'archive du club"
+        },
+        {
+          "src": "/images/galerie/phocagallery-telethon-23/3eme_teleth.jpg",
+          "w": 1599,
+          "h": 900,
+          "alt": "Téléthon 2023 — photo d'archive du club"
+        },
+        {
+          "src": "/images/galerie/phocagallery-telethon-23/4eme_teleth.jpg",
+          "w": 1599,
+          "h": 900,
+          "alt": "Téléthon 2023 — photo d'archive du club"
+        },
+        {
+          "src": "/images/galerie/phocagallery-telethon-23/5eme_teleth.jpg",
+          "w": 1599,
+          "h": 900,
+          "alt": "Téléthon 2023 — photo d'archive du club"
+        }
+      ]
+    }
+  },
+  "cover": "/images/galerie/phocagallery-telethon-23/2eme_teleth.jpg",
+  "photos": [
+    {
+      "src": "/images/galerie/phocagallery-telethon-23/2eme_teleth.jpg",
+      "w": 1599,
+      "h": 900,
+      "alt": "Téléthon 2023 — photo d'archive du club",
+      "date": "2023",
+      "dateSource": "path"
+    },
+    {
+      "src": "/images/galerie/phocagallery-telethon-23/3eme_teleth.jpg",
+      "w": 1599,
+      "h": 900,
+      "alt": "Téléthon 2023 — photo d'archive du club",
+      "date": "2023",
+      "dateSource": "path"
+    },
+    {
+      "src": "/images/galerie/phocagallery-telethon-23/4eme_teleth.jpg",
+      "w": 1599,
+      "h": 900,
+      "alt": "Téléthon 2023 — photo d'archive du club",
+      "date": "2023",
+      "dateSource": "path"
+    },
+    {
+      "src": "/images/galerie/phocagallery-telethon-23/5eme_teleth.jpg",
+      "w": 1599,
+      "h": 900,
+      "alt": "Téléthon 2023 — photo d'archive du club",
+      "date": "2023",
+      "dateSource": "path"
+    },
+    {
+      "src": "/images/galerie/phocagallery-telethon-23/67eme_teleth.jpg",
+      "w": 900,
+      "h": 1599,
+      "alt": "Téléthon 2023 — photo d'archive du club",
+      "date": "2023",
+      "dateSource": "path"
+    },
+    {
+      "src": "/images/galerie/phocagallery-telethon-23/6eme_teleth.jpg",
+      "w": 1599,
+      "h": 900,
+      "alt": "Téléthon 2023 — photo d'archive du club",
+      "date": "2023",
+      "dateSource": "path"
+    },
+    {
+      "src": "/images/galerie/phocagallery-telethon-23/vainqueurs_1.jpg",
+      "w": 1599,
+      "h": 900,
+      "alt": "Téléthon 2023 — photo d'archive du club",
+      "date": "2023",
+      "dateSource": "path"
+    }
+  ]
+}

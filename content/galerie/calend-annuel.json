@@ -1,0 +1,319 @@
+{
+  "key": "calend-annuel",
+  "title": "Calendriers annuels",
+  "kind": "documents",
+  "count": 18,
+  "years": [
+    2021,
+    2024,
+    2025
+  ],
+  "dateRange": {
+    "from": "2020-12-21",
+    "to": "2024-11-24"
+  },
+  "byYear": {
+    "2020": {
+      "count": 4,
+      "from": "2020-12-21",
+      "to": "2020-12-21",
+      "thumbs": [
+        {
+          "src": "/images/galerie/calend-annuel/cale_21_jos.jpg",
+          "w": 800,
+          "h": 519,
+          "alt": "Calendriers annuels — photo d'archive du club"
+        },
+        {
+          "src": "/images/galerie/calend-annuel/cale_21_jfm.jpg",
+          "w": 800,
+          "h": 553,
+          "alt": "Calendriers annuels — photo d'archive du club"
+        },
+        {
+          "src": "/images/galerie/calend-annuel/cale_21_ond.jpg",
+          "w": 800,
+          "h": 532,
+          "alt": "Calendriers annuels — photo d'archive du club"
+        },
+        {
+          "src": "/images/galerie/calend-annuel/cale_21_amj.jpg",
+          "w": 800,
+          "h": 527,
+          "alt": "Calendriers annuels — photo d'archive du club"
+        }
+      ]
+    },
+    "2021": {
+      "count": 4,
+      "from": "2021",
+      "to": "2021",
+      "thumbs": [
+        {
+          "src": "/images/galerie/calend-annuel/cal_20_amj.jpg",
+          "w": 650,
+          "h": 425,
+          "alt": "Calendriers annuels — photo d'archive du club"
+        },
+        {
+          "src": "/images/galerie/calend-annuel/cal_21_jfm.jpg",
+          "w": 650,
+          "h": 453,
+          "alt": "Calendriers annuels — photo d'archive du club"
+        },
+        {
+          "src": "/images/galerie/calend-annuel/cal_21_jos_2.jpg",
+          "w": 650,
+          "h": 422,
+          "alt": "Calendriers annuels — photo d'archive du club"
+        },
+        {
+          "src": "/images/galerie/calend-annuel/cal_21_ond_1.jpg",
+          "w": 650,
+          "h": 432,
+          "alt": "Calendriers annuels — photo d'archive du club"
+        }
+      ]
+    },
+    "2024": {
+      "count": 9,
+      "from": "2024",
+      "to": "2024-11-24",
+      "thumbs": [
+        {
+          "src": "/images/galerie/calend-annuel/calend74_sect4_1.png",
+          "w": 690,
+          "h": 906,
+          "alt": "Calendriers annuels — photo d'archive du club"
+        },
+        {
+          "src": "/images/galerie/calend-annuel/cal_24_3.png",
+          "w": 690,
+          "h": 914,
+          "alt": "Calendriers annuels — photo d'archive du club"
+        },
+        {
+          "src": "/images/galerie/calend-annuel/cal_24_4.png",
+          "w": 690,
+          "h": 913,
+          "alt": "Calendriers annuels — photo d'archive du club"
+        },
+        {
+          "src": "/images/galerie/calend-annuel/cal_24_5.png",
+          "w": 690,
+          "h": 659,
+          "alt": "Calendriers annuels — photo d'archive du club"
+        }
+      ]
+    }
+  },
+  "cover": "/images/galerie/calend-annuel/cal_24_3.png",
+  "photos": [
+    {
+      "src": "/images/galerie/calend-annuel/cale_21_jos.jpg",
+      "w": 800,
+      "h": 519,
+      "alt": "Calendriers annuels — photo d'archive du club",
+      "date": "2020-12-21",
+      "dateSource": "article",
+      "title": "Calendrier provisoire 2021 ( G.Caroff)",
+      "articles": [
+        {
+          "path": "/archives/2021/calendrier-provisoire-2021-g-caroff",
+          "title": "Calendrier provisoire 2021 ( G.Caroff)",
+          "date": "2020-12-21"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/calend-annuel/cale_21_jfm.jpg",
+      "w": 800,
+      "h": 553,
+      "alt": "Calendriers annuels — photo d'archive du club",
+      "date": "2020-12-21",
+      "dateSource": "article",
+      "title": "Calendrier provisoire 2021 ( G.Caroff)",
+      "articles": [
+        {
+          "path": "/archives/2021/calendrier-provisoire-2021-g-caroff",
+          "title": "Calendrier provisoire 2021 ( G.Caroff)",
+          "date": "2020-12-21"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/calend-annuel/cale_21_ond.jpg",
+      "w": 800,
+      "h": 532,
+      "alt": "Calendriers annuels — photo d'archive du club",
+      "date": "2020-12-21",
+      "dateSource": "article",
+      "title": "Calendrier provisoire 2021 ( G.Caroff)",
+      "articles": [
+        {
+          "path": "/archives/2021/calendrier-provisoire-2021-g-caroff",
+          "title": "Calendrier provisoire 2021 ( G.Caroff)",
+          "date": "2020-12-21"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/calend-annuel/cale_21_amj.jpg",
+      "w": 800,
+      "h": 527,
+      "alt": "Calendriers annuels — photo d'archive du club",
+      "date": "2020-12-21",
+      "dateSource": "article",
+      "title": "Calendrier provisoire 2021 ( G.Caroff)",
+      "articles": [
+        {
+          "path": "/archives/2021/calendrier-provisoire-2021-g-caroff",
+          "title": "Calendrier provisoire 2021 ( G.Caroff)",
+          "date": "2020-12-21"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/calend-annuel/cal_20_amj.jpg",
+      "w": 650,
+      "h": 425,
+      "alt": "Calendriers annuels — photo d'archive du club",
+      "date": "2021",
+      "dateSource": "path"
+    },
+    {
+      "src": "/images/galerie/calend-annuel/cal_21_jfm.jpg",
+      "w": 650,
+      "h": 453,
+      "alt": "Calendriers annuels — photo d'archive du club",
+      "date": "2021",
+      "dateSource": "path"
+    },
+    {
+      "src": "/images/galerie/calend-annuel/cal_21_jos_2.jpg",
+      "w": 650,
+      "h": 422,
+      "alt": "Calendriers annuels — photo d'archive du club",
+      "date": "2021",
+      "dateSource": "path"
+    },
+    {
+      "src": "/images/galerie/calend-annuel/cal_21_ond_1.jpg",
+      "w": 650,
+      "h": 432,
+      "alt": "Calendriers annuels — photo d'archive du club",
+      "date": "2021",
+      "dateSource": "path"
+    },
+    {
+      "src": "/images/galerie/calend-annuel/calend74_sect4_1.png",
+      "w": 690,
+      "h": 906,
+      "alt": "Calendriers annuels — photo d'archive du club",
+      "date": "2024",
+      "dateSource": "path"
+    },
+    {
+      "src": "/images/galerie/calend-annuel/cal_24_3.png",
+      "w": 690,
+      "h": 914,
+      "alt": "Calendriers annuels — photo d'archive du club",
+      "date": "2024",
+      "dateSource": "path"
+    },
+    {
+      "src": "/images/galerie/calend-annuel/cal_24_4.png",
+      "w": 690,
+      "h": 913,
+      "alt": "Calendriers annuels — photo d'archive du club",
+      "date": "2024",
+      "dateSource": "path"
+    },
+    {
+      "src": "/images/galerie/calend-annuel/cal_24_5.png",
+      "w": 690,
+      "h": 659,
+      "alt": "Calendriers annuels — photo d'archive du club",
+      "date": "2024",
+      "dateSource": "path"
+    },
+    {
+      "src": "/images/galerie/calend-annuel/cal_74_2.png",
+      "w": 690,
+      "h": 905,
+      "alt": "Calendriers annuels — photo d'archive du club",
+      "date": "2024",
+      "dateSource": "path"
+    },
+    {
+      "src": "/images/galerie/calend-annuel/cal_cd29_24_1.jpg",
+      "w": 800,
+      "h": 566,
+      "alt": "Calendriers annuels — photo d'archive du club",
+      "date": "2024-11-24",
+      "dateSource": "article",
+      "title": "Calendrier CD29 2025",
+      "articles": [
+        {
+          "path": "/archives/2024/calendrier-cd29-2025",
+          "title": "Calendrier CD29 2025",
+          "date": "2024-11-24"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/calend-annuel/cal_cd29_24_2.jpg",
+      "w": 800,
+      "h": 566,
+      "alt": "Calendriers annuels — photo d'archive du club",
+      "date": "2024-11-24",
+      "dateSource": "article",
+      "title": "Calendrier CD29 2025",
+      "articles": [
+        {
+          "path": "/archives/2024/calendrier-cd29-2025",
+          "title": "Calendrier CD29 2025",
+          "date": "2024-11-24"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/calend-annuel/cal_cd29_24_3.jpg",
+      "w": 800,
+      "h": 566,
+      "alt": "Calendriers annuels — photo d'archive du club",
+      "date": "2024-11-24",
+      "dateSource": "article",
+      "title": "Calendrier CD29 2025",
+      "articles": [
+        {
+          "path": "/archives/2024/calendrier-cd29-2025",
+          "title": "Calendrier CD29 2025",
+          "date": "2024-11-24"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/calend-annuel/cal_cd29_24_4.jpg",
+      "w": 800,
+      "h": 566,
+      "alt": "Calendriers annuels — photo d'archive du club",
+      "date": "2024-11-24",
+      "dateSource": "article",
+      "title": "Calendrier CD29 2025",
+      "articles": [
+        {
+          "path": "/archives/2024/calendrier-cd29-2025",
+          "title": "Calendrier CD29 2025",
+          "date": "2024-11-24"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/calend-annuel/nx_calendrier_21_1.jpg",
+      "w": 800,
+      "h": 581,
+      "alt": "Calendriers annuels — photo d'archive du club"
+    }
+  ]
+}

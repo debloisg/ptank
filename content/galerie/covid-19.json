@@ -1,0 +1,149 @@
+{
+  "key": "covid-19",
+  "title": "Covid-19",
+  "kind": "photos",
+  "count": 6,
+  "years": [
+    2019
+  ],
+  "dateRange": {
+    "from": "2021-01",
+    "to": "2021-05"
+  },
+  "byYear": {
+    "2021": {
+      "count": 6,
+      "from": "2021-01",
+      "to": "2021-05",
+      "thumbs": [
+        {
+          "src": "/images/galerie/covid-19/act_pet_phas10.jpg",
+          "w": 800,
+          "h": 1131,
+          "alt": "Covid-19 — photo d'archive du club"
+        },
+        {
+          "src": "/images/galerie/covid-19/act_pet_phas12.jpg",
+          "w": 680,
+          "h": 961,
+          "alt": "Covid-19 — photo d'archive du club"
+        },
+        {
+          "src": "/images/galerie/covid-19/com_pet_covid_27_2_21.png",
+          "w": 800,
+          "h": 1132,
+          "alt": "Covid-19 — photo d'archive du club"
+        },
+        {
+          "src": "/images/galerie/covid-19/planreprise3.jpg",
+          "w": 680,
+          "h": 969,
+          "alt": "Covid-19 — photo d'archive du club"
+        }
+      ]
+    }
+  },
+  "cover": "/images/galerie/covid-19/calendrier_reprise_des_competitions_.jpg",
+  "photos": [
+    {
+      "src": "/images/galerie/covid-19/act_pet_phas10.jpg",
+      "w": 800,
+      "h": 1131,
+      "alt": "Covid-19 — photo d'archive du club",
+      "date": "2021-01",
+      "dateSource": "article",
+      "articles": [
+        {
+          "path": "/archives/2021/journal-2021-01",
+          "title": "Journal Janvier 2021",
+          "date": "2021-01"
+        },
+        {
+          "path": "/archives/2021/journal-2021-02-03-04",
+          "title": "Journal Février/ Mars/ Avril 2021",
+          "date": "2021-02"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/covid-19/act_pet_phas12.jpg",
+      "w": 680,
+      "h": 961,
+      "alt": "Covid-19 — photo d'archive du club",
+      "date": "2021-02",
+      "dateSource": "article",
+      "title": "Journal Février/ Mars/ Avril 2021",
+      "articles": [
+        {
+          "path": "/archives/2021/journal-2021-02-03-04",
+          "title": "Journal Février/ Mars/ Avril 2021",
+          "date": "2021-02"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/covid-19/com_pet_covid_27_2_21.png",
+      "w": 800,
+      "h": 1132,
+      "alt": "Covid-19 — photo d'archive du club",
+      "date": "2021-02",
+      "dateSource": "article",
+      "title": "Journal Février/ Mars/ Avril 2021",
+      "articles": [
+        {
+          "path": "/archives/2021/journal-2021-02-03-04",
+          "title": "Journal Février/ Mars/ Avril 2021",
+          "date": "2021-02"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/covid-19/planreprise3.jpg",
+      "w": 680,
+      "h": 969,
+      "alt": "Covid-19 — photo d'archive du club",
+      "date": "2021-02",
+      "dateSource": "article",
+      "title": "Journal Février/ Mars/ Avril 2021",
+      "articles": [
+        {
+          "path": "/archives/2021/journal-2021-02-03-04",
+          "title": "Journal Février/ Mars/ Avril 2021",
+          "date": "2021-02"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/covid-19/calendrier_reprise_des_competitions_.jpg",
+      "w": 800,
+      "h": 1156,
+      "alt": "Covid-19 — photo d'archive du club",
+      "date": "2021-05",
+      "dateSource": "article",
+      "title": "Journal Mai 2021",
+      "articles": [
+        {
+          "path": "/archives/2021/journal-2021-05",
+          "title": "Journal Mai 2021",
+          "date": "2021-05"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/covid-19/protocole_sanitaire_2.png",
+      "w": 800,
+      "h": 866,
+      "alt": "Covid-19 — photo d'archive du club",
+      "date": "2021-05",
+      "dateSource": "article",
+      "title": "Journal Mai 2021",
+      "articles": [
+        {
+          "path": "/archives/2021/journal-2021-05",
+          "title": "Journal Mai 2021",
+          "date": "2021-05"
+        }
+      ]
+    }
+  ]
+}

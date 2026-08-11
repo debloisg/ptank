@@ -1,0 +1,97 @@
+{
+  "key": "24-proven",
+  "title": "Provençale 2024",
+  "kind": "photos",
+  "count": 4,
+  "years": [
+    2024,
+    2026
+  ],
+  "dateRange": {
+    "from": "2024",
+    "to": "2025-06"
+  },
+  "byYear": {
+    "2024": {
+      "count": 2,
+      "from": "2024",
+      "to": "2024-11",
+      "thumbs": [
+        {
+          "src": "/images/galerie/24-proven/provenc_1.jpg",
+          "w": 800,
+          "h": 488,
+          "alt": "Provençale 2024 — photo d'archive du club"
+        },
+        {
+          "src": "/images/galerie/24-proven/jeu_prov1.jpg",
+          "w": 800,
+          "h": 488,
+          "alt": "Provençale 2024 — photo d'archive du club"
+        }
+      ]
+    },
+    "2025": {
+      "count": 1,
+      "from": "2025-06",
+      "to": "2025-06",
+      "thumbs": [
+        {
+          "src": "/images/galerie/24-proven/jeuprovencal1.jpg",
+          "w": 800,
+          "h": 534,
+          "alt": "Provençale 2024 — photo d'archive du club"
+        }
+      ]
+    }
+  },
+  "cover": "/images/galerie/24-proven/jeuprovencal1.jpg",
+  "photos": [
+    {
+      "src": "/images/galerie/24-proven/provenc_1.jpg",
+      "w": 800,
+      "h": 488,
+      "alt": "Provençale 2024 — photo d'archive du club",
+      "date": "2024",
+      "dateSource": "path"
+    },
+    {
+      "src": "/images/galerie/24-proven/jeu_prov1.jpg",
+      "w": 800,
+      "h": 488,
+      "alt": "Provençale 2024 — photo d'archive du club",
+      "date": "2024-11",
+      "dateSource": "article",
+      "title": "Journal Novembre 24",
+      "articles": [
+        {
+          "path": "/archives/2024/journal-2024-11",
+          "title": "Journal Novembre 24",
+          "date": "2024-11"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/24-proven/jeuprovencal1.jpg",
+      "w": 800,
+      "h": 534,
+      "alt": "Provençale 2024 — photo d'archive du club",
+      "date": "2025-06",
+      "dateSource": "article",
+      "title": "Journal juin 25",
+      "articles": [
+        {
+          "path": "/archives/2025/journal-2025-06",
+          "title": "Journal juin 25",
+          "date": "2025-06"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/24-proven/jeu_provenc1.jpg",
+      "w": 800,
+      "h": 524,
+      "alt": "Provençale 2024 — photo d'archive du club"
+    }
+  ]
+}

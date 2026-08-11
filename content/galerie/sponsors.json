@@ -1,0 +1,53 @@
+{
+  "key": "sponsors",
+  "title": "Partenaires",
+  "kind": "documents",
+  "count": 7,
+  "years": [],
+  "byYear": {},
+  "cover": "/images/galerie/sponsors/savgourm10.jpg",
+  "photos": [
+    {
+      "src": "/images/galerie/sponsors/groupeama2.jpg",
+      "w": 893,
+      "h": 336,
+      "alt": "Partenaires — photo d'archive du club"
+    },
+    {
+      "src": "/images/galerie/sponsors/louedec1.jpg",
+      "w": 400,
+      "h": 269,
+      "alt": "Partenaires — photo d'archive du club"
+    },
+    {
+      "src": "/images/galerie/sponsors/louedec2.jpg",
+      "w": 390,
+      "h": 263,
+      "alt": "Partenaires — photo d'archive du club"
+    },
+    {
+      "src": "/images/galerie/sponsors/offre_groupama.png",
+      "w": 893,
+      "h": 394,
+      "alt": "Partenaires — photo d'archive du club"
+    },
+    {
+      "src": "/images/galerie/sponsors/pub_groupama.jpg",
+      "w": 817,
+      "h": 288,
+      "alt": "Partenaires — photo d'archive du club"
+    },
+    {
+      "src": "/images/galerie/sponsors/savgourm10.jpg",
+      "w": 1280,
+      "h": 719,
+      "alt": "Partenaires — photo d'archive du club"
+    },
+    {
+      "src": "/images/galerie/sponsors/sponsor_gpeama.jpg",
+      "w": 893,
+      "h": 335,
+      "alt": "Partenaires — photo d'archive du club"
+    }
+  ]
+}

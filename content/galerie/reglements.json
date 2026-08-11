@@ -1,0 +1,144 @@
+{
+  "key": "reglements",
+  "title": "Règlements",
+  "kind": "documents",
+  "count": 5,
+  "years": [],
+  "dateRange": {
+    "from": "2018-10-30",
+    "to": "2026-01"
+  },
+  "byYear": {
+    "2018": {
+      "count": 1,
+      "from": "2018-10-30",
+      "to": "2018-10-30",
+      "thumbs": [
+        {
+          "src": "/images/galerie/reglements/tenues_rglmt_3.jpg",
+          "w": 300,
+          "h": 375,
+          "alt": "Règlements — photo d'archive du club"
+        }
+      ]
+    },
+    "2026": {
+      "count": 4,
+      "from": "2026-01",
+      "to": "2026-01",
+      "thumbs": [
+        {
+          "src": "/images/galerie/reglements/arbitrage.jpg",
+          "w": 300,
+          "h": 375,
+          "alt": "Règlements — photo d'archive du club"
+        },
+        {
+          "src": "/images/galerie/reglements/augmtion_cot.jpg",
+          "w": 300,
+          "h": 375,
+          "alt": "Règlements — photo d'archive du club"
+        },
+        {
+          "src": "/images/galerie/reglements/nlles_licences_3.jpg",
+          "w": 300,
+          "h": 375,
+          "alt": "Règlements — photo d'archive du club"
+        },
+        {
+          "src": "/images/galerie/reglements/reglt_de_jeu_1.jpg",
+          "w": 300,
+          "h": 375,
+          "alt": "Règlements — photo d'archive du club"
+        }
+      ]
+    }
+  },
+  "cover": "/images/galerie/reglements/arbitrage.jpg",
+  "photos": [
+    {
+      "src": "/images/galerie/reglements/tenues_rglmt_3.jpg",
+      "w": 300,
+      "h": 375,
+      "alt": "Règlements — photo d'archive du club",
+      "date": "2018-10-30",
+      "dateSource": "article",
+      "articles": [
+        {
+          "path": "/archives/2018/uniformisation-des-tenues",
+          "title": "Uniformisation des tenues",
+          "date": "2018-10-30"
+        },
+        {
+          "path": "/archives/2026/journal-2026-01",
+          "title": "Journal janvier 26",
+          "date": "2026-01"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/reglements/arbitrage.jpg",
+      "w": 300,
+      "h": 375,
+      "alt": "Règlements — photo d'archive du club",
+      "date": "2026-01",
+      "dateSource": "article",
+      "title": "Journal janvier 26",
+      "articles": [
+        {
+          "path": "/archives/2026/journal-2026-01",
+          "title": "Journal janvier 26",
+          "date": "2026-01"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/reglements/augmtion_cot.jpg",
+      "w": 300,
+      "h": 375,
+      "alt": "Règlements — photo d'archive du club",
+      "date": "2026-01",
+      "dateSource": "article",
+      "title": "Journal janvier 26",
+      "articles": [
+        {
+          "path": "/archives/2026/journal-2026-01",
+          "title": "Journal janvier 26",
+          "date": "2026-01"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/reglements/nlles_licences_3.jpg",
+      "w": 300,
+      "h": 375,
+      "alt": "Règlements — photo d'archive du club",
+      "date": "2026-01",
+      "dateSource": "article",
+      "title": "Journal janvier 26",
+      "articles": [
+        {
+          "path": "/archives/2026/journal-2026-01",
+          "title": "Journal janvier 26",
+          "date": "2026-01"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/reglements/reglt_de_jeu_1.jpg",
+      "w": 300,
+      "h": 375,
+      "alt": "Règlements — photo d'archive du club",
+      "date": "2026-01",
+      "dateSource": "article",
+      "title": "Journal janvier 26",
+      "articles": [
+        {
+          "path": "/archives/2026/journal-2026-01",
+          "title": "Journal janvier 26",
+          "date": "2026-01"
+        }
+      ]
+    }
+  ]
+}

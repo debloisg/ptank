@@ -21,6 +21,13 @@ const columns: FooterColumn[] = [
     ],
   },
   {
+    label: 'Archives',
+    children: [
+      { label: 'Journaux & articles', to: '/archives' },
+      { label: 'Galerie photos', to: '/archives/galerie' },
+    ],
+  },
+  {
     label: 'Nous trouver',
     children: [
       {
@@ -53,10 +60,10 @@ const columns: FooterColumn[] = [
     <UFooterColumns
       :columns="columns"
       :ui="{
-        // 4 link columns instead of the theme's default 2 → give the link grid
-        // 3 of 4 tracks, brand block keeps 1.
-        root: 'xl:grid-cols-4',
-        center: 'xl:col-span-3',
+        // 5 link columns instead of the theme's default 2 → give the link grid
+        // 4 of 5 tracks, brand block keeps 1.
+        root: 'xl:grid-cols-5',
+        center: 'xl:col-span-4',
         label: 'eyebrow',
         // Theme default (mt-6 space-y-4) makes the tallest column tower over
         // the shortest ones; tighter rows keep the columns close in height.

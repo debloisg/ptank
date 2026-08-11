@@ -1,0 +1,399 @@
+{
+  "key": "chiboudic",
+  "title": "Chiboudic",
+  "kind": "photos",
+  "count": 18,
+  "years": [
+    2019,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "dateRange": {
+    "from": "2019",
+    "to": "2025-09-27"
+  },
+  "byYear": {
+    "2019": {
+      "count": 2,
+      "from": "2019",
+      "to": "2019-09",
+      "thumbs": [
+        {
+          "src": "/images/galerie/chiboudic/chiboudic19.jpg",
+          "w": 640,
+          "h": 419,
+          "alt": "Chiboudic — photo d'archive du club"
+        },
+        {
+          "src": "/images/galerie/chiboudic/chibou19.jpg",
+          "w": 640,
+          "h": 388,
+          "alt": "Chiboudic — photo d'archive du club"
+        }
+      ]
+    },
+    "2022": {
+      "count": 1,
+      "from": "2022",
+      "to": "2022",
+      "thumbs": [
+        {
+          "src": "/images/galerie/chiboudic/handi_fou_22.jpg",
+          "w": 680,
+          "h": 413,
+          "alt": "Chiboudic — photo d'archive du club"
+        }
+      ]
+    },
+    "2023": {
+      "count": 3,
+      "from": "2023-01",
+      "to": "2023-09",
+      "thumbs": [
+        {
+          "src": "/images/galerie/chiboudic/galetchiboud23.jpg",
+          "w": 710,
+          "h": 415,
+          "alt": "Chiboudic — photo d'archive du club"
+        },
+        {
+          "src": "/images/galerie/chiboudic/chiboud1.jpg",
+          "w": 680,
+          "h": 306,
+          "alt": "Chiboudic — photo d'archive du club"
+        },
+        {
+          "src": "/images/galerie/chiboudic/chibou3.jpg",
+          "w": 700,
+          "h": 337,
+          "alt": "Chiboudic — photo d'archive du club"
+        }
+      ]
+    },
+    "2024": {
+      "count": 9,
+      "from": "2024",
+      "to": "2024-12",
+      "thumbs": [
+        {
+          "src": "/images/galerie/chiboudic/chiboudig_noel.jpg",
+          "w": 1600,
+          "h": 1200,
+          "alt": "Chiboudic — photo d'archive du club"
+        },
+        {
+          "src": "/images/galerie/chiboudic/chiboudig24.jpg",
+          "w": 800,
+          "h": 414,
+          "alt": "Chiboudic — photo d'archive du club"
+        },
+        {
+          "src": "/images/galerie/chiboudic/chib24_1.jpg",
+          "w": 800,
+          "h": 326,
+          "alt": "Chiboudic — photo d'archive du club"
+        },
+        {
+          "src": "/images/galerie/chiboudic/chib24_2.jpg",
+          "w": 800,
+          "h": 360,
+          "alt": "Chiboudic — photo d'archive du club"
+        }
+      ]
+    },
+    "2025": {
+      "count": 3,
+      "from": "2025-09",
+      "to": "2025-09-27",
+      "thumbs": [
+        {
+          "src": "/images/galerie/chiboudic/chibo_25_1.jpg",
+          "w": 800,
+          "h": 286,
+          "alt": "Chiboudic — photo d'archive du club"
+        },
+        {
+          "src": "/images/galerie/chiboudic/chibou_25_2.jpg",
+          "w": 800,
+          "h": 307,
+          "alt": "Chiboudic — photo d'archive du club"
+        },
+        {
+          "src": "/images/galerie/chiboudic/marie-laure_jacq.jpg",
+          "w": 800,
+          "h": 916,
+          "alt": "Chiboudic — photo d'archive du club"
+        }
+      ]
+    }
+  },
+  "cover": "/images/galerie/chiboudic/chiboudig_noel.jpg",
+  "photos": [
+    {
+      "src": "/images/galerie/chiboudic/chiboudic19.jpg",
+      "w": 640,
+      "h": 419,
+      "alt": "Chiboudic — photo d'archive du club",
+      "date": "2019",
+      "dateSource": "path"
+    },
+    {
+      "src": "/images/galerie/chiboudic/chibou19.jpg",
+      "w": 640,
+      "h": 388,
+      "alt": "Chiboudic — photo d'archive du club",
+      "date": "2019-09",
+      "dateSource": "article",
+      "title": "Journal Septembre 2019",
+      "articles": [
+        {
+          "path": "/archives/2019/journal-2019-09",
+          "title": "Journal Septembre 2019",
+          "date": "2019-09"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/chiboudic/handi_fou_22.jpg",
+      "w": 680,
+      "h": 413,
+      "alt": "Chiboudic — photo d'archive du club",
+      "date": "2022",
+      "dateSource": "path"
+    },
+    {
+      "src": "/images/galerie/chiboudic/galetchiboud23.jpg",
+      "w": 710,
+      "h": 415,
+      "alt": "Chiboudic — photo d'archive du club",
+      "date": "2023-01",
+      "dateSource": "article",
+      "title": "journal Janvier 23",
+      "articles": [
+        {
+          "path": "/archives/2023/journal-2023-01",
+          "title": "journal Janvier 23",
+          "date": "2023-01"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/chiboudic/chiboud1.jpg",
+      "w": 680,
+      "h": 306,
+      "alt": "Chiboudic — photo d'archive du club",
+      "date": "2023-06",
+      "dateSource": "article",
+      "title": "Journal Juin 23",
+      "articles": [
+        {
+          "path": "/archives/2023/journal-2023-06",
+          "title": "Journal Juin 23",
+          "date": "2023-06"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/chiboudic/chibou3.jpg",
+      "w": 700,
+      "h": 337,
+      "alt": "Chiboudic — photo d'archive du club",
+      "date": "2023-09",
+      "dateSource": "article",
+      "title": "Journal Septembre 23",
+      "articles": [
+        {
+          "path": "/archives/2023/journal-2023-09",
+          "title": "Journal Septembre 23",
+          "date": "2023-09"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/chiboudic/chiboudig_noel.jpg",
+      "w": 1600,
+      "h": 1200,
+      "alt": "Chiboudic — photo d'archive du club",
+      "date": "2024",
+      "dateSource": "path"
+    },
+    {
+      "src": "/images/galerie/chiboudic/chiboudig24.jpg",
+      "w": 800,
+      "h": 414,
+      "alt": "Chiboudic — photo d'archive du club",
+      "date": "2024-06",
+      "dateSource": "article",
+      "title": "Journal Juin 24",
+      "articles": [
+        {
+          "path": "/archives/2024/journal-2024-06",
+          "title": "Journal Juin 24",
+          "date": "2024-06"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/chiboudic/chib24_1.jpg",
+      "w": 800,
+      "h": 326,
+      "alt": "Chiboudic — photo d'archive du club",
+      "date": "2024-09",
+      "dateSource": "article",
+      "title": "Journal Septembre 24",
+      "articles": [
+        {
+          "path": "/archives/2024/journal-2024-09",
+          "title": "Journal Septembre 24",
+          "date": "2024-09"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/chiboudic/chib24_2.jpg",
+      "w": 800,
+      "h": 360,
+      "alt": "Chiboudic — photo d'archive du club",
+      "date": "2024-09",
+      "dateSource": "article",
+      "title": "Journal Septembre 24",
+      "articles": [
+        {
+          "path": "/archives/2024/journal-2024-09",
+          "title": "Journal Septembre 24",
+          "date": "2024-09"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/chiboudic/chib24_4.jpg",
+      "w": 800,
+      "h": 360,
+      "alt": "Chiboudic — photo d'archive du club",
+      "date": "2024-09",
+      "dateSource": "article",
+      "title": "Journal Septembre 24",
+      "articles": [
+        {
+          "path": "/archives/2024/journal-2024-09",
+          "title": "Journal Septembre 24",
+          "date": "2024-09"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/chiboudic/chib24_5.jpg",
+      "w": 400,
+      "h": 889,
+      "alt": "Chiboudic — photo d'archive du club",
+      "date": "2024-09",
+      "dateSource": "article",
+      "title": "Journal Septembre 24",
+      "articles": [
+        {
+          "path": "/archives/2024/journal-2024-09",
+          "title": "Journal Septembre 24",
+          "date": "2024-09"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/chiboudic/chib24_6.jpg",
+      "w": 400,
+      "h": 889,
+      "alt": "Chiboudic — photo d'archive du club",
+      "date": "2024-09",
+      "dateSource": "article",
+      "title": "Journal Septembre 24",
+      "articles": [
+        {
+          "path": "/archives/2024/journal-2024-09",
+          "title": "Journal Septembre 24",
+          "date": "2024-09"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/chiboudic/chib24_7.jpg",
+      "w": 400,
+      "h": 889,
+      "alt": "Chiboudic — photo d'archive du club",
+      "date": "2024-09",
+      "dateSource": "article",
+      "title": "Journal Septembre 24",
+      "articles": [
+        {
+          "path": "/archives/2024/journal-2024-09",
+          "title": "Journal Septembre 24",
+          "date": "2024-09"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/chiboudic/chiboudig_noel24.jpg",
+      "w": 700,
+      "h": 370,
+      "alt": "Chiboudic — photo d'archive du club",
+      "date": "2024-12",
+      "dateSource": "article",
+      "title": "Journal Décembre 24",
+      "articles": [
+        {
+          "path": "/archives/2024/journal-2024-12",
+          "title": "Journal Décembre 24",
+          "date": "2024-12"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/chiboudic/chibo_25_1.jpg",
+      "w": 800,
+      "h": 286,
+      "alt": "Chiboudic — photo d'archive du club",
+      "date": "2025-09",
+      "dateSource": "article",
+      "title": "Journal septembre 25",
+      "articles": [
+        {
+          "path": "/archives/2025/journal-2025-09",
+          "title": "Journal septembre 25",
+          "date": "2025-09"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/chiboudic/chibou_25_2.jpg",
+      "w": 800,
+      "h": 307,
+      "alt": "Chiboudic — photo d'archive du club",
+      "date": "2025-09",
+      "dateSource": "article",
+      "title": "Journal septembre 25",
+      "articles": [
+        {
+          "path": "/archives/2025/journal-2025-09",
+          "title": "Journal septembre 25",
+          "date": "2025-09"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/chiboudic/marie-laure_jacq.jpg",
+      "w": 800,
+      "h": 916,
+      "alt": "Chiboudic — photo d'archive du club",
+      "date": "2025-09-27",
+      "dateSource": "exif",
+      "title": "Journal septembre 25",
+      "articles": [
+        {
+          "path": "/archives/2025/journal-2025-09",
+          "title": "Journal septembre 25",
+          "date": "2025-09"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,491 @@
+{
+  "key": "telethon",
+  "title": "Téléthon",
+  "kind": "photos",
+  "count": 22,
+  "years": [
+    2019,
+    2022,
+    2024,
+    2025
+  ],
+  "dateRange": {
+    "from": "2019",
+    "to": "2025-12-06"
+  },
+  "byYear": {
+    "2019": {
+      "count": 7,
+      "from": "2019",
+      "to": "2019-12",
+      "thumbs": [
+        {
+          "src": "/images/galerie/telethon/dscf3838.jpg",
+          "w": 1024,
+          "h": 576,
+          "alt": "Téléthon — photo d'archive du club"
+        },
+        {
+          "src": "/images/galerie/telethon/dscf3831.jpg",
+          "w": 1024,
+          "h": 576,
+          "alt": "Téléthon — photo d'archive du club"
+        },
+        {
+          "src": "/images/galerie/telethon/dscf3836.jpg",
+          "w": 1024,
+          "h": 576,
+          "alt": "Téléthon — photo d'archive du club"
+        },
+        {
+          "src": "/images/galerie/telethon/dscf3837.jpg",
+          "w": 1024,
+          "h": 576,
+          "alt": "Téléthon — photo d'archive du club"
+        }
+      ]
+    },
+    "2022": {
+      "count": 4,
+      "from": "2022-11",
+      "to": "2022-12-04",
+      "thumbs": [
+        {
+          "src": "/images/galerie/telethon/telethon222.jpg",
+          "w": 600,
+          "h": 848,
+          "alt": "Téléthon — photo d'archive du club"
+        },
+        {
+          "src": "/images/galerie/telethon/teleth22_1.jpg",
+          "w": 680,
+          "h": 510,
+          "alt": "Téléthon — photo d'archive du club"
+        },
+        {
+          "src": "/images/galerie/telethon/teleth22_2.jpg",
+          "w": 680,
+          "h": 510,
+          "alt": "Téléthon — photo d'archive du club"
+        },
+        {
+          "src": "/images/galerie/telethon/telthon22_result1.jpg",
+          "w": 680,
+          "h": 958,
+          "alt": "Téléthon — photo d'archive du club"
+        }
+      ]
+    },
+    "2023": {
+      "count": 8,
+      "from": "2023-12",
+      "to": "2023-12",
+      "thumbs": [
+        {
+          "src": "/images/galerie/telethon/2me_teleth_2.jpg",
+          "w": 680,
+          "h": 383,
+          "alt": "Téléthon — photo d'archive du club"
+        },
+        {
+          "src": "/images/galerie/telethon/3eme_teleth_3.jpg",
+          "w": 680,
+          "h": 383,
+          "alt": "Téléthon — photo d'archive du club"
+        },
+        {
+          "src": "/images/galerie/telethon/4eme_teleth_4.jpg",
+          "w": 680,
+          "h": 383,
+          "alt": "Téléthon — photo d'archive du club"
+        },
+        {
+          "src": "/images/galerie/telethon/5me_teleth_5.jpg",
+          "w": 680,
+          "h": 383,
+          "alt": "Téléthon — photo d'archive du club"
+        }
+      ]
+    },
+    "2025": {
+      "count": 3,
+      "from": "2025-11",
+      "to": "2025-12-06",
+      "thumbs": [
+        {
+          "src": "/images/galerie/telethon/telethon25.jpg",
+          "w": 450,
+          "h": 675,
+          "alt": "Téléthon — photo d'archive du club"
+        },
+        {
+          "src": "/images/galerie/telethon/teleth25_2.jpg",
+          "w": 800,
+          "h": 478,
+          "alt": "Téléthon — photo d'archive du club"
+        },
+        {
+          "src": "/images/galerie/telethon/teleth25_1.jpg",
+          "w": 800,
+          "h": 800,
+          "alt": "Téléthon — photo d'archive du club"
+        }
+      ]
+    }
+  },
+  "cover": "/images/galerie/telethon/telthon22_result1.jpg",
+  "photos": [
+    {
+      "src": "/images/galerie/telethon/dscf3838.jpg",
+      "w": 1024,
+      "h": 576,
+      "alt": "Téléthon — photo d'archive du club",
+      "date": "2019",
+      "dateSource": "path"
+    },
+    {
+      "src": "/images/galerie/telethon/dscf3831.jpg",
+      "w": 1024,
+      "h": 576,
+      "alt": "Téléthon — photo d'archive du club",
+      "date": "2019-12",
+      "dateSource": "article",
+      "title": "Journal Décembre 2019",
+      "articles": [
+        {
+          "path": "/archives/2019/journal-2019-12",
+          "title": "Journal Décembre 2019",
+          "date": "2019-12"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/telethon/dscf3836.jpg",
+      "w": 1024,
+      "h": 576,
+      "alt": "Téléthon — photo d'archive du club",
+      "date": "2019-12",
+      "dateSource": "article",
+      "title": "Journal Décembre 2019",
+      "articles": [
+        {
+          "path": "/archives/2019/journal-2019-12",
+          "title": "Journal Décembre 2019",
+          "date": "2019-12"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/telethon/dscf3837.jpg",
+      "w": 1024,
+      "h": 576,
+      "alt": "Téléthon — photo d'archive du club",
+      "date": "2019-12",
+      "dateSource": "article",
+      "title": "Journal Décembre 2019",
+      "articles": [
+        {
+          "path": "/archives/2019/journal-2019-12",
+          "title": "Journal Décembre 2019",
+          "date": "2019-12"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/telethon/dscf3839.jpg",
+      "w": 1024,
+      "h": 576,
+      "alt": "Téléthon — photo d'archive du club",
+      "date": "2019-12",
+      "dateSource": "article",
+      "title": "Journal Décembre 2019",
+      "articles": [
+        {
+          "path": "/archives/2019/journal-2019-12",
+          "title": "Journal Décembre 2019",
+          "date": "2019-12"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/telethon/dscf3840.jpg",
+      "w": 1024,
+      "h": 576,
+      "alt": "Téléthon — photo d'archive du club",
+      "date": "2019-12",
+      "dateSource": "article",
+      "title": "Journal Décembre 2019",
+      "articles": [
+        {
+          "path": "/archives/2019/journal-2019-12",
+          "title": "Journal Décembre 2019",
+          "date": "2019-12"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/telethon/dscf3844.jpg",
+      "w": 1024,
+      "h": 576,
+      "alt": "Téléthon — photo d'archive du club",
+      "date": "2019-12",
+      "dateSource": "article",
+      "title": "Journal Décembre 2019",
+      "articles": [
+        {
+          "path": "/archives/2019/journal-2019-12",
+          "title": "Journal Décembre 2019",
+          "date": "2019-12"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/telethon/telethon222.jpg",
+      "w": 600,
+      "h": 848,
+      "alt": "Téléthon — photo d'archive du club",
+      "date": "2022-11",
+      "dateSource": "article",
+      "articles": [
+        {
+          "path": "/archives/2022/journal-2022-11",
+          "title": "Journal Nov 22",
+          "date": "2022-11"
+        },
+        {
+          "path": "/archives/2022/journal-2022-12",
+          "title": "journal déc 22",
+          "date": "2022-12"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/telethon/teleth22_1.jpg",
+      "w": 680,
+      "h": 510,
+      "alt": "Téléthon — photo d'archive du club",
+      "date": "2022-12-03",
+      "dateSource": "exif",
+      "title": "journal déc 22",
+      "articles": [
+        {
+          "path": "/archives/2022/journal-2022-12",
+          "title": "journal déc 22",
+          "date": "2022-12"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/telethon/teleth22_2.jpg",
+      "w": 680,
+      "h": 510,
+      "alt": "Téléthon — photo d'archive du club",
+      "date": "2022-12-03",
+      "dateSource": "exif",
+      "title": "journal déc 22",
+      "articles": [
+        {
+          "path": "/archives/2022/journal-2022-12",
+          "title": "journal déc 22",
+          "date": "2022-12"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/telethon/telthon22_result1.jpg",
+      "w": 680,
+      "h": 958,
+      "alt": "Téléthon — photo d'archive du club",
+      "date": "2022-12-04",
+      "dateSource": "exif",
+      "title": "journal déc 22",
+      "articles": [
+        {
+          "path": "/archives/2022/journal-2022-12",
+          "title": "journal déc 22",
+          "date": "2022-12"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/telethon/2me_teleth_2.jpg",
+      "w": 680,
+      "h": 383,
+      "alt": "Téléthon — photo d'archive du club",
+      "date": "2023-12",
+      "dateSource": "article",
+      "title": "Journal Décembre 23",
+      "articles": [
+        {
+          "path": "/archives/2023/journal-2023-12",
+          "title": "Journal Décembre 23",
+          "date": "2023-12"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/telethon/3eme_teleth_3.jpg",
+      "w": 680,
+      "h": 383,
+      "alt": "Téléthon — photo d'archive du club",
+      "date": "2023-12",
+      "dateSource": "article",
+      "title": "Journal Décembre 23",
+      "articles": [
+        {
+          "path": "/archives/2023/journal-2023-12",
+          "title": "Journal Décembre 23",
+          "date": "2023-12"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/telethon/4eme_teleth_4.jpg",
+      "w": 680,
+      "h": 383,
+      "alt": "Téléthon — photo d'archive du club",
+      "date": "2023-12",
+      "dateSource": "article",
+      "title": "Journal Décembre 23",
+      "articles": [
+        {
+          "path": "/archives/2023/journal-2023-12",
+          "title": "Journal Décembre 23",
+          "date": "2023-12"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/telethon/5me_teleth_5.jpg",
+      "w": 680,
+      "h": 383,
+      "alt": "Téléthon — photo d'archive du club",
+      "date": "2023-12",
+      "dateSource": "article",
+      "title": "Journal Décembre 23",
+      "articles": [
+        {
+          "path": "/archives/2023/journal-2023-12",
+          "title": "Journal Décembre 23",
+          "date": "2023-12"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/telethon/6eme_teleth_6.jpg",
+      "w": 680,
+      "h": 383,
+      "alt": "Téléthon — photo d'archive du club",
+      "date": "2023-12",
+      "dateSource": "article",
+      "title": "Journal Décembre 23",
+      "articles": [
+        {
+          "path": "/archives/2023/journal-2023-12",
+          "title": "Journal Décembre 23",
+          "date": "2023-12"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/telethon/7eme_teleth_7.jpg",
+      "w": 400,
+      "h": 711,
+      "alt": "Téléthon — photo d'archive du club",
+      "date": "2023-12",
+      "dateSource": "article",
+      "title": "Journal Décembre 23",
+      "articles": [
+        {
+          "path": "/archives/2023/journal-2023-12",
+          "title": "Journal Décembre 23",
+          "date": "2023-12"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/telethon/telethon23_3.jpg",
+      "w": 690,
+      "h": 708,
+      "alt": "Téléthon — photo d'archive du club",
+      "date": "2023-12",
+      "dateSource": "article",
+      "title": "Journal Décembre 23",
+      "articles": [
+        {
+          "path": "/archives/2023/journal-2023-12",
+          "title": "Journal Décembre 23",
+          "date": "2023-12"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/telethon/vainqueurs_1_a.jpg",
+      "w": 680,
+      "h": 383,
+      "alt": "Téléthon — photo d'archive du club",
+      "date": "2023-12",
+      "dateSource": "article",
+      "title": "Journal Décembre 23",
+      "articles": [
+        {
+          "path": "/archives/2023/journal-2023-12",
+          "title": "Journal Décembre 23",
+          "date": "2023-12"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/telethon/telethon25.jpg",
+      "w": 450,
+      "h": 675,
+      "alt": "Téléthon — photo d'archive du club",
+      "date": "2025-11",
+      "dateSource": "article",
+      "articles": [
+        {
+          "path": "/archives/2025/journal-2025-11",
+          "title": "Journal novembre 25",
+          "date": "2025-11"
+        },
+        {
+          "path": "/archives/2025/journal-2025-12",
+          "title": "Journal décembre 25",
+          "date": "2025-12"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/telethon/teleth25_2.jpg",
+      "w": 800,
+      "h": 478,
+      "alt": "Téléthon — photo d'archive du club",
+      "date": "2025-12",
+      "dateSource": "article",
+      "title": "Journal décembre 25",
+      "articles": [
+        {
+          "path": "/archives/2025/journal-2025-12",
+          "title": "Journal décembre 25",
+          "date": "2025-12"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/telethon/teleth25_1.jpg",
+      "w": 800,
+      "h": 800,
+      "alt": "Téléthon — photo d'archive du club",
+      "date": "2025-12-06",
+      "dateSource": "exif",
+      "title": "Journal décembre 25",
+      "articles": [
+        {
+          "path": "/archives/2025/journal-2025-12",
+          "title": "Journal décembre 25",
+          "date": "2025-12"
+        }
+      ]
+    }
+  ]
+}

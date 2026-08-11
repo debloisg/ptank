@@ -1,0 +1,1669 @@
+{
+  "key": "rassemblements",
+  "title": "Rassemblements",
+  "kind": "photos",
+  "count": 108,
+  "years": [
+    2013,
+    2014,
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+  ],
+  "dateRange": {
+    "from": "2013",
+    "to": "2026"
+  },
+  "byYear": {
+    "2013": {
+      "count": 13,
+      "from": "2013",
+      "to": "2013",
+      "thumbs": [
+        {
+          "src": "/images/galerie/rassemblements/rasfou2013_1.jpg",
+          "w": 960,
+          "h": 640,
+          "alt": "Rassemblements — photo d'archive du club"
+        },
+        {
+          "src": "/images/galerie/rassemblements/rasfou2013_2.jpg",
+          "w": 960,
+          "h": 640,
+          "alt": "Rassemblements — photo d'archive du club"
+        },
+        {
+          "src": "/images/galerie/rassemblements/rasfou2013_4.jpg",
+          "w": 960,
+          "h": 640,
+          "alt": "Rassemblements — photo d'archive du club"
+        },
+        {
+          "src": "/images/galerie/rassemblements/rasfou2013_5.jpg",
+          "w": 960,
+          "h": 640,
+          "alt": "Rassemblements — photo d'archive du club"
+        }
+      ]
+    },
+    "2014": {
+      "count": 24,
+      "from": "2014-04-18",
+      "to": "2014-04-18",
+      "thumbs": [
+        {
+          "src": "/images/galerie/rassemblements/rass2014_1.jpg",
+          "w": 620,
+          "h": 465,
+          "alt": "Rassemblements — photo d'archive du club"
+        },
+        {
+          "src": "/images/galerie/rassemblements/rass2014_10.jpg",
+          "w": 690,
+          "h": 518,
+          "alt": "Rassemblements — photo d'archive du club"
+        },
+        {
+          "src": "/images/galerie/rassemblements/rass2014_11.jpg",
+          "w": 690,
+          "h": 518,
+          "alt": "Rassemblements — photo d'archive du club"
+        },
+        {
+          "src": "/images/galerie/rassemblements/rass2014_15.jpg",
+          "w": 690,
+          "h": 518,
+          "alt": "Rassemblements — photo d'archive du club"
+        }
+      ]
+    },
+    "2015": {
+      "count": 2,
+      "from": "2015-03",
+      "to": "2015-04-24",
+      "thumbs": [
+        {
+          "src": "/images/galerie/rassemblements/rassfou15_1.jpg",
+          "w": 350,
+          "h": 503,
+          "alt": "Rassemblements — photo d'archive du club"
+        },
+        {
+          "src": "/images/galerie/rassemblements/rassfou151.jpg",
+          "w": 640,
+          "h": 360,
+          "alt": "Rassemblements — photo d'archive du club"
+        }
+      ]
+    },
+    "2016": {
+      "count": 7,
+      "from": "2016",
+      "to": "2016-04-29",
+      "thumbs": [
+        {
+          "src": "/images/galerie/rassemblements/rassfou16.jpg",
+          "w": 500,
+          "h": 696,
+          "alt": "Rassemblements — photo d'archive du club"
+        },
+        {
+          "src": "/images/galerie/rassemblements/rassfou161.jpg",
+          "w": 369,
+          "h": 435,
+          "alt": "Rassemblements — photo d'archive du club"
+        },
+        {
+          "src": "/images/galerie/rassemblements/rassfou163.jpg",
+          "w": 629,
+          "h": 900,
+          "alt": "Rassemblements — photo d'archive du club"
+        },
+        {
+          "src": "/images/galerie/rassemblements/rassfou162.jpg",
+          "w": 400,
+          "h": 349,
+          "alt": "Rassemblements — photo d'archive du club"
+        }
+      ]
+    },
+    "2017": {
+      "count": 7,
+      "from": "2017",
+      "to": "2017-10",
+      "thumbs": [
+        {
+          "src": "/images/galerie/rassemblements/rass-combrit-2017.jpg",
+          "w": 1440,
+          "h": 810,
+          "alt": "Rassemblements — photo d'archive du club"
+        },
+        {
+          "src": "/images/galerie/rassemblements/img592fa7186b6f5.jpg",
+          "w": 600,
+          "h": 794,
+          "alt": "Rassemblements — photo d'archive du club"
+        },
+        {
+          "src": "/images/galerie/rassemblements/rassblt-fou-171.jpg",
+          "w": 858,
+          "h": 1179,
+          "alt": "Rassemblements — photo d'archive du club"
+        },
+        {
+          "src": "/images/galerie/rassemblements/rasst1fou172.jpg",
+          "w": 640,
+          "h": 354,
+          "alt": "Rassemblements — photo d'archive du club"
+        }
+      ]
+    },
+    "2018": {
+      "count": 4,
+      "from": "2018",
+      "to": "2018-09-07",
+      "thumbs": [
+        {
+          "src": "/images/galerie/rassemblements/rass_fou-18_1.jpg",
+          "w": 640,
+          "h": 902,
+          "alt": "Rassemblements — photo d'archive du club"
+        },
+        {
+          "src": "/images/galerie/rassemblements/affrassfou18.jpg",
+          "w": 598,
+          "h": 845,
+          "alt": "Rassemblements — photo d'archive du club"
+        },
+        {
+          "src": "/images/galerie/rassemblements/rassfou18.jpg",
+          "w": 640,
+          "h": 299,
+          "alt": "Rassemblements — photo d'archive du club"
+        },
+        {
+          "src": "/images/galerie/rassemblements/rassbenod2.jpg",
+          "w": 640,
+          "h": 483,
+          "alt": "Rassemblements — photo d'archive du club"
+        }
+      ]
+    },
+    "2019": {
+      "count": 18,
+      "from": "2019",
+      "to": "2019-05-10",
+      "thumbs": [
+        {
+          "src": "/images/galerie/rassemblements/aff_rass-fou_19.jpg",
+          "w": 599,
+          "h": 845,
+          "alt": "Rassemblements — photo d'archive du club"
+        },
+        {
+          "src": "/images/galerie/rassemblements/aff_rass-fou_20.jpg",
+          "w": 599,
+          "h": 881,
+          "alt": "Rassemblements — photo d'archive du club"
+        },
+        {
+          "src": "/images/galerie/rassemblements/rassfou1910.jpg",
+          "w": 2000,
+          "h": 1125,
+          "alt": "Rassemblements — photo d'archive du club"
+        },
+        {
+          "src": "/images/galerie/rassemblements/rassfou19.jpg",
+          "w": 599,
+          "h": 845,
+          "alt": "Rassemblements — photo d'archive du club"
+        }
+      ]
+    },
+    "2020": {
+      "count": 2,
+      "from": "2020",
+      "to": "2020-04",
+      "thumbs": [
+        {
+          "src": "/images/galerie/rassemblements/aff_rass-fou_20-2.jpg",
+          "w": 599,
+          "h": 881,
+          "alt": "Rassemblements — photo d'archive du club"
+        },
+        {
+          "src": "/images/galerie/rassemblements/aff_rass-fou_201.jpg",
+          "w": 630,
+          "h": 926,
+          "alt": "Rassemblements — photo d'archive du club"
+        }
+      ]
+    },
+    "2021": {
+      "count": 1,
+      "from": "2021",
+      "to": "2021",
+      "thumbs": [
+        {
+          "src": "/images/galerie/rassemblements/rass_21.jpg",
+          "w": 599,
+          "h": 881,
+          "alt": "Rassemblements — photo d'archive du club"
+        }
+      ]
+    },
+    "2022": {
+      "count": 3,
+      "from": "2022",
+      "to": "2022-09",
+      "thumbs": [
+        {
+          "src": "/images/galerie/rassemblements/rass_fou_22.png",
+          "w": 650,
+          "h": 940,
+          "alt": "Rassemblements — photo d'archive du club"
+        },
+        {
+          "src": "/images/galerie/rassemblements/rassblt_fou_22.png",
+          "w": 680,
+          "h": 962,
+          "alt": "Rassemblements — photo d'archive du club"
+        },
+        {
+          "src": "/images/galerie/rassemblements/aff_rassblt_fou_22.png",
+          "w": 800,
+          "h": 962,
+          "alt": "Rassemblements — photo d'archive du club"
+        }
+      ]
+    },
+    "2023": {
+      "count": 4,
+      "from": "2023-04",
+      "to": "2023-09",
+      "thumbs": [
+        {
+          "src": "/images/galerie/rassemblements/affichrasst23.png",
+          "w": 650,
+          "h": 919,
+          "alt": "Rassemblements — photo d'archive du club"
+        },
+        {
+          "src": "/images/galerie/rassemblements/rassblt_fou_23.png",
+          "w": 690,
+          "h": 546,
+          "alt": "Rassemblements — photo d'archive du club"
+        },
+        {
+          "src": "/images/galerie/rassemblements/rassblt_foues_23.jpg",
+          "w": 690,
+          "h": 332,
+          "alt": "Rassemblements — photo d'archive du club"
+        },
+        {
+          "src": "/images/galerie/rassemblements/rassbltben23.jpg",
+          "w": 720,
+          "h": 588,
+          "alt": "Rassemblements — photo d'archive du club"
+        }
+      ]
+    },
+    "2024": {
+      "count": 8,
+      "from": "2024",
+      "to": "2024-09",
+      "thumbs": [
+        {
+          "src": "/images/galerie/rassemblements/affichrasst24.png",
+          "w": 650,
+          "h": 919,
+          "alt": "Rassemblements — photo d'archive du club"
+        },
+        {
+          "src": "/images/galerie/rassemblements/affich_rasst_24.png",
+          "w": 650,
+          "h": 919,
+          "alt": "Rassemblements — photo d'archive du club"
+        },
+        {
+          "src": "/images/galerie/rassemblements/affich_rasst_24_1.png",
+          "w": 650,
+          "h": 919,
+          "alt": "Rassemblements — photo d'archive du club"
+        },
+        {
+          "src": "/images/galerie/rassemblements/affich_rasst_24_2.png",
+          "w": 650,
+          "h": 919,
+          "alt": "Rassemblements — photo d'archive du club"
+        }
+      ]
+    },
+    "2025": {
+      "count": 11,
+      "from": "2025",
+      "to": "2025-05",
+      "thumbs": [
+        {
+          "src": "/images/galerie/rassemblements/circulaire-rassemblement-vtrans-04_04_2025.jpg",
+          "w": 800,
+          "h": 1131,
+          "alt": "Rassemblements — photo d'archive du club"
+        },
+        {
+          "src": "/images/galerie/rassemblements/rass25_7.jpg",
+          "w": 800,
+          "h": 600,
+          "alt": "Rassemblements — photo d'archive du club"
+        },
+        {
+          "src": "/images/galerie/rassemblements/rasse_vete_25.jpg",
+          "w": 600,
+          "h": 848,
+          "alt": "Rassemblements — photo d'archive du club"
+        },
+        {
+          "src": "/images/galerie/rassemblements/raas25_5.jpg",
+          "w": 800,
+          "h": 600,
+          "alt": "Rassemblements — photo d'archive du club"
+        }
+      ]
+    },
+    "2026": {
+      "count": 4,
+      "from": "2026",
+      "to": "2026",
+      "thumbs": [
+        {
+          "src": "/images/galerie/rassemblements/affiche_grd_prix_de_fouesnant1.jpg",
+          "w": 508,
+          "h": 720,
+          "alt": "Rassemblements — photo d'archive du club"
+        },
+        {
+          "src": "/images/galerie/rassemblements/netto_terr_26_1.jpg",
+          "w": 800,
+          "h": 449,
+          "alt": "Rassemblements — photo d'archive du club"
+        },
+        {
+          "src": "/images/galerie/rassemblements/rasblt_st_evarzec.jpg",
+          "w": 500,
+          "h": 816,
+          "alt": "Rassemblements — photo d'archive du club"
+        },
+        {
+          "src": "/images/galerie/rassemblements/rassblt_fou_26.jpg",
+          "w": 738,
+          "h": 1049,
+          "alt": "Rassemblements — photo d'archive du club"
+        }
+      ]
+    }
+  },
+  "cover": "/images/galerie/rassemblements/rassfou1910.jpg",
+  "photos": [
+    {
+      "src": "/images/galerie/rassemblements/rasfou2013_1.jpg",
+      "w": 960,
+      "h": 640,
+      "alt": "Rassemblements — photo d'archive du club",
+      "date": "2013",
+      "dateSource": "path"
+    },
+    {
+      "src": "/images/galerie/rassemblements/rasfou2013_2.jpg",
+      "w": 960,
+      "h": 640,
+      "alt": "Rassemblements — photo d'archive du club",
+      "date": "2013",
+      "dateSource": "path"
+    },
+    {
+      "src": "/images/galerie/rassemblements/rasfou2013_4.jpg",
+      "w": 960,
+      "h": 640,
+      "alt": "Rassemblements — photo d'archive du club",
+      "date": "2013",
+      "dateSource": "path"
+    },
+    {
+      "src": "/images/galerie/rassemblements/rasfou2013_5.jpg",
+      "w": 960,
+      "h": 640,
+      "alt": "Rassemblements — photo d'archive du club",
+      "date": "2013",
+      "dateSource": "path"
+    },
+    {
+      "src": "/images/galerie/rassemblements/rassfou2013_10.jpg",
+      "w": 690,
+      "h": 518,
+      "alt": "Rassemblements — photo d'archive du club",
+      "date": "2013",
+      "dateSource": "path"
+    },
+    {
+      "src": "/images/galerie/rassemblements/rassfou2013_11.jpg",
+      "w": 960,
+      "h": 720,
+      "alt": "Rassemblements — photo d'archive du club",
+      "date": "2013",
+      "dateSource": "path"
+    },
+    {
+      "src": "/images/galerie/rassemblements/rassfou2013_12.jpg",
+      "w": 690,
+      "h": 518,
+      "alt": "Rassemblements — photo d'archive du club",
+      "date": "2013",
+      "dateSource": "path"
+    },
+    {
+      "src": "/images/galerie/rassemblements/rassfou2013_14.jpg",
+      "w": 690,
+      "h": 460,
+      "alt": "Rassemblements — photo d'archive du club",
+      "date": "2013",
+      "dateSource": "path"
+    },
+    {
+      "src": "/images/galerie/rassemblements/rassfou2013_16.jpg",
+      "w": 960,
+      "h": 720,
+      "alt": "Rassemblements — photo d'archive du club",
+      "date": "2013",
+      "dateSource": "path"
+    },
+    {
+      "src": "/images/galerie/rassemblements/rassfou2013_6.jpg",
+      "w": 690,
+      "h": 460,
+      "alt": "Rassemblements — photo d'archive du club",
+      "date": "2013",
+      "dateSource": "path"
+    },
+    {
+      "src": "/images/galerie/rassemblements/rassfou2013_7.jpg",
+      "w": 690,
+      "h": 460,
+      "alt": "Rassemblements — photo d'archive du club",
+      "date": "2013",
+      "dateSource": "path"
+    },
+    {
+      "src": "/images/galerie/rassemblements/rassfou2013_8.jpg",
+      "w": 690,
+      "h": 460,
+      "alt": "Rassemblements — photo d'archive du club",
+      "date": "2013",
+      "dateSource": "path"
+    },
+    {
+      "src": "/images/galerie/rassemblements/rassfou2013_9.jpg",
+      "w": 690,
+      "h": 460,
+      "alt": "Rassemblements — photo d'archive du club",
+      "date": "2013",
+      "dateSource": "path"
+    },
+    {
+      "src": "/images/galerie/rassemblements/rass2014_1.jpg",
+      "w": 620,
+      "h": 465,
+      "alt": "Rassemblements — photo d'archive du club",
+      "date": "2014-04-18",
+      "dateSource": "exif"
+    },
+    {
+      "src": "/images/galerie/rassemblements/rass2014_10.jpg",
+      "w": 690,
+      "h": 518,
+      "alt": "Rassemblements — photo d'archive du club",
+      "date": "2014-04-18",
+      "dateSource": "exif"
+    },
+    {
+      "src": "/images/galerie/rassemblements/rass2014_11.jpg",
+      "w": 690,
+      "h": 518,
+      "alt": "Rassemblements — photo d'archive du club",
+      "date": "2014-04-18",
+      "dateSource": "exif"
+    },
+    {
+      "src": "/images/galerie/rassemblements/rass2014_15.jpg",
+      "w": 690,
+      "h": 518,
+      "alt": "Rassemblements — photo d'archive du club",
+      "date": "2014-04-18",
+      "dateSource": "exif"
+    },
+    {
+      "src": "/images/galerie/rassemblements/rass2014_1er.jpg",
+      "w": 690,
+      "h": 518,
+      "alt": "Rassemblements — photo d'archive du club",
+      "date": "2014-04-18",
+      "dateSource": "exif"
+    },
+    {
+      "src": "/images/galerie/rassemblements/rass2014_2.jpg",
+      "w": 690,
+      "h": 518,
+      "alt": "Rassemblements — photo d'archive du club",
+      "date": "2014-04-18",
+      "dateSource": "exif"
+    },
+    {
+      "src": "/images/galerie/rassemblements/rass2014_2eme.jpg",
+      "w": 620,
+      "h": 465,
+      "alt": "Rassemblements — photo d'archive du club",
+      "date": "2014-04-18",
+      "dateSource": "exif"
+    },
+    {
+      "src": "/images/galerie/rassemblements/rass2014_3.jpg",
+      "w": 690,
+      "h": 518,
+      "alt": "Rassemblements — photo d'archive du club",
+      "date": "2014-04-18",
+      "dateSource": "exif"
+    },
+    {
+      "src": "/images/galerie/rassemblements/rass2014_3eme.jpg",
+      "w": 690,
+      "h": 518,
+      "alt": "Rassemblements — photo d'archive du club",
+      "date": "2014-04-18",
+      "dateSource": "exif"
+    },
+    {
+      "src": "/images/galerie/rassemblements/rass2014_4.jpg",
+      "w": 690,
+      "h": 518,
+      "alt": "Rassemblements — photo d'archive du club",
+      "date": "2014-04-18",
+      "dateSource": "exif"
+    },
+    {
+      "src": "/images/galerie/rassemblements/rass2014_4eme.jpg",
+      "w": 690,
+      "h": 518,
+      "alt": "Rassemblements — photo d'archive du club",
+      "date": "2014-04-18",
+      "dateSource": "exif"
+    },
+    {
+      "src": "/images/galerie/rassemblements/rass2014_5.jpg",
+      "w": 690,
+      "h": 518,
+      "alt": "Rassemblements — photo d'archive du club",
+      "date": "2014-04-18",
+      "dateSource": "exif"
+    },
+    {
+      "src": "/images/galerie/rassemblements/rass2014_5eme.jpg",
+      "w": 690,
+      "h": 518,
+      "alt": "Rassemblements — photo d'archive du club",
+      "date": "2014-04-18",
+      "dateSource": "exif"
+    },
+    {
+      "src": "/images/galerie/rassemblements/rass2014_6.jpg",
+      "w": 690,
+      "h": 518,
+      "alt": "Rassemblements — photo d'archive du club",
+      "date": "2014-04-18",
+      "dateSource": "exif"
+    },
+    {
+      "src": "/images/galerie/rassemblements/rass2014_6eme.jpg",
+      "w": 690,
+      "h": 518,
+      "alt": "Rassemblements — photo d'archive du club",
+      "date": "2014-04-18",
+      "dateSource": "exif"
+    },
+    {
+      "src": "/images/galerie/rassemblements/rass2014_7.jpg",
+      "w": 690,
+      "h": 518,
+      "alt": "Rassemblements — photo d'archive du club",
+      "date": "2014-04-18",
+      "dateSource": "exif"
+    },
+    {
+      "src": "/images/galerie/rassemblements/rass2014_8.jpg",
+      "w": 690,
+      "h": 518,
+      "alt": "Rassemblements — photo d'archive du club",
+      "date": "2014-04-18",
+      "dateSource": "exif"
+    },
+    {
+      "src": "/images/galerie/rassemblements/rass2014_9.jpg",
+      "w": 690,
+      "h": 518,
+      "alt": "Rassemblements — photo d'archive du club",
+      "date": "2014-04-18",
+      "dateSource": "exif"
+    },
+    {
+      "src": "/images/galerie/rassemblements/rass2014_arb.jpg",
+      "w": 690,
+      "h": 518,
+      "alt": "Rassemblements — photo d'archive du club",
+      "date": "2014-04-18",
+      "dateSource": "exif"
+    },
+    {
+      "src": "/images/galerie/rassemblements/rass2014gagnants.jpg",
+      "w": 690,
+      "h": 518,
+      "alt": "Rassemblements — photo d'archive du club",
+      "date": "2014-04-18",
+      "dateSource": "exif"
+    },
+    {
+      "src": "/images/galerie/rassemblements/rass2014moel.jpg",
+      "w": 690,
+      "h": 518,
+      "alt": "Rassemblements — photo d'archive du club",
+      "date": "2014-04-18",
+      "dateSource": "exif"
+    },
+    {
+      "src": "/images/galerie/rassemblements/rass2014moelan.jpg",
+      "w": 690,
+      "h": 518,
+      "alt": "Rassemblements — photo d'archive du club",
+      "date": "2014-04-18",
+      "dateSource": "exif"
+    },
+    {
+      "src": "/images/galerie/rassemblements/rass2014tabmar.jpg",
+      "w": 690,
+      "h": 518,
+      "alt": "Rassemblements — photo d'archive du club",
+      "date": "2014-04-18",
+      "dateSource": "exif"
+    },
+    {
+      "src": "/images/galerie/rassemblements/rass2014vue.jpg",
+      "w": 690,
+      "h": 518,
+      "alt": "Rassemblements — photo d'archive du club",
+      "date": "2014-04-18",
+      "dateSource": "exif"
+    },
+    {
+      "src": "/images/galerie/rassemblements/rassfou15_1.jpg",
+      "w": 350,
+      "h": 503,
+      "alt": "Rassemblements — photo d'archive du club",
+      "date": "2015-03",
+      "dateSource": "article",
+      "title": "Journal Mars 2015",
+      "articles": [
+        {
+          "path": "/archives/2015/journal-2015-03",
+          "title": "Journal Mars 2015",
+          "date": "2015-03"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/rassemblements/rassfou151.jpg",
+      "w": 640,
+      "h": 360,
+      "alt": "Rassemblements — photo d'archive du club",
+      "date": "2015-04-24",
+      "dateSource": "exif",
+      "title": "Journal Avril 2015",
+      "articles": [
+        {
+          "path": "/archives/2015/journal-2015-04",
+          "title": "Journal Avril 2015",
+          "date": "2015-04"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/rassemblements/rassfou16.jpg",
+      "w": 500,
+      "h": 696,
+      "alt": "Rassemblements — photo d'archive du club",
+      "date": "2016",
+      "dateSource": "path"
+    },
+    {
+      "src": "/images/galerie/rassemblements/rassfou161.jpg",
+      "w": 369,
+      "h": 435,
+      "alt": "Rassemblements — photo d'archive du club",
+      "date": "2016",
+      "dateSource": "path"
+    },
+    {
+      "src": "/images/galerie/rassemblements/rassfou163.jpg",
+      "w": 629,
+      "h": 900,
+      "alt": "Rassemblements — photo d'archive du club",
+      "date": "2016-04",
+      "dateSource": "article",
+      "title": "Journal Avril 2016",
+      "articles": [
+        {
+          "path": "/archives/2016/journal-2016-04",
+          "title": "Journal Avril 2016",
+          "date": "2016-04"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/rassemblements/rassfou162.jpg",
+      "w": 400,
+      "h": 349,
+      "alt": "Rassemblements — photo d'archive du club",
+      "date": "2016-04",
+      "dateSource": "article",
+      "title": "Journal Avril 2016",
+      "articles": [
+        {
+          "path": "/archives/2016/journal-2016-04",
+          "title": "Journal Avril 2016",
+          "date": "2016-04"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/rassemblements/rassfou168.jpg",
+      "w": 601,
+      "h": 844,
+      "alt": "Rassemblements — photo d'archive du club",
+      "date": "2016-04",
+      "dateSource": "article",
+      "title": "Journal Avril 2016",
+      "articles": [
+        {
+          "path": "/archives/2016/journal-2016-04",
+          "title": "Journal Avril 2016",
+          "date": "2016-04"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/rassemblements/rassfoue162.jpg",
+      "w": 640,
+      "h": 427,
+      "alt": "Rassemblements — photo d'archive du club",
+      "date": "2016-04-29",
+      "dateSource": "exif",
+      "title": "Journal Avril 2016",
+      "articles": [
+        {
+          "path": "/archives/2016/journal-2016-04",
+          "title": "Journal Avril 2016",
+          "date": "2016-04"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/rassemblements/rassfoue163.jpg",
+      "w": 640,
+      "h": 427,
+      "alt": "Rassemblements — photo d'archive du club",
+      "date": "2016-04-29",
+      "dateSource": "exif",
+      "title": "Journal Avril 2016",
+      "articles": [
+        {
+          "path": "/archives/2016/journal-2016-04",
+          "title": "Journal Avril 2016",
+          "date": "2016-04"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/rassemblements/rass-combrit-2017.jpg",
+      "w": 1440,
+      "h": 810,
+      "alt": "Rassemblements — photo d'archive du club",
+      "date": "2017",
+      "dateSource": "path"
+    },
+    {
+      "src": "/images/galerie/rassemblements/img592fa7186b6f5.jpg",
+      "w": 600,
+      "h": 794,
+      "alt": "Rassemblements — photo d'archive du club",
+      "date": "2017",
+      "dateSource": "path"
+    },
+    {
+      "src": "/images/galerie/rassemblements/rassblt-fou-171.jpg",
+      "w": 858,
+      "h": 1179,
+      "alt": "Rassemblements — photo d'archive du club",
+      "date": "2017",
+      "dateSource": "path"
+    },
+    {
+      "src": "/images/galerie/rassemblements/rasst1fou172.jpg",
+      "w": 640,
+      "h": 354,
+      "alt": "Rassemblements — photo d'archive du club",
+      "date": "2017-04",
+      "dateSource": "article",
+      "title": "Journal Avril 2017",
+      "articles": [
+        {
+          "path": "/archives/2017/journal-2017-04",
+          "title": "Journal Avril 2017",
+          "date": "2017-04"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/rassemblements/rasfo172.jpg",
+      "w": 786,
+      "h": 1068,
+      "alt": "Rassemblements — photo d'archive du club",
+      "date": "2017-04",
+      "dateSource": "article",
+      "title": "Journal Avril 2017",
+      "articles": [
+        {
+          "path": "/archives/2017/journal-2017-04",
+          "title": "Journal Avril 2017",
+          "date": "2017-04"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/rassemblements/rasstfou172.jpg",
+      "w": 640,
+      "h": 361,
+      "alt": "Rassemblements — photo d'archive du club",
+      "date": "2017-04-28",
+      "dateSource": "exif",
+      "title": "Journal Avril 2017",
+      "articles": [
+        {
+          "path": "/archives/2017/journal-2017-04",
+          "title": "Journal Avril 2017",
+          "date": "2017-04"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/rassemblements/rasscomb17.jpg",
+      "w": 650,
+      "h": 389,
+      "alt": "Rassemblements — photo d'archive du club",
+      "date": "2017-10",
+      "dateSource": "article",
+      "title": "Journal Octobre 2017",
+      "articles": [
+        {
+          "path": "/archives/2017/journal-2017-10",
+          "title": "Journal Octobre 2017",
+          "date": "2017-10"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/rassemblements/rass_fou-18_1.jpg",
+      "w": 640,
+      "h": 902,
+      "alt": "Rassemblements — photo d'archive du club",
+      "date": "2018",
+      "dateSource": "path"
+    },
+    {
+      "src": "/images/galerie/rassemblements/affrassfou18.jpg",
+      "w": 598,
+      "h": 845,
+      "alt": "Rassemblements — photo d'archive du club",
+      "date": "2018-04",
+      "dateSource": "article",
+      "title": "Journal Avril 2018",
+      "articles": [
+        {
+          "path": "/archives/2018/journal-2018-04",
+          "title": "Journal Avril 2018",
+          "date": "2018-04"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/rassemblements/rassfou18.jpg",
+      "w": 640,
+      "h": 299,
+      "alt": "Rassemblements — photo d'archive du club",
+      "date": "2018-04",
+      "dateSource": "article",
+      "title": "Journal Avril 2018",
+      "articles": [
+        {
+          "path": "/archives/2018/journal-2018-04",
+          "title": "Journal Avril 2018",
+          "date": "2018-04"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/rassemblements/rassbenod2.jpg",
+      "w": 640,
+      "h": 483,
+      "alt": "Rassemblements — photo d'archive du club",
+      "date": "2018-09-07",
+      "dateSource": "exif",
+      "title": "Journal Septembre 2018",
+      "articles": [
+        {
+          "path": "/archives/2018/journal-2018-09",
+          "title": "Journal Septembre 2018",
+          "date": "2018-09"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/rassemblements/aff_rass-fou_19.jpg",
+      "w": 599,
+      "h": 845,
+      "alt": "Rassemblements — photo d'archive du club",
+      "date": "2019",
+      "dateSource": "path"
+    },
+    {
+      "src": "/images/galerie/rassemblements/aff_rass-fou_20.jpg",
+      "w": 599,
+      "h": 881,
+      "alt": "Rassemblements — photo d'archive du club",
+      "date": "2019",
+      "dateSource": "path"
+    },
+    {
+      "src": "/images/galerie/rassemblements/rassfou1910.jpg",
+      "w": 2000,
+      "h": 1125,
+      "alt": "Rassemblements — photo d'archive du club",
+      "date": "2019",
+      "dateSource": "path"
+    },
+    {
+      "src": "/images/galerie/rassemblements/rassfou19.jpg",
+      "w": 599,
+      "h": 845,
+      "alt": "Rassemblements — photo d'archive du club",
+      "date": "2019",
+      "dateSource": "path"
+    },
+    {
+      "src": "/images/galerie/rassemblements/aff_rass-fou_193.jpg",
+      "w": 599,
+      "h": 881,
+      "alt": "Rassemblements — photo d'archive du club",
+      "date": "2019-05",
+      "dateSource": "article",
+      "title": "Journal Mai 2019",
+      "articles": [
+        {
+          "path": "/archives/2019/journal-2019-05",
+          "title": "Journal Mai 2019",
+          "date": "2019-05"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/rassemblements/rassfou191.jpg",
+      "w": 630,
+      "h": 354,
+      "alt": "Rassemblements — photo d'archive du club",
+      "date": "2019-05",
+      "dateSource": "article",
+      "title": "Journal Mai 2019",
+      "articles": [
+        {
+          "path": "/archives/2019/journal-2019-05",
+          "title": "Journal Mai 2019",
+          "date": "2019-05"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/rassemblements/rassfou1912.jpg",
+      "w": 630,
+      "h": 354,
+      "alt": "Rassemblements — photo d'archive du club",
+      "date": "2019-05",
+      "dateSource": "article",
+      "title": "Journal Mai 2019",
+      "articles": [
+        {
+          "path": "/archives/2019/journal-2019-05",
+          "title": "Journal Mai 2019",
+          "date": "2019-05"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/rassemblements/rassfou1913.jpg",
+      "w": 630,
+      "h": 354,
+      "alt": "Rassemblements — photo d'archive du club",
+      "date": "2019-05",
+      "dateSource": "article",
+      "title": "Journal Mai 2019",
+      "articles": [
+        {
+          "path": "/archives/2019/journal-2019-05",
+          "title": "Journal Mai 2019",
+          "date": "2019-05"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/rassemblements/rassfou192.jpg",
+      "w": 630,
+      "h": 354,
+      "alt": "Rassemblements — photo d'archive du club",
+      "date": "2019-05",
+      "dateSource": "article",
+      "title": "Journal Mai 2019",
+      "articles": [
+        {
+          "path": "/archives/2019/journal-2019-05",
+          "title": "Journal Mai 2019",
+          "date": "2019-05"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/rassemblements/rassfou193.jpg",
+      "w": 630,
+      "h": 354,
+      "alt": "Rassemblements — photo d'archive du club",
+      "date": "2019-05",
+      "dateSource": "article",
+      "title": "Journal Mai 2019",
+      "articles": [
+        {
+          "path": "/archives/2019/journal-2019-05",
+          "title": "Journal Mai 2019",
+          "date": "2019-05"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/rassemblements/rassfou194.jpg",
+      "w": 630,
+      "h": 354,
+      "alt": "Rassemblements — photo d'archive du club",
+      "date": "2019-05",
+      "dateSource": "article",
+      "title": "Journal Mai 2019",
+      "articles": [
+        {
+          "path": "/archives/2019/journal-2019-05",
+          "title": "Journal Mai 2019",
+          "date": "2019-05"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/rassemblements/rassfou196.jpg",
+      "w": 630,
+      "h": 354,
+      "alt": "Rassemblements — photo d'archive du club",
+      "date": "2019-05",
+      "dateSource": "article",
+      "title": "Journal Mai 2019",
+      "articles": [
+        {
+          "path": "/archives/2019/journal-2019-05",
+          "title": "Journal Mai 2019",
+          "date": "2019-05"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/rassemblements/rassfou197.jpg",
+      "w": 630,
+      "h": 354,
+      "alt": "Rassemblements — photo d'archive du club",
+      "date": "2019-05",
+      "dateSource": "article",
+      "title": "Journal Mai 2019",
+      "articles": [
+        {
+          "path": "/archives/2019/journal-2019-05",
+          "title": "Journal Mai 2019",
+          "date": "2019-05"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/rassemblements/rassfou198.jpg",
+      "w": 630,
+      "h": 354,
+      "alt": "Rassemblements — photo d'archive du club",
+      "date": "2019-05",
+      "dateSource": "article",
+      "title": "Journal Mai 2019",
+      "articles": [
+        {
+          "path": "/archives/2019/journal-2019-05",
+          "title": "Journal Mai 2019",
+          "date": "2019-05"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/rassemblements/rassfou199.jpg",
+      "w": 630,
+      "h": 354,
+      "alt": "Rassemblements — photo d'archive du club",
+      "date": "2019-05",
+      "dateSource": "article",
+      "title": "Journal Mai 2019",
+      "articles": [
+        {
+          "path": "/archives/2019/journal-2019-05",
+          "title": "Journal Mai 2019",
+          "date": "2019-05"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/rassemblements/rasblt193.jpg",
+      "w": 640,
+      "h": 360,
+      "alt": "Rassemblements — photo d'archive du club",
+      "date": "2019-05",
+      "dateSource": "article",
+      "title": "Journal Mai 2019",
+      "articles": [
+        {
+          "path": "/archives/2019/journal-2019-05",
+          "title": "Journal Mai 2019",
+          "date": "2019-05"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/rassemblements/rsblt191.jpg",
+      "w": 640,
+      "h": 480,
+      "alt": "Rassemblements — photo d'archive du club",
+      "date": "2019-05-10",
+      "dateSource": "exif"
+    },
+    {
+      "src": "/images/galerie/rassemblements/rasblt192.jpg",
+      "w": 640,
+      "h": 480,
+      "alt": "Rassemblements — photo d'archive du club",
+      "date": "2019-05-10",
+      "dateSource": "exif",
+      "title": "Journal Mai 2019",
+      "articles": [
+        {
+          "path": "/archives/2019/journal-2019-05",
+          "title": "Journal Mai 2019",
+          "date": "2019-05"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/rassemblements/aff_rass-fou_20-2.jpg",
+      "w": 599,
+      "h": 881,
+      "alt": "Rassemblements — photo d'archive du club",
+      "date": "2020",
+      "dateSource": "path"
+    },
+    {
+      "src": "/images/galerie/rassemblements/aff_rass-fou_201.jpg",
+      "w": 630,
+      "h": 926,
+      "alt": "Rassemblements — photo d'archive du club",
+      "date": "2020-04",
+      "dateSource": "article",
+      "articles": [
+        {
+          "path": "/archives/2020/journal-2020-04",
+          "title": "journal avril 2020",
+          "date": "2020-04"
+        },
+        {
+          "path": "/archives/2020/journal-2020-05",
+          "title": "journal mai 2020",
+          "date": "2020-05"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/rassemblements/rass_21.jpg",
+      "w": 599,
+      "h": 881,
+      "alt": "Rassemblements — photo d'archive du club",
+      "date": "2021",
+      "dateSource": "path"
+    },
+    {
+      "src": "/images/galerie/rassemblements/rass_fou_22.png",
+      "w": 650,
+      "h": 940,
+      "alt": "Rassemblements — photo d'archive du club",
+      "date": "2022",
+      "dateSource": "path"
+    },
+    {
+      "src": "/images/galerie/rassemblements/rassblt_fou_22.png",
+      "w": 680,
+      "h": 962,
+      "alt": "Rassemblements — photo d'archive du club",
+      "date": "2022",
+      "dateSource": "path"
+    },
+    {
+      "src": "/images/galerie/rassemblements/aff_rassblt_fou_22.png",
+      "w": 800,
+      "h": 962,
+      "alt": "Rassemblements — photo d'archive du club",
+      "date": "2022-09",
+      "dateSource": "article",
+      "title": "journal Sept 2022",
+      "articles": [
+        {
+          "path": "/archives/2022/journal-2022-09",
+          "title": "journal Sept 2022",
+          "date": "2022-09"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/rassemblements/affichrasst23.png",
+      "w": 650,
+      "h": 919,
+      "alt": "Rassemblements — photo d'archive du club",
+      "date": "2023-04",
+      "dateSource": "article",
+      "articles": [
+        {
+          "path": "/archives/2023/journal-2023-04",
+          "title": "Journal Avril 23",
+          "date": "2023-04"
+        },
+        {
+          "path": "/archives/2023/journal-2023-05",
+          "title": "Journal Mai 23",
+          "date": "2023-05"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/rassemblements/rassblt_fou_23.png",
+      "w": 690,
+      "h": 546,
+      "alt": "Rassemblements — photo d'archive du club",
+      "date": "2023-05",
+      "dateSource": "article",
+      "title": "Journal Mai 23",
+      "articles": [
+        {
+          "path": "/archives/2023/journal-2023-05",
+          "title": "Journal Mai 23",
+          "date": "2023-05"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/rassemblements/rassblt_foues_23.jpg",
+      "w": 690,
+      "h": 332,
+      "alt": "Rassemblements — photo d'archive du club",
+      "date": "2023-05-05",
+      "dateSource": "exif",
+      "title": "Journal Mai 23",
+      "articles": [
+        {
+          "path": "/archives/2023/journal-2023-05",
+          "title": "Journal Mai 23",
+          "date": "2023-05"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/rassemblements/rassbltben23.jpg",
+      "w": 720,
+      "h": 588,
+      "alt": "Rassemblements — photo d'archive du club",
+      "date": "2023-09",
+      "dateSource": "article",
+      "title": "Journal Septembre 23",
+      "articles": [
+        {
+          "path": "/archives/2023/journal-2023-09",
+          "title": "Journal Septembre 23",
+          "date": "2023-09"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/rassemblements/affichrasst24.png",
+      "w": 650,
+      "h": 919,
+      "alt": "Rassemblements — photo d'archive du club",
+      "date": "2024",
+      "dateSource": "path"
+    },
+    {
+      "src": "/images/galerie/rassemblements/affich_rasst_24.png",
+      "w": 650,
+      "h": 919,
+      "alt": "Rassemblements — photo d'archive du club",
+      "date": "2024",
+      "dateSource": "path"
+    },
+    {
+      "src": "/images/galerie/rassemblements/affich_rasst_24_1.png",
+      "w": 650,
+      "h": 919,
+      "alt": "Rassemblements — photo d'archive du club",
+      "date": "2024",
+      "dateSource": "path"
+    },
+    {
+      "src": "/images/galerie/rassemblements/affich_rasst_24_2.png",
+      "w": 650,
+      "h": 919,
+      "alt": "Rassemblements — photo d'archive du club",
+      "date": "2024-04",
+      "dateSource": "article",
+      "articles": [
+        {
+          "path": "/archives/2024/journal-2024-04",
+          "title": "Journal Avril 24",
+          "date": "2024-04"
+        },
+        {
+          "path": "/archives/2024/journal-2024-05",
+          "title": "Journal Mai 24",
+          "date": "2024-05"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/rassemblements/benev_rass24_1.jpg",
+      "w": 800,
+      "h": 600,
+      "alt": "Rassemblements — photo d'archive du club",
+      "date": "2024-05",
+      "dateSource": "article",
+      "title": "Journal Mai 24",
+      "articles": [
+        {
+          "path": "/archives/2024/journal-2024-05",
+          "title": "Journal Mai 24",
+          "date": "2024-05"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/rassemblements/benev_rass24_2.jpg",
+      "w": 800,
+      "h": 475,
+      "alt": "Rassemblements — photo d'archive du club",
+      "date": "2024-05",
+      "dateSource": "article",
+      "title": "Journal Mai 24",
+      "articles": [
+        {
+          "path": "/archives/2024/journal-2024-05",
+          "title": "Journal Mai 24",
+          "date": "2024-05"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/rassemblements/phot_rass_fou_24_1.jpg",
+      "w": 800,
+      "h": 427,
+      "alt": "Rassemblements — photo d'archive du club",
+      "date": "2024-05",
+      "dateSource": "article",
+      "title": "Journal Mai 24",
+      "articles": [
+        {
+          "path": "/archives/2024/journal-2024-05",
+          "title": "Journal Mai 24",
+          "date": "2024-05"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/rassemblements/rassblt_beno_24.jpg",
+      "w": 800,
+      "h": 600,
+      "alt": "Rassemblements — photo d'archive du club",
+      "date": "2024-09",
+      "dateSource": "article",
+      "title": "Journal Septembre 24",
+      "articles": [
+        {
+          "path": "/archives/2024/journal-2024-09",
+          "title": "Journal Septembre 24",
+          "date": "2024-09"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/rassemblements/circulaire-rassemblement-vtrans-04_04_2025.jpg",
+      "w": 800,
+      "h": 1131,
+      "alt": "Rassemblements — photo d'archive du club",
+      "date": "2025",
+      "dateSource": "path"
+    },
+    {
+      "src": "/images/galerie/rassemblements/rass25_7.jpg",
+      "w": 800,
+      "h": 600,
+      "alt": "Rassemblements — photo d'archive du club",
+      "date": "2025",
+      "dateSource": "path"
+    },
+    {
+      "src": "/images/galerie/rassemblements/rasse_vete_25.jpg",
+      "w": 600,
+      "h": 848,
+      "alt": "Rassemblements — photo d'archive du club",
+      "date": "2025-04",
+      "dateSource": "article",
+      "title": "Journal avril 25",
+      "articles": [
+        {
+          "path": "/archives/2025/journal-2025-04",
+          "title": "Journal avril 25",
+          "date": "2025-04"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/rassemblements/raas25_5.jpg",
+      "w": 800,
+      "h": 600,
+      "alt": "Rassemblements — photo d'archive du club",
+      "date": "2025-05",
+      "dateSource": "article",
+      "title": "Journal mai 25",
+      "articles": [
+        {
+          "path": "/archives/2025/journal-2025-05",
+          "title": "Journal mai 25",
+          "date": "2025-05"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/rassemblements/rass25_1.jpg",
+      "w": 800,
+      "h": 600,
+      "alt": "Rassemblements — photo d'archive du club",
+      "date": "2025-05",
+      "dateSource": "article",
+      "title": "Journal mai 25",
+      "articles": [
+        {
+          "path": "/archives/2025/journal-2025-05",
+          "title": "Journal mai 25",
+          "date": "2025-05"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/rassemblements/rass25_1-2.jpg",
+      "w": 800,
+      "h": 552,
+      "alt": "Rassemblements — photo d'archive du club",
+      "date": "2025-05",
+      "dateSource": "article",
+      "title": "Journal mai 25",
+      "articles": [
+        {
+          "path": "/archives/2025/journal-2025-05",
+          "title": "Journal mai 25",
+          "date": "2025-05"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/rassemblements/rass25_10.jpg",
+      "w": 800,
+      "h": 600,
+      "alt": "Rassemblements — photo d'archive du club",
+      "date": "2025-05",
+      "dateSource": "article",
+      "title": "Journal mai 25",
+      "articles": [
+        {
+          "path": "/archives/2025/journal-2025-05",
+          "title": "Journal mai 25",
+          "date": "2025-05"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/rassemblements/rass25_11.jpg",
+      "w": 800,
+      "h": 600,
+      "alt": "Rassemblements — photo d'archive du club",
+      "date": "2025-05",
+      "dateSource": "article",
+      "title": "Journal mai 25",
+      "articles": [
+        {
+          "path": "/archives/2025/journal-2025-05",
+          "title": "Journal mai 25",
+          "date": "2025-05"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/rassemblements/rass25_2.jpg",
+      "w": 400,
+      "h": 534,
+      "alt": "Rassemblements — photo d'archive du club",
+      "date": "2025-05",
+      "dateSource": "article",
+      "title": "Journal mai 25",
+      "articles": [
+        {
+          "path": "/archives/2025/journal-2025-05",
+          "title": "Journal mai 25",
+          "date": "2025-05"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/rassemblements/rass25_2-2.jpg",
+      "w": 800,
+      "h": 493,
+      "alt": "Rassemblements — photo d'archive du club",
+      "date": "2025-05",
+      "dateSource": "article",
+      "title": "Journal mai 25",
+      "articles": [
+        {
+          "path": "/archives/2025/journal-2025-05",
+          "title": "Journal mai 25",
+          "date": "2025-05"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/rassemblements/rass25_9.jpg",
+      "w": 800,
+      "h": 600,
+      "alt": "Rassemblements — photo d'archive du club",
+      "date": "2025-05",
+      "dateSource": "article",
+      "title": "Journal mai 25",
+      "articles": [
+        {
+          "path": "/archives/2025/journal-2025-05",
+          "title": "Journal mai 25",
+          "date": "2025-05"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/rassemblements/affiche_grd_prix_de_fouesnant1.jpg",
+      "w": 508,
+      "h": 720,
+      "alt": "Rassemblements — photo d'archive du club",
+      "date": "2026",
+      "dateSource": "path"
+    },
+    {
+      "src": "/images/galerie/rassemblements/netto_terr_26_1.jpg",
+      "w": 800,
+      "h": 449,
+      "alt": "Rassemblements — photo d'archive du club",
+      "date": "2026",
+      "dateSource": "path"
+    },
+    {
+      "src": "/images/galerie/rassemblements/rasblt_st_evarzec.jpg",
+      "w": 500,
+      "h": 816,
+      "alt": "Rassemblements — photo d'archive du club",
+      "date": "2026",
+      "dateSource": "path"
+    },
+    {
+      "src": "/images/galerie/rassemblements/rassblt_fou_26.jpg",
+      "w": 738,
+      "h": 1049,
+      "alt": "Rassemblements — photo d'archive du club",
+      "date": "2026",
+      "dateSource": "path"
+    }
+  ]
+}

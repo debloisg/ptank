@@ -1,0 +1,146 @@
+{
+  "key": "affiches",
+  "title": "Affiches",
+  "kind": "documents",
+  "count": 11,
+  "years": [
+    2026
+  ],
+  "dateRange": {
+    "from": "2025-02-17",
+    "to": "2026"
+  },
+  "byYear": {
+    "2025": {
+      "count": 3,
+      "from": "2025-02-17",
+      "to": "2025-05-14",
+      "thumbs": [
+        {
+          "src": "/images/galerie/affiches/screenshot_20250217_204006_mail_orange.jpg",
+          "w": 1080,
+          "h": 1567,
+          "alt": "Affiches — photo d'archive du club"
+        },
+        {
+          "src": "/images/galerie/affiches/rassblt_st_paul_de_leon2.jpg",
+          "w": 800,
+          "h": 1132,
+          "alt": "Affiches — photo d'archive du club"
+        },
+        {
+          "src": "/images/galerie/affiches/rassblt_carhaix.jpg",
+          "w": 800,
+          "h": 1132,
+          "alt": "Affiches — photo d'archive du club"
+        }
+      ]
+    },
+    "2026": {
+      "count": 1,
+      "from": "2026",
+      "to": "2026",
+      "thumbs": [
+        {
+          "src": "/images/galerie/affiches/affiche_1er_troph_de_la_ville_de_fouesnant.jpg",
+          "w": 512,
+          "h": 720,
+          "alt": "Affiches — photo d'archive du club"
+        }
+      ]
+    }
+  },
+  "cover": "/images/galerie/affiches/rassblt_kerlouan_plus_60_ans.jpg",
+  "photos": [
+    {
+      "src": "/images/galerie/affiches/screenshot_20250217_204006_mail_orange.jpg",
+      "w": 1080,
+      "h": 1567,
+      "alt": "Affiches — photo d'archive du club",
+      "date": "2025-02-17",
+      "dateSource": "exif"
+    },
+    {
+      "src": "/images/galerie/affiches/rassblt_st_paul_de_leon2.jpg",
+      "w": 800,
+      "h": 1132,
+      "alt": "Affiches — photo d'archive du club",
+      "date": "2025-05-14",
+      "dateSource": "article",
+      "title": "Affiches propositions de compétitions",
+      "articles": [
+        {
+          "path": "/archives/2025/affiches-propositions-de-competitions",
+          "title": "Affiches propositions de compétitions",
+          "date": "2025-05-14"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/affiches/rassblt_carhaix.jpg",
+      "w": 800,
+      "h": 1132,
+      "alt": "Affiches — photo d'archive du club",
+      "date": "2025-05-14",
+      "dateSource": "article",
+      "title": "Affiches propositions de compétitions",
+      "articles": [
+        {
+          "path": "/archives/2025/affiches-propositions-de-competitions",
+          "title": "Affiches propositions de compétitions",
+          "date": "2025-05-14"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/affiches/affiche_1er_troph_de_la_ville_de_fouesnant.jpg",
+      "w": 512,
+      "h": 720,
+      "alt": "Affiches — photo d'archive du club",
+      "date": "2026",
+      "dateSource": "path"
+    },
+    {
+      "src": "/images/galerie/affiches/affic_jour_fem_-_28sept_1.jpg",
+      "w": 1125,
+      "h": 1500,
+      "alt": "Affiches — photo d'archive du club"
+    },
+    {
+      "src": "/images/galerie/affiches/affiche_25_mai_marathon_senior_veteran_ok_1_page-0001.jpg",
+      "w": 900,
+      "h": 1273,
+      "alt": "Affiches — photo d'archive du club"
+    },
+    {
+      "src": "/images/galerie/affiches/rassblt_kerlouan_plus_60_ans.jpg",
+      "w": 1240,
+      "h": 1755,
+      "alt": "Affiches — photo d'archive du club"
+    },
+    {
+      "src": "/images/galerie/affiches/affi_chal_amit1.jpg",
+      "w": 1000,
+      "h": 1414,
+      "alt": "Affiches — photo d'archive du club"
+    },
+    {
+      "src": "/images/galerie/affiches/cc_ete25_plom.png",
+      "w": 500,
+      "h": 708,
+      "alt": "Affiches — photo d'archive du club"
+    },
+    {
+      "src": "/images/galerie/affiches/rassblt_ergue.jpg",
+      "w": 849,
+      "h": 1200,
+      "alt": "Affiches — photo d'archive du club"
+    },
+    {
+      "src": "/images/galerie/affiches/restau_rass_kerlouan.png",
+      "w": 991,
+      "h": 959,
+      "alt": "Affiches — photo d'archive du club"
+    }
+  ]
+}

@@ -28,3 +28,7 @@ logs
 # Local tooling / editor state (may hold machine-specific config)
 .claude/
 .mcp.json
+
+# One-time archive import staging (~330MB of Joomla-era originals). The SFTP
+# backup is the master; scripts/import-archive*.mjs regenerate this from it.
+.archive-import/

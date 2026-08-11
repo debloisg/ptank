@@ -1,0 +1,173 @@
+{
+  "key": "scan-carnet",
+  "title": "Carnets scannés",
+  "kind": "documents",
+  "count": 27,
+  "years": [],
+  "byYear": {},
+  "cover": "/images/galerie/scan-carnet/n_cbrt.jpg",
+  "photos": [
+    {
+      "src": "/images/galerie/scan-carnet/d_conc.jpg",
+      "w": 640,
+      "h": 867,
+      "alt": "Carnets scannés — photo d'archive du club"
+    },
+    {
+      "src": "/images/galerie/scan-carnet/d_pldl.jpg",
+      "w": 640,
+      "h": 579,
+      "alt": "Carnets scannés — photo d'archive du club"
+    },
+    {
+      "src": "/images/galerie/scan-carnet/d_ptav.jpg",
+      "w": 640,
+      "h": 656,
+      "alt": "Carnets scannés — photo d'archive du club"
+    },
+    {
+      "src": "/images/galerie/scan-carnet/d_quilesebac.jpg",
+      "w": 630,
+      "h": 719,
+      "alt": "Carnets scannés — photo d'archive du club"
+    },
+    {
+      "src": "/images/galerie/scan-carnet/d_qule.jpg",
+      "w": 630,
+      "h": 545,
+      "alt": "Carnets scannés — photo d'archive du club"
+    },
+    {
+      "src": "/images/galerie/scan-carnet/d_sttheg.jpg",
+      "w": 630,
+      "h": 537,
+      "alt": "Carnets scannés — photo d'archive du club"
+    },
+    {
+      "src": "/images/galerie/scan-carnet/n_cbrt.jpg",
+      "w": 630,
+      "h": 983,
+      "alt": "Carnets scannés — photo d'archive du club"
+    },
+    {
+      "src": "/images/galerie/scan-carnet/r_bent.jpg",
+      "w": 630,
+      "h": 675,
+      "alt": "Carnets scannés — photo d'archive du club"
+    },
+    {
+      "src": "/images/galerie/scan-carnet/r_carh.jpg",
+      "w": 630,
+      "h": 572,
+      "alt": "Carnets scannés — photo d'archive du club"
+    },
+    {
+      "src": "/images/galerie/scan-carnet/r_coat.jpg",
+      "w": 630,
+      "h": 664,
+      "alt": "Carnets scannés — photo d'archive du club"
+    },
+    {
+      "src": "/images/galerie/scan-carnet/r_comb.jpg",
+      "w": 630,
+      "h": 558,
+      "alt": "Carnets scannés — photo d'archive du club"
+    },
+    {
+      "src": "/images/galerie/scan-carnet/r_foue.jpg",
+      "w": 630,
+      "h": 667,
+      "alt": "Carnets scannés — photo d'archive du club"
+    },
+    {
+      "src": "/images/galerie/scan-carnet/r_kerhu.jpg",
+      "w": 630,
+      "h": 658,
+      "alt": "Carnets scannés — photo d'archive du club"
+    },
+    {
+      "src": "/images/galerie/scan-carnet/r_kerln.jpg",
+      "w": 630,
+      "h": 632,
+      "alt": "Carnets scannés — photo d'archive du club"
+    },
+    {
+      "src": "/images/galerie/scan-carnet/r_ledren.jpg",
+      "w": 630,
+      "h": 737,
+      "alt": "Carnets scannés — photo d'archive du club"
+    },
+    {
+      "src": "/images/galerie/scan-carnet/r_plabe.jpg",
+      "w": 630,
+      "h": 526,
+      "alt": "Carnets scannés — photo d'archive du club"
+    },
+    {
+      "src": "/images/galerie/scan-carnet/r_plodu.jpg",
+      "w": 630,
+      "h": 523,
+      "alt": "Carnets scannés — photo d'archive du club"
+    },
+    {
+      "src": "/images/galerie/scan-carnet/r_plolmo.jpg",
+      "w": 630,
+      "h": 602,
+      "alt": "Carnets scannés — photo d'archive du club"
+    },
+    {
+      "src": "/images/galerie/scan-carnet/r_plomz.jpg",
+      "w": 630,
+      "h": 439,
+      "alt": "Carnets scannés — photo d'archive du club"
+    },
+    {
+      "src": "/images/galerie/scan-carnet/r_ploudl.jpg",
+      "w": 630,
+      "h": 561,
+      "alt": "Carnets scannés — photo d'archive du club"
+    },
+    {
+      "src": "/images/galerie/scan-carnet/r_ptlab.jpg",
+      "w": 630,
+      "h": 530,
+      "alt": "Carnets scannés — photo d'archive du club"
+    },
+    {
+      "src": "/images/galerie/scan-carnet/r_stmart.jpg",
+      "w": 630,
+      "h": 634,
+      "alt": "Carnets scannés — photo d'archive du club"
+    },
+    {
+      "src": "/images/galerie/scan-carnet/r_tregueux.jpg",
+      "w": 630,
+      "h": 421,
+      "alt": "Carnets scannés — photo d'archive du club"
+    },
+    {
+      "src": "/images/galerie/scan-carnet/rasskerlou.jpg",
+      "w": 640,
+      "h": 646,
+      "alt": "Carnets scannés — photo d'archive du club"
+    },
+    {
+      "src": "/images/galerie/scan-carnet/re-plodl.jpg",
+      "w": 640,
+      "h": 478,
+      "alt": "Carnets scannés — photo d'archive du club"
+    },
+    {
+      "src": "/images/galerie/scan-carnet/re_banna.jpg",
+      "w": 630,
+      "h": 556,
+      "alt": "Carnets scannés — photo d'archive du club"
+    },
+    {
+      "src": "/images/galerie/scan-carnet/re_lesne.jpg",
+      "w": 630,
+      "h": 420,
+      "alt": "Carnets scannés — photo d'archive du club"
+    }
+  ]
+}

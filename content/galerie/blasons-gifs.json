@@ -1,0 +1,587 @@
+{
+  "key": "blasons-gifs",
+  "title": "Blasons",
+  "kind": "documents",
+  "count": 23,
+  "years": [
+    2026
+  ],
+  "dateRange": {
+    "from": "2013-07-14",
+    "to": "2026-01"
+  },
+  "byYear": {
+    "2013": {
+      "count": 1,
+      "from": "2013-07-14",
+      "to": "2013-07-14",
+      "thumbs": [
+        {
+          "src": "/images/galerie/blasons-gifs/nxlogopf1-2.jpg",
+          "w": 490,
+          "h": 95,
+          "alt": "Blasons — photo d'archive du club"
+        }
+      ]
+    },
+    "2014": {
+      "count": 2,
+      "from": "2014-12",
+      "to": "2014-12",
+      "thumbs": [
+        {
+          "src": "/images/galerie/blasons-gifs/logopet1.jpg",
+          "w": 395,
+          "h": 95,
+          "alt": "Blasons — photo d'archive du club"
+        },
+        {
+          "src": "/images/galerie/blasons-gifs/noel2.jpg",
+          "w": 800,
+          "h": 148,
+          "alt": "Blasons — photo d'archive du club"
+        }
+      ]
+    },
+    "2019": {
+      "count": 1,
+      "from": "2019-01",
+      "to": "2019-01",
+      "thumbs": [
+        {
+          "src": "/images/galerie/blasons-gifs/bon_an_19_1.jpg",
+          "w": 640,
+          "h": 370,
+          "alt": "Blasons — photo d'archive du club"
+        }
+      ]
+    },
+    "2020": {
+      "count": 3,
+      "from": "2020-01",
+      "to": "2020-12",
+      "thumbs": [
+        {
+          "src": "/images/galerie/blasons-gifs/bon_ann_20.png",
+          "w": 620,
+          "h": 394,
+          "alt": "Blasons — photo d'archive du club"
+        },
+        {
+          "src": "/images/galerie/blasons-gifs/blasonffpjp.jpg",
+          "w": 942,
+          "h": 434,
+          "alt": "Blasons — photo d'archive du club"
+        },
+        {
+          "src": "/images/galerie/blasons-gifs/noel3.png",
+          "w": 509,
+          "h": 290,
+          "alt": "Blasons — photo d'archive du club"
+        }
+      ]
+    },
+    "2021": {
+      "count": 1,
+      "from": "2021-11",
+      "to": "2021-11",
+      "thumbs": [
+        {
+          "src": "/images/galerie/blasons-gifs/noel20_1.jpg",
+          "w": 800,
+          "h": 268,
+          "alt": "Blasons — photo d'archive du club"
+        }
+      ]
+    },
+    "2022": {
+      "count": 2,
+      "from": "2022-01",
+      "to": "2022-11",
+      "thumbs": [
+        {
+          "src": "/images/galerie/blasons-gifs/bonan22_2.jpg",
+          "w": 800,
+          "h": 1088,
+          "alt": "Blasons — photo d'archive du club"
+        },
+        {
+          "src": "/images/galerie/blasons-gifs/logoffpjppet.jpg",
+          "w": 483,
+          "h": 69,
+          "alt": "Blasons — photo d'archive du club"
+        }
+      ]
+    },
+    "2023": {
+      "count": 1,
+      "from": "2023-01",
+      "to": "2023-01",
+      "thumbs": [
+        {
+          "src": "/images/galerie/blasons-gifs/bonann23_5.jpg",
+          "w": 620,
+          "h": 394,
+          "alt": "Blasons — photo d'archive du club"
+        }
+      ]
+    },
+    "2024": {
+      "count": 2,
+      "from": "2024-09",
+      "to": "2024-12",
+      "thumbs": [
+        {
+          "src": "/images/galerie/blasons-gifs/logtitrepf.png",
+          "w": 490,
+          "h": 95,
+          "alt": "Blasons — photo d'archive du club"
+        },
+        {
+          "src": "/images/galerie/blasons-gifs/joyeux_noel_24_1.png",
+          "w": 600,
+          "h": 570,
+          "alt": "Blasons — photo d'archive du club"
+        }
+      ]
+    },
+    "2025": {
+      "count": 1,
+      "from": "2025-12-12",
+      "to": "2025-12-12",
+      "thumbs": [
+        {
+          "src": "/images/galerie/blasons-gifs/nxlogopf1.jpg",
+          "w": 500,
+          "h": 97,
+          "alt": "Blasons — photo d'archive du club"
+        }
+      ]
+    },
+    "2026": {
+      "count": 1,
+      "from": "2026-01",
+      "to": "2026-01",
+      "thumbs": [
+        {
+          "src": "/images/galerie/blasons-gifs/bonne_annee-2026.jpg",
+          "w": 925,
+          "h": 931,
+          "alt": "Blasons — photo d'archive du club"
+        }
+      ]
+    }
+  },
+  "cover": "/images/galerie/blasons-gifs/imag_fond_site1.png",
+  "photos": [
+    {
+      "src": "/images/galerie/blasons-gifs/nxlogopf1-2.jpg",
+      "w": 490,
+      "h": 95,
+      "alt": "Blasons — photo d'archive du club",
+      "date": "2013-07-14",
+      "dateSource": "article",
+      "title": "Présentation du club",
+      "articles": [
+        {
+          "path": "/archives/2013/petanque-fouesnantaise",
+          "title": "Présentation du club",
+          "date": "2013-07-14"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/blasons-gifs/logopet1.jpg",
+      "w": 395,
+      "h": 95,
+      "alt": "Blasons — photo d'archive du club",
+      "date": "2014-12",
+      "dateSource": "article",
+      "articles": [
+        {
+          "path": "/archives/2014/journal-2014-12",
+          "title": "Journal Décembre 2014",
+          "date": "2014-12"
+        },
+        {
+          "path": "/archives/2015/journal-2015-01",
+          "title": "Journal de Janvier 2015",
+          "date": "2015-01"
+        },
+        {
+          "path": "/archives/2015/journal-2015-11",
+          "title": "Journal Novembre 2015",
+          "date": "2015-11"
+        },
+        {
+          "path": "/archives/2015/journal-2015-12",
+          "title": "Journal Décembre 2015",
+          "date": "2015-12"
+        },
+        {
+          "path": "/archives/2016/journal-2016-01",
+          "title": "Journal Janvier 2016",
+          "date": "2016-01"
+        },
+        {
+          "path": "/archives/2021/journal-2021-09-10",
+          "title": "Journal Septembre/Octobre 2021",
+          "date": "2021-09"
+        },
+        {
+          "path": "/archives/2021/journal-2021-11-12",
+          "title": "Journal Novembre/Décembre 2021",
+          "date": "2021-11"
+        },
+        {
+          "path": "/archives/2022/journal-2022-01",
+          "title": "journal Janvier 2022",
+          "date": "2022-01"
+        },
+        {
+          "path": "/archives/2022/journal-2022-10",
+          "title": "journal Oct 22",
+          "date": "2022-10"
+        },
+        {
+          "path": "/archives/2023/journal-2023-09",
+          "title": "Journal Septembre 23",
+          "date": "2023-09"
+        },
+        {
+          "path": "/archives/2023/journal-2023-10",
+          "title": "Journal Octobre 23",
+          "date": "2023-10"
+        },
+        {
+          "path": "/archives/2023/journal-2023-11",
+          "title": "Journal Novembre 23",
+          "date": "2023-11"
+        },
+        {
+          "path": "/archives/2023/journal-2023-12",
+          "title": "Journal Décembre 23",
+          "date": "2023-12"
+        },
+        {
+          "path": "/archives/2024/journal-2024-01",
+          "title": "Journal Janvier 2024",
+          "date": "2024-01"
+        },
+        {
+          "path": "/archives/2024/journal-2024-09",
+          "title": "Journal Septembre 24",
+          "date": "2024-09"
+        },
+        {
+          "path": "/archives/2024/journal-2024-11",
+          "title": "Journal Novembre 24",
+          "date": "2024-11"
+        },
+        {
+          "path": "/archives/2024/journal-2024-12",
+          "title": "Journal Décembre 24",
+          "date": "2024-12"
+        },
+        {
+          "path": "/archives/2025/journal-2025-01",
+          "title": "Journal Janvier 25",
+          "date": "2025-01"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/blasons-gifs/noel2.jpg",
+      "w": 800,
+      "h": 148,
+      "alt": "Blasons — photo d'archive du club",
+      "date": "2014-12",
+      "dateSource": "article",
+      "title": "Journal Décembre 2014",
+      "articles": [
+        {
+          "path": "/archives/2014/journal-2014-12",
+          "title": "Journal Décembre 2014",
+          "date": "2014-12"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/blasons-gifs/bon_an_19_1.jpg",
+      "w": 640,
+      "h": 370,
+      "alt": "Blasons — photo d'archive du club",
+      "date": "2019-01",
+      "dateSource": "article",
+      "title": "Journal Janvier 2019",
+      "articles": [
+        {
+          "path": "/archives/2019/journal-2019-01",
+          "title": "Journal Janvier 2019",
+          "date": "2019-01"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/blasons-gifs/bon_ann_20.png",
+      "w": 620,
+      "h": 394,
+      "alt": "Blasons — photo d'archive du club",
+      "date": "2020-01",
+      "dateSource": "article",
+      "title": "Journal Janvier 2020",
+      "articles": [
+        {
+          "path": "/archives/2020/journal-2020-01",
+          "title": "Journal Janvier 2020",
+          "date": "2020-01"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/blasons-gifs/blasonffpjp.jpg",
+      "w": 942,
+      "h": 434,
+      "alt": "Blasons — photo d'archive du club",
+      "date": "2020-12",
+      "dateSource": "article",
+      "title": "Décembre 2020",
+      "articles": [
+        {
+          "path": "/archives/2020/journal-2020-12",
+          "title": "Décembre 2020",
+          "date": "2020-12"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/blasons-gifs/noel3.png",
+      "w": 509,
+      "h": 290,
+      "alt": "Blasons — photo d'archive du club",
+      "date": "2020-12",
+      "dateSource": "article",
+      "title": "Décembre 2020",
+      "articles": [
+        {
+          "path": "/archives/2020/journal-2020-12",
+          "title": "Décembre 2020",
+          "date": "2020-12"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/blasons-gifs/noel20_1.jpg",
+      "w": 800,
+      "h": 268,
+      "alt": "Blasons — photo d'archive du club",
+      "date": "2021-11",
+      "dateSource": "article",
+      "articles": [
+        {
+          "path": "/archives/2021/journal-2021-11-12",
+          "title": "Journal Novembre/Décembre 2021",
+          "date": "2021-11"
+        },
+        {
+          "path": "/archives/2023/journal-2023-01",
+          "title": "journal Janvier 23",
+          "date": "2023-01"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/blasons-gifs/bonan22_2.jpg",
+      "w": 800,
+      "h": 1088,
+      "alt": "Blasons — photo d'archive du club",
+      "date": "2022-01",
+      "dateSource": "article",
+      "title": "journal Janvier 2022",
+      "articles": [
+        {
+          "path": "/archives/2022/journal-2022-01",
+          "title": "journal Janvier 2022",
+          "date": "2022-01"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/blasons-gifs/logoffpjppet.jpg",
+      "w": 483,
+      "h": 69,
+      "alt": "Blasons — photo d'archive du club",
+      "date": "2022-11",
+      "dateSource": "article",
+      "articles": [
+        {
+          "path": "/archives/2022/journal-2022-11",
+          "title": "Journal Nov 22",
+          "date": "2022-11"
+        },
+        {
+          "path": "/archives/2022/journal-2022-12",
+          "title": "journal déc 22",
+          "date": "2022-12"
+        },
+        {
+          "path": "/archives/2023/journal-2023-01",
+          "title": "journal Janvier 23",
+          "date": "2023-01"
+        },
+        {
+          "path": "/archives/2023/journal-2023-10",
+          "title": "Journal Octobre 23",
+          "date": "2023-10"
+        },
+        {
+          "path": "/archives/2025/journal-2025-10",
+          "title": "Journal octobre 25",
+          "date": "2025-10"
+        },
+        {
+          "path": "/archives/2025/journal-2025-11",
+          "title": "Journal novembre 25",
+          "date": "2025-11"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/blasons-gifs/bonann23_5.jpg",
+      "w": 620,
+      "h": 394,
+      "alt": "Blasons — photo d'archive du club",
+      "date": "2023-01",
+      "dateSource": "article",
+      "title": "journal Janvier 23",
+      "articles": [
+        {
+          "path": "/archives/2023/journal-2023-01",
+          "title": "journal Janvier 23",
+          "date": "2023-01"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/blasons-gifs/logtitrepf.png",
+      "w": 490,
+      "h": 95,
+      "alt": "Blasons — photo d'archive du club",
+      "date": "2024-09",
+      "dateSource": "article",
+      "articles": [
+        {
+          "path": "/archives/2024/journal-2024-09",
+          "title": "Journal Septembre 24",
+          "date": "2024-09"
+        },
+        {
+          "path": "/archives/2024/journal-2024-10",
+          "title": "Journal Octobre 24",
+          "date": "2024-10"
+        },
+        {
+          "path": "/archives/2025/journal-2025-02",
+          "title": "Journal février 25",
+          "date": "2025-02"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/blasons-gifs/joyeux_noel_24_1.png",
+      "w": 600,
+      "h": 570,
+      "alt": "Blasons — photo d'archive du club",
+      "date": "2024-12",
+      "dateSource": "article",
+      "title": "Journal Décembre 24",
+      "articles": [
+        {
+          "path": "/archives/2024/journal-2024-12",
+          "title": "Journal Décembre 24",
+          "date": "2024-12"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/blasons-gifs/nxlogopf1.jpg",
+      "w": 500,
+      "h": 97,
+      "alt": "Blasons — photo d'archive du club",
+      "date": "2025-12-12",
+      "dateSource": "article",
+      "title": "composition du bureau 2026",
+      "articles": [
+        {
+          "path": "/archives/2025/composition-du-bureau-2026",
+          "title": "composition du bureau 2026",
+          "date": "2025-12-12"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/blasons-gifs/bonne_annee-2026.jpg",
+      "w": 925,
+      "h": 931,
+      "alt": "Blasons — photo d'archive du club",
+      "date": "2026-01",
+      "dateSource": "article",
+      "title": "Journal janvier 26",
+      "articles": [
+        {
+          "path": "/archives/2026/journal-2026-01",
+          "title": "Journal janvier 26",
+          "date": "2026-01"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/blasons-gifs/bonan22_3.jpg",
+      "w": 595,
+      "h": 390,
+      "alt": "Blasons — photo d'archive du club"
+    },
+    {
+      "src": "/images/galerie/blasons-gifs/boule_1.jpg",
+      "w": 800,
+      "h": 309,
+      "alt": "Blasons — photo d'archive du club"
+    },
+    {
+      "src": "/images/galerie/blasons-gifs/imag_fond_site1.png",
+      "w": 1888,
+      "h": 2000,
+      "alt": "Blasons — photo d'archive du club"
+    },
+    {
+      "src": "/images/galerie/blasons-gifs/logo_pf3.jpg",
+      "w": 395,
+      "h": 95,
+      "alt": "Blasons — photo d'archive du club"
+    },
+    {
+      "src": "/images/galerie/blasons-gifs/noel.jpg",
+      "w": 640,
+      "h": 118,
+      "alt": "Blasons — photo d'archive du club"
+    },
+    {
+      "src": "/images/galerie/blasons-gifs/diapositive100.jpg",
+      "w": 1280,
+      "h": 720,
+      "alt": "Blasons — photo d'archive du club"
+    },
+    {
+      "src": "/images/galerie/blasons-gifs/voeux21.png",
+      "w": 620,
+      "h": 394,
+      "alt": "Blasons — photo d'archive du club"
+    },
+    {
+      "src": "/images/galerie/blasons-gifs/voeux21_1.jpg",
+      "w": 500,
+      "h": 312,
+      "alt": "Blasons — photo d'archive du club"
+    }
+  ]
+}

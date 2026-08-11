@@ -1,0 +1,17 @@
+---
+title: "Journal Décembre 2008"
+description: "Décembre 2008: ASSEMBLEE GENERALE 2008"
+date: 2013-11-01
+year: 2008
+category: "Journaux du club"
+journal: "2008-12"
+image: "/images/archives/2008/journal-2008-12/pont-croix-2008-finalistes-des-plus-de-50ans.jpg"
+joomlaId: 185
+hits: 5007
+---
+
+Décembre 2008: ASSEMBLEE GENERALE 2008
+
+L'assemblée générale s'est déroulée en présence de Monsieur Jean Luc Jézéquélou, adjoint au maire responsable du pôle le la vie associative et des équipements sportifs.
+
+Une quarantaine d'adhérents était présents à cette assemblée. Jo Le Stum président de la Pétanque Fouesnantaise a présenté un bilan très positif pour cette année 2008. Notre club ne s'est pas contenté des championnats vétérans et seniors, il était présent sur la plupart des compétitions départementales, régionales et nationales. De nouveaux bons joueurs nous ont rejoints en début de saison, ainsi le club a pu progressé de manière significative: Gilbert Caroff, Jean Yves Eloire, Pierre Florimond. **Parmis les résultats intéressants pour cette saison nous pouvons noter:** **\_**Plusieurs victoires en championnats seniors et vétérans. \_Une troisième place de Pierre Florimond en individuel du Finistère. \_Une deuxième place au championnat vétérans sur 15 équipes. **VICTOIRE AU CHAMPIONNAT DEPARTEMENTAL DU FINISTERE DES PLUS DE 50 ANS** **![Journal Décembre 2008](/images/archives/2008/journal-2008-12/pont-croix-2008-finalistes-des-plus-de-50ans.jpg){width="600" height="450"}**       ![Journal Décembre 2008](/images/archives/2008/journal-2008-12/pont-croix-2008-vainqueur-et-coupe.jpg){width="302" height="640"}    **Victoire au championnat départemental du Finistère des plus de 50 ans à Pont Croix, remportée par la triplette Pierre Florimond, Pierre Le Marrec, Roger Croguennec ( trois joueurs à droite sur la photo)** **1er trophée départemental remporté par La Pétanque Fouesnantaise** **depuis sa création**. \_Très bonne prestation de Gilbert Caroff, Jean Yves Eloire et Pierre Florimond lors des qualifications pour la coupe de France, Bretagne et Finistère. \_Pour la première fois le club était présent au championnat par équipes du Finistère. Nous terminons à la cinquième place sur dix dans notre poule. **Articles de presse 2008 Ouest France et Télégramme** **![Journal Décembre 2008](/images/archives/2008/journal-2008-12/rassemb-of-vtrans-bnodet-11092008.jpg){width="743" height="640"}![Journal Décembre 2008](/images/archives/2008/journal-2008-12/guerlesquin-coupe-de-france.jpg){width="960" height="551"}**            ![Journal Décembre 2008](/images/archives/2008/journal-2008-12/photo_2007_1.jpg){width="480" height="360"} ![Journal Décembre 2008](/images/archives/2008/journal-2008-12/photo_2007_2.jpg){width="480" height="360"}          **PREPARATION SAISON 2009** La saison 2009 s'annonce bien, le club est nette progression concernant le nombre de licenciés. Les prévisions indiquent une arrivée de 15 licenciés dont 6 femmes.La pétanque Fouesnantaise pourra augmenter ses équipes mixtes lors des compétitions. Enfin, en conclusion Jo Le Stum, en s'adressant au représentant de la mairie de Fouesnant, a encore fois fait part de son inquiétude, concernant le nombre de terrains disponibles . Il manque actuellement 8 terrains au minimum, pour pouvoir accueillir les clubs du sud Finistère dans des conditions normales. Deuxième demande auprès du représentant communal, la possibilité d'avoir un local à proximité immédiate du boulodromme permettant au club de se réunir lors de réunions ponctuelles.

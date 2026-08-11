@@ -207,3 +207,74 @@ h4,
   color: var(--ui-text-highlighted);
   border-bottom-color: var(--ui-border-accented);
 }
+
+/* ============================================================
+   Gallery photo flash — the "landed here from a link" cue.
+   Arriving at /archives/galerie/<album>#annee-2013 scrolls to that year's photos
+   and pulses them, so it's obvious which of 300 pictures the link meant.
+   A glow OUTSIDE the tile (box-shadow, clay) rather than a border, so the photo
+   itself is never covered.
+   ============================================================ */
+@keyframes photo-flash {
+  0% {
+    box-shadow:
+      0 0 0 0 rgb(200 99 46 / 0),
+      0 0 0 0 rgb(200 99 46 / 0);
+  }
+  25% {
+    box-shadow:
+      0 0 0 5px rgb(200 99 46 / 0.65),
+      0 0 26px 12px rgb(200 99 46 / 0.5);
+  }
+  60% {
+    box-shadow:
+      0 0 0 3px rgb(200 99 46 / 0.35),
+      0 0 18px 8px rgb(200 99 46 / 0.25);
+  }
+  100% {
+    box-shadow:
+      0 0 0 0 rgb(200 99 46 / 0),
+      0 0 0 0 rgb(200 99 46 / 0);
+  }
+}
+.photo-flash {
+  animation: photo-flash 1.4s ease-out 2;
+  /* Lift the flashing tile above its neighbours so the glow isn't overlapped by
+     the next tile in the grid. */
+  position: relative;
+  z-index: 10;
+}
+/* Honour a reduced-motion preference: keep the "which one?" answer, drop the
+   pulsing. A static ring communicates the same thing without animation. */
+@media (prefers-reduced-motion: reduce) {
+  .photo-flash {
+    animation: none;
+    box-shadow: 0 0 0 3px var(--color-clay-500);
+  }
+}
+
+/* ── Imported archive articles ───────────────────────────────────────────────
+   The Joomla-era articles carry 509 data tables, many of them championship
+   standings up to 11 columns wide (Rang · Équipe · Joué · Gagné · Nul · Perdu ·
+   Forfait · Pts · Pts pour · Pts contre · Différence). The base rule above lets
+   the table shrink to the container, which turns those into an unreadable
+   squeeze. Here the table keeps its natural width and scrolls horizontally
+   instead — the parent already sets `overflow-x: auto`. */
+.content-prose--archive table {
+  width: auto;
+  min-width: 100%;
+  font-size: 0.875rem;
+}
+.content-prose--archive th,
+.content-prose--archive td {
+  white-space: nowrap;
+}
+/* The old site used images as spacers, dividers and inline decorations, so an
+   archive body can hold a dozen of them. The 1.5rem block margin the base rule
+   applies to every image leaves gaping holes between them; tighten it and let
+   consecutive images sit inline. */
+.content-prose--archive img {
+  margin: 0.75rem 0;
+  display: inline-block;
+  vertical-align: middle;
+}

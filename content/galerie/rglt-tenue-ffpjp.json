@@ -1,0 +1,340 @@
+{
+  "key": "rglt-tenue-ffpjp",
+  "title": "Règlement des tenues FFPJP",
+  "kind": "documents",
+  "count": 20,
+  "years": [
+    2020,
+    2021
+  ],
+  "dateRange": {
+    "from": "2021-01-07",
+    "to": "2021-01-14"
+  },
+  "byYear": {
+    "2021": {
+      "count": 17,
+      "from": "2021-01-07",
+      "to": "2021-01-14",
+      "thumbs": [
+        {
+          "src": "/images/galerie/rglt-tenue-ffpjp/rglt2021_1.jpg",
+          "w": 800,
+          "h": 1234,
+          "alt": "Règlement des tenues FFPJP — photo d'archive du club"
+        },
+        {
+          "src": "/images/galerie/rglt-tenue-ffpjp/rglt2021_10.jpg",
+          "w": 800,
+          "h": 1210,
+          "alt": "Règlement des tenues FFPJP — photo d'archive du club"
+        },
+        {
+          "src": "/images/galerie/rglt-tenue-ffpjp/rglt2021_11.jpg",
+          "w": 800,
+          "h": 1201,
+          "alt": "Règlement des tenues FFPJP — photo d'archive du club"
+        },
+        {
+          "src": "/images/galerie/rglt-tenue-ffpjp/rglt2021_12.jpg",
+          "w": 800,
+          "h": 1206,
+          "alt": "Règlement des tenues FFPJP — photo d'archive du club"
+        }
+      ]
+    }
+  },
+  "cover": "/images/galerie/rglt-tenue-ffpjp/nlletenue2_2.jpg",
+  "photos": [
+    {
+      "src": "/images/galerie/rglt-tenue-ffpjp/rglt2021_1.jpg",
+      "w": 800,
+      "h": 1234,
+      "alt": "Règlement des tenues FFPJP — photo d'archive du club",
+      "date": "2021-01-07",
+      "dateSource": "article",
+      "title": "règlement officiel au 01_01_2021",
+      "articles": [
+        {
+          "path": "/archives/2021/reglement-officiel-au-01-01-2001",
+          "title": "règlement officiel au 01_01_2021",
+          "date": "2021-01-07"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/rglt-tenue-ffpjp/rglt2021_10.jpg",
+      "w": 800,
+      "h": 1210,
+      "alt": "Règlement des tenues FFPJP — photo d'archive du club",
+      "date": "2021-01-07",
+      "dateSource": "article",
+      "title": "règlement officiel au 01_01_2021",
+      "articles": [
+        {
+          "path": "/archives/2021/reglement-officiel-au-01-01-2001",
+          "title": "règlement officiel au 01_01_2021",
+          "date": "2021-01-07"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/rglt-tenue-ffpjp/rglt2021_11.jpg",
+      "w": 800,
+      "h": 1201,
+      "alt": "Règlement des tenues FFPJP — photo d'archive du club",
+      "date": "2021-01-07",
+      "dateSource": "article",
+      "title": "règlement officiel au 01_01_2021",
+      "articles": [
+        {
+          "path": "/archives/2021/reglement-officiel-au-01-01-2001",
+          "title": "règlement officiel au 01_01_2021",
+          "date": "2021-01-07"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/rglt-tenue-ffpjp/rglt2021_12.jpg",
+      "w": 800,
+      "h": 1206,
+      "alt": "Règlement des tenues FFPJP — photo d'archive du club",
+      "date": "2021-01-07",
+      "dateSource": "article",
+      "title": "règlement officiel au 01_01_2021",
+      "articles": [
+        {
+          "path": "/archives/2021/reglement-officiel-au-01-01-2001",
+          "title": "règlement officiel au 01_01_2021",
+          "date": "2021-01-07"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/rglt-tenue-ffpjp/rglt2021_2.png",
+      "w": 800,
+      "h": 1233,
+      "alt": "Règlement des tenues FFPJP — photo d'archive du club",
+      "date": "2021-01-07",
+      "dateSource": "article",
+      "title": "règlement officiel au 01_01_2021",
+      "articles": [
+        {
+          "path": "/archives/2021/reglement-officiel-au-01-01-2001",
+          "title": "règlement officiel au 01_01_2021",
+          "date": "2021-01-07"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/rglt-tenue-ffpjp/rglt2021_3.jpg",
+      "w": 800,
+      "h": 1218,
+      "alt": "Règlement des tenues FFPJP — photo d'archive du club",
+      "date": "2021-01-07",
+      "dateSource": "article",
+      "title": "règlement officiel au 01_01_2021",
+      "articles": [
+        {
+          "path": "/archives/2021/reglement-officiel-au-01-01-2001",
+          "title": "règlement officiel au 01_01_2021",
+          "date": "2021-01-07"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/rglt-tenue-ffpjp/rglt2021_4.jpg",
+      "w": 800,
+      "h": 1162,
+      "alt": "Règlement des tenues FFPJP — photo d'archive du club",
+      "date": "2021-01-07",
+      "dateSource": "article",
+      "title": "règlement officiel au 01_01_2021",
+      "articles": [
+        {
+          "path": "/archives/2021/reglement-officiel-au-01-01-2001",
+          "title": "règlement officiel au 01_01_2021",
+          "date": "2021-01-07"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/rglt-tenue-ffpjp/rglt2021_5.jpg",
+      "w": 800,
+      "h": 1204,
+      "alt": "Règlement des tenues FFPJP — photo d'archive du club",
+      "date": "2021-01-07",
+      "dateSource": "article",
+      "title": "règlement officiel au 01_01_2021",
+      "articles": [
+        {
+          "path": "/archives/2021/reglement-officiel-au-01-01-2001",
+          "title": "règlement officiel au 01_01_2021",
+          "date": "2021-01-07"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/rglt-tenue-ffpjp/rglt2021_6.jpg",
+      "w": 800,
+      "h": 1222,
+      "alt": "Règlement des tenues FFPJP — photo d'archive du club",
+      "date": "2021-01-07",
+      "dateSource": "article",
+      "title": "règlement officiel au 01_01_2021",
+      "articles": [
+        {
+          "path": "/archives/2021/reglement-officiel-au-01-01-2001",
+          "title": "règlement officiel au 01_01_2021",
+          "date": "2021-01-07"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/rglt-tenue-ffpjp/rglt2021_7.jpg",
+      "w": 800,
+      "h": 1219,
+      "alt": "Règlement des tenues FFPJP — photo d'archive du club",
+      "date": "2021-01-07",
+      "dateSource": "article",
+      "title": "règlement officiel au 01_01_2021",
+      "articles": [
+        {
+          "path": "/archives/2021/reglement-officiel-au-01-01-2001",
+          "title": "règlement officiel au 01_01_2021",
+          "date": "2021-01-07"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/rglt-tenue-ffpjp/rglt2021_8.jpg",
+      "w": 800,
+      "h": 1224,
+      "alt": "Règlement des tenues FFPJP — photo d'archive du club",
+      "date": "2021-01-07",
+      "dateSource": "article",
+      "title": "règlement officiel au 01_01_2021",
+      "articles": [
+        {
+          "path": "/archives/2021/reglement-officiel-au-01-01-2001",
+          "title": "règlement officiel au 01_01_2021",
+          "date": "2021-01-07"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/rglt-tenue-ffpjp/rglt2021_9.jpg",
+      "w": 800,
+      "h": 1183,
+      "alt": "Règlement des tenues FFPJP — photo d'archive du club",
+      "date": "2021-01-07",
+      "dateSource": "article",
+      "title": "règlement officiel au 01_01_2021",
+      "articles": [
+        {
+          "path": "/archives/2021/reglement-officiel-au-01-01-2001",
+          "title": "règlement officiel au 01_01_2021",
+          "date": "2021-01-07"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/rglt-tenue-ffpjp/reglt_tir_1.jpg",
+      "w": 800,
+      "h": 1193,
+      "alt": "Règlement des tenues FFPJP — photo d'archive du club",
+      "date": "2021-01-14",
+      "dateSource": "article",
+      "title": "Tir de Précision agréé par la FIPJP",
+      "articles": [
+        {
+          "path": "/archives/2021/tir-de-precision-agree-par-la-fipjp",
+          "title": "Tir de Précision agréé par la FIPJP",
+          "date": "2021-01-14"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/rglt-tenue-ffpjp/reglt_tir_2.jpg",
+      "w": 800,
+      "h": 1200,
+      "alt": "Règlement des tenues FFPJP — photo d'archive du club",
+      "date": "2021-01-14",
+      "dateSource": "article",
+      "title": "Tir de Précision agréé par la FIPJP",
+      "articles": [
+        {
+          "path": "/archives/2021/tir-de-precision-agree-par-la-fipjp",
+          "title": "Tir de Précision agréé par la FIPJP",
+          "date": "2021-01-14"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/rglt-tenue-ffpjp/reglt_tir_3.jpg",
+      "w": 800,
+      "h": 1178,
+      "alt": "Règlement des tenues FFPJP — photo d'archive du club",
+      "date": "2021-01-14",
+      "dateSource": "article",
+      "title": "Tir de Précision agréé par la FIPJP",
+      "articles": [
+        {
+          "path": "/archives/2021/tir-de-precision-agree-par-la-fipjp",
+          "title": "Tir de Précision agréé par la FIPJP",
+          "date": "2021-01-14"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/rglt-tenue-ffpjp/reglt_tir_4.jpg",
+      "w": 800,
+      "h": 1187,
+      "alt": "Règlement des tenues FFPJP — photo d'archive du club",
+      "date": "2021-01-14",
+      "dateSource": "article",
+      "title": "Tir de Précision agréé par la FIPJP",
+      "articles": [
+        {
+          "path": "/archives/2021/tir-de-precision-agree-par-la-fipjp",
+          "title": "Tir de Précision agréé par la FIPJP",
+          "date": "2021-01-14"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/rglt-tenue-ffpjp/reglt_tir_5.jpg",
+      "w": 800,
+      "h": 1165,
+      "alt": "Règlement des tenues FFPJP — photo d'archive du club",
+      "date": "2021-01-14",
+      "dateSource": "article",
+      "title": "Tir de Précision agréé par la FIPJP",
+      "articles": [
+        {
+          "path": "/archives/2021/tir-de-precision-agree-par-la-fipjp",
+          "title": "Tir de Précision agréé par la FIPJP",
+          "date": "2021-01-14"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/rglt-tenue-ffpjp/nlletenue2_1.jpg",
+      "w": 1024,
+      "h": 724,
+      "alt": "Règlement des tenues FFPJP — photo d'archive du club"
+    },
+    {
+      "src": "/images/galerie/rglt-tenue-ffpjp/nlletenue2_2.jpg",
+      "w": 1240,
+      "h": 877,
+      "alt": "Règlement des tenues FFPJP — photo d'archive du club"
+    },
+    {
+      "src": "/images/galerie/rglt-tenue-ffpjp/nlletenue3.jpg",
+      "w": 1024,
+      "h": 724,
+      "alt": "Règlement des tenues FFPJP — photo d'archive du club"
+    }
+  ]
+}

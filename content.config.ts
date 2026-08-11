@@ -103,7 +103,7 @@ export default defineContentConfig({
     // ── Section landing configs: /actualites, /evenements, … (header + display) ──
     sections: defineCollection({
       type: 'page',
-      source: { include: '{actualites,evenements,competitions,resultats}.md' },
+      source: { include: '{actualites,evenements,competitions,resultats,archives}.md' },
       schema: z.object({
         eyebrow: z.string().optional().editor({ label: 'Sur-titre' }),
         orientation: z
@@ -121,7 +121,7 @@ export default defineContentConfig({
       type: 'page',
       source: {
         include: '*.md',
-        exclude: ['index.md', 'actualites.md', 'evenements.md', 'competitions.md', 'resultats.md'],
+        exclude: ['index.md', 'actualites.md', 'evenements.md', 'competitions.md', 'resultats.md', 'archives.md'],
       },
       schema: z.object({
         image: imageField(),
@@ -129,6 +129,114 @@ export default defineContentConfig({
     }),
 
     // ── Dated content ───────────────────────────────────────────────────────
+    // ── Archives (imported, read-only in practice) ──────────────────────────
+    // The 244 articles recovered from the old Joomla site (2008-2026), converted
+    // by scripts/import-archives.mjs. Its own collection rather than a dump into
+    // `news`: it carries import-only metadata (joomlaId, hits, journal period),
+    // and mixing 244 historical entries into /actualites would bury the four
+    // current ones. Editors can still fix a typo in Studio; nothing here is
+    // meant to be authored from scratch.
+    archives: defineCollection({
+      type: 'page',
+      source: 'archives/**',
+      schema: z.object({
+        date: dateField(),
+        // Duplicates the folder name, but as a real field it can be filtered and
+        // ordered on in D1 without parsing paths in every query.
+        year: z.number().editor({ label: 'Année' }),
+        category: categoryField(),
+        image: imageField(),
+        // Set only on the monthly "Journal du club" issues: the period the issue
+        // covers, as YYYY-MM. Absent on one-off articles.
+        journal: z
+          .string()
+          .optional()
+          .editor({ label: 'Numéro de journal', description: 'Période couverte, au format AAAA-MM' }),
+        // Provenance from the Joomla export — kept so an imported page can always
+        // be traced back to its row in the old CMS.
+        joomlaId: z.number().optional().editor({ label: 'Identifiant Joomla (origine)' }),
+        hits: z.number().optional().editor({ label: 'Vues sur l’ancien site' }),
+        sitemap: sitemapField('archives'),
+      }),
+    }),
+
+    // ── Photo gallery albums (data collection, generated) ───────────────────
+    // One JSON file per album, emitted by scripts/generate-galerie-content.mjs
+    // from the photo import. A `data` collection (not `page`) because albums have
+    // no prose body — and because it lets /archives/galerie `.select()` only the
+    // album metadata instead of shipping all 1355 photo records to the browser.
+    galerie: defineCollection({
+      type: 'data',
+      source: 'galerie/**.json',
+      schema: z.object({
+        key: z.string(),
+        title: z.string(),
+        // `documents` = scans, posters, club emblems; `photos` = actual
+        // photographs. The gallery leads with photo albums and groups the rest.
+        kind: z.enum(['photos', 'documents']),
+        count: z.number(),
+        // Years inferred from the source paths, ascending. Often empty — the
+        // importer only records a year it could establish with confidence.
+        years: z.array(z.number()),
+        // Earliest/latest dated photo in the album. Absent when no photo in the
+        // album could be dated at all.
+        dateRange: z
+          .object({ from: z.string(), to: z.string() })
+          .optional(),
+        // Per-year aggregates keyed by "YYYY", precomputed by
+        // scripts/generate-galerie-content.mjs. They exist so /archives can build
+        // its timeline of articles + albums while selecting only album metadata —
+        // pulling all 1355 photo records into that page would be ~150 KB.
+        // `from`/`to` are the album's date span WITHIN that year, which is what
+        // lets an album sort in among the articles at month precision.
+        byYear: z.record(
+          z.string(),
+          z.object({
+            count: z.number(),
+            from: z.string(),
+            to: z.string(),
+            thumbs: z.array(z.object({ src: z.string(), w: z.number(), h: z.number(), alt: z.string() })),
+          }),
+        ),
+        cover: z.string(),
+        photos: z.array(
+          z.object({
+            src: z.string(),
+            // Intrinsic dimensions of the downscaled file, so the grid can
+            // reserve the right box and avoid layout shift while images decode.
+            w: z.number(),
+            h: z.number(),
+            alt: z.string(),
+            // Partial dates are normal and meaningful here: "2016" means the
+            // year is all the importer could establish. Hence a string, not a
+            // date — "2016-03" is not a valid Date.
+            date: z.string().optional().editor({ label: 'Date' }),
+            // How `date` was established: EXIF metadata (trustworthy to the
+            // day), the article the photo appears in, or a year parsed out of
+            // the file path (weakest). Lets the UI hedge its wording.
+            dateSource: z.enum(['exif', 'article', 'path']).optional(),
+            // Both optional and usually empty: the Joomla dump carries no
+            // captions. They exist so an editor can add them in Studio, and are
+            // only rendered when present.
+            title: z.string().optional().editor({ label: 'Titre' }),
+            description: z
+              .string()
+              .optional()
+              .editor({ label: 'Légende', description: 'Texte affiché au survol et dans la visionneuse' }),
+            // Archive articles that use this exact image, matched by SHA-256 of
+            // the original bytes (not by filename). Usually absent.
+            articles: z
+              .array(z.object({
+                path: z.string(),
+                title: z.string(),
+                date: z.string().optional(),
+              }))
+              .optional(),
+          }),
+        ),
+      }),
+    }),
+
     news: defineCollection({ type: 'page', source: 'actualites/**', schema: postSchema({ name: 'news' }) }),
     events: defineCollection({ type: 'page', source: 'evenements/**', schema: postSchema({ name: 'events', location: true }) }),
     competitions: defineCollection({ type: 'page', source: 'competitions/**', schema: postSchema({ name: 'competitions', location: true }) }),

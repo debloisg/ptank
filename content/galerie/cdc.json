@@ -1,0 +1,1037 @@
+{
+  "key": "cdc",
+  "title": "Championnat des clubs",
+  "kind": "photos",
+  "count": 58,
+  "years": [
+    2013,
+    2014,
+    2023,
+    2024,
+    2025,
+    2026
+  ],
+  "dateRange": {
+    "from": "2013-10-25",
+    "to": "2026-06-11"
+  },
+  "byYear": {
+    "2013": {
+      "count": 1,
+      "from": "2013-10-25",
+      "to": "2013-10-25",
+      "thumbs": [
+        {
+          "src": "/images/galerie/cdc/cdcd1fina-2013.jpg",
+          "w": 400,
+          "h": 300,
+          "alt": "Championnat des clubs — photo d'archive du club"
+        }
+      ]
+    },
+    "2014": {
+      "count": 1,
+      "from": "2014-10-31",
+      "to": "2014-10-31",
+      "thumbs": [
+        {
+          "src": "/images/galerie/cdc/div1_2014.jpg",
+          "w": 640,
+          "h": 359,
+          "alt": "Championnat des clubs — photo d'archive du club"
+        }
+      ]
+    },
+    "2016": {
+      "count": 7,
+      "from": "2016-04",
+      "to": "2016-04-05",
+      "thumbs": [
+        {
+          "src": "/images/galerie/cdc/cccdc0416e.jpg",
+          "w": 640,
+          "h": 427,
+          "alt": "Championnat des clubs — photo d'archive du club"
+        },
+        {
+          "src": "/images/galerie/cdc/cccdc504161.jpg",
+          "w": 640,
+          "h": 427,
+          "alt": "Championnat des clubs — photo d'archive du club"
+        },
+        {
+          "src": "/images/galerie/cdc/cccdc504166.jpg",
+          "w": 640,
+          "h": 427,
+          "alt": "Championnat des clubs — photo d'archive du club"
+        },
+        {
+          "src": "/images/galerie/cdc/cccdc50416a.jpg",
+          "w": 640,
+          "h": 427,
+          "alt": "Championnat des clubs — photo d'archive du club"
+        }
+      ]
+    },
+    "2017": {
+      "count": 2,
+      "from": "2017-03",
+      "to": "2017-03-28",
+      "thumbs": [
+        {
+          "src": "/images/galerie/cdc/cdcplomen2.jpg",
+          "w": 640,
+          "h": 435,
+          "alt": "Championnat des clubs — photo d'archive du club"
+        },
+        {
+          "src": "/images/galerie/cdc/cdcplomen1.jpg",
+          "w": 640,
+          "h": 360,
+          "alt": "Championnat des clubs — photo d'archive du club"
+        }
+      ]
+    },
+    "2018": {
+      "count": 1,
+      "from": "2018-10",
+      "to": "2018-10",
+      "thumbs": [
+        {
+          "src": "/images/galerie/cdc/cdc181seniorsd2.jpg",
+          "w": 640,
+          "h": 678,
+          "alt": "Championnat des clubs — photo d'archive du club"
+        }
+      ]
+    },
+    "2021": {
+      "count": 3,
+      "from": "2021-05-25",
+      "to": "2021-06",
+      "thumbs": [
+        {
+          "src": "/images/galerie/cdc/chpt_club_j1_fou.jpg",
+          "w": 800,
+          "h": 600,
+          "alt": "Championnat des clubs — photo d'archive du club"
+        },
+        {
+          "src": "/images/galerie/cdc/chpt_vet_j1-2.jpg",
+          "w": 800,
+          "h": 600,
+          "alt": "Championnat des clubs — photo d'archive du club"
+        },
+        {
+          "src": "/images/galerie/cdc/equi7_j2_bend.jpg",
+          "w": 800,
+          "h": 647,
+          "alt": "Championnat des clubs — photo d'archive du club"
+        }
+      ]
+    },
+    "2023": {
+      "count": 2,
+      "from": "2023-10",
+      "to": "2023-10-22",
+      "thumbs": [
+        {
+          "src": "/images/galerie/cdc/cdcsen23_1.jpg",
+          "w": 720,
+          "h": 576,
+          "alt": "Championnat des clubs — photo d'archive du club"
+        },
+        {
+          "src": "/images/galerie/cdc/cdcsen_23_d4.jpg",
+          "w": 690,
+          "h": 503,
+          "alt": "Championnat des clubs — photo d'archive du club"
+        }
+      ]
+    },
+    "2024": {
+      "count": 12,
+      "from": "2024",
+      "to": "2024-09",
+      "thumbs": [
+        {
+          "src": "/images/galerie/cdc/cdc_24_equ3_4.jpg",
+          "w": 700,
+          "h": 382,
+          "alt": "Championnat des clubs — photo d'archive du club"
+        },
+        {
+          "src": "/images/galerie/cdc/equipe1.jpg",
+          "w": 1600,
+          "h": 1200,
+          "alt": "Championnat des clubs — photo d'archive du club"
+        },
+        {
+          "src": "/images/galerie/cdc/f3_et_f4.jpg",
+          "w": 700,
+          "h": 450,
+          "alt": "Championnat des clubs — photo d'archive du club"
+        },
+        {
+          "src": "/images/galerie/cdc/crdc1.jpg",
+          "w": 800,
+          "h": 498,
+          "alt": "Championnat des clubs — photo d'archive du club"
+        }
+      ]
+    },
+    "2025": {
+      "count": 13,
+      "from": "2025-06",
+      "to": "2025-10",
+      "thumbs": [
+        {
+          "src": "/images/galerie/cdc/fouesnant1.jpg",
+          "w": 800,
+          "h": 490,
+          "alt": "Championnat des clubs — photo d'archive du club"
+        },
+        {
+          "src": "/images/galerie/cdc/fouesnan4.jpg",
+          "w": 800,
+          "h": 616,
+          "alt": "Championnat des clubs — photo d'archive du club"
+        },
+        {
+          "src": "/images/galerie/cdc/fouesnant2-2.jpg",
+          "w": 800,
+          "h": 600,
+          "alt": "Championnat des clubs — photo d'archive du club"
+        },
+        {
+          "src": "/images/galerie/cdc/fouesnant5-2.jpg",
+          "w": 800,
+          "h": 410,
+          "alt": "Championnat des clubs — photo d'archive du club"
+        }
+      ]
+    },
+    "2026": {
+      "count": 16,
+      "from": "2026",
+      "to": "2026-06-11",
+      "thumbs": [
+        {
+          "src": "/images/galerie/cdc/equipe_3_1.jpg",
+          "w": 1000,
+          "h": 750,
+          "alt": "Championnat des clubs — photo d'archive du club"
+        },
+        {
+          "src": "/images/galerie/cdc/equipe_4_bis.jpg",
+          "w": 1000,
+          "h": 865,
+          "alt": "Championnat des clubs — photo d'archive du club"
+        },
+        {
+          "src": "/images/galerie/cdc/equipe_f1.jpg",
+          "w": 800,
+          "h": 598,
+          "alt": "Championnat des clubs — photo d'archive du club"
+        },
+        {
+          "src": "/images/galerie/cdc/equipe_f9.jpg",
+          "w": 800,
+          "h": 600,
+          "alt": "Championnat des clubs — photo d'archive du club"
+        }
+      ]
+    }
+  },
+  "cover": "/images/galerie/cdc/equipe1.jpg",
+  "photos": [
+    {
+      "src": "/images/galerie/cdc/cdcd1fina-2013.jpg",
+      "w": 400,
+      "h": 300,
+      "alt": "Championnat des clubs — photo d'archive du club",
+      "date": "2013-10-25",
+      "dateSource": "exif",
+      "title": "Journal Octobre 2013",
+      "articles": [
+        {
+          "path": "/archives/2013/journal-2013-10",
+          "title": "Journal Octobre 2013",
+          "date": "2013-10"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/cdc/div1_2014.jpg",
+      "w": 640,
+      "h": 359,
+      "alt": "Championnat des clubs — photo d'archive du club",
+      "date": "2014-10-31",
+      "dateSource": "exif",
+      "title": "Journal octobre 2014",
+      "articles": [
+        {
+          "path": "/archives/2014/journal-2014-10",
+          "title": "Journal octobre 2014",
+          "date": "2014-10"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/cdc/cccdc0416e.jpg",
+      "w": 640,
+      "h": 427,
+      "alt": "Championnat des clubs — photo d'archive du club",
+      "date": "2016-04",
+      "dateSource": "article",
+      "title": "Journal Avril 2016",
+      "articles": [
+        {
+          "path": "/archives/2016/journal-2016-04",
+          "title": "Journal Avril 2016",
+          "date": "2016-04"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/cdc/cccdc504161.jpg",
+      "w": 640,
+      "h": 427,
+      "alt": "Championnat des clubs — photo d'archive du club",
+      "date": "2016-04-05",
+      "dateSource": "exif",
+      "title": "Journal Avril 2016",
+      "articles": [
+        {
+          "path": "/archives/2016/journal-2016-04",
+          "title": "Journal Avril 2016",
+          "date": "2016-04"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/cdc/cccdc504166.jpg",
+      "w": 640,
+      "h": 427,
+      "alt": "Championnat des clubs — photo d'archive du club",
+      "date": "2016-04-05",
+      "dateSource": "exif",
+      "title": "Journal Avril 2016",
+      "articles": [
+        {
+          "path": "/archives/2016/journal-2016-04",
+          "title": "Journal Avril 2016",
+          "date": "2016-04"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/cdc/cccdc50416a.jpg",
+      "w": 640,
+      "h": 427,
+      "alt": "Championnat des clubs — photo d'archive du club",
+      "date": "2016-04-05",
+      "dateSource": "exif",
+      "title": "Journal Avril 2016",
+      "articles": [
+        {
+          "path": "/archives/2016/journal-2016-04",
+          "title": "Journal Avril 2016",
+          "date": "2016-04"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/cdc/cccdc50416d.jpg",
+      "w": 320,
+      "h": 480,
+      "alt": "Championnat des clubs — photo d'archive du club",
+      "date": "2016-04-05",
+      "dateSource": "exif",
+      "title": "Journal Avril 2016",
+      "articles": [
+        {
+          "path": "/archives/2016/journal-2016-04",
+          "title": "Journal Avril 2016",
+          "date": "2016-04"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/cdc/cccdc604162.jpg",
+      "w": 640,
+      "h": 427,
+      "alt": "Championnat des clubs — photo d'archive du club",
+      "date": "2016-04-05",
+      "dateSource": "exif",
+      "title": "Journal Avril 2016",
+      "articles": [
+        {
+          "path": "/archives/2016/journal-2016-04",
+          "title": "Journal Avril 2016",
+          "date": "2016-04"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/cdc/cccdc604164.jpg",
+      "w": 640,
+      "h": 427,
+      "alt": "Championnat des clubs — photo d'archive du club",
+      "date": "2016-04-05",
+      "dateSource": "exif",
+      "title": "Journal Avril 2016",
+      "articles": [
+        {
+          "path": "/archives/2016/journal-2016-04",
+          "title": "Journal Avril 2016",
+          "date": "2016-04"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/cdc/cdcplomen2.jpg",
+      "w": 640,
+      "h": 435,
+      "alt": "Championnat des clubs — photo d'archive du club",
+      "date": "2017-03",
+      "dateSource": "article",
+      "title": "Journal Mars 2017",
+      "articles": [
+        {
+          "path": "/archives/2017/journal-2017-03",
+          "title": "Journal Mars 2017",
+          "date": "2017-03"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/cdc/cdcplomen1.jpg",
+      "w": 640,
+      "h": 360,
+      "alt": "Championnat des clubs — photo d'archive du club",
+      "date": "2017-03-28",
+      "dateSource": "exif",
+      "title": "Journal Mars 2017",
+      "articles": [
+        {
+          "path": "/archives/2017/journal-2017-03",
+          "title": "Journal Mars 2017",
+          "date": "2017-03"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/cdc/cdc181seniorsd2.jpg",
+      "w": 640,
+      "h": 678,
+      "alt": "Championnat des clubs — photo d'archive du club",
+      "date": "2018-10",
+      "dateSource": "article",
+      "title": "Journal Octobre/Novembre 2018",
+      "articles": [
+        {
+          "path": "/archives/2018/journal-2018-10-11",
+          "title": "Journal Octobre/Novembre 2018",
+          "date": "2018-10"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/cdc/chpt_club_j1_fou.jpg",
+      "w": 800,
+      "h": 600,
+      "alt": "Championnat des clubs — photo d'archive du club",
+      "date": "2021-05-25",
+      "dateSource": "exif",
+      "title": "Journal Mai 2021",
+      "articles": [
+        {
+          "path": "/archives/2021/journal-2021-05",
+          "title": "Journal Mai 2021",
+          "date": "2021-05"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/cdc/chpt_vet_j1-2.jpg",
+      "w": 800,
+      "h": 600,
+      "alt": "Championnat des clubs — photo d'archive du club",
+      "date": "2021-05-25",
+      "dateSource": "exif",
+      "title": "Journal Mai 2021",
+      "articles": [
+        {
+          "path": "/archives/2021/journal-2021-05",
+          "title": "Journal Mai 2021",
+          "date": "2021-05"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/cdc/equi7_j2_bend.jpg",
+      "w": 800,
+      "h": 647,
+      "alt": "Championnat des clubs — photo d'archive du club",
+      "date": "2021-06",
+      "dateSource": "article",
+      "title": "Journal Juin 2021",
+      "articles": [
+        {
+          "path": "/archives/2021/journal-2021-06",
+          "title": "Journal Juin 2021",
+          "date": "2021-06"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/cdc/cdcsen23_1.jpg",
+      "w": 720,
+      "h": 576,
+      "alt": "Championnat des clubs — photo d'archive du club",
+      "date": "2023-10",
+      "dateSource": "article",
+      "title": "Journal Octobre 23",
+      "articles": [
+        {
+          "path": "/archives/2023/journal-2023-10",
+          "title": "Journal Octobre 23",
+          "date": "2023-10"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/cdc/cdcsen_23_d4.jpg",
+      "w": 690,
+      "h": 503,
+      "alt": "Championnat des clubs — photo d'archive du club",
+      "date": "2023-10-22",
+      "dateSource": "exif",
+      "title": "Journal Octobre 23",
+      "articles": [
+        {
+          "path": "/archives/2023/journal-2023-10",
+          "title": "Journal Octobre 23",
+          "date": "2023-10"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/cdc/cdc_24_equ3_4.jpg",
+      "w": 700,
+      "h": 382,
+      "alt": "Championnat des clubs — photo d'archive du club",
+      "date": "2024",
+      "dateSource": "path"
+    },
+    {
+      "src": "/images/galerie/cdc/equipe1.jpg",
+      "w": 1600,
+      "h": 1200,
+      "alt": "Championnat des clubs — photo d'archive du club",
+      "date": "2024",
+      "dateSource": "path"
+    },
+    {
+      "src": "/images/galerie/cdc/f3_et_f4.jpg",
+      "w": 700,
+      "h": 450,
+      "alt": "Championnat des clubs — photo d'archive du club",
+      "date": "2024-02",
+      "dateSource": "article",
+      "title": "Journal Février 24",
+      "articles": [
+        {
+          "path": "/archives/2024/journal-2024-02",
+          "title": "Journal Février 24",
+          "date": "2024-02"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/cdc/crdc1.jpg",
+      "w": 800,
+      "h": 498,
+      "alt": "Championnat des clubs — photo d'archive du club",
+      "date": "2024-04",
+      "dateSource": "article",
+      "title": "Journal Avril 24",
+      "articles": [
+        {
+          "path": "/archives/2024/journal-2024-04",
+          "title": "Journal Avril 24",
+          "date": "2024-04"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/cdc/quipe_9.jpg",
+      "w": 800,
+      "h": 509,
+      "alt": "Championnat des clubs — photo d'archive du club",
+      "date": "2024-05",
+      "dateSource": "article",
+      "articles": [
+        {
+          "path": "/archives/2024/journal-2024-05",
+          "title": "Journal Mai 24",
+          "date": "2024-05"
+        },
+        {
+          "path": "/archives/2024/journal-2024-06",
+          "title": "Journal Juin 24",
+          "date": "2024-06"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/cdc/f1_f2_24.jpg",
+      "w": 800,
+      "h": 485,
+      "alt": "Championnat des clubs — photo d'archive du club",
+      "date": "2024-06",
+      "dateSource": "article",
+      "title": "Journal Juin 24",
+      "articles": [
+        {
+          "path": "/archives/2024/journal-2024-06",
+          "title": "Journal Juin 24",
+          "date": "2024-06"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/cdc/equipe1_1.jpg",
+      "w": 800,
+      "h": 459,
+      "alt": "Championnat des clubs — photo d'archive du club",
+      "date": "2024-06",
+      "dateSource": "article",
+      "title": "Journal Juin 24",
+      "articles": [
+        {
+          "path": "/archives/2024/journal-2024-06",
+          "title": "Journal Juin 24",
+          "date": "2024-06"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/cdc/fouesnant2.jpg",
+      "w": 800,
+      "h": 725,
+      "alt": "Championnat des clubs — photo d'archive du club",
+      "date": "2024-06",
+      "dateSource": "article",
+      "title": "Journal Juin 24",
+      "articles": [
+        {
+          "path": "/archives/2024/journal-2024-06",
+          "title": "Journal Juin 24",
+          "date": "2024-06"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/cdc/fouesnant4_2.jpg",
+      "w": 800,
+      "h": 637,
+      "alt": "Championnat des clubs — photo d'archive du club",
+      "date": "2024-06",
+      "dateSource": "article",
+      "title": "Journal Juin 24",
+      "articles": [
+        {
+          "path": "/archives/2024/journal-2024-06",
+          "title": "Journal Juin 24",
+          "date": "2024-06"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/cdc/fouesnant5.jpg",
+      "w": 800,
+      "h": 416,
+      "alt": "Championnat des clubs — photo d'archive du club",
+      "date": "2024-06",
+      "dateSource": "article",
+      "title": "Journal Juin 24",
+      "articles": [
+        {
+          "path": "/archives/2024/journal-2024-06",
+          "title": "Journal Juin 24",
+          "date": "2024-06"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/cdc/fouesnant_3_.jpg",
+      "w": 800,
+      "h": 674,
+      "alt": "Championnat des clubs — photo d'archive du club",
+      "date": "2024-06",
+      "dateSource": "article",
+      "title": "Journal Juin 24",
+      "articles": [
+        {
+          "path": "/archives/2024/journal-2024-06",
+          "title": "Journal Juin 24",
+          "date": "2024-06"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/cdc/cdc_f1_ctre_quimperle.jpg",
+      "w": 800,
+      "h": 522,
+      "alt": "Championnat des clubs — photo d'archive du club",
+      "date": "2024-09",
+      "dateSource": "article",
+      "title": "Journal Septembre 24",
+      "articles": [
+        {
+          "path": "/archives/2024/journal-2024-09",
+          "title": "Journal Septembre 24",
+          "date": "2024-09"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/cdc/fouesnant1.jpg",
+      "w": 800,
+      "h": 490,
+      "alt": "Championnat des clubs — photo d'archive du club",
+      "date": "2025-06",
+      "dateSource": "article",
+      "title": "Journal juin 25",
+      "articles": [
+        {
+          "path": "/archives/2025/journal-2025-06",
+          "title": "Journal juin 25",
+          "date": "2025-06"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/cdc/fouesnan4.jpg",
+      "w": 800,
+      "h": 616,
+      "alt": "Championnat des clubs — photo d'archive du club",
+      "date": "2025-06",
+      "dateSource": "article",
+      "title": "Journal juin 25",
+      "articles": [
+        {
+          "path": "/archives/2025/journal-2025-06",
+          "title": "Journal juin 25",
+          "date": "2025-06"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/cdc/fouesnant2-2.jpg",
+      "w": 800,
+      "h": 600,
+      "alt": "Championnat des clubs — photo d'archive du club",
+      "date": "2025-06",
+      "dateSource": "article",
+      "title": "Journal juin 25",
+      "articles": [
+        {
+          "path": "/archives/2025/journal-2025-06",
+          "title": "Journal juin 25",
+          "date": "2025-06"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/cdc/fouesnant5-2.jpg",
+      "w": 800,
+      "h": 410,
+      "alt": "Championnat des clubs — photo d'archive du club",
+      "date": "2025-06",
+      "dateSource": "article",
+      "title": "Journal juin 25",
+      "articles": [
+        {
+          "path": "/archives/2025/journal-2025-06",
+          "title": "Journal juin 25",
+          "date": "2025-06"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/cdc/fouesnant7.jpg",
+      "w": 800,
+      "h": 504,
+      "alt": "Championnat des clubs — photo d'archive du club",
+      "date": "2025-06",
+      "dateSource": "article",
+      "title": "Journal juin 25",
+      "articles": [
+        {
+          "path": "/archives/2025/journal-2025-06",
+          "title": "Journal juin 25",
+          "date": "2025-06"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/cdc/cdc_f2_25.jpg",
+      "w": 800,
+      "h": 804,
+      "alt": "Championnat des clubs — photo d'archive du club",
+      "date": "2025-09",
+      "dateSource": "article",
+      "title": "Journal septembre 25",
+      "articles": [
+        {
+          "path": "/archives/2025/journal-2025-09",
+          "title": "Journal septembre 25",
+          "date": "2025-09"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/cdc/cdc_senf_f2.jpg",
+      "w": 800,
+      "h": 581,
+      "alt": "Championnat des clubs — photo d'archive du club",
+      "date": "2025-09",
+      "dateSource": "article",
+      "title": "Journal septembre 25",
+      "articles": [
+        {
+          "path": "/archives/2025/journal-2025-09",
+          "title": "Journal septembre 25",
+          "date": "2025-09"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/cdc/cdc_sen_f3_d4.jpg",
+      "w": 800,
+      "h": 731,
+      "alt": "Championnat des clubs — photo d'archive du club",
+      "date": "2025-09",
+      "dateSource": "article",
+      "title": "Journal septembre 25",
+      "articles": [
+        {
+          "path": "/archives/2025/journal-2025-09",
+          "title": "Journal septembre 25",
+          "date": "2025-09"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/cdc/cdc_sen_25_f2ff4.jpg",
+      "w": 800,
+      "h": 598,
+      "alt": "Championnat des clubs — photo d'archive du club",
+      "date": "2025-09",
+      "dateSource": "article",
+      "title": "Journal septembre 25",
+      "articles": [
+        {
+          "path": "/archives/2025/journal-2025-09",
+          "title": "Journal septembre 25",
+          "date": "2025-09"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/cdc/f2f_audierne_j2.jpg",
+      "w": 800,
+      "h": 493,
+      "alt": "Championnat des clubs — photo d'archive du club",
+      "date": "2025-09",
+      "dateSource": "article",
+      "title": "Journal septembre 25",
+      "articles": [
+        {
+          "path": "/archives/2025/journal-2025-09",
+          "title": "Journal septembre 25",
+          "date": "2025-09"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/cdc/cdc_open_f3.jpg",
+      "w": 800,
+      "h": 510,
+      "alt": "Championnat des clubs — photo d'archive du club",
+      "date": "2025-10",
+      "dateSource": "article",
+      "title": "Journal octobre 25",
+      "articles": [
+        {
+          "path": "/archives/2025/journal-2025-10",
+          "title": "Journal octobre 25",
+          "date": "2025-10"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/cdc/crdc_sen_26_1.jpg",
+      "w": 800,
+      "h": 593,
+      "alt": "Championnat des clubs — photo d'archive du club",
+      "date": "2025-10",
+      "dateSource": "article",
+      "title": "Journal octobre 25",
+      "articles": [
+        {
+          "path": "/archives/2025/journal-2025-10",
+          "title": "Journal octobre 25",
+          "date": "2025-10"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/cdc/cdc_sen_f2.jpg",
+      "w": 800,
+      "h": 600,
+      "alt": "Championnat des clubs — photo d'archive du club",
+      "date": "2025-10",
+      "dateSource": "article",
+      "title": "Journal octobre 25",
+      "articles": [
+        {
+          "path": "/archives/2025/journal-2025-10",
+          "title": "Journal octobre 25",
+          "date": "2025-10"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/cdc/equipe_3_1.jpg",
+      "w": 1000,
+      "h": 750,
+      "alt": "Championnat des clubs — photo d'archive du club",
+      "date": "2026",
+      "dateSource": "path"
+    },
+    {
+      "src": "/images/galerie/cdc/equipe_4_bis.jpg",
+      "w": 1000,
+      "h": 865,
+      "alt": "Championnat des clubs — photo d'archive du club",
+      "date": "2026",
+      "dateSource": "path"
+    },
+    {
+      "src": "/images/galerie/cdc/equipe_f1.jpg",
+      "w": 800,
+      "h": 598,
+      "alt": "Championnat des clubs — photo d'archive du club",
+      "date": "2026",
+      "dateSource": "path"
+    },
+    {
+      "src": "/images/galerie/cdc/equipe_f9.jpg",
+      "w": 800,
+      "h": 600,
+      "alt": "Championnat des clubs — photo d'archive du club",
+      "date": "2026",
+      "dateSource": "path"
+    },
+    {
+      "src": "/images/galerie/cdc/f1.jpg",
+      "w": 1000,
+      "h": 748,
+      "alt": "Championnat des clubs — photo d'archive du club",
+      "date": "2026",
+      "dateSource": "path"
+    },
+    {
+      "src": "/images/galerie/cdc/f1_10.jpg",
+      "w": 1000,
+      "h": 748,
+      "alt": "Championnat des clubs — photo d'archive du club",
+      "date": "2026",
+      "dateSource": "path"
+    },
+    {
+      "src": "/images/galerie/cdc/f2_10.jpg",
+      "w": 1000,
+      "h": 562,
+      "alt": "Championnat des clubs — photo d'archive du club",
+      "date": "2026",
+      "dateSource": "path"
+    },
+    {
+      "src": "/images/galerie/cdc/f3_10.jpg",
+      "w": 1000,
+      "h": 750,
+      "alt": "Championnat des clubs — photo d'archive du club",
+      "date": "2026",
+      "dateSource": "path"
+    },
+    {
+      "src": "/images/galerie/cdc/f3_10_et_f9.jpg",
+      "w": 1000,
+      "h": 750,
+      "alt": "Championnat des clubs — photo d'archive du club",
+      "date": "2026",
+      "dateSource": "path"
+    },
+    {
+      "src": "/images/galerie/cdc/f4.jpg",
+      "w": 1000,
+      "h": 750,
+      "alt": "Championnat des clubs — photo d'archive du club",
+      "date": "2026",
+      "dateSource": "path"
+    },
+    {
+      "src": "/images/galerie/cdc/f4_10.jpg",
+      "w": 1000,
+      "h": 750,
+      "alt": "Championnat des clubs — photo d'archive du club",
+      "date": "2026",
+      "dateSource": "path"
+    },
+    {
+      "src": "/images/galerie/cdc/f6.jpg",
+      "w": 1000,
+      "h": 750,
+      "alt": "Championnat des clubs — photo d'archive du club",
+      "date": "2026",
+      "dateSource": "path"
+    },
+    {
+      "src": "/images/galerie/cdc/f8.jpg",
+      "w": 1000,
+      "h": 563,
+      "alt": "Championnat des clubs — photo d'archive du club",
+      "date": "2026",
+      "dateSource": "path"
+    },
+    {
+      "src": "/images/galerie/cdc/fouesnant_3.jpg",
+      "w": 850,
+      "h": 680,
+      "alt": "Championnat des clubs — photo d'archive du club",
+      "date": "2026",
+      "dateSource": "path"
+    },
+    {
+      "src": "/images/galerie/cdc/fouesnant_7.jpg",
+      "w": 850,
+      "h": 551,
+      "alt": "Championnat des clubs — photo d'archive du club",
+      "date": "2026",
+      "dateSource": "path"
+    },
+    {
+      "src": "/images/galerie/cdc/equipe_9__1.jpg",
+      "w": 1000,
+      "h": 689,
+      "alt": "Championnat des clubs — photo d'archive du club",
+      "date": "2026-06-11",
+      "dateSource": "exif"
+    }
+  ]
+}

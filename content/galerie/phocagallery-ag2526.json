@@ -1,0 +1,82 @@
+{
+  "key": "phocagallery-ag2526",
+  "title": "Assemblée générale 2025-2026",
+  "kind": "photos",
+  "count": 4,
+  "years": [
+    2025,
+    2026
+  ],
+  "dateRange": {
+    "from": "2025-10-17",
+    "to": "2025-10-17"
+  },
+  "byYear": {
+    "2025": {
+      "count": 4,
+      "from": "2025-10-17",
+      "to": "2025-10-17",
+      "thumbs": [
+        {
+          "src": "/images/galerie/phocagallery-ag2526/ag25_dessi.jpg",
+          "w": 800,
+          "h": 533,
+          "alt": "Assemblée générale 2025-2026 — photo d'archive du club"
+        },
+        {
+          "src": "/images/galerie/phocagallery-ag2526/ag25_joel.jpg",
+          "w": 800,
+          "h": 533,
+          "alt": "Assemblée générale 2025-2026 — photo d'archive du club"
+        },
+        {
+          "src": "/images/galerie/phocagallery-ag2526/ag25_licen5.jpg",
+          "w": 800,
+          "h": 533,
+          "alt": "Assemblée générale 2025-2026 — photo d'archive du club"
+        },
+        {
+          "src": "/images/galerie/phocagallery-ag2526/ag25_licen_6.jpg",
+          "w": 800,
+          "h": 533,
+          "alt": "Assemblée générale 2025-2026 — photo d'archive du club"
+        }
+      ]
+    }
+  },
+  "cover": "/images/galerie/phocagallery-ag2526/ag25_dessi.jpg",
+  "photos": [
+    {
+      "src": "/images/galerie/phocagallery-ag2526/ag25_dessi.jpg",
+      "w": 800,
+      "h": 533,
+      "alt": "Assemblée générale 2025-2026 — photo d'archive du club",
+      "date": "2025-10-17",
+      "dateSource": "exif"
+    },
+    {
+      "src": "/images/galerie/phocagallery-ag2526/ag25_joel.jpg",
+      "w": 800,
+      "h": 533,
+      "alt": "Assemblée générale 2025-2026 — photo d'archive du club",
+      "date": "2025-10-17",
+      "dateSource": "exif"
+    },
+    {
+      "src": "/images/galerie/phocagallery-ag2526/ag25_licen5.jpg",
+      "w": 800,
+      "h": 533,
+      "alt": "Assemblée générale 2025-2026 — photo d'archive du club",
+      "date": "2025-10-17",
+      "dateSource": "exif"
+    },
+    {
+      "src": "/images/galerie/phocagallery-ag2526/ag25_licen_6.jpg",
+      "w": 800,
+      "h": 533,
+      "alt": "Assemblée générale 2025-2026 — photo d'archive du club",
+      "date": "2025-10-17",
+      "dateSource": "exif"
+    }
+  ]
+}

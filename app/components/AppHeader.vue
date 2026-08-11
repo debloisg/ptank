@@ -7,12 +7,13 @@ const links = [
   { label: 'Événements', to: '/evenements' },
   { label: 'Compétitions', to: '/competitions' },
   { label: 'Résultats', to: '/resultats' },
+  { label: 'Archives', to: '/archives' },
   { label: 'Le Club', to: '/a-propos' },
 ]
 </script>
 
 <template>
-  <!-- The brand + 6 nav items + CTA don't fit at `lg`, so the inline nav only
+  <!-- The brand + 7 nav items + CTA don't fit at `lg`, so the inline nav only
        appears at `xl`; below that the slideover (hamburger) takes over. -->
   <UHeader
     mode="slideover"

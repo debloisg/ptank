@@ -1,0 +1,91 @@
+{
+  "key": "tir-de-precision",
+  "title": "Tir de précision",
+  "kind": "photos",
+  "count": 3,
+  "years": [
+    2025
+  ],
+  "dateRange": {
+    "from": "2024-12",
+    "to": "2024-12-14"
+  },
+  "byYear": {
+    "2024": {
+      "count": 3,
+      "from": "2024-12",
+      "to": "2024-12-14",
+      "thumbs": [
+        {
+          "src": "/images/galerie/tir-de-precision/tdp25_fem.jpg",
+          "w": 700,
+          "h": 693,
+          "alt": "Tir de précision — photo d'archive du club"
+        },
+        {
+          "src": "/images/galerie/tir-de-precision/tir_25.jpg",
+          "w": 800,
+          "h": 566,
+          "alt": "Tir de précision — photo d'archive du club"
+        },
+        {
+          "src": "/images/galerie/tir-de-precision/tdp_25_masc.jpg",
+          "w": 700,
+          "h": 525,
+          "alt": "Tir de précision — photo d'archive du club"
+        }
+      ]
+    }
+  },
+  "cover": "/images/galerie/tir-de-precision/tdp25_fem.jpg",
+  "photos": [
+    {
+      "src": "/images/galerie/tir-de-precision/tdp25_fem.jpg",
+      "w": 700,
+      "h": 693,
+      "alt": "Tir de précision — photo d'archive du club",
+      "date": "2024-12",
+      "dateSource": "article",
+      "title": "Journal Décembre 24",
+      "articles": [
+        {
+          "path": "/archives/2024/journal-2024-12",
+          "title": "Journal Décembre 24",
+          "date": "2024-12"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/tir-de-precision/tir_25.jpg",
+      "w": 800,
+      "h": 566,
+      "alt": "Tir de précision — photo d'archive du club",
+      "date": "2024-12",
+      "dateSource": "article",
+      "title": "Journal Décembre 24",
+      "articles": [
+        {
+          "path": "/archives/2024/journal-2024-12",
+          "title": "Journal Décembre 24",
+          "date": "2024-12"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/tir-de-precision/tdp_25_masc.jpg",
+      "w": 700,
+      "h": 525,
+      "alt": "Tir de précision — photo d'archive du club",
+      "date": "2024-12-14",
+      "dateSource": "exif",
+      "title": "Journal Décembre 24",
+      "articles": [
+        {
+          "path": "/archives/2024/journal-2024-12",
+          "title": "Journal Décembre 24",
+          "date": "2024-12"
+        }
+      ]
+    }
+  ]
+}

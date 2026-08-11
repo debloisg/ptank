@@ -1,0 +1,89 @@
+{
+  "key": "marche-noel",
+  "title": "Marché de Noël",
+  "kind": "photos",
+  "count": 3,
+  "years": [],
+  "dateRange": {
+    "from": "2022-12",
+    "to": "2022-12"
+  },
+  "byYear": {
+    "2022": {
+      "count": 3,
+      "from": "2022-12",
+      "to": "2022-12",
+      "thumbs": [
+        {
+          "src": "/images/galerie/marche-noel/3700902551251787940.jpg",
+          "w": 511,
+          "h": 383,
+          "alt": "Marché de Noël — photo d'archive du club"
+        },
+        {
+          "src": "/images/galerie/marche-noel/852368100807759216.jpg",
+          "w": 511,
+          "h": 383,
+          "alt": "Marché de Noël — photo d'archive du club"
+        },
+        {
+          "src": "/images/galerie/marche-noel/march_noel_22_1.jpg",
+          "w": 400,
+          "h": 567,
+          "alt": "Marché de Noël — photo d'archive du club"
+        }
+      ]
+    }
+  },
+  "cover": "/images/galerie/marche-noel/march_noel_22_1.jpg",
+  "photos": [
+    {
+      "src": "/images/galerie/marche-noel/3700902551251787940.jpg",
+      "w": 511,
+      "h": 383,
+      "alt": "Marché de Noël — photo d'archive du club",
+      "date": "2022-12",
+      "dateSource": "article",
+      "title": "journal déc 22",
+      "articles": [
+        {
+          "path": "/archives/2022/journal-2022-12",
+          "title": "journal déc 22",
+          "date": "2022-12"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/marche-noel/852368100807759216.jpg",
+      "w": 511,
+      "h": 383,
+      "alt": "Marché de Noël — photo d'archive du club",
+      "date": "2022-12",
+      "dateSource": "article",
+      "title": "journal déc 22",
+      "articles": [
+        {
+          "path": "/archives/2022/journal-2022-12",
+          "title": "journal déc 22",
+          "date": "2022-12"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/marche-noel/march_noel_22_1.jpg",
+      "w": 400,
+      "h": 567,
+      "alt": "Marché de Noël — photo d'archive du club",
+      "date": "2022-12",
+      "dateSource": "article",
+      "title": "journal déc 22",
+      "articles": [
+        {
+          "path": "/archives/2022/journal-2022-12",
+          "title": "journal déc 22",
+          "date": "2022-12"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,457 @@
+{
+  "key": "fete-du-club",
+  "title": "Fête du club",
+  "kind": "photos",
+  "count": 35,
+  "years": [
+    2017,
+    2024
+  ],
+  "dateRange": {
+    "from": "2014-06-21",
+    "to": "2024-06"
+  },
+  "byYear": {
+    "2014": {
+      "count": 26,
+      "from": "2014-06-21",
+      "to": "2014-06-21",
+      "thumbs": [
+        {
+          "src": "/images/galerie/fete-du-club/fetepet141.jpg",
+          "w": 640,
+          "h": 480,
+          "alt": "Fête du club — photo d'archive du club"
+        },
+        {
+          "src": "/images/galerie/fete-du-club/fetepet1410.jpg",
+          "w": 640,
+          "h": 480,
+          "alt": "Fête du club — photo d'archive du club"
+        },
+        {
+          "src": "/images/galerie/fete-du-club/fetepet1411.jpg",
+          "w": 640,
+          "h": 480,
+          "alt": "Fête du club — photo d'archive du club"
+        },
+        {
+          "src": "/images/galerie/fete-du-club/fetepet1412.jpg",
+          "w": 640,
+          "h": 480,
+          "alt": "Fête du club — photo d'archive du club"
+        }
+      ]
+    },
+    "2017": {
+      "count": 6,
+      "from": "2017-06-25",
+      "to": "2017-06-25",
+      "thumbs": [
+        {
+          "src": "/images/galerie/fete-du-club/fetclub171a.jpg",
+          "w": 650,
+          "h": 366,
+          "alt": "Fête du club — photo d'archive du club"
+        },
+        {
+          "src": "/images/galerie/fete-du-club/fetclub1724a.jpg",
+          "w": 650,
+          "h": 366,
+          "alt": "Fête du club — photo d'archive du club"
+        },
+        {
+          "src": "/images/galerie/fete-du-club/fetclub1728a.jpg",
+          "w": 650,
+          "h": 366,
+          "alt": "Fête du club — photo d'archive du club"
+        },
+        {
+          "src": "/images/galerie/fete-du-club/fetclub1735a.jpg",
+          "w": 650,
+          "h": 366,
+          "alt": "Fête du club — photo d'archive du club"
+        }
+      ]
+    },
+    "2022": {
+      "count": 1,
+      "from": "2022-02",
+      "to": "2022-02",
+      "thumbs": [
+        {
+          "src": "/images/galerie/fete-du-club/pot22_2.jpg",
+          "w": 800,
+          "h": 450,
+          "alt": "Fête du club — photo d'archive du club"
+        }
+      ]
+    },
+    "2024": {
+      "count": 2,
+      "from": "2024-06",
+      "to": "2024-06",
+      "thumbs": [
+        {
+          "src": "/images/galerie/fete-du-club/repas_club_24.png",
+          "w": 796,
+          "h": 162,
+          "alt": "Fête du club — photo d'archive du club"
+        },
+        {
+          "src": "/images/galerie/fete-du-club/repas_club_24_1.png",
+          "w": 800,
+          "h": 51,
+          "alt": "Fête du club — photo d'archive du club"
+        }
+      ]
+    }
+  },
+  "cover": "/images/galerie/fete-du-club/pot22_2.jpg",
+  "photos": [
+    {
+      "src": "/images/galerie/fete-du-club/fetepet141.jpg",
+      "w": 640,
+      "h": 480,
+      "alt": "Fête du club — photo d'archive du club",
+      "date": "2014-06-21",
+      "dateSource": "exif"
+    },
+    {
+      "src": "/images/galerie/fete-du-club/fetepet1410.jpg",
+      "w": 640,
+      "h": 480,
+      "alt": "Fête du club — photo d'archive du club",
+      "date": "2014-06-21",
+      "dateSource": "exif"
+    },
+    {
+      "src": "/images/galerie/fete-du-club/fetepet1411.jpg",
+      "w": 640,
+      "h": 480,
+      "alt": "Fête du club — photo d'archive du club",
+      "date": "2014-06-21",
+      "dateSource": "exif"
+    },
+    {
+      "src": "/images/galerie/fete-du-club/fetepet1412.jpg",
+      "w": 640,
+      "h": 480,
+      "alt": "Fête du club — photo d'archive du club",
+      "date": "2014-06-21",
+      "dateSource": "exif"
+    },
+    {
+      "src": "/images/galerie/fete-du-club/fetepet1413.jpg",
+      "w": 640,
+      "h": 480,
+      "alt": "Fête du club — photo d'archive du club",
+      "date": "2014-06-21",
+      "dateSource": "exif"
+    },
+    {
+      "src": "/images/galerie/fete-du-club/fetepet1414.jpg",
+      "w": 640,
+      "h": 480,
+      "alt": "Fête du club — photo d'archive du club",
+      "date": "2014-06-21",
+      "dateSource": "exif"
+    },
+    {
+      "src": "/images/galerie/fete-du-club/fetepet1415.jpg",
+      "w": 640,
+      "h": 480,
+      "alt": "Fête du club — photo d'archive du club",
+      "date": "2014-06-21",
+      "dateSource": "exif"
+    },
+    {
+      "src": "/images/galerie/fete-du-club/fetepet1416.jpg",
+      "w": 640,
+      "h": 480,
+      "alt": "Fête du club — photo d'archive du club",
+      "date": "2014-06-21",
+      "dateSource": "exif"
+    },
+    {
+      "src": "/images/galerie/fete-du-club/fetepet1417.jpg",
+      "w": 640,
+      "h": 480,
+      "alt": "Fête du club — photo d'archive du club",
+      "date": "2014-06-21",
+      "dateSource": "exif"
+    },
+    {
+      "src": "/images/galerie/fete-du-club/fetepet1418.jpg",
+      "w": 640,
+      "h": 480,
+      "alt": "Fête du club — photo d'archive du club",
+      "date": "2014-06-21",
+      "dateSource": "exif"
+    },
+    {
+      "src": "/images/galerie/fete-du-club/fetepet1419-1.jpg",
+      "w": 640,
+      "h": 480,
+      "alt": "Fête du club — photo d'archive du club",
+      "date": "2014-06-21",
+      "dateSource": "exif"
+    },
+    {
+      "src": "/images/galerie/fete-du-club/fetepet1419.jpg",
+      "w": 640,
+      "h": 480,
+      "alt": "Fête du club — photo d'archive du club",
+      "date": "2014-06-21",
+      "dateSource": "exif"
+    },
+    {
+      "src": "/images/galerie/fete-du-club/fetepet142-1.jpg",
+      "w": 640,
+      "h": 480,
+      "alt": "Fête du club — photo d'archive du club",
+      "date": "2014-06-21",
+      "dateSource": "exif"
+    },
+    {
+      "src": "/images/galerie/fete-du-club/fetepet142.jpg",
+      "w": 640,
+      "h": 480,
+      "alt": "Fête du club — photo d'archive du club",
+      "date": "2014-06-21",
+      "dateSource": "exif"
+    },
+    {
+      "src": "/images/galerie/fete-du-club/fetepet1420.jpg",
+      "w": 640,
+      "h": 480,
+      "alt": "Fête du club — photo d'archive du club",
+      "date": "2014-06-21",
+      "dateSource": "exif"
+    },
+    {
+      "src": "/images/galerie/fete-du-club/fetepet1421.jpg",
+      "w": 640,
+      "h": 480,
+      "alt": "Fête du club — photo d'archive du club",
+      "date": "2014-06-21",
+      "dateSource": "exif"
+    },
+    {
+      "src": "/images/galerie/fete-du-club/fetepet1422.jpg",
+      "w": 640,
+      "h": 480,
+      "alt": "Fête du club — photo d'archive du club",
+      "date": "2014-06-21",
+      "dateSource": "exif"
+    },
+    {
+      "src": "/images/galerie/fete-du-club/fetepet1423.jpg",
+      "w": 640,
+      "h": 480,
+      "alt": "Fête du club — photo d'archive du club",
+      "date": "2014-06-21",
+      "dateSource": "exif"
+    },
+    {
+      "src": "/images/galerie/fete-du-club/fetepet1424.jpg",
+      "w": 640,
+      "h": 480,
+      "alt": "Fête du club — photo d'archive du club",
+      "date": "2014-06-21",
+      "dateSource": "exif"
+    },
+    {
+      "src": "/images/galerie/fete-du-club/fetepet1425.jpg",
+      "w": 640,
+      "h": 480,
+      "alt": "Fête du club — photo d'archive du club",
+      "date": "2014-06-21",
+      "dateSource": "exif"
+    },
+    {
+      "src": "/images/galerie/fete-du-club/fetepet143.jpg",
+      "w": 640,
+      "h": 480,
+      "alt": "Fête du club — photo d'archive du club",
+      "date": "2014-06-21",
+      "dateSource": "exif"
+    },
+    {
+      "src": "/images/galerie/fete-du-club/fetepet144.jpg",
+      "w": 640,
+      "h": 480,
+      "alt": "Fête du club — photo d'archive du club",
+      "date": "2014-06-21",
+      "dateSource": "exif"
+    },
+    {
+      "src": "/images/galerie/fete-du-club/fetepet145.jpg",
+      "w": 640,
+      "h": 480,
+      "alt": "Fête du club — photo d'archive du club",
+      "date": "2014-06-21",
+      "dateSource": "exif"
+    },
+    {
+      "src": "/images/galerie/fete-du-club/fetepet146.jpg",
+      "w": 640,
+      "h": 480,
+      "alt": "Fête du club — photo d'archive du club",
+      "date": "2014-06-21",
+      "dateSource": "exif"
+    },
+    {
+      "src": "/images/galerie/fete-du-club/fetepet148.jpg",
+      "w": 640,
+      "h": 480,
+      "alt": "Fête du club — photo d'archive du club",
+      "date": "2014-06-21",
+      "dateSource": "exif"
+    },
+    {
+      "src": "/images/galerie/fete-du-club/fetepet149.jpg",
+      "w": 640,
+      "h": 480,
+      "alt": "Fête du club — photo d'archive du club",
+      "date": "2014-06-21",
+      "dateSource": "exif"
+    },
+    {
+      "src": "/images/galerie/fete-du-club/fetclub171a.jpg",
+      "w": 650,
+      "h": 366,
+      "alt": "Fête du club — photo d'archive du club",
+      "date": "2017-06-25",
+      "dateSource": "exif",
+      "title": "Journal Juin 2017",
+      "articles": [
+        {
+          "path": "/archives/2017/journal-2017-06",
+          "title": "Journal Juin 2017",
+          "date": "2017-06"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/fete-du-club/fetclub1724a.jpg",
+      "w": 650,
+      "h": 366,
+      "alt": "Fête du club — photo d'archive du club",
+      "date": "2017-06-25",
+      "dateSource": "exif",
+      "title": "Journal Juin 2017",
+      "articles": [
+        {
+          "path": "/archives/2017/journal-2017-06",
+          "title": "Journal Juin 2017",
+          "date": "2017-06"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/fete-du-club/fetclub1728a.jpg",
+      "w": 650,
+      "h": 366,
+      "alt": "Fête du club — photo d'archive du club",
+      "date": "2017-06-25",
+      "dateSource": "exif",
+      "title": "Journal Juin 2017",
+      "articles": [
+        {
+          "path": "/archives/2017/journal-2017-06",
+          "title": "Journal Juin 2017",
+          "date": "2017-06"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/fete-du-club/fetclub1735a.jpg",
+      "w": 650,
+      "h": 366,
+      "alt": "Fête du club — photo d'archive du club",
+      "date": "2017-06-25",
+      "dateSource": "exif",
+      "title": "Journal Juin 2017",
+      "articles": [
+        {
+          "path": "/archives/2017/journal-2017-06",
+          "title": "Journal Juin 2017",
+          "date": "2017-06"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/fete-du-club/fetclub1757a.jpg",
+      "w": 650,
+      "h": 366,
+      "alt": "Fête du club — photo d'archive du club",
+      "date": "2017-06-25",
+      "dateSource": "exif",
+      "title": "Journal Juin 2017",
+      "articles": [
+        {
+          "path": "/archives/2017/journal-2017-06",
+          "title": "Journal Juin 2017",
+          "date": "2017-06"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/fete-du-club/fetclub177a.jpg",
+      "w": 640,
+      "h": 361,
+      "alt": "Fête du club — photo d'archive du club",
+      "date": "2017-06-25",
+      "dateSource": "exif"
+    },
+    {
+      "src": "/images/galerie/fete-du-club/pot22_2.jpg",
+      "w": 800,
+      "h": 450,
+      "alt": "Fête du club — photo d'archive du club",
+      "date": "2022-02",
+      "dateSource": "article",
+      "title": "journal Fév/Mars 2022",
+      "articles": [
+        {
+          "path": "/archives/2022/journal-2022-02-03",
+          "title": "journal Fév/Mars 2022",
+          "date": "2022-02"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/fete-du-club/repas_club_24.png",
+      "w": 796,
+      "h": 162,
+      "alt": "Fête du club — photo d'archive du club",
+      "date": "2024-06",
+      "dateSource": "article",
+      "title": "Journal Juin 24",
+      "articles": [
+        {
+          "path": "/archives/2024/journal-2024-06",
+          "title": "Journal Juin 24",
+          "date": "2024-06"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/fete-du-club/repas_club_24_1.png",
+      "w": 800,
+      "h": 51,
+      "alt": "Fête du club — photo d'archive du club",
+      "date": "2024-06",
+      "dateSource": "article",
+      "title": "Journal Juin 24",
+      "articles": [
+        {
+          "path": "/archives/2024/journal-2024-06",
+          "title": "Journal Juin 24",
+          "date": "2024-06"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "key": "phocagallery",
+  "title": "Galerie photos",
+  "kind": "photos",
+  "count": 9,
+  "years": [],
+  "byYear": {},
+  "cover": "/images/galerie/phocagallery/chalets25_8.jpg",
+  "photos": [
+    {
+      "src": "/images/galerie/phocagallery/chalets25_1.jpg",
+      "w": 800,
+      "h": 374,
+      "alt": "Galerie photos — photo d'archive du club"
+    },
+    {
+      "src": "/images/galerie/phocagallery/chalets25_10.jpg",
+      "w": 800,
+      "h": 374,
+      "alt": "Galerie photos — photo d'archive du club"
+    },
+    {
+      "src": "/images/galerie/phocagallery/chalets25_2.jpg",
+      "w": 800,
+      "h": 374,
+      "alt": "Galerie photos — photo d'archive du club"
+    },
+    {
+      "src": "/images/galerie/phocagallery/chalets25_3.jpg",
+      "w": 800,
+      "h": 374,
+      "alt": "Galerie photos — photo d'archive du club"
+    },
+    {
+      "src": "/images/galerie/phocagallery/chalets25_4.jpg",
+      "w": 800,
+      "h": 374,
+      "alt": "Galerie photos — photo d'archive du club"
+    },
+    {
+      "src": "/images/galerie/phocagallery/chalets25_6.jpg",
+      "w": 800,
+      "h": 374,
+      "alt": "Galerie photos — photo d'archive du club"
+    },
+    {
+      "src": "/images/galerie/phocagallery/chalets25_8.jpg",
+      "w": 1600,
+      "h": 747,
+      "alt": "Galerie photos — photo d'archive du club"
+    },
+    {
+      "src": "/images/galerie/phocagallery/chalets25_9.jpg",
+      "w": 1600,
+      "h": 747,
+      "alt": "Galerie photos — photo d'archive du club"
+    },
+    {
+      "src": "/images/galerie/phocagallery/img-20251218-wa0005.jpg",
+      "w": 1600,
+      "h": 747,
+      "alt": "Galerie photos — photo d'archive du club"
+    }
+  ]
+}

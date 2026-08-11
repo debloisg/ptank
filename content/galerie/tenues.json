@@ -1,0 +1,117 @@
+{
+  "key": "tenues",
+  "title": "Tenues",
+  "kind": "documents",
+  "count": 5,
+  "years": [],
+  "dateRange": {
+    "from": "2018-10-30",
+    "to": "2018-10-30"
+  },
+  "byYear": {
+    "2018": {
+      "count": 4,
+      "from": "2018-10-30",
+      "to": "2018-10-30",
+      "thumbs": [
+        {
+          "src": "/images/galerie/tenues/tenues_25_1.jpg",
+          "w": 800,
+          "h": 566,
+          "alt": "Tenues — photo d'archive du club"
+        },
+        {
+          "src": "/images/galerie/tenues/tenues_25_2.jpg",
+          "w": 800,
+          "h": 566,
+          "alt": "Tenues — photo d'archive du club"
+        },
+        {
+          "src": "/images/galerie/tenues/tenues_25_3.jpg",
+          "w": 800,
+          "h": 566,
+          "alt": "Tenues — photo d'archive du club"
+        },
+        {
+          "src": "/images/galerie/tenues/tenues_25_4.jpg",
+          "w": 800,
+          "h": 566,
+          "alt": "Tenues — photo d'archive du club"
+        }
+      ]
+    }
+  },
+  "cover": "/images/galerie/tenues/tenues_25_cd29.jpg",
+  "photos": [
+    {
+      "src": "/images/galerie/tenues/tenues_25_1.jpg",
+      "w": 800,
+      "h": 566,
+      "alt": "Tenues — photo d'archive du club",
+      "date": "2018-10-30",
+      "dateSource": "article",
+      "title": "Uniformisation des tenues",
+      "articles": [
+        {
+          "path": "/archives/2018/uniformisation-des-tenues",
+          "title": "Uniformisation des tenues",
+          "date": "2018-10-30"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/tenues/tenues_25_2.jpg",
+      "w": 800,
+      "h": 566,
+      "alt": "Tenues — photo d'archive du club",
+      "date": "2018-10-30",
+      "dateSource": "article",
+      "title": "Uniformisation des tenues",
+      "articles": [
+        {
+          "path": "/archives/2018/uniformisation-des-tenues",
+          "title": "Uniformisation des tenues",
+          "date": "2018-10-30"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/tenues/tenues_25_3.jpg",
+      "w": 800,
+      "h": 566,
+      "alt": "Tenues — photo d'archive du club",
+      "date": "2018-10-30",
+      "dateSource": "article",
+      "title": "Uniformisation des tenues",
+      "articles": [
+        {
+          "path": "/archives/2018/uniformisation-des-tenues",
+          "title": "Uniformisation des tenues",
+          "date": "2018-10-30"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/tenues/tenues_25_4.jpg",
+      "w": 800,
+      "h": 566,
+      "alt": "Tenues — photo d'archive du club",
+      "date": "2018-10-30",
+      "dateSource": "article",
+      "title": "Uniformisation des tenues",
+      "articles": [
+        {
+          "path": "/archives/2018/uniformisation-des-tenues",
+          "title": "Uniformisation des tenues",
+          "date": "2018-10-30"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/tenues/tenues_25_cd29.jpg",
+      "w": 944,
+      "h": 1389,
+      "alt": "Tenues — photo d'archive du club"
+    }
+  ]
+}

@@ -10,6 +10,10 @@ const COLLECTION_BY_SEGMENT = {
   evenements: 'events',
   competitions: 'competitions',
   resultats: 'results',
+  // Imported Joomla articles, at /archives/<year>/<slug>. The static
+  // /archives, /archives/[year] and /archives/galerie routes take precedence
+  // over this catch-all, so only two-segment archive paths land here.
+  archives: 'archives',
 } as const
 const segment = route.path.split('/').filter(Boolean)[0] ?? ''
 // True for the dated collections, false for standalone pages like /a-propos.
@@ -47,7 +51,24 @@ const sections: Record<string, { label: string, to: string }> = {
   competitions: { label: 'Toutes les compétitions', to: '/competitions' },
   resultats: { label: 'Tous les résultats', to: '/resultats' },
 }
-const backLink = computed(() => sections[route.path.split('/').filter(Boolean)[0] ?? ''])
+// Archives are the one section whose listing is per-year, so the back link has to
+// be derived from the article rather than looked up from a fixed table.
+const isArchive = computed(() => segment === 'archives')
+// `year` exists on the archives collection only, and this page renders every
+// collection — narrow with `in` rather than reaching for `any` (same reason as
+// `location` above).
+const archiveYear = computed(() =>
+  page.value && 'year' in page.value ? (page.value.year as number | undefined) : undefined,
+)
+const backLink = computed(() => {
+  if (isArchive.value) {
+    const year = archiveYear.value
+    return year
+      ? { label: `Archives ${year}`, to: `/archives/${year}` }
+      : { label: 'Toutes les archives', to: '/archives' }
+  }
+  return sections[route.path.split('/').filter(Boolean)[0] ?? '']
+})
 
 // Per-article social image: crop the article's own photo to the 1200x630 OG
 // canvas through Cloudflare Image Transformations, so a shared article previews
@@ -106,7 +127,9 @@ if (segment === 'evenements' || segment === 'competitions') {
 </script>
 
 <template>
-  <UContainer class="py-12 sm:py-16 max-w-3xl">
+  <!-- Archives get a wider measure: their imported tables are far wider than the
+       3xl prose column the hand-written pages are set to. -->
+  <UContainer class="py-12 sm:py-16" :class="isArchive ? 'max-w-5xl' : 'max-w-3xl'">
     <UButton
       v-if="backLink"
       :to="backLink.to"
@@ -148,7 +171,25 @@ if (segment === 'evenements' || segment === 'competitions') {
         class="w-full aspect-[4/3] sm:aspect-video object-cover rounded-2xl border border-default"
       />
 
-      <ContentRenderer v-if="page" :value="page" class="content-prose mt-8" />
+      <!-- Tells the reader why the layout and tone differ from the rest of the
+           site: these pages are a verbatim import, typos and shouty caps
+           included, not something the club wrote today. -->
+      <UAlert
+        v-if="isArchive"
+        color="neutral"
+        variant="subtle"
+        icon="i-lucide-archive"
+        class="mt-8"
+        title="Article d'archive"
+        description="Cette page provient de l'ancien site du club et est conservée telle quelle. Sa mise en forme peut différer du reste du site."
+      />
+
+      <ContentRenderer
+        v-if="page"
+        :value="page"
+        class="content-prose mt-8"
+        :class="isArchive ? 'content-prose--archive' : undefined"
+      />
     </article>
   </UContainer>
 </template>

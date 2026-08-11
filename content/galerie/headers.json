@@ -1,0 +1,336 @@
+{
+  "key": "headers",
+  "title": "Bannières du site",
+  "kind": "documents",
+  "count": 48,
+  "years": [
+    2014
+  ],
+  "dateRange": {
+    "from": "2006-12-01",
+    "to": "2014"
+  },
+  "byYear": {
+    "2006": {
+      "count": 1,
+      "from": "2006-12-01",
+      "to": "2006-12-01",
+      "thumbs": [
+        {
+          "src": "/images/galerie/headers/boulesnoel1.jpg",
+          "w": 700,
+          "h": 180,
+          "alt": "Bannières du site — photo d'archive du club"
+        }
+      ]
+    },
+    "2014": {
+      "count": 1,
+      "from": "2014",
+      "to": "2014",
+      "thumbs": [
+        {
+          "src": "/images/galerie/headers/bon_annee_2014.png",
+          "w": 700,
+          "h": 180,
+          "alt": "Bannières du site — photo d'archive du club"
+        }
+      ]
+    }
+  },
+  "cover": "/images/galerie/headers/image_header3.jpg",
+  "photos": [
+    {
+      "src": "/images/galerie/headers/boulesnoel1.jpg",
+      "w": 700,
+      "h": 180,
+      "alt": "Bannières du site — photo d'archive du club",
+      "date": "2006-12-01",
+      "dateSource": "exif"
+    },
+    {
+      "src": "/images/galerie/headers/bon_annee_2014.png",
+      "w": 700,
+      "h": 180,
+      "alt": "Bannières du site — photo d'archive du club",
+      "date": "2014",
+      "dateSource": "path"
+    },
+    {
+      "src": "/images/galerie/headers/bonann23_1.png",
+      "w": 800,
+      "h": 180,
+      "alt": "Bannières du site — photo d'archive du club"
+    },
+    {
+      "src": "/images/galerie/headers/chibou1.jpg",
+      "w": 700,
+      "h": 174,
+      "alt": "Bannières du site — photo d'archive du club"
+    },
+    {
+      "src": "/images/galerie/headers/blue-flower-1.jpg",
+      "w": 700,
+      "h": 180,
+      "alt": "Bannières du site — photo d'archive du club"
+    },
+    {
+      "src": "/images/galerie/headers/blue-flower.jpg",
+      "w": 700,
+      "h": 180,
+      "alt": "Bannières du site — photo d'archive du club"
+    },
+    {
+      "src": "/images/galerie/headers/bon_annee_20142.png",
+      "w": 700,
+      "h": 100,
+      "alt": "Bannières du site — photo d'archive du club"
+    },
+    {
+      "src": "/images/galerie/headers/bonann23_2.png",
+      "w": 800,
+      "h": 180,
+      "alt": "Bannières du site — photo d'archive du club"
+    },
+    {
+      "src": "/images/galerie/headers/bonne_annee-20145.png",
+      "w": 698,
+      "h": 180,
+      "alt": "Bannières du site — photo d'archive du club"
+    },
+    {
+      "src": "/images/galerie/headers/bonne_annee-20147.png",
+      "w": 699,
+      "h": 157,
+      "alt": "Bannières du site — photo d'archive du club"
+    },
+    {
+      "src": "/images/galerie/headers/bonne_annee_20144.png",
+      "w": 700,
+      "h": 180,
+      "alt": "Bannières du site — photo d'archive du club"
+    },
+    {
+      "src": "/images/galerie/headers/boul20.jpg",
+      "w": 800,
+      "h": 180,
+      "alt": "Bannières du site — photo d'archive du club"
+    },
+    {
+      "src": "/images/galerie/headers/boul21.jpg",
+      "w": 800,
+      "h": 207,
+      "alt": "Bannières du site — photo d'archive du club"
+    },
+    {
+      "src": "/images/galerie/headers/boul22.jpg",
+      "w": 800,
+      "h": 180,
+      "alt": "Bannières du site — photo d'archive du club"
+    },
+    {
+      "src": "/images/galerie/headers/boul23.jpg",
+      "w": 800,
+      "h": 180,
+      "alt": "Bannières du site — photo d'archive du club"
+    },
+    {
+      "src": "/images/galerie/headers/boule24.jpg",
+      "w": 800,
+      "h": 180,
+      "alt": "Bannières du site — photo d'archive du club"
+    },
+    {
+      "src": "/images/galerie/headers/boules_noel1.jpg",
+      "w": 800,
+      "h": 180,
+      "alt": "Bannières du site — photo d'archive du club"
+    },
+    {
+      "src": "/images/galerie/headers/boulesnoel2.jpg",
+      "w": 699,
+      "h": 180,
+      "alt": "Bannières du site — photo d'archive du club"
+    },
+    {
+      "src": "/images/galerie/headers/chpt_tri_vete_22_16.jpg",
+      "w": 800,
+      "h": 180,
+      "alt": "Bannières du site — photo d'archive du club"
+    },
+    {
+      "src": "/images/galerie/headers/depl_vet_22.jpg",
+      "w": 800,
+      "h": 180,
+      "alt": "Bannières du site — photo d'archive du club"
+    },
+    {
+      "src": "/images/galerie/headers/depl_vete_22.jpg",
+      "w": 800,
+      "h": 180,
+      "alt": "Bannières du site — photo d'archive du club"
+    },
+    {
+      "src": "/images/galerie/headers/header_petanque_1.jpg",
+      "w": 700,
+      "h": 180,
+      "alt": "Bannières du site — photo d'archive du club"
+    },
+    {
+      "src": "/images/galerie/headers/header_petanque_2.jpg",
+      "w": 700,
+      "h": 180,
+      "alt": "Bannières du site — photo d'archive du club"
+    },
+    {
+      "src": "/images/galerie/headers/header_petanque_3.jpg",
+      "w": 700,
+      "h": 180,
+      "alt": "Bannières du site — photo d'archive du club"
+    },
+    {
+      "src": "/images/galerie/headers/header_petanque_4.jpg",
+      "w": 700,
+      "h": 180,
+      "alt": "Bannières du site — photo d'archive du club"
+    },
+    {
+      "src": "/images/galerie/headers/header_petanque_5.jpg",
+      "w": 700,
+      "h": 135,
+      "alt": "Bannières du site — photo d'archive du club"
+    },
+    {
+      "src": "/images/galerie/headers/header_pf1.jpg",
+      "w": 800,
+      "h": 184,
+      "alt": "Bannières du site — photo d'archive du club"
+    },
+    {
+      "src": "/images/galerie/headers/image_bandeau1.jpg",
+      "w": 1000,
+      "h": 369,
+      "alt": "Bannières du site — photo d'archive du club"
+    },
+    {
+      "src": "/images/galerie/headers/image_bandeau2.jpg",
+      "w": 1000,
+      "h": 250,
+      "alt": "Bannières du site — photo d'archive du club"
+    },
+    {
+      "src": "/images/galerie/headers/image_header3.jpg",
+      "w": 1920,
+      "h": 683,
+      "alt": "Bannières du site — photo d'archive du club"
+    },
+    {
+      "src": "/images/galerie/headers/image_header_ptanque.jpg",
+      "w": 701,
+      "h": 181,
+      "alt": "Bannières du site — photo d'archive du club"
+    },
+    {
+      "src": "/images/galerie/headers/kerleven.jpg",
+      "w": 710,
+      "h": 162,
+      "alt": "Bannières du site — photo d'archive du club"
+    },
+    {
+      "src": "/images/galerie/headers/kerleven4.jpg",
+      "w": 920,
+      "h": 172,
+      "alt": "Bannières du site — photo d'archive du club"
+    },
+    {
+      "src": "/images/galerie/headers/maple-1.jpg",
+      "w": 700,
+      "h": 180,
+      "alt": "Bannières du site — photo d'archive du club"
+    },
+    {
+      "src": "/images/galerie/headers/maple.jpg",
+      "w": 700,
+      "h": 180,
+      "alt": "Bannières du site — photo d'archive du club"
+    },
+    {
+      "src": "/images/galerie/headers/maree2.jpg",
+      "w": 900,
+      "h": 226,
+      "alt": "Bannières du site — photo d'archive du club"
+    },
+    {
+      "src": "/images/galerie/headers/maree3.jpg",
+      "w": 920,
+      "h": 231,
+      "alt": "Bannières du site — photo d'archive du club"
+    },
+    {
+      "src": "/images/galerie/headers/merblc1.jpg",
+      "w": 1332,
+      "h": 182,
+      "alt": "Bannières du site — photo d'archive du club"
+    },
+    {
+      "src": "/images/galerie/headers/plagmblc1.jpg",
+      "w": 1280,
+      "h": 346,
+      "alt": "Bannières du site — photo d'archive du club"
+    },
+    {
+      "src": "/images/galerie/headers/plagmblc2.jpg",
+      "w": 1332,
+      "h": 360,
+      "alt": "Bannières du site — photo d'archive du club"
+    },
+    {
+      "src": "/images/galerie/headers/plagmblc3.jpg",
+      "w": 1332,
+      "h": 300,
+      "alt": "Bannières du site — photo d'archive du club"
+    },
+    {
+      "src": "/images/galerie/headers/raindrops-1.jpg",
+      "w": 700,
+      "h": 180,
+      "alt": "Bannières du site — photo d'archive du club"
+    },
+    {
+      "src": "/images/galerie/headers/raindrops.jpg",
+      "w": 700,
+      "h": 180,
+      "alt": "Bannières du site — photo d'archive du club"
+    },
+    {
+      "src": "/images/galerie/headers/rassfo23.jpg",
+      "w": 800,
+      "h": 180,
+      "alt": "Bannières du site — photo d'archive du club"
+    },
+    {
+      "src": "/images/galerie/headers/walden-pond-1.jpg",
+      "w": 700,
+      "h": 180,
+      "alt": "Bannières du site — photo d'archive du club"
+    },
+    {
+      "src": "/images/galerie/headers/walden-pond.jpg",
+      "w": 700,
+      "h": 180,
+      "alt": "Bannières du site — photo d'archive du club"
+    },
+    {
+      "src": "/images/galerie/headers/windows-1.jpg",
+      "w": 700,
+      "h": 180,
+      "alt": "Bannières du site — photo d'archive du club"
+    },
+    {
+      "src": "/images/galerie/headers/windows.jpg",
+      "w": 700,
+      "h": 180,
+      "alt": "Bannières du site — photo d'archive du club"
+    }
+  ]
+}

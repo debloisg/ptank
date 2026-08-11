@@ -1,0 +1,843 @@
+{
+  "key": "coupes",
+  "title": "Coupes",
+  "kind": "photos",
+  "count": 37,
+  "years": [
+    2015,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+  ],
+  "dateRange": {
+    "from": "2013-07-14",
+    "to": "2026-05-31"
+  },
+  "byYear": {
+    "2013": {
+      "count": 1,
+      "from": "2013-07-14",
+      "to": "2013-07-14",
+      "thumbs": [
+        {
+          "src": "/images/galerie/coupes/chpt_fr_vete_23_2_1.jpg",
+          "w": 800,
+          "h": 600,
+          "alt": "Coupes — photo d'archive du club"
+        }
+      ]
+    },
+    "2015": {
+      "count": 2,
+      "from": "2015-06",
+      "to": "2015-09",
+      "thumbs": [
+        {
+          "src": "/images/galerie/coupes/cdfinis15.jpg",
+          "w": 503,
+          "h": 387,
+          "alt": "Coupes — photo d'archive du club"
+        },
+        {
+          "src": "/images/galerie/coupes/chpt_de_bret2015.jpg",
+          "w": 640,
+          "h": 375,
+          "alt": "Coupes — photo d'archive du club"
+        }
+      ]
+    },
+    "2017": {
+      "count": 5,
+      "from": "2017",
+      "to": "2017-06",
+      "thumbs": [
+        {
+          "src": "/images/galerie/coupes/cpe-fr-17-4.jpg",
+          "w": 680,
+          "h": 481,
+          "alt": "Coupes — photo d'archive du club"
+        },
+        {
+          "src": "/images/galerie/coupes/cpe-de-fr-17-3.jpg",
+          "w": 680,
+          "h": 536,
+          "alt": "Coupes — photo d'archive du club"
+        },
+        {
+          "src": "/images/galerie/coupes/cpefr_11.jpg",
+          "w": 680,
+          "h": 470,
+          "alt": "Coupes — photo d'archive du club"
+        },
+        {
+          "src": "/images/galerie/coupes/cpefr_13.jpg",
+          "w": 680,
+          "h": 552,
+          "alt": "Coupes — photo d'archive du club"
+        }
+      ]
+    },
+    "2018": {
+      "count": 3,
+      "from": "2018-03-31",
+      "to": "2018-03-31",
+      "thumbs": [
+        {
+          "src": "/images/galerie/coupes/cpe_fr_18_1.jpg",
+          "w": 640,
+          "h": 480,
+          "alt": "Coupes — photo d'archive du club"
+        },
+        {
+          "src": "/images/galerie/coupes/cpe_fr_18_3.jpg",
+          "w": 640,
+          "h": 480,
+          "alt": "Coupes — photo d'archive du club"
+        },
+        {
+          "src": "/images/galerie/coupes/cpe_fr_18__2.jpg",
+          "w": 640,
+          "h": 480,
+          "alt": "Coupes — photo d'archive du club"
+        }
+      ]
+    },
+    "2019": {
+      "count": 3,
+      "from": "2019-03-30",
+      "to": "2019-09",
+      "thumbs": [
+        {
+          "src": "/images/galerie/coupes/cpedefr_1ert19.jpg",
+          "w": 640,
+          "h": 480,
+          "alt": "Coupes — photo d'archive du club"
+        },
+        {
+          "src": "/images/galerie/coupes/cpefr2emetbann19.jpg",
+          "w": 640,
+          "h": 324,
+          "alt": "Coupes — photo d'archive du club"
+        },
+        {
+          "src": "/images/galerie/coupes/cpefinist19.jpg",
+          "w": 640,
+          "h": 432,
+          "alt": "Coupes — photo d'archive du club"
+        }
+      ]
+    },
+    "2020": {
+      "count": 2,
+      "from": "2020-09",
+      "to": "2020-10",
+      "thumbs": [
+        {
+          "src": "/images/galerie/coupes/cpefinist3tour20.jpg",
+          "w": 750,
+          "h": 563,
+          "alt": "Coupes — photo d'archive du club"
+        },
+        {
+          "src": "/images/galerie/coupes/cpefinist2020.jpg",
+          "w": 710,
+          "h": 385,
+          "alt": "Coupes — photo d'archive du club"
+        }
+      ]
+    },
+    "2021": {
+      "count": 1,
+      "from": "2021-06-06",
+      "to": "2021-06-06",
+      "thumbs": [
+        {
+          "src": "/images/galerie/coupes/cpe_de_fr_porsall21.jpg",
+          "w": 820,
+          "h": 584,
+          "alt": "Coupes — photo d'archive du club"
+        }
+      ]
+    },
+    "2022": {
+      "count": 2,
+      "from": "2022-04-30",
+      "to": "2022-06",
+      "thumbs": [
+        {
+          "src": "/images/galerie/coupes/cpe_fr_22.jpg",
+          "w": 680,
+          "h": 397,
+          "alt": "Coupes — photo d'archive du club"
+        },
+        {
+          "src": "/images/galerie/coupes/locm_plouz1.jpg",
+          "w": 800,
+          "h": 585,
+          "alt": "Coupes — photo d'archive du club"
+        }
+      ]
+    },
+    "2023": {
+      "count": 4,
+      "from": "2023",
+      "to": "2023-07",
+      "thumbs": [
+        {
+          "src": "/images/galerie/coupes/cpe_fr_23_4et.jpg",
+          "w": 800,
+          "h": 374,
+          "alt": "Coupes — photo d'archive du club"
+        },
+        {
+          "src": "/images/galerie/coupes/cpe_fr_23_4emet.jpg",
+          "w": 800,
+          "h": 374,
+          "alt": "Coupes — photo d'archive du club"
+        },
+        {
+          "src": "/images/galerie/coupes/cpe_fr_4e_t_23.jpg",
+          "w": 800,
+          "h": 368,
+          "alt": "Coupes — photo d'archive du club"
+        },
+        {
+          "src": "/images/galerie/coupes/fazin_paul_chp_fr_vete_23.jpg",
+          "w": 720,
+          "h": 1599,
+          "alt": "Coupes — photo d'archive du club"
+        }
+      ]
+    },
+    "2024": {
+      "count": 3,
+      "from": "2024-03",
+      "to": "2024-07",
+      "thumbs": [
+        {
+          "src": "/images/galerie/coupes/cpe_fr24_1ert.jpg",
+          "w": 750,
+          "h": 405,
+          "alt": "Coupes — photo d'archive du club"
+        },
+        {
+          "src": "/images/galerie/coupes/cpe_fr_2eme.jpg",
+          "w": 800,
+          "h": 600,
+          "alt": "Coupes — photo d'archive du club"
+        },
+        {
+          "src": "/images/galerie/coupes/chpt_fr_24_4.jpg",
+          "w": 850,
+          "h": 458,
+          "alt": "Coupes — photo d'archive du club"
+        }
+      ]
+    },
+    "2025": {
+      "count": 7,
+      "from": "2025-03",
+      "to": "2025-09",
+      "thumbs": [
+        {
+          "src": "/images/galerie/coupes/cpe_fr_1er_tour.jpg",
+          "w": 800,
+          "h": 609,
+          "alt": "Coupes — photo d'archive du club"
+        },
+        {
+          "src": "/images/galerie/coupes/cpe_fr__provcl_1t.jpg",
+          "w": 800,
+          "h": 480,
+          "alt": "Coupes — photo d'archive du club"
+        },
+        {
+          "src": "/images/galerie/coupes/cpe_fr_25_2.jpg",
+          "w": 800,
+          "h": 400,
+          "alt": "Coupes — photo d'archive du club"
+        },
+        {
+          "src": "/images/galerie/coupes/cpe_fr__portsall25_1.jpg",
+          "w": 800,
+          "h": 500,
+          "alt": "Coupes — photo d'archive du club"
+        }
+      ]
+    },
+    "2026": {
+      "count": 3,
+      "from": "2026",
+      "to": "2026-05-31",
+      "thumbs": [
+        {
+          "src": "/images/galerie/coupes/cpe_finit-3tour.jpg",
+          "w": 1000,
+          "h": 748,
+          "alt": "Coupes — photo d'archive du club"
+        },
+        {
+          "src": "/images/galerie/coupes/cpe_fr_2emet26_1.jpg",
+          "w": 1000,
+          "h": 647,
+          "alt": "Coupes — photo d'archive du club"
+        },
+        {
+          "src": "/images/galerie/coupes/cpe_finit-2tour_2.jpg",
+          "w": 1000,
+          "h": 750,
+          "alt": "Coupes — photo d'archive du club"
+        }
+      ]
+    }
+  },
+  "cover": "/images/galerie/coupes/fazin_paul_chp_fr_vete_23.jpg",
+  "photos": [
+    {
+      "src": "/images/galerie/coupes/chpt_fr_vete_23_2_1.jpg",
+      "w": 800,
+      "h": 600,
+      "alt": "Coupes — photo d'archive du club",
+      "date": "2013-07-14",
+      "dateSource": "article",
+      "articles": [
+        {
+          "path": "/archives/2013/petanque-fouesnantaise",
+          "title": "Présentation du club",
+          "date": "2013-07-14"
+        },
+        {
+          "path": "/archives/2023/journal-2023-07",
+          "title": "Journal Juillet 23",
+          "date": "2023-07"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/coupes/cdfinis15.jpg",
+      "w": 503,
+      "h": 387,
+      "alt": "Coupes — photo d'archive du club",
+      "date": "2015-06",
+      "dateSource": "article",
+      "title": "journal Juin 2015",
+      "articles": [
+        {
+          "path": "/archives/2015/journal-2015-06",
+          "title": "journal Juin 2015",
+          "date": "2015-06"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/coupes/chpt_de_bret2015.jpg",
+      "w": 640,
+      "h": 375,
+      "alt": "Coupes — photo d'archive du club",
+      "date": "2015-09",
+      "dateSource": "article",
+      "title": "Journal Septembre 2015",
+      "articles": [
+        {
+          "path": "/archives/2015/journal-2015-09",
+          "title": "Journal Septembre 2015",
+          "date": "2015-09"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/coupes/cpe-fr-17-4.jpg",
+      "w": 680,
+      "h": 481,
+      "alt": "Coupes — photo d'archive du club",
+      "date": "2017",
+      "dateSource": "path"
+    },
+    {
+      "src": "/images/galerie/coupes/cpe-de-fr-17-3.jpg",
+      "w": 680,
+      "h": 536,
+      "alt": "Coupes — photo d'archive du club",
+      "date": "2017",
+      "dateSource": "path"
+    },
+    {
+      "src": "/images/galerie/coupes/cpefr_11.jpg",
+      "w": 680,
+      "h": 470,
+      "alt": "Coupes — photo d'archive du club",
+      "date": "2017-05",
+      "dateSource": "article",
+      "title": "Journal Mai 2017",
+      "articles": [
+        {
+          "path": "/archives/2017/journal-2017-05",
+          "title": "Journal Mai 2017",
+          "date": "2017-05"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/coupes/cpefr_13.jpg",
+      "w": 680,
+      "h": 552,
+      "alt": "Coupes — photo d'archive du club",
+      "date": "2017-05",
+      "dateSource": "article",
+      "title": "Journal Mai 2017",
+      "articles": [
+        {
+          "path": "/archives/2017/journal-2017-05",
+          "title": "Journal Mai 2017",
+          "date": "2017-05"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/coupes/cpefr17.jpg",
+      "w": 640,
+      "h": 401,
+      "alt": "Coupes — photo d'archive du club",
+      "date": "2017-06",
+      "dateSource": "article",
+      "title": "Journal Juin 2017",
+      "articles": [
+        {
+          "path": "/archives/2017/journal-2017-06",
+          "title": "Journal Juin 2017",
+          "date": "2017-06"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/coupes/cpe_fr_18_1.jpg",
+      "w": 640,
+      "h": 480,
+      "alt": "Coupes — photo d'archive du club",
+      "date": "2018-03-31",
+      "dateSource": "exif",
+      "title": "Journal Avril 2018",
+      "articles": [
+        {
+          "path": "/archives/2018/journal-2018-04",
+          "title": "Journal Avril 2018",
+          "date": "2018-04"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/coupes/cpe_fr_18_3.jpg",
+      "w": 640,
+      "h": 480,
+      "alt": "Coupes — photo d'archive du club",
+      "date": "2018-03-31",
+      "dateSource": "exif",
+      "title": "Journal Avril 2018",
+      "articles": [
+        {
+          "path": "/archives/2018/journal-2018-04",
+          "title": "Journal Avril 2018",
+          "date": "2018-04"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/coupes/cpe_fr_18__2.jpg",
+      "w": 640,
+      "h": 480,
+      "alt": "Coupes — photo d'archive du club",
+      "date": "2018-03-31",
+      "dateSource": "exif",
+      "title": "Journal Avril 2018",
+      "articles": [
+        {
+          "path": "/archives/2018/journal-2018-04",
+          "title": "Journal Avril 2018",
+          "date": "2018-04"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/coupes/cpedefr_1ert19.jpg",
+      "w": 640,
+      "h": 480,
+      "alt": "Coupes — photo d'archive du club",
+      "date": "2019-03-30",
+      "dateSource": "exif",
+      "title": "Journal Mars 2019",
+      "articles": [
+        {
+          "path": "/archives/2019/journal-2019-03",
+          "title": "Journal Mars 2019",
+          "date": "2019-03"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/coupes/cpefr2emetbann19.jpg",
+      "w": 640,
+      "h": 324,
+      "alt": "Coupes — photo d'archive du club",
+      "date": "2019-04",
+      "dateSource": "article",
+      "title": "Journal Avril 2019",
+      "articles": [
+        {
+          "path": "/archives/2019/journal-2019-04",
+          "title": "Journal Avril 2019",
+          "date": "2019-04"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/coupes/cpefinist19.jpg",
+      "w": 640,
+      "h": 432,
+      "alt": "Coupes — photo d'archive du club",
+      "date": "2019-09",
+      "dateSource": "article",
+      "title": "Journal Septembre 2019",
+      "articles": [
+        {
+          "path": "/archives/2019/journal-2019-09",
+          "title": "Journal Septembre 2019",
+          "date": "2019-09"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/coupes/cpefinist3tour20.jpg",
+      "w": 750,
+      "h": 563,
+      "alt": "Coupes — photo d'archive du club",
+      "date": "2020-09",
+      "dateSource": "article",
+      "title": "journal septembre 2020",
+      "articles": [
+        {
+          "path": "/archives/2020/journal-2020-09",
+          "title": "journal septembre 2020",
+          "date": "2020-09"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/coupes/cpefinist2020.jpg",
+      "w": 710,
+      "h": 385,
+      "alt": "Coupes — photo d'archive du club",
+      "date": "2020-10",
+      "dateSource": "article",
+      "title": "Journal Octobre-Novembre 2020",
+      "articles": [
+        {
+          "path": "/archives/2020/journal-2020-10-11",
+          "title": "Journal Octobre-Novembre 2020",
+          "date": "2020-10"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/coupes/cpe_de_fr_porsall21.jpg",
+      "w": 820,
+      "h": 584,
+      "alt": "Coupes — photo d'archive du club",
+      "date": "2021-06-06",
+      "dateSource": "exif",
+      "title": "Journal Juin 2021",
+      "articles": [
+        {
+          "path": "/archives/2021/journal-2021-06",
+          "title": "Journal Juin 2021",
+          "date": "2021-06"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/coupes/cpe_fr_22.jpg",
+      "w": 680,
+      "h": 397,
+      "alt": "Coupes — photo d'archive du club",
+      "date": "2022-04-30",
+      "dateSource": "exif",
+      "title": "journal Avril 2022",
+      "articles": [
+        {
+          "path": "/archives/2022/journal-2022-04",
+          "title": "journal Avril 2022",
+          "date": "2022-04"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/coupes/locm_plouz1.jpg",
+      "w": 800,
+      "h": 585,
+      "alt": "Coupes — photo d'archive du club",
+      "date": "2022-06",
+      "dateSource": "article",
+      "title": "journal Juin 2022",
+      "articles": [
+        {
+          "path": "/archives/2022/journal-2022-06",
+          "title": "journal Juin 2022",
+          "date": "2022-06"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/coupes/cpe_fr_23_4et.jpg",
+      "w": 800,
+      "h": 374,
+      "alt": "Coupes — photo d'archive du club",
+      "date": "2023",
+      "dateSource": "path"
+    },
+    {
+      "src": "/images/galerie/coupes/cpe_fr_23_4emet.jpg",
+      "w": 800,
+      "h": 374,
+      "alt": "Coupes — photo d'archive du club",
+      "date": "2023",
+      "dateSource": "path"
+    },
+    {
+      "src": "/images/galerie/coupes/cpe_fr_4e_t_23.jpg",
+      "w": 800,
+      "h": 368,
+      "alt": "Coupes — photo d'archive du club",
+      "date": "2023-07",
+      "dateSource": "article",
+      "title": "Journal Juillet 23",
+      "articles": [
+        {
+          "path": "/archives/2023/journal-2023-07",
+          "title": "Journal Juillet 23",
+          "date": "2023-07"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/coupes/fazin_paul_chp_fr_vete_23.jpg",
+      "w": 720,
+      "h": 1599,
+      "alt": "Coupes — photo d'archive du club",
+      "date": "2023-07",
+      "dateSource": "article",
+      "title": "Journal Juillet 23",
+      "articles": [
+        {
+          "path": "/archives/2023/journal-2023-07",
+          "title": "Journal Juillet 23",
+          "date": "2023-07"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/coupes/cpe_fr24_1ert.jpg",
+      "w": 750,
+      "h": 405,
+      "alt": "Coupes — photo d'archive du club",
+      "date": "2024-03",
+      "dateSource": "article",
+      "title": "Journal Mars 24",
+      "articles": [
+        {
+          "path": "/archives/2024/journal-2024-03",
+          "title": "Journal Mars 24",
+          "date": "2024-03"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/coupes/cpe_fr_2eme.jpg",
+      "w": 800,
+      "h": 600,
+      "alt": "Coupes — photo d'archive du club",
+      "date": "2024-04",
+      "dateSource": "article",
+      "title": "Journal Avril 24",
+      "articles": [
+        {
+          "path": "/archives/2024/journal-2024-04",
+          "title": "Journal Avril 24",
+          "date": "2024-04"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/coupes/chpt_fr_24_4.jpg",
+      "w": 850,
+      "h": 458,
+      "alt": "Coupes — photo d'archive du club",
+      "date": "2024-07",
+      "dateSource": "article",
+      "title": "Journal Juillet 24",
+      "articles": [
+        {
+          "path": "/archives/2024/journal-2024-07",
+          "title": "Journal Juillet 24",
+          "date": "2024-07"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/coupes/cpe_fr_1er_tour.jpg",
+      "w": 800,
+      "h": 609,
+      "alt": "Coupes — photo d'archive du club",
+      "date": "2025-03",
+      "dateSource": "article",
+      "title": "Journal mars 25",
+      "articles": [
+        {
+          "path": "/archives/2025/journal-2025-03",
+          "title": "Journal mars 25",
+          "date": "2025-03"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/coupes/cpe_fr__provcl_1t.jpg",
+      "w": 800,
+      "h": 480,
+      "alt": "Coupes — photo d'archive du club",
+      "date": "2025-03",
+      "dateSource": "article",
+      "title": "Journal mars 25",
+      "articles": [
+        {
+          "path": "/archives/2025/journal-2025-03",
+          "title": "Journal mars 25",
+          "date": "2025-03"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/coupes/cpe_fr_25_2.jpg",
+      "w": 800,
+      "h": 400,
+      "alt": "Coupes — photo d'archive du club",
+      "date": "2025-04",
+      "dateSource": "article",
+      "title": "Journal avril 25",
+      "articles": [
+        {
+          "path": "/archives/2025/journal-2025-04",
+          "title": "Journal avril 25",
+          "date": "2025-04"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/coupes/cpe_fr__portsall25_1.jpg",
+      "w": 800,
+      "h": 500,
+      "alt": "Coupes — photo d'archive du club",
+      "date": "2025-05",
+      "dateSource": "article",
+      "title": "Journal mai 25",
+      "articles": [
+        {
+          "path": "/archives/2025/journal-2025-05",
+          "title": "Journal mai 25",
+          "date": "2025-05"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/coupes/cpz_fr4eme25.jpg",
+      "w": 800,
+      "h": 472,
+      "alt": "Coupes — photo d'archive du club",
+      "date": "2025-06",
+      "dateSource": "article",
+      "title": "Journal juin 25",
+      "articles": [
+        {
+          "path": "/archives/2025/journal-2025-06",
+          "title": "Journal juin 25",
+          "date": "2025-06"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/coupes/cpe_fr_jeuprov_3e.jpg",
+      "w": 800,
+      "h": 1245,
+      "alt": "Coupes — photo d'archive du club",
+      "date": "2025-07",
+      "dateSource": "article",
+      "articles": [
+        {
+          "path": "/archives/2025/journal-2025-07",
+          "title": "Journal juillet 25",
+          "date": "2025-07"
+        },
+        {
+          "path": "/archives/2025/journal-2025-08",
+          "title": "Journal août 25",
+          "date": "2025-08"
+        },
+        {
+          "path": "/archives/2025/journal-2025-09",
+          "title": "Journal septembre 25",
+          "date": "2025-09"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/coupes/pcal_25_ploeren1.jpg",
+      "w": 800,
+      "h": 505,
+      "alt": "Coupes — photo d'archive du club",
+      "date": "2025-09",
+      "dateSource": "article",
+      "title": "Journal septembre 25",
+      "articles": [
+        {
+          "path": "/archives/2025/journal-2025-09",
+          "title": "Journal septembre 25",
+          "date": "2025-09"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/coupes/cpe_finit-3tour.jpg",
+      "w": 1000,
+      "h": 748,
+      "alt": "Coupes — photo d'archive du club",
+      "date": "2026",
+      "dateSource": "path"
+    },
+    {
+      "src": "/images/galerie/coupes/cpe_fr_2emet26_1.jpg",
+      "w": 1000,
+      "h": 647,
+      "alt": "Coupes — photo d'archive du club",
+      "date": "2026",
+      "dateSource": "path"
+    },
+    {
+      "src": "/images/galerie/coupes/cpe_finit-2tour_2.jpg",
+      "w": 1000,
+      "h": 750,
+      "alt": "Coupes — photo d'archive du club",
+      "date": "2026-05-31",
+      "dateSource": "exif"
+    },
+    {
+      "src": "/images/galerie/coupes/j_prvencal_1ert.jpg",
+      "w": 800,
+      "h": 459,
+      "alt": "Coupes — photo d'archive du club"
+    }
+  ]
+}

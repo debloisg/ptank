@@ -1,0 +1,312 @@
+{
+  "key": "boulodrome",
+  "title": "Boulodrome",
+  "kind": "photos",
+  "count": 18,
+  "years": [],
+  "dateRange": {
+    "from": "2019-12",
+    "to": "2020-09-18"
+  },
+  "byYear": {
+    "2019": {
+      "count": 10,
+      "from": "2019-12",
+      "to": "2019-12-20",
+      "thumbs": [
+        {
+          "src": "/images/galerie/boulodrome/dscf3946.jpg",
+          "w": 1024,
+          "h": 576,
+          "alt": "Boulodrome — photo d'archive du club"
+        },
+        {
+          "src": "/images/galerie/boulodrome/boul12.jpg",
+          "w": 2000,
+          "h": 1125,
+          "alt": "Boulodrome — photo d'archive du club"
+        },
+        {
+          "src": "/images/galerie/boulodrome/boulo30.png",
+          "w": 852,
+          "h": 768,
+          "alt": "Boulodrome — photo d'archive du club"
+        },
+        {
+          "src": "/images/galerie/boulodrome/boulod1.jpg",
+          "w": 2000,
+          "h": 1125,
+          "alt": "Boulodrome — photo d'archive du club"
+        }
+      ]
+    },
+    "2020": {
+      "count": 5,
+      "from": "2020-09-18",
+      "to": "2020-09-18",
+      "thumbs": [
+        {
+          "src": "/images/galerie/boulodrome/inaugboul10.jpg",
+          "w": 750,
+          "h": 500,
+          "alt": "Boulodrome — photo d'archive du club"
+        },
+        {
+          "src": "/images/galerie/boulodrome/inaugboul6.jpg",
+          "w": 700,
+          "h": 467,
+          "alt": "Boulodrome — photo d'archive du club"
+        },
+        {
+          "src": "/images/galerie/boulodrome/inaugboul7.jpg",
+          "w": 750,
+          "h": 500,
+          "alt": "Boulodrome — photo d'archive du club"
+        },
+        {
+          "src": "/images/galerie/boulodrome/inaugboul8.jpg",
+          "w": 700,
+          "h": 467,
+          "alt": "Boulodrome — photo d'archive du club"
+        }
+      ]
+    }
+  },
+  "cover": "/images/galerie/boulodrome/boulod2.jpg",
+  "photos": [
+    {
+      "src": "/images/galerie/boulodrome/dscf3946.jpg",
+      "w": 1024,
+      "h": 576,
+      "alt": "Boulodrome — photo d'archive du club",
+      "date": "2019-12",
+      "dateSource": "article",
+      "title": "Journal Décembre 2019",
+      "articles": [
+        {
+          "path": "/archives/2019/journal-2019-12",
+          "title": "Journal Décembre 2019",
+          "date": "2019-12"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/boulodrome/boul12.jpg",
+      "w": 2000,
+      "h": 1125,
+      "alt": "Boulodrome — photo d'archive du club",
+      "date": "2019-12",
+      "dateSource": "article",
+      "title": "Journal Décembre 2019",
+      "articles": [
+        {
+          "path": "/archives/2019/journal-2019-12",
+          "title": "Journal Décembre 2019",
+          "date": "2019-12"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/boulodrome/boulo30.png",
+      "w": 852,
+      "h": 768,
+      "alt": "Boulodrome — photo d'archive du club",
+      "date": "2019-12",
+      "dateSource": "article",
+      "title": "Journal Décembre 2019",
+      "articles": [
+        {
+          "path": "/archives/2019/journal-2019-12",
+          "title": "Journal Décembre 2019",
+          "date": "2019-12"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/boulodrome/boulod1.jpg",
+      "w": 2000,
+      "h": 1125,
+      "alt": "Boulodrome — photo d'archive du club",
+      "date": "2019-12",
+      "dateSource": "article",
+      "title": "Journal Décembre 2019",
+      "articles": [
+        {
+          "path": "/archives/2019/journal-2019-12",
+          "title": "Journal Décembre 2019",
+          "date": "2019-12"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/boulodrome/boulod14.jpg",
+      "w": 2000,
+      "h": 1125,
+      "alt": "Boulodrome — photo d'archive du club",
+      "date": "2019-12",
+      "dateSource": "article",
+      "title": "Journal Décembre 2019",
+      "articles": [
+        {
+          "path": "/archives/2019/journal-2019-12",
+          "title": "Journal Décembre 2019",
+          "date": "2019-12"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/boulodrome/boulodr16.jpg",
+      "w": 2000,
+      "h": 1125,
+      "alt": "Boulodrome — photo d'archive du club",
+      "date": "2019-12",
+      "dateSource": "article",
+      "title": "Journal Décembre 2019",
+      "articles": [
+        {
+          "path": "/archives/2019/journal-2019-12",
+          "title": "Journal Décembre 2019",
+          "date": "2019-12"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/boulodrome/boulod2.jpg",
+      "w": 2000,
+      "h": 1500,
+      "alt": "Boulodrome — photo d'archive du club",
+      "date": "2019-12-05",
+      "dateSource": "exif",
+      "articles": [
+        {
+          "path": "/archives/2019/journal-2019-12",
+          "title": "Journal Décembre 2019",
+          "date": "2019-12"
+        },
+        {
+          "path": "/archives/2020/journal-2020-09",
+          "title": "journal septembre 2020",
+          "date": "2020-09"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/boulodrome/boulod9.jpg",
+      "w": 2000,
+      "h": 1500,
+      "alt": "Boulodrome — photo d'archive du club",
+      "date": "2019-12-05",
+      "dateSource": "exif",
+      "title": "Journal Décembre 2019",
+      "articles": [
+        {
+          "path": "/archives/2019/journal-2019-12",
+          "title": "Journal Décembre 2019",
+          "date": "2019-12"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/boulodrome/boulod4.jpg",
+      "w": 2000,
+      "h": 1500,
+      "alt": "Boulodrome — photo d'archive du club",
+      "date": "2019-12-20",
+      "dateSource": "exif",
+      "articles": [
+        {
+          "path": "/archives/2019/journal-2019-12",
+          "title": "Journal Décembre 2019",
+          "date": "2019-12"
+        },
+        {
+          "path": "/archives/2020/journal-2020-09",
+          "title": "journal septembre 2020",
+          "date": "2020-09"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/boulodrome/boulodr2.jpg",
+      "w": 2000,
+      "h": 1500,
+      "alt": "Boulodrome — photo d'archive du club",
+      "date": "2019-12-20",
+      "dateSource": "exif",
+      "title": "Journal Décembre 2019",
+      "articles": [
+        {
+          "path": "/archives/2019/journal-2019-12",
+          "title": "Journal Décembre 2019",
+          "date": "2019-12"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/boulodrome/inaugboul10.jpg",
+      "w": 750,
+      "h": 500,
+      "alt": "Boulodrome — photo d'archive du club",
+      "date": "2020-09-18",
+      "dateSource": "exif"
+    },
+    {
+      "src": "/images/galerie/boulodrome/inaugboul6.jpg",
+      "w": 700,
+      "h": 467,
+      "alt": "Boulodrome — photo d'archive du club",
+      "date": "2020-09-18",
+      "dateSource": "exif"
+    },
+    {
+      "src": "/images/galerie/boulodrome/inaugboul7.jpg",
+      "w": 750,
+      "h": 500,
+      "alt": "Boulodrome — photo d'archive du club",
+      "date": "2020-09-18",
+      "dateSource": "exif",
+      "title": "journal septembre 2020",
+      "articles": [
+        {
+          "path": "/archives/2020/journal-2020-09",
+          "title": "journal septembre 2020",
+          "date": "2020-09"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/boulodrome/inaugboul8.jpg",
+      "w": 700,
+      "h": 467,
+      "alt": "Boulodrome — photo d'archive du club",
+      "date": "2020-09-18",
+      "dateSource": "exif"
+    },
+    {
+      "src": "/images/galerie/boulodrome/inauguboul1.jpg",
+      "w": 700,
+      "h": 467,
+      "alt": "Boulodrome — photo d'archive du club",
+      "date": "2020-09-18",
+      "dateSource": "exif"
+    },
+    {
+      "src": "/images/galerie/boulodrome/boulodr1.jpg",
+      "w": 500,
+      "h": 375,
+      "alt": "Boulodrome — photo d'archive du club"
+    },
+    {
+      "src": "/images/galerie/boulodrome/boulodr2-2.jpg",
+      "w": 500,
+      "h": 375,
+      "alt": "Boulodrome — photo d'archive du club"
+    },
+    {
+      "src": "/images/galerie/boulodrome/boulodr4.jpg",
+      "w": 390,
+      "h": 293,
+      "alt": "Boulodrome — photo d'archive du club"
+    }
+  ]
+}

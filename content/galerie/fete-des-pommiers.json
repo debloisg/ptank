@@ -1,0 +1,437 @@
+{
+  "key": "fete-des-pommiers",
+  "title": "Fête des pommiers",
+  "kind": "photos",
+  "count": 18,
+  "years": [
+    2014,
+    2015,
+    2016,
+    2017,
+    2019,
+    2022,
+    2023,
+    2026
+  ],
+  "dateRange": {
+    "from": "2014-07",
+    "to": "2026"
+  },
+  "byYear": {
+    "2014": {
+      "count": 1,
+      "from": "2014-07",
+      "to": "2014-07",
+      "thumbs": [
+        {
+          "src": "/images/galerie/fete-des-pommiers/fetedespom14.jpg",
+          "w": 535,
+          "h": 404,
+          "alt": "Fête des pommiers — photo d'archive du club"
+        }
+      ]
+    },
+    "2015": {
+      "count": 2,
+      "from": "2015-06",
+      "to": "2015-07",
+      "thumbs": [
+        {
+          "src": "/images/galerie/fete-des-pommiers/fdespomm1.jpg",
+          "w": 300,
+          "h": 424,
+          "alt": "Fête des pommiers — photo d'archive du club"
+        },
+        {
+          "src": "/images/galerie/fete-des-pommiers/fetdespom15.jpg",
+          "w": 640,
+          "h": 290,
+          "alt": "Fête des pommiers — photo d'archive du club"
+        }
+      ]
+    },
+    "2016": {
+      "count": 1,
+      "from": "2016-07",
+      "to": "2016-07",
+      "thumbs": [
+        {
+          "src": "/images/galerie/fete-des-pommiers/fetpomm1.png",
+          "w": 640,
+          "h": 883,
+          "alt": "Fête des pommiers — photo d'archive du club"
+        }
+      ]
+    },
+    "2017": {
+      "count": 8,
+      "from": "2017-07",
+      "to": "2017-07-12",
+      "thumbs": [
+        {
+          "src": "/images/galerie/fete-des-pommiers/fetpomm17.jpg",
+          "w": 650,
+          "h": 893,
+          "alt": "Fête des pommiers — photo d'archive du club"
+        },
+        {
+          "src": "/images/galerie/fete-des-pommiers/fetpom171.jpg",
+          "w": 650,
+          "h": 366,
+          "alt": "Fête des pommiers — photo d'archive du club"
+        },
+        {
+          "src": "/images/galerie/fete-des-pommiers/fetpom172.jpg",
+          "w": 650,
+          "h": 366,
+          "alt": "Fête des pommiers — photo d'archive du club"
+        },
+        {
+          "src": "/images/galerie/fete-des-pommiers/fetpom173.jpg",
+          "w": 650,
+          "h": 366,
+          "alt": "Fête des pommiers — photo d'archive du club"
+        }
+      ]
+    },
+    "2019": {
+      "count": 3,
+      "from": "2019",
+      "to": "2019-07",
+      "thumbs": [
+        {
+          "src": "/images/galerie/fete-des-pommiers/fetpomm195.png",
+          "w": 640,
+          "h": 904,
+          "alt": "Fête des pommiers — photo d'archive du club"
+        },
+        {
+          "src": "/images/galerie/fete-des-pommiers/pommiers191.jpg",
+          "w": 640,
+          "h": 360,
+          "alt": "Fête des pommiers — photo d'archive du club"
+        },
+        {
+          "src": "/images/galerie/fete-des-pommiers/pommiers192.jpg",
+          "w": 640,
+          "h": 360,
+          "alt": "Fête des pommiers — photo d'archive du club"
+        }
+      ]
+    },
+    "2022": {
+      "count": 1,
+      "from": "2022-06",
+      "to": "2022-06",
+      "thumbs": [
+        {
+          "src": "/images/galerie/fete-des-pommiers/fdes_pommiers_22.png",
+          "w": 650,
+          "h": 1042,
+          "alt": "Fête des pommiers — photo d'archive du club"
+        }
+      ]
+    },
+    "2023": {
+      "count": 1,
+      "from": "2023-06-21",
+      "to": "2023-06-21",
+      "thumbs": [
+        {
+          "src": "/images/galerie/fete-des-pommiers/cc-fete_des_pom_23.jpg",
+          "w": 400,
+          "h": 568,
+          "alt": "Fête des pommiers — photo d'archive du club"
+        }
+      ]
+    },
+    "2026": {
+      "count": 1,
+      "from": "2026",
+      "to": "2026",
+      "thumbs": [
+        {
+          "src": "/images/galerie/fete-des-pommiers/fete_pommiers_26.jpg",
+          "w": 500,
+          "h": 707,
+          "alt": "Fête des pommiers — photo d'archive du club"
+        }
+      ]
+    }
+  },
+  "cover": "/images/galerie/fete-des-pommiers/fdes_pommiers_22.png",
+  "photos": [
+    {
+      "src": "/images/galerie/fete-des-pommiers/fetedespom14.jpg",
+      "w": 535,
+      "h": 404,
+      "alt": "Fête des pommiers — photo d'archive du club",
+      "date": "2014-07",
+      "dateSource": "article",
+      "title": "Journal Juillet / Août 2014",
+      "articles": [
+        {
+          "path": "/archives/2014/journal-2014-07-08",
+          "title": "Journal Juillet / Août 2014",
+          "date": "2014-07"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/fete-des-pommiers/fdespomm1.jpg",
+      "w": 300,
+      "h": 424,
+      "alt": "Fête des pommiers — photo d'archive du club",
+      "date": "2015-06",
+      "dateSource": "article",
+      "title": "journal Juin 2015",
+      "articles": [
+        {
+          "path": "/archives/2015/journal-2015-06",
+          "title": "journal Juin 2015",
+          "date": "2015-06"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/fete-des-pommiers/fetdespom15.jpg",
+      "w": 640,
+      "h": 290,
+      "alt": "Fête des pommiers — photo d'archive du club",
+      "date": "2015-07",
+      "dateSource": "article",
+      "title": "Journal Juillet / Août 2015",
+      "articles": [
+        {
+          "path": "/archives/2015/journal-2015-07-08",
+          "title": "Journal Juillet / Août 2015",
+          "date": "2015-07"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/fete-des-pommiers/fetpomm1.png",
+      "w": 640,
+      "h": 883,
+      "alt": "Fête des pommiers — photo d'archive du club",
+      "date": "2016-07",
+      "dateSource": "article",
+      "title": "Journal Juillet/Août 2016",
+      "articles": [
+        {
+          "path": "/archives/2016/journal-2016-07-08",
+          "title": "Journal Juillet/Août 2016",
+          "date": "2016-07"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/fete-des-pommiers/fetpomm17.jpg",
+      "w": 650,
+      "h": 893,
+      "alt": "Fête des pommiers — photo d'archive du club",
+      "date": "2017-07",
+      "dateSource": "article",
+      "title": "Journal Juillet/Août 2017",
+      "articles": [
+        {
+          "path": "/archives/2017/journal-2017-07-08",
+          "title": "Journal Juillet/Août 2017",
+          "date": "2017-07"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/fete-des-pommiers/fetpom171.jpg",
+      "w": 650,
+      "h": 366,
+      "alt": "Fête des pommiers — photo d'archive du club",
+      "date": "2017-07-12",
+      "dateSource": "exif",
+      "title": "Journal Juillet/Août 2017",
+      "articles": [
+        {
+          "path": "/archives/2017/journal-2017-07-08",
+          "title": "Journal Juillet/Août 2017",
+          "date": "2017-07"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/fete-des-pommiers/fetpom172.jpg",
+      "w": 650,
+      "h": 366,
+      "alt": "Fête des pommiers — photo d'archive du club",
+      "date": "2017-07-12",
+      "dateSource": "exif",
+      "title": "Journal Juillet/Août 2017",
+      "articles": [
+        {
+          "path": "/archives/2017/journal-2017-07-08",
+          "title": "Journal Juillet/Août 2017",
+          "date": "2017-07"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/fete-des-pommiers/fetpom173.jpg",
+      "w": 650,
+      "h": 366,
+      "alt": "Fête des pommiers — photo d'archive du club",
+      "date": "2017-07-12",
+      "dateSource": "exif",
+      "title": "Journal Juillet/Août 2017",
+      "articles": [
+        {
+          "path": "/archives/2017/journal-2017-07-08",
+          "title": "Journal Juillet/Août 2017",
+          "date": "2017-07"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/fete-des-pommiers/fetpom174.jpg",
+      "w": 650,
+      "h": 366,
+      "alt": "Fête des pommiers — photo d'archive du club",
+      "date": "2017-07-12",
+      "dateSource": "exif",
+      "title": "Journal Juillet/Août 2017",
+      "articles": [
+        {
+          "path": "/archives/2017/journal-2017-07-08",
+          "title": "Journal Juillet/Août 2017",
+          "date": "2017-07"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/fete-des-pommiers/fetpom176.jpg",
+      "w": 650,
+      "h": 366,
+      "alt": "Fête des pommiers — photo d'archive du club",
+      "date": "2017-07-12",
+      "dateSource": "exif",
+      "title": "Journal Juillet/Août 2017",
+      "articles": [
+        {
+          "path": "/archives/2017/journal-2017-07-08",
+          "title": "Journal Juillet/Août 2017",
+          "date": "2017-07"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/fete-des-pommiers/fetpom177.jpg",
+      "w": 640,
+      "h": 361,
+      "alt": "Fête des pommiers — photo d'archive du club",
+      "date": "2017-07-12",
+      "dateSource": "exif"
+    },
+    {
+      "src": "/images/galerie/fete-des-pommiers/fetpom179.jpg",
+      "w": 650,
+      "h": 366,
+      "alt": "Fête des pommiers — photo d'archive du club",
+      "date": "2017-07-12",
+      "dateSource": "exif",
+      "title": "Journal Juillet/Août 2017",
+      "articles": [
+        {
+          "path": "/archives/2017/journal-2017-07-08",
+          "title": "Journal Juillet/Août 2017",
+          "date": "2017-07"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/fete-des-pommiers/fetpomm195.png",
+      "w": 640,
+      "h": 904,
+      "alt": "Fête des pommiers — photo d'archive du club",
+      "date": "2019",
+      "dateSource": "path"
+    },
+    {
+      "src": "/images/galerie/fete-des-pommiers/pommiers191.jpg",
+      "w": 640,
+      "h": 360,
+      "alt": "Fête des pommiers — photo d'archive du club",
+      "date": "2019-07",
+      "dateSource": "article",
+      "title": "Journal Juil/Août 2019",
+      "articles": [
+        {
+          "path": "/archives/2019/journal-2019-07-08",
+          "title": "Journal Juil/Août 2019",
+          "date": "2019-07"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/fete-des-pommiers/pommiers192.jpg",
+      "w": 640,
+      "h": 360,
+      "alt": "Fête des pommiers — photo d'archive du club",
+      "date": "2019-07",
+      "dateSource": "article",
+      "title": "Journal Juil/Août 2019",
+      "articles": [
+        {
+          "path": "/archives/2019/journal-2019-07-08",
+          "title": "Journal Juil/Août 2019",
+          "date": "2019-07"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/fete-des-pommiers/fdes_pommiers_22.png",
+      "w": 650,
+      "h": 1042,
+      "alt": "Fête des pommiers — photo d'archive du club",
+      "date": "2022-06",
+      "dateSource": "article",
+      "articles": [
+        {
+          "path": "/archives/2022/journal-2022-06",
+          "title": "journal Juin 2022",
+          "date": "2022-06"
+        },
+        {
+          "path": "/archives/2022/journal-2022-07-08",
+          "title": "journal Juill/Août 2022",
+          "date": "2022-07"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/fete-des-pommiers/cc-fete_des_pom_23.jpg",
+      "w": 400,
+      "h": 568,
+      "alt": "Fête des pommiers — photo d'archive du club",
+      "date": "2023-06-21",
+      "dateSource": "exif",
+      "articles": [
+        {
+          "path": "/archives/2023/journal-2023-06",
+          "title": "Journal Juin 23",
+          "date": "2023-06"
+        },
+        {
+          "path": "/archives/2023/journal-2023-07",
+          "title": "Journal Juillet 23",
+          "date": "2023-07"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/fete-des-pommiers/fete_pommiers_26.jpg",
+      "w": 500,
+      "h": 707,
+      "alt": "Fête des pommiers — photo d'archive du club",
+      "date": "2026",
+      "dateSource": "path"
+    }
+  ]
+}

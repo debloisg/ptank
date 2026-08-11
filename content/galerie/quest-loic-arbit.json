@@ -1,0 +1,111 @@
+{
+  "key": "quest-loic-arbit",
+  "title": "Questionnaire de Loïc, arbitre",
+  "kind": "documents",
+  "count": 4,
+  "years": [],
+  "dateRange": {
+    "from": "2025-05-10",
+    "to": "2025-05-10"
+  },
+  "byYear": {
+    "2025": {
+      "count": 4,
+      "from": "2025-05-10",
+      "to": "2025-05-10",
+      "thumbs": [
+        {
+          "src": "/images/galerie/quest-loic-arbit/reponses_04_1.jpg",
+          "w": 900,
+          "h": 1273,
+          "alt": "Questionnaire de Loïc, arbitre — photo d'archive du club"
+        },
+        {
+          "src": "/images/galerie/quest-loic-arbit/rep_q2_loic.jpg",
+          "w": 800,
+          "h": 948,
+          "alt": "Questionnaire de Loïc, arbitre — photo d'archive du club"
+        },
+        {
+          "src": "/images/galerie/quest-loic-arbit/rep_q1_loic.jpg",
+          "w": 800,
+          "h": 980,
+          "alt": "Questionnaire de Loïc, arbitre — photo d'archive du club"
+        },
+        {
+          "src": "/images/galerie/quest-loic-arbit/rep_q3_loic.jpg",
+          "w": 800,
+          "h": 1070,
+          "alt": "Questionnaire de Loïc, arbitre — photo d'archive du club"
+        }
+      ]
+    }
+  },
+  "cover": "/images/galerie/quest-loic-arbit/reponses_04_1.jpg",
+  "photos": [
+    {
+      "src": "/images/galerie/quest-loic-arbit/reponses_04_1.jpg",
+      "w": 900,
+      "h": 1273,
+      "alt": "Questionnaire de Loïc, arbitre — photo d'archive du club",
+      "date": "2025-05-10",
+      "dateSource": "article",
+      "title": "Le questionnaire de Loïc",
+      "articles": [
+        {
+          "path": "/archives/2025/le-questionnaire-de-loic-arbitre-du-club",
+          "title": "Le questionnaire de Loïc",
+          "date": "2025-05-10"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/quest-loic-arbit/rep_q2_loic.jpg",
+      "w": 800,
+      "h": 948,
+      "alt": "Questionnaire de Loïc, arbitre — photo d'archive du club",
+      "date": "2025-05-10",
+      "dateSource": "article",
+      "title": "Le questionnaire de Loïc",
+      "articles": [
+        {
+          "path": "/archives/2025/le-questionnaire-de-loic-arbitre-du-club",
+          "title": "Le questionnaire de Loïc",
+          "date": "2025-05-10"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/quest-loic-arbit/rep_q1_loic.jpg",
+      "w": 800,
+      "h": 980,
+      "alt": "Questionnaire de Loïc, arbitre — photo d'archive du club",
+      "date": "2025-05-10",
+      "dateSource": "article",
+      "title": "Le questionnaire de Loïc",
+      "articles": [
+        {
+          "path": "/archives/2025/le-questionnaire-de-loic-arbitre-du-club",
+          "title": "Le questionnaire de Loïc",
+          "date": "2025-05-10"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/quest-loic-arbit/rep_q3_loic.jpg",
+      "w": 800,
+      "h": 1070,
+      "alt": "Questionnaire de Loïc, arbitre — photo d'archive du club",
+      "date": "2025-05-10",
+      "dateSource": "article",
+      "title": "Le questionnaire de Loïc",
+      "articles": [
+        {
+          "path": "/archives/2025/le-questionnaire-de-loic-arbitre-du-club",
+          "title": "Le questionnaire de Loïc",
+          "date": "2025-05-10"
+        }
+      ]
+    }
+  ]
+}

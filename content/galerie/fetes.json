@@ -1,0 +1,1897 @@
+{
+  "key": "fetes",
+  "title": "Fêtes",
+  "kind": "photos",
+  "count": 124,
+  "years": [
+    2013,
+    2014,
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2023,
+    2024,
+    2025
+  ],
+  "dateRange": {
+    "from": "2013-12-13",
+    "to": "2025-07"
+  },
+  "byYear": {
+    "2013": {
+      "count": 14,
+      "from": "2013-12-13",
+      "to": "2013-12-13",
+      "thumbs": [
+        {
+          "src": "/images/galerie/fetes/noel20131.jpg",
+          "w": 960,
+          "h": 720,
+          "alt": "Fêtes — photo d'archive du club"
+        },
+        {
+          "src": "/images/galerie/fetes/noel201310.jpg",
+          "w": 960,
+          "h": 576,
+          "alt": "Fêtes — photo d'archive du club"
+        },
+        {
+          "src": "/images/galerie/fetes/noel201311.jpg",
+          "w": 960,
+          "h": 576,
+          "alt": "Fêtes — photo d'archive du club"
+        },
+        {
+          "src": "/images/galerie/fetes/noel201312.jpg",
+          "w": 960,
+          "h": 576,
+          "alt": "Fêtes — photo d'archive du club"
+        }
+      ]
+    },
+    "2014": {
+      "count": 21,
+      "from": "2014",
+      "to": "2014-01-18",
+      "thumbs": [
+        {
+          "src": "/images/galerie/fetes/voeux2014.jpg",
+          "w": 698,
+          "h": 180,
+          "alt": "Fêtes — photo d'archive du club"
+        },
+        {
+          "src": "/images/galerie/fetes/voeux20142.jpg",
+          "w": 697,
+          "h": 154,
+          "alt": "Fêtes — photo d'archive du club"
+        },
+        {
+          "src": "/images/galerie/fetes/voeux_2014.jpg",
+          "w": 538,
+          "h": 211,
+          "alt": "Fêtes — photo d'archive du club"
+        },
+        {
+          "src": "/images/galerie/fetes/voeux20141.jpg",
+          "w": 384,
+          "h": 640,
+          "alt": "Fêtes — photo d'archive du club"
+        }
+      ]
+    },
+    "2015": {
+      "count": 2,
+      "from": "2015-03-22",
+      "to": "2015-03-22",
+      "thumbs": [
+        {
+          "src": "/images/galerie/fetes/voeux_19.jpg",
+          "w": 660,
+          "h": 443,
+          "alt": "Fêtes — photo d'archive du club"
+        },
+        {
+          "src": "/images/galerie/fetes/voeux_191.jpg",
+          "w": 2000,
+          "h": 1343,
+          "alt": "Fêtes — photo d'archive du club"
+        }
+      ]
+    },
+    "2016": {
+      "count": 5,
+      "from": "2016",
+      "to": "2016-12",
+      "thumbs": [
+        {
+          "src": "/images/galerie/fetes/bonan16.jpg",
+          "w": 640,
+          "h": 443,
+          "alt": "Fêtes — photo d'archive du club"
+        },
+        {
+          "src": "/images/galerie/fetes/bonan16henry.jpg",
+          "w": 640,
+          "h": 480,
+          "alt": "Fêtes — photo d'archive du club"
+        },
+        {
+          "src": "/images/galerie/fetes/voeux16.jpg",
+          "w": 640,
+          "h": 452,
+          "alt": "Fêtes — photo d'archive du club"
+        },
+        {
+          "src": "/images/galerie/fetes/assgene15.jpg",
+          "w": 640,
+          "h": 480,
+          "alt": "Fêtes — photo d'archive du club"
+        }
+      ]
+    },
+    "2017": {
+      "count": 5,
+      "from": "2017-01",
+      "to": "2017-01-07",
+      "thumbs": [
+        {
+          "src": "/images/galerie/fetes/pfbonan17.jpg",
+          "w": 680,
+          "h": 398,
+          "alt": "Fêtes — photo d'archive du club"
+        },
+        {
+          "src": "/images/galerie/fetes/voeux171.jpg",
+          "w": 640,
+          "h": 361,
+          "alt": "Fêtes — photo d'archive du club"
+        },
+        {
+          "src": "/images/galerie/fetes/voeux172.jpg",
+          "w": 640,
+          "h": 465,
+          "alt": "Fêtes — photo d'archive du club"
+        },
+        {
+          "src": "/images/galerie/fetes/voeux173.jpg",
+          "w": 640,
+          "h": 361,
+          "alt": "Fêtes — photo d'archive du club"
+        }
+      ]
+    },
+    "2018": {
+      "count": 23,
+      "from": "2018",
+      "to": "2018-12",
+      "thumbs": [
+        {
+          "src": "/images/galerie/fetes/noel181.jpg",
+          "w": 640,
+          "h": 360,
+          "alt": "Fêtes — photo d'archive du club"
+        },
+        {
+          "src": "/images/galerie/fetes/noel1810.jpg",
+          "w": 640,
+          "h": 360,
+          "alt": "Fêtes — photo d'archive du club"
+        },
+        {
+          "src": "/images/galerie/fetes/noel182.jpg",
+          "w": 640,
+          "h": 360,
+          "alt": "Fêtes — photo d'archive du club"
+        },
+        {
+          "src": "/images/galerie/fetes/noel183.jpg",
+          "w": 640,
+          "h": 360,
+          "alt": "Fêtes — photo d'archive du club"
+        }
+      ]
+    },
+    "2019": {
+      "count": 10,
+      "from": "2019",
+      "to": "2019-01",
+      "thumbs": [
+        {
+          "src": "/images/galerie/fetes/bon_ann_19.jpg",
+          "w": 620,
+          "h": 394,
+          "alt": "Fêtes — photo d'archive du club"
+        },
+        {
+          "src": "/images/galerie/fetes/bon_ann_192.jpg",
+          "w": 640,
+          "h": 407,
+          "alt": "Fêtes — photo d'archive du club"
+        },
+        {
+          "src": "/images/galerie/fetes/bon_ann_197.jpg",
+          "w": 640,
+          "h": 407,
+          "alt": "Fêtes — photo d'archive du club"
+        },
+        {
+          "src": "/images/galerie/fetes/voeux-191.jpg",
+          "w": 640,
+          "h": 360,
+          "alt": "Fêtes — photo d'archive du club"
+        }
+      ]
+    },
+    "2020": {
+      "count": 6,
+      "from": "2020-01",
+      "to": "2020-01-18",
+      "thumbs": [
+        {
+          "src": "/images/galerie/fetes/nlan201.jpg",
+          "w": 1024,
+          "h": 576,
+          "alt": "Fêtes — photo d'archive du club"
+        },
+        {
+          "src": "/images/galerie/fetes/nlan202.jpg",
+          "w": 1024,
+          "h": 576,
+          "alt": "Fêtes — photo d'archive du club"
+        },
+        {
+          "src": "/images/galerie/fetes/nlan208.jpg",
+          "w": 1024,
+          "h": 576,
+          "alt": "Fêtes — photo d'archive du club"
+        },
+        {
+          "src": "/images/galerie/fetes/nlan206.jpg",
+          "w": 1024,
+          "h": 576,
+          "alt": "Fêtes — photo d'archive du club"
+        }
+      ]
+    },
+    "2021": {
+      "count": 1,
+      "from": "2021-01",
+      "to": "2021-01",
+      "thumbs": [
+        {
+          "src": "/images/galerie/fetes/voeux_21_3.jpg",
+          "w": 499,
+          "h": 312,
+          "alt": "Fêtes — photo d'archive du club"
+        }
+      ]
+    },
+    "2023": {
+      "count": 9,
+      "from": "2023",
+      "to": "2023-12",
+      "thumbs": [
+        {
+          "src": "/images/galerie/fetes/affiche_noel_chalets.jpg",
+          "w": 500,
+          "h": 375,
+          "alt": "Fêtes — photo d'archive du club"
+        },
+        {
+          "src": "/images/galerie/fetes/voeux23_20.jpg",
+          "w": 710,
+          "h": 328,
+          "alt": "Fêtes — photo d'archive du club"
+        },
+        {
+          "src": "/images/galerie/fetes/voeux23_21.jpg",
+          "w": 710,
+          "h": 415,
+          "alt": "Fêtes — photo d'archive du club"
+        },
+        {
+          "src": "/images/galerie/fetes/voeux23_8.jpg",
+          "w": 710,
+          "h": 346,
+          "alt": "Fêtes — photo d'archive du club"
+        }
+      ]
+    },
+    "2024": {
+      "count": 20,
+      "from": "2024",
+      "to": "2024-12",
+      "thumbs": [
+        {
+          "src": "/images/galerie/fetes/fete_des_pommiers2024.png",
+          "w": 400,
+          "h": 568,
+          "alt": "Fêtes — photo d'archive du club"
+        },
+        {
+          "src": "/images/galerie/fetes/voeux24_1.jpg",
+          "w": 430,
+          "h": 764,
+          "alt": "Fêtes — photo d'archive du club"
+        },
+        {
+          "src": "/images/galerie/fetes/voeux24_1-2.jpg",
+          "w": 499,
+          "h": 312,
+          "alt": "Fêtes — photo d'archive du club"
+        },
+        {
+          "src": "/images/galerie/fetes/voeux24_10.jpg",
+          "w": 700,
+          "h": 394,
+          "alt": "Fêtes — photo d'archive du club"
+        }
+      ]
+    },
+    "2025": {
+      "count": 5,
+      "from": "2025",
+      "to": "2025-07",
+      "thumbs": [
+        {
+          "src": "/images/galerie/fetes/boule_noel1.jpg",
+          "w": 612,
+          "h": 408,
+          "alt": "Fêtes — photo d'archive du club"
+        },
+        {
+          "src": "/images/galerie/fetes/bon_an_25_3.jpg",
+          "w": 500,
+          "h": 300,
+          "alt": "Fêtes — photo d'archive du club"
+        },
+        {
+          "src": "/images/galerie/fetes/bureau25_1.jpg",
+          "w": 900,
+          "h": 491,
+          "alt": "Fêtes — photo d'archive du club"
+        },
+        {
+          "src": "/images/galerie/fetes/ouestfr1.jpg",
+          "w": 800,
+          "h": 597,
+          "alt": "Fêtes — photo d'archive du club"
+        }
+      ]
+    }
+  },
+  "cover": "/images/galerie/fetes/20200118_180641.jpg",
+  "photos": [
+    {
+      "src": "/images/galerie/fetes/noel20131.jpg",
+      "w": 960,
+      "h": 720,
+      "alt": "Fêtes — photo d'archive du club",
+      "date": "2013-12-13",
+      "dateSource": "exif"
+    },
+    {
+      "src": "/images/galerie/fetes/noel201310.jpg",
+      "w": 960,
+      "h": 576,
+      "alt": "Fêtes — photo d'archive du club",
+      "date": "2013-12-13",
+      "dateSource": "exif"
+    },
+    {
+      "src": "/images/galerie/fetes/noel201311.jpg",
+      "w": 960,
+      "h": 576,
+      "alt": "Fêtes — photo d'archive du club",
+      "date": "2013-12-13",
+      "dateSource": "exif"
+    },
+    {
+      "src": "/images/galerie/fetes/noel201312.jpg",
+      "w": 960,
+      "h": 576,
+      "alt": "Fêtes — photo d'archive du club",
+      "date": "2013-12-13",
+      "dateSource": "exif"
+    },
+    {
+      "src": "/images/galerie/fetes/noel201313.jpg",
+      "w": 960,
+      "h": 576,
+      "alt": "Fêtes — photo d'archive du club",
+      "date": "2013-12-13",
+      "dateSource": "exif"
+    },
+    {
+      "src": "/images/galerie/fetes/noel201314.jpg",
+      "w": 960,
+      "h": 576,
+      "alt": "Fêtes — photo d'archive du club",
+      "date": "2013-12-13",
+      "dateSource": "exif"
+    },
+    {
+      "src": "/images/galerie/fetes/noel20132.jpg",
+      "w": 960,
+      "h": 720,
+      "alt": "Fêtes — photo d'archive du club",
+      "date": "2013-12-13",
+      "dateSource": "exif"
+    },
+    {
+      "src": "/images/galerie/fetes/noel20133.jpg",
+      "w": 960,
+      "h": 720,
+      "alt": "Fêtes — photo d'archive du club",
+      "date": "2013-12-13",
+      "dateSource": "exif"
+    },
+    {
+      "src": "/images/galerie/fetes/noel20134.jpg",
+      "w": 960,
+      "h": 720,
+      "alt": "Fêtes — photo d'archive du club",
+      "date": "2013-12-13",
+      "dateSource": "exif"
+    },
+    {
+      "src": "/images/galerie/fetes/noel20135.jpg",
+      "w": 960,
+      "h": 720,
+      "alt": "Fêtes — photo d'archive du club",
+      "date": "2013-12-13",
+      "dateSource": "exif"
+    },
+    {
+      "src": "/images/galerie/fetes/noel20136.jpg",
+      "w": 960,
+      "h": 720,
+      "alt": "Fêtes — photo d'archive du club",
+      "date": "2013-12-13",
+      "dateSource": "exif"
+    },
+    {
+      "src": "/images/galerie/fetes/noel20137.jpg",
+      "w": 960,
+      "h": 720,
+      "alt": "Fêtes — photo d'archive du club",
+      "date": "2013-12-13",
+      "dateSource": "exif"
+    },
+    {
+      "src": "/images/galerie/fetes/noel20138.jpg",
+      "w": 960,
+      "h": 720,
+      "alt": "Fêtes — photo d'archive du club",
+      "date": "2013-12-13",
+      "dateSource": "exif"
+    },
+    {
+      "src": "/images/galerie/fetes/noel20139.jpg",
+      "w": 960,
+      "h": 720,
+      "alt": "Fêtes — photo d'archive du club",
+      "date": "2013-12-13",
+      "dateSource": "exif"
+    },
+    {
+      "src": "/images/galerie/fetes/voeux2014.jpg",
+      "w": 698,
+      "h": 180,
+      "alt": "Fêtes — photo d'archive du club",
+      "date": "2014",
+      "dateSource": "path"
+    },
+    {
+      "src": "/images/galerie/fetes/voeux20142.jpg",
+      "w": 697,
+      "h": 154,
+      "alt": "Fêtes — photo d'archive du club",
+      "date": "2014",
+      "dateSource": "path"
+    },
+    {
+      "src": "/images/galerie/fetes/voeux_2014.jpg",
+      "w": 538,
+      "h": 211,
+      "alt": "Fêtes — photo d'archive du club",
+      "date": "2014",
+      "dateSource": "path"
+    },
+    {
+      "src": "/images/galerie/fetes/voeux20141.jpg",
+      "w": 384,
+      "h": 640,
+      "alt": "Fêtes — photo d'archive du club",
+      "date": "2014-01-18",
+      "dateSource": "exif"
+    },
+    {
+      "src": "/images/galerie/fetes/voeux201410.jpg.jpg",
+      "w": 640,
+      "h": 1139,
+      "alt": "Fêtes — photo d'archive du club",
+      "date": "2014-01-18",
+      "dateSource": "exif"
+    },
+    {
+      "src": "/images/galerie/fetes/voeux201411.jpg",
+      "w": 640,
+      "h": 1139,
+      "alt": "Fêtes — photo d'archive du club",
+      "date": "2014-01-18",
+      "dateSource": "exif"
+    },
+    {
+      "src": "/images/galerie/fetes/voeux201412.jpg",
+      "w": 640,
+      "h": 1139,
+      "alt": "Fêtes — photo d'archive du club",
+      "date": "2014-01-18",
+      "dateSource": "exif"
+    },
+    {
+      "src": "/images/galerie/fetes/voeux201413.jpg",
+      "w": 640,
+      "h": 1066,
+      "alt": "Fêtes — photo d'archive du club",
+      "date": "2014-01-18",
+      "dateSource": "exif"
+    },
+    {
+      "src": "/images/galerie/fetes/voeux201414.jpg",
+      "w": 640,
+      "h": 1139,
+      "alt": "Fêtes — photo d'archive du club",
+      "date": "2014-01-18",
+      "dateSource": "exif"
+    },
+    {
+      "src": "/images/galerie/fetes/voeux201421.jpg",
+      "w": 640,
+      "h": 1066,
+      "alt": "Fêtes — photo d'archive du club",
+      "date": "2014-01-18",
+      "dateSource": "exif"
+    },
+    {
+      "src": "/images/galerie/fetes/voeux201422.jpg",
+      "w": 640,
+      "h": 1066,
+      "alt": "Fêtes — photo d'archive du club",
+      "date": "2014-01-18",
+      "dateSource": "exif",
+      "title": "journal Janvier 2014",
+      "articles": [
+        {
+          "path": "/archives/2014/journal-2014-01",
+          "title": "journal Janvier 2014",
+          "date": "2014-01"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/fetes/voeux201423.jpg",
+      "w": 640,
+      "h": 1066,
+      "alt": "Fêtes — photo d'archive du club",
+      "date": "2014-01-18",
+      "dateSource": "exif"
+    },
+    {
+      "src": "/images/galerie/fetes/voeux201425.jpg",
+      "w": 640,
+      "h": 1066,
+      "alt": "Fêtes — photo d'archive du club",
+      "date": "2014-01-18",
+      "dateSource": "exif"
+    },
+    {
+      "src": "/images/galerie/fetes/voeux201426.jpg",
+      "w": 640,
+      "h": 1066,
+      "alt": "Fêtes — photo d'archive du club",
+      "date": "2014-01-18",
+      "dateSource": "exif"
+    },
+    {
+      "src": "/images/galerie/fetes/voeux201427.jpg",
+      "w": 640,
+      "h": 1139,
+      "alt": "Fêtes — photo d'archive du club",
+      "date": "2014-01-18",
+      "dateSource": "exif"
+    },
+    {
+      "src": "/images/galerie/fetes/voeux201428.jpg",
+      "w": 300,
+      "h": 500,
+      "alt": "Fêtes — photo d'archive du club",
+      "date": "2014-01-18",
+      "dateSource": "exif"
+    },
+    {
+      "src": "/images/galerie/fetes/voeux20144.jpg",
+      "w": 640,
+      "h": 1139,
+      "alt": "Fêtes — photo d'archive du club",
+      "date": "2014-01-18",
+      "dateSource": "exif"
+    },
+    {
+      "src": "/images/galerie/fetes/voeux20145.jpg",
+      "w": 640,
+      "h": 1139,
+      "alt": "Fêtes — photo d'archive du club",
+      "date": "2014-01-18",
+      "dateSource": "exif"
+    },
+    {
+      "src": "/images/galerie/fetes/voeux20146.jpg",
+      "w": 640,
+      "h": 1139,
+      "alt": "Fêtes — photo d'archive du club",
+      "date": "2014-01-18",
+      "dateSource": "exif"
+    },
+    {
+      "src": "/images/galerie/fetes/voeux20147.jpg",
+      "w": 640,
+      "h": 1139,
+      "alt": "Fêtes — photo d'archive du club",
+      "date": "2014-01-18",
+      "dateSource": "exif"
+    },
+    {
+      "src": "/images/galerie/fetes/voeux20149.jpg",
+      "w": 640,
+      "h": 1139,
+      "alt": "Fêtes — photo d'archive du club",
+      "date": "2014-01-18",
+      "dateSource": "exif"
+    },
+    {
+      "src": "/images/galerie/fetes/voeux_19.jpg",
+      "w": 660,
+      "h": 443,
+      "alt": "Fêtes — photo d'archive du club",
+      "date": "2015-03-22",
+      "dateSource": "exif"
+    },
+    {
+      "src": "/images/galerie/fetes/voeux_191.jpg",
+      "w": 2000,
+      "h": 1343,
+      "alt": "Fêtes — photo d'archive du club",
+      "date": "2015-03-22",
+      "dateSource": "exif"
+    },
+    {
+      "src": "/images/galerie/fetes/bonan16.jpg",
+      "w": 640,
+      "h": 443,
+      "alt": "Fêtes — photo d'archive du club",
+      "date": "2016",
+      "dateSource": "path"
+    },
+    {
+      "src": "/images/galerie/fetes/bonan16henry.jpg",
+      "w": 640,
+      "h": 480,
+      "alt": "Fêtes — photo d'archive du club",
+      "date": "2016",
+      "dateSource": "path"
+    },
+    {
+      "src": "/images/galerie/fetes/voeux16.jpg",
+      "w": 640,
+      "h": 452,
+      "alt": "Fêtes — photo d'archive du club",
+      "date": "2016-01",
+      "dateSource": "article",
+      "title": "Journal Janvier 2016",
+      "articles": [
+        {
+          "path": "/archives/2016/journal-2016-01",
+          "title": "Journal Janvier 2016",
+          "date": "2016-01"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/fetes/assgene15.jpg",
+      "w": 640,
+      "h": 480,
+      "alt": "Fêtes — photo d'archive du club",
+      "date": "2016-01-31",
+      "dateSource": "exif",
+      "title": "Journal Février 2016",
+      "articles": [
+        {
+          "path": "/archives/2016/journal-2016-02",
+          "title": "Journal Février 2016",
+          "date": "2016-02"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/fetes/noel161.jpg",
+      "w": 680,
+      "h": 383,
+      "alt": "Fêtes — photo d'archive du club",
+      "date": "2016-12",
+      "dateSource": "article",
+      "title": "Journal décembre 2016",
+      "articles": [
+        {
+          "path": "/archives/2016/journal-2016-12",
+          "title": "Journal décembre 2016",
+          "date": "2016-12"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/fetes/pfbonan17.jpg",
+      "w": 680,
+      "h": 398,
+      "alt": "Fêtes — photo d'archive du club",
+      "date": "2017-01",
+      "dateSource": "article",
+      "title": "Journal janvier 2017",
+      "articles": [
+        {
+          "path": "/archives/2017/journal-2017-01",
+          "title": "Journal janvier 2017",
+          "date": "2017-01"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/fetes/voeux171.jpg",
+      "w": 640,
+      "h": 361,
+      "alt": "Fêtes — photo d'archive du club",
+      "date": "2017-01-07",
+      "dateSource": "exif",
+      "title": "Journal janvier 2017",
+      "articles": [
+        {
+          "path": "/archives/2017/journal-2017-01",
+          "title": "Journal janvier 2017",
+          "date": "2017-01"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/fetes/voeux172.jpg",
+      "w": 640,
+      "h": 465,
+      "alt": "Fêtes — photo d'archive du club",
+      "date": "2017-01-07",
+      "dateSource": "exif",
+      "title": "Journal janvier 2017",
+      "articles": [
+        {
+          "path": "/archives/2017/journal-2017-01",
+          "title": "Journal janvier 2017",
+          "date": "2017-01"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/fetes/voeux173.jpg",
+      "w": 640,
+      "h": 361,
+      "alt": "Fêtes — photo d'archive du club",
+      "date": "2017-01-07",
+      "dateSource": "exif",
+      "title": "Journal janvier 2017",
+      "articles": [
+        {
+          "path": "/archives/2017/journal-2017-01",
+          "title": "Journal janvier 2017",
+          "date": "2017-01"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/fetes/voeux174.jpg",
+      "w": 640,
+      "h": 361,
+      "alt": "Fêtes — photo d'archive du club",
+      "date": "2017-01-07",
+      "dateSource": "exif",
+      "title": "Journal janvier 2017",
+      "articles": [
+        {
+          "path": "/archives/2017/journal-2017-01",
+          "title": "Journal janvier 2017",
+          "date": "2017-01"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/fetes/noel181.jpg",
+      "w": 640,
+      "h": 360,
+      "alt": "Fêtes — photo d'archive du club",
+      "date": "2018",
+      "dateSource": "path"
+    },
+    {
+      "src": "/images/galerie/fetes/noel1810.jpg",
+      "w": 640,
+      "h": 360,
+      "alt": "Fêtes — photo d'archive du club",
+      "date": "2018",
+      "dateSource": "path"
+    },
+    {
+      "src": "/images/galerie/fetes/noel182.jpg",
+      "w": 640,
+      "h": 360,
+      "alt": "Fêtes — photo d'archive du club",
+      "date": "2018",
+      "dateSource": "path"
+    },
+    {
+      "src": "/images/galerie/fetes/noel183.jpg",
+      "w": 640,
+      "h": 360,
+      "alt": "Fêtes — photo d'archive du club",
+      "date": "2018",
+      "dateSource": "path"
+    },
+    {
+      "src": "/images/galerie/fetes/noel184.jpg",
+      "w": 640,
+      "h": 360,
+      "alt": "Fêtes — photo d'archive du club",
+      "date": "2018",
+      "dateSource": "path"
+    },
+    {
+      "src": "/images/galerie/fetes/noel185.jpg",
+      "w": 640,
+      "h": 360,
+      "alt": "Fêtes — photo d'archive du club",
+      "date": "2018",
+      "dateSource": "path"
+    },
+    {
+      "src": "/images/galerie/fetes/noel186.jpg",
+      "w": 640,
+      "h": 360,
+      "alt": "Fêtes — photo d'archive du club",
+      "date": "2018",
+      "dateSource": "path"
+    },
+    {
+      "src": "/images/galerie/fetes/noel187.jpg",
+      "w": 640,
+      "h": 360,
+      "alt": "Fêtes — photo d'archive du club",
+      "date": "2018",
+      "dateSource": "path"
+    },
+    {
+      "src": "/images/galerie/fetes/noel188.jpg",
+      "w": 640,
+      "h": 360,
+      "alt": "Fêtes — photo d'archive du club",
+      "date": "2018",
+      "dateSource": "path"
+    },
+    {
+      "src": "/images/galerie/fetes/noel189.jpg",
+      "w": 640,
+      "h": 360,
+      "alt": "Fêtes — photo d'archive du club",
+      "date": "2018",
+      "dateSource": "path"
+    },
+    {
+      "src": "/images/galerie/fetes/bonan18.jpg",
+      "w": 547,
+      "h": 381,
+      "alt": "Fêtes — photo d'archive du club",
+      "date": "2018-01",
+      "dateSource": "article",
+      "title": "Journal Janvier 2018",
+      "articles": [
+        {
+          "path": "/archives/2018/journal-2018-01",
+          "title": "Journal Janvier 2018",
+          "date": "2018-01"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/fetes/voeux181.jpg",
+      "w": 640,
+      "h": 480,
+      "alt": "Fêtes — photo d'archive du club",
+      "date": "2018-01",
+      "dateSource": "article",
+      "title": "Journal Janvier 2018",
+      "articles": [
+        {
+          "path": "/archives/2018/journal-2018-01",
+          "title": "Journal Janvier 2018",
+          "date": "2018-01"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/fetes/vx181.jpg",
+      "w": 640,
+      "h": 361,
+      "alt": "Fêtes — photo d'archive du club",
+      "date": "2018-01-05",
+      "dateSource": "exif",
+      "title": "Journal Janvier 2018",
+      "articles": [
+        {
+          "path": "/archives/2018/journal-2018-01",
+          "title": "Journal Janvier 2018",
+          "date": "2018-01"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/fetes/vx182.jpg",
+      "w": 640,
+      "h": 361,
+      "alt": "Fêtes — photo d'archive du club",
+      "date": "2018-01-05",
+      "dateSource": "exif",
+      "title": "Journal Janvier 2018",
+      "articles": [
+        {
+          "path": "/archives/2018/journal-2018-01",
+          "title": "Journal Janvier 2018",
+          "date": "2018-01"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/fetes/vx183.jpg",
+      "w": 640,
+      "h": 361,
+      "alt": "Fêtes — photo d'archive du club",
+      "date": "2018-01-05",
+      "dateSource": "exif",
+      "title": "Journal Janvier 2018",
+      "articles": [
+        {
+          "path": "/archives/2018/journal-2018-01",
+          "title": "Journal Janvier 2018",
+          "date": "2018-01"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/fetes/vx184.jpg",
+      "w": 640,
+      "h": 361,
+      "alt": "Fêtes — photo d'archive du club",
+      "date": "2018-01-05",
+      "dateSource": "exif",
+      "title": "Journal Janvier 2018",
+      "articles": [
+        {
+          "path": "/archives/2018/journal-2018-01",
+          "title": "Journal Janvier 2018",
+          "date": "2018-01"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/fetes/vx185.jpg",
+      "w": 640,
+      "h": 361,
+      "alt": "Fêtes — photo d'archive du club",
+      "date": "2018-01-05",
+      "dateSource": "exif",
+      "title": "Journal Janvier 2018",
+      "articles": [
+        {
+          "path": "/archives/2018/journal-2018-01",
+          "title": "Journal Janvier 2018",
+          "date": "2018-01"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/fetes/vx186.jpg",
+      "w": 640,
+      "h": 361,
+      "alt": "Fêtes — photo d'archive du club",
+      "date": "2018-01-05",
+      "dateSource": "exif",
+      "title": "Journal Janvier 2018",
+      "articles": [
+        {
+          "path": "/archives/2018/journal-2018-01",
+          "title": "Journal Janvier 2018",
+          "date": "2018-01"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/fetes/vx187.jpg",
+      "w": 640,
+      "h": 361,
+      "alt": "Fêtes — photo d'archive du club",
+      "date": "2018-01-05",
+      "dateSource": "exif",
+      "title": "Journal Janvier 2018",
+      "articles": [
+        {
+          "path": "/archives/2018/journal-2018-01",
+          "title": "Journal Janvier 2018",
+          "date": "2018-01"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/fetes/tleth182.jpg",
+      "w": 640,
+      "h": 360,
+      "alt": "Fêtes — photo d'archive du club",
+      "date": "2018-12",
+      "dateSource": "article",
+      "title": "Journal Décembre 2018",
+      "articles": [
+        {
+          "path": "/archives/2018/journal-2018-12",
+          "title": "Journal Décembre 2018",
+          "date": "2018-12"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/fetes/tleth184.jpg",
+      "w": 640,
+      "h": 360,
+      "alt": "Fêtes — photo d'archive du club",
+      "date": "2018-12",
+      "dateSource": "article",
+      "title": "Journal Décembre 2018",
+      "articles": [
+        {
+          "path": "/archives/2018/journal-2018-12",
+          "title": "Journal Décembre 2018",
+          "date": "2018-12"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/fetes/tlethon-2018-6.jpg",
+      "w": 640,
+      "h": 360,
+      "alt": "Fêtes — photo d'archive du club",
+      "date": "2018-12",
+      "dateSource": "article",
+      "title": "Journal Décembre 2018",
+      "articles": [
+        {
+          "path": "/archives/2018/journal-2018-12",
+          "title": "Journal Décembre 2018",
+          "date": "2018-12"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/fetes/tlth181.jpg",
+      "w": 640,
+      "h": 360,
+      "alt": "Fêtes — photo d'archive du club",
+      "date": "2018-12",
+      "dateSource": "article",
+      "title": "Journal Décembre 2018",
+      "articles": [
+        {
+          "path": "/archives/2018/journal-2018-12",
+          "title": "Journal Décembre 2018",
+          "date": "2018-12"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/fetes/bon_ann_19.jpg",
+      "w": 620,
+      "h": 394,
+      "alt": "Fêtes — photo d'archive du club",
+      "date": "2019",
+      "dateSource": "path"
+    },
+    {
+      "src": "/images/galerie/fetes/bon_ann_192.jpg",
+      "w": 640,
+      "h": 407,
+      "alt": "Fêtes — photo d'archive du club",
+      "date": "2019",
+      "dateSource": "path"
+    },
+    {
+      "src": "/images/galerie/fetes/bon_ann_197.jpg",
+      "w": 640,
+      "h": 407,
+      "alt": "Fêtes — photo d'archive du club",
+      "date": "2019-01",
+      "dateSource": "article",
+      "title": "Journal Janvier 2019",
+      "articles": [
+        {
+          "path": "/archives/2019/journal-2019-01",
+          "title": "Journal Janvier 2019",
+          "date": "2019-01"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/fetes/voeux-191.jpg",
+      "w": 640,
+      "h": 360,
+      "alt": "Fêtes — photo d'archive du club",
+      "date": "2019-01",
+      "dateSource": "article",
+      "title": "Journal Janvier 2019",
+      "articles": [
+        {
+          "path": "/archives/2019/journal-2019-01",
+          "title": "Journal Janvier 2019",
+          "date": "2019-01"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/fetes/voeux-192.jpg",
+      "w": 640,
+      "h": 360,
+      "alt": "Fêtes — photo d'archive du club",
+      "date": "2019-01",
+      "dateSource": "article",
+      "title": "Journal Janvier 2019",
+      "articles": [
+        {
+          "path": "/archives/2019/journal-2019-01",
+          "title": "Journal Janvier 2019",
+          "date": "2019-01"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/fetes/voeux-193.jpg",
+      "w": 640,
+      "h": 360,
+      "alt": "Fêtes — photo d'archive du club",
+      "date": "2019-01",
+      "dateSource": "article",
+      "title": "Journal Janvier 2019",
+      "articles": [
+        {
+          "path": "/archives/2019/journal-2019-01",
+          "title": "Journal Janvier 2019",
+          "date": "2019-01"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/fetes/voeux-194.jpg",
+      "w": 640,
+      "h": 360,
+      "alt": "Fêtes — photo d'archive du club",
+      "date": "2019-01",
+      "dateSource": "article",
+      "title": "Journal Janvier 2019",
+      "articles": [
+        {
+          "path": "/archives/2019/journal-2019-01",
+          "title": "Journal Janvier 2019",
+          "date": "2019-01"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/fetes/voeux-195.jpg",
+      "w": 640,
+      "h": 360,
+      "alt": "Fêtes — photo d'archive du club",
+      "date": "2019-01",
+      "dateSource": "article",
+      "title": "Journal Janvier 2019",
+      "articles": [
+        {
+          "path": "/archives/2019/journal-2019-01",
+          "title": "Journal Janvier 2019",
+          "date": "2019-01"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/fetes/voeux-196.jpg",
+      "w": 640,
+      "h": 360,
+      "alt": "Fêtes — photo d'archive du club",
+      "date": "2019-01",
+      "dateSource": "article",
+      "title": "Journal Janvier 2019",
+      "articles": [
+        {
+          "path": "/archives/2019/journal-2019-01",
+          "title": "Journal Janvier 2019",
+          "date": "2019-01"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/fetes/voeux-197.jpg",
+      "w": 640,
+      "h": 360,
+      "alt": "Fêtes — photo d'archive du club",
+      "date": "2019-01",
+      "dateSource": "article",
+      "title": "Journal Janvier 2019",
+      "articles": [
+        {
+          "path": "/archives/2019/journal-2019-01",
+          "title": "Journal Janvier 2019",
+          "date": "2019-01"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/fetes/nlan201.jpg",
+      "w": 1024,
+      "h": 576,
+      "alt": "Fêtes — photo d'archive du club",
+      "date": "2020-01",
+      "dateSource": "article",
+      "title": "Journal Janvier 2020",
+      "articles": [
+        {
+          "path": "/archives/2020/journal-2020-01",
+          "title": "Journal Janvier 2020",
+          "date": "2020-01"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/fetes/nlan202.jpg",
+      "w": 1024,
+      "h": 576,
+      "alt": "Fêtes — photo d'archive du club",
+      "date": "2020-01",
+      "dateSource": "article",
+      "title": "Journal Janvier 2020",
+      "articles": [
+        {
+          "path": "/archives/2020/journal-2020-01",
+          "title": "Journal Janvier 2020",
+          "date": "2020-01"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/fetes/nlan208.jpg",
+      "w": 1024,
+      "h": 576,
+      "alt": "Fêtes — photo d'archive du club",
+      "date": "2020-01",
+      "dateSource": "article",
+      "title": "Journal Janvier 2020",
+      "articles": [
+        {
+          "path": "/archives/2020/journal-2020-01",
+          "title": "Journal Janvier 2020",
+          "date": "2020-01"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/fetes/nlan206.jpg",
+      "w": 1024,
+      "h": 576,
+      "alt": "Fêtes — photo d'archive du club",
+      "date": "2020-01",
+      "dateSource": "article",
+      "title": "Journal Janvier 2020",
+      "articles": [
+        {
+          "path": "/archives/2020/journal-2020-01",
+          "title": "Journal Janvier 2020",
+          "date": "2020-01"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/fetes/20200118_180641.jpg",
+      "w": 2000,
+      "h": 1500,
+      "alt": "Fêtes — photo d'archive du club",
+      "date": "2020-01-18",
+      "dateSource": "exif"
+    },
+    {
+      "src": "/images/galerie/fetes/nxan20201.jpg",
+      "w": 1024,
+      "h": 768,
+      "alt": "Fêtes — photo d'archive du club",
+      "date": "2020-01-18",
+      "dateSource": "exif",
+      "title": "Journal Janvier 2020",
+      "articles": [
+        {
+          "path": "/archives/2020/journal-2020-01",
+          "title": "Journal Janvier 2020",
+          "date": "2020-01"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/fetes/voeux_21_3.jpg",
+      "w": 499,
+      "h": 312,
+      "alt": "Fêtes — photo d'archive du club",
+      "date": "2021-01",
+      "dateSource": "article",
+      "title": "Journal Janvier 2021",
+      "articles": [
+        {
+          "path": "/archives/2021/journal-2021-01",
+          "title": "Journal Janvier 2021",
+          "date": "2021-01"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/fetes/affiche_noel_chalets.jpg",
+      "w": 500,
+      "h": 375,
+      "alt": "Fêtes — photo d'archive du club",
+      "date": "2023",
+      "dateSource": "path"
+    },
+    {
+      "src": "/images/galerie/fetes/voeux23_20.jpg",
+      "w": 710,
+      "h": 328,
+      "alt": "Fêtes — photo d'archive du club",
+      "date": "2023-01",
+      "dateSource": "article",
+      "title": "journal Janvier 23",
+      "articles": [
+        {
+          "path": "/archives/2023/journal-2023-01",
+          "title": "journal Janvier 23",
+          "date": "2023-01"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/fetes/voeux23_21.jpg",
+      "w": 710,
+      "h": 415,
+      "alt": "Fêtes — photo d'archive du club",
+      "date": "2023-01",
+      "dateSource": "article",
+      "title": "journal Janvier 23",
+      "articles": [
+        {
+          "path": "/archives/2023/journal-2023-01",
+          "title": "journal Janvier 23",
+          "date": "2023-01"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/fetes/voeux23_8.jpg",
+      "w": 710,
+      "h": 346,
+      "alt": "Fêtes — photo d'archive du club",
+      "date": "2023-01",
+      "dateSource": "article",
+      "title": "journal Janvier 23",
+      "articles": [
+        {
+          "path": "/archives/2023/journal-2023-01",
+          "title": "journal Janvier 23",
+          "date": "2023-01"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/fetes/voeux23_10.jpg",
+      "w": 710,
+      "h": 328,
+      "alt": "Fêtes — photo d'archive du club",
+      "date": "2023-01-14",
+      "dateSource": "exif",
+      "title": "journal Janvier 23",
+      "articles": [
+        {
+          "path": "/archives/2023/journal-2023-01",
+          "title": "journal Janvier 23",
+          "date": "2023-01"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/fetes/voeux23_12.jpg",
+      "w": 710,
+      "h": 328,
+      "alt": "Fêtes — photo d'archive du club",
+      "date": "2023-01-14",
+      "dateSource": "exif",
+      "title": "journal Janvier 23",
+      "articles": [
+        {
+          "path": "/archives/2023/journal-2023-01",
+          "title": "journal Janvier 23",
+          "date": "2023-01"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/fetes/voeux23_3.jpg",
+      "w": 710,
+      "h": 376,
+      "alt": "Fêtes — photo d'archive du club",
+      "date": "2023-01-14",
+      "dateSource": "exif",
+      "title": "journal Janvier 23",
+      "articles": [
+        {
+          "path": "/archives/2023/journal-2023-01",
+          "title": "journal Janvier 23",
+          "date": "2023-01"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/fetes/voeux23_4.jpg",
+      "w": 710,
+      "h": 420,
+      "alt": "Fêtes — photo d'archive du club",
+      "date": "2023-01-14",
+      "dateSource": "exif",
+      "title": "journal Janvier 23",
+      "articles": [
+        {
+          "path": "/archives/2023/journal-2023-01",
+          "title": "journal Janvier 23",
+          "date": "2023-01"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/fetes/noel23_chalets.jpg",
+      "w": 650,
+      "h": 488,
+      "alt": "Fêtes — photo d'archive du club",
+      "date": "2023-12",
+      "dateSource": "article",
+      "title": "Journal Décembre 23",
+      "articles": [
+        {
+          "path": "/archives/2023/journal-2023-12",
+          "title": "Journal Décembre 23",
+          "date": "2023-12"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/fetes/fete_des_pommiers2024.png",
+      "w": 400,
+      "h": 568,
+      "alt": "Fêtes — photo d'archive du club",
+      "date": "2024",
+      "dateSource": "path"
+    },
+    {
+      "src": "/images/galerie/fetes/voeux24_1.jpg",
+      "w": 430,
+      "h": 764,
+      "alt": "Fêtes — photo d'archive du club",
+      "date": "2024-01",
+      "dateSource": "article",
+      "title": "Journal Janvier 2024",
+      "articles": [
+        {
+          "path": "/archives/2024/journal-2024-01",
+          "title": "Journal Janvier 2024",
+          "date": "2024-01"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/fetes/voeux24_1-2.jpg",
+      "w": 499,
+      "h": 312,
+      "alt": "Fêtes — photo d'archive du club",
+      "date": "2024-01",
+      "dateSource": "article",
+      "title": "Journal Janvier 2024",
+      "articles": [
+        {
+          "path": "/archives/2024/journal-2024-01",
+          "title": "Journal Janvier 2024",
+          "date": "2024-01"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/fetes/voeux24_10.jpg",
+      "w": 700,
+      "h": 394,
+      "alt": "Fêtes — photo d'archive du club",
+      "date": "2024-01",
+      "dateSource": "article",
+      "title": "Journal Janvier 2024",
+      "articles": [
+        {
+          "path": "/archives/2024/journal-2024-01",
+          "title": "Journal Janvier 2024",
+          "date": "2024-01"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/fetes/voeux24_11.jpg",
+      "w": 700,
+      "h": 394,
+      "alt": "Fêtes — photo d'archive du club",
+      "date": "2024-01",
+      "dateSource": "article",
+      "title": "Journal Janvier 2024",
+      "articles": [
+        {
+          "path": "/archives/2024/journal-2024-01",
+          "title": "Journal Janvier 2024",
+          "date": "2024-01"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/fetes/voeux24_12.jpg",
+      "w": 700,
+      "h": 394,
+      "alt": "Fêtes — photo d'archive du club",
+      "date": "2024-01",
+      "dateSource": "article",
+      "title": "Journal Janvier 2024",
+      "articles": [
+        {
+          "path": "/archives/2024/journal-2024-01",
+          "title": "Journal Janvier 2024",
+          "date": "2024-01"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/fetes/voeux24_13.jpg",
+      "w": 700,
+      "h": 394,
+      "alt": "Fêtes — photo d'archive du club",
+      "date": "2024-01",
+      "dateSource": "article",
+      "title": "Journal Janvier 2024",
+      "articles": [
+        {
+          "path": "/archives/2024/journal-2024-01",
+          "title": "Journal Janvier 2024",
+          "date": "2024-01"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/fetes/voeux24_15.jpg",
+      "w": 700,
+      "h": 394,
+      "alt": "Fêtes — photo d'archive du club",
+      "date": "2024-01",
+      "dateSource": "article",
+      "title": "Journal Janvier 2024",
+      "articles": [
+        {
+          "path": "/archives/2024/journal-2024-01",
+          "title": "Journal Janvier 2024",
+          "date": "2024-01"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/fetes/voeux24_17.jpg",
+      "w": 430,
+      "h": 764,
+      "alt": "Fêtes — photo d'archive du club",
+      "date": "2024-01",
+      "dateSource": "article",
+      "title": "Journal Janvier 2024",
+      "articles": [
+        {
+          "path": "/archives/2024/journal-2024-01",
+          "title": "Journal Janvier 2024",
+          "date": "2024-01"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/fetes/voeux24_2.jpg",
+      "w": 700,
+      "h": 394,
+      "alt": "Fêtes — photo d'archive du club",
+      "date": "2024-01",
+      "dateSource": "article",
+      "title": "Journal Janvier 2024",
+      "articles": [
+        {
+          "path": "/archives/2024/journal-2024-01",
+          "title": "Journal Janvier 2024",
+          "date": "2024-01"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/fetes/voeux24_3.jpg",
+      "w": 430,
+      "h": 764,
+      "alt": "Fêtes — photo d'archive du club",
+      "date": "2024-01",
+      "dateSource": "article",
+      "title": "Journal Janvier 2024",
+      "articles": [
+        {
+          "path": "/archives/2024/journal-2024-01",
+          "title": "Journal Janvier 2024",
+          "date": "2024-01"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/fetes/voeux24_4.jpg",
+      "w": 430,
+      "h": 764,
+      "alt": "Fêtes — photo d'archive du club",
+      "date": "2024-01",
+      "dateSource": "article",
+      "title": "Journal Janvier 2024",
+      "articles": [
+        {
+          "path": "/archives/2024/journal-2024-01",
+          "title": "Journal Janvier 2024",
+          "date": "2024-01"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/fetes/voeux24_5.jpg",
+      "w": 430,
+      "h": 764,
+      "alt": "Fêtes — photo d'archive du club",
+      "date": "2024-01",
+      "dateSource": "article",
+      "title": "Journal Janvier 2024",
+      "articles": [
+        {
+          "path": "/archives/2024/journal-2024-01",
+          "title": "Journal Janvier 2024",
+          "date": "2024-01"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/fetes/voeux24_6.jpg",
+      "w": 430,
+      "h": 764,
+      "alt": "Fêtes — photo d'archive du club",
+      "date": "2024-01",
+      "dateSource": "article",
+      "title": "Journal Janvier 2024",
+      "articles": [
+        {
+          "path": "/archives/2024/journal-2024-01",
+          "title": "Journal Janvier 2024",
+          "date": "2024-01"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/fetes/voeux24_7.jpg",
+      "w": 430,
+      "h": 764,
+      "alt": "Fêtes — photo d'archive du club",
+      "date": "2024-01",
+      "dateSource": "article",
+      "title": "Journal Janvier 2024",
+      "articles": [
+        {
+          "path": "/archives/2024/journal-2024-01",
+          "title": "Journal Janvier 2024",
+          "date": "2024-01"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/fetes/voeux24_8.jpg",
+      "w": 700,
+      "h": 394,
+      "alt": "Fêtes — photo d'archive du club",
+      "date": "2024-01",
+      "dateSource": "article",
+      "title": "Journal Janvier 2024",
+      "articles": [
+        {
+          "path": "/archives/2024/journal-2024-01",
+          "title": "Journal Janvier 2024",
+          "date": "2024-01"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/fetes/voeux24_9.jpg",
+      "w": 700,
+      "h": 394,
+      "alt": "Fêtes — photo d'archive du club",
+      "date": "2024-01",
+      "dateSource": "article",
+      "title": "Journal Janvier 2024",
+      "articles": [
+        {
+          "path": "/archives/2024/journal-2024-01",
+          "title": "Journal Janvier 2024",
+          "date": "2024-01"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/fetes/muguet1.jpg",
+      "w": 500,
+      "h": 355,
+      "alt": "Fêtes — photo d'archive du club",
+      "date": "2024-05",
+      "dateSource": "article",
+      "title": "Journal Mai 24",
+      "articles": [
+        {
+          "path": "/archives/2024/journal-2024-05",
+          "title": "Journal Mai 24",
+          "date": "2024-05"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/fetes/fete_pom24.jpg",
+      "w": 450,
+      "h": 637,
+      "alt": "Fêtes — photo d'archive du club",
+      "date": "2024-06",
+      "dateSource": "article",
+      "articles": [
+        {
+          "path": "/archives/2024/journal-2024-06",
+          "title": "Journal Juin 24",
+          "date": "2024-06"
+        },
+        {
+          "path": "/archives/2024/journal-2024-07",
+          "title": "Journal Juillet 24",
+          "date": "2024-07"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/fetes/perenoel24.jpg",
+      "w": 800,
+      "h": 449,
+      "alt": "Fêtes — photo d'archive du club",
+      "date": "2024-12",
+      "dateSource": "article",
+      "title": "Journal Décembre 24",
+      "articles": [
+        {
+          "path": "/archives/2024/journal-2024-12",
+          "title": "Journal Décembre 24",
+          "date": "2024-12"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/fetes/boule_noel1.jpg",
+      "w": 612,
+      "h": 408,
+      "alt": "Fêtes — photo d'archive du club",
+      "date": "2025",
+      "dateSource": "path"
+    },
+    {
+      "src": "/images/galerie/fetes/bon_an_25_3.jpg",
+      "w": 500,
+      "h": 300,
+      "alt": "Fêtes — photo d'archive du club",
+      "date": "2025-01",
+      "dateSource": "article",
+      "title": "Journal Janvier 25",
+      "articles": [
+        {
+          "path": "/archives/2025/journal-2025-01",
+          "title": "Journal Janvier 25",
+          "date": "2025-01"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/fetes/bureau25_1.jpg",
+      "w": 900,
+      "h": 491,
+      "alt": "Fêtes — photo d'archive du club",
+      "date": "2025-01",
+      "dateSource": "article",
+      "title": "Journal Janvier 25",
+      "articles": [
+        {
+          "path": "/archives/2025/journal-2025-01",
+          "title": "Journal Janvier 25",
+          "date": "2025-01"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/fetes/ouestfr1.jpg",
+      "w": 800,
+      "h": 597,
+      "alt": "Fêtes — photo d'archive du club",
+      "date": "2025-01",
+      "dateSource": "article",
+      "title": "Journal Janvier 25",
+      "articles": [
+        {
+          "path": "/archives/2025/journal-2025-01",
+          "title": "Journal Janvier 25",
+          "date": "2025-01"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/fetes/fetpomm25_1.jpg",
+      "w": 800,
+      "h": 1200,
+      "alt": "Fêtes — photo d'archive du club",
+      "date": "2025-07",
+      "dateSource": "article",
+      "title": "Journal juillet 25",
+      "articles": [
+        {
+          "path": "/archives/2025/journal-2025-07",
+          "title": "Journal juillet 25",
+          "date": "2025-07"
+        }
+      ]
+    },
+    {
+      "src": "/images/galerie/fetes/affiche_cc_ete2.jpg",
+      "w": 400,
+      "h": 566,
+      "alt": "Fêtes — photo d'archive du club"
+    },
+    {
+      "src": "/images/galerie/fetes/concours_ete24_1.png",
+      "w": 399,
+      "h": 560,
+      "alt": "Fêtes — photo d'archive du club"
+    },
+    {
+      "src": "/images/galerie/fetes/fete_pom26.jpg",
+      "w": 500,
+      "h": 708,
+      "alt": "Fêtes — photo d'archive du club"
+    }
+  ]
+}
