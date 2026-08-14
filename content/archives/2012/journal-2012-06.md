@@ -5,16 +5,16 @@ date: 2013-07-05
 year: 2012
 category: "Journaux du club"
 journal: "2012-06"
-image: "/images/archives/2012/journal-2012-06/petanq_tgv.jpg"
+image: "/images/archives/2012/journal-2012-06/petanq_tgv.webp"
 joomlaId: 96
 hits: 4698
 ---
 
 Journal du mois de juin 2012
 
-![Journal Juin 2012](/images/archives/2012/journal-2012-06/petanq_tgv.jpg){width="399" height="304"}
+![Journal Juin 2012](/images/archives/2012/journal-2012-06/petanq_tgv.webp){height="304" width="399"}
 
-![Journal Juin 2012](/images/archives/2012/journal-2012-06/football-105b15d.gif){width="72" height="71"}
+![Journal Juin 2012](/images/archives/2012/journal-2012-06/football-105b15d.gif){height="71" width="72"}
 
 ## Concours vétérans en doublettes du 28 Juin
 
@@ -97,9 +97,9 @@ Remerciements à tous les joueurs qui se sont déplacés pour cette journée.
 - Mr Dominique GORSE Vice Président
 - Mr Gilbert CAROFF Secrétaire
 
-![Journal Juin 2012](/images/archives/2012/journal-2012-06/pateneriat20ca20pf1.png){width="600" height="303"}
+![Journal Juin 2012](/images/archives/2012/journal-2012-06/pateneriat20ca20pf1.webp){height="303" width="600"}
 
-![Journal Juin 2012](/images/archives/2012/journal-2012-06/football-105b15d-2.gif){width="72" height="71"}
+![Journal Juin 2012](/images/archives/2012/journal-2012-06/football-105b15d-2.gif){height="71" width="72"}
 
 ### QUALIFICATIONS SECTEUR, TETE A TETE , A BENODET
 
@@ -123,7 +123,7 @@ Sept joueurs de la Pétanque Fouesnantaise étaient présents à Bénodet.
 
 \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
-![Journal Juin 2012](/images/archives/2012/journal-2012-06/bravo.gif){width="115" height="115"}
+![Journal Juin 2012](/images/archives/2012/journal-2012-06/bravo.gif){height="115" width="115"}
 
 ### MEILLEURES PERFORMANCES DU MOIS
 
@@ -141,4 +141,4 @@ Sept joueurs de la Pétanque Fouesnantaise étaient présents à Bénodet.
 - Concours Seniors, jeudi 30 Juin à Bénodet en triplettes
 - Premier concours A: Jo Le STUM, Yves CLORENNEC, Yves PIRIOU
 
-![Journal Juin 2012](/images/archives/2012/journal-2012-06/fete20des20pomm.jpg){width="558" height="771"}
+![Journal Juin 2012](/images/archives/2012/journal-2012-06/fete20des20pomm.webp){height="771" width="558"}

@@ -10,7 +10,7 @@ joomlaId: 284
 hits: 5696
 ---
 
-**![Journal Mai 2016](/images/archives/2016/journal-2016-05/bouleroule.gif){width="59" height="58"}CHAMPIONNAT DES CLUBS + 55ans 6 ème JOURNEE LE 24 MAI**
+**![Journal Mai 2016](/images/archives/2016/journal-2016-05/bouleroule.gif){height="58" width="59"}CHAMPIONNAT DES CLUBS + 55ans 6 ème JOURNEE LE 24 MAI**
 
 6 ème journée \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
@@ -46,22 +46,22 @@ FOUESNANT 4 / COMBRIT 3
 
 \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
-![Journal Mai 2016](/images/archives/2016/journal-2016-05/imag1.jpg){width="100" height="65"} **TR0PHEE 55 ANS ET + COMPLEMENTAIRE 2ème TOUR**
+![Journal Mai 2016](/images/archives/2016/journal-2016-05/imag1.webp){height="65" width="100"} **TR0PHEE 55 ANS ET + COMPLEMENTAIRE 2ème TOUR**
 
 Le tirage pour le 1/8 ème de finale du trophée vétérans a été effectué. Les compétitions se feront entre le 30 Mai et et le 3 Juin inclus. Notre équipe de La Pétanque Fouesnantaise est exempte de cette compétition par tirage au sort, elle se qualifie donc directement pour le troisième tour et les 1/4 de finales. Voici la liste des équipes encore en course.
 
-| Club 1 | Club 2 |
-| --- | --- |
-| MOELAN | HUELGOAT |
-| PLOMELIN | ST MARTIN |
-| PLOUDALMEZEAU | BAIE DU KERNIC |
-| LOCTUDY | LESNEVEN |
-| PLOUGASTEL | LANNILIS |
-| ST POL OU KERLOUAN |  |
-| TREMEVEN |  |
-| FOUESNANT |  |
+| Club 1             | Club 2         |
+| ------------------ | -------------- |
+| MOELAN             | HUELGOAT       |
+| PLOMELIN           | ST MARTIN      |
+| PLOUDALMEZEAU      | BAIE DU KERNIC |
+| LOCTUDY            | LESNEVEN       |
+| PLOUGASTEL         | LANNILIS       |
+| ST POL OU KERLOUAN |                |
+| TREMEVEN           |                |
+| FOUESNANT          |                |
 
-**![Journal Mai 2016](/images/archives/2016/journal-2016-05/bouleroule-2.gif){width="59" height="58"}CHAMPIONNAT DES CLUBS + 55ans 4 ème JOURNEE LE 10 MAI**
+**![Journal Mai 2016](/images/archives/2016/journal-2016-05/bouleroule-2.gif){height="58" width="59"}CHAMPIONNAT DES CLUBS + 55ans 4 ème JOURNEE LE 10 MAI**
 
 5 ème journée \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
@@ -115,7 +115,7 @@ L'équipe était composée de Philippe MARIANA, Gilbert CAROFF
 
 ******MEILLEURES PERFORMANCES DU MOIS******
 
-**_**(En italique les joueurs externes au club)**_**
+**\_**(En italique les joueurs externes au club)**\_**
 
 ****CONCOURS +55ans DOUBLETTES LE 26 MAI A LOCTUDY****
 

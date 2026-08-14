@@ -5,14 +5,14 @@ date: 2013-11-11
 year: 2013
 category: "Journaux du club"
 journal: "2013-11"
-image: "/images/archives/2013/journal-2013-11/ag2013.png"
+image: "/images/archives/2013/journal-2013-11/ag2013.webp"
 joomlaId: 198
 hits: 4757
 ---
 
 Assemblée Générale 2013.
 
-![Journal de Novembre 2013](/images/archives/2013/journal-2013-11/ag2013.png){width="473" height="243"}
+![Journal de Novembre 2013](/images/archives/2013/journal-2013-11/ag2013.webp){width="473" height="243"}
 
 Samedi soir, la Pétanque Fouesnantaise s’est réunie en présence d’une soixantaine de ses membres et du Maire M. Roger Le Goff.
 
@@ -40,17 +40,17 @@ L'A.G. s'est terminée en récompensant trois membres du club: Anne Marie Lecler
 
 **Le nouveau comité se présente comme suit:**
 
-**PRESIDENT :![Journal de Novembre 2013](/images/archives/2013/journal-2013-11/d-gorce.png){width="95" height="123"} Dominique GORSE  **Vice-Président: ![Journal de Novembre 2013](/images/archives/2013/journal-2013-11/jo.jpg){width="79" height="92"} Jo LE STUM****
+**PRESIDENT :![Journal de Novembre 2013](/images/archives/2013/journal-2013-11/d-gorce.webp){width="95" height="123"} Dominique GORSE  **Vice-Président: ![Journal de Novembre 2013](/images/archives/2013/journal-2013-11/jo.webp){width="79" height="92"} Jo LE STUM****
 
-**Secrétaire: ![Journal de Novembre 2013](/images/archives/2013/journal-2013-11/gilbert-caroff.jpg){width="79" height="104"} Gilbert CAROFF **Secrétaire adjoint: ![Journal de Novembre 2013](/images/archives/2013/journal-2013-11/c-le-goff.jpg){width="79" height="92"} Christian LE GOFF****
+**Secrétaire: ![Journal de Novembre 2013](/images/archives/2013/journal-2013-11/gilbert-caroff.webp){width="79" height="104"} Gilbert CAROFF **Secrétaire adjoint: ![Journal de Novembre 2013](/images/archives/2013/journal-2013-11/c-le-goff.webp){width="79" height="92"} Christian LE GOFF****
 
-**Trésorier : ![Journal de Novembre 2013](/images/archives/2013/journal-2013-11/piriou20yves.gif){width="79" height="87"} Yves PIRIOU **Trésorier adjoint: ![Journal de Novembre 2013](/images/archives/2013/journal-2013-11/d-floch1.png){width="79" height="87"} Désiré FLOCH****
+**Trésorier : ![Journal de Novembre 2013](/images/archives/2013/journal-2013-11/piriou20yves.gif){width="79" height="87"} Yves PIRIOU **Trésorier adjoint: ![Journal de Novembre 2013](/images/archives/2013/journal-2013-11/d-floch1.webp){width="79" height="87"} Désiré FLOCH****
 
 **Membres:**
 
-**![Journal de Novembre 2013](/images/archives/2013/journal-2013-11/anne-marie-calvez.jpg){width="79" height="87"}** **Anne Marie .LECLERQ** ****![Journal de Novembre 2013](/images/archives/2013/journal-2013-11/jc-apperry.png){width="79" height="102"}**** ****Jean Claude APPERRY****
+**![Journal de Novembre 2013](/images/archives/2013/journal-2013-11/anne-marie-calvez.webp){width="79" height="87"}** **Anne Marie .LECLERQ** ****![Journal de Novembre 2013](/images/archives/2013/journal-2013-11/jc-apperry.webp){width="79" height="102"}**** ****Jean Claude APPERRY****
 
- **![Journal de Novembre 2013](/images/archives/2013/journal-2013-11/chevance.png){width="79" height="100"} Yvon CH****E****VANCE **![Journal de Novembre 2013](/images/archives/2013/journal-2013-11/a-gourven.png){width="79" height="96"} Albert GOURVEN****
+ **![Journal de Novembre 2013](/images/archives/2013/journal-2013-11/chevance.webp){width="79" height="100"} Yvon CH****E****VANCE **![Journal de Novembre 2013](/images/archives/2013/journal-2013-11/a-gourven.webp){width="79" height="96"} Albert GOURVEN****
 
 **nouveaux élus:**
 

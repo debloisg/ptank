@@ -5,7 +5,7 @@ date: 2013-07-05
 year: 2013
 category: "Journaux du club"
 journal: "2013-03"
-image: "/images/archives/2013/journal-2013-03/cpe-fr-vet-13-8.jpg"
+image: "/images/archives/2013/journal-2013-03/cpe-fr-vet-13-8.webp"
 joomlaId: 88
 hits: 4378
 ---
@@ -14,7 +14,7 @@ De bons débuts en championnat de clubs, un peu moins pour les qualifications en
 
 ## Journal du mois de Mars 2013
 
-![Journal Mars 2013](/images/archives/2013/journal-2013-03/cpe-fr-vet-13-8.jpg){width="600" height="400"}  Coupe de France contre Landerneau  ![Journal Mars 2013](/images/archives/2013/journal-2013-03/cpe-fr-vet-13-7.jpg){width="600" height="400"}  Coupe de France contre Landerneau
+![Journal Mars 2013](/images/archives/2013/journal-2013-03/cpe-fr-vet-13-8.webp){width="600" height="400"}  Coupe de France contre Landerneau  ![Journal Mars 2013](/images/archives/2013/journal-2013-03/cpe-fr-vet-13-7.webp){width="600" height="400"}  Coupe de France contre Landerneau
 
 ---
 
@@ -46,7 +46,7 @@ Cette équipe composée de Dominique GORSE , David KERDREUX et Michel GERMEUR es
 
 ---
 
-![Journal Mars 2013](/images/archives/2013/journal-2013-03/petanque.jpg){width="181" height="96"}
+![Journal Mars 2013](/images/archives/2013/journal-2013-03/petanque.webp){width="181" height="96"}
 
 ANNULATION ET REPORT CONCOURS VETERANS DU 21 MARS AU MARDI 9 AVRIL A FOUESNANT.
 

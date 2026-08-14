@@ -5,24 +5,24 @@ date: 2018-05-05
 year: 2018
 category: "Le club de Fouesnant"
 journal: "2018-05"
-image: "/images/archives/2018/journal-2018-05/gif1.png"
+image: "/images/archives/2018/journal-2018-05/gif1.webp"
 joomlaId: 331
 hits: 5150
 ---
 
-| #### Championnat des Clubs Vétérans + de 60 ans le 29 Mai |  |  |  |  |  |
-| --- | --- | --- | --- | --- | --- |
-|  | ##### Lieu de rencontre | ##### Equipe 1 | ##### Score 1 | ##### Score 2 | ##### Equipe 2 |
-| ##### DIVISION 1 Poule G | _Loctudy_ | **FOUESNANT 1** | **32** | 4 | LOCTUDY |
-| ##### DIVISION 2 Poule D | _Audierne_ | **FOUESNANT 2** | **18** | **18** | **AUDIERNE 2** |
+| #### Championnat des Clubs Vétérans + de 60 ans le 29 Mai |                         |                 |               |               |                |
+| --------------------------------------------------------- | ----------------------- | --------------- | ------------- | ------------- | -------------- |
+|                                                           | ##### Lieu de rencontre | ##### Equipe 1  | ##### Score 1 | ##### Score 2 | ##### Equipe 2 |
+| ##### DIVISION 1 Poule G                                  | *Loctudy*               | **FOUESNANT 1** | **32**        | 4             | LOCTUDY        |
+| ##### DIVISION 2 Poule D                                  | *Audierne*              | **FOUESNANT 2** | **18**        | **18**        | **AUDIERNE 2** |
 
 \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
-![Journal Mai 2018](/images/archives/2018/journal-2018-05/gif1.png){width="85" height="70"}
+![Journal Mai 2018](/images/archives/2018/journal-2018-05/gif1.webp){height="70" width="85"}
 
 ### **TROPHEE 55 ANS ET + 3 ème TOUR A FOUESNANT CONTRE MOELAN**
 
-**![Journal Mai 2018](/images/archives/2018/journal-2018-05/trph_vete181.png){width="640" height="384"}**
+**![Journal Mai 2018](/images/archives/2018/journal-2018-05/trph_vete181.webp){height="384" width="640"}**
 
 Le 1/8 ème de finale aura lieu à Fouesnant le vendredi 25 Mai à 14 heures.
 
@@ -42,9 +42,9 @@ Coatch: Georges Nédélec.
 
 **Voici notre résultat:**
 
--   **2 TàT gagnés sur 6**
--   **1 doublette gagnée sur 3**
--   **0 triplette gagnée sur 2**
+- **2 TàT gagnés sur 6**
+- **1 doublette gagnée sur 3**
+- **0 triplette gagnée sur 2**
 
 **Nous souhaitons à Moelan, bonne chance pour les prochains 1/4 de finales ainsi que pour la suite de la compétition.**
 
@@ -52,23 +52,23 @@ Coatch: Georges Nédélec.
 
 \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
-![Journal Mai 2018](/images/archives/2018/journal-2018-05/dessipet1.gif){width="100" height="83"}
+![Journal Mai 2018](/images/archives/2018/journal-2018-05/dessipet1.gif){height="83" width="100"}
 
-### ** CONCOURS SENIORS DOUBLETTES A FOUESNANT LE SAMEDI 26 MAI**
+### \*\* CONCOURS SENIORS DOUBLETTES A FOUESNANT LE SAMEDI 26 MAI\*\*
 
 Inscrivez vous pour le concours seniors en doublettes qui aura lieu le samedi 26 Mai.
 
 \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
-| #### Championnat des Clubs Vétérans + de 60 ans le 15 Mai |  |  |  |  |  |
-| --- | --- | --- | --- | --- | --- |
-|  | ##### Lieu de rencontre | ##### Equipe 1 | ##### Score 1 | ##### Score 2 | ##### Equipe 2 |
-| ##### DIVISION 1 Poule G | _Fouesnant_ | **FOUESNANT 1** | **24** | 12 | COMBRIT |
-| ##### DIVISION 2 Poule D | _Fouesnant_ | FOUESNANT 2 | 14 | **22** | **DOUARNENEZ 2** |
+| #### Championnat des Clubs Vétérans + de 60 ans le 15 Mai |                         |                 |               |               |                  |
+| --------------------------------------------------------- | ----------------------- | --------------- | ------------- | ------------- | ---------------- |
+|                                                           | ##### Lieu de rencontre | ##### Equipe 1  | ##### Score 1 | ##### Score 2 | ##### Equipe 2   |
+| ##### DIVISION 1 Poule G                                  | *Fouesnant*             | **FOUESNANT 1** | **24**        | 12            | COMBRIT          |
+| ##### DIVISION 2 Poule D                                  | *Fouesnant*             | FOUESNANT 2     | 14            | **22**        | **DOUARNENEZ 2** |
 
 \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
-![Journal Mai 2018](/images/archives/2018/journal-2018-05/imag1.jpg){width="100" height="65"}
+![Journal Mai 2018](/images/archives/2018/journal-2018-05/imag1.webp){height="65" width="100"}
 
 ### **CHAMPIONNAT REGIONAL TRIPLETTES PROMOTION DES 5 et 6 MAI A PLEUHIDEN**
 
@@ -76,7 +76,7 @@ Une équipe qualifiée pour le Départemental Triplettes Promotion qui aura lieu
 
 Cette épreuve est qualificative pour le championnat de France Triplettes Promotion:
 
--   Pierre PAUL, Wilfried LE MAITRE, Yvan CRENN
+- Pierre PAUL, Wilfried LE MAITRE, Yvan CRENN
 
 Bonne chance à la triplette participante.
 
@@ -92,7 +92,7 @@ Bonne chance à la triplette participante.
 
 Une équipe s'est qualifiée et sera présente pour le Départemental Triplettes Vétérans qui aura lieu les 9 et 10 Mai à St Gilles (35).
 
--   Gilbert CAROFF, Albert GOURVEN, Henry LE MOULLEC
+- Gilbert CAROFF, Albert GOURVEN, Henry LE MOULLEC
 
 Bonne chance à cette équipe.
 
@@ -102,11 +102,11 @@ Bonne chance à cette équipe.
 
 \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
-![Journal Mai 2018](/images/archives/2018/journal-2018-05/bravo.gif){width="68" height="68"}
+![Journal Mai 2018](/images/archives/2018/journal-2018-05/bravo.gif){height="68" width="68"}
 
 ## MEILLEURES PERFORMANCES DU MOIS
 
-_(En italique les joueurs externes au club)_
+*(En italique les joueurs externes au club)*
 
 \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
@@ -118,17 +118,17 @@ _(En italique les joueurs externes au club)_
 
 **RESULTATS:**
 
--   **finalistes du concours A :**
+- **finalistes du concours A :**
 
 Pierre PAUL, Patrick QUINTEL
 
--   **1/4 de finale du concours A**
+- **1/4 de finale du concours A**
 
 Roger CROGUENNEC, Désiré FLOCH
 
 Maurice L'HELGOUACH, Pierre NEDELEC
 
--   **Finalistes du concours B:**
+- **Finalistes du concours B:**
 
 Wilfried LEMAITRE, Yvan CRENN
 
@@ -142,7 +142,7 @@ Wilfried LEMAITRE, Yvan CRENN
 
 **RESULTATS:**
 
--   **2 parties gagnées**
+- **2 parties gagnées**
 
 Bernard JEGOU, Christian LE GOFF, Roger CROGUENNEC
 
@@ -158,11 +158,11 @@ Joseph KERMAREC, Michel LANCIEN, Gaston VOILLEMIN
 
 **RESULTATS:**
 
--   **1/4 de finale du A :**
+- **1/4 de finale du A :**
 
 Aurélien LE GAC, Pascal LASCHON
 
--   **1/4 de finale du B :**
+- **1/4 de finale du B :**
 
 Phiilippe MARIANA, Gilbert CAROFF
 
@@ -176,7 +176,7 @@ Phiilippe MARIANA, Gilbert CAROFF
 
 **RESULTATS:**
 
--   **4 parties gagnées 1er du concours**
+- **4 parties gagnées 1er du concours**
 
 Albert GOURVEN, Joseph Le STUM, Patrick OLIVRY
 
@@ -190,7 +190,7 @@ Albert GOURVEN, Joseph Le STUM, Patrick OLIVRY
 
 **RESULTATS:**
 
--   **Finalistes du concours B :**
+- **Finalistes du concours B :**
 
 Gilbert GOARIN, Aurélien LE GAC, Pascal LASCHON
 
@@ -204,7 +204,7 @@ Gilbert GOARIN, Aurélien LE GAC, Pascal LASCHON
 
 **RESULTATS:**
 
--   **Finalistes du concours B :**
+- **Finalistes du concours B :**
 
 Philippe MARIANA, Yvan CRENN, Raymond LE FUR
 
@@ -218,7 +218,7 @@ Philippe MARIANA, Yvan CRENN, Raymond LE FUR
 
 **RESULTATS:**
 
--   **1/4 de finale du A :**
+- **1/4 de finale du A :**
 
 Phiilippe MARIANA, Xavier ROMIEUX
 
@@ -232,7 +232,7 @@ Phiilippe MARIANA, Xavier ROMIEUX
 
 **RESULTATS:**
 
--   **3 parties gagnées**
+- **3 parties gagnées**
 
 Gilbert YQUEL, Jo LE STUM, Désiré FLOCH
 

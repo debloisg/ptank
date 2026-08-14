@@ -18,7 +18,7 @@ hits: 4674
 
 ---
 
-![Journal Mars 23](/images/archives/2023/journal-2023-03/gif6.jpg){width="48" height="70"}
+![Journal Mars 23](/images/archives/2023/journal-2023-03/gif6.webp){width="48" height="70"}
 
 ** CHAMPIONNAT DES CLUBS VETERANS 3ème JOURNEE LE MARDI 28 Mars.**
 
@@ -36,7 +36,7 @@ hits: 4674
 
 ---
 
-![Journal Mars 23](/images/archives/2023/journal-2023-03/imag1.jpg){width="121" height="79"}
+![Journal Mars 23](/images/archives/2023/journal-2023-03/imag1.webp){width="121" height="79"}
 
 ### ** CHAMPIONNAT DEPARTEMENTAL TRIPLETTES MIXTES Samedi 25 et Dimanche 26 Mars à Ploudalmézeau**
 
@@ -84,7 +84,7 @@ Bonne chance à toutes les équipes.
 
 ---
 
-![Journal Mars 23](/images/archives/2023/journal-2023-03/gif6-2.jpg){width="48" height="70"}
+![Journal Mars 23](/images/archives/2023/journal-2023-03/gif6-2.webp){width="48" height="70"}
 
 ** CHAMPIONNAT DES CLUBS VETERANS 2ème JOURNEE LE MARDI 14 Mars.**
 
@@ -100,7 +100,7 @@ Bonne chance à toutes les équipes.
 
 ---
 
-![Journal Mars 23](/images/archives/2023/journal-2023-03/imag1-2.jpg){width="121" height="79"}
+![Journal Mars 23](/images/archives/2023/journal-2023-03/imag1-2.webp){width="121" height="79"}
 
 ### ** CHAMPIONNAT QUALIFICATIF SECTEUR DOUBLETTES MASCULINES Dimanche 5 Mars à Plonéis 10H**
 

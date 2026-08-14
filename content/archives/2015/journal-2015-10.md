@@ -5,12 +5,12 @@ date: 2015-10-07
 year: 2015
 category: "Journaux du club"
 journal: "2015-10"
-image: "/images/archives/2015/journal-2015-10/blaspet80.png"
+image: "/images/archives/2015/journal-2015-10/blaspet80.webp"
 joomlaId: 268
 hits: 7058
 ---
 
-![Journal Octobre 2015](/images/archives/2015/journal-2015-10/blaspet80.png){width="80" height="75"}
+![Journal Octobre 2015](/images/archives/2015/journal-2015-10/blaspet80.webp){height="75" width="80"}
 
 ## ASSEMBLEE GENERALE DE LA PETANQUE FOUESNANTAISE
 
@@ -20,7 +20,7 @@ Hommage à Michèle Yven, épouse de Michel Yven. Hommage à Alain Hémidy parti
 
 ## (Article du Télégramme Quimper 26 Octobre 2015)
 
-![Journal Octobre 2015](/images/archives/2015/journal-2015-10/la-petanque-fouesnantaise-est-composee-de-fideles-qui_2589651_100x100.jpg){width="100" height="100"}
+![Journal Octobre 2015](/images/archives/2015/journal-2015-10/la-petanque-fouesnantaise-est-composee-de-fideles-qui_2589651_100x100.webp){height="100" width="100"}
 
 L'assemblée générale de la Pétanque fouesnantaise s'est tenue vendredi, dans la salle du Loch de l'Archipel. En cette année 2015, les bonnes performances sportives sont malheureusement quelque peu éclipsées par la démission du président, Dominique Gorse, en cours de saison. « L'ambiance s'est altérée à ce moment. Mais, heureusement, les turbulences du mois de juin se font plus douces en octobre, comme des vagues qui s'apaisent ».
 
@@ -62,7 +62,7 @@ Albert GOURVEN, Bernard JEGOU, Jean Claude APPERRY, Yves CHEVANCE, Gaston VOILLE
 
 \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
-![Journal Octobre 2015](/images/archives/2015/journal-2015-10/bouleroule.gif){width="53" height="52"}
+![Journal Octobre 2015](/images/archives/2015/journal-2015-10/bouleroule.gif){height="52" width="53"}
 
 ## ****CHAMPIONNAT DES CLUBS SENIORS DIVISION 3 GROUPE D LE 25 OCTOBRE A PLOMELIN****
 
@@ -112,7 +112,7 @@ Henri LE MOULLEC, Philippe MARIANA, Bernard FURIC, Patrick QUENTEL, Kévin TROAL
 
 \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
-![Journal Octobre 2015](/images/archives/2015/journal-2015-10/roger.jpg){width="67" height="66"}
+![Journal Octobre 2015](/images/archives/2015/journal-2015-10/roger.webp){height="66" width="67"}
 
 ### ****ASSEMBLEE GENERALE DE LA PETANQUE FOUESNANTAISE****
 
@@ -128,7 +128,7 @@ Cette année a été marquée par une très bonne prestation de nos joueurs dans
 
 ******MEILLEURES PERFORMANCES DU MOIS******
 
-**_**(En italique les joueurs externes au club)**_**
+**\_**(En italique les joueurs externes au club)**\_**
 
 ****CONCOURS VETERANS DU JEUDI 22 OCTOBRE EN TRIPLETTES A BENODET****
 
@@ -158,7 +158,7 @@ Bernard VILATTE, Françoise LARVORL GRISART et André VIOL
 
 RESULTATS:
 
-Concours A 1er GUILLERM Gilbert, _LE GUELAFF Philippe_ 2ème LE STUM Joseph, FLOCH Désiré 1/2 finaliste GUERMEUR Michel, CAROFF Gilbert Concours B 1/4 de finale NELIAS Lucien, CROGUENNEC Roger
+Concours A 1er GUILLERM Gilbert, *LE GUELAFF Philippe* 2ème LE STUM Joseph, FLOCH Désiré 1/2 finaliste GUERMEUR Michel, CAROFF Gilbert Concours B 1/4 de finale NELIAS Lucien, CROGUENNEC Roger
 
 ****CONCOURS VETERANS DU JEUDI 8 OCTOBRE EN DOUBLETTES A DOUARNENEZ****
 
@@ -168,7 +168,7 @@ Concours A 1er GUILLERM Gilbert, _LE GUELAFF Philippe_ 2ème LE STUM Joseph, FLO
 
 RESULTATS:
 
-Concours A 1er GUILLERM Gilbert, _LE GUELLEC_ Concours B 1/4 de finale GOURVEN Albert, ROLLAND Jean
+Concours A 1er GUILLERM Gilbert, *LE GUELLEC* Concours B 1/4 de finale GOURVEN Albert, ROLLAND Jean
 
 ****RASSEMBLEMENT DE COMBRIT DU VENDREDI 2 OCTOBRE****
 

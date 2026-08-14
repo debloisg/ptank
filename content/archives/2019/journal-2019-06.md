@@ -14,7 +14,7 @@ hits: 4836
 
 **\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_**
 
-![Journal Juin 2019](/images/archives/2019/journal-2019-06/gif7.jpg){width="70" height="72"}
+![Journal Juin 2019](/images/archives/2019/journal-2019-06/gif7.webp){width="70" height="72"}
 
 ## **COUPE DU FINISTERE 3 ème TOUR LE SAMEDI 08 JUIN A PLONEIS CONTRE PLONEIS**
 

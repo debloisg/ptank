@@ -5,14 +5,14 @@ date: 2013-07-05
 year: 2011
 category: "Journaux du club"
 journal: "2011-02"
-image: "/images/archives/2011/journal-2011-02/portlaforet2.jpg"
+image: "/images/archives/2011/journal-2011-02/portlaforet2.webp"
 joomlaId: 111
 hits: 4549
 ---
 
 #### Début des compétitions 2011....
 
-JOURNAL DU MOIS DE FEVRIER 2011 . . . ![Journal Février 2011](/images/archives/2011/journal-2011-02/portlaforet2.jpg){width="600" height="400"}  PORT LA FORÊT   ![Journal Février 2011](/images/archives/2011/journal-2011-02/portlaforet3.png){width="600" height="353"} PORT DE LA FORÊT FOUESNANT  .  .  .
+JOURNAL DU MOIS DE FEVRIER 2011 . . . ![Journal Février 2011](/images/archives/2011/journal-2011-02/portlaforet2.webp){width="600" height="400"}  PORT LA FORÊT   ![Journal Février 2011](/images/archives/2011/journal-2011-02/portlaforet3.webp){width="600" height="353"} PORT DE LA FORÊT FOUESNANT  .  .  .
 
 ![Journal Février 2011](/images/archives/2011/journal-2011-02/bouleroule.gif){width="70" height="69"}
 
@@ -82,7 +82,7 @@ Score finale 24 points à 7 pour notre équipe. 4 tête à tête remportés sur 
 
 Très bonne prestation de la pétanque Fouesnantaise qui se qualifie pour le prochain tour.
 
-![Journal Février 2011](/images/archives/2011/journal-2011-02/trophee-1er-tour20111.jpg){width="600" height="400"}  Trophée vétérans, la compétition féminine    ![Journal Février 2011](/images/archives/2011/journal-2011-02/trophee-1er-tour200112.jpg){width="600" height="400"}  Trophée vétérans, les équipes de Pont Aven et Fouesnant
+![Journal Février 2011](/images/archives/2011/journal-2011-02/trophee-1er-tour20111.webp){width="600" height="400"}  Trophée vétérans, la compétition féminine    ![Journal Février 2011](/images/archives/2011/journal-2011-02/trophee-1er-tour200112.webp){width="600" height="400"}  Trophée vétérans, les équipes de Pont Aven et Fouesnant
 
 ### TROPHEE VETERANS DU FINISTERE
 

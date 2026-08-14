@@ -5,12 +5,12 @@ date: 2022-12-31
 year: 2023
 category: "Journaux du club"
 journal: "2023-01"
-image: "/images/archives/2023/journal-2023-01/bonann23_5.png"
+image: "/images/archives/2023/journal-2023-01/bonann23_5.webp"
 joomlaId: 431
 hits: 4404
 ---
 
-![journal Janvier 23](/images/archives/2023/journal-2023-01/bonann23_5.png){width="620" height="394"}
+![journal Janvier 23](/images/archives/2023/journal-2023-01/bonann23_5.webp){width="620" height="394"}
 
 ## VOEUX DE LA PETANQUE FOUESNANTAISE
 
@@ -29,37 +29,37 @@ hits: 4404
 
 ## VOEUX ET GALETTE DES ROIS DU CLUB
 
-![journal Janvier 23](/images/archives/2023/journal-2023-01/voeux23_8.png){width="710" height="346"}
+![journal Janvier 23](/images/archives/2023/journal-2023-01/voeux23_8.webp){width="710" height="346"}
 
 Voeux de La Pétanque Fouesnantaise en présence de Madame Cindy Baccon,adjointe à la Culture, qui représentait Monsieur Roger Le Goff Maire de Fouesnant Les Glénan
 
-![journal Janvier 23](/images/archives/2023/journal-2023-01/voeux23_21.png){width="710" height="415"}
+![journal Janvier 23](/images/archives/2023/journal-2023-01/voeux23_21.webp){width="710" height="415"}
 
 Présentation des nouveaux membres du bureau: Christian Thiery, Eric Buiatti, Bruno Le Pimpec (absent: Patrick Quentel)
 
-![journal Janvier 23](/images/archives/2023/journal-2023-01/voeux23_20.png){width="710" height="328"}
+![journal Janvier 23](/images/archives/2023/journal-2023-01/voeux23_20.webp){width="710" height="328"}
 
 Les adhérents du club venus nombreux
 
-![journal Janvier 23](/images/archives/2023/journal-2023-01/voeux23_10.jpg){width="710" height="328"}
+![journal Janvier 23](/images/archives/2023/journal-2023-01/voeux23_10.webp){width="710" height="328"}
 
 Quelques têtes couronnées
 
-![journal Janvier 23](/images/archives/2023/journal-2023-01/voeux23_12.jpg){width="710" height="328"}
+![journal Janvier 23](/images/archives/2023/journal-2023-01/voeux23_12.webp){width="710" height="328"}
 
 Roger Croguennec et Bruno Girard
 
-![journal Janvier 23](/images/archives/2023/journal-2023-01/voeux23_3.jpg){width="710" height="376"}
+![journal Janvier 23](/images/archives/2023/journal-2023-01/voeux23_3.webp){width="710" height="376"}
 
 Bruno Minel et Yvette Kervéant
 
-![journal Janvier 23](/images/archives/2023/journal-2023-01/voeux23_4.jpg){width="710" height="420"}
+![journal Janvier 23](/images/archives/2023/journal-2023-01/voeux23_4.webp){width="710" height="420"}
 
 Tinah Verdel et Christian Thiery
 
 ---
 
-![journal Janvier 23](/images/archives/2023/journal-2023-01/noel20_1.jpg){width="245" height="82"}
+![journal Janvier 23](/images/archives/2023/journal-2023-01/noel20_1.webp){width="245" height="82"}
 
 ## VOEUX CHIBOUDIG
 
@@ -71,7 +71,7 @@ D'autre part, tous les ans est organisée, sur une journée, à l'échelle du d�
 
 Pour remercier le club et les pétanqueurs fouesnantais qui donnent de leur temps en participant aux entrainements dans notre boulodrome, Chiboudig a offert le mardi 17 janvier la galette des rois.
 
-![journal Janvier 23](/images/archives/2023/journal-2023-01/galetchiboud23.png){width="710" height="415"}
+![journal Janvier 23](/images/archives/2023/journal-2023-01/galetchiboud23.webp){width="710" height="415"}
 
 ---
 
@@ -91,7 +91,7 @@ Pour remercier le club et les pétanqueurs fouesnantais qui donnent de leur temp
 
 **RESULTATS:**
 
- **![journal Janvier 23](/images/archives/2023/journal-2023-01/cctir23f.png){width="300" height="508"} ![journal Janvier 23](/images/archives/2023/journal-2023-01/cctir23h.png){width="310" height="508"}**
+ **![journal Janvier 23](/images/archives/2023/journal-2023-01/cctir23f.webp){width="300" height="508"} ![journal Janvier 23](/images/archives/2023/journal-2023-01/cctir23h.webp){width="310" height="508"}**
 
 Christelle GIRARD et Tynah VERDEL Jordan GUITON et Gaétan LE DREZEN
 
@@ -113,7 +113,7 @@ _Gilbert Caroff_
 
 ---
 
-![journal Janvier 23](/images/archives/2023/journal-2023-01/logoffpjppet.png){width="327" height="47"}
+![journal Janvier 23](/images/archives/2023/journal-2023-01/logoffpjppet.webp){width="327" height="47"}
 
 ## DATES A RETENIR POUR LES LICENCES 2023
 
@@ -129,7 +129,7 @@ _Gilbert Caroff_
 
 -   ### Samedi 14 janvier
 
-![journal Janvier 23](/images/archives/2023/journal-2023-01/icon-48-alert.png){width="48" height="48"}
+![journal Janvier 23](/images/archives/2023/journal-2023-01/icon-48-alert.webp){width="48" height="48"}
 
 Merci de bien respecter ces dates pour faciliter le travail administratif.
 

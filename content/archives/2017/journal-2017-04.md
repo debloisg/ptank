@@ -5,12 +5,12 @@ date: 2017-04-01
 year: 2017
 category: "Journaux du club"
 journal: "2017-04"
-image: "/images/archives/2017/journal-2017-04/imag2.jpg"
+image: "/images/archives/2017/journal-2017-04/imag2.webp"
 joomlaId: 304
 hits: 7065
 ---
 
-![Journal Avril 2017](/images/archives/2017/journal-2017-04/imag2.jpg){width="60" height="78"}**CHAMPIONNAT DEPARTEMENTAL DOUBLETTES FEMININES A COMBRIT LES 29 ET 30 AVRIL**
+![Journal Avril 2017](/images/archives/2017/journal-2017-04/imag2.webp){height="78" width="60"}**CHAMPIONNAT DEPARTEMENTAL DOUBLETTES FEMININES A COMBRIT LES 29 ET 30 AVRIL**
 
 130 équipes engagées dans le Départemental Doublettes Féminin dont 2 de Fouesnant:
 
@@ -30,19 +30,19 @@ Equipe de Fouesnant: **Pierre PAUL et Philippe MARIANA**
 
 \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
-**![Journal Avril 2017](/images/archives/2017/journal-2017-04/rasfo172.gif){width="786" height="1068"}**
+**![Journal Avril 2017](/images/archives/2017/journal-2017-04/rasfo172.gif){height="1068" width="786"}**
 
 **5ème RASSEMBLEMENT VETERANS +55ANS EN DOUBLETTES DU 28 AVRIL**
 
-![Journal Avril 2017](/images/archives/2017/journal-2017-04/rasst1fou172.png){width="640" height="354"}
+![Journal Avril 2017](/images/archives/2017/journal-2017-04/rasst1fou172.webp){height="354" width="640"}
 
 Les gagnants de cinq parties
 
-![Journal Avril 2017](/images/archives/2017/journal-2017-04/rasstfou172.jpg){width="640" height="361"}
+![Journal Avril 2017](/images/archives/2017/journal-2017-04/rasstfou172.webp){height="361" width="640"}
 
 Vue générale du boulodrome bien garni
 
- **![Journal Avril 2017](/images/archives/2017/journal-2017-04/vacasoleil.jpg){width="65" height="59"} Photos du rassemblement de la Pétanque fouesnantaise 2017 cliquez** ICI
+**![Journal Avril 2017](/images/archives/2017/journal-2017-04/vacasoleil.webp){height="59" width="65"} Photos du rassemblement de la Pétanque fouesnantaise 2017 cliquez** ICI
 
 Beau succès de la Pétanque Fouesnantaise ce vendredi ; ils étaient 288 pétanqueurs licenciés venus disputer ce concours de pétanque en doublette.
 
@@ -62,31 +62,31 @@ La doublette fouesnantaise constituée de **Roger Croguennec et de Gilbert Goari
 
 Voir ci-dessous les résultats partiels . Si vous souhaitez consuter les résultats complets, cliquez [**ici**](https://goo.gl/photos/ZrpXFJNospANQLa86) [.](https://goo.gl/photos/ZrpXFJNospANQLa86)
 
-| **1** | **SENE JEAN-MARIE** | **PERHIRIN BRUNO** | **PETANQUE GOUESNOUSIENNE** | **5 parties gagnées** |
-| --- | --- | --- | --- | --- |
-| **2** | **LE ROUSIC JOSEPH** | **THOLY MARCEL** | **PETANQUE GOUESNOUSIENNE** | **5 parties gagnées** |
+| **1** | **SENE JEAN-MARIE**    | **PERHIRIN BRUNO** | **PETANQUE GOUESNOUSIENNE**     | **5 parties gagnées** |
+| ----- | ---------------------- | ------------------ | ------------------------------- | --------------------- |
+| **2** | **LE ROUSIC JOSEPH**   | **THOLY MARCEL**   | **PETANQUE GOUESNOUSIENNE**     | **5 parties gagnées** |
 | **3** | **SIZORN JEAN PIERRE** | **MEROUR PATRICK** | **PET DES VIRE COURT PLOMELIN** | **5 parties gagnées** |
-| **4** | **MOAL GILLES** | **SEACH MICHEL** | **KERHORRE PETANQUE** | **5 parties gagnées** |
-| **5** | **GUILLERM JEAN-PAUL** | **GUEGUEN CLAUDE** | **KERHORRE PETANQUE** | **5 parties gagnées** |
+| **4** | **MOAL GILLES**        | **SEACH MICHEL**   | **KERHORRE PETANQUE**           | **5 parties gagnées** |
+| **5** | **GUILLERM JEAN-PAUL** | **GUEGUEN CLAUDE** | **KERHORRE PETANQUE**           | **5 parties gagnées** |
 
 23 CROGUENNEC ROGER GOARIN GILBERT PETANQUE FOUESNANTAISE 4 parties gagnées
 
-| 44 | LE MOULLEC HENRY | GOURVEN ALBERT | PETANQUE FOUESNANTAISE | 3 parties gagnées |
-| --- | --- | --- | --- | --- |
-| 59 | SIMONIN GERARD | PICART ALAIN | PETANQUE FOUESNANTAISE | 3 parties gagnées |
-| 63 | GESTIN PIERRE | LE BOURBOCQ JACQUES | PETANQUE FOUESNANTAISE | 3 parties gagnées |
+| 44 | LE MOULLEC HENRY    | GOURVEN ALBERT      | PETANQUE FOUESNANTAISE | 3 parties gagnées |
+| -- | ------------------- | ------------------- | ---------------------- | ----------------- |
+| 59 | SIMONIN GERARD      | PICART ALAIN        | PETANQUE FOUESNANTAISE | 3 parties gagnées |
+| 63 | GESTIN PIERRE       | LE BOURBOCQ JACQUES | PETANQUE FOUESNANTAISE | 3 parties gagnées |
 | 73 | NEDELEC PIERRE YVES | L'HELGOUACH MAURICE | PETANQUE FOUESNANTAISE | 3 parties gagnées |
 
 | 95 | COSQUERIC ANDRE | CHARBONNIER GISELE | PETANQUE FOUESNANTAISE | 2 parties gagnées |
-| --- | --- | --- | --- | --- |
-| 87 | ADAMSKI MICHEL | CARADEC HUBERT | PETANQUE FOUESNANTAISE | 2 parties gagnées |
+| -- | --------------- | ------------------ | ---------------------- | ----------------- |
+| 87 | ADAMSKI MICHEL  | CARADEC HUBERT     | PETANQUE FOUESNANTAISE | 2 parties gagnées |
 
-| 117 | CARADEC JOSEPH | JANIN LOUIS | PETANQUE FOUESNANTAISE | 1 partie gagnée |
-| --- | --- | --- | --- | --- |
-| 121 | KERADENNEC JEAN YVES | NEDELEC GEORGES | PETANQUE FOUESNANTAISE | 1 partie gagnée |
-| 124 | CLORENNEC YVES | VALETTE CHRISTIAN | PETANQUE FOUESNANTAISE | 1 partie gagnée |
-| 129 | MARTINIE EVELYNE | SIMONIN CHARLOTTE | PETANQUE FOUESNANTAISE | 1 partie gagnée |
-| 132 | MALLEJAC JEAN YVES | LE BRIS ANDRE | PETANQUE FOUESNANTAISE | 1 partie gagnée |
+| 117 | CARADEC JOSEPH       | JANIN LOUIS       | PETANQUE FOUESNANTAISE | 1 partie gagnée |
+| --- | -------------------- | ----------------- | ---------------------- | --------------- |
+| 121 | KERADENNEC JEAN YVES | NEDELEC GEORGES   | PETANQUE FOUESNANTAISE | 1 partie gagnée |
+| 124 | CLORENNEC YVES       | VALETTE CHRISTIAN | PETANQUE FOUESNANTAISE | 1 partie gagnée |
+| 129 | MARTINIE EVELYNE     | SIMONIN CHARLOTTE | PETANQUE FOUESNANTAISE | 1 partie gagnée |
+| 132 | MALLEJAC JEAN YVES   | LE BRIS ANDRE     | PETANQUE FOUESNANTAISE | 1 partie gagnée |
 
 Voici la liste des commerçants qui ont bien voulu contribuer à cette journée en nous offrant des lots pour la tambola.
 
@@ -94,38 +94,38 @@ Ne pas oublier la mairie de Fouesnant et quelques donateurs de La Pétanque Foue
 
 Merci à tous et à l'année prochaine.
 
-| _**LECLERC**_ | _**Pleuven**_ |
-| --- | --- |
-| _**CARREFOUR MARKET**_ | _**Fouesnant**_ |
-| _**U EXPESS**_ | _**Fouesnant**_ |
-| _**MAGASIN VERT**_ | _**Pleuven**_ |
-| _**AVIS IMMOBILIER**_ | _**Fouesnant**_ |
-| _**PLAISIRS ET DELICES**_ | _**Fouesnant**_ |
-| _**LA CAVE FOUESNANTAISE**_ | _**Fouesnant**_ |
-| _**LE LOUP PEPINIERE**_ | _**Clohars Fouesnant**_ |
-| _**LA QUIMPERLOISE ( crêpes, gâteaux)**_ |  |
-| _**NISSAN ( voitures) Quimper**_ | _**Quimper**_ |
-| _**TIPIAK**_ | _**Fouesnant**_ |
-| _**CRESCENDO ( restaurant )**_ | _**Pleuven**_ |
-| _**LA BELLE ILOISE**_ | _**Belle Île**_ |
-| _**LES PIEDS DANS L’EAU**_ | _**Fouesnant ( Cap Coz)**_ |
-| _**LA TERRASSE (restaurant)**_ | _**Fouesnant**_ |
-| _**CREDIT AGRICOLE**_ | _**Fouesnant**_ |
-| _**INTER SPORT**_ | _**Quimper**_ |
-| _**CAFE D’ARMOR**_ | _**Fouesnant**_ |
-| _**BISCUITERIE FOUESNANTAISE**_ | _**Fouesnant**_ |
-| _**LA BELLA ITALIA Pizzèria**_ | _**Fouesnant**_ |
-| _**KERVASTAR (bar , crêperie)**_ | _**Fouesnant**_ |
-| _**BOULANGERIE Parc Vihan**_ | _**Fouesnant**_ |
-| _**SALON D’EDEN**_ | _**Combrit**_ |
-| _**OPTIC 2000**_ | _**Fouesnant**_ |
-| _**L’OFFICE DE TOURISME DE FOUESNANT**_ |  |
-| _**SERVICES TECHNIQUES DE LA VILLE DE FOUESNANT**_ |  |
-| _**DONATEURS DE LA PETANQUE FOUESNANTAISE**_ |  |
+| ***LECLERC***                                      | ***Pleuven***              |
+| -------------------------------------------------- | -------------------------- |
+| ***CARREFOUR MARKET***                             | ***Fouesnant***            |
+| ***U EXPESS***                                     | ***Fouesnant***            |
+| ***MAGASIN VERT***                                 | ***Pleuven***              |
+| ***AVIS IMMOBILIER***                              | ***Fouesnant***            |
+| ***PLAISIRS ET DELICES***                          | ***Fouesnant***            |
+| ***LA CAVE FOUESNANTAISE***                        | ***Fouesnant***            |
+| ***LE LOUP PEPINIERE***                            | ***Clohars Fouesnant***    |
+| ***LA QUIMPERLOISE ( crêpes, gâteaux)***           |                            |
+| ***NISSAN ( voitures) Quimper***                   | ***Quimper***              |
+| ***TIPIAK***                                       | ***Fouesnant***            |
+| ***CRESCENDO ( restaurant )***                     | ***Pleuven***              |
+| ***LA BELLE ILOISE***                              | ***Belle Île***            |
+| ***LES PIEDS DANS L’EAU***                         | ***Fouesnant ( Cap Coz)*** |
+| ***LA TERRASSE (restaurant)***                     | ***Fouesnant***            |
+| ***CREDIT AGRICOLE***                              | ***Fouesnant***            |
+| ***INTER SPORT***                                  | ***Quimper***              |
+| ***CAFE D’ARMOR***                                 | ***Fouesnant***            |
+| ***BISCUITERIE FOUESNANTAISE***                    | ***Fouesnant***            |
+| ***LA BELLA ITALIA Pizzèria***                     | ***Fouesnant***            |
+| ***KERVASTAR (bar , crêperie)***                   | ***Fouesnant***            |
+| ***BOULANGERIE Parc Vihan***                       | ***Fouesnant***            |
+| ***SALON D’EDEN***                                 | ***Combrit***              |
+| ***OPTIC 2000***                                   | ***Fouesnant***            |
+| ***L’OFFICE DE TOURISME DE FOUESNANT***            |                            |
+| ***SERVICES TECHNIQUES DE LA VILLE DE FOUESNANT*** |                            |
+| ***DONATEURS DE LA PETANQUE FOUESNANTAISE***       |                            |
 
 \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
-![Journal Avril 2017](/images/archives/2017/journal-2017-04/imagpetan9.jpg){width="48" height="86"}**CHAMPIONNAT DEPARTEMENTAL FEMININ TÊTE à TÊTE A GOUESNOU**
+![Journal Avril 2017](/images/archives/2017/journal-2017-04/imagpetan9.webp){height="86" width="48"}**CHAMPIONNAT DEPARTEMENTAL FEMININ TÊTE à TÊTE A GOUESNOU**
 
 Le championnat départemental tête à tête a eu lieu les 22 et 23 Avril à Gouesnou. Une joueuse de La pétanque Fouesnantaise était qualifiée pour ce championnat départemental.
 
@@ -135,7 +135,7 @@ Equipe de Fouesnant: **Virginie SINIC**
 
 **\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_**
 
-![Journal Avril 2017](/images/archives/2017/journal-2017-04/imagpet4.jpg){width="48" height="70"}**CHAMPIONNAT DEPARTEMENTAL TRIPLETTES OPEN A GOUESNOU**
+![Journal Avril 2017](/images/archives/2017/journal-2017-04/imagpet4.webp){height="70" width="48"}**CHAMPIONNAT DEPARTEMENTAL TRIPLETTES OPEN A GOUESNOU**
 
 Le championnat départemental triplettes open a eu lieu les 22 et 23 Avril à Gouesnou. Une équipe de La pétanque Fouesnantaise s'était qualifiée pour ce championnat.
 
@@ -145,7 +145,7 @@ Equipe de Fouesnant: **Gilbert CAROFF, Philippe MARIANA, Patrick QUINTEL**
 
 \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
-****![Journal Avril 2017](/images/archives/2017/journal-2017-04/bouleroule.gif){width="53" height="52"}TROPHEE 55ANS ET PLUS 2ème TOUR DU FINISTERE****
+****![Journal Avril 2017](/images/archives/2017/journal-2017-04/bouleroule.gif){height="52" width="53"}TROPHEE 55ANS ET PLUS 2ème TOUR DU FINISTERE****
 
 **PLOUGANOU** **FOUESNANT** **Le 25 Avril à 14 h à Plougasnou**
 
@@ -153,9 +153,9 @@ RESULTATS:
 
 La Pétanque Fouesnantaise ne s'impose pas et sort de ce trophée sur un score de 12 points à 19 points.
 
--   2 Tête à Tête gagnés sur 6
--   1 doublette gagnées sur 3
--   1 triplette gagnée sur 2
+- 2 Tête à Tête gagnés sur 6
+- 1 doublette gagnées sur 3
+- 1 triplette gagnée sur 2
 
 L'équipe était composée de:
 
@@ -205,7 +205,7 @@ Coach: Gérard SIMONIN
 
 **\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_**
 
-![Journal Avril 2017](/images/archives/2017/journal-2017-04/imagpet2.jpg){width="91" height="73"}******CONCOURS SENIORS DOUBLETTES SIMPLES ET DOUBLETTES MIXTES A FOUESNANT LE 17 AVRIL******
+![Journal Avril 2017](/images/archives/2017/journal-2017-04/imagpet2.webp){height="73" width="91"}******CONCOURS SENIORS DOUBLETTES SIMPLES ET DOUBLETTES MIXTES A FOUESNANT LE 17 AVRIL******
 
 Ce lundi de Pâques s’est déroulé le 2e concours officiel de la saison. Deux compétitions
 
@@ -229,13 +229,13 @@ Les résultats :
 
 **Concours seniors :**
 
-_principal :_
+*principal :*
 
 1er J.C.Duru et J.F.Lafitte de Quimperlé
 
 2e F.Petit et P.Crochet de Concarneau
 
-_complémentaire :_
+*complémentaire :*
 
 1e M. Trividic et D.Beuzit de Tréboul
 
@@ -243,7 +243,7 @@ _complémentaire :_
 
 **concours senior mixte :**
 
-_principal :_
+*principal :*
 
 1e Typhaine Kérihuel(Bannalec) et V.Evano( Kerhuon)
 
@@ -253,17 +253,17 @@ _principal :_
 
 3e **Anne Yvonne Crenn et Patrick Quentel de Fouesnant**.
 
-_Complémentaire :_
+*Complémentaire :*
 
 1e Nathalie Roslagadec et C.Coadic de Gourin
 
 2e Marie Hélène et Jean Luc Corrigou de Gouesnou.
 
-_Jo Le Stum_
+*Jo Le Stum*
 
 \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
-![Journal Avril 2017](/images/archives/2017/journal-2017-04/imagpet8.jpg){width="53" height="70"}****CHAMPIONNAT DEPARTEMENTAL DOUBLETTES MIXTES A PLOUDALMEZEAU LE 16 AVRIL****
+![Journal Avril 2017](/images/archives/2017/journal-2017-04/imagpet8.webp){height="70" width="53"}****CHAMPIONNAT DEPARTEMENTAL DOUBLETTES MIXTES A PLOUDALMEZEAU LE 16 AVRIL****
 
 **Deux équipes de la Pétanque Fouesnantaise s'étaient positionnées pour participer à ce championnat départemental doublettes mixtes qui a eu lieu le 16 avril à Ploudalmézeau.**
 
@@ -271,19 +271,19 @@ _Jo Le Stum_
 
 **Fouesnant était représenté par:**
 
--   **Virginie SINIC et Gilbert CAROFF :** Perdant 1er Tour
--   **Andrée NEDELEC et Georges NEDELEC:** Perdant Poule 62 Partie Barrage
+- **Virginie SINIC et Gilbert CAROFF :** Perdant 1er Tour
+- **Andrée NEDELEC et Georges NEDELEC:** Perdant Poule 62 Partie Barrage
 
 \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
-**![Journal Avril 2017](/images/archives/2017/journal-2017-04/imagpet1.jpg){width="70" height="73"}**SECTEUR CHAMPIONNAT DOUBLETTES VETERANS +60ANS A PLOMELIN LE 13 AVRIL****
+**![Journal Avril 2017](/images/archives/2017/journal-2017-04/imagpet1.webp){height="73" width="70"}**SECTEUR CHAMPIONNAT DOUBLETTES VETERANS +60ANS A PLOMELIN LE 13 AVRIL****
 
 **Le 13 avril a eu lieu le doublettes secteur des 60 ans et + à Plomelin. Il y avait 57 équipes et la Pétanque fouesnantaise était représentée par six équipes.**
 
 **Encore une bonne prestation de notre club, puisque deux équipes se sont qualifiées pour Championnat Départemental Doublettes 60ans+ à Lannilis le 19 Mai.**
 
--   **_Qualifiés:_ Gilbert CAROFF et Xavier ROMIEUX sont finalistes et terminent à la deuxième place.**
--   **_Qualifiés:_ Jean Claude NEDELEC et Gérard SIMONIN sont demi finalistes et terminent à la quatrième place.**
+- ***Qualifiés:* Gilbert CAROFF et Xavier ROMIEUX sont finalistes et terminent à la deuxième place.**
+- ***Qualifiés:* Jean Claude NEDELEC et Gérard SIMONIN sont demi finalistes et terminent à la quatrième place.**
 
 **Yves PIRIOU et Bernard JEGOU sortent des poules et vont jusqu'en 1/16 ème de finale.**
 
@@ -291,7 +291,7 @@ _Jo Le Stum_
 
 **\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_**
 
-**.![Journal Avril 2017](/images/archives/2017/journal-2017-04/imag1.jpg){width="100" height="65"}**CHAMPIONNAT DEPARTEMENTAL TRIPLETTES VETERANS****
+**.![Journal Avril 2017](/images/archives/2017/journal-2017-04/imag1.webp){height="65" width="100"}**CHAMPIONNAT DEPARTEMENTAL TRIPLETTES VETERANS****
 
 ****DES 8 et 9 AVRIL A PLOUDANIEL****
 
@@ -311,7 +311,7 @@ _Jo Le Stum_
 
 **\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_**
 
-**![Journal Avril 2017](/images/archives/2017/journal-2017-04/bouleroule-2.gif){width="59" height="58"}CHAMPIONNAT DES CLUBS + 55ans 3 ème JOURNEE LE 4 Avril**
+**![Journal Avril 2017](/images/archives/2017/journal-2017-04/bouleroule-2.gif){height="58" width="59"}CHAMPIONNAT DES CLUBS + 55ans 3 ème JOURNEE LE 4 Avril**
 
 **\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_**
 
@@ -353,7 +353,7 @@ _Jo Le Stum_
 
 ****MEILLEURES PERFORMANCES DU MOIS****
 
-**_**(En italique les joueurs externes au club)**_**
+**\_**(En italique les joueurs externes au club)**\_**
 
 \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
@@ -409,7 +409,7 @@ RESULTATS:
 
 **Xavier ROMIEUX, Gilbert CAROFF**
 
-******4 ème:qualification pour le championnat départemental vétérans +60 ans :******
+******4 ème\:qualification pour le championnat départemental vétérans +60 ans :******
 
 **Jean Claude NEDELEC, Gérard SIMONIN**
 

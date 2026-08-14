@@ -163,12 +163,10 @@ if (segment === 'evenements' || segment === 'competitions') {
         v-if="page?.image"
         :src="page.image"
         :alt="page?.title ?? ''"
-        format="auto"
-        sizes="sm:100vw md:768px"
+        sizes="100vw sm:768px"
         loading="eager"
         fetchpriority="high"
-        placeholder
-        class="w-full aspect-[4/3] sm:aspect-video object-cover rounded-2xl border border-default"
+        class="w-full aspect-[4/3] sm:aspect-video object-cover rounded-2xl border border-default bg-muted"
       />
 
       <!-- Tells the reader why the layout and tone differ from the rest of the

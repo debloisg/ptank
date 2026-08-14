@@ -42,7 +42,6 @@ const items = computed(() => {
       <NuxtImg
         :src="item.logo"
         :alt="item.name"
-        format="auto"
         width="200"
         height="80"
         loading="lazy"

@@ -5,24 +5,24 @@ date: 2017-06-02
 year: 2017
 category: "Journaux du club"
 journal: "2017-06"
-image: "/images/archives/2017/journal-2017-06/imagpet1.jpg"
+image: "/images/archives/2017/journal-2017-06/imagpet1.webp"
 joomlaId: 306
 hits: 5870
 ---
 
-**![Journal Juin 2017](/images/archives/2017/journal-2017-06/imagpet1.jpg){width="70" height="73"}****FETE DU CLUB DU DIMANCHE 25 JUIN**
+**![Journal Juin 2017](/images/archives/2017/journal-2017-06/imagpet1.webp){width="70" height="73"}****FETE DU CLUB DU DIMANCHE 25 JUIN**
 
-**![Journal Juin 2017](/images/archives/2017/journal-2017-06/fetclub1728a.jpg){width="650" height="366"}**
+**![Journal Juin 2017](/images/archives/2017/journal-2017-06/fetclub1728a.webp){width="650" height="366"}**
 
-**![Journal Juin 2017](/images/archives/2017/journal-2017-06/fetclub1735a.jpg){width="650" height="366"}**
+**![Journal Juin 2017](/images/archives/2017/journal-2017-06/fetclub1735a.webp){width="650" height="366"}**
 
-**![Journal Juin 2017](/images/archives/2017/journal-2017-06/fetclub171a.jpg){width="650" height="366"}**
+**![Journal Juin 2017](/images/archives/2017/journal-2017-06/fetclub171a.webp){width="650" height="366"}**
 
-**![Journal Juin 2017](/images/archives/2017/journal-2017-06/fetclub1757a.jpg){width="650" height="366"}**
+**![Journal Juin 2017](/images/archives/2017/journal-2017-06/fetclub1757a.webp){width="650" height="366"}**
 
-**![Journal Juin 2017](/images/archives/2017/journal-2017-06/fetclub1724a.jpg){width="650" height="366"}**
+**![Journal Juin 2017](/images/archives/2017/journal-2017-06/fetclub1724a.webp){width="650" height="366"}**
 
- **![Journal Juin 2017](/images/archives/2017/journal-2017-06/bonnvacanc.jpg){width="60" height="49"}**Pour voir la suite des photos cliquez **ICI**
+ **![Journal Juin 2017](/images/archives/2017/journal-2017-06/bonnvacanc.webp){width="60" height="49"}**Pour voir la suite des photos cliquez **ICI**
 
 Dimanche 25 juin s'est déroulé le repas organisé pour la fête du club de la Pétanque fouesnantaise. Apéritif, melon, côtes de porc, saucisses, merguez accompagnés de chips, ratatouille,taboulet, fromages, cerises, gâteaux, café pour terminer ce repas sans prétention mais tellement sympatique.
 
@@ -36,9 +36,9 @@ _Jo Le Stum_
 
 **\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_**
 
- **![Journal Juin 2017](/images/archives/2017/journal-2017-06/imagpet7.png){width="85" height="70"} COUPE  DE FRANCE 3 ème TOUR LE SAMEDI 24 JUIN A FOUESNANT**
+ **![Journal Juin 2017](/images/archives/2017/journal-2017-06/imagpet7.webp){width="85" height="70"} COUPE  DE FRANCE 3 ème TOUR LE SAMEDI 24 JUIN A FOUESNANT**
 
-**![Journal Juin 2017](/images/archives/2017/journal-2017-06/cpefr17.png){width="640" height="401"}**
+**![Journal Juin 2017](/images/archives/2017/journal-2017-06/cpefr17.webp){width="640" height="401"}**
 
 Notre équipe a été exempte du deuxième tour, d'où sa qualification pour aller directement au troisième tour (cadrage).
 
@@ -74,7 +74,7 @@ _Gilbert Caroff_
 
 **\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_**
 
-**![Journal Juin 2017](/images/archives/2017/journal-2017-06/imagpet3.jpg){width="70" height="72"}CONCOURS SENIORS DU SAMEDI 17 JUIN A FOUESNANT**
+**![Journal Juin 2017](/images/archives/2017/journal-2017-06/imagpet3.webp){width="70" height="72"}CONCOURS SENIORS DU SAMEDI 17 JUIN A FOUESNANT**
 
 **C’est sous un ciel sans nuage et une température proche de la canicule que c’est déroulé le dernier concours officiel avant l’été.81 compétiteurs, recherchant le peu d’ombre sur les terrains, se sont retrouvés pour disputer cette compétition avant la saison touristique.**
 

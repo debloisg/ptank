@@ -5,22 +5,22 @@ date: 2021-12-31
 year: 2022
 category: "Journaux du club"
 journal: "2022-01"
-image: "/images/archives/2022/journal-2022-01/bonan22_2.jpg"
+image: "/images/archives/2022/journal-2022-01/bonan22_2.webp"
 joomlaId: 412
 hits: 4164
 ---
 
-![BonAn22 2](/images/archives/2022/journal-2022-01/bonan22_2.jpg){width="800" height="1088"}
+![BonAn22 2](/images/archives/2022/journal-2022-01/bonan22_2.webp){width="800" height="1088"}
 
 La Pétanque Fouesnantaise vous présente tous ses meilleurs voeux pour l'année 2022, en souhaitant que toute cette crise sanitaire qui nous perturbe depuis deux ans soit conjuguée au passé, pour que l'on puisse enfin, à nouveau, profiter à plein temps de notre loisir, la Pétanque.
 
 **\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_**
 
-![journal Janvier 2022](/images/archives/2022/journal-2022-01/icon-48-alert.png){width="48" height="48"} **Déclinaison des mesures sanitaires pour le sport du 24 au 16 Février 2022 de la part du ministère chargé des sports et de la FFPJP.**
+![journal Janvier 2022](/images/archives/2022/journal-2022-01/icon-48-alert.webp){width="48" height="48"} **Déclinaison des mesures sanitaires pour le sport du 24 au 16 Février 2022 de la part du ministère chargé des sports et de la FFPJP.**
 
 **\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_**
 
-![journal Janvier 2022](/images/archives/2022/journal-2022-01/icon-48-alert-2.png){width="48" height="48"}**une vérification du pass vaccinal sera effectuée mercredi 26 01 à partir de 14 h00 auprès des licenciés qui viendront jouer dans le boulodrome .**
+![journal Janvier 2022](/images/archives/2022/journal-2022-01/icon-48-alert-2.webp){width="48" height="48"}**une vérification du pass vaccinal sera effectuée mercredi 26 01 à partir de 14 h00 auprès des licenciés qui viendront jouer dans le boulodrome .**
 
 **MERCI DE VOUS MUNIR DE VOTRE ATTESTATION**
 
@@ -40,7 +40,7 @@ En cliquant sur le mois, vous aurez un aperçu clair des évènemts du mois. En 
 
 **\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_**
 
- **![journal Janvier 2022](/images/archives/2022/journal-2022-01/logopet1.png){width="217" height="52"} DATES DE PERMANENCE AU BOULODROME POUR LICENCES 2022**
+ **![journal Janvier 2022](/images/archives/2022/journal-2022-01/logopet1.webp){width="217" height="52"} DATES DE PERMANENCE AU BOULODROME POUR LICENCES 2022**
 
 **Voir les modalités en cliquant ICI**
 

@@ -5,7 +5,7 @@ date: 2014-11-05
 year: 2014
 category: "Journaux du club"
 journal: "2014-11"
-image: "/images/archives/2014/journal-2014-11/trophvetb14.jpg"
+image: "/images/archives/2014/journal-2014-11/trophvetb14.webp"
 joomlaId: 238
 hits: 5277
 ---
@@ -22,7 +22,7 @@ Venez nombreux soutenir cette action.
 
 ## ****FOUESNANT VAINQUEUR AU TROPHEE VETERANS (B) DU FINISTERE A PLOUGASTEL DAOULAS****
 
-![journal Novembre 2014](/images/archives/2014/journal-2014-11/trophvetb14.jpg){width="640" height="360"}
+![journal Novembre 2014](/images/archives/2014/journal-2014-11/trophvetb14.webp){height="360" width="640"}
 
 L'ENSEMBLE DES EQUIPES
 
@@ -41,29 +41,29 @@ EQUIPE PRESENTE:
 **SIMONIN Charlotte, CAROFF Gilbert, LE STUM Joseph, FLOCH Désiré, GUERMEUR Michel, GOURVEN Albert, LE MOULLEC Henry et au coach SIMONIN Gérard.**
 Le président.
 
-![journal Novembre 2014](/images/archives/2014/journal-2014-11/trophcompl141.jpg){width="500" height="375"}
+![journal Novembre 2014](/images/archives/2014/journal-2014-11/trophcompl141.webp){height="375" width="500"}
 
-![journal Novembre 2014](/images/archives/2014/journal-2014-11/rimg0300.jpg){width="488" height="366"}
+![journal Novembre 2014](/images/archives/2014/journal-2014-11/rimg0300.webp){height="366" width="488"}
 
 LA REMISE DE LA COUPE
 
-![journal Novembre 2014](/images/archives/2014/journal-2014-11/rimg0279.jpg){width="480" height="379"}
+![journal Novembre 2014](/images/archives/2014/journal-2014-11/rimg0279.webp){height="379" width="480"}
 
-![journal Novembre 2014](/images/archives/2014/journal-2014-11/rimg0282.jpg){width="480" height="377"}
+![journal Novembre 2014](/images/archives/2014/journal-2014-11/rimg0282.webp){height="377" width="480"}
 
-![journal Novembre 2014](/images/archives/2014/journal-2014-11/rimg0285.jpg){width="480" height="360"}
+![journal Novembre 2014](/images/archives/2014/journal-2014-11/rimg0285.webp){height="360" width="480"}
 
-![journal Novembre 2014](/images/archives/2014/journal-2014-11/rimg0288.jpg){width="480" height="360"}
+![journal Novembre 2014](/images/archives/2014/journal-2014-11/rimg0288.webp){height="360" width="480"}
 
-![journal Novembre 2014](/images/archives/2014/journal-2014-11/rimg0294.jpg){width="480" height="360"}
+![journal Novembre 2014](/images/archives/2014/journal-2014-11/rimg0294.webp){height="360" width="480"}
 
 ****ASSEMBLEE GENERALE DE LA PETANQUE FOUESNANTAISE****
 
-![journal Novembre 2014](/images/archives/2014/journal-2014-11/ag142.jpg){width="640" height="384"}
+![journal Novembre 2014](/images/archives/2014/journal-2014-11/ag142.webp){height="384" width="640"}
 
-![journal Novembre 2014](/images/archives/2014/journal-2014-11/ag143.jpg){width="640" height="384"}
+![journal Novembre 2014](/images/archives/2014/journal-2014-11/ag143.webp){height="384" width="640"}
 
-![journal Novembre 2014](/images/archives/2014/journal-2014-11/ag141.jpg){width="640" height="384"}
+![journal Novembre 2014](/images/archives/2014/journal-2014-11/ag141.webp){height="384" width="640"}
 
 Le 8 novembre a eu lieu l'assemblée générale de La Pétanque Fouesnantaise présidée par Dominique Gorse, en présence du comité directeur, d'une quarantaine d'adhérents et de Mr Joël Spitz adjoint aux sports et aux associations à la mairie de Fouesnant.
 
@@ -75,33 +75,33 @@ L'assemblée était impatiente d'écouter le représentant de la mairie Monsieur
 
 Cette année l'effectif global était de 105 pétanqueurs, pour 2015, il faut s'attendre à quelques départs qui pourraient être compensés par des arrivées. Intéressant de signaler l'arrivée de la relève avec une petit jeune de 10 ans, à l'avenir prometteur (déjà une bonne vision du jeu, avec des carreaux et une bonne approche du jeu).
 
--   Le prix de la licence ne change pas (35 Eur).
--   Changement concernant les tenues vestimentaires en 2015. Pour tous les concours officiels ( seniors, vétérans etc...) , les joueurs devront avoir la même tenue, se conformer au règlement officiel de la ffpjp ( voir rubrique 'REGLES' sur notre site ou cliquer sur le lien suivant files/notice-tenues.pdf . )
--   Actuellement nous sommes en pourparler avec plusieurs sociétés de vêtements afin de choisir et proposer aux licenciés un pack de vêtements normalisés.
--   Changement également pour le _"Championnat des Clubs_" Vétérans . désormais il y aura trois divisions au lieu de deux pour ce championnat.
--   Modification du règlement _"Championnat des Clubs_" Les équipes étant formées en début de saison, les aller-retour d'une équipe à l'autre seront réglementés.
+- Le prix de la licence ne change pas (35 Eur).
+- Changement concernant les tenues vestimentaires en 2015. Pour tous les concours officiels ( seniors, vétérans etc...) , les joueurs devront avoir la même tenue, se conformer au règlement officiel de la ffpjp ( voir rubrique 'REGLES' sur notre site ou cliquer sur le lien suivant files/notice-tenues.pdf . )
+- Actuellement nous sommes en pourparler avec plusieurs sociétés de vêtements afin de choisir et proposer aux licenciés un pack de vêtements normalisés.
+- Changement également pour le *"Championnat des Clubs*" Vétérans . désormais il y aura trois divisions au lieu de deux pour ce championnat.
+- Modification du règlement *"Championnat des Clubs*" Les équipes étant formées en début de saison, les aller-retour d'une équipe à l'autre seront réglementés.
 
 L'année 2014 a été riche en évènements, ceci seront reconduits en 2015.
 
--   En Avril, notre deuxième rassemblement doublettes + 55 ans qui a eu un succès avec la présence de 162 équipes.
--   En Juin et dans le but de rapprocher le licencié (es) et leurs épouses, nous avons proposé un barbecue sur nos terrains qui a réuni plus de 90 personnes.
--   En Juillet et lors du concours doublettes de la fête des pommiers nous avons eu la présence de 67 équipes sur nos terrains.
--   En juillet et Août, les concours populaires d'été du mercredi ont été comme tous les ans très positif car nous avons vu la présence sur nos terrains d'environ 1500 personnes.
--   En fin d'année 2013 la participation à notre repas de fin d'année a été un succès car nous étions plus de 60 personnes.
+- En Avril, notre deuxième rassemblement doublettes + 55 ans qui a eu un succès avec la présence de 162 équipes.
+- En Juin et dans le but de rapprocher le licencié (es) et leurs épouses, nous avons proposé un barbecue sur nos terrains qui a réuni plus de 90 personnes.
+- En Juillet et lors du concours doublettes de la fête des pommiers nous avons eu la présence de 67 équipes sur nos terrains.
+- En juillet et Août, les concours populaires d'été du mercredi ont été comme tous les ans très positif car nous avons vu la présence sur nos terrains d'environ 1500 personnes.
+- En fin d'année 2013 la participation à notre repas de fin d'année a été un succès car nous étions plus de 60 personnes.
 
 APPEL AUX BENEVOLES.
 
 Comme toute association, pour pouvoir présenter un programme annuel riche en évènements il faut des bénévoles, beaucoup de bonnes volontés. Notre pésident lance un appel à tous.
 
-_" Une de mes préoccupations est d'assurer la pérennité du club, or je suis inquiet, car avec et malgré l'augmentation de licencié(es) je constate que nous sommes de moins en moins nombreux pour assurer les tâches, tel que : table de marque, buvette, montage et démontage lors des concours et manifestations à domicile._
+*" Une de mes préoccupations est d'assurer la pérennité du club, or je suis inquiet, car avec et malgré l'augmentation de licencié(es) je constate que nous sommes de moins en moins nombreux pour assurer les tâches, tel que : table de marque, buvette, montage et démontage lors des concours et manifestations à domicile.*
 
-_La vie associative est une marche ou se mèlent don de soi, générosité , esprit d'équipe et passion._
+*La vie associative est une marche ou se mèlent don de soi, générosité , esprit d'équipe et passion.*
 
-_Le bénévolat permet de se sentir utile et de faire quelque chose pour autrui, c'est le moteur qui fait avancer une association._
+*Le bénévolat permet de se sentir utile et de faire quelque chose pour autrui, c'est le moteur qui fait avancer une association.*
 
-_Celui qui s'adonne au bénévolat est appelé « bénévole ». L'étymologie du mot vient du latin « bénévolus « qui signifie BONNE VOLONTE ._
+*Celui qui s'adonne au bénévolat est appelé « bénévole ». L'étymologie du mot vient du latin « bénévolus « qui signifie BONNE VOLONTE .*
 
-_J'ai constaté que notre club était riche en gens de bonne volonté, alors qu'ils n'hésitent pas à se faire connaître, nous avons besoin de tout le monde"._
+*J'ai constaté que notre club était riche en gens de bonne volonté, alors qu'ils n'hésitent pas à se faire connaître, nous avons besoin de tout le monde".*
 
 PLAN SPORTIF.
 
@@ -119,11 +119,11 @@ VIE DU CLUB:
 
 Dominique a rappelé quelques règles qui définissent le bon fonctionnement du club:
 
-_"Il convient de respecter les personnes, respecter le travail des bénévoles et celui des agents de la municipalité, respecter les locaux et le matériel et que chacun prenne ses responsabilités, même s'il ne fait pas partie du comité, cela permettra de ne pas décourager les bonnes volontés"_
+*"Il convient de respecter les personnes, respecter le travail des bénévoles et celui des agents de la municipalité, respecter les locaux et le matériel et que chacun prenne ses responsabilités, même s'il ne fait pas partie du comité, cela permettra de ne pas décourager les bonnes volontés"*
 
 En conclusion:
 
-_"Je souhaite que le club continue sur cette voie avec toujours quelques adhérents de plus chaque année, garder des relations toujours amicales et fructueuses avec la municipalité, continuer à garder cette excellente ambiance au club."_
+*"Je souhaite que le club continue sur cette voie avec toujours quelques adhérents de plus chaque année, garder des relations toujours amicales et fructueuses avec la municipalité, continuer à garder cette excellente ambiance au club."*
 
 ## ****COMPOSITION DU BUREAU DIRECTEUR 2015****
 
@@ -140,7 +140,7 @@ _"Je souhaite que le club continue sur cette voie avec toujours quelques adhére
 - Mr. JEGOU Bernard
 - Mr. VOILLEMIN Gaston
 
-Créateur, administrateur et rédacteur du site internet _**petanque-fouesnantaise.fr**_ : Mr Roger Croguennec
+Créateur, administrateur et rédacteur du site internet ***petanque-fouesnantaise.fr*** : Mr Roger Croguennec
 
 ## ****CHALLENGE INTERNE DU CREDIT AGRICOLE****
 

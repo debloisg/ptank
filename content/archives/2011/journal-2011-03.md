@@ -5,7 +5,7 @@ date: 2013-07-05
 year: 2011
 category: "Journaux du club"
 journal: "2011-03"
-image: "/images/archives/2011/journal-2011-03/mer-blanc3.jpg"
+image: "/images/archives/2011/journal-2011-03/mer-blanc3.webp"
 joomlaId: 110
 hits: 5055
 ---
@@ -14,7 +14,7 @@ hits: 5055
 
 ### Un mois chargé en compétitions.....
 
-JOURNAL DU MOIS DE MARS 2011 . . ![Journal Mars 2011](/images/archives/2011/journal-2011-03/mer-blanc3.jpg){width="600" height="400"}  Mousterlin : La mer blanche  ![Journal Mars 2011](/images/archives/2011/journal-2011-03/mer-blanc1.jpg){width="600" height="400"}  Mousterlin : La mer blanche  .  .
+JOURNAL DU MOIS DE MARS 2011 . . ![Journal Mars 2011](/images/archives/2011/journal-2011-03/mer-blanc3.webp){width="600" height="400"}  Mousterlin : La mer blanche  ![Journal Mars 2011](/images/archives/2011/journal-2011-03/mer-blanc1.webp){width="600" height="400"}  Mousterlin : La mer blanche  .  .
 
 ## COUPE DU FINISTERE 1er TOUR A ERGUE GABERIC RESULTAT DU DIMANCHE 20 MARS
 
@@ -48,7 +48,7 @@ Journée pas très glorieuse pour La pétanque Fouesnantaise, FOUESNANT 2B s'inc
 
 Prochaine journée de championnat de clubs seniors division 3 poule 7, le dimanche 27 Mars à Combrit où FOUESNANT sera opposée à l'équipe d'ERGUE GABERIC
 
-![Journal Mars 2011](/images/archives/2011/journal-2011-03/cpcluvete2.jpg){width="620" height="413"}  ![Journal Mars 2011](/images/archives/2011/journal-2011-03/cpcluvete1.jpg){width="620" height="413"}   EQUIPES DE PONT L'ABBE ET LOCTUDY   ![Journal Mars 2011](/images/archives/2011/journal-2011-03/cpcluvete3.jpg){width="620" height="413"}   EQUIPES DE FOUESNANT3B ET COMBRIT      EQUIPES DE FOUESNANT2B ET BENODET
+![Journal Mars 2011](/images/archives/2011/journal-2011-03/cpcluvete2.webp){width="620" height="413"}  ![Journal Mars 2011](/images/archives/2011/journal-2011-03/cpcluvete1.webp){width="620" height="413"}   EQUIPES DE PONT L'ABBE ET LOCTUDY   ![Journal Mars 2011](/images/archives/2011/journal-2011-03/cpcluvete3.webp){width="620" height="413"}   EQUIPES DE FOUESNANT3B ET COMBRIT      EQUIPES DE FOUESNANT2B ET BENODET
 
 ## MEILLEURES PERFORMANCES DU MOIS
 
@@ -127,4 +127,4 @@ C'est COMBRIT qui remporte la victoire sur un score de 22 à 14 sur FOUESNANT.
 
 Prochaine journée de compétition pour la D3 P7, le dimanche 27 Mars à COMBRIT où LA PETANQUE FOUESNANTAISE sera opposée à l'équipe de ERGUE GABERIC.
 
-![Journal Mars 2011](/images/archives/2011/journal-2011-03/cdc1-2-fou.jpg){width="600" height="400"}  ![Journal Mars 2011](/images/archives/2011/journal-2011-03/cdc1gilb1.png){width="300" height="443"}  ![Journal Mars 2011](/images/archives/2011/journal-2011-03/cdc3christ1.png){width="400" height="435"}
+![Journal Mars 2011](/images/archives/2011/journal-2011-03/cdc1-2-fou.webp){width="600" height="400"}  ![Journal Mars 2011](/images/archives/2011/journal-2011-03/cdc1gilb1.webp){width="300" height="443"}  ![Journal Mars 2011](/images/archives/2011/journal-2011-03/cdc3christ1.webp){width="400" height="435"}

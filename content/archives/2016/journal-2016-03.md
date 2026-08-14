@@ -5,12 +5,12 @@ date: 2016-03-05
 year: 2016
 category: "Journaux du club"
 journal: "2016-03"
-image: "/images/archives/2016/journal-2016-03/pet10.jpg"
+image: "/images/archives/2016/journal-2016-03/pet10.webp"
 joomlaId: 282
 hits: 6381
 ---
 
-![Journal Mars 2016](/images/archives/2016/journal-2016-03/pet10.jpg){width="70" height="47"} **CONCOURS SENIORS DOUBLETTES A FOUESNANT**
+![Journal Mars 2016](/images/archives/2016/journal-2016-03/pet10.webp){width="70" height="47"} **CONCOURS SENIORS DOUBLETTES A FOUESNANT**
 
 **LE 28 MARS**
 

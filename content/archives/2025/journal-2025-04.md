@@ -5,16 +5,16 @@ date: 2025-04-01
 year: 2025
 category: "Journaux du club"
 journal: "2025-04"
-image: "/images/archives/2025/journal-2025-04/rasse_vete_25.jpg"
+image: "/images/archives/2025/journal-2025-04/rasse_vete_25.webp"
 joomlaId: 480
 hits: 5592
 ---
 
-![Journal avril 25](/images/archives/2025/journal-2025-04/rasse_vete_25.jpg){width="600" height="848"}
+![Journal avril 25](/images/archives/2025/journal-2025-04/rasse_vete_25.webp){width="600" height="848"}
 
 ---
 
-![Journal avril 25](/images/archives/2025/journal-2025-04/gif7.jpg){width="70" height="72"}
+![Journal avril 25](/images/archives/2025/journal-2025-04/gif7.webp){width="70" height="72"}
 
 ## COUPE FRANCE 2ème TOUR LE SAMEDI 26 AVRIL
 
@@ -26,7 +26,7 @@ Bonne chance à tous
 
 ### RESULTAT:
 
-![Journal avril 25](/images/archives/2025/journal-2025-04/cpe_fr_25_2.jpg){width="800" height="400"}
+![Journal avril 25](/images/archives/2025/journal-2025-04/cpe_fr_25_2.webp){width="800" height="400"}
 
 Victoire de La Pétanque Fouesnantaisesur un score de 19 à 12 points.
 
@@ -40,7 +40,7 @@ Bravo à toute l'équipe et bonne continuation.
 
 ---
 
-![Journal avril 25](/images/archives/2025/journal-2025-04/imag1.jpg){width="121" height="79"}
+![Journal avril 25](/images/archives/2025/journal-2025-04/imag1.webp){width="121" height="79"}
 
 ## CHAMPIONNAT QUALIFICATIF FINISTERE, SECTEUR 4, DOUBLETTE MASCULIN le 27/ 04 à Pluguffan 9 h
 
@@ -101,7 +101,7 @@ Bravo à toute l'équipe et bonne continuation.
 
 **RESULTATS**
 
-![Journal avril 25](/images/archives/2025/journal-2025-04/br_jb_mic.jpg){width="800" height="600"}
+![Journal avril 25](/images/archives/2025/journal-2025-04/br_jb_mic.webp){width="800" height="600"}
 
 Bruno GIRARD Jean Bernard HENAFF Michel LE BRETON
 
@@ -109,43 +109,43 @@ Terminent en 1/4 de finale, qualifiés pour le Championnat de Bretagne à Perros
 
 Très beau parcours , félicitations et bonne chance pour le championnat de Bretagne
 
-![Journal avril 25](/images/archives/2025/journal-2025-04/de_yv_ma.jpg){width="500" height="667"}
+![Journal avril 25](/images/archives/2025/journal-2025-04/de_yv_ma.webp){width="500" height="667"}
 
 André GUERIN, Yvon LANDOAS Marc NICOLAS
 
 Terminent en 1/16 ème de finale
 
-![Journal avril 25](/images/archives/2025/journal-2025-04/rog_jo_jl.jpg){width="500" height="667"}
+![Journal avril 25](/images/archives/2025/journal-2025-04/rog_jo_jl.webp){width="500" height="667"}
 
 Roger CROGUENNEC Joseph KERMARREC Jean luc BRIAND
 
 Terminent en 1/32 ème de finale
 
-![Journal avril 25](/images/archives/2025/journal-2025-04/cap_gil_pasc.jpg){width="500" height="667"}
+![Journal avril 25](/images/archives/2025/journal-2025-04/cap_gil_pasc.webp){width="500" height="667"}
 
 Jean CHAPALAIN Gilles GELEBART Pascal LANGLAIS
 
 Terminent en 1/32 ème de finale
 
-![Journal avril 25](/images/archives/2025/journal-2025-04/gil_jy_al.jpg){width="800" height="600"}
+![Journal avril 25](/images/archives/2025/journal-2025-04/gil_jy_al.webp){width="800" height="600"}
 
 Gilbert CAROFF Jean Yves ELOIRE Alain JUNOT
 
 Terminent en 1/32 ème de finale
 
-![Journal avril 25](/images/archives/2025/journal-2025-04/patf_jp_patol.jpg){width="800" height="600"}
+![Journal avril 25](/images/archives/2025/journal-2025-04/patf_jp_patol.webp){width="800" height="600"}
 
 Patrick FOUQUAIS Jean Pierre HOURMAND Patrick FOUQUET
 
 Perdent en partie barrage
 
-![Journal avril 25](/images/archives/2025/journal-2025-04/jyeloir.jpg){width="459" height="612"}
+![Journal avril 25](/images/archives/2025/journal-2025-04/jyeloir.webp){width="459" height="612"}
 
-![Journal avril 25](/images/archives/2025/journal-2025-04/rog2.jpg){width="450" height="600"}
+![Journal avril 25](/images/archives/2025/journal-2025-04/rog2.webp){width="450" height="600"}
 
-![Journal avril 25](/images/archives/2025/journal-2025-04/jlbri.jpg){width="450" height="600"}
+![Journal avril 25](/images/archives/2025/journal-2025-04/jlbri.webp){width="450" height="600"}
 
-![Journal avril 25](/images/archives/2025/journal-2025-04/pasc_langl.jpg){width="450" height="600"}
+![Journal avril 25](/images/archives/2025/journal-2025-04/pasc_langl.webp){width="450" height="600"}
 
 | N° | Nom de l'équipe - N° du comité ou ligue | Résultats Championnats |
 | --- | --- | --- |
@@ -159,7 +159,7 @@ Perdent en partie barrage
 
 \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
-![Journal avril 25](/images/archives/2025/journal-2025-04/imag1-2.jpg){width="121" height="79"}
+![Journal avril 25](/images/archives/2025/journal-2025-04/imag1-2.webp){width="121" height="79"}
 
 ## CHAMPIONNAT DU FINISTERE DOUBLETTES MIXTES les samedi 5 et dimanche 6 avril à Porsall à 9h
 
@@ -177,15 +177,15 @@ Perdent en partie barrage
 
 ---
 
-![Journal avril 25](/images/archives/2025/journal-2025-04/gif6.jpg){width="48" height="70"}
+![Journal avril 25](/images/archives/2025/journal-2025-04/gif6.webp){width="48" height="70"}
 
 ## ** CHAMPIONNAT DES CLUBS VETERANS**
 
-![Journal avril 25](/images/archives/2025/journal-2025-04/equipe1.png){width="800" height="451"}
+![Journal avril 25](/images/archives/2025/journal-2025-04/equipe1.webp){width="800" height="451"}
 
 **Equipe 1**
 
-![Journal avril 25](/images/archives/2025/journal-2025-04/equipe4.png){width="450" height="560"}
+![Journal avril 25](/images/archives/2025/journal-2025-04/equipe4.webp){width="450" height="560"}
 
 **Equipe 4**
 
@@ -204,7 +204,7 @@ Perdent en partie barrage
 
 ---
 
-![Journal avril 25](/images/archives/2025/journal-2025-04/imag1-3.jpg){width="121" height="79"}
+![Journal avril 25](/images/archives/2025/journal-2025-04/imag1-3.webp){width="121" height="79"}
 
 ## CHAMPIONNAT QUALIFICATION SECTEUR TRIPLETTES MIXTES le dimanche 20 avril à Plomelin 10h
 
@@ -228,7 +228,7 @@ Perdent en partie barrage
 
 ---
 
-![Journal avril 25](/images/archives/2025/journal-2025-04/gif6-2.jpg){width="48" height="70"}
+![Journal avril 25](/images/archives/2025/journal-2025-04/gif6-2.webp){width="48" height="70"}
 
 ## CHAMPIONNAT DES CLUBS VETERANS
 

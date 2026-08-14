@@ -1,9 +1,8 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
+import { fileURLToPath } from 'node:url'
 
-// Dev serves images straight from /public; prod resizes them through
-// Cloudflare Image Transformations, pulling the originals from R2. See the
-// `image` block below and the "Images" section of the README.
-const isDev = process.env.NODE_ENV !== 'production'
+// Images are served straight from R2, pre-sized and WebP-encoded before upload.
+// See the `image` block below and the "Images" section of the README.
 // Public domain of the R2 bucket that holds /images/** — the bucket's custom
 // domain on the site's own zone. Defaults to it so the Cloudflare Workers build
 // (and dev) render images without a build-time env var; the deploy bundles no
@@ -15,12 +14,6 @@ const isDev = process.env.NODE_ENV !== 'production'
 const r2Base = (process.env.NUXT_IMAGE_R2_BASE || 'https://image.petanque-fouesnantaise.fr')
   .trim()
   .replace(/\/+$/, '')
-// Cloudflare Image Transformations only resize sources on the SAME zone as the
-// site (subdomains OK). A shared r2.dev domain is off-zone, so it can't be
-// transformed — originals are then served as-is. image.petanque-fouesnantaise.fr
-// is on-zone, so resizing/WebP/AVIF is available.
-const canTransform = !!r2Base && !/\.r2\.dev(?:\/|$)/.test(r2Base)
-
 // ── Content-Security-Policy ────────────────────────────────────────────────
 // Two policies: a strict one for the public site, a relaxed one for the Studio
 // editor. Both are still REPORT-ONLY (see the routeRules below) — the values
@@ -31,7 +24,8 @@ const canTransform = !!r2Base && !/\.r2\.dev(?:\/|$)/.test(r2Base)
 // its hydration payload. That's the remaining weak point of this policy.
 const cspBase = [
   "default-src 'self'",
-  // data: covers the inlined blur placeholders @nuxt/image generates.
+  // data: kept for inline SVG/icon data URIs; the blur placeholders are real
+  // files served from the R2 domain like every other image.
   `img-src 'self' data: ${r2Base}`,
   "style-src 'self' 'unsafe-inline'",
   "font-src 'self' data:",
@@ -75,7 +69,10 @@ const securityHeaders = {
 
 const publicCsp = [
   ...cspBase,
-  `script-src 'self' 'unsafe-inline' ${CF_INSIGHTS}`,
+  // 'wasm-unsafe-eval': @nuxt/content's client-side sqlite database is
+  // WebAssembly and runs on PUBLIC pages during client-side navigation — an
+  // enforced policy without it would break every client-nav for every visitor.
+  `script-src 'self' 'unsafe-inline' 'wasm-unsafe-eval' ${CF_INSIGHTS}`,
   // cloudflareinsights.com is where the analytics beacon POSTs its payload.
   `connect-src 'self' ${ICONIFY} https://cloudflareinsights.com`,
 ].join('; ')
@@ -133,6 +130,19 @@ export default defineNuxtConfig({
       crawlLinks: true,
       routes: ['/'],
     },
+    // Half of the dev-only fix for client-side navigation 404s on content pages
+    // (the other half is the middleware in hooks['nitro:config'] below, where
+    // the full story is told): @nuxt/content's cloudflare dump handler falls
+    // back to `build:content:raw:…` in nitro storage, but that mount points at
+    // NITRO's build dir (.nuxt/dev) while the dumps are templated into NUXT's
+    // (.nuxt/content/raw). Remount just that prefix onto the real directory.
+    // Dev-only by design: devStorage is ignored in production builds.
+    devStorage: {
+      'build:content:raw': {
+        driver: 'fs',
+        base: fileURLToPath(new URL('./.nuxt/content/raw', import.meta.url)),
+      },
+    },
     // Studio's tiptap editor renders markdown `![](/images/…)` against the
     // worker origin directly (it bypasses @nuxt/image's R2 alias), so image
     // previews 404. Redirect worker-origin /images/** to the R2 bucket so the
@@ -184,6 +194,40 @@ export default defineNuxtConfig({
     },
   },
 
+  hooks: {
+    // Dev-only middleware on the content dump route — the other half of the
+    // devStorage remount in the nitro block above.
+    //
+    // In dev, every client-side navigation to a content page 404'd while a hard
+    // reload worked. Chain: the explicit cloudflare_module preset makes
+    // @nuxt/content register its *cloudflare* sql_dump handler even in dev; the
+    // NuxtHub/wrangler dev proxy exposes an ASSETS binding
+    // (event.context.cloudflare.env.ASSETS, from the `assets` binding in
+    // wrangler.jsonc); the handler prefers that binding and fetches
+    // /dump.<collection>.sql from it — but in dev that assets store has no dump
+    // files, so every collection dumps as "". The browser then builds its
+    // client-side WASM database from an empty dump and every client-side query
+    // returns nothing, which pages surface as a 404 (SSR queries the real
+    // database, hence ctrl+r "fixing" it).
+    //
+    // The middleware strips the cloudflare context for exactly this route, so
+    // the handler falls through to nitro storage, which the devStorage remount
+    // points at the real dumps. Registered here rather than in server/middleware
+    // so it can never ship to production: the handler file lives in server/dev/,
+    // which nitro does not scan.
+    'nitro:config'(nitroConfig) {
+      if (!nitroConfig.dev) return
+      nitroConfig.handlers ||= []
+      // Prefix route only: middleware matching in h3 is a plain prefix, params
+      // like :collection never match. The handler narrows to sql_dump.txt itself.
+      nitroConfig.handlers.push({
+        route: '/__nuxt_content',
+        middleware: true,
+        handler: fileURLToPath(new URL('./server/dev/content-dump-cloudflare-context.ts', import.meta.url)),
+      })
+    },
+  },
+
   // Register the terracotta accent so `color="secondary"` works alongside navy.
   ui: {
     theme: {
@@ -215,27 +259,47 @@ export default defineNuxtConfig({
     },
   },
 
-  // ── Images (R2 + Cloudflare Image Transformations) ──────────────────────
+  // ── Images (R2, served raw — no edge transforms) ─────────────────────────
   // The image originals live in R2, NOT in /public — they are never copied
   // into the deploy bundle (source files are kept in /image-sources purely to
   // upload from; see scripts/upload-images-to-r2.sh). NUXT_IMAGE_R2_BASE (the
   // bucket's public domain) is therefore required to see images anywhere,
   // dev included — set it in .env locally.
   //
-  // `alias` rewrites the /images/** paths used in content + components to the
-  // R2 bucket. When the bucket is on your zone (custom domain), the `cloudflare`
-  // provider wraps them in /cdn-cgi/image/<opts>/… so the edge (free tier
-  // includes Transformations) returns a resized WebP/AVIF. On an off-zone
-  // r2.dev URL — or in dev — it falls back to `none`, serving originals untouched.
-  // NuxtImg adds lazy loading + srcset either way; the blur placeholder needs
-  // the resizing provider, so it only appears once you're on a custom domain.
+  // Every image is served straight out of R2 as a pre-built file — never
+  // through an edge transform. Cloudflare bills Image Transformations per UNIQUE
+  // transformation, and "the first request for each unique version within a
+  // calendar month is billed as one unique transformation, REGARDLESS OF CACHE
+  // STATUS" (Cloudflare pricing docs). Caching therefore cannot lower the bill;
+  // the only lever is emitting fewer distinct transformed URLs, and ~2700
+  // archive photos and article images with a responsive srcset each blew well
+  // past the 5,000/month free tier.
+  //
+  // So sizing happens BEFORE the bucket instead of at the edge. Every image has
+  // exactly three pre-built objects: the base (<=1600px WebP), a -800.webp
+  // srcset rendition and a -ph.webp blur placeholder:
+  //   - the archive/gallery corpora and /image-sources masters are built offline
+  //     (scripts/optimize-archive-images.mjs, scripts/generate-galerie-tiles.mjs,
+  //     scripts/generate-image-variants.mjs);
+  //   - Studio uploads get the same three objects generated at upload time.
+  //
+  // The custom provider maps width requests onto those files with a pure string
+  // rewrite (see app/providers/r2-variants.ts) — srcset works, nothing is
+  // computed at the edge.
+  //
+  // The one remaining edge-transform use is the ARTICLE og:image URLs, built by
+  // hand as /cdn-cgi/image/… (see below and pages/[...slug].vue): a bounded set
+  // of a few hundred uniques a month, and social scrapers want a JPEG crop no
+  // stored file matches. (Album pages just point og:image at the raw cover.)
   image: {
-    provider: canTransform && !isDev ? 'cloudflare' : 'none',
-    // baseURL '/' → transforms resolve on the deployed Worker's own origin,
-    // so the production domain never has to be hardcoded here.
-    cloudflare: { baseURL: '/' },
-    ...(r2Base ? { alias: { '/images': `${r2Base}/images` } } : {}),
-    quality: 75,
+    provider: 'r2Variants',
+    providers: {
+      r2Variants: {
+        name: 'r2Variants',
+        provider: fileURLToPath(new URL('./app/providers/r2-variants.ts', import.meta.url)),
+        options: { baseURL: r2Base },
+      },
+    },
   },
 
   // ── SEO (@nuxtjs/seo) ───────────────────────────────────────────────────

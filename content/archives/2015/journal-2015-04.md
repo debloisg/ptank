@@ -62,7 +62,7 @@ Deux équipes ne sortent pas des poules, l'autre termine son parcours en 16 éme
 
 **A FOUESNANT LE 24 AVRIL**
 
-**![Journal Avril 2015](/images/archives/2015/journal-2015-04/rassfou151.jpg){width="640" height="360"}**
+**![Journal Avril 2015](/images/archives/2015/journal-2015-04/rassfou151.webp){width="640" height="360"}**
 
 L'un des évènements les plus attendu de la Pétanque Fouesnantaise, pour l'année en cours, était sans aucun doute le rassemblement doublettes vétérans. Il a eu lieu le vendredi 24 avril pour la troisième fois.
 
@@ -108,11 +108,11 @@ Très bon parcours, bravo Gilbert.
 
 **\+ de 60ans A GOUESNOU**
 
-![Journal Avril 2015](/images/archives/2015/journal-2015-04/chptrvet151.png){width="640" height="336"}
+![Journal Avril 2015](/images/archives/2015/journal-2015-04/chptrvet151.webp){width="640" height="336"}
 
-![Journal Avril 2015](/images/archives/2015/journal-2015-04/chptrpvet152.png){width="640" height="336"}
+![Journal Avril 2015](/images/archives/2015/journal-2015-04/chptrpvet152.webp){width="640" height="336"}
 
-![Journal Avril 2015](/images/archives/2015/journal-2015-04/chptvet15.jpg){width="448" height="336"} Vendredi 17 avril 2015 à 14 h a eu lieu le début du départemental triplettes vétérans + 60 ans à GOUESNOU, sous un beau soleil.
+![Journal Avril 2015](/images/archives/2015/journal-2015-04/chptvet15.webp){width="448" height="336"} Vendredi 17 avril 2015 à 14 h a eu lieu le début du départemental triplettes vétérans + 60 ans à GOUESNOU, sous un beau soleil.
 
 128 équipes étaient engagées dont 3 du club de FOUESNANT.
 
@@ -144,9 +144,9 @@ Le Président: Dominique Gorse
 
 ****![Journal Avril 2015](/images/archives/2015/journal-2015-04/bouleroule-3.gif){width="70" height="69"}**CHAMPIONNAT DEPARTEMENTAL DOUBLETTES JEUNES A PLOURIN LES MORLAIX**
 
-**![Journal Avril 2015](/images/archives/2015/journal-2015-04/nollan1.jpg){width="640" height="360"}![Journal Avril 2015](/images/archives/2015/journal-2015-04/nollan2.jpg){width="640" height="360"}**
+**![Journal Avril 2015](/images/archives/2015/journal-2015-04/nollan1.webp){width="640" height="360"}![Journal Avril 2015](/images/archives/2015/journal-2015-04/nollan2.webp){width="640" height="360"}**
 
-![Journal Avril 2015](/images/archives/2015/journal-2015-04/nollan3.jpg){width="640" height="360"}![Journal Avril 2015](/images/archives/2015/journal-2015-04/nollan4.jpg){width="640" height="360"}
+![Journal Avril 2015](/images/archives/2015/journal-2015-04/nollan3.webp){width="640" height="360"}![Journal Avril 2015](/images/archives/2015/journal-2015-04/nollan4.webp){width="640" height="360"}
 
 Dimanche 12 avril 2015 avait lieu à PLOURIN LES MORLAIX le départemental doublette jeunes sous un très beau soleil. ( 28 en cadets, 20 en minimes et 10 benjamins)
 
@@ -180,9 +180,9 @@ SIMONIN Charlotte et GUILLERM Gilbert
 
 ---
 
-  **![Journal Avril 2015](/images/archives/2015/journal-2015-04/logoca1.png){width="100" height="85"}  VISITE DE NOTRE PARTENAIRE CREDIT AGRICOLE DE FOUESNANT SUR NOTRE BOULODROME**
+  **![Journal Avril 2015](/images/archives/2015/journal-2015-04/logoca1.webp){width="100" height="85"}  VISITE DE NOTRE PARTENAIRE CREDIT AGRICOLE DE FOUESNANT SUR NOTRE BOULODROME**
 
-![Journal Avril 2015](/images/archives/2015/journal-2015-04/ca20151.png){width="1024" height="419"}
+![Journal Avril 2015](/images/archives/2015/journal-2015-04/ca20151.webp){width="1024" height="419"}
 
 Mercredi 1er Avril, Monsieur Emmanuel L'Helgoualc'h Directeur de l'agence CREDIT AGRICOLE de Fouesnant, est venu rencontrer sur notre boulodrome les joueurs et les dirigeants de La Pétanque Fouesnantaise.
 

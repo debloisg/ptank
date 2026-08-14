@@ -7,7 +7,26 @@ export default defineNuxtPlugin(() => {
 
   const router = useRouter()
 
+  // axe refuses concurrent runs ("Axe is already running") and a hash-only
+  // navigation can fire afterEach while the previous scan of a 300-photo page
+  // is still going — skip the overlap, the running scan covers the same DOM.
+  let running = false
+
   const audit = async () => {
+    if (running) return
+    running = true
+    try {
+      await runAudit()
+    }
+    finally {
+      // Deliberate release of the guard taken before the await — no race in
+      // single-threaded JS, the rule just can't see the mutex pattern.
+      // eslint-disable-next-line require-atomic-updates
+      running = false
+    }
+  }
+
+  const runAudit = async () => {
     const { default: axe } = await import('axe-core')
     // Wait a tick so the incoming page has painted before scanning the DOM.
     await new Promise(r => requestAnimationFrame(() => r(null)))

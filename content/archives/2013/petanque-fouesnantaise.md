@@ -4,16 +4,16 @@ description: "Le boulodrome couvert dispose de 12 terrains à l'intérieur et pl
 date: 2013-07-14
 year: 2013
 category: "Le club de Fouesnant"
-image: "/images/archives/2013/petanque-fouesnantaise/nxlogopf1.png"
+image: "/images/archives/2013/petanque-fouesnantaise/nxlogopf1.webp"
 joomlaId: 129
 hits: 16803
 ---
 
-![Présentation du club](/images/archives/2013/petanque-fouesnantaise/nxlogopf1.png){width="315" height="61"}
+![Présentation du club](/images/archives/2013/petanque-fouesnantaise/nxlogopf1.webp){width="315" height="61"}
 
-![Présentation du club](/images/archives/2013/petanque-fouesnantaise/boulodr5.png){width="327" height="245"} ![Présentation du club](/images/archives/2013/petanque-fouesnantaise/boulodr3.png){width="342" height="257"}
+![Présentation du club](/images/archives/2013/petanque-fouesnantaise/boulodr5.webp){width="327" height="245"} ![Présentation du club](/images/archives/2013/petanque-fouesnantaise/boulodr3.webp){width="342" height="257"}
 
-![Présentation du club](/images/archives/2013/petanque-fouesnantaise/terrrains24.png){width="677" height="446"}
+![Présentation du club](/images/archives/2013/petanque-fouesnantaise/terrrains24.webp){width="677" height="446"}
 
 **Le boulodrome couvert dispose de 12 terrains à l'intérieur et plus de 90 terrains à l'extérieur**
 
@@ -85,7 +85,7 @@ En tout c’est plus de 3000 compétiteurs qui se trouvent tous les ans sur les 
 
 #### **CHAMPIONS DU FINISTERE TROPHEE VETERANS A 2025**
 
-![Présentation du club](/images/archives/2013/petanque-fouesnantaise/trophvetfinal_25_1.jpg){width="800" height="713"}
+![Présentation du club](/images/archives/2013/petanque-fouesnantaise/trophvetfinal_25_1.webp){width="800" height="713"}
 
 Christelle GIRARD, Gilbert CAROFF, André GUERIN,
 
@@ -93,7 +93,7 @@ Martine DUMONT,Violeta PRIOL, Alain JUNOT, Marc NICOLAS,
 
 Gilles GELEBART, Yvon LANDOAS, Jean Yves ELOIRE
 
-![Présentation du club](/images/archives/2013/petanque-fouesnantaise/trpvete_fin_25_1.jpg){width="800" height="571"}
+![Présentation du club](/images/archives/2013/petanque-fouesnantaise/trpvete_fin_25_1.webp){width="800" height="571"}
 
 **\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_**
 
@@ -109,7 +109,7 @@ Gwervyn FRAVAL, André GUERIN, Jordan GUITON, Gilbert CAROFF,
 
 Représentant du CD29, ?, Gessy BOLLINI, Hervé DUBACH, Gildas RAZIL, Gérard MACHARD
 
-![Présentation du club](/images/archives/2013/petanque-fouesnantaise/chpteq_d1_24.png){width="268" height="562"}
+![Présentation du club](/images/archives/2013/petanque-fouesnantaise/chpteq_d1_24.webp){width="268" height="562"}
 
 **\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_**
 
@@ -121,7 +121,7 @@ Représentant du CD29, ?, Gessy BOLLINI, Hervé DUBACH, Gildas RAZIL, Gérard MA
 
 **1/32ème de finale**
 
-![Présentation du club](/images/archives/2013/petanque-fouesnantaise/chpt_fr_vete_23_2_1.jpg){width="800" height="600"}
+![Présentation du club](/images/archives/2013/petanque-fouesnantaise/chpt_fr_vete_23_2_1.webp){width="800" height="600"}
 
 De gauche à droite:
 
@@ -133,7 +133,7 @@ Pierre PAUL, Le délégué représentant la ligue de Bretagne, Xavier ROMIEUX, H
 
 ****CHAMPION DU FINISTERE A LA FINALE DU CHAMPIONNAT DES CLUBS VETERANS DU FINISTERE 2023 (Qualificatif au CdC Régional)****
 
-![Présentation du club](/images/archives/2013/petanque-fouesnantaise/fin_cdc_finis_3.jpg){width="800" height="497"}
+![Présentation du club](/images/archives/2013/petanque-fouesnantaise/fin_cdc_finis_3.webp){width="800" height="497"}
 
 De gauche à droite de bas en haut:
 
@@ -157,7 +157,7 @@ Gérard MACHART, Marc NICOLAS, Alain JUNOT, Xavier ROMIEUX,
 
 ****CHAMPIONS DU FINISTERE TRIPLETTES VETERANS 2023****
 
-![Présentation du club](/images/archives/2013/petanque-fouesnantaise/chptdpt_tri_promo23.png){width="690" height="649"}
+![Présentation du club](/images/archives/2013/petanque-fouesnantaise/chptdpt_tri_promo23.webp){width="690" height="649"}
 
 De gauche à droite:
 
@@ -169,9 +169,9 @@ Pierre PAUL, Xavier ROMIEUX, Henry LE MOULLEC
 
 ****1/16ème DE FINALE DU CHAMPIONNAT DE FRANCE TRIPLETTES PROMOTION 2021 A BERGERAC****
 
-![Présentation du club](/images/archives/2013/petanque-fouesnantaise/bergerac_3.jpg){width="640" height="480"}
+![Présentation du club](/images/archives/2013/petanque-fouesnantaise/bergerac_3.webp){width="640" height="480"}
 
-![Présentation du club](/images/archives/2013/petanque-fouesnantaise/cdefr_tr_promo21_bergerac.png){width="691" height="677"}
+![Présentation du club](/images/archives/2013/petanque-fouesnantaise/cdefr_tr_promo21_bergerac.webp){width="691" height="677"}
 
 **XAVIER ROMIEUX, Pierre PAUL, Frédéric GUEGUEN**
 
@@ -181,7 +181,7 @@ Pierre PAUL, Xavier ROMIEUX, Henry LE MOULLEC
 
 ****CHAMPIONS DU FINISTERE CHAMPIONNAT TRIPLETTES PROMOTION 2021****
 
-****![Présentation du club](/images/archives/2013/petanque-fouesnantaise/chpt_trip_prom21-1.png){width="523" height="613"}****
+****![Présentation du club](/images/archives/2013/petanque-fouesnantaise/chpt_trip_prom21-1.webp){width="523" height="613"}****
 
 de gauche à droite :
 
@@ -201,7 +201,7 @@ Henry LE MOULLEC, Michel GUERMEUR, Jo LE STUM, Désiré FLOCH, Pierre NEDELEC, X
 
 ****CHAMPIONS DU FINISTERE TROPHEE VETERANS COMPLEMENTAIRE B 2014****
 
-****![Présentation du club](/images/archives/2013/petanque-fouesnantaise/trophcopl14.jpg){width="648" height="486"}****
+****![Présentation du club](/images/archives/2013/petanque-fouesnantaise/trophcopl14.webp){width="648" height="486"}****
 
 Debout de gauche à droite:
 
@@ -221,7 +221,7 @@ Gilbert CAROFF, Jean Pierre VIVES, Pierre PAUL, Michel GERMEUR, Georges GOLCHEN,
 
 ****1/4 DE FINALE DU CHAMPIONNAT DE FRANCE TRIPLETTES VETERANS A SEDAN ****2010********
 
-********![Présentation du club](/images/archives/2013/petanque-fouesnantaise/chpt_de_fr_10.png){width="640" height="480"}********
+********![Présentation du club](/images/archives/2013/petanque-fouesnantaise/chpt_de_fr_10.webp){width="640" height="480"}********
 
 Jean Yves ELOIRE, Gilbert CAROFF, Georges CAROFF
 
@@ -233,7 +233,7 @@ Annie KERVERN présidente du Comité Départemental du Finistère (CD29)
 
 ****CHAMPIONS DE BRETAGNE TRIPLETTES VETERANS 2010****
 
-****![Présentation du club](/images/archives/2013/petanque-fouesnantaise/chpt_de_bret_2010.png){width="630" height="473"}****
+****![Présentation du club](/images/archives/2013/petanque-fouesnantaise/chpt_de_bret_2010.webp){width="630" height="473"}****
 
 Jean Yves ELOIRE, Gilbert CAROFF, Georges CAROFF
 
@@ -241,7 +241,7 @@ Annie KERVERN présidente du Comité Départemental du Finistère (CD29)
 
 **\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_**
 
-![Présentation du club](/images/archives/2013/petanque-fouesnantaise/coupe6.png){width="43" height="121"}![Présentation du club](/images/archives/2013/petanque-fouesnantaise/coupe7.png){width="273" height="90"} **2008**
+![Présentation du club](/images/archives/2013/petanque-fouesnantaise/coupe6.webp){width="43" height="121"}![Présentation du club](/images/archives/2013/petanque-fouesnantaise/coupe7.webp){width="273" height="90"} **2008**
 
 ********![Présentation du club](/images/archives/2013/petanque-fouesnantaise/chptdufini10.gif){width="640" height="480"}********
 

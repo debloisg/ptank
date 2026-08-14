@@ -5,12 +5,12 @@ date: 2016-04-01
 year: 2016
 category: "Journaux du club"
 journal: "2016-04"
-image: "/images/archives/2016/journal-2016-04/rassfou168.png"
+image: "/images/archives/2016/journal-2016-04/rassfou168.webp"
 joomlaId: 283
 hits: 6928
 ---
 
-![Journal Avril 2016](/images/archives/2016/journal-2016-04/rassfou168.png){width="601" height="844"} ![Journal Avril 2016](/images/archives/2016/journal-2016-04/rassfou162.png){width="400" height="349"}
+![Journal Avril 2016](/images/archives/2016/journal-2016-04/rassfou168.webp){height="844" width="601"} ![Journal Avril 2016](/images/archives/2016/journal-2016-04/rassfou162.webp){height="349" width="400"}
 
 **RESULTATS: CLASSEMENTS DU RASSEMBLEMENT** **DE FOUESNANT**
 
@@ -26,25 +26,25 @@ La pétanque Fouesnantaise remercie tous les commerçants qui ont participé à 
 
 Jo Le Stum
 
-![Journal Avril 2016](/images/archives/2016/journal-2016-04/rassfoue163.jpg){width="640" height="427"}
+![Journal Avril 2016](/images/archives/2016/journal-2016-04/rassfoue163.webp){height="427" width="640"}
 
 Remise des trophées aux doublettes présentes, gagnantes des cinq parties
 
-![Journal Avril 2016](/images/archives/2016/journal-2016-04/rassfoue162.jpg){width="640" height="427"}
+![Journal Avril 2016](/images/archives/2016/journal-2016-04/rassfoue162.webp){height="427" width="640"}
 
 Très bonne participation pour cette journée malgré une météo capricieuse
 
--   **Classement des vingt cinq premiers**
+- **Classement des vingt cinq premiers**
 
-![Journal Avril 2016](/images/archives/2016/journal-2016-04/rassfou163.png){width="629" height="900"}
+![Journal Avril 2016](/images/archives/2016/journal-2016-04/rassfou163.webp){height="900" width="629"}
 
 \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
-![Journal Avril 2016](/images/archives/2016/journal-2016-04/imag1.jpg){width="100" height="65"} **TR0PHEE 55 ANS ET + COMPLEMENTAIRE 1er TOUR**
+![Journal Avril 2016](/images/archives/2016/journal-2016-04/imag1.webp){height="65" width="100"} **TR0PHEE 55 ANS ET + COMPLEMENTAIRE 1er TOUR**
 
-**![Journal Avril 2016](/images/archives/2016/journal-2016-04/trphcomp55_16.png){width="640" height="380"}**
+**![Journal Avril 2016](/images/archives/2016/journal-2016-04/trphcomp55_16.webp){height="380" width="640"}**
 
-**![Journal Avril 2016](/images/archives/2016/journal-2016-04/trophc55_16_2.png){width="640" height="427"}**
+**![Journal Avril 2016](/images/archives/2016/journal-2016-04/trophc55_16_2.webp){height="427" width="640"}**
 
 Rappel: L'équipe du Drennec a battu l'équipe de Fouesnant lors du 1er tour du trophée + 55 ans à Fouesnant le 18 Mars, nous basculons donc dans le groupe du trophée complémentaire 55 ans et +.
 
@@ -64,9 +64,9 @@ Huit joueurs de La pétanque fouesnantaise représentaient nos couleurs:
 
 L'organisation de cette compétition est identique à celle du Championnat des clubs, sauf pour le comptage des points:
 
--   2 points aux gagnants de chaque Tête à Tête.
--   3 points aux gagnants de chaque Doublette.
--   5 points aux gagnants de chaque triplette.
+- 2 points aux gagnants de chaque Tête à Tête.
+- 3 points aux gagnants de chaque Doublette.
+- 5 points aux gagnants de chaque triplette.
 
 Notre équipe l'emporte avec un score de 23 à 8 Points: deux Tête à Tête + 3 Doublettes + 2 Triplettes gagnées.
 
@@ -76,7 +76,7 @@ Bravo à toute l'équipe.
 
 \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
-**![Journal Avril 2016](/images/archives/2016/journal-2016-04/bouleroule.gif){width="59" height="58"}CHAMPIONNAT DEPARTEMENTAL TRIPLETTES OPEN A PLOUDALMEZEAU LES 23 ET 24 AVRIL**
+**![Journal Avril 2016](/images/archives/2016/journal-2016-04/bouleroule.gif){height="58" width="59"}CHAMPIONNAT DEPARTEMENTAL TRIPLETTES OPEN A PLOUDALMEZEAU LES 23 ET 24 AVRIL**
 
 Une équipe de la Pétanque Fouesnantaise était qualifiée pour cette compétition, elle ne dépassera pas les poules.
 
@@ -120,31 +120,31 @@ FOUESNANT / PLUGUFFAN
 
 **CHAMPIONNAT DES CLUBS + 55ans 3 ème JOURNEE LE 5 AVRIL**
 
-![Journal Avril 2016](/images/archives/2016/journal-2016-04/cccdc504166.jpg){width="640" height="427"}
+![Journal Avril 2016](/images/archives/2016/journal-2016-04/cccdc504166.webp){height="427" width="640"}
 
 Les 16 équipes du Sud Finistère en pleine action
 
-![Journal Avril 2016](/images/archives/2016/journal-2016-04/cccdc604162.jpg){width="640" height="427"}
+![Journal Avril 2016](/images/archives/2016/journal-2016-04/cccdc604162.webp){height="427" width="640"}
 
 Débrifing après la compétition
 
-![Journal Avril 2016](/images/archives/2016/journal-2016-04/cccdc504161.jpg){width="640" height="427"}
+![Journal Avril 2016](/images/archives/2016/journal-2016-04/cccdc504161.webp){height="427" width="640"}
 
 Désiré va frapper !
 
-![Journal Avril 2016](/images/archives/2016/journal-2016-04/cccdc604164.jpg){width="640" height="427"}
+![Journal Avril 2016](/images/archives/2016/journal-2016-04/cccdc604164.webp){height="427" width="640"}
 
 J'ai le point !
 
-![Journal Avril 2016](/images/archives/2016/journal-2016-04/cccdc50416d.jpg){width="320" height="480"}
+![Journal Avril 2016](/images/archives/2016/journal-2016-04/cccdc50416d.webp){height="480" width="320"}
 
 Fouesnant 3 en action
 
-![Journal Avril 2016](/images/archives/2016/journal-2016-04/cccdc0416e.png){width="640" height="427"}
+![Journal Avril 2016](/images/archives/2016/journal-2016-04/cccdc0416e.webp){height="427" width="640"}
 
 Le coatch Jean Claude sait rassurer ses troupes
 
-![Journal Avril 2016](/images/archives/2016/journal-2016-04/cccdc50416a.jpg){width="640" height="427"}
+![Journal Avril 2016](/images/archives/2016/journal-2016-04/cccdc50416a.webp){height="427" width="640"}
 
 Entre deux parties avec les supporters !
 
@@ -202,15 +202,15 @@ RESULTAT:
 
 Cette année il y avait trois équipes présentes de la Pétanque Fouesnantaise:
 
--   Jean Claude NEDELEC, Jean Luc BRIAND, Christian LE GOFF ne passent pas le cadrage.
--   Albert GOURVEN, Henry LE MOULLEC, Gérard SIMONIN ne passent pas les barrages.
--   Gilbert CAROFF, Joseph LE STUM, Désiré FLOCH s'arrêtent au premier tour.
+- Jean Claude NEDELEC, Jean Luc BRIAND, Christian LE GOFF ne passent pas le cadrage.
+- Albert GOURVEN, Henry LE MOULLEC, Gérard SIMONIN ne passent pas les barrages.
+- Gilbert CAROFF, Joseph LE STUM, Désiré FLOCH s'arrêtent au premier tour.
 
 \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
 ******MEILLEURES PERFORMANCES DU MOIS******
 
-**_**(En italique les joueurs externes au club)**_**
+**\_**(En italique les joueurs externes au club)**\_**
 
 ******CONCOURS SENIORS TRIPLETTES A BENODET LE 30 AVRIL******
 
@@ -220,7 +220,7 @@ Cette année il y avait trois équipes présentes de la Pétanque Fouesnantaise:
 
 RESULTATS:
 
-**1/2 finale du concours B :** Yves CLORENNEC, Gilles SQUIBAN, _Pierre FLORIMOND_
+**1/2 finale du concours B :** Yves CLORENNEC, Gilles SQUIBAN, *Pierre FLORIMOND*
 
 ****CONCOURS +55ans TRIPLETTES A COMBRIT LE 21 AVRIL****
 

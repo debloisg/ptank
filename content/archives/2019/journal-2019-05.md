@@ -5,14 +5,14 @@ date: 2018-12-19
 year: 2019
 category: "Journaux du club"
 journal: "2019-05"
-image: "/images/archives/2019/journal-2019-05/muguet1.png"
+image: "/images/archives/2019/journal-2019-05/muguet1.webp"
 joomlaId: 353
 hits: 5793
 ---
 
-![Journal Mai 2019](/images/archives/2019/journal-2019-05/muguet1.png){width="186" height="81"}
+![Journal Mai 2019](/images/archives/2019/journal-2019-05/muguet1.webp){width="186" height="81"}
 
-![Journal Mai 2019](/images/archives/2019/journal-2019-05/gif7.jpg){width="70" height="72"}
+![Journal Mai 2019](/images/archives/2019/journal-2019-05/gif7.webp){width="70" height="72"}
 
 ## **COUPE DU FINISTERE 2ème TOUR LE SAMEDI 04 MAI A FOUESNANT CONTRE ERGUE GABERIC**
 
@@ -34,7 +34,7 @@ Coach: Georges NEDELEC
 
 ---
 
-![Journal Mai 2019](/images/archives/2019/journal-2019-05/blaspet60.png){width="60" height="56"}
+![Journal Mai 2019](/images/archives/2019/journal-2019-05/blaspet60.webp){width="60" height="56"}
 
 ## 7 ème RASSEMBLEMENT DE FOUESNANT EN DOUBLETTES LE VENDREDI 10 MAI
 
@@ -86,29 +86,29 @@ _Jo Le Stum_
 
 _\_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \__
 
-![Journal Mai 2019](/images/archives/2019/journal-2019-05/rassfou191.jpg){width="630" height="354"}
+![Journal Mai 2019](/images/archives/2019/journal-2019-05/rassfou191.webp){width="630" height="354"}
 
-![Journal Mai 2019](/images/archives/2019/journal-2019-05/rassfou192.jpg){width="630" height="354"}
+![Journal Mai 2019](/images/archives/2019/journal-2019-05/rassfou192.webp){width="630" height="354"}
 
-![Journal Mai 2019](/images/archives/2019/journal-2019-05/rassfou193.jpg){width="630" height="354"}
+![Journal Mai 2019](/images/archives/2019/journal-2019-05/rassfou193.webp){width="630" height="354"}
 
-![Journal Mai 2019](/images/archives/2019/journal-2019-05/rassfou194.jpg){width="630" height="354"}
+![Journal Mai 2019](/images/archives/2019/journal-2019-05/rassfou194.webp){width="630" height="354"}
 
-![Journal Mai 2019](/images/archives/2019/journal-2019-05/rassfou199.jpg){width="630" height="354"}
+![Journal Mai 2019](/images/archives/2019/journal-2019-05/rassfou199.webp){width="630" height="354"}
 
-![Journal Mai 2019](/images/archives/2019/journal-2019-05/rassfou196.jpg){width="630" height="354"}
+![Journal Mai 2019](/images/archives/2019/journal-2019-05/rassfou196.webp){width="630" height="354"}
 
-![Journal Mai 2019](/images/archives/2019/journal-2019-05/rassfou1912.jpg){width="630" height="354"}
+![Journal Mai 2019](/images/archives/2019/journal-2019-05/rassfou1912.webp){width="630" height="354"}
 
-![Journal Mai 2019](/images/archives/2019/journal-2019-05/rasblt192.jpg){width="640" height="480"}
+![Journal Mai 2019](/images/archives/2019/journal-2019-05/rasblt192.webp){width="640" height="480"}
 
-![Journal Mai 2019](/images/archives/2019/journal-2019-05/rasblt193.jpg){width="640" height="360"}
+![Journal Mai 2019](/images/archives/2019/journal-2019-05/rasblt193.webp){width="640" height="360"}
 
-![Journal Mai 2019](/images/archives/2019/journal-2019-05/rassfou1913.jpg){width="630" height="354"}
+![Journal Mai 2019](/images/archives/2019/journal-2019-05/rassfou1913.webp){width="630" height="354"}
 
-![Journal Mai 2019](/images/archives/2019/journal-2019-05/rassfou197.jpg){width="630" height="354"}
+![Journal Mai 2019](/images/archives/2019/journal-2019-05/rassfou197.webp){width="630" height="354"}
 
-![Journal Mai 2019](/images/archives/2019/journal-2019-05/rassfou198.jpg){width="630" height="354"}
+![Journal Mai 2019](/images/archives/2019/journal-2019-05/rassfou198.webp){width="630" height="354"}
 
 _\_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \__
 
@@ -213,7 +213,7 @@ Jo KERMARREC et Christian LE GOFF sortent des poules mais sont éliminés au pre
 
 **\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_**
 
-![Journal Mai 2019](/images/archives/2019/journal-2019-05/gif6.jpg){width="48" height="70"}
+![Journal Mai 2019](/images/archives/2019/journal-2019-05/gif6.webp){width="48" height="70"}
 
 ## CHAMPIONNAT REGIONAL : TRIPLETTES VETERANS LE VENDREDI 31 MAI A IFFIGNAC
 

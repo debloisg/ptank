@@ -17,25 +17,25 @@
       "to": "2021-05",
       "thumbs": [
         {
-          "src": "/images/galerie/covid-19/act_pet_phas10.jpg",
+          "src": "/images/galerie/covid-19/act_pet_phas10.webp",
           "w": 800,
           "h": 1131,
           "alt": "Covid-19 — photo d'archive du club"
         },
         {
-          "src": "/images/galerie/covid-19/act_pet_phas12.jpg",
+          "src": "/images/galerie/covid-19/act_pet_phas12.webp",
           "w": 680,
           "h": 961,
           "alt": "Covid-19 — photo d'archive du club"
         },
         {
-          "src": "/images/galerie/covid-19/com_pet_covid_27_2_21.png",
+          "src": "/images/galerie/covid-19/com_pet_covid_27_2_21.webp",
           "w": 800,
           "h": 1132,
           "alt": "Covid-19 — photo d'archive du club"
         },
         {
-          "src": "/images/galerie/covid-19/planreprise3.jpg",
+          "src": "/images/galerie/covid-19/planreprise3.webp",
           "w": 680,
           "h": 969,
           "alt": "Covid-19 — photo d'archive du club"
@@ -43,10 +43,10 @@
       ]
     }
   },
-  "cover": "/images/galerie/covid-19/calendrier_reprise_des_competitions_.jpg",
+  "cover": "/images/galerie/covid-19/calendrier_reprise_des_competitions_.webp",
   "photos": [
     {
-      "src": "/images/galerie/covid-19/act_pet_phas10.jpg",
+      "src": "/images/galerie/covid-19/act_pet_phas10.webp",
       "w": 800,
       "h": 1131,
       "alt": "Covid-19 — photo d'archive du club",
@@ -66,7 +66,7 @@
       ]
     },
     {
-      "src": "/images/galerie/covid-19/act_pet_phas12.jpg",
+      "src": "/images/galerie/covid-19/act_pet_phas12.webp",
       "w": 680,
       "h": 961,
       "alt": "Covid-19 — photo d'archive du club",
@@ -82,7 +82,7 @@
       ]
     },
     {
-      "src": "/images/galerie/covid-19/com_pet_covid_27_2_21.png",
+      "src": "/images/galerie/covid-19/com_pet_covid_27_2_21.webp",
       "w": 800,
       "h": 1132,
       "alt": "Covid-19 — photo d'archive du club",
@@ -98,7 +98,7 @@
       ]
     },
     {
-      "src": "/images/galerie/covid-19/planreprise3.jpg",
+      "src": "/images/galerie/covid-19/planreprise3.webp",
       "w": 680,
       "h": 969,
       "alt": "Covid-19 — photo d'archive du club",
@@ -114,7 +114,7 @@
       ]
     },
     {
-      "src": "/images/galerie/covid-19/calendrier_reprise_des_competitions_.jpg",
+      "src": "/images/galerie/covid-19/calendrier_reprise_des_competitions_.webp",
       "w": 800,
       "h": 1156,
       "alt": "Covid-19 — photo d'archive du club",
@@ -130,7 +130,7 @@
       ]
     },
     {
-      "src": "/images/galerie/covid-19/protocole_sanitaire_2.png",
+      "src": "/images/galerie/covid-19/protocole_sanitaire_2.webp",
       "w": 800,
       "h": 866,
       "alt": "Covid-19 — photo d'archive du club",

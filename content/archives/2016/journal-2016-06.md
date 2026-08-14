@@ -5,12 +5,12 @@ date: 2016-05-31
 year: 2016
 category: "Journaux du club"
 journal: "2016-06"
-image: "/images/archives/2016/journal-2016-06/ccete20162.png"
+image: "/images/archives/2016/journal-2016-06/ccete20162.webp"
 joomlaId: 287
 hits: 6438
 ---
 
-![Journal Juin 2016](/images/archives/2016/journal-2016-06/ccete20162.png){width="667" height="357"}
+![Journal Juin 2016](/images/archives/2016/journal-2016-06/ccete20162.webp){height="357" width="667"}
 
 TOUS LES MERCREDIS DES MOIS DE JUILLET ET AOÛT A 14 H
 
@@ -20,19 +20,19 @@ QUATRE PARTIES, COUPES ET MISES + 25%.
 
 INSCRIPTIONS A PARTIR DE 13H30 (3€/joueur)
 
--   MERCREDI 06 JUILLET
--   MERCREDI 13 JUILLET
--   MERCREDI 20 JUILLET
--   MERCREDI 27 JUILLET
--   MERCREDI 03 AOÛT
--   MERCREDI 10 AOÛT
--   MERCREDI 17 AOÛT
--   MERCREDI 24 AOÛT
--   MERCREDI 31 AOÛT
+- MERCREDI 06 JUILLET
+- MERCREDI 13 JUILLET
+- MERCREDI 20 JUILLET
+- MERCREDI 27 JUILLET
+- MERCREDI 03 AOÛT
+- MERCREDI 10 AOÛT
+- MERCREDI 17 AOÛT
+- MERCREDI 24 AOÛT
+- MERCREDI 31 AOÛT
 
 \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
-**![Journal Juin 2016](/images/archives/2016/journal-2016-06/bouleroule.gif){width="59" height="58"}COUPE DU FINISTERE 2ème TOUR**
+**![Journal Juin 2016](/images/archives/2016/journal-2016-06/bouleroule.gif){height="58" width="59"}COUPE DU FINISTERE 2ème TOUR**
 
 La Pétanque fouesnantaise est toujours en course pour la coupe du Finistère . Au premier tour, elle s'est imposée face à l'équipe du Baie du Kernic.
 
@@ -44,20 +44,20 @@ L'équipe de Ploudaniel l'emporte assez largement sur Fouesnant.
 
 \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
-![Journal Juin 2016](/images/archives/2016/journal-2016-06/imag1.jpg){width="100" height="65"} **TR0PHEE 55 ANS ET + COMPLEMENTAIRE 1/4 DE FINALE**
+![Journal Juin 2016](/images/archives/2016/journal-2016-06/imag1.webp){height="65" width="100"} **TR0PHEE 55 ANS ET + COMPLEMENTAIRE 1/4 DE FINALE**
 
 Le tirage pour les 1/4 de finale du trophée vétérans a été effectué. Les compétitions se feront entre le 26 Septembre et le 30 Septembre inclus. Notre équipe de La Pétanque Fouesnantaise va rencontrer l'équipe d'Huelgoat à Huelgouat Voici la liste des équipes encore en course.
 
-| CLUB 1 | CLUB 2 |
-| --- | --- |
-| LESNEVEN | LANNILIS |
-| HUELGOAT | FOUESNANT |
-| PLOUDALMEZEAU | PLOMELIN |
-| TREMEVEN | KERLOUAN |
+| CLUB 1        | CLUB 2    |
+| ------------- | --------- |
+| LESNEVEN      | LANNILIS  |
+| HUELGOAT      | FOUESNANT |
+| PLOUDALMEZEAU | PLOMELIN  |
+| TREMEVEN      | KERLOUAN  |
 
 \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
-**![Journal Juin 2016](/images/archives/2016/journal-2016-06/bouleroule-2.gif){width="59" height="58"}CHAMPIONNAT DES CLUBS SENIORS 1 ère JOURNEE LE 12 JUIN**
+**![Journal Juin 2016](/images/archives/2016/journal-2016-06/bouleroule-2.gif){height="58" width="59"}CHAMPIONNAT DES CLUBS SENIORS 1 ère JOURNEE LE 12 JUIN**
 
 1ère journée \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
@@ -77,7 +77,7 @@ Si nous passons ce premier tour, le 2ème tour de la Coupe du Finistère aura li
 
 \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
-![Journal Juin 2016](/images/archives/2016/journal-2016-06/fte-du-club-161.jpg){width="152" height="101"}
+![Journal Juin 2016](/images/archives/2016/journal-2016-06/fte-du-club-161.webp){height="101" width="152"}
 
 FETE DU CLUB
 
@@ -89,7 +89,7 @@ Venez nombreux, Le rendez vous est fixé le samedi 11 Juin à 12h sur le boulodr
 
 \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
-**![Journal Juin 2016](/images/archives/2016/journal-2016-06/bouleroule-3.gif){width="59" height="58"}CHAMPIONNAT DES CLUBS + 55ans 7 ème JOURNEE LE 7 JUIN**
+**![Journal Juin 2016](/images/archives/2016/journal-2016-06/bouleroule-3.gif){height="58" width="59"}CHAMPIONNAT DES CLUBS + 55ans 7 ème JOURNEE LE 7 JUIN**
 
 7 ème journée et dernière journée \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
@@ -127,7 +127,7 @@ FOUESNANT / CHÂTEAULIN
 
 ******MEILLEURES PERFORMANCES DU MOIS******
 
-**_**(En italique les joueurs externes au club)**_**
+**\_**(En italique les joueurs externes au club)**\_**
 
 ****CONCOURS +55ans DOUBLETTES LE 30 JUIN A PONT L'ABBE****
 

@@ -5,12 +5,12 @@ date: 2014-01-03
 year: 2014
 category: "Journaux du club"
 journal: "2014-01"
-image: "/images/archives/2014/journal-2014-01/voeux201422.jpg"
+image: "/images/archives/2014/journal-2014-01/voeux201422.webp"
 joomlaId: 211
 hits: 5574
 ---
 
-![journal Janvier 2014](/images/archives/2014/journal-2014-01/voeux201422.jpg){width="294" height="490"}
+![journal Janvier 2014](/images/archives/2014/journal-2014-01/voeux201422.webp){height="490" width="294"}
 
 **VOEUX DU PRESIDENT DE LA PETANQUE FOUESNANTAISE**
 
@@ -52,11 +52,11 @@ Le match aller aura lieu à Fouesnant, alors inscrivez-vous.
 
 La soirée s’est terminée par un apéritif avec galettes.
 
-![journal Janvier 2014](/images/archives/2014/journal-2014-01/bouleroule.gif){width="70" height="69"}**CHALLENGE D'HIVER DU CLUB SUITE:**
+![journal Janvier 2014](/images/archives/2014/journal-2014-01/bouleroule.gif){height="69" width="70"}**CHALLENGE D'HIVER DU CLUB SUITE:**
 
 La nouvelle année débute avec la suite du challenge d'hiver du club. Après les journées du 4 et 11 décembre voici les dates retenues pour le challenge:
 
--   8/01/2014 en triplettes, 3 parties, tirées au sort à chaque partie
--   15/01/2014 en tête à tête, 3 parties
--   22/01/2014 en doublettes, 3 parties, tirées au sort à chaque partie
--   29/01/2014 en triplettes, 3 parties tirées au sort à chaque partie
+- 8/01/2014 en triplettes, 3 parties, tirées au sort à chaque partie
+- 15/01/2014 en tête à tête, 3 parties
+- 22/01/2014 en doublettes, 3 parties, tirées au sort à chaque partie
+- 29/01/2014 en triplettes, 3 parties tirées au sort à chaque partie

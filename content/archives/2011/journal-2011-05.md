@@ -16,7 +16,7 @@ hits: 8488
 
 ##### JOURNAL DU MOIS DE MAI
 
-![Journal Mai 2011](/images/archives/2011/journal-2011-05/la-for-foues.jpg){width="620" height="413"}  La Forêt fouesnant  .![Journal Mai 2011](/images/archives/2011/journal-2011-05/cc-25-4-11-foue.jpg){width="620" height="413"}    Concours seniors du 25 Avril à Fouesnant Les Glénan  .
+![Journal Mai 2011](/images/archives/2011/journal-2011-05/la-for-foues.webp){width="620" height="413"}  La Forêt fouesnant  .![Journal Mai 2011](/images/archives/2011/journal-2011-05/cc-25-4-11-foue.webp){width="620" height="413"}    Concours seniors du 25 Avril à Fouesnant Les Glénan  .
 
 ### CHAMPIONNAT PAR EQUIPES VETERANS POULE 9
 

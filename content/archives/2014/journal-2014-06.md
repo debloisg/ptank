@@ -50,7 +50,7 @@ hits: 6450
 
 -   **Championnat de clubs Vétérans Division 2 Poule H à Pont Croix**:** **FOUESNANT 2 /** **Pluguffan****
 
-![Journal Juin 2014](/images/archives/2014/journal-2014-06/cdcphf2_14.png){width="640" height="479"}
+![Journal Juin 2014](/images/archives/2014/journal-2014-06/cdcphf2_14.webp){width="640" height="479"}
 
 Composition de l'équipe de gauche à droite:
 

@@ -5,14 +5,14 @@ date: 2015-06-07
 year: 2015
 category: "Journaux du club"
 journal: "2015-06"
-image: "/images/archives/2015/journal-2015-06/fetpomm.jpg"
+image: "/images/archives/2015/journal-2015-06/fetpomm.webp"
 joomlaId: 263
 hits: 5731
 ---
 
-**![journal Juin 2015](/images/archives/2015/journal-2015-06/fetpomm.jpg){width="100" height="100"}  FÊTE DES POMMIERS**
+**![journal Juin 2015](/images/archives/2015/journal-2015-06/fetpomm.webp){width="100" height="100"}  FÊTE DES POMMIERS**
 
-**![journal Juin 2015](/images/archives/2015/journal-2015-06/fdespomm1.jpg){width="300" height="424"}**
+**![journal Juin 2015](/images/archives/2015/journal-2015-06/fdespomm1.webp){width="300" height="424"}**
 
  **![journal Juin 2015](/images/archives/2015/journal-2015-06/coupe11.gif){width="40" height="66"} CHAMPIONNAT DES CLUBS + 55ans**
 
@@ -34,7 +34,7 @@ Jo Le Stum
 
 **![journal Juin 2015](/images/archives/2015/journal-2015-06/bouleroule.gif){width="70" height="69"}COUPE DU FINISTERE 1er TOUR FACE A PLOUNEOUR MENEZ**
 
-**![journal Juin 2015](/images/archives/2015/journal-2015-06/cdfinis15.png){width="503" height="387"}**
+**![journal Juin 2015](/images/archives/2015/journal-2015-06/cdfinis15.webp){width="503" height="387"}**
 
 **Le deuxième tour de la coupe de France a eu lieu le samedi 13 Juin. Notre club était qualifié pour ce deuxième tour mais n'a pu constituer une équipe à temps, pour diverses raisons. Elle a du déclarer forfait. Nous sommes écartés de la coupe de France et nous basculons vers la coupe du Finistère.**
 

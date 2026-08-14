@@ -5,12 +5,12 @@ date: 2016-11-01
 year: 2016
 category: "Journaux du club"
 journal: "2016-11"
-image: "/images/archives/2016/journal-2016-11/thelt16.jpg"
+image: "/images/archives/2016/journal-2016-11/thelt16.webp"
 joomlaId: 291
 hits: 4252
 ---
 
-![Journal Novembre 2016](/images/archives/2016/journal-2016-11/thelt16.jpg){width="311" height="162"} **CONCOURS TELETHON**
+![Journal Novembre 2016](/images/archives/2016/journal-2016-11/thelt16.webp){width="311" height="162"} **CONCOURS TELETHON**
 
 Comme tous les ans , La Pétanque Fouesnantaise s'associe pour la bonne cause à la journée du Téléthon .
 
@@ -22,7 +22,7 @@ Venez nombreux soutenir cette action.
 
 \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
-![Journal Novembre 2016](/images/archives/2016/journal-2016-11/imag1.jpg){width="100" height="65"}**CHALLENGE INTERNE DU CREDIT AGRICOLE** ![Journal Novembre 2016](/images/archives/2016/journal-2016-11/logoca1.png){width="121" height="103"}      Le challenge CREDIT AGRICOLE va débuter cette année le 9 Novembre.  Le déroulement de la compétition se fera en 3 parties par journée.  Une participation de 1€ sera demandée pour chaque journée.    Les futurs licenciés au club pour 2017 sont invités à participer à ce challenge.       Voici les dates à retenir:
+![Journal Novembre 2016](/images/archives/2016/journal-2016-11/imag1.webp){width="100" height="65"}**CHALLENGE INTERNE DU CREDIT AGRICOLE** ![Journal Novembre 2016](/images/archives/2016/journal-2016-11/logoca1.webp){width="121" height="103"}      Le challenge CREDIT AGRICOLE va débuter cette année le 9 Novembre.  Le déroulement de la compétition se fera en 3 parties par journée.  Une participation de 1€ sera demandée pour chaque journée.    Les futurs licenciés au club pour 2017 sont invités à participer à ce challenge.       Voici les dates à retenir:
 
 -   **Tête à Tête le 9 Novembre**
 
@@ -181,13 +181,13 @@ Un challenge interne d'hiver suivra, avec des dates de concours le mercredi et l
 
 \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
-![Journal Novembre 2016](/images/archives/2016/journal-2016-11/blaspet80.png){width="80" height="75"}
+![Journal Novembre 2016](/images/archives/2016/journal-2016-11/blaspet80.webp){width="80" height="75"}
 
 ## **ASSEMBLEE GENERALE DE LA PETANQUE FOUESNANTAISE**
 
-![Journal Novembre 2016](/images/archives/2016/journal-2016-11/ag161.jpg){width="680" height="383"}
+![Journal Novembre 2016](/images/archives/2016/journal-2016-11/ag161.webp){width="680" height="383"}
 
-![Journal Novembre 2016](/images/archives/2016/journal-2016-11/ag162.jpg){width="680" height="383"}
+![Journal Novembre 2016](/images/archives/2016/journal-2016-11/ag162.webp){width="680" height="383"}
 
 C’est en présence d’une soixantaine d’adhérents et de Joël Spitz, adjoint aux associations, que s’est déroulée le samedi 29 Octobre l’Assemblée Générale de la Pétanque Fouesnantaise.
 

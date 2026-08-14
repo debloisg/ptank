@@ -473,23 +473,22 @@ useSeoMeta({
                   :alt="thumb.alt"
                   :width="thumb.w"
                   :height="thumb.h"
-                  format="auto"
-                  sizes="96px"
                   loading="lazy"
-                  class="size-14 rounded-lg border border-default object-cover sm:size-16"
+                  class="size-14 rounded-lg border border-default bg-muted object-cover sm:size-16"
                 />
               </span>
               <!-- No width/height: article frontmatter carries no dimensions, and
                    the fixed CSS box already reserves the space, so there's no CLS
-                   to guard against here. -->
+                   to guard against here. `sizes` makes the provider serve the
+                   -800 rendition — article heroes can be 1600px files, far too
+                   heavy for a 64px box. -->
               <NuxtImg
                 v-else-if="item.event.image"
                 :src="item.event.image"
                 :alt="item.event.title"
-                format="auto"
-                sizes="96px"
+                sizes="64px"
                 loading="lazy"
-                class="size-14 shrink-0 rounded-lg border border-default object-cover sm:size-16"
+                class="size-14 shrink-0 rounded-lg border border-default bg-muted object-cover sm:size-16"
               />
 
               <span class="min-w-0 flex-1">

@@ -5,7 +5,7 @@ date: 2013-07-05
 year: 2010
 category: "Journaux du club"
 journal: "2010-04"
-image: "/images/archives/2010/journal-2010-04/paques3.png"
+image: "/images/archives/2010/journal-2010-04/paques3.webp"
 joomlaId: 123
 hits: 4797
 ---
@@ -14,11 +14,11 @@ AVRIL 2010: Journal du mois
 
 ### Un mois d'Avril prometteur pour la pétanque Fouesnantaise
 
-![Journal Avril 2010](/images/archives/2010/journal-2010-04/paques3.png){width="650" height="200"}
+![Journal Avril 2010](/images/archives/2010/journal-2010-04/paques3.webp){height="200" width="650"}
 
 ## AVRIL 10
 
-![Journal Avril 2010](/images/archives/2010/journal-2010-04/paque1.gif){width="41" height="53"}
+![Journal Avril 2010](/images/archives/2010/journal-2010-04/paque1.gif){height="53" width="41"}
 
 CONCOURS TRIPLETTES SENIORS DU LUNDI 5 AVRIL A FOUESNANT LES GLENAN.
 
@@ -36,7 +36,7 @@ La pétanque Fouesnantaise remporte brillamment ce concours et une autre équipe
 - 2ème LE PAILLER, PICHON, PICHON de CARHAIX.
 - 3ème LE BRIS, POUPET, VO de FOUESNANT
 
-![Journal Avril 2010](/images/archives/2010/journal-2010-04/bouleroule.gif){width="70" height="69"}
+![Journal Avril 2010](/images/archives/2010/journal-2010-04/bouleroule.gif){height="69" width="70"}
 
 ### CALENDRIER DEUXIEME TOUR TROPHEE DES VETERANS DU FINISTERE :
 
@@ -46,7 +46,7 @@ Pour notre équipe la qualification pour le prochain tour est jouable, il faut q
 
 ### VENEZ NOMBREUX SOUTENIR NOTRE EQUIPE LE VENDREDI 16 AVRIL
 
-![Journal Avril 2010](/images/archives/2010/journal-2010-04/paque2.gif){width="54" height="51"}
+![Journal Avril 2010](/images/archives/2010/journal-2010-04/paque2.gif){height="51" width="54"}
 
 ### CALENDRIER DEUXIEME TOUR DE LA COUPE DE FRANCE :
 
@@ -70,7 +70,7 @@ Trois compétitions ont déjà eu lieu sur les cinq programmées, notre équipe 
 
 ### RESULTATS CHAMPIONNAT DU FINISTERE EN TRIPLETTES VETERANS:
 
-![Journal Avril 2010](/images/archives/2010/journal-2010-04/trophees010.gif){width="44" height="66"} ![Journal Avril 2010](/images/archives/2010/journal-2010-04/bravo.gif){width="115" height="115"}
+![Journal Avril 2010](/images/archives/2010/journal-2010-04/trophees010.gif){height="66" width="44"} ![Journal Avril 2010](/images/archives/2010/journal-2010-04/bravo.gif){height="115" width="115"}
 
 Les championnats du Finistère vétérans se sont déroulés les 10 et 11 Avril à Plounévez lochrist. 117 équipes étaient représentées dont 2 de La Pétanque Fouesnantaise.
 
@@ -82,7 +82,7 @@ Pour aller au championnat de France qui aura lieu les 25 et 26 Septembre à Seda
 
 ### Gilbert CAROFF, Georges CAROFF, Jean Yves ELOIRE .
 
-![Journal Avril 2010](/images/archives/2010/journal-2010-04/vet2_20102.jpg){width="450" height="338"}
+![Journal Avril 2010](/images/archives/2010/journal-2010-04/vet2_20102.webp){height="338" width="450"}
 
 La deuxième équipe quand à elle est allée jusqu'en 32ème de finale.
 

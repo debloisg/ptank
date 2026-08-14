@@ -14,11 +14,11 @@ hits: 3824
 
 ## MARCHE DE NOEL DE FOUESNANT
 
-![journal déc 22](/images/archives/2022/journal-2022-12/march_noel_22_1.png){width="400" height="567"}
+![journal déc 22](/images/archives/2022/journal-2022-12/march_noel_22_1.webp){width="400" height="567"}
 
-![journal déc 22](/images/archives/2022/journal-2022-12/3700902551251787940.jpg){width="511" height="383"}
+![journal déc 22](/images/archives/2022/journal-2022-12/3700902551251787940.webp){width="511" height="383"}
 
-![journal déc 22](/images/archives/2022/journal-2022-12/852368100807759216.jpg){width="511" height="383"}
+![journal déc 22](/images/archives/2022/journal-2022-12/852368100807759216.webp){width="511" height="383"}
 
 Quelques représentants de la Pétanque Fouesnantaise ont été présents dans le chalet de Noël réservé aux associations fouesnantaises.
 
@@ -81,7 +81,7 @@ Les joueurs intéressés doivent s'inscrire avant le 13 Janvier, et nous ferons 
 
 ---
 
-![journal déc 22](/images/archives/2022/journal-2022-12/logoffpjppet.png){width="327" height="47"}
+![journal déc 22](/images/archives/2022/journal-2022-12/logoffpjppet.webp){width="327" height="47"}
 
 ## DATES A RETENIR POUR LES LICENCES 2023
 
@@ -97,7 +97,7 @@ Les joueurs intéressés doivent s'inscrire avant le 13 Janvier, et nous ferons 
 
 -   ### Samedi 14 janvier
 
-![journal déc 22](/images/archives/2022/journal-2022-12/icon-48-alert.png){width="48" height="48"}
+![journal déc 22](/images/archives/2022/journal-2022-12/icon-48-alert.webp){width="48" height="48"}
 
 Merci de bien respecter ces dates pour faciliter le travail administratif.
 
@@ -115,7 +115,7 @@ _Rappel: Vous pouvez consulter les informations concernant , inscription, renouv
 
 ---
 
-![journal déc 22](/images/archives/2022/journal-2022-12/telethon2022.png){width="250" height="108"}
+![journal déc 22](/images/archives/2022/journal-2022-12/telethon2022.webp){width="250" height="108"}
 
 ## ** CONCOURS DU TELETHON 2022**
 
@@ -135,9 +135,9 @@ Le samedi 3 décembre est organisé un concours ouvert à tous, licenciés ou am
 
 **![journal déc 22](/images/archives/2022/journal-2022-12/telethon222.gif){width="600" height="848"}**
 
-![journal déc 22](/images/archives/2022/journal-2022-12/teleth22_1.jpg){width="680" height="510"}
+![journal déc 22](/images/archives/2022/journal-2022-12/teleth22_1.webp){width="680" height="510"}
 
-![journal déc 22](/images/archives/2022/journal-2022-12/teleth22_2.jpg){width="680" height="510"}
+![journal déc 22](/images/archives/2022/journal-2022-12/teleth22_2.webp){width="680" height="510"}
 
 **32 doublettes ont participé à ce Téléthon 2022, ce qui a permis à La Pétanque Fouesnantaise d'offrir une somme de 500€ à l'AFM TELETHON 2022.**
 
@@ -145,11 +145,11 @@ Le samedi 3 décembre est organisé un concours ouvert à tous, licenciés ou am
 
 **Rendez vous est pris pour l'année prochaine. Ci-dessous le résultat de cette compétition.**
 
-![journal déc 22](/images/archives/2022/journal-2022-12/telthon22_result1.jpg){width="680" height="958"}
+![journal déc 22](/images/archives/2022/journal-2022-12/telthon22_result1.webp){width="680" height="958"}
 
 ---
 
-  **![journal déc 22](/images/archives/2022/journal-2022-12/gif1.png){width="85" height="70"}  PROGRAMME DE FIN D'ANNEE** (suite à la réunion du bureau)
+  **![journal déc 22](/images/archives/2022/journal-2022-12/gif1.webp){width="85" height="70"}  PROGRAMME DE FIN D'ANNEE** (suite à la réunion du bureau)
 
 Concours interne ouvert aux licenciés et futurs licenciés du club
 

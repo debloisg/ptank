@@ -7,6 +7,8 @@
 // the interleaving that makes it interesting (a competition write-up sitting next
 // to the album of photos from that same weekend).
 
+import type { GalleryPhoto } from '~/utils/gallery'
+
 export interface FeedArticle {
   path: string
   title?: string
@@ -52,7 +54,11 @@ export interface ArchiveEvent {
   image?: string
   /** Albums only. */
   photoCount?: number
-  thumbs?: Array<{ src: string, w: number, h: number, alt: string }>
+  /**
+   * Albums only. Derived from the same catalogue records as the gallery, so the
+   * shape is picked from GalleryPhoto rather than restated.
+   */
+  thumbs?: Array<Pick<GalleryPhoto, 'src' | 'w' | 'h' | 'alt'>>
 }
 
 // A distinct icon per kind of thing, matched against the imported Joomla

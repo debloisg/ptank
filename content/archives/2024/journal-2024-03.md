@@ -5,12 +5,12 @@ date: 2024-01-01
 year: 2024
 category: "Journaux du club"
 journal: "2024-03"
-image: "/images/archives/2024/journal-2024-03/blasoncd29.jpg"
+image: "/images/archives/2024/journal-2024-03/blasoncd29.webp"
 joomlaId: 453
 hits: 5807
 ---
 
-![Journal Mars 24](/images/archives/2024/journal-2024-03/blasoncd29.jpg){width="64" height="70"}
+![Journal Mars 24](/images/archives/2024/journal-2024-03/blasoncd29.webp){height="70" width="64"}
 
 ### ORGANISATION DES COMPETITIONS DU CHAMPIONNAT
 
@@ -18,66 +18,66 @@ Une rubrique **"Organisation des compétitions"** vient d'être créée dans le 
 
 ---
 
-![Journal Mars 24](/images/archives/2024/journal-2024-03/imag1.jpg){width="121" height="79"}
+![Journal Mars 24](/images/archives/2024/journal-2024-03/imag1.webp){height="79" width="121"}
 
-### ** CHAMPIONNAT QUALIFICATIF SECTEUR TRIPLETTES MASCULINES Dimanche 3 mars à Douarnenez**
+### \*\* CHAMPIONNAT QUALIFICATIF SECTEUR TRIPLETTES MASCULINES Dimanche 3 mars à Douarnenez\*\*
 
 Départemental à Ploudaniel les 6 et 7 avril à 9h
 
 Régional à Cléder le 19 mai à 8h
 
-| **Nom Prénom** | **Nom Prénom** | **Nom Prénom** | **Résultat** |
-| --- | --- | --- | --- |
-| **André GUERIN** | **Pierre BOLLINI** | **Hervé DUBACH** | **QUALIFIES** |
-| **Jordan GUITON** | **Gaëtan LE DREZEN** | **Philippe DUCHATEL** | **QUALIFIES** |
-| Denis BON | Gérard MACHARD | Yves COTTAREL | Perdants en poules |
-| Patrick OLIVRY | Patrick FOUQUET | Christian THIERY | Perdants en barrage de poules |
-| Christian PRIOL | Laurent CAROFF | Gilbert CAROFF | Perdants en barrage de poules |
+| **Nom Prénom**    | **Nom Prénom**       | **Nom Prénom**        | **Résultat**                  |
+| ----------------- | -------------------- | --------------------- | ----------------------------- |
+| **André GUERIN**  | **Pierre BOLLINI**   | **Hervé DUBACH**      | **QUALIFIES**                 |
+| **Jordan GUITON** | **Gaëtan LE DREZEN** | **Philippe DUCHATEL** | **QUALIFIES**                 |
+| Denis BON         | Gérard MACHARD       | Yves COTTAREL         | Perdants en poules            |
+| Patrick OLIVRY    | Patrick FOUQUET      | Christian THIERY      | Perdants en barrage de poules |
+| Christian PRIOL   | Laurent CAROFF       | Gilbert CAROFF        | Perdants en barrage de poules |
 
 Bonne chance à tous les participants
 
 ---
 
-![Journal Mars 24](/images/archives/2024/journal-2024-03/gif6.jpg){width="48" height="70"}
+![Journal Mars 24](/images/archives/2024/journal-2024-03/gif6.webp){height="70" width="48"}
 
-### ** CHAMPIONNAT DES CLUBS VETERANS 2ème JOURNEE LE 12 MARS**
+### \*\* CHAMPIONNAT DES CLUBS VETERANS 2ème JOURNEE LE 12 MARS\*\*
 
-| #### Mardi 12 mars |  |  |  |  |  |
-| --- | --- | --- | --- | --- | --- |
-|  | ##### Lieu de rencontres | ##### Equipe 1 | ##### Score 1 | ##### Score 2 | ##### Equipe 2 |
-| ##### DIVISION 1 Groupe B | _Fouesnant_ | FOUESNANT 2 | 14 | **22** | **LE FAOU HANVEC 1** |
-| ##### DIVISION 2 Groupe D | _Fouesnant_ | **FOUESNANT 3** | **20** | 16 | PONT DE BUIS 1 |
-| ##### DIVISION 2 Groupe D | _Fouesnant_ | **FOUESNANT 4** | **24** | 12 | PLOMELIN 3 |
-| ##### DIVISION 3 Groupe K | Exempt | FOUESNANT 5 |  |  |  |
-| ##### DIVISION 3 Groupe J | _Audierne_ | **FOUESNANT 6** | **20** | 16 | PLUGUFFAN 1 |
-| ##### DIVISION 3 Groupe I | _Pluguffan_ | FOUESNANT 7 | 10 | **26** | **PLUGUFFAN 2** |
-| ##### DIVISION 3 Groupe J | _Audierne_ | FOUESNANT 8 | 10 | **26** | **LOCTUDY 3** |
-| ##### DIVISION 3 Groupe I | _Pluguffan_ | FOUESNANT 9 | 10 | **26** | **PLOMELIN 4** |
+| #### Mardi 12 mars        |                          |                 |               |               |                      |
+| ------------------------- | ------------------------ | --------------- | ------------- | ------------- | -------------------- |
+|                           | ##### Lieu de rencontres | ##### Equipe 1  | ##### Score 1 | ##### Score 2 | ##### Equipe 2       |
+| ##### DIVISION 1 Groupe B | *Fouesnant*              | FOUESNANT 2     | 14            | **22**        | **LE FAOU HANVEC 1** |
+| ##### DIVISION 2 Groupe D | *Fouesnant*              | **FOUESNANT 3** | **20**        | 16            | PONT DE BUIS 1       |
+| ##### DIVISION 2 Groupe D | *Fouesnant*              | **FOUESNANT 4** | **24**        | 12            | PLOMELIN 3           |
+| ##### DIVISION 3 Groupe K | Exempt                   | FOUESNANT 5     |               |               |                      |
+| ##### DIVISION 3 Groupe J | *Audierne*               | **FOUESNANT 6** | **20**        | 16            | PLUGUFFAN 1          |
+| ##### DIVISION 3 Groupe I | *Pluguffan*              | FOUESNANT 7     | 10            | **26**        | **PLUGUFFAN 2**      |
+| ##### DIVISION 3 Groupe J | *Audierne*               | FOUESNANT 8     | 10            | **26**        | **LOCTUDY 3**        |
+| ##### DIVISION 3 Groupe I | *Pluguffan*              | FOUESNANT 9     | 10            | **26**        | **PLOMELIN 4**       |
 
 ---
 
-![Journal Mars 24](/images/archives/2024/journal-2024-03/imag1-2.jpg){width="121" height="79"}
+![Journal Mars 24](/images/archives/2024/journal-2024-03/imag1-2.webp){height="79" width="121"}
 
-### ** CHAMPIONNAT QUALIFICATIF SECTEUR DOUBLETTES MASCULINES Dimanche 17 mars à Plomelin 10h**
+### \*\* CHAMPIONNAT QUALIFICATIF SECTEUR DOUBLETTES MASCULINES Dimanche 17 mars à Plomelin 10h\*\*
 
 Départemental à Plourin les 11 et 12 mai à 9h
 
 Régional à Maenroch (35) le 1er juin à 8h
 
-| **Nom Prénom** | **Nom Prénom** | **Résultat** |
-| --- | --- | --- |
-| DUCHATEL Philippe | LE DREZEN Gaëtan |  |
-| GUITON Jordan | RAZIL Gildas | Perdu après qualification |
-| LEMAITRE Wilfried | ANDRE Jérome |  |
-| **MACHARD Gérard** | **BON Denis** | **QUALIFIES** |
-| CAROFF Laurent | CAROFF Gilbert |  |
-| JUNOT Alain | OLIVRY Patrick |  |
-| GUERIN André | FRAVAL Gwervyn |  |
-| **BOLLINI Pierre** | **DUBACH Hervé** | **QUALIFIES** |
-| LEBON Philippe | LANGLAIS Pascal | Perdu après qualification |
-| LANDOAS Yvon | MARIANA Philippe | Perdu après qualification |
-| PENNARUN Eric | HERVE Jean Luc | Perdu en barrage |
-| POMMEREUL Jacques | COLPAERT Jérémy |  |
+| **Nom Prénom**     | **Nom Prénom**   | **Résultat**              |
+| ------------------ | ---------------- | ------------------------- |
+| DUCHATEL Philippe  | LE DREZEN Gaëtan |                           |
+| GUITON Jordan      | RAZIL Gildas     | Perdu après qualification |
+| LEMAITRE Wilfried  | ANDRE Jérome     |                           |
+| **MACHARD Gérard** | **BON Denis**    | **QUALIFIES**             |
+| CAROFF Laurent     | CAROFF Gilbert   |                           |
+| JUNOT Alain        | OLIVRY Patrick   |                           |
+| GUERIN André       | FRAVAL Gwervyn   |                           |
+| **BOLLINI Pierre** | **DUBACH Hervé** | **QUALIFIES**             |
+| LEBON Philippe     | LANGLAIS Pascal  | Perdu après qualification |
+| LANDOAS Yvon       | MARIANA Philippe | Perdu après qualification |
+| PENNARUN Eric      | HERVE Jean Luc   | Perdu en barrage          |
+| POMMEREUL Jacques  | COLPAERT Jérémy  |                           |
 
 Bonne chance à tous les participants
 
@@ -89,13 +89,13 @@ Départemental à Plourin le 12 mai à 9h
 
 Régional à Maenroch (35) le 1 juin à 8h
 
-| **Nom Prénom** | **Résultat** |
-| --- | --- |
-| VERDEL Irène |  |
-| PRIMOT Marie Hélène |  |
-| RANNOU Odile |  |
-| QUINTIN Sabrina |  |
-| **LE BON Claudie** | **QUALIFIEE** |
+| **Nom Prénom**      | **Résultat**  |
+| ------------------- | ------------- |
+| VERDEL Irène        |               |
+| PRIMOT Marie Hélène |               |
+| RANNOU Odile        |               |
+| QUINTIN Sabrina     |               |
+| **LE BON Claudie**  | **QUALIFIEE** |
 
 **Bonne chance à tous les participants**
 
@@ -103,50 +103,50 @@ Régional à Maenroch (35) le 1 juin à 8h
 
 ### **CHAMPIONNAT QUALIFICATIF SECTEUR TRIPLETTES PROMOTION Dimanche 24 mars à Quimper 10h**
 
--   Départemental à Baie du Kernic les 4 et 5 mai à 9h
--   Régional à Bourg des Comptes (35) le 25 mai à 8h
+- Départemental à Baie du Kernic les 4 et 5 mai à 9h
+- Régional à Bourg des Comptes (35) le 25 mai à 8h
 
-![Journal Mars 24](/images/archives/2024/journal-2024-03/chptpromo24.jpg){width="680" height="453"}
+![Journal Mars 24](/images/archives/2024/journal-2024-03/chptpromo24.webp){height="453" width="680"}
 
 Bravo aux qualifiés, Il manque Christian Priol sur la photo
 
-| **Nom Prénom** | **Nom Prénom** | **Nom Prénom** | **Résultat** |
-| --- | --- | --- | --- |
-| **LE MAITRE Wilfried** | **DUCHATEL Philippe** | **GUITON Jordan** | **QUALIFIES** |
-| **CAROFF Gilbert** | **PRIOL Christian** | **ELOIRE Jean Yves** | **QUALIFIES** |
-| JUNOT Alain | OLIVRY Patrick | CROGUENNEC Roger | Perdants en poule |
-| GUILLOSSOU Danièle | MERCIER Patrick | COQUILLON Alain | Perdants en poule |
-| **MACHARD Gérard** | **COTTAREL Yves** | **BON Denis** | **QUALIFIES** |
-| **LE DREZEN Gaëtan** | **RAZIL Gildas** | **FRAVAL Gwervyn** | **QUALIFIES** |
+| **Nom Prénom**         | **Nom Prénom**        | **Nom Prénom**       | **Résultat**      |
+| ---------------------- | --------------------- | -------------------- | ----------------- |
+| **LE MAITRE Wilfried** | **DUCHATEL Philippe** | **GUITON Jordan**    | **QUALIFIES**     |
+| **CAROFF Gilbert**     | **PRIOL Christian**   | **ELOIRE Jean Yves** | **QUALIFIES**     |
+| JUNOT Alain            | OLIVRY Patrick        | CROGUENNEC Roger     | Perdants en poule |
+| GUILLOSSOU Danièle     | MERCIER Patrick       | COQUILLON Alain      | Perdants en poule |
+| **MACHARD Gérard**     | **COTTAREL Yves**     | **BON Denis**        | **QUALIFIES**     |
+| **LE DREZEN Gaëtan**   | **RAZIL Gildas**      | **FRAVAL Gwervyn**   | **QUALIFIES**     |
 
 Bonne chance à tous les participants
 
 ---
 
-![Journal Mars 24](/images/archives/2024/journal-2024-03/gif6-2.jpg){width="48" height="70"}
+![Journal Mars 24](/images/archives/2024/journal-2024-03/gif6-2.webp){height="70" width="48"}
 
-** 1ère journée CRCV (Chpt Régional des Clubs Vétérans) et 3ème journée CDCV (Chpt Départemental des Clubs Vétérans)** mardi 26 mars
+\*\* 1ère journée CRCV (Chpt Régional des Clubs Vétérans) et 3ème journée CDCV (Chpt Départemental des Clubs Vétérans)\*\* mardi 26 mars
 
-![Journal Mars 24](/images/archives/2024/journal-2024-03/cdc_vet_fouesnant1_d1.jpg){width="680" height="422"}
+![Journal Mars 24](/images/archives/2024/journal-2024-03/cdc_vet_fouesnant1_d1.webp){height="422" width="680"}
 
 Equipe Fouesnant 1 **CRCV (Chpt Régional des Clubs Vétérans)**
 
-| #### Mardi 26 mars |  |  |  |  |  |
-| --- | --- | --- | --- | --- | --- |
-|  | ##### Lieu de rencontres | ##### Equipe 1 | ##### Score 1 | ##### Score 2 | ##### Equipe 2 |
-| ##### CRCV Groupe A | _Fouesnant_ | **FOUESNANT 1** | **20** | 16 | DOUARNENEZ |
-| ##### DIVISION 1 Groupe B | _Quimperlé_ | FOUESNANT 2 | 2 | **34** | **BANNALEC 1** |
-| ##### DIVISION 2 Groupe D | _Loctudy_ | **FOUESNANT 3** | **26** | 10 | PLOMELIN 3 |
-| ##### DIVISION 2 Groupe D | _Loctudy_ | FOUESNANT 4 | 2 | **34** | **ERGUE GABERIC 1** |
-| ##### DIVISION 3 Groupe K | _Pont Aven_ | **FOUESNANT 5** | **28** | 8 | BANNALEC 3 |
-| ##### DIVISION 3 Groupe J | _Pont Croix_ | FOUESNANT 6 | 14 | **22** | **PONT CROIX** |
-| ##### DIVISION 3 Groupe I | Exempt | FOUESNANT 7 |  |  |  |
-| ##### DIVISION 3 Groupe J | _Pont Croix_ | FOUESNANT 8 | 0 | **36** | **AUDIERNE** |
-| ##### DIVISION 3 Groupe I | _Pont L'Abbé_ | FOUESNANT 9 | 14 | **22** | **BENODET 4** |
+| #### Mardi 26 mars        |                          |                 |               |               |                     |
+| ------------------------- | ------------------------ | --------------- | ------------- | ------------- | ------------------- |
+|                           | ##### Lieu de rencontres | ##### Equipe 1  | ##### Score 1 | ##### Score 2 | ##### Equipe 2      |
+| ##### CRCV Groupe A       | *Fouesnant*              | **FOUESNANT 1** | **20**        | 16            | DOUARNENEZ          |
+| ##### DIVISION 1 Groupe B | *Quimperlé*              | FOUESNANT 2     | 2             | **34**        | **BANNALEC 1**      |
+| ##### DIVISION 2 Groupe D | *Loctudy*                | **FOUESNANT 3** | **26**        | 10            | PLOMELIN 3          |
+| ##### DIVISION 2 Groupe D | *Loctudy*                | FOUESNANT 4     | 2             | **34**        | **ERGUE GABERIC 1** |
+| ##### DIVISION 3 Groupe K | *Pont Aven*              | **FOUESNANT 5** | **28**        | 8             | BANNALEC 3          |
+| ##### DIVISION 3 Groupe J | *Pont Croix*             | FOUESNANT 6     | 14            | **22**        | **PONT CROIX**      |
+| ##### DIVISION 3 Groupe I | Exempt                   | FOUESNANT 7     |               |               |                     |
+| ##### DIVISION 3 Groupe J | *Pont Croix*             | FOUESNANT 8     | 0             | **36**        | **AUDIERNE**        |
+| ##### DIVISION 3 Groupe I | *Pont L'Abbé*            | FOUESNANT 9     | 14            | **22**        | **BENODET 4**       |
 
 ---
 
-![Journal Mars 24](/images/archives/2024/journal-2024-03/gif7.jpg){width="70" height="72"}
+![Journal Mars 24](/images/archives/2024/journal-2024-03/gif7.webp){height="72" width="70"}
 
 ## **COUPE FRANCE 1er TOUR LE 30 MARS A FOUESNANT**
 
@@ -158,7 +158,7 @@ Venez nombreux soutenir notre équipe
 
 **RESULTAT:**
 
-![Journal Mars 24](/images/archives/2024/journal-2024-03/cpe_fr24_1ert.png){width="750" height="405"}
+![Journal Mars 24](/images/archives/2024/journal-2024-03/cpe_fr24_1ert.webp){height="405" width="750"}
 
 COUPE DE FRANCE DE PETANQUE. Belle rencontre entre voisins
 
@@ -178,44 +178,43 @@ Alain Coquillon
 
 ---
 
-![Journal Mars 24](/images/archives/2024/journal-2024-03/imag1-3.jpg){width="121" height="79"}
+![Journal Mars 24](/images/archives/2024/journal-2024-03/imag1-3.webp){height="79" width="121"}
 
-### ** CHAMPIONNAT QUALIFICATIF SECTEUR DOUBLETTES MIXTES Dimanche 31 mars à Plomelin 10h**
+### \*\* CHAMPIONNAT QUALIFICATIF SECTEUR DOUBLETTES MIXTES Dimanche 31 mars à Plomelin 10h\*\*
 
--   # Départemental à Gouesnou les 20 et 21 avril à 9h
+- # Départemental à Gouesnou les 20 et 21 avril à 9h
+- **Régional à Cléder le 18 mai**
 
--   **Régional à Cléder le 18 mai**
-
-| **Championnat Qualificatif Secteur Doublettes mixtes** |  |  |  |  |  |
-| --- | --- | --- | --- | --- | --- |
-| **N°** | **Terrain** | **Poule** | **Nom Prénom** | **Nom Prénom** | **Résultat** |
-|  |  |  | GILLOSSOU Danielle | OLIVRY Patrick |  |
-|  |  |  | DUMONT Martine | JUNOT Alain |  |
-|  |  |  | QUINTIN sabrina | COLPAERT Jérémy | Perdu à 12 en qualification |
-|  |  |  | **PRIOL Violéta** | **GUERIN André** | **QUALIFIES** |
-|  |  |  | GARRIDO Josette | DUCHATEL Philippe |  |
-|  |  |  | GIRARD Christelle | CAROFF Gilbert | Perdu en qualification |
-|  |  |  | MARIANA Claude | MARIANA Philippe |  |
-|  |  |  | PRIMOT Marie Hélène | PRIOL Christian |  |
-|  |  |  | LEBON Claudie | LEBON PHILIPPE | Perdu en barrage |
-|  |  |  | BON Nathalie | BON Denis | Perdu en poules |
-|  |  |  | LE BAILGaëlle | PENNARUN Eric |  |
-|  |  |  | **VERDEL VOLOLOTIANA IRENE** | **LANDOAS Yvon** | **QUALIFIES** |
-|  |  |  | KERADENNEC Anne Marie | KERADENNEC Jean Michel | Perdu en qualification |
-|  |  |  |  |  |  |
-|  |  |  |  |  |  |
+| **Championnat Qualificatif Secteur Doublettes mixtes** |             |           |                              |                        |                             |
+| ------------------------------------------------------ | ----------- | --------- | ---------------------------- | ---------------------- | --------------------------- |
+| **N°**                                                 | **Terrain** | **Poule** | **Nom Prénom**               | **Nom Prénom**         | **Résultat**                |
+|                                                        |             |           | GILLOSSOU Danielle           | OLIVRY Patrick         |                             |
+|                                                        |             |           | DUMONT Martine               | JUNOT Alain            |                             |
+|                                                        |             |           | QUINTIN sabrina              | COLPAERT Jérémy        | Perdu à 12 en qualification |
+|                                                        |             |           | **PRIOL Violéta**            | **GUERIN André**       | **QUALIFIES**               |
+|                                                        |             |           | GARRIDO Josette              | DUCHATEL Philippe      |                             |
+|                                                        |             |           | GIRARD Christelle            | CAROFF Gilbert         | Perdu en qualification      |
+|                                                        |             |           | MARIANA Claude               | MARIANA Philippe       |                             |
+|                                                        |             |           | PRIMOT Marie Hélène          | PRIOL Christian        |                             |
+|                                                        |             |           | LEBON Claudie                | LEBON PHILIPPE         | Perdu en barrage            |
+|                                                        |             |           | BON Nathalie                 | BON Denis              | Perdu en poules             |
+|                                                        |             |           | LE BAILGaëlle                | PENNARUN Eric          |                             |
+|                                                        |             |           | **VERDEL VOLOLOTIANA IRENE** | **LANDOAS Yvon**       | **QUALIFIES**               |
+|                                                        |             |           | KERADENNEC Anne Marie        | KERADENNEC Jean Michel | Perdu en qualification      |
+|                                                        |             |           |                              |                        |                             |
+|                                                        |             |           |                              |                        |                             |
 
 Bonne chance à tous les participants
 
 ---
 
-![Journal Mars 24](/images/archives/2024/journal-2024-03/bravo.gif){width="68" height="68"}
+![Journal Mars 24](/images/archives/2024/journal-2024-03/bravo.gif){height="68" width="68"}
 
-### **** **MEILLEURES PERFORMANCES DU MOIS DE LA PETANQUE FOUESNANTAISE**
+### \*\*\*\* **MEILLEURES PERFORMANCES DU MOIS DE LA PETANQUE FOUESNANTAISE**
 
-_(En italique les joueurs externes au club)_
+*(En italique les joueurs externes au club)*
 
-_Vos performances du mois à renseigner par courriel :_ [lapetanquefouesnantaise@gmail.com](mailto:lapetanquefouesnantaise@gmail.com)
+*Vos performances du mois à renseigner par courriel :* <lapetanquefouesnantaise@gmail.com>
 
 **\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_**
 
@@ -229,14 +228,14 @@ _Vos performances du mois à renseigner par courriel :_ [lapetanquefouesnantaise
 
 **Finalistes du concours A**
 
--   **GIRARD Christelle, LANDOAS Yvon, **FRAVAL** **Gwervyn****
--   **GUERIN Violéta, GUERIN André, BOLLINI Gessy**
+- **GIRARD Christelle, LANDOAS Yvon, **FRAVAL** **Gwervyn****
+- **GUERIN Violéta, GUERIN André, BOLLINI Gessy**
 
 **CONCOURS B**
 
 **1/4 de finale concours B**
 
--   **RANNOU Odile, PRIOL Christian, LE DREZEN Gaëtan**
+- **RANNOU Odile, PRIOL Christian, LE DREZEN Gaëtan**
 
 **\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_**
 
@@ -248,18 +247,18 @@ _Vos performances du mois à renseigner par courriel :_ [lapetanquefouesnantaise
 
 **3 parties gagnées:**
 
--   **PRIMOT Xavier, PRIMOT Marie Hélène**
--   **LE MOULLEC Henry, COQUILLON Alain**
--   **LE DURAND Jacques, YQUEL Gilbert**
--   **LE GOFF Christian, NICOLAS Marc**
+- **PRIMOT Xavier, PRIMOT Marie Hélène**
+- **LE MOULLEC Henry, COQUILLON Alain**
+- **LE DURAND Jacques, YQUEL Gilbert**
+- **LE GOFF Christian, NICOLAS Marc**
 
 **2 parties gagnées:**
 
--   **GUERIN André, PRIOL Violéta**
--   **DE BLOIS Pierre, FLORIMOND Jeanne**
--   **VIOL André, LE GALL Claude**
--   **POMMEREUL Jacques****, DUCHATEL Philippe**
--   **PENNARUN **Eric**, ARNOLD** **Alain**
+- **GUERIN André, PRIOL Violéta**
+- **DE BLOIS Pierre, FLORIMOND Jeanne**
+- **VIOL André, LE GALL Claude**
+- **POMMEREUL Jacques**\*\*, DUCHATEL Philippe\*\*
+- **PENNARUN **Eric**, ARNOLD** **Alain**
 
 **\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_**
 
@@ -273,13 +272,13 @@ _Vos performances du mois à renseigner par courriel :_ [lapetanquefouesnantaise
 
 **Demi finale du concours A**
 
--   **Wilfried LEMAITRE, Gaëtan LE DREZEN**
+- **Wilfried LEMAITRE, Gaëtan LE DREZEN**
 
 **CONCOURS B**
 
 **Demi finale du concours B**
 
--   **Gwervyn FRAVAL, Yvon ?**
+- **Gwervyn FRAVAL, Yvon ?**
 
 **\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_**
 
@@ -291,13 +290,13 @@ _Vos performances du mois à renseigner par courriel :_ [lapetanquefouesnantaise
 
 **4 parties gagnées:**
 
--   **GUERIN André, GIRARD Christelle, NICOLAS Marc**
+- **GUERIN André, GIRARD Christelle, NICOLAS Marc**
 
 **2 parties gagnées:**
 
--   **DUCHATEL Philippe, POMMEREUL Jacques, PAUL Alain**
--   **FOUQUET Patrick, FALCO Jean Marie, APPERRY Jean Claude**
--   **ROCUET Joël, PENNARUN Eric, YQUEL Gilbert**
+- **DUCHATEL Philippe, POMMEREUL Jacques, PAUL Alain**
+- **FOUQUET Patrick, FALCO Jean Marie, APPERRY Jean Claude**
+- **ROCUET Joël, PENNARUN Eric, YQUEL Gilbert**
 
 **\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_**
 
@@ -311,11 +310,11 @@ _Vos performances du mois à renseigner par courriel :_ [lapetanquefouesnantaise
 
 **Vainqueurs du concours B**
 
--   **Gaëtan LE DREZEN, Philippe DUCHATEL**
+- **Gaëtan LE DREZEN, Philippe DUCHATEL**
 
 **Finalistes concours B**
 
--   **Pierre BOLLINI ,** **Gwervyn FRAVAL**
+- **Pierre BOLLINI ,** **Gwervyn FRAVAL**
 
 **\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_**
 
@@ -329,11 +328,11 @@ _Vos performances du mois à renseigner par courriel :_ [lapetanquefouesnantaise
 
 **Vainqueurs du concours A**
 
--   **André GUERIN, Gwervyn FRAVAL**
+- **André GUERIN, Gwervyn FRAVAL**
 
 **Finalistes du concours A**
 
--   **Hervé DUBACH, Gessy BOLLINI**
+- **Hervé DUBACH, Gessy BOLLINI**
 
 **\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_**
 
@@ -345,12 +344,12 @@ _Vos performances du mois à renseigner par courriel :_ [lapetanquefouesnantaise
 
 **3 parties gagnées:**
 
--   **FOUQUET Patrick, DUCHATEL Philippe, POMMEREUL Jacques**
+- **FOUQUET Patrick, DUCHATEL Philippe, POMMEREUL Jacques**
 
 **2 parties gagnées:**
 
--   **HERVE Jean Luc, SIMONIN Charlotte, LE GALL Claude**
--   **GUERIN André, PRIOL Violéta, BON Denis**
--   **KERMAREC Joseph, LE GOFF Christian, OLIVRY Patrick**
+- **HERVE Jean Luc, SIMONIN Charlotte, LE GALL Claude**
+- **GUERIN André, PRIOL Violéta, BON Denis**
+- **KERMAREC Joseph, LE GOFF Christian, OLIVRY Patrick**
 
 **\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_**

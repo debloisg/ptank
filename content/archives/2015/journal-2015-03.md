@@ -5,12 +5,12 @@ date: 2015-03-06
 year: 2015
 category: "Journaux du club"
 journal: "2015-03"
-image: "/images/archives/2015/journal-2015-03/rassfou15_1.png"
+image: "/images/archives/2015/journal-2015-03/rassfou15_1.webp"
 joomlaId: 257
 hits: 10754
 ---
 
-![Journal Mars 2015](/images/archives/2015/journal-2015-03/rassfou15_1.png){width="350" height="503"}
+![Journal Mars 2015](/images/archives/2015/journal-2015-03/rassfou15_1.webp){width="350" height="503"}
 
 ![Journal Mars 2015](/images/archives/2015/journal-2015-03/bouleroule.gif){width="70" height="69"}
 

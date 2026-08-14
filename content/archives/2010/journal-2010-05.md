@@ -20,15 +20,15 @@ TROPHEE VETERANS DU FINISTERE DU DIMANCHE 16 AVRIL 2010 A FOUESNANT: La Pétanqu
 
 Equipe de Fouesnant : Andrée NEDELEC, Gilbert CAROFF, Henry Le MOULLEC, Pierre FLORIMOND, Jean Yves ELOIRE, Robert ZIMMERMAN, Désiré FLOCH. Equipe de Guilers : Martine ROLLAND, Maurice CORRE, Raymond PORHEL, François GOURMELON, Emile GUIVARCH, Albert RAMONET, Jean CLOITRE, Jean Michel LAMILL.
 
-![Journal Mai 2010](/images/archives/2010/journal-2010-05/cpe-fr-ctre-guil-20101.jpg){width="480" height="360"}
+![Journal Mai 2010](/images/archives/2010/journal-2010-05/cpe-fr-ctre-guil-20101.webp){width="480" height="360"}
 
-![Journal Mai 2010](/images/archives/2010/journal-2010-05/cpe-fr-ctre-guil-20103.jpg){width="480" height="360"}
+![Journal Mai 2010](/images/archives/2010/journal-2010-05/cpe-fr-ctre-guil-20103.webp){width="480" height="360"}
 
-![Journal Mai 2010](/images/archives/2010/journal-2010-05/cpe-fr-ctre-guil-20104.jpg){width="480" height="360"}
+![Journal Mai 2010](/images/archives/2010/journal-2010-05/cpe-fr-ctre-guil-20104.webp){width="480" height="360"}
 
-![Journal Mai 2010](/images/archives/2010/journal-2010-05/cpe-fr-ctre-guil-20105.jpg){width="480" height="360"}
+![Journal Mai 2010](/images/archives/2010/journal-2010-05/cpe-fr-ctre-guil-20105.webp){width="480" height="360"}
 
-![Journal Mai 2010](/images/archives/2010/journal-2010-05/cpe-fr-ctre-guil-20106.jpg){width="480" height="360"}
+![Journal Mai 2010](/images/archives/2010/journal-2010-05/cpe-fr-ctre-guil-20106.webp){width="480" height="360"}
 
 DEUXIEME TOUR DE LA COUPE DE FRANCE DU DIMANCHE 2 MAI A FOUESNANT : Pour ce deuxième tour de la coupe de France La Pétanque Fouesnantaise recevait l’équipe du Drennec. Notre équipe s’incline sur un score de 18 à 13. Encore une fois les doublettes font la différence, aucune doublette remportée sur trois. Pourtant Fouesnant était bien parti en gagnant quatre tête à tête sur six. En triplette il y a égalité, une à une.
 
@@ -51,7 +51,7 @@ CHAMPIONNAT DE BRETAGNE TRIPLETTES VETERANS : Le championnat de Bretagne aura li
 
 ## UNE EQUIPE DE FOUESNANT CHAMPIONNE DE BRETAGNE:
 
-![Journal Mai 2010](/images/archives/2010/journal-2010-05/drapeaubreton.gif){width="100" height="60"} ![Journal Mai 2010](/images/archives/2010/journal-2010-05/coupe11.gif){width="40" height="66"} ![Journal Mai 2010](/images/archives/2010/journal-2010-05/bravo.gif){width="115" height="115"}        ![Journal Mai 2010](/images/archives/2010/journal-2010-05/champ.-de-bretagne1.jpg){width="649" height="487"}
+![Journal Mai 2010](/images/archives/2010/journal-2010-05/drapeaubreton.gif){width="100" height="60"} ![Journal Mai 2010](/images/archives/2010/journal-2010-05/coupe11.gif){width="40" height="66"} ![Journal Mai 2010](/images/archives/2010/journal-2010-05/bravo.gif){width="115" height="115"}        ![Journal Mai 2010](/images/archives/2010/journal-2010-05/champ.-de-bretagne1.webp){width="649" height="487"}
 
 Le 7 Mai à Lanester a eu lieu le championnat de Bretagne vétérans en triplettes.
 

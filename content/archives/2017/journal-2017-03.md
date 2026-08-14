@@ -10,13 +10,13 @@ joomlaId: 303
 hits: 5875
 ---
 
-****![Journal Mars 2017](/images/archives/2017/journal-2017-03/bouleroule.gif){width="53" height="52"}TROPHEE NATIONAL VETERANS 1er TOUR DU FINISTERE****
+****![Journal Mars 2017](/images/archives/2017/journal-2017-03/bouleroule.gif){height="52" width="53"}TROPHEE NATIONAL VETERANS 1er TOUR DU FINISTERE****
 
-![Journal Mars 2017](/images/archives/2017/journal-2017-03/cdcplomen1.jpg){width="640" height="360"}
+![Journal Mars 2017](/images/archives/2017/journal-2017-03/cdcplomen1.webp){height="360" width="640"}
 
 Les deux équipes
 
-![Journal Mars 2017](/images/archives/2017/journal-2017-03/cdcplomen2.png){width="640" height="435"}
+![Journal Mars 2017](/images/archives/2017/journal-2017-03/cdcplomen2.webp){height="435" width="640"}
 
 Equipe de Plounéour Ménez avec un bon potentiel de joueurs
 
@@ -44,7 +44,7 @@ Délégué: Yves PIRIOU
 
 \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
-**![Journal Mars 2017](/images/archives/2017/journal-2017-03/bouleroule-2.gif){width="59" height="58"}CHAMPIONNAT DES CLUBS + 55ans 2 ème JOURNEE LE 21 Mars**
+**![Journal Mars 2017](/images/archives/2017/journal-2017-03/bouleroule-2.gif){height="58" width="59"}CHAMPIONNAT DES CLUBS + 55ans 2 ème JOURNEE LE 21 Mars**
 
 \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
@@ -88,11 +88,11 @@ FOUESNANT 5 / DOUARNENEZ 5
 
 Championnat des clubs vétérans + 55 ans Division 1 Groupe B à Le Poher (Carhaix)
 
-![Journal Mars 2017](/images/archives/2017/journal-2017-03/carhaix1.jpg){width="640" height="360"}
+![Journal Mars 2017](/images/archives/2017/journal-2017-03/carhaix1.webp){height="360" width="640"}
 
 Boulodrome couvert de Carhaix.
 
-![Journal Mars 2017](/images/archives/2017/journal-2017-03/carh2.jpg){width="640" height="360"}
+![Journal Mars 2017](/images/archives/2017/journal-2017-03/carh2.webp){height="360" width="640"}
 
 FOUESNANT 1 / DOUARNENEZ 1
 
@@ -124,7 +124,7 @@ FOUESNANT 4 / FOUESNANT 5
 
 \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
-![Journal Mars 2017](/images/archives/2017/journal-2017-03/imag2.jpg){width="60" height="78"}**CHAMPIONNAT DE SECTEUR 4 TRIPLETTES OPEN: QUALIFICATIF AU DEPARTEMENTAL**
+![Journal Mars 2017](/images/archives/2017/journal-2017-03/imag2.webp){height="78" width="60"}**CHAMPIONNAT DE SECTEUR 4 TRIPLETTES OPEN: QUALIFICATIF AU DEPARTEMENTAL**
 
 Le championnat secteur qualificatif au départemental et ligue triplettes open a eu lieu le dimanche 12 Mars à Audierne. 1 équipe de la Pétanque fouesnantaise était présente pour cette compétition sur un total de 56 équipes.
 
@@ -154,7 +154,7 @@ Yvan CRENN, Arnaud LE NY, Philippe MARIANA, Christophe COLLARD, Jean Claude NEDE
 
 \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
-****![Journal Mars 2017](/images/archives/2017/journal-2017-03/bouleroule-3.gif){width="53" height="52"}TROPHEE 55ANS ET PLUS 1er TOUR DU FINISTERE****
+****![Journal Mars 2017](/images/archives/2017/journal-2017-03/bouleroule-3.gif){height="52" width="53"}TROPHEE 55ANS ET PLUS 1er TOUR DU FINISTERE****
 
 Ste MARTINOISE **FOUESNANT** 15 Mars
 
@@ -164,9 +164,9 @@ Bravo à notre équipe qui se qualifie pour le deuxième tour sur un score sans 
 
 Elle gagne:
 
--   Quatre Tête à Tête sur six
--   Deux doublettes sur deux
--   Deux triplettes sur deux
+- Quatre Tête à Tête sur six
+- Deux doublettes sur deux
+- Deux triplettes sur deux
 
 L'équipe était composée de :
 
@@ -176,7 +176,7 @@ Gilbert CAROFF, Henry LE MOULLEC, Joseph LE STUM, Pierre PAUL, Albert GOURVEN, P
 
 ******MEILLEURES PERFORMANCES DU MOIS******
 
-**_**(En italique les joueurs externes au club)**_**
+**\_**(En italique les joueurs externes au club)**\_**
 
 ****CONCOURS +55ans TRIPLETTES LE 30 MARS A DOUARNENEZ****
 
@@ -244,7 +244,7 @@ RESULTATS:
 
 RESULTAT:
 
--   Gilbert CAROFF, Philippe MARIANA, Patrick QUINTEL
+- Gilbert CAROFF, Philippe MARIANA, Patrick QUINTEL
 
 \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
@@ -256,7 +256,7 @@ RESULTAT:
 
 RESULTAT:
 
--   Pierre PAUL et Philippe MARIANA
+- Pierre PAUL et Philippe MARIANA
 
 \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
@@ -268,6 +268,6 @@ RESULTAT:
 
 RESULTAT:
 
--   Pierre PAUL
+- Pierre PAUL
 
 \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_

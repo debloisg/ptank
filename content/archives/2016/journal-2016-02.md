@@ -5,14 +5,14 @@ date: 2016-02-01
 year: 2016
 category: "Journaux du club"
 journal: "2016-02"
-image: "/images/archives/2016/journal-2016-02/un-reve-un-sourire4.jpg"
+image: "/images/archives/2016/journal-2016-02/un-reve-un-sourire4.webp"
 joomlaId: 279
 hits: 6580
 ---
 
-**![Journal Février 2016](/images/archives/2016/journal-2016-02/un-reve-un-sourire4.jpg){width="105" height="64"} UN RÊVE UN SOURIRE**
+**![Journal Février 2016](/images/archives/2016/journal-2016-02/un-reve-un-sourire4.webp){height="64" width="105"} UN RÊVE UN SOURIRE**
 
-**![Journal Février 2016](/images/archives/2016/journal-2016-02/unrevunsou2.jpg){width="640" height="360"}**
+**![Journal Février 2016](/images/archives/2016/journal-2016-02/unrevunsou2.webp){height="360" width="640"}**
 
 Cinq quimpéroises, Marjorie, Sarah, Clélia, Hatice, élèves en classe terminale "Service à La Personne" (SAPAT) au lycée Kerustum ont eu une très bonne idée. Organiser différentes manifestations, dont le but est de lever des fonds pour l'association "un rêve un sourire" afin d'aider des enfants malades ou en situation de handicap.
 
@@ -28,9 +28,9 @@ La Pétanque Fouesnantaise remercie tous les bénévoles qui ont contribué au b
 
 \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
- **![Journal Février 2016](/images/archives/2016/journal-2016-02/pointer.gif){width="112" height="110"} REPRISE DES COMPETITIONS OFFICIELLES**
+**![Journal Février 2016](/images/archives/2016/journal-2016-02/pointer.gif){height="110" width="112"} REPRISE DES COMPETITIONS OFFICIELLES**
 
-Le premier concours vétérans de la saison 2016 débute le jeudi 4 Février en triplettes à Châteaulin (Concours A&B)
+Le premier concours vétérans de la saison 2016 débute le jeudi 4 Février en triplettes à Châteaulin (Concours A\&B)
 
 Le premier concours seniors débute lui le samedi 6 Février à Audierne en doublettes. En parallèle, il y aura un concours en doublettes mixtes.
 
@@ -48,7 +48,7 @@ Il ne reste plus qu'à vous souhaiter une bonne saison boulistique avec des perf
 
 \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
-![Journal Février 2016](/images/archives/2016/journal-2016-02/bouleroule.gif){width="62" height="61"} **TROPHEE 55 ANS ET +**
+![Journal Février 2016](/images/archives/2016/journal-2016-02/bouleroule.gif){height="61" width="62"} **TROPHEE 55 ANS ET +**
 
 Le premier tour du trophée des 55 ans et + est annoncé, La Pétanque fouesnantaise va rencontrer l'équipe du Drennec à Fouesnant sur nos terrains.
 
@@ -56,24 +56,24 @@ La compétition devra se dérouler entre le 14 et le 18 Mars.
 
 \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
-![Journal Février 2016](/images/archives/2016/journal-2016-02/imag1.jpg){width="100" height="65"} **Challenge interne hiver de La Pétanque Fouesnantaise**
+![Journal Février 2016](/images/archives/2016/journal-2016-02/imag1.webp){height="65" width="100"} **Challenge interne hiver de La Pétanque Fouesnantaise**
 
-**Challenge _CREDIT AGRICOLE_**
+**Challenge *CREDIT AGRICOLE***
 
 Mercredi 3 Février aura lieu la dernière journée du challenge interne. Même si vous n'avez pas participé à toutes les compétitions, venez et inscrivez vous.
 
 Sixième journée
 
--   le concours comprend 3 parties en temps limité : 1 Tête à Tête, 1 doublette et 1 triplette. Les doublettes et les triplettes seront constituées par tirage au sort.
--   Score proposé à ce jour: 3 pts par match gagné, 1 pt par match perdu ( à voir, peut évoluer).
--   Les résultats et classements se feront par journée. Il y aura à l'issue du challenge un classement général.
--   La somme de 1€ sera demandée par joueur et par journée de présence . Cette somme servira à proposer une boisson chaude à chaque concours et une collation en fin de challenge.
+- le concours comprend 3 parties en temps limité : 1 Tête à Tête, 1 doublette et 1 triplette. Les doublettes et les triplettes seront constituées par tirage au sort.
+- Score proposé à ce jour: 3 pts par match gagné, 1 pt par match perdu ( à voir, peut évoluer).
+- Les résultats et classements se feront par journée. Il y aura à l'issue du challenge un classement général.
+- La somme de 1€ sera demandée par joueur et par journée de présence . Cette somme servira à proposer une boisson chaude à chaque concours et une collation en fin de challenge.
 
 \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
- **![Journal Février 2016](/images/archives/2016/journal-2016-02/2016.png){width="100" height="108"} CEREMONIE DES VOEUX DE LA PETANQUE FOUESNANTAISE**
+**![Journal Février 2016](/images/archives/2016/journal-2016-02/2016.webp){height="108" width="100"} CEREMONIE DES VOEUX DE LA PETANQUE FOUESNANTAISE**
 
-**![Journal Février 2016](/images/archives/2016/journal-2016-02/assgene15.jpg){width="640" height="480"}**
+**![Journal Février 2016](/images/archives/2016/journal-2016-02/assgene15.webp){height="480" width="640"}**
 
 Le samedi 30 Janvier, en présence d’une soixantaine d'adhérents et de leurs épouses, se sont déroulés les vœux de la pétanque Fouesnantaise.
 
@@ -89,7 +89,7 @@ JL Grisart Jo Le Stum
 
 ******MEILLEURES PERFORMANCES DU MOIS******
 
-**_**(En italique les joueurs externes au club)**_**
+**\_**(En italique les joueurs externes au club)**\_**
 
 ****CHAMPIONNAT +55ans Le jeudi 25 Février en DOUBLETTES à PONT CROIX****
 
@@ -109,7 +109,7 @@ RESULTATS:
 
 RESULTATS:
 
-**1/4 finalistes A :** Albert GOURVEN, Jean Claude NEDELEC, Christian LE GOFF **1/4 Finalistes A :** Virginie SINIC, _Jean François ROGEL, L RUELLOT_
+**1/4 finalistes A :** Albert GOURVEN, Jean Claude NEDELEC, Christian LE GOFF **1/4 Finalistes A :** Virginie SINIC, *Jean François ROGEL, L RUELLOT*
 
 ****CHAMPIONNAT +55ans Le jeudi 18 Février en DOUBLETTES à CHÂTEAULIN****
 

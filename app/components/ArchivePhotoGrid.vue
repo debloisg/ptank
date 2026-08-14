@@ -15,8 +15,6 @@ import type { IndexedGalleryPhoto } from '~/utils/gallery'
 const props = defineProps<{
   photos: IndexedGalleryPhoto[]
   disposition?: 'grid' | 'mosaic'
-  /** Narrower `sizes` when the grid sits in a narrower column. */
-  sizes?: string
   /** `src`s to pulse — the photos a URL fragment pointed at. */
   flashed?: Set<string>
 }>()
@@ -41,7 +39,6 @@ function ratio(photo: IndexedGalleryPhoto) {
       <ArchivePhotoTile
         :photo="photo"
         variant="natural"
-        :sizes="sizes ?? '50vw sm:33vw lg:25vw'"
         :flash="flashed?.has(photo.src)"
         class="h-full"
         @open="emit('open', $event)"
@@ -54,7 +51,6 @@ function ratio(photo: IndexedGalleryPhoto) {
       <ArchivePhotoTile
         :photo="photo"
         variant="square"
-        :sizes="sizes ?? '50vw sm:33vw lg:25vw'"
         :flash="flashed?.has(photo.src)"
         @open="emit('open', $event)"
       />

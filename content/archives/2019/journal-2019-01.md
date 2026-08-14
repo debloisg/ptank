@@ -5,34 +5,34 @@ date: 2018-12-19
 year: 2019
 category: "Journaux du club"
 journal: "2019-01"
-image: "/images/archives/2019/journal-2019-01/bon_an_19_1.jpg"
+image: "/images/archives/2019/journal-2019-01/bon_an_19_1.webp"
 joomlaId: 348
 hits: 5115
 ---
 
-_Toute l'équipe du bureau de La Pétanque Fouesnantaise vous souhaite une..._
+*Toute l'équipe du bureau de La Pétanque Fouesnantaise vous souhaite une...*
 
-![Journal Janvier 2019](/images/archives/2019/journal-2019-01/bon_an_19_1.jpg){width="640" height="370"}
+![Journal Janvier 2019](/images/archives/2019/journal-2019-01/bon_an_19_1.webp){height="370" width="640"}
 
-![Journal Janvier 2019](/images/archives/2019/journal-2019-01/bon_ann_197.png){width="640" height="407"}
+![Journal Janvier 2019](/images/archives/2019/journal-2019-01/bon_ann_197.webp){height="407" width="640"}
 
 ---
 
 ## CEREMONIE DES VŒUX DE LA PETANQUE FOUESNANTAISE
 
-![Journal Janvier 2019](/images/archives/2019/journal-2019-01/voeux-191.jpg){width="640" height="360"}
+![Journal Janvier 2019](/images/archives/2019/journal-2019-01/voeux-191.webp){height="360" width="640"}
 
-![Journal Janvier 2019](/images/archives/2019/journal-2019-01/voeux-196.jpg){width="640" height="360"}
+![Journal Janvier 2019](/images/archives/2019/journal-2019-01/voeux-196.webp){height="360" width="640"}
 
-![Journal Janvier 2019](/images/archives/2019/journal-2019-01/voeux-192.jpg){width="640" height="360"}
+![Journal Janvier 2019](/images/archives/2019/journal-2019-01/voeux-192.webp){height="360" width="640"}
 
-![Journal Janvier 2019](/images/archives/2019/journal-2019-01/voeux-193.jpg){width="640" height="360"}
+![Journal Janvier 2019](/images/archives/2019/journal-2019-01/voeux-193.webp){height="360" width="640"}
 
-![Journal Janvier 2019](/images/archives/2019/journal-2019-01/voeux-194.jpg){width="640" height="360"}
+![Journal Janvier 2019](/images/archives/2019/journal-2019-01/voeux-194.webp){height="360" width="640"}
 
-![Journal Janvier 2019](/images/archives/2019/journal-2019-01/voeux-195.jpg){width="640" height="360"}
+![Journal Janvier 2019](/images/archives/2019/journal-2019-01/voeux-195.webp){height="360" width="640"}
 
-![Journal Janvier 2019](/images/archives/2019/journal-2019-01/voeux-197.jpg){width="640" height="360"}
+![Journal Janvier 2019](/images/archives/2019/journal-2019-01/voeux-197.webp){height="360" width="640"}
 
 Voici le discours de la cérémonie des vœux prononcés par Jo Le stum coprésident de La Pétanque fouesnantaise.
 
@@ -56,18 +56,18 @@ Avant de se rassembler autour du pot de l’amitié et de la galette des rois, G
 
 Sévérino Brosolo et Gilbert Goarin
 
-_Jo Le Stum_
+*Jo Le Stum*
 
 ---
 
 ## RESULTATS CHALLENGE INTERNE AUTOMNE/HIVER
 
-| **CHALLENGE INTERNE AUTOMNE/HIVER** |  |  |  |
-| --- | --- | --- | --- |
-| #### Dates concours | #### Partie 1 | #### Partie 2 | #### Partie 3 |
-| **Mercredi 21 Novembre 2018** | Triplettes | Doublettes | Têtes à Têtes |
-| **Mercredi 12 décembre 2018** | Triplettes | Doublettes | Têtes à Têtes |
-| **Mercredi 19 décembre 2018** | Triplettes | Doublettes | Têtes à Têtes |
+| **CHALLENGE INTERNE AUTOMNE/HIVER** |               |               |               |
+| ----------------------------------- | ------------- | ------------- | ------------- |
+| #### Dates concours                 | #### Partie 1 | #### Partie 2 | #### Partie 3 |
+| **Mercredi 21 Novembre 2018**       | Triplettes    | Doublettes    | Têtes à Têtes |
+| **Mercredi 12 décembre 2018**       | Triplettes    | Doublettes    | Têtes à Têtes |
+| **Mercredi 19 décembre 2018**       | Triplettes    | Doublettes    | Têtes à Têtes |
 
 Le challenge Automne/Hiver a connu un grand succès avec la présence de plus d'une cinquantaine de joueurs.
 

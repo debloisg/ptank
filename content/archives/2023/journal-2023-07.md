@@ -5,12 +5,12 @@ date: 2023-01-28
 year: 2023
 category: "Journaux du club"
 journal: "2023-07"
-image: "/images/archives/2023/journal-2023-07/cc_ete_mer_23.jpg"
+image: "/images/archives/2023/journal-2023-07/cc_ete_mer_23.webp"
 joomlaId: 437
 hits: 4873
 ---
 
-![Journal Juillet 23](/images/archives/2023/journal-2023-07/cc_ete_mer_23.jpg){width="456" height="638"} ![Journal Juillet 23](/images/archives/2023/journal-2023-07/cc-fete_des_pom_23.jpg){width="452" height="642"}
+![Journal Juillet 23](/images/archives/2023/journal-2023-07/cc_ete_mer_23.webp){width="456" height="638"} ![Journal Juillet 23](/images/archives/2023/journal-2023-07/cc-fete_des_pom_23.webp){width="452" height="642"}
 
 **Autres concours d'été ouverts à tous en juillet et août dans le secteur 4:**
 
@@ -21,11 +21,11 @@ hits: 4873
 
 ---
 
-![Journal Juillet 23](/images/archives/2023/journal-2023-07/anatole1.png){width="80" height="82"}
+![Journal Juillet 23](/images/archives/2023/journal-2023-07/anatole1.webp){width="80" height="82"}
 
 ## CONCOURS D'ETE A LA PETANQUE FOUESNANTAISE
 
-![Journal Juillet 23](/images/archives/2023/journal-2023-07/cc_ete23_1.jpg){width="680" height="314"}
+![Journal Juillet 23](/images/archives/2023/journal-2023-07/cc_ete23_1.webp){width="680" height="314"}
 
 La Pétanque Fouesnantaise poursuit son rythme estival. Les concours populaires de pétanque sont traditionnellement programmés tous les mercredis après-midi en été pour le plus grand plaisir de tous, joueurs ou supporters, habitants et estivants sont heureux de se retrouver sur les terrains extérieurs. En ajoutant le concours de la fête des Pommiers au mois de juillet, ce sont 347 doublettes qui se sont affrontées pour 694 joueurs et joueuses.
 
@@ -37,7 +37,7 @@ _Alain Coquillon_
 
 ---
 
-![Journal Juillet 23](/images/archives/2023/journal-2023-07/fetpomm.jpg){width="100" height="100"}
+![Journal Juillet 23](/images/archives/2023/journal-2023-07/fetpomm.webp){width="100" height="100"}
 
 ## RESULTAT CONCOURS FÊTE DES POMMIERS le 15/07 (69 Doublettes)
 
@@ -68,7 +68,7 @@ _Alain Coquillon_
 
 ---
 
-![Journal Juillet 23](/images/archives/2023/journal-2023-07/anatole1-2.png){width="80" height="82"}
+![Journal Juillet 23](/images/archives/2023/journal-2023-07/anatole1-2.webp){width="80" height="82"}
 
 ## RESULTAT CONCOURS D'ETE 4ème JOURNEE 26/07 (78 Doublettes)
 
@@ -188,11 +188,11 @@ _Alain Coquillon_
 
 \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
-![Journal Juillet 23](/images/archives/2023/journal-2023-07/imag1.jpg){width="121" height="79"}
+![Journal Juillet 23](/images/archives/2023/journal-2023-07/imag1.webp){width="121" height="79"}
 
 ### ** CHAMPIONNAT DE FRANCE TRIPLETTES VETERANS A FLAMANVILLE (50) les 4, 5, 6 Juillet**
 
-![Journal Juillet 23](/images/archives/2023/journal-2023-07/chptdpt_tri_promo23.png){width="189" height="178"} Nos trois champions, Pierre PAUL, Henry LE MOULLEC et Xavier ROMIEUX ont remporté le titre de Champions du Finistère Triplettes Vétéran les 19 et 20 avril à Gouesnou. cette victoire leurs a permis d'accéder directement au Championnat de France Triplettes Vétéran qui aura lieu à Flamanville dans la Manche les 4, 5, 6 Juillet.
+![Journal Juillet 23](/images/archives/2023/journal-2023-07/chptdpt_tri_promo23.webp){width="189" height="178"} Nos trois champions, Pierre PAUL, Henry LE MOULLEC et Xavier ROMIEUX ont remporté le titre de Champions du Finistère Triplettes Vétéran les 19 et 20 avril à Gouesnou. cette victoire leurs a permis d'accéder directement au Championnat de France Triplettes Vétéran qui aura lieu à Flamanville dans la Manche les 4, 5, 6 Juillet.
 
 Nous souhaitons bonne chance à toute l'équipe un bon parcours et pourquoi pas une place au plus près du sommet !
 
@@ -233,17 +233,17 @@ Bravo à l'équipe pour ce parcours formidable.
 
 L'équipe Championne de France est l'équipe du Rhone (69) Vinson Guy, Cazemajou Jean Louis, **Fazzino Christian**
 
-![Journal Juillet 23](/images/archives/2023/journal-2023-07/chpt_fr_vete_23_2_1.jpg){width="800" height="600"}
+![Journal Juillet 23](/images/archives/2023/journal-2023-07/chpt_fr_vete_23_2_1.webp){width="800" height="600"}
 
 De gauche à droite: Pierre Paul, Le délégué représentant du CD29, Xavier Romieux, Henry Le Moullec
 
-![Journal Juillet 23](/images/archives/2023/journal-2023-07/fazin_paul_chp_fr_vete_23.jpg){width="358" height="795"}
+![Journal Juillet 23](/images/archives/2023/journal-2023-07/fazin_paul_chp_fr_vete_23.webp){width="358" height="795"}
 
 Pierre en bonne compagnie avec le champion de France Christian Fazzino
 
 ---
 
-![Journal Juillet 23](/images/archives/2023/journal-2023-07/gif7.jpg){width="70" height="72"}
+![Journal Juillet 23](/images/archives/2023/journal-2023-07/gif7.webp){width="70" height="72"}
 
 ### **COUPE FRANCE 4 ème TOUR le samedi 1 juillet**
 
@@ -263,7 +263,7 @@ Bonne chance à notre équipe .
 
 **RESULTAT:**
 
-![Journal Juillet 23](/images/archives/2023/journal-2023-07/cpe_fr_4e_t_23.png){width="800" height="368"}
+![Journal Juillet 23](/images/archives/2023/journal-2023-07/cpe_fr_4e_t_23.webp){width="800" height="368"}
 
 Au 4ème tour de la Coupe de France, Fouesnant recevait la très bonne équipe de Tremeven
 
@@ -279,13 +279,13 @@ _Gilbert Caroff_
 
 ---
 
-![Journal Juillet 23](/images/archives/2023/journal-2023-07/gif7-2.jpg){width="70" height="72"}
+![Journal Juillet 23](/images/archives/2023/journal-2023-07/gif7-2.webp){width="70" height="72"}
 
 ### **FINALE CHAMPIONNAT DES CLUBS VETERANS DU FINISTERE LE 30 JUIN A CLEDER**
 
-![Journal Juillet 23](/images/archives/2023/journal-2023-07/final_cdc_finis_4.png){width="800" height="364"}
+![Journal Juillet 23](/images/archives/2023/journal-2023-07/final_cdc_finis_4.webp){width="800" height="364"}
 
-![Journal Juillet 23](/images/archives/2023/journal-2023-07/fin_cdc_finis_3.jpg){width="800" height="497"}
+![Journal Juillet 23](/images/archives/2023/journal-2023-07/fin_cdc_finis_3.webp){width="800" height="497"}
 
 De gauche à droite de haut en bas:
 

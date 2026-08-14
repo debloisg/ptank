@@ -5,16 +5,16 @@ date: 2013-07-05
 year: 2012
 category: "Journaux du club"
 journal: "2012-10"
-image: "/images/archives/2012/journal-2012-10/automne600.png"
+image: "/images/archives/2012/journal-2012-10/automne600.webp"
 joomlaId: 93
 hits: 4675
 ---
 
-\_\_\_![Journal Octobre 2012](/images/archives/2012/journal-2012-10/automne600.png){width="599" height="178"}
+\_\_\_![Journal Octobre 2012](/images/archives/2012/journal-2012-10/automne600.webp){height="178" width="599"}
 
 ## ASSEMBLEE GENERALE DE LA PETANQUE FOUESNANTAISE
 
-![Journal Octobre 2012](/images/archives/2012/journal-2012-10/ag2012.jpg){width="600" height="450"}
+![Journal Octobre 2012](/images/archives/2012/journal-2012-10/ag2012.webp){height="450" width="600"}
 
 Samedi 27/10 la Pétanque Fouesnantaise a tenu à l’Archipel son Assemblée Générale en présence du Maire, Roger Le Goff, de l’adjoint aux sports, J.L.Jézéquellou, du directeur de l’Office de tourisme, J.Y.Le Floch et d’une soixantaine d’adhérents.
 
@@ -38,18 +38,18 @@ Avant les élections , le club et l'agence locale du Crédit Agricole ont récom
 
 #### Le comité 2013 se présente comme suit:
 
-- \-Président: Jo Le Stum.
-- \-Vice-présidents: D.Gorse et J.L.Girard.
+- -Président: Jo Le Stum.
+- -Vice-présidents: D.Gorse et J.L.Girard.
 
-\-Secrétaire: G.Caroff: Secrétaire adjoint: H.Gloaguen ( nouvel élu).
+-Secrétaire: G.Caroff: Secrétaire adjoint: H.Gloaguen ( nouvel élu).
 
-#### \-Trésorier: Y.Piriou; Trésorier adjoint: D.Floch.
+#### -Trésorier: Y.Piriou; Trésorier adjoint: D.Floch.
 
-#### \- Intendance: A.M.Leclerq .
+#### - Intendance: A.M.Leclerq .
 
 \- Membres: J.C.Apperry; A.Gourven; Ch. Le Goff; Y.Chevance (nouvel élu).
 
-![Journal Octobre 2012](/images/archives/2012/journal-2012-10/bouleroule.gif){width="70" height="69"}
+![Journal Octobre 2012](/images/archives/2012/journal-2012-10/bouleroule.gif){height="69" width="70"}
 
 ### TAMALOU 2012
 
@@ -57,9 +57,9 @@ Voici revenu le temps des tamalou, rencontre amicale entre les clubs de Bénodet
 
 - \- Jeudi 8 Novembre à Fouesnant
 - \- Jeudi 15 Novembre à Loctudy
-- \-Jeudi 22 Novembre à Bénodet
+- -Jeudi 22 Novembre à Bénodet
 
-![Journal Octobre 2012](/images/archives/2012/journal-2012-10/boules_fleche5b15d.gif){width="60" height="60"}
+![Journal Octobre 2012](/images/archives/2012/journal-2012-10/boules_fleche5b15d.gif){height="60" width="60"}
 
 ### CHALLENGE INTERNE D'HIVER.
 
@@ -67,7 +67,7 @@ Voici revenu le temps des tamalou, rencontre amicale entre les clubs de Bénodet
 
 \- Samedi 10/11/2012 En doublettes avec tirage à chaque partie. - Samedi 17/11/2012 Tête à tête. - Mercredi 28/11/2012 Triplettes avec mêmes partenaires pour le concours. - Mercredi 5/12/2012 Doublettes avec tirage à chaque partie. - Mercredi 12/12/2012 Tête à tête. - Mercredi 19/12/2012 Triplettes avec mêmes partenaires pour le concours
 
-![Journal Octobre 2012](/images/archives/2012/journal-2012-10/bouleroule-2.gif){width="70" height="69"}
+![Journal Octobre 2012](/images/archives/2012/journal-2012-10/bouleroule-2.gif){height="69" width="70"}
 
 ### CHAMPIONNAT DES CLUBS DIVISION 1 POULE 2 SENIORS: RESULTAT 21 Octobre
 
@@ -83,7 +83,7 @@ Félicitations à tous nos joueurs pour cette belle prestation.
 
 #### Gilbert CAROFF, Joseph LE STUM, Désiré FLOCH, David KERDREUX, Yves CLORENNEC, Yves PIRIOU, Dominique GORSE
 
-![Journal Octobre 2012](/images/archives/2012/journal-2012-10/boules_fleche5b15d-2.gif){width="60" height="60"}
+![Journal Octobre 2012](/images/archives/2012/journal-2012-10/boules_fleche5b15d-2.gif){height="60" width="60"}
 
 ### CHAMPIONNAT DES CLUBS DIVISION 1 POULE 2 SENIORS: RESULTAT 14 Octobre
 
@@ -97,7 +97,7 @@ Il n'y a plus grand espoir de rester en première division l'année prochaine. D
 
 Jo LE STUM, Albert GOURVEN, Yves CLORENNEC, Yvon CHEVANCE, Gilbert CAROFF, Dominique GORSE.
 
-![Journal Octobre 2012](/images/archives/2012/journal-2012-10/bouleroule-3.gif){width="70" height="69"}
+![Journal Octobre 2012](/images/archives/2012/journal-2012-10/bouleroule-3.gif){height="69" width="70"}
 
 ### CHAMPIONNAT DES CLUBS DIVISION 1 POULE 2 SENIORS
 
@@ -111,19 +111,19 @@ Enfin, dernière journée du championnat à Fouesnant, sur nos terrains, le Dima
 
 Il faudra venir nombreux ce jour là pour encourager nos joueurs.
 
-![Journal Octobre 2012](/images/archives/2012/journal-2012-10/boules_fleche5b15d-3.gif){width="60" height="60"}
+![Journal Octobre 2012](/images/archives/2012/journal-2012-10/boules_fleche5b15d-3.gif){height="60" width="60"}
 
 ### CONCOURS OFFICIELS DE FIN DE SAISON
 
 La période des concours se termine, il ne reste que trois concours pour terminer la saison 2012. En vétérans, Le jeudi 18 Octobre à Audierne en doublettes et le jeudi 25 à Combrit en doublettes. En seniors, il reste Le samedi 20 Octobre en doublettes à Audierne.
 
-![Journal Octobre 2012](/images/archives/2012/journal-2012-10/bouleroule-4.gif){width="70" height="69"}
+![Journal Octobre 2012](/images/archives/2012/journal-2012-10/bouleroule-4.gif){height="69" width="70"}
 
 ### CHALLENGE INTERNE D'AUTOMNE À LA PETANQUE FOUESNANTAISE
 
 Comme tous les ans en fin de saison, le club organise les concours internes qui s'adressent aux licenciés et futurs licenciés de la pétanque fouesnantaise. Cette série de concours débute par les doublettes le 3 Octobre ( 3 parties, tirage au sort à chaque partie, avec changement de partenaire à chaque partie). Le tête à tête le 10 Octobre, en 4 parties et la triplette le 17 Octobre (3 parties par tirage au sort au départ en gardant les mêmes partenaires pour les 3 parties).
 
-![Journal Octobre 2012](/images/archives/2012/journal-2012-10/boules_fleche5b15d-4.gif){width="60" height="60"}
+![Journal Octobre 2012](/images/archives/2012/journal-2012-10/boules_fleche5b15d-4.gif){height="60" width="60"}
 
 ### RASSEMBLEMENT VETERANS DE COMBRIT
 
@@ -133,7 +133,7 @@ Aux résultats, une seule équipe de Fouesnant remporte quatre parties sur cinq.
 
 #### Désiré FLOCH, Joseph LE STUM et Dominique GORSE
 
-![Journal Octobre 2012](/images/archives/2012/journal-2012-10/bravo.gif){width="115" height="115"}
+![Journal Octobre 2012](/images/archives/2012/journal-2012-10/bravo.gif){height="115" width="115"}
 
 ### MEILLEURES PERFORMANCES DU MOIS
 

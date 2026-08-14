@@ -5,7 +5,7 @@ date: 2013-07-05
 year: 2011
 category: "Journaux du club"
 journal: "2011-11"
-image: "/images/archives/2011/journal-2011-11/tamalou20111r.jpg"
+image: "/images/archives/2011/journal-2011-11/tamalou20111r.webp"
 joomlaId: 103
 hits: 4969
 ---
@@ -18,9 +18,9 @@ Tamalou, Challenge automne hiver 2011 et TELETHON....
 
 ## TA MAL OU
 
-![Journal Novembre 2011](/images/archives/2011/journal-2011-11/tamalou20111r.jpg){width="620" height="465"}
+![Journal Novembre 2011](/images/archives/2011/journal-2011-11/tamalou20111r.webp){width="620" height="465"}
 
-tamalou Bénodet ![Journal Novembre 2011](/images/archives/2011/journal-2011-11/tamalou20113r.jpg){width="620" height="465"}  tamalou bénodet
+tamalou Bénodet ![Journal Novembre 2011](/images/archives/2011/journal-2011-11/tamalou20113r.webp){width="620" height="465"}  tamalou bénodet
 
 Reprise du traditionnel TAMALOU d'automne entre les équipes de Fouesnant, Bénodet et Loctudy. Les TAMALOU se portent très bien puisqu'ils sont venus nombreux à cette confrontation amicale.
 

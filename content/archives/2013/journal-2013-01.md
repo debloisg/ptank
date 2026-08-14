@@ -5,16 +5,16 @@ date: 2013-07-05
 year: 2013
 category: "Journaux du club"
 journal: "2013-01"
-image: "/images/archives/2013/journal-2013-01/bonannee2013.jpg"
+image: "/images/archives/2013/journal-2013-01/bonannee2013.webp"
 joomlaId: 90
 hits: 4580
 ---
 
 ### Maintien de la forme avec les challenges...
 
-![Journal Janvier 2013](/images/archives/2013/journal-2013-01/bonannee2013.jpg){width="600" height="400"}
+![Journal Janvier 2013](/images/archives/2013/journal-2013-01/bonannee2013.webp){width="600" height="400"}
 
-L'huitrier pie sur la plage de Kerler ![Journal Janvier 2013](/images/archives/2013/journal-2013-01/blomad-2013.jpg){width="600" height="400"}  **LA PETANQUE FOUESNANTAISE SOUHAITE A TOUS SES FIDELES INTERNAUTES UNE TRES BONNE ET HEUREUSE ANNEE 2013, PLUS DE 152000 CONNEXIONS DEPUIS SON OUVERTURE, C'EST REMARQUABLE POUR UN SITE DE PETANQUE.** **ENCORE MERCI DE VOTRE FIDELITE, BIENVENUE A TOUS CEUX QUI NOUS REJOIGNENT ET** **BONNE PETANQUE 2013.**
+L'huitrier pie sur la plage de Kerler ![Journal Janvier 2013](/images/archives/2013/journal-2013-01/blomad-2013.webp){width="600" height="400"}  **LA PETANQUE FOUESNANTAISE SOUHAITE A TOUS SES FIDELES INTERNAUTES UNE TRES BONNE ET HEUREUSE ANNEE 2013, PLUS DE 152000 CONNEXIONS DEPUIS SON OUVERTURE, C'EST REMARQUABLE POUR UN SITE DE PETANQUE.** **ENCORE MERCI DE VOTRE FIDELITE, BIENVENUE A TOUS CEUX QUI NOUS REJOIGNENT ET** **BONNE PETANQUE 2013.**
 
 ![Journal Janvier 2013](/images/archives/2013/journal-2013-01/carreau2.gif){width="100" height="100"}
 
@@ -56,7 +56,7 @@ L’année 2013 s’annonce très chargée, mais tous ensemble, avec le soutien 
 
 \- MERCREDI 23 JANVIER ORGANISATION D'UN CONCOURS INTERNE DE PREPARATION AU CHAMPIONNATS ET CONCOURS 2013, AVEC, UN TETE A TETE, UNE DOUBLETTE ET UNE TRIPLETTE.
 
-SOUVENIRS 2012 AVEC QUELQUES PHOTOS DU RASSEMBLEMENT DE COMBRIT ![Journal Janvier 2013](/images/archives/2013/journal-2013-01/comb1.jpg){width="300" height="450"}![Journal Janvier 2013](/images/archives/2013/journal-2013-01/comb10.jpg){width="300" height="450"}  ![Journal Janvier 2013](/images/archives/2013/journal-2013-01/comb11.jpg){width="300" height="450"}![Journal Janvier 2013](/images/archives/2013/journal-2013-01/comb12.jpg){width="300" height="450"}  ![Journal Janvier 2013](/images/archives/2013/journal-2013-01/comb13.jpg){width="300" height="450"}![Journal Janvier 2013](/images/archives/2013/journal-2013-01/comb14.jpg){width="300" height="450"}  ![Journal Janvier 2013](/images/archives/2013/journal-2013-01/comb15.jpg){width="300" height="450"}![Journal Janvier 2013](/images/archives/2013/journal-2013-01/comb16.jpg){width="300" height="450"}  ![Journal Janvier 2013](/images/archives/2013/journal-2013-01/comb2.jpg){width="300" height="450"}![Journal Janvier 2013](/images/archives/2013/journal-2013-01/comb3.jpg){width="300" height="450"}  ![Journal Janvier 2013](/images/archives/2013/journal-2013-01/comb4.jpg){width="300" height="450"}![Journal Janvier 2013](/images/archives/2013/journal-2013-01/comb5.jpg){width="300" height="450"}  ![Journal Janvier 2013](/images/archives/2013/journal-2013-01/comb6.jpg){width="300" height="450"}![Journal Janvier 2013](/images/archives/2013/journal-2013-01/comb7.jpg){width="300" height="450"}  ![Journal Janvier 2013](/images/archives/2013/journal-2013-01/comb8.jpg){width="300" height="450"}![Journal Janvier 2013](/images/archives/2013/journal-2013-01/comb9.jpg){width="300" height="450"}
+SOUVENIRS 2012 AVEC QUELQUES PHOTOS DU RASSEMBLEMENT DE COMBRIT ![Journal Janvier 2013](/images/archives/2013/journal-2013-01/comb1.webp){width="300" height="450"}![Journal Janvier 2013](/images/archives/2013/journal-2013-01/comb10.webp){width="300" height="450"}  ![Journal Janvier 2013](/images/archives/2013/journal-2013-01/comb11.webp){width="300" height="450"}![Journal Janvier 2013](/images/archives/2013/journal-2013-01/comb12.webp){width="300" height="450"}  ![Journal Janvier 2013](/images/archives/2013/journal-2013-01/comb13.webp){width="300" height="450"}![Journal Janvier 2013](/images/archives/2013/journal-2013-01/comb14.webp){width="300" height="450"}  ![Journal Janvier 2013](/images/archives/2013/journal-2013-01/comb15.webp){width="300" height="450"}![Journal Janvier 2013](/images/archives/2013/journal-2013-01/comb16.webp){width="300" height="450"}  ![Journal Janvier 2013](/images/archives/2013/journal-2013-01/comb2.webp){width="300" height="450"}![Journal Janvier 2013](/images/archives/2013/journal-2013-01/comb3.webp){width="300" height="450"}  ![Journal Janvier 2013](/images/archives/2013/journal-2013-01/comb4.webp){width="300" height="450"}![Journal Janvier 2013](/images/archives/2013/journal-2013-01/comb5.webp){width="300" height="450"}  ![Journal Janvier 2013](/images/archives/2013/journal-2013-01/comb6.webp){width="300" height="450"}![Journal Janvier 2013](/images/archives/2013/journal-2013-01/comb7.webp){width="300" height="450"}  ![Journal Janvier 2013](/images/archives/2013/journal-2013-01/comb8.webp){width="300" height="450"}![Journal Janvier 2013](/images/archives/2013/journal-2013-01/comb9.webp){width="300" height="450"}
 
 ![Journal Janvier 2013](/images/archives/2013/journal-2013-01/boule11-2.gif){width="41" height="58"}
 

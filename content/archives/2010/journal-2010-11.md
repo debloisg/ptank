@@ -5,7 +5,7 @@ date: 2013-07-05
 year: 2010
 category: "Journaux du club"
 journal: "2010-11"
-image: "/images/archives/2010/journal-2010-11/berncap1.jpg"
+image: "/images/archives/2010/journal-2010-11/berncap1.webp"
 joomlaId: 114
 hits: 4861
 ---
@@ -14,17 +14,17 @@ Journal du mois de Novembre
 
 Résultats concours internes et compte rendu assemblée générale du Comité départemental à Ploudalmézeau...
 
-![Journal Novembre 2010](/images/archives/2010/journal-2010-11/berncap1.jpg){width="685" height="457"}
+![Journal Novembre 2010](/images/archives/2010/journal-2010-11/berncap1.webp){height="457" width="685"}
 
 ### Cap coz en novembre, le retour des bernaches
 
-![Journal Novembre 2010](/images/archives/2010/journal-2010-11/capbat1.png){width="680" height="373"}
+![Journal Novembre 2010](/images/archives/2010/journal-2010-11/capbat1.webp){height="373" width="680"}
 
 ### Cap coz le port
 
 . .
 
-![Journal Novembre 2010](/images/archives/2010/journal-2010-11/telethon.png){width="116" height="103"}
+![Journal Novembre 2010](/images/archives/2010/journal-2010-11/telethon.webp){height="103" width="116"}
 
 ## TELETHON 2010 A LA PETANQUE FOUESNANTAISE
 
@@ -37,7 +37,7 @@ Comme tous les ans, notre club participe à cette journée en organisant son con
 - 3ème Christian VALETTE et Pierre Yves NEDELEC
 - 4ème L GOMEZ et Gilles SQUIBAN
 
-![Journal Novembre 2010](/images/archives/2010/journal-2010-11/bouleroule.gif){width="70" height="69"}
+![Journal Novembre 2010](/images/archives/2010/journal-2010-11/bouleroule.gif){height="69" width="70"}
 
 ## RESULTAT DES COMPETITIONS INTERNES:
 
@@ -76,7 +76,7 @@ Cette nouvelle formule en vétérans devrait attirer un grand nombre de clubs pu
 
 ## CONGRES DEPARTEMENTAL DU FINISTERE 2010 A PLOUDALMEZEAU
 
-![Journal Novembre 2010](/images/archives/2010/journal-2010-11/ploudalcongre.jpg){width="411" height="309"}
+![Journal Novembre 2010](/images/archives/2010/journal-2010-11/ploudalcongre.webp){height="309" width="411"}
 
 La pétanque Fouesnantaise était représentée par JO LE STUM Président, Roger CROGUENNEC Vice-président, Gilbert CAROFF trésorier.
 

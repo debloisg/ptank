@@ -5,16 +5,16 @@ date: 2024-01-01
 year: 2024
 category: "Journaux du club"
 journal: "2024-01"
-image: "/images/archives/2024/journal-2024-01/voeux24_1.png"
+image: "/images/archives/2024/journal-2024-01/voeux24_1.webp"
 joomlaId: 451
 hits: 4186
 ---
 
-![Journal Janvier 2024](/images/archives/2024/journal-2024-01/voeux24_1.png){width="657" height="411"}
+![Journal Janvier 2024](/images/archives/2024/journal-2024-01/voeux24_1-2.webp){height="411" width="657"}
 
 ---
 
-![Journal Janvier 2024](/images/archives/2024/journal-2024-01/blasoncd29.jpg){width="64" height="70"}
+![Journal Janvier 2024](/images/archives/2024/journal-2024-01/blasoncd29.webp){height="70" width="64"}
 
 ## CALENDRIERS
 
@@ -22,21 +22,16 @@ hits: 4186
 
 ---
 
-![Journal Janvier 2024](/images/archives/2024/journal-2024-01/logopet1.png){width="183" height="44"} **PROGRAMME DE DEBUT D'ANNEE 2024**
+![Journal Janvier 2024](/images/archives/2024/journal-2024-01/logopet1.webp){height="44" width="183"} **PROGRAMME DE DEBUT D'ANNEE 2024**
 
--   **REPRISE DES CONCOURS INTERNES TOUS LES MERCREDIS DU MOIS DE JANVIER A LA MELEE, SAUF DERNIER MERCREDI EN TRIPLETTES CONSTITUEES**
+- **REPRISE DES CONCOURS INTERNES TOUS LES MERCREDIS DU MOIS DE JANVIER A LA MELEE, SAUF DERNIER MERCREDI EN TRIPLETTES CONSTITUEES**
+- **ANNIVERSAIRES DU MOIS DE JANVIER, LE DERNIER MERCREDI DU MOIS, APRES LE CONCOURS INTERNE EN TRIPLETTES CONSTITUEES .**
+- **LA CEREMONIE DES VOEUX POUR L'ANNEE 2024 AURA LIEU LE VENDREDI 19 JANVIER A 18H (boulodrome). ELLE SERA SUIVIE PAR LA TRADITIONNELLE GALETTE DES ROIS (vous inscrire pour le samedi 13 janvier)**
+- **LA REPRISE DU CHAMPIONNAT PAR EQUIPES DE CLUB VETERANS AURA LIEU LE MARDI 27 FEVRIER.**
+- **LA REPRISE DES CONCOURS VETERANS AURA LIEU LE JEUDI 8 FEVRIER A AUDIERNE EN TRIPLETTES (pour voir le calendrier mensuel des concours allez sur le petit calendrier situé en haut de la page d'accueil puis cliquez sur le mois et ensuite sélectionnez le jour)**
+- **LA REPRISE DES CONCOURS SENIORS AURA LIEU LE SAMEDI 3 FEVRIER A DOUARNENEZ EN DOUBLETTES (pour voir le calendrier mensuel des concours allez sur le petit calendrier situé en haut de la page d'accueil puis cliquez sur le mois et ensuite sélectionnez le jour)**
 
--   **ANNIVERSAIRES DU MOIS DE JANVIER, LE DERNIER MERCREDI DU MOIS, APRES LE CONCOURS INTERNE EN TRIPLETTES CONSTITUEES .**
-
--   **LA CEREMONIE DES VOEUX POUR L'ANNEE 2024 AURA LIEU LE VENDREDI 19 JANVIER A 18H (boulodrome). ELLE SERA SUIVIE PAR LA TRADITIONNELLE GALETTE DES ROIS (vous inscrire pour le samedi 13 janvier)**
-
--   **LA REPRISE DU CHAMPIONNAT PAR EQUIPES DE CLUB VETERANS AURA LIEU LE MARDI 27 FEVRIER.**
-
--   **LA REPRISE DES CONCOURS VETERANS AURA LIEU LE JEUDI 8 FEVRIER A AUDIERNE EN TRIPLETTES (pour voir le calendrier mensuel des concours allez sur le petit calendrier situé en haut de la page d'accueil puis cliquez sur le mois et ensuite sélectionnez le jour)**
-
--   **LA REPRISE DES CONCOURS SENIORS AURA LIEU LE SAMEDI 3 FEVRIER A DOUARNENEZ EN DOUBLETTES (pour voir le calendrier mensuel des concours allez sur le petit calendrier situé en haut de la page d'accueil puis cliquez sur le mois et ensuite sélectionnez le jour)**
-
-_Désiré Floch, Gilbert Caroff_
+*Désiré Floch, Gilbert Caroff*
 
 ---
 
@@ -48,11 +43,10 @@ _Désiré Floch, Gilbert Caroff_
 
 **Le prix de la licence est de 45€**
 
-![Journal Janvier 2024](/images/archives/2024/journal-2024-01/icon-48-alert.png){width="51" height="51"}**dates de permanences pour le dépôt des licences :**
+![Journal Janvier 2024](/images/archives/2024/journal-2024-01/icon-48-alert.webp){height="51" width="51"}**dates de permanences pour le dépôt des licences :**
 
--   **Samedi 6 janvier 2024 de 14h à 17h**
-
--   **Mercredi 17 janvier 2024 de 14h à 17h**
+- **Samedi 6 janvier 2024 de 14h à 17h**
+- **Mercredi 17 janvier 2024 de 14h à 17h**
 
 **Merci pour le secrétariat de respecter ces dates .**
 
@@ -72,40 +66,40 @@ Ensuite un temps de rencontre et de convivialité autour de l’immuable galette
 
 Les pétanqueurs attendent impatiemment pour reprendre les compétitions. Le calendrier de la nouvelle saison, en partie divulgué, peut être consulté par tous, affiché au local de la pétanque,
 
-_Alain Coquillon_
+*Alain Coquillon*
 
-![Journal Janvier 2024](/images/archives/2024/journal-2024-01/voeux24_12.jpg){width="700" height="394"}
+![Journal Janvier 2024](/images/archives/2024/journal-2024-01/voeux24_12.webp){height="394" width="700"}
 
 Voeux présentés par Désiré Floch et Gilbert Caroff en présence de Madame Laure Caramaro, adjointe Cadre de vie, travaux et développement durable, conseilière départementale
 
-![Journal Janvier 2024](/images/archives/2024/journal-2024-01/voeux24_2.jpg){width="700" height="394"}
+![Journal Janvier 2024](/images/archives/2024/journal-2024-01/voeux24_2.webp){height="394" width="700"}
 
 Les licenciés de La Pétanque Fouesnantaise
 
-![Journal Janvier 2024](/images/archives/2024/journal-2024-01/voeux24_10.jpg){width="700" height="394"}
+![Journal Janvier 2024](/images/archives/2024/journal-2024-01/voeux24_10.webp){height="394" width="700"}
 
-![Journal Janvier 2024](/images/archives/2024/journal-2024-01/voeux24_11.jpg){width="700" height="394"}
+![Journal Janvier 2024](/images/archives/2024/journal-2024-01/voeux24_11.webp){height="394" width="700"}
 
 accueil des nouveaux venus dans notre club
 
-![Journal Janvier 2024](/images/archives/2024/journal-2024-01/voeux24_15.jpg){width="700" height="394"}
+![Journal Janvier 2024](/images/archives/2024/journal-2024-01/voeux24_15.webp){height="394" width="700"}
 
-![Journal Janvier 2024](/images/archives/2024/journal-2024-01/voeux24_9.jpg){width="700" height="394"}
+![Journal Janvier 2024](/images/archives/2024/journal-2024-01/voeux24_9.webp){height="394" width="700"}
 
-![Journal Janvier 2024](/images/archives/2024/journal-2024-01/voeux24_13.jpg){width="700" height="394"}
+![Journal Janvier 2024](/images/archives/2024/journal-2024-01/voeux24_13.webp){height="394" width="700"}
 
-![Journal Janvier 2024](/images/archives/2024/journal-2024-01/voeux24_8.jpg){width="700" height="394"}
+![Journal Janvier 2024](/images/archives/2024/journal-2024-01/voeux24_8.webp){height="394" width="700"}
 
-![Journal Janvier 2024](/images/archives/2024/journal-2024-01/voeux24_3.jpg){width="430" height="764"}
+![Journal Janvier 2024](/images/archives/2024/journal-2024-01/voeux24_3.webp){height="764" width="430"}
 
-![Journal Janvier 2024](/images/archives/2024/journal-2024-01/voeux24_17.jpg){width="430" height="764"}
+![Journal Janvier 2024](/images/archives/2024/journal-2024-01/voeux24_17.webp){height="764" width="430"}
 
-![Journal Janvier 2024](/images/archives/2024/journal-2024-01/voeux24_4.jpg){width="430" height="764"}
+![Journal Janvier 2024](/images/archives/2024/journal-2024-01/voeux24_4.webp){height="764" width="430"}
 
-![Journal Janvier 2024](/images/archives/2024/journal-2024-01/voeux24_5.jpg){width="430" height="764"}
+![Journal Janvier 2024](/images/archives/2024/journal-2024-01/voeux24_5.webp){height="764" width="430"}
 
-![Journal Janvier 2024](/images/archives/2024/journal-2024-01/voeux24_6.jpg){width="430" height="764"}
+![Journal Janvier 2024](/images/archives/2024/journal-2024-01/voeux24_6.webp){height="764" width="430"}
 
-![Journal Janvier 2024](/images/archives/2024/journal-2024-01/voeux24_7.jpg){width="430" height="764"}
+![Journal Janvier 2024](/images/archives/2024/journal-2024-01/voeux24_7.webp){height="764" width="430"}
 
-![Journal Janvier 2024](/images/archives/2024/journal-2024-01/voeux24_1.jpg){width="430" height="764"}
+![Journal Janvier 2024](/images/archives/2024/journal-2024-01/voeux24_1.webp){height="764" width="430"}

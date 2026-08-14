@@ -5,14 +5,14 @@ date: 2020-04-03
 year: 2020
 category: "Journaux du club"
 journal: "2020-04"
-image: "/images/archives/2020/journal-2020-04/calendrier_2020-_ajustement.jpg"
+image: "/images/archives/2020/journal-2020-04/calendrier_2020-_ajustement.webp"
 joomlaId: 375
 hits: 4143
 ---
 
 ## COMMUNIQUE FEDERATION FRANCAISE DE PETANQUE ET JEU PROVENCAL (FFPJP)
 
-![journal avril 2020](/images/archives/2020/journal-2020-04/calendrier_2020-_ajustement.jpg){width="1024" height="366"}
+![journal avril 2020](/images/archives/2020/journal-2020-04/calendrier_2020-_ajustement.webp){height="366" width="1024"}
 
 ## COMMUNIQUE DU COMITE DIRECTEUR DE LA FFPJP
 
@@ -41,7 +41,7 @@ Joseph CANTARELLI
 Dans ce contexte de Pandémie à COVID-19 vous les acteurs du monde sportif avez aussi un rôle important à tenir. Vous les sportifs et dirigeants êtes concernés par les questions de santé. Dans cette période de crise sanitaire, vous pouvez aider les soignants et contribuer à la santé de tous. En tant que Médecin Fédéral, je vous demande de vous mobiliser pour nous aider.
 
 Cela passe par une attitude très simple :
-\- respecter les mesures de confinement et les mesures barrières, mais également l'aération des zones où l'on se retrouve à plusieurs (commerces par exemple, mais aussi tout simplement votre lieu de vie). \- diffuser ces mesures autour de vous, dans la mesure de vos moyens c'est très facile avec tous les réseaux sociaux FB, Twitter...., en informant et en sensibilisant les autres.
+\- respecter les mesures de confinement et les mesures barrières, mais également l'aération des zones où l'on se retrouve à plusieurs (commerces par exemple, mais aussi tout simplement votre lieu de vie). - diffuser ces mesures autour de vous, dans la mesure de vos moyens c'est très facile avec tous les réseaux sociaux FB, Twitter...., en informant et en sensibilisant les autres.
 Tous ceux qui vous suivent sur les réseaux sociaux, tous ceux que vous côtoyez ordonnez leur de:
 
 **Restez chez vous - il y va de notre santé à tous !**
@@ -64,7 +64,7 @@ Durant cette période:
 \- attention au grignotage et autres mauvaises habitudes alimentaires, 2 verres d'alcool maximum par jour, équilibrez vos repas
 \- ne comptez surtout pas les jours.
 
-_Pour la Commission Médicale de la FFPJP - le Docteur Jean Pierre Iannarelli_
+*Pour la Commission Médicale de la FFPJP - le Docteur Jean Pierre Iannarelli*
 
 [Un site pour évaluer ses symptômes et être orienté](https://home.ffpjp.org/index.php/41-actualites/79-un-site-pour-evaluer-ses-symptomes-et-etre-oriente)
 
@@ -84,25 +84,25 @@ Communiqué fédéral qui fait suite à la déclaration du Président de la Rép
 
 ## RASSEMBLEMENT DOUBLETTES DE FOUESNANT ( ANNULE)
 
-![journal avril 2020](/images/archives/2020/journal-2020-04/aff_rass-fou_201.gif){width="630" height="926"}
+![journal avril 2020](/images/archives/2020/journal-2020-04/aff_rass-fou_201.gif){height="926" width="630"}
 
 \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
-![journal avril 2020](/images/archives/2020/journal-2020-04/gif9.jpg){width="70" height="73"}
+![journal avril 2020](/images/archives/2020/journal-2020-04/gif9.webp){height="73" width="70"}
 
 ## CHAMPIONNAT de CLUBS ( CdC ) 5 ème JOURNEE (ANNULE)
 
 Pour consulter les résultats complets par équipes, allez dans la rubrique "**COMPETITIONS**" Sélectionnez "**Chpt de Clubs 2020**". Ensuite cliquez sur la compétition à consulter.
 
-| #### Championnat des Clubs vétérans le 14 Avril |  |  |  |  |  |
-| --- | --- | --- | --- | --- | --- |
-|  | ##### Lieu de rencontres | ##### Equipe 1 | ##### Score 1 | ##### Score 2 | ##### Equipe 2 |
-| ##### DIVISION 1 Groupe B | _Bannalec_ | FOUESNANT 1 |  |  | DOUARNENEZ 2 |
-| ##### DIVISION 2 Groupe C | _Châteaulin_ | FOUESNANT 2 |  |  | DOUARNENEZ 3 |
-| ##### DIVISION 2 Groupe C | _Châteaulin_ | FOUESNANT 3 |  |  | PLONEIS 1 |
-| ##### DIVISION 3 Groupe H | _Ploneis_ | FOUESNANT 4 |  |  | PLONEIS 2 |
-| ##### DIVISION 3 Groupe H | _Ploneis_ | FOUESNANT 5 |  |  | PLOMELIN 4 |
-| ##### DIVISION 3 Groupe I | _Fouesnant_ | FOUESNANT 6 |  |  | PONT L'ABBE 4 |
+| #### Championnat des Clubs vétérans le 14 Avril |                          |                |               |               |                |
+| ----------------------------------------------- | ------------------------ | -------------- | ------------- | ------------- | -------------- |
+|                                                 | ##### Lieu de rencontres | ##### Equipe 1 | ##### Score 1 | ##### Score 2 | ##### Equipe 2 |
+| ##### DIVISION 1 Groupe B                       | *Bannalec*               | FOUESNANT 1    |               |               | DOUARNENEZ 2   |
+| ##### DIVISION 2 Groupe C                       | *Châteaulin*             | FOUESNANT 2    |               |               | DOUARNENEZ 3   |
+| ##### DIVISION 2 Groupe C                       | *Châteaulin*             | FOUESNANT 3    |               |               | PLONEIS 1      |
+| ##### DIVISION 3 Groupe H                       | *Ploneis*                | FOUESNANT 4    |               |               | PLONEIS 2      |
+| ##### DIVISION 3 Groupe H                       | *Ploneis*                | FOUESNANT 5    |               |               | PLOMELIN 4     |
+| ##### DIVISION 3 Groupe I                       | *Fouesnant*              | FOUESNANT 6    |               |               | PONT L'ABBE 4  |
 
 \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
@@ -110,12 +110,12 @@ Pour consulter les résultats complets par équipes, allez dans la rubrique "**C
 
 Pour consulter les résultats complets par équipes, allez dans la rubrique "**COMPETITIONS**" Sélectionnez "**Chpt de Clubs 2020**". Ensuite cliquez sur la compétition à consulter.
 
-| #### Championnat des Clubs vétérans le 28 Avril |  |  |  |  |  |
-| --- | --- | --- | --- | --- | --- |
-|  | ##### Lieu de rencontres | ##### Equipe 1 | ##### Score 1 | ##### Score 2 | ##### Equipe 2 |
-| ##### DIVISION 1 Groupe B | _Combrit_ | FOUESNANT 1 |  |  | PONT AVEN 1 |
-| ##### DIVISION 2 Groupe C | _Plomelin_ | FOUESNANT 2 |  |  | AUDIERNE 1 |
-| ##### DIVISION 2 Groupe C | _Plomelin_ | FOUESNANT 3 |  |  | CHÂTEAULIN |
-| ##### DIVISION 3 Groupe H | _Plomelin_ | FOUESNANT 4 |  |  | LOCTUDY 1 |
-| ##### DIVISION 3 Groupe H | _Plomelin_ | FOUESNANT 5 |  |  | PONT CROIX 2 |
-| ##### DIVISION 3 Groupe I | _Ergué Gabéric_ | FOUESNANT 6 |  |  | LOCTUDY 2 |
+| #### Championnat des Clubs vétérans le 28 Avril |                          |                |               |               |                |
+| ----------------------------------------------- | ------------------------ | -------------- | ------------- | ------------- | -------------- |
+|                                                 | ##### Lieu de rencontres | ##### Equipe 1 | ##### Score 1 | ##### Score 2 | ##### Equipe 2 |
+| ##### DIVISION 1 Groupe B                       | *Combrit*                | FOUESNANT 1    |               |               | PONT AVEN 1    |
+| ##### DIVISION 2 Groupe C                       | *Plomelin*               | FOUESNANT 2    |               |               | AUDIERNE 1     |
+| ##### DIVISION 2 Groupe C                       | *Plomelin*               | FOUESNANT 3    |               |               | CHÂTEAULIN     |
+| ##### DIVISION 3 Groupe H                       | *Plomelin*               | FOUESNANT 4    |               |               | LOCTUDY 1      |
+| ##### DIVISION 3 Groupe H                       | *Plomelin*               | FOUESNANT 5    |               |               | PONT CROIX 2   |
+| ##### DIVISION 3 Groupe I                       | *Ergué Gabéric*          | FOUESNANT 6    |               |               | LOCTUDY 2      |

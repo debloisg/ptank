@@ -5,14 +5,14 @@ date: 2018-09-08
 year: 2018
 category: "Le club de Fouesnant"
 journal: "2018-09"
-image: "/images/archives/2018/journal-2018-09/rassbenod2.jpg"
+image: "/images/archives/2018/journal-2018-09/rassbenod2.webp"
 joomlaId: 334
 hits: 4497
 ---
 
 ## RASSEMBLEMENT DE BENODET DU 7 SEPTEMBRE
 
-![Journal Septembre 2018](/images/archives/2018/journal-2018-09/rassbenod2.jpg){width="640" height="483"}
+![Journal Septembre 2018](/images/archives/2018/journal-2018-09/rassbenod2.webp){height="483" width="640"}
 
 Yves Piriou, Pierre Le Marrec, Charles Gestin, Maurice L'Helgoualch, Dédé Le Bris, Pierre Ernest Nédélec
 
@@ -22,35 +22,35 @@ Entre deux parties, le repos des guerriers !
 
 ## REPRISE DU CHAMPIONNAT DES CLUBS SENIORS
 
-| #### Championnat des Clubs Seniors le 16 Septembre |  |  |  |  |  |
-| --- | --- | --- | --- | --- | --- |
-|  | ##### Lieu de rencontre | ##### Equipe 1 | ##### Score 1 | ##### Score 2 | ##### Equipe 2 |
-| ##### DIVISION 2 Poule D | _Quimperlé_ | **FOUESNANT 1** | **18** | **18** | **DOUARNENEZ 2** |
-| ##### DIVISION 4 Poule I | _Elliant_ | FOUESNANT 2 | 8 | **28** | **ERGUE GABERIC 3** |
+| #### Championnat des Clubs Seniors le 16 Septembre |                         |                 |               |               |                     |
+| -------------------------------------------------- | ----------------------- | --------------- | ------------- | ------------- | ------------------- |
+|                                                    | ##### Lieu de rencontre | ##### Equipe 1  | ##### Score 1 | ##### Score 2 | ##### Equipe 2      |
+| ##### DIVISION 2 Poule D                           | *Quimperlé*             | **FOUESNANT 1** | **18**        | **18**        | **DOUARNENEZ 2**    |
+| ##### DIVISION 4 Poule I                           | *Elliant*               | FOUESNANT 2     | 8             | **28**        | **ERGUE GABERIC 3** |
 
-| #### Championnat des Clubs Seniors le 30 Septembre |  |  |  |  |  |
-| --- | --- | --- | --- | --- | --- |
-|  | ##### Lieu de rencontre | ##### Equipe 1 | ##### Score 1 | ##### Score 2 | ##### Equipe 2 |
-| ##### DIVISION 2 Poule D | _Audierne_ | **FOUESNANT 1** | **20** | 16 | AUDIERNE 1 |
-| ##### DIVISION 4 Poule I | _Bannalec_ | FOUESNANT 2 | 0 | 0 | BANNALEC 4 |
+| #### Championnat des Clubs Seniors le 30 Septembre |                         |                 |               |               |                |
+| -------------------------------------------------- | ----------------------- | --------------- | ------------- | ------------- | -------------- |
+|                                                    | ##### Lieu de rencontre | ##### Equipe 1  | ##### Score 1 | ##### Score 2 | ##### Equipe 2 |
+| ##### DIVISION 2 Poule D                           | *Audierne*              | **FOUESNANT 1** | **20**        | 16            | AUDIERNE 1     |
+| ##### DIVISION 4 Poule I                           | *Bannalec*              | FOUESNANT 2     | 0             | 0             | BANNALEC 4     |
 
 ## REPRISE DU CHAMPIONNAT DES CLUBS + DE 55 ANS
 
-| #### Championnat des Clubs + de 55 ans le 18 Septembre |  |  |  |  |  |
-| --- | --- | --- | --- | --- | --- |
-|  | ##### Lieu de rencontre | ##### Equipe 1 | ##### Score 1 | ##### Score 2 | ##### Equipe 2 |
-| ##### DIVISION 1 Poule B | _Douarnenez_ | **FOUESNANT 1** | **24** | 12 | MOELAN SUR MER |
-| ##### DIVISION 2 Poule C | _Douarnenez_ | FOUESNANT 2 | 10 | **26** | **PLONEIS** |
-| ##### DIVISION 3 Poule E | _Fouesnant_ | FOUESNANT 3 | 16 | **20** | **DOUARNENEZ 4** |
-| ##### DIVISION 3 Poule E | _Fouesnant_ | FOUESNANT 4 | 10 | **26** | **PONT L'ABBE 1** |
-| ##### DIVISION 4 Poule D | _Ergué Gabéric_ | **FOUESNANT 5** | **24** | 12 | BENODET |
-| ##### DIVISION 4 Poule D | _Ergué Gabéric_ | FOUESNANT 6 | 14 | **22** | **DOUARNENEZ 6** |
+| #### Championnat des Clubs + de 55 ans le 18 Septembre |                         |                 |               |               |                   |
+| ------------------------------------------------------ | ----------------------- | --------------- | ------------- | ------------- | ----------------- |
+|                                                        | ##### Lieu de rencontre | ##### Equipe 1  | ##### Score 1 | ##### Score 2 | ##### Equipe 2    |
+| ##### DIVISION 1 Poule B                               | *Douarnenez*            | **FOUESNANT 1** | **24**        | 12            | MOELAN SUR MER    |
+| ##### DIVISION 2 Poule C                               | *Douarnenez*            | FOUESNANT 2     | 10            | **26**        | **PLONEIS**       |
+| ##### DIVISION 3 Poule E                               | *Fouesnant*             | FOUESNANT 3     | 16            | **20**        | **DOUARNENEZ 4**  |
+| ##### DIVISION 3 Poule E                               | *Fouesnant*             | FOUESNANT 4     | 10            | **26**        | **PONT L'ABBE 1** |
+| ##### DIVISION 4 Poule D                               | *Ergué Gabéric*         | **FOUESNANT 5** | **24**        | 12            | BENODET           |
+| ##### DIVISION 4 Poule D                               | *Ergué Gabéric*         | FOUESNANT 6     | 14            | **22**        | **DOUARNENEZ 6**  |
 
-![Journal Septembre 2018](/images/archives/2018/journal-2018-09/bravo.gif){width="68" height="68"}
+![Journal Septembre 2018](/images/archives/2018/journal-2018-09/bravo.gif){height="68" width="68"}
 
 ## MEILLEURES PERFORMANCES DU MOIS
 
-_(En italique les joueurs externes au club)_
+*(En italique les joueurs externes au club)*
 
 \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
@@ -62,13 +62,13 @@ _(En italique les joueurs externes au club)_
 
 **RESULTATS:**
 
--   **3 parties gagnées:**
+- **3 parties gagnées:**
 
 Yves CLORENNEC, Désiré FLOCH
 
 Xavier ROMIEUX, Gilbert CAROFF
 
--   **2 parties gagnées:**
+- **2 parties gagnées:**
 
 Gérard SIMONIN, Charlotte SIMONIN
 
@@ -86,11 +86,11 @@ André VIOL, Jean Claude APPERRY
 
 **RESULTATS:**
 
--   **4 parties gagnées**
+- **4 parties gagnées**
 
 **Patrick QUINTEL, Gilbert CAROFF, Xavier ROMIEUX**
 
--   **2 parties gagnées**
+- **2 parties gagnées**
 
 **Roger CROGUENNEC, Jo LE STUM, Gilbert GOARIN**
 
@@ -104,15 +104,15 @@ André VIOL, Jean Claude APPERRY
 
 **RESULTATS:**
 
--   **4 parties gagnées**
+- **4 parties gagnées**
 
 **Jean Claude APPERRY, Désiré FLOCH, Jean Luc BRIAND**
 
-**Michel DETOC,** _Gilles DELIGET, Rémi BERGERE_
+**Michel DETOC,** *Gilles DELIGET, Rémi BERGERE*
 
-**Gilbert GOARIN,** _Jean Yves CARADENNEC, Claude BAILLEX_
+**Gilbert GOARIN,** *Jean Yves CARADENNEC, Claude BAILLEX*
 
--   **3 parties gagnées**
+- **3 parties gagnées**
 
 **André VIOL, Patrick OLIVRY, Gilbert YQUEL**
 
@@ -126,6 +126,6 @@ André VIOL, Jean Claude APPERRY
 
 **RESULTATS:**
 
--   **1/2 finalistes du concours A :**
+- **1/2 finalistes du concours A :**
 
 **Philippe MARIANA, Patrick QUINTEL, Gilbert CAROFF**

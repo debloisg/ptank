@@ -5,22 +5,22 @@ date: 2023-01-28
 year: 2023
 category: "Journaux du club"
 journal: "2023-11"
-image: "/images/archives/2023/journal-2023-11/logopet1.png"
+image: "/images/archives/2023/journal-2023-11/logopet1.webp"
 joomlaId: 441
 hits: 3369
 ---
 
-![Journal Novembre 23](/images/archives/2023/journal-2023-11/logopet1.png){width="183" height="44"} **PROGRAMME DE FIN D'ANNEE**
+![Journal Novembre 23](/images/archives/2023/journal-2023-11/logopet1.webp){height="44" width="183"} **PROGRAMME DE FIN D'ANNEE**
 
--   **Date de l'assemblée générale, le Samedi 21 Octobre à 18h.**
--   **Congrés départemental à Carhaix, le Samedi 19 Novembre, Gilbert Caroff et Bruno Minel sont délégués.**
--   **Les concours internes se dérouleront en triplettes à la mèlée, tous les mercredis à 14h, excepté le dernier mercredi du mois qui se fera en triplettes constituées****. Le 1er novembre il n'y aura pas de concours. 1er concours le mercredi 25 Octobre.**
--   **Le repas des bénévoles est programmé le Vendredi 17 Novembre à 18h ( invitations par mail).**
--   **Le repas de fin d'année est fixé le Vendredi 8 Décembre à 18 h30, 20€ pour les licenciés, 25€ pour les invités. Inscription et paiement avant le 30 Novembre auprès des trésoriers.**
--   **Le Téléthon a lieu le samedi 2 Décembre en doublettes à 14h. Inscription 5€.**
--   **Le marché de Noël du 8 au 30 Décembre. La pétanque Fouesnantaise y participera comme les années précédentes. Elle y sera présente sur un stand le 20 décembre de 16h à 21h.**
+- **Date de l'assemblée générale, le Samedi 21 Octobre à 18h.**
+- **Congrés départemental à Carhaix, le Samedi 19 Novembre, Gilbert Caroff et Bruno Minel sont délégués.**
+- **Les concours internes se dérouleront en triplettes à la mèlée, tous les mercredis à 14h, excepté le dernier mercredi du mois qui se fera en triplettes constituées**\*\*. Le 1er novembre il n'y aura pas de concours. 1er concours le mercredi 25 Octobre.\*\*
+- **Le repas des bénévoles est programmé le Vendredi 17 Novembre à 18h ( invitations par mail).**
+- **Le repas de fin d'année est fixé le Vendredi 8 Décembre à 18 h30, 20€ pour les licenciés, 25€ pour les invités. Inscription et paiement avant le 30 Novembre auprès des trésoriers.**
+- **Le Téléthon a lieu le samedi 2 Décembre en doublettes à 14h. Inscription 5€.**
+- **Le marché de Noël du 8 au 30 Décembre. La pétanque Fouesnantaise y participera comme les années précédentes. Elle y sera présente sur un stand le 20 décembre de 16h à 21h.**
 
-_Désiré Floch_
+*Désiré Floch*
 
 ---
 
@@ -30,11 +30,11 @@ _Désiré Floch_
 
 **Voir la rubrique "CLUB" "Demande licences"**
 
-![Journal Novembre 23](/images/archives/2023/journal-2023-11/icon-48-alert.png){width="51" height="51"}**dates de permanences pour le dépôt des licences :**
+![Journal Novembre 23](/images/archives/2023/journal-2023-11/icon-48-alert.webp){height="51" width="51"}**dates de permanences pour le dépôt des licences :**
 
--   **Mercredi 13 décembre 2023 de 14h à 17h**
--   **Samedi 6 janvier 2024 de 14h à 17h**
--   **Mercredi 17 janvier 2024 de 14h à 17h**
+- **Mercredi 13 décembre 2023 de 14h à 17h**
+- **Samedi 6 janvier 2024 de 14h à 17h**
+- **Mercredi 17 janvier 2024 de 14h à 17h**
 
 **Merci, pour le secrétariat, de respecter ces dates .**
 
@@ -52,13 +52,13 @@ Comme tous les ans, La Pétanque Fouesnantaise a été sollicité par la mairie,
 
 ---
 
-![Journal Novembre 23](/images/archives/2023/journal-2023-11/bravo.gif){width="68" height="68"}
+![Journal Novembre 23](/images/archives/2023/journal-2023-11/bravo.gif){height="68" width="68"}
 
 ## **MEILLEURES PERFORMANCES DU MOIS DE LA PETANQUE FOUESNANTAISE**
 
-_(En italique les joueurs externes au club)_
+*(En italique les joueurs externes au club)*
 
-_Vos performances du mois à renseigner par courriel :_ [lapetanquefouesnantaise@gmail.com](mailto:lapetanquefouesnantaise@gmail.com)
+*Vos performances du mois à renseigner par courriel :* <lapetanquefouesnantaise@gmail.com>
 
 **\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_**
 
@@ -72,17 +72,17 @@ _Vos performances du mois à renseigner par courriel :_ [lapetanquefouesnantaise
 
 **Concours A**
 
--   **Gagnants concours A**
+- **Gagnants concours A**
 
-Jordan GUITON, _Guervyn FAVRAL_
+Jordan GUITON, *Guervyn FAVRAL*
 
--   **1/4 de finale concours A**
+- **1/4 de finale concours A**
 
-Gildas RAZIL, _Thomas BILLARDON_
+Gildas RAZIL, *Thomas BILLARDON*
 
 **Concours B**
 
--   **Finalistes concours B**
+- **Finalistes concours B**
 
 Gessy BOLLINI, Enzo LANDAUER
 

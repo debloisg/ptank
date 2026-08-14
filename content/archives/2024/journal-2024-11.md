@@ -5,40 +5,31 @@ date: 2024-11-01
 year: 2024
 category: "Journaux du club"
 journal: "2024-11"
-image: "/images/archives/2024/journal-2024-11/logopet1.png"
+image: "/images/archives/2024/journal-2024-11/logopet1.webp"
 joomlaId: 461
 hits: 4660
 ---
 
-![Journal Novembre 24](/images/archives/2024/journal-2024-11/logopet1.png){width="183" height="44"} **PROGRAMME DE FIN D'ANNEE**
+![Journal Novembre 24](/images/archives/2024/journal-2024-11/logopet1.webp){height="44" width="183"} **PROGRAMME DE FIN D'ANNEE**
 
--   **Les mercredis concours internes en triplettes à 14 heures**
-
--   **Le samedi 16 novembre Congrès Départemental à Bohars**
-
--   **Le lundi 18 à 14h début de la compétition championnat interne mixte**
-
--   **Le lundi 18 réunion du comité de la Pétanque Fouesnantaise**
-
--   **Le mardi 19 novembre à 18h30 réunion des associations à l'archipel (3 membres du comité représenterons le club)**
-
--   **Le vendredi 29 novembre à 18h30 aura lieu Le Trophée de La ville de Fouesnant les Glénan**
-
--   **Le samedi 30 novembre concours au profit du TELETHON en doublettes constituées.**
-
--   **Le mercredi 4 décembre : tournoi du Père Noël, tirage par les lutins du Père Noël**
-
--   **Le vendredi 6 décembre aura lieu le repas de fin d'année au restaurant scolaire , pour les licenciés et leurs conjoints ou conjointes.**
-
--   **Les 13 et 14 décembre concours de tir**
+- **Les mercredis concours internes en triplettes à 14 heures**
+- **Le samedi 16 novembre Congrès Départemental à Bohars**
+- **Le lundi 18 à 14h début de la compétition championnat interne mixte**
+- **Le lundi 18 réunion du comité de la Pétanque Fouesnantaise**
+- **Le mardi 19 novembre à 18h30 réunion des associations à l'archipel (3 membres du comité représenterons le club)**
+- **Le vendredi 29 novembre à 18h30 aura lieu Le Trophée de La ville de Fouesnant les Glénan**
+- **Le samedi 30 novembre concours au profit du TELETHON en doublettes constituées.**
+- **Le mercredi 4 décembre : tournoi du Père Noël, tirage par les lutins du Père Noël**
+- **Le vendredi 6 décembre aura lieu le repas de fin d'année au restaurant scolaire , pour les licenciés et leurs conjoints ou conjointes.**
+- **Les 13 et 14 décembre concours de tir**
 
 L'inscription est ouverte, une feuille d'inscription est épinglée sur le panneau d'affichage dans le boulodrome.
 
--   **Le marché de noël se déroule cette année du 6 au 28 décembre (sauf les lundis et mardis), 16 associations y participent, La Pétanque Fouesnantaise sera représentée dans un chalet de Noël Animation au marché de Noël**
+- **Le marché de noël se déroule cette année du 6 au 28 décembre (sauf les lundis et mardis), 16 associations y participent, La Pétanque Fouesnantaise sera représentée dans un chalet de Noël Animation au marché de Noël**
 
 ---
 
-![Journal Novembre 24](/images/archives/2024/journal-2024-11/blasoncd29.jpg){width="64" height="70"}
+![Journal Novembre 24](/images/archives/2024/journal-2024-11/blasoncd29.webp){height="70" width="64"}
 
 ## LICENCES 2025
 
@@ -78,8 +69,8 @@ L'inscription est ouverte, une feuille d'inscription est épinglée sur le panne
 
 Qualification Club à Fouesnant le Samedi 14 Décembre pour les femmes et les hommes.
 
--   2 joueuses qualifiées directement au Départemental
--   3 joueurs qualifiés pour le Secteur.
+- 2 joueuses qualifiées directement au Départemental
+- 3 joueurs qualifiés pour le Secteur.
 
 Qualification secteur (uniquement pour les hommes) le Samedi 25 et Dimanche 26 Janvier 2025.
 
@@ -87,7 +78,7 @@ Qualification départementale (F et H) le Dimanche 9 février à Plougastel.
 
 ---
 
-![Journal Novembre 24](/images/archives/2024/journal-2024-11/telethon3_24.png){width="180" height="62"}
+![Journal Novembre 24](/images/archives/2024/journal-2024-11/telethon3_24.webp){height="62" width="180"}
 
 ## **CONCOURS DU TELETHON 2024**
 
@@ -95,13 +86,10 @@ Comme tous les ans , La Pétanque Fouesnantaise s'associe pour la bonne cause à
 
 Le samedi 30 novembre à 14 h, sera organisé un concours ouvert à tous, licenciés ou amateurs sur notre boulodrome près de la piscine " Balneïde" en doublettes formées. Si vous êtes seul/e, vous pourrez trouver un/une partenaire sur place.
 
--   ### **Inscriptions à partir de 13h30. 5 €**
-
--   #### Jet du bouchon à 14h15.
-
--   #### Le concours doublettes est en trois parties.
-
--   ## Venez nombreux soutenir cette action.
+- ### **Inscriptions à partir de 13h30. 5 €**
+- #### Jet du bouchon à 14h15.
+- #### Le concours doublettes est en trois parties.
+- ## Venez nombreux soutenir cette action.
 
 **Tous les bénéfices seront reversés au bénéfice du Téléthon AFM.**
 
@@ -113,46 +101,46 @@ Le championnat mixte interne va bientôt commencer. la première journée est pr
 
 A cette occasion un groupe whatsapp "**Championnat mixte interne**"a été crée pour favoriser les échanges. N'hésitez pas à vous y inscrire.
 
-| ### INSCRITS |  |  | ### INSCRITS |  |
-| --- | --- | --- | --- | --- |
-| **HOMMES** |  |  | **FEMMES** |  |
-| H1 | JUNOT Alain |  | F1 | RANNOU Odile |
-| H2 | CAROFF Gilbert |  | F2 | DUMONT martine |
-| H3 | BRIAND Jean-Luc |  | F3 | KERADENNEC Anne-Marie |
-| H4 | HENAFF Jean-Bernard |  | F4 | GARRIDO Josette |
-| H5 | LOMONTE Téo |  | F5 | SIMONIN Charlotte |
-| H6 | VIOL André |  | F6 | CHARBONNIER Gisèle |
-| H7 | GENDROT Joël |  | F7 | GIRARD Christelle |
-| H8 | DE BLOIS Pierre |  | F8 | LE PERRU Gigi |
-| H9 | KERMORGANT Guy |  | F9 | THIERY Pierrette |
-| H10 | DULUARD Didier |  | F10 | FALCO Bernadette |
-| H11 | LE GOFF Christian |  | F11 | GOARIN Michèle |
-| H12 | CHARBONNIER Alain |  | F12 | FLORIMOND Jeanne |
-| H13 | VOILLEMIN Gaston |  | F13 | GUILLOSOU Danielle |
-| H14 | LE STUM Jo |  | F14 | LE BAIL Gaëlle |
-| H15 | RAZIL Gildas |  |  |  |
-| H16 | COQUILLON Alain |  |  |  |
-| H17 | QUENTIN Patrick |  |  |  |
-| H18 | LE PIMPEC Bruno |  |  |  |
-| H19 | BUIATTI Eric |  |  |  |
-| H20 | POMMEREUL Jacques |  |  |  |
-| H21 | CHUINARD Alain |  |  |  |
-| H22 | LE RESTE André |  |  |  |
-| H23 | FALCO Jean-Marie |  |  |  |
-| H24 | SALIOU Jacques |  |  |  |
-| H25 | HERVE Jean-Luc |  |  |  |
-| H26 | VILATTE Bernard |  |  |  |
-| H27 | APPERRY Jean-Claude |  |  |  |
-| H28 | LE MOULLEC Henry |  |  |  |
-| H29 | PIGUEL LOZAC'H Jean-Michel |  |  |  |
-| H30 | CROGUENNEC Roger |  |  |  |
-| H31 | OLIVRY Patrick |  |  |  |
-|  |  |  |  |  |
-|  |  |  |  |  |
+| ### INSCRITS |                            |   | ### INSCRITS |                       |
+| ------------ | -------------------------- | - | ------------ | --------------------- |
+| **HOMMES**   |                            |   | **FEMMES**   |                       |
+| H1           | JUNOT Alain                |   | F1           | RANNOU Odile          |
+| H2           | CAROFF Gilbert             |   | F2           | DUMONT martine        |
+| H3           | BRIAND Jean-Luc            |   | F3           | KERADENNEC Anne-Marie |
+| H4           | HENAFF Jean-Bernard        |   | F4           | GARRIDO Josette       |
+| H5           | LOMONTE Téo                |   | F5           | SIMONIN Charlotte     |
+| H6           | VIOL André                 |   | F6           | CHARBONNIER Gisèle    |
+| H7           | GENDROT Joël               |   | F7           | GIRARD Christelle     |
+| H8           | DE BLOIS Pierre            |   | F8           | LE PERRU Gigi         |
+| H9           | KERMORGANT Guy             |   | F9           | THIERY Pierrette      |
+| H10          | DULUARD Didier             |   | F10          | FALCO Bernadette      |
+| H11          | LE GOFF Christian          |   | F11          | GOARIN Michèle        |
+| H12          | CHARBONNIER Alain          |   | F12          | FLORIMOND Jeanne      |
+| H13          | VOILLEMIN Gaston           |   | F13          | GUILLOSOU Danielle    |
+| H14          | LE STUM Jo                 |   | F14          | LE BAIL Gaëlle        |
+| H15          | RAZIL Gildas               |   |              |                       |
+| H16          | COQUILLON Alain            |   |              |                       |
+| H17          | QUENTIN Patrick            |   |              |                       |
+| H18          | LE PIMPEC Bruno            |   |              |                       |
+| H19          | BUIATTI Eric               |   |              |                       |
+| H20          | POMMEREUL Jacques          |   |              |                       |
+| H21          | CHUINARD Alain             |   |              |                       |
+| H22          | LE RESTE André             |   |              |                       |
+| H23          | FALCO Jean-Marie           |   |              |                       |
+| H24          | SALIOU Jacques             |   |              |                       |
+| H25          | HERVE Jean-Luc             |   |              |                       |
+| H26          | VILATTE Bernard            |   |              |                       |
+| H27          | APPERRY Jean-Claude        |   |              |                       |
+| H28          | LE MOULLEC Henry           |   |              |                       |
+| H29          | PIGUEL LOZAC'H Jean-Michel |   |              |                       |
+| H30          | CROGUENNEC Roger           |   |              |                       |
+| H31          | OLIVRY Patrick             |   |              |                       |
+|              |                            |   |              |                       |
+|              |                            |   |              |                       |
 
 **\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_**
 
-![Journal Novembre 24](/images/archives/2024/journal-2024-11/gif7.jpg){width="83" height="85"}
+![Journal Novembre 24](/images/archives/2024/journal-2024-11/gif7.webp){height="85" width="83"}
 
 ## COURS DE PETANQUE
 
@@ -168,13 +156,13 @@ N'hésitez pas à vous inscrire pour devenir dans quelques temps un(e) super cha
 
 Merci à nos bénévoles qui organisent et participent à cette action.
 
-![Journal Novembre 24](/images/archives/2024/journal-2024-11/entrment_pet6.jpg){width="300" height="381"}
+![Journal Novembre 24](/images/archives/2024/journal-2024-11/entrment_pet6.webp){height="381" width="300"}
 
-![Journal Novembre 24](/images/archives/2024/journal-2024-11/cours_pet_4.jpg){width="800" height="527"}
+![Journal Novembre 24](/images/archives/2024/journal-2024-11/cours_pet_4.webp){height="527" width="800"}
 
-![Journal Novembre 24](/images/archives/2024/journal-2024-11/entrainnt_pet7.jpg){width="800" height="450"}
+![Journal Novembre 24](/images/archives/2024/journal-2024-11/entrainnt_pet7.webp){height="450" width="800"}
 
-![Journal Novembre 24](/images/archives/2024/journal-2024-11/entrment_pet5.jpg){width="800" height="450"}
+![Journal Novembre 24](/images/archives/2024/journal-2024-11/entrment_pet5.webp){height="450" width="800"}
 
 ---
 
@@ -196,23 +184,23 @@ Gessy BOLLINI, Gilbert CAROFF, Hervé DUBACH, Gwervyn FRAVAL, André GUERIN, Jor
 
 Un grand bravo à toute l'équipe .
 
-_Gildas Razil_
+*Gildas Razil*
 
-![Journal Novembre 24](/images/archives/2024/journal-2024-11/chpteq_d1_24.png){width="268" height="562"}
+![Journal Novembre 24](/images/archives/2024/journal-2024-11/chpteq_d1_24.webp){height="562" width="268"}
 
 **CHAMPIONS DU FINISTERE PAR EQUIPES OPEN 1ère DIVISION ET ACCES AU CHAMPIONNAL REGIONAL PAR EQUIPES DES CLUBS 2ème DIVISION ( CRC2 )**
 
-![Journal Novembre 24](/images/archives/2024/journal-2024-11/chpt_eq_open_d1__regio_24_1.gif){width="700" height="626"}
+![Journal Novembre 24](/images/archives/2024/journal-2024-11/chpt_eq_open_d1__regio_24_1.gif){height="626" width="700"}
 
-De gauche à droite de bas en haut: André GUERIN, Hervé DUBACH, Gibert CAROFF, Gwervyn FRAVAL, Jordan GUITON, Gildas RAZIL**,** Gessy BOLLINI,Gérard MACHARD
+De gauche à droite de bas en haut: André GUERIN, Hervé DUBACH, Gibert CAROFF, Gwervyn FRAVAL, Jordan GUITON, Gildas RAZIL\*\*,\*\* Gessy BOLLINI,Gérard MACHARD
 
-![Journal Novembre 24](/images/archives/2024/journal-2024-11/chpt_eq_open_d1__regio_24_3.gif){width="800" height="588"}
+![Journal Novembre 24](/images/archives/2024/journal-2024-11/chpt_eq_open_d1__regio_24_3.gif){height="588" width="800"}
 
 **\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_**
 
 ## DECOUVERTE DU JEU PROVENCAL
 
-![Journal Novembre 24](/images/archives/2024/journal-2024-11/jeu_prov1.jpeg){width="800" height="488"}
+![Journal Novembre 24](/images/archives/2024/journal-2024-11/jeu_prov1.webp){height="488" width="800"}
 
 **Qu'est ce que le jeu provençal ?**
 
@@ -234,7 +222,7 @@ Venez essayer et pourquoi pas adopter le jeu provençal.
 
 ## ASSEMBLEE GENERALE 2024
 
-![Journal Novembre 24](/images/archives/2024/journal-2024-11/ag24_bureau.jpg){width="800" height="335"}
+![Journal Novembre 24](/images/archives/2024/journal-2024-11/ag24_bureau.webp){height="335" width="800"}
 
 Représentants du Comité directeur 2024:
 
@@ -244,7 +232,7 @@ Représentants de la municipalité de Fouesnant les Glenan:
 
 Roger Le Goff, Maire de Fouesnant les Glenan, Laure caramaro 2è adjointe Cadre de vie, travaux et développement durable, conseillère Départementale du Finistère, Gildas Cornec 5è adjoint Vie associative et matériels techniques
 
-![Journal Novembre 24](/images/archives/2024/journal-2024-11/ag24lice.jpg){width="800" height="600"}
+![Journal Novembre 24](/images/archives/2024/journal-2024-11/ag24lice.webp){height="600" width="800"}
 
 **Les licenciés à La Pétanque Fouesnantaise ont répondu présents en nombre**
 
@@ -274,13 +262,13 @@ Avant le pot de l'amitié, Georges et Pierre Nédélec ont été récompensés p
 
 ## **ARTICLE DU TELEGRAMME**
 
-![Journal Novembre 24](/images/archives/2024/journal-2024-11/ag24_teleg_2.gif){width="700" height="900"}
+![Journal Novembre 24](/images/archives/2024/journal-2024-11/ag24_teleg_2.gif){height="900" width="700"}
 
 **\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_**
 
 ## JOSEPH LE STUM ET GILBERT CAROFF HONORES
 
-![Journal Novembre 24](/images/archives/2024/journal-2024-11/ag24_medail.jpg){width="800" height="500"}
+![Journal Novembre 24](/images/archives/2024/journal-2024-11/ag24_medail.webp){height="500" width="800"}
 
 Le Comité des médaillés de la jeunesse, des sports et de l’engagement associatif du Finistère a récompensé deux piliers de La Pétanque Fouesnantaise, Joseph Le Stum médaille de bronze et Gilbert Caroff médaille d'argent.
 
@@ -288,19 +276,19 @@ Le Comité des médaillés de la jeunesse, des sports et de l’engagement assoc
 
 ## COMPOSITION DU NOUVEAU CONSEIL D'ADMINISTRATION
 
-| **Co-présidents** | **Jean Michel PIGUEL LOZAC'H et Gildas RAZIL** |
-| --- | --- |
-| **Vices-Présidents** | **Didier DULUARD et Désiré FLOCH** |
-| **Trésorier** | **Pierre DE BLOIS** |
-| **Trésoriers adjoints** | **Désiré FLOCH et Gildas RAZIL** |
-| **Secrétaire** | **Odile RANNOU** |
-| **Secrétaire adjointe** | **Christelle GIRARD** |
-|  |  |
-| **Membres** | **Gilbert CAROFF, Joël GENDROT, André GUERIN,**<br>**Jordan GUITON, Joseph Le STUM** |
+| **Co-présidents**       | **Jean Michel PIGUEL LOZAC'H et Gildas RAZIL**                                      |
+| ----------------------- | ----------------------------------------------------------------------------------- |
+| **Vices-Présidents**    | **Didier DULUARD et Désiré FLOCH**                                                  |
+| **Trésorier**           | **Pierre DE BLOIS**                                                                 |
+| **Trésoriers adjoints** | **Désiré FLOCH et Gildas RAZIL**                                                    |
+| **Secrétaire**          | **Odile RANNOU**                                                                    |
+| **Secrétaire adjointe** | **Christelle GIRARD**                                                               |
+|                         |                                                                                     |
+| **Membres**             | **Gilbert CAROFF, Joël GENDROT, André GUERIN,**:br**Jordan GUITON, Joseph Le STUM** |
 
 **\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_**
 
-![Journal Novembre 24](/images/archives/2024/journal-2024-11/gif7-2.jpg){width="83" height="85"} **RETOUR DES CONCOURS INTERNES D'AUTOMNE / HIVER**
+![Journal Novembre 24](/images/archives/2024/journal-2024-11/gif7-2.webp){height="85" width="83"} **RETOUR DES CONCOURS INTERNES D'AUTOMNE / HIVER**
 
 **Premier concours le mercredi 6 novembre en triplettes ou doublettes non constituées. Le choix sera précisé le jour même, en fonction de la météo, du nombre de joueurs et joueuses et de la disponibilité des terrains.**
 
@@ -310,15 +298,15 @@ Le Comité des médaillés de la jeunesse, des sports et de l’engagement assoc
 
 **Merci d'avance pour les bénévoles, l'ouverture de la buvette est conditionnée par un nombre suffisant de personnes disponibles pour asurer le service.**
 
-![Journal Novembre 24](/images/archives/2024/journal-2024-11/tabl_buv_cc_hiv24.png){width="725" height="1199"}
+![Journal Novembre 24](/images/archives/2024/journal-2024-11/tabl_buv_cc_hiv24.webp){height="1199" width="725"}
 
 **\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_**
 
-**![Journal Novembre 24](/images/archives/2024/journal-2024-11/bravo.gif){width="68" height="68"}** **MEILLEURES PERFORMANCES DU MOIS DE LA PETANQUE FOUESNANTAISE**
+**![Journal Novembre 24](/images/archives/2024/journal-2024-11/bravo.gif){height="68" width="68"}** **MEILLEURES PERFORMANCES DU MOIS DE LA PETANQUE FOUESNANTAISE**
 
-_(En italique les joueurs externes au club)_
+*(En italique les joueurs externes au club)*
 
-_Vos performances du mois à renseigner par courriel :_ [lapetanquefouesnantaise@gmail.com](mailto:lapetanquefouesnantaise@gmail.com)
+*Vos performances du mois à renseigner par courriel :* <lapetanquefouesnantaise@gmail.com>
 
 **\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_**
 
@@ -330,11 +318,11 @@ _Vos performances du mois à renseigner par courriel :_ [lapetanquefouesnantaise
 
 **CONCOURS A**
 
-![Journal Novembre 24](/images/archives/2024/journal-2024-11/cc_sen_1.jpg){width="400" height="276"}
+![Journal Novembre 24](/images/archives/2024/journal-2024-11/cc_sen_1.webp){height="276" width="400"}
 
 **vainqueurs du concours A**
 
--   Gaëtan LE DREZEN, Sabrina QUINTIN, Gessy BOLLINI
+- Gaëtan LE DREZEN, Sabrina QUINTIN, Gessy BOLLINI
 
 **\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_**
 
@@ -348,7 +336,7 @@ _Vos performances du mois à renseigner par courriel :_ [lapetanquefouesnantaise
 
 **1/4 de finale du concours A**
 
--   Yves COTTAREL, Thierry REBUT
+- Yves COTTAREL, Thierry REBUT
 
 **\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_**
 
@@ -362,4 +350,4 @@ _Vos performances du mois à renseigner par courriel :_ [lapetanquefouesnantaise
 
 **Vainqueurs du concours B**
 
--   Yves COTTAREL, Denis BON, Thierry REBUT
+- Yves COTTAREL, Denis BON, Thierry REBUT

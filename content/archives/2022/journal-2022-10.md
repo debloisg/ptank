@@ -5,12 +5,12 @@ date: 2021-12-31
 year: 2022
 category: "Journaux du club"
 journal: "2022-10"
-image: "/images/archives/2022/journal-2022-10/gif1.png"
+image: "/images/archives/2022/journal-2022-10/gif1.webp"
 joomlaId: 420
 hits: 4727
 ---
 
-**![journal Oct 22](/images/archives/2022/journal-2022-10/gif1.png){width="85" height="70"}  PROGRAMME DE FIN D'ANNEE** (suite à la réunion du bureau)
+**![journal Oct 22](/images/archives/2022/journal-2022-10/gif1.webp){width="85" height="70"}  PROGRAMME DE FIN D'ANNEE** (suite à la réunion du bureau)
 
 -   04 octobre : Trophée Vétérans B 1/4 de finale, à Fouesnant contre Gouesnou
 -   5 octobre Concours interne reproduit tous les mercredis jusqu'au 15 décembre
@@ -30,23 +30,23 @@ _Jo Le Stum_
 
 ---
 
-![journal Oct 22](/images/archives/2022/journal-2022-10/logopet1.png){width="250" height="60"}
+![journal Oct 22](/images/archives/2022/journal-2022-10/logopet1.webp){width="250" height="60"}
 
 ## **ASSEMBLEE GENERALE 2022.**
 
-![journal Oct 22](/images/archives/2022/journal-2022-10/ag22bureau10.jpg){width="640" height="480"}
+![journal Oct 22](/images/archives/2022/journal-2022-10/ag22bureau10.webp){width="640" height="480"}
 
 Membres du bureau 2022 et Monsieur Roger Le Goff Maire de Fouesnant Les Glenan
 
-![journal Oct 22](/images/archives/2022/journal-2022-10/ag22public12.jpg){width="640" height="480"}
+![journal Oct 22](/images/archives/2022/journal-2022-10/ag22public12.webp){width="640" height="480"}
 
 Les membres du club venus nombreux pour l'assemblée générale
 
-![journal Oct 22](/images/archives/2022/journal-2022-10/ag22christian30.jpg){width="640" height="480"}
+![journal Oct 22](/images/archives/2022/journal-2022-10/ag22christian30.webp){width="640" height="480"}
 
 Christian Le Goff, secrétaire récompensé fort justement pour son travail au sein du bureau pendant plusieurs années.
 
-![journal Oct 22](/images/archives/2022/journal-2022-10/ag22pierreernest12.png){width="375" height="510"}
+![journal Oct 22](/images/archives/2022/journal-2022-10/ag22pierreernest12.webp){width="375" height="510"}
 
 Pierre Ernest Nédélec, récompensé pour son implication dans la vie du club
 
@@ -113,7 +113,7 @@ L’ AG s’est terminée en récompensant **Christian LE GOFF** et **Pierre Ern
 
 ---
 
- **![journal Oct 22](/images/archives/2022/journal-2022-10/gif6.jpg){width="48" height="70"} T****ROPHEE VETERANS B DEMI FINALE ET FINALE le Mardi 25 Octobre à KERHUON**
+ **![journal Oct 22](/images/archives/2022/journal-2022-10/gif6.webp){width="48" height="70"} T****ROPHEE VETERANS B DEMI FINALE ET FINALE le Mardi 25 Octobre à KERHUON**
 
 Les équipes restantes disputant ces compétitions sont:
 
@@ -131,13 +131,13 @@ Charlotte Simonin, Marie Hélène Primot, Patrick Quentel, Jean Marie Perchec, M
 
 **Délégué:** Bruno Schuppe
 
-![journal Oct 22](/images/archives/2022/journal-2022-10/trophvet221.png){width="680" height="395"}
+![journal Oct 22](/images/archives/2022/journal-2022-10/trophvet221.webp){width="680" height="395"}
 
-![journal Oct 22](/images/archives/2022/journal-2022-10/trophvet222.png){width="680" height="432"}
+![journal Oct 22](/images/archives/2022/journal-2022-10/trophvet222.webp){width="680" height="432"}
 
 ---
 
- **![journal Oct 22](/images/archives/2022/journal-2022-10/gif6-2.jpg){width="48" height="70"} T****ROPHEE VETERANS B 3ème TOUR le Mardi 4 Octobre**
+ **![journal Oct 22](/images/archives/2022/journal-2022-10/gif6-2.webp){width="48" height="70"} T****ROPHEE VETERANS B 3ème TOUR le Mardi 4 Octobre**
 
 Pour le 3 ème tour du trophée vétérans **B**, l'équipe de fouesnant va recevoir à domicile l'équipe d**e Gouesnou**
 
@@ -145,7 +145,7 @@ Bonne chance à toute l'équipe.
 
 Résultats:
 
-![journal Oct 22](/images/archives/2022/journal-2022-10/troph_vete22_gouesnou1.jpg){width="680" height="474"}
+![journal Oct 22](/images/archives/2022/journal-2022-10/troph_vete22_gouesnou1.webp){width="680" height="474"}
 
 Félicitation à l'équipe de Fouesnant qui s'impose face à une très bonne équipe de Gouesnou:
 

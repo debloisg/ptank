@@ -14,7 +14,7 @@ hits: 3753
 
 ---
 
-![Journal Décembre 23](/images/archives/2023/journal-2023-12/blasoncd29.jpg){width="64" height="70"}
+![Journal Décembre 23](/images/archives/2023/journal-2023-12/blasoncd29.webp){width="64" height="70"}
 
 ## CALENDRIERS
 
@@ -22,7 +22,7 @@ hits: 3753
 
 ---
 
-![Journal Décembre 23](/images/archives/2023/journal-2023-12/logopet1.png){width="183" height="44"} **PROGRAMME DE DEBUT D'ANNEE 2024**
+![Journal Décembre 23](/images/archives/2023/journal-2023-12/logopet1.webp){width="183" height="44"} **PROGRAMME DE DEBUT D'ANNEE 2024**
 
 -   **REPRISE DES CONCOURS INTERNES LE 3 JANVIER EN TRIPLETTES CONSTITUEES**
 
@@ -42,7 +42,7 @@ _Désiré Floch, Gilbert Caroff_
 
 **Le prix de la licence est de 45€**
 
-![Journal Décembre 23](/images/archives/2023/journal-2023-12/icon-48-alert.png){width="51" height="51"}**dates de permanences pour le dépôt des licences :**
+![Journal Décembre 23](/images/archives/2023/journal-2023-12/icon-48-alert.webp){width="51" height="51"}**dates de permanences pour le dépôt des licences :**
 
 -   **Samedi 6 janvier 2024 de 14h à 17h**
 
@@ -54,7 +54,7 @@ _Désiré Floch, Gilbert Caroff_
 
 ## MARCHE DE NOËL
 
-![Journal Décembre 23](/images/archives/2023/journal-2023-12/noel23_chalets.png){width="650" height="488"}
+![Journal Décembre 23](/images/archives/2023/journal-2023-12/noel23_chalets.webp){width="650" height="488"}
 
 Comme tous les ans, La Pétanque Fouesnantaise a été sollicité par la mairie, en tant que bénévole, pour la préparation des chalets du marché de Noël qui aura lieu du 8 au 30 décembre. Si vous êtes intéressé vous pouvez prendre contact avec Désiré Floch .
 
@@ -62,7 +62,7 @@ Comme tous les ans, La Pétanque Fouesnantaise a été sollicité par la mairie,
 
 2023
 
-la Pétanque Fouesnantaise s'associe pour la bonne cause à la journée du Téléthon . Le samedi 2 décembre à 14 h, un concours ouvert à tous, licenciés ou amateurs, sur notre boulodrome près de la piscine " balneïde" en doublettes formées ( venez avec votre partenaire ou trouvez le sur place). Le concours doublettes est organisé sur trois parties. Venez nombreux soutenir cette action. RESULTATS: ![Journal Décembre 23](/images/archives/2023/journal-2023-12/telethon23_3.png){width="690" height="708"}        ![Journal Décembre 23](/images/archives/2023/journal-2023-12/vainqueurs_1_a.jpg){width="680" height="383"}  Christian Priol, Hervé Dubac les vainqueurs    ![Journal Décembre 23](/images/archives/2023/journal-2023-12/2me_teleth_2.jpg){width="680" height="383"}    ![Journal Décembre 23](/images/archives/2023/journal-2023-12/3eme_teleth_3.jpg){width="680" height="383"}    ![Journal Décembre 23](/images/archives/2023/journal-2023-12/4eme_teleth_4.jpg){width="680" height="383"}    ![Journal Décembre 23](/images/archives/2023/journal-2023-12/5me_teleth_5.jpg){width="680" height="383"}    ![Journal Décembre 23](/images/archives/2023/journal-2023-12/6eme_teleth_6.jpg){width="680" height="383"}    ![Journal Décembre 23](/images/archives/2023/journal-2023-12/7eme_teleth_7.jpg){width="400" height="711"}
+la Pétanque Fouesnantaise s'associe pour la bonne cause à la journée du Téléthon . Le samedi 2 décembre à 14 h, un concours ouvert à tous, licenciés ou amateurs, sur notre boulodrome près de la piscine " balneïde" en doublettes formées ( venez avec votre partenaire ou trouvez le sur place). Le concours doublettes est organisé sur trois parties. Venez nombreux soutenir cette action. RESULTATS: ![Journal Décembre 23](/images/archives/2023/journal-2023-12/telethon23_3.webp){width="690" height="708"}        ![Journal Décembre 23](/images/archives/2023/journal-2023-12/vainqueurs_1_a.webp){width="680" height="383"}  Christian Priol, Hervé Dubac les vainqueurs    ![Journal Décembre 23](/images/archives/2023/journal-2023-12/2me_teleth_2.webp){width="680" height="383"}    ![Journal Décembre 23](/images/archives/2023/journal-2023-12/3eme_teleth_3.webp){width="680" height="383"}    ![Journal Décembre 23](/images/archives/2023/journal-2023-12/4eme_teleth_4.webp){width="680" height="383"}    ![Journal Décembre 23](/images/archives/2023/journal-2023-12/5me_teleth_5.webp){width="680" height="383"}    ![Journal Décembre 23](/images/archives/2023/journal-2023-12/6eme_teleth_6.webp){width="680" height="383"}    ![Journal Décembre 23](/images/archives/2023/journal-2023-12/7eme_teleth_7.webp){width="400" height="711"}
 
 ---
 

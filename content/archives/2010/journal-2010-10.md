@@ -5,24 +5,24 @@ date: 2013-07-05
 year: 2010
 category: "Journaux du club"
 journal: "2010-10"
-image: "/images/archives/2010/journal-2010-10/automne600.png"
+image: "/images/archives/2010/journal-2010-10/automne600.webp"
 joomlaId: 115
 hits: 4730
 ---
 
 OCTOBRE 2010: JOURNAL DU MOIS
 
-![Journal Octobre 2010](/images/archives/2010/journal-2010-10/automne600.png){width="676" height="201"}
+![Journal Octobre 2010](/images/archives/2010/journal-2010-10/automne600.webp){width="676" height="201"}
 
 #### Assemblée générale du club et début des compétitions amicales internes et inter-clubs
 
 ### _JOURNAL DU MOIS D'OCTOBRE_
 
-_![Journal Octobre 2010](/images/archives/2010/journal-2010-10/ag2010bur1.jpg){width="672" height="448"}_
+_![Journal Octobre 2010](/images/archives/2010/journal-2010-10/ag2010bur1.webp){width="672" height="448"}_
 
 ## ASSEMBLEE GENERALE DU CLUB
 
-![Journal Octobre 2010](/images/archives/2010/journal-2010-10/ag20103.png){width="672" height="175"}
+![Journal Octobre 2010](/images/archives/2010/journal-2010-10/ag20103.webp){width="672" height="175"}
 
 Samedi dernier, 23 Novembre, s’est déroulé l’Assemblée Générale du club en présence de monsieur Jezéquelou, l’adjoint aux sports.
 
@@ -78,7 +78,7 @@ Le programme des compétitions internes a été affiché, vous pouvez le consult
 
 ## DIVISION 2 POULE 2, DU 3 0CTOBRE A FOUESNANT LES GLENAN
 
-![Journal Octobre 2010](/images/archives/2010/journal-2010-10/chptclub-d2-oct10-1.jpg){width="678" height="509"}  ![Journal Octobre 2010](/images/archives/2010/journal-2010-10/chptclub-d2-oct10-2.jpg){width="679" height="509"}  Debout de Gà D Georges GOLCHEN, Jean Yves ELOIRE, Robert ZIMMERMAN et de G à D Pierre Yves CAUDAL, Gilbert CAROFF, Henry LE MOULLEC  .  .
+![Journal Octobre 2010](/images/archives/2010/journal-2010-10/chptclub-d2-oct10-1.webp){width="678" height="509"}  ![Journal Octobre 2010](/images/archives/2010/journal-2010-10/chptclub-d2-oct10-2.webp){width="679" height="509"}  Debout de Gà D Georges GOLCHEN, Jean Yves ELOIRE, Robert ZIMMERMAN et de G à D Pierre Yves CAUDAL, Gilbert CAROFF, Henry LE MOULLEC  .  .
 
 C'était la dernière compétition de l'année pour ce championnat de clubs, Fouesnant recevait sur ses terrains les équipes de LE POHER( Carhaix) opposée à TREBOUL, TREMEVEN opposée à PLOMELIN, FOUESNANT opposée à PONT AVEN.
 

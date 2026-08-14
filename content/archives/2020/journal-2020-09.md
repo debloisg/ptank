@@ -5,18 +5,18 @@ date: 2020-09-07
 year: 2020
 category: "Journaux du club"
 journal: "2020-09"
-image: "/images/archives/2020/journal-2020-09/cv19_1.png"
+image: "/images/archives/2020/journal-2020-09/cv19_1.webp"
 joomlaId: 379
 hits: 5319
 ---
 
 [Site FFPJP](https://home.ffpjp.org/index.php/41-actualites/115-plan-de-reprise-activites-clubs-phase-2)
 
-![journal septembre 2020](/images/archives/2020/journal-2020-09/cv19_1.png){width="80" height="53"}
+![journal septembre 2020](/images/archives/2020/journal-2020-09/cv19_1.webp){width="80" height="53"}
 
 **_Cliquez sur le lien ci-dessous:_**
 
-![journal septembre 2020](/images/archives/2020/journal-2020-09/icon-48-alert.png){width="48" height="48"} [**Déclinaison des décisions sanitaires gouvernementales pour le sport**](https://home.ffpjp.org/images/actualites_accueil/FFPJP-covid19.png)
+![journal septembre 2020](/images/archives/2020/journal-2020-09/icon-48-alert.webp){width="48" height="48"} [**Déclinaison des décisions sanitaires gouvernementales pour le sport**](https://home.ffpjp.org/images/actualites_accueil/FFPJP-covid19.png)
 
 [**(26 septembre 2020)**](https://home.ffpjp.org/images/actualites_accueil/FFPJP-covid19.png)
 
@@ -24,9 +24,9 @@ hits: 5319
 
 ## **INAUGURATION DU NOUVEAU BOULODROME COUVERT**
 
- **![journal septembre 2020](/images/archives/2020/journal-2020-09/boulod4.jpg){width="349" height="262"} ![journal septembre 2020](/images/archives/2020/journal-2020-09/boulod2.jpg){width="347" height="260"}**
+ **![journal septembre 2020](/images/archives/2020/journal-2020-09/boulod4.webp){width="349" height="262"} ![journal septembre 2020](/images/archives/2020/journal-2020-09/boulod2.webp){width="347" height="260"}**
 
-**![journal septembre 2020](/images/archives/2020/journal-2020-09/icon-48-apply.png){width="30" height="30"}Roger Le Goff, Maire de Fouesnant Les Glenan.**
+**![journal septembre 2020](/images/archives/2020/journal-2020-09/icon-48-apply.webp){width="30" height="30"}Roger Le Goff, Maire de Fouesnant Les Glenan.**
 
 **Joseph Le Stum, Gilbert Caroff, Désiré Le Floch, Coprésidents de La Pétanque Fouesnantaise,**
 
@@ -38,7 +38,7 @@ hits: 5319
 
 ## **INAUGURATION DU BOULODROME**
 
-**![journal septembre 2020](/images/archives/2020/journal-2020-09/inaugboul7.jpg){width="750" height="500"}**
+**![journal septembre 2020](/images/archives/2020/journal-2020-09/inaugboul7.webp){width="750" height="500"}**
 
 _D'autres photos sur rubrique "album"_
 
@@ -72,11 +72,11 @@ enrayer ce virus si destructeur ».
 
 **_Jo Le Stum_**
 
- **![journal septembre 2020](/images/archives/2020/journal-2020-09/icon-48-alert-2.png){width="48" height="48"} Respect des gestes barrières**
+ **![journal septembre 2020](/images/archives/2020/journal-2020-09/icon-48-alert-2.webp){width="48" height="48"} Respect des gestes barrières**
 
 **\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_**
 
-![journal septembre 2020](/images/archives/2020/journal-2020-09/imag1.jpg){width="100" height="65"}
+![journal septembre 2020](/images/archives/2020/journal-2020-09/imag1.webp){width="100" height="65"}
 
 ## 1/4 de FINALE DE LA **COUPE DU FINISTERE LE 4 OCTOBRE A FOUESNANT**
 
@@ -98,7 +98,7 @@ enrayer ce virus si destructeur ».
 
 _**R.Croguennec**_
 
- **![journal septembre 2020](/images/archives/2020/journal-2020-09/icon-48-alert-3.png){width="48" height="48"} Respect des gestes barrières, avec port du masque pour l'inscription, accès aux sanitaires et à la buvette, désinfection des tables etc...**
+ **![journal septembre 2020](/images/archives/2020/journal-2020-09/icon-48-alert-3.webp){width="48" height="48"} Respect des gestes barrières, avec port du masque pour l'inscription, accès aux sanitaires et à la buvette, désinfection des tables etc...**
 
 **\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_**
 
@@ -108,15 +108,15 @@ _**R.Croguennec**_
 
 Concours en 4 parties, **licence indispensable**.
 
- **![journal septembre 2020](/images/archives/2020/journal-2020-09/icon-48-alert-4.png){width="48" height="48"} Respect des gestes barrières, avec port du masque pour l'inscription, accès aux sanitaires et à la buvette, désinfection des tables etc...**
+ **![journal septembre 2020](/images/archives/2020/journal-2020-09/icon-48-alert-4.webp){width="48" height="48"} Respect des gestes barrières, avec port du masque pour l'inscription, accès aux sanitaires et à la buvette, désinfection des tables etc...**
 
 **\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_**
 
-![journal septembre 2020](/images/archives/2020/journal-2020-09/imag1-2.jpg){width="100" height="65"}
+![journal septembre 2020](/images/archives/2020/journal-2020-09/imag1-2.webp){width="100" height="65"}
 
 ## **COUPE DU FINISTERE 3ème TOUR (cadrage)**
 
-**![journal septembre 2020](/images/archives/2020/journal-2020-09/cpefinist3tour20.jpg){width="750" height="563"}**
+**![journal septembre 2020](/images/archives/2020/journal-2020-09/cpefinist3tour20.webp){width="750" height="563"}**
 
 Le troisième tour de la coupe du Finistère s'est déroulée le 26 Septembre à Fouesnant. La Pétanque fouesnantaise rencontrait l'équipe du POC Quimper.
 
@@ -150,7 +150,7 @@ L'équipe était composée de:
 
 _**G.Caroff**_
 
- **![journal septembre 2020](/images/archives/2020/journal-2020-09/icon-48-alert-5.png){width="48" height="48"} Respect des gestes barrières, avec port du masque pour l'inscription, accès aux sanitaires et à la buvette, désinfection des tables etc...**
+ **![journal septembre 2020](/images/archives/2020/journal-2020-09/icon-48-alert-5.webp){width="48" height="48"} Respect des gestes barrières, avec port du masque pour l'inscription, accès aux sanitaires et à la buvette, désinfection des tables etc...**
 
 **\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_**
 
@@ -200,11 +200,11 @@ Concours en 4 parties, **licence indispensable**.
 | 30 | JESSON M () | ELOIRE A () | 2 | \-9 | PGPG |
 | 31 | ELOIRE JY () | ORTIZ R () | 2 | \-12 | GPGP |
 
- **![journal septembre 2020](/images/archives/2020/journal-2020-09/icon-48-alert-6.png){width="48" height="48"} Respect des gestes barrières, avec port du masque pour l'inscription, accès aux sanitaires et à la buvette, désinfection des tables etc...**
+ **![journal septembre 2020](/images/archives/2020/journal-2020-09/icon-48-alert-6.webp){width="48" height="48"} Respect des gestes barrières, avec port du masque pour l'inscription, accès aux sanitaires et à la buvette, désinfection des tables etc...**
 
 **\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_**
 
-![journal septembre 2020](/images/archives/2020/journal-2020-09/imag1-3.jpg){width="100" height="65"}
+![journal septembre 2020](/images/archives/2020/journal-2020-09/imag1-3.webp){width="100" height="65"}
 
 ## **COUPE DU FINISTERE 2 ème TOUR**
 
@@ -242,11 +242,11 @@ Samedi prochain 26/09 , nous recevrons le POC QUIMPER pour le 3ème de la Coupe 
 
 **_G.Caroff_**
 
- **![journal septembre 2020](/images/archives/2020/journal-2020-09/icon-48-alert-7.png){width="48" height="48"} Respect des gestes barrières, avec port du masque pour l'inscription, accès aux sanitaires et à la buvette, désinfection des tables etc...**
+ **![journal septembre 2020](/images/archives/2020/journal-2020-09/icon-48-alert-7.webp){width="48" height="48"} Respect des gestes barrières, avec port du masque pour l'inscription, accès aux sanitaires et à la buvette, désinfection des tables etc...**
 
 **\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_**
 
-![journal septembre 2020](/images/archives/2020/journal-2020-09/imag1-4.jpg){width="100" height="65"}
+![journal septembre 2020](/images/archives/2020/journal-2020-09/imag1-4.webp){width="100" height="65"}
 
 ## **COUPE DU FINISTERE 1er TOUR**
 
@@ -276,7 +276,7 @@ Charlotte Simonin, Roselyne Lebreton, Patrick Quentel, Philippe Mariana, Christo
 
 **Arbitre:** Denis Sanchez
 
- **![journal septembre 2020](/images/archives/2020/journal-2020-09/icon-48-alert-8.png){width="48" height="48"} Respect des gestes barrières, avec port du masque pour l'inscription, accès aux sanitaires et à la buvette, désinfection des tables etc...**
+ **![journal septembre 2020](/images/archives/2020/journal-2020-09/icon-48-alert-8.webp){width="48" height="48"} Respect des gestes barrières, avec port du masque pour l'inscription, accès aux sanitaires et à la buvette, désinfection des tables etc...**
 
 **\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_**
 
@@ -306,11 +306,11 @@ Concours en 4 parties, **licence indispensable**.
 | 12 | 05615055 GUERIN ANDRÉ (0290099/ COQS PET QUIMPERLE) | 05615130 PRIOL VIOLETA (0290099/ COQS PET QUIMPERLE) | 3 | 7 | GGPG |
 | 13 | 02910836 KERVAREC ANNE (0290206/PETANQUE GABERICOISE) | 02909227 CHIQUET FRÉDÉRIC (0290206/PETANQUE GABERICOISE) | 3 | 4 | PGGG |
 
- **![journal septembre 2020](/images/archives/2020/journal-2020-09/icon-48-alert-9.png){width="48" height="48"} Respect des gestes barrières, avec port du masque pour l'inscription, accès aux sanitaires et à la buvette, désinfection des tables etc...**
+ **![journal septembre 2020](/images/archives/2020/journal-2020-09/icon-48-alert-9.webp){width="48" height="48"} Respect des gestes barrières, avec port du masque pour l'inscription, accès aux sanitaires et à la buvette, désinfection des tables etc...**
 
 **\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_**
 
-![journal septembre 2020](/images/archives/2020/journal-2020-09/gif6.jpg){width="48" height="70"}
+![journal septembre 2020](/images/archives/2020/journal-2020-09/gif6.webp){width="48" height="70"}
 
 ## **TIRAGE TROPHEE VETERANS 2ème TOUR**
 
@@ -320,7 +320,7 @@ Concours en 4 parties, **licence indispensable**.
 
 **Résultat:**
 
-**![journal septembre 2020](/images/archives/2020/journal-2020-09/trophvete2020.png){width="650" height="232"}**
+**![journal septembre 2020](/images/archives/2020/journal-2020-09/trophvete2020.webp){width="650" height="232"}**
 
 Le résultat de la rencontre entre La Pétanque Fouesnantaise et Plomelin a été très incertain jusqu'à la dernière minute. la dernière mène des triplettes composées de: Le Moullec, Nicolas, Floch / Gouriten, Le Coz, Duru, (Menour), a été décisive. Les équipes étaient 12 à 12 à la dernière mène de cette partie. Il aura fallu un tir magistral de Jean Claude Duru à 9m, sorti de derrière les fagots... pour conclure l'affaire et donner la victoire à Plomelin.
 
@@ -355,11 +355,11 @@ Merci aux Fouesnantais venus encourager notre équipe et aux bénévoles qui ont
 
 _**R. Croguennec**_
 
- **![journal septembre 2020](/images/archives/2020/journal-2020-09/icon-48-alert-10.png){width="48" height="48"} Respect des gestes barrières, avec port du masque pour l'inscription, accès aux sanitaires et à la buvette, désinfection des tables etc...**
+ **![journal septembre 2020](/images/archives/2020/journal-2020-09/icon-48-alert-10.webp){width="48" height="48"} Respect des gestes barrières, avec port du masque pour l'inscription, accès aux sanitaires et à la buvette, désinfection des tables etc...**
 
 **\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_**
 
-![journal septembre 2020](/images/archives/2020/journal-2020-09/imag1-5.jpg){width="100" height="65"}
+![journal septembre 2020](/images/archives/2020/journal-2020-09/imag1-5.webp){width="100" height="65"}
 
 ## **COUPE DE FRANCE 1er TOUR**
 

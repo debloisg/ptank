@@ -15,7 +15,7 @@ hits: 4991
 ##### JOURNAL DU MOIS DE JANVIER 2011
 
 ![Journal Janvier 2011](/images/archives/2011/journal-2011-01/drapeaubreton.gif){width="100" height="60"} ![Journal Janvier 2011](/images/archives/2011/journal-2011-01/fouesnant-blason1.gif){width="68" height="85"} ![Journal Janvier 2011](/images/archives/2011/journal-2011-01/drapeaubreton-2.gif){width="100" height="60"}   ![Journal Janvier 2011](/images/archives/2011/journal-2011-01/voeux39.gif){width="581" height="313"}
-![Journal Janvier 2011](/images/archives/2011/journal-2011-01/chal2010-20112.png){width="600" height="237"}  .  .
+![Journal Janvier 2011](/images/archives/2011/journal-2011-01/chal2010-20112.webp){width="600" height="237"}  .  .
 
 ![Journal Janvier 2011](/images/archives/2011/journal-2011-01/bouleroule.gif){width="70" height="69"}
 
@@ -73,11 +73,11 @@ La Pétanque fouesnantaise a un partenariat avec l'agence locale du CREDIT AGRIC
 
 Bonne année, bonne pétanque pour 2011, je pense que l'année sera encore forte en évènements et résultats sportifs.
 
--   ![Journal Janvier 2011](/images/archives/2011/journal-2011-01/voeux-2011-2.jpg){width="600" height="401"}
+-   ![Journal Janvier 2011](/images/archives/2011/journal-2011-01/voeux-2011-2.webp){width="600" height="401"}
 
 #### Cérémonie des voeux par jo Le Stum
 
-![Journal Janvier 2011](/images/archives/2011/journal-2011-01/voeux-2011-1.jpg){width="600" height="401"}
+![Journal Janvier 2011](/images/archives/2011/journal-2011-01/voeux-2011-1.webp){width="600" height="401"}
 
 #### Intervention de Madame Catherine Le Goff Directrice de l'agence locale du CREDIT AGRICOLE
 

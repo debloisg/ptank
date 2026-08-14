@@ -5,12 +5,12 @@ date: 2016-08-30
 year: 2016
 category: "Journaux du club"
 journal: "2016-09"
-image: "/images/archives/2016/journal-2016-09/imag1.jpg"
+image: "/images/archives/2016/journal-2016-09/imag1.webp"
 joomlaId: 289
 hits: 6550
 ---
 
-![Journal septembre 2016](/images/archives/2016/journal-2016-09/imag1.jpg){width="100" height="65"} **TR0PHEE 55 ANS ET + COMPLEMENTAIRE 1/4 DE FINALE**
+![Journal septembre 2016](/images/archives/2016/journal-2016-09/imag1.webp){width="100" height="65"} **TR0PHEE 55 ANS ET + COMPLEMENTAIRE 1/4 DE FINALE**
 
 **LE 30 SEPTEMBRE A HUELGOAT**
 
@@ -23,7 +23,7 @@ Le tirage pour les 1/4 de finales du trophée vétérans a été effectué. Les 
 | PLOUDALMEZEAU | PLOMELIN |
 | TREMEVEN | KERLOUAN |
 
-**RESULTATS :** ![Journal septembre 2016](/images/archives/2016/journal-2016-09/huelgouat1.jpg){width="640" height="360"}     Très bon accueil de l'équipe d'Huelgouat, avec nos remerciements pour l'organisation de cette journée trophée vétérans complémentaire.   Après une bonne discution autour du sport local, la chasse aux champignons ( même de nuit), nous sommes passés aux choses un peu plus sérieuses, la compétition.    La pétanque Fouesnantaise n'a pas réussi à s'adapter aux terrains qui paraissaient pourtant assez facile. L'équipe d'Huelgouat a été plus régulière et jouait dans son jardin.     Rappelons que le challenge se déroule en 6 Tête à Tête, 3 Doublettes, 2 Triplettes.
+**RESULTATS :** ![Journal septembre 2016](/images/archives/2016/journal-2016-09/huelgouat1.webp){width="640" height="360"}     Très bon accueil de l'équipe d'Huelgouat, avec nos remerciements pour l'organisation de cette journée trophée vétérans complémentaire.   Après une bonne discution autour du sport local, la chasse aux champignons ( même de nuit), nous sommes passés aux choses un peu plus sérieuses, la compétition.    La pétanque Fouesnantaise n'a pas réussi à s'adapter aux terrains qui paraissaient pourtant assez facile. L'équipe d'Huelgouat a été plus régulière et jouait dans son jardin.     Rappelons que le challenge se déroule en 6 Tête à Tête, 3 Doublettes, 2 Triplettes.
 
 -   Egalité lors des tête à tête 3 gagnées et 3 perdus
 -   1 doublette gagnée et 2 doublettes perdues.
@@ -39,7 +39,7 @@ Coach : Hervé Guillou
 
 \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
- **![Journal septembre 2016](/images/archives/2016/journal-2016-09/gentlepet16.jpg){width="300" height="128"} JOURNEE GENTLEMEN DE PETANQUE**
+ **![Journal septembre 2016](/images/archives/2016/journal-2016-09/gentlepet16.webp){width="300" height="128"} JOURNEE GENTLEMEN DE PETANQUE**
 
 **A PLOURIN LES MORLAIX LE 24 SEPTEMBRE**
 

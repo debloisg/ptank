@@ -5,12 +5,12 @@ date: 2024-11-19
 year: 2020
 category: "Journaux du club"
 journal: "2020-02"
-image: "/images/archives/2020/journal-2020-02/gilbertgouarin.jpg"
+image: "/images/archives/2020/journal-2020-02/gilbertgouarin.webp"
 joomlaId: 474
 hits: 893
 ---
 
-![Février 2020](/images/archives/2020/journal-2020-02/gilbertgouarin.jpg){width="248" height="203"}
+![Février 2020](/images/archives/2020/journal-2020-02/gilbertgouarin.webp){width="248" height="203"}
 
 Gilbert Goarin était un joueur apprécié de tous au club, pour sa gentillesse et sa discrétion .
 
@@ -24,7 +24,7 @@ condoléances.
 
 ---
 
-![Février 2020](/images/archives/2020/journal-2020-02/imag1.jpg){width="100" height="65"}
+![Février 2020](/images/archives/2020/journal-2020-02/imag1.webp){width="100" height="65"}
 
 ## ** SECTEUR 4 : QUALIFICATIONS POUR LE DEPARTEMENTAL DOUBLETTES LE DIMANCHE 1er MARS A COMBRIT**
 
@@ -41,7 +41,7 @@ Six équipes de la Pétanque Fouesnantaise se sont inscrites pour ce qualif dép
 
 ---
 
-![Février 2020](/images/archives/2020/journal-2020-02/gif7.jpg){width="70" height="72"}
+![Février 2020](/images/archives/2020/journal-2020-02/gif7.webp){width="70" height="72"}
 
 ## CONCOURS VETERANS EN DOUBLETTES A FOUESNANT LE 27 FEVRIER
 
@@ -144,7 +144,7 @@ _Jo Le Stum_
 | Jeudi 27 | **FOUESNANT** | VETERANS | Doublettes |  |
 | Samedi 29 | PLONEIS | SENIORS | Doublettes |  |
 
-![Février 2020](/images/archives/2020/journal-2020-02/gif9.jpg){width="70" height="73"}
+![Février 2020](/images/archives/2020/journal-2020-02/gif9.webp){width="70" height="73"}
 
 ## CHAMPIONNAT de CLUBS ( CdC ) 1ère JOURNEE
 

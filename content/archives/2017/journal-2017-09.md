@@ -30,7 +30,7 @@ FOUESNANT 2 / PONT L'ABBE
 
 \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
- **![Journal Septembre 2017](/images/archives/2017/journal-2017-09/imagpet1.jpg){width="70" height="73"} JOURNEE SPORT ADAPTE "GENTLEMEN PETANQUE" LE SAMEDI 23 SEPTEMBRE A FOUESNANT**
+ **![Journal Septembre 2017](/images/archives/2017/journal-2017-09/imagpet1.webp){width="70" height="73"} JOURNEE SPORT ADAPTE "GENTLEMEN PETANQUE" LE SAMEDI 23 SEPTEMBRE A FOUESNANT**
 
 le samedi 23 septembre , le club attend 400 participants au Gentleman Pétanque.
 
@@ -46,9 +46,9 @@ _Jo Le Stum_
 
 _\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\__
 
-**![Journal Septembre 2017](/images/archives/2017/journal-2017-09/imagpet3.jpg){width="70" height="72"}CONCOURS +55 ans DU JEUDI 14 SEPTEMBRE A FOUESNANT**
+**![Journal Septembre 2017](/images/archives/2017/journal-2017-09/imagpet3.webp){width="70" height="72"}CONCOURS +55 ans DU JEUDI 14 SEPTEMBRE A FOUESNANT**
 
-**![Journal Septembre 2017](/images/archives/2017/journal-2017-09/ccvetefou1.jpg){width="640" height="360"}**
+**![Journal Septembre 2017](/images/archives/2017/journal-2017-09/ccvetefou1.webp){width="640" height="360"}**
 
 Jeudi, 90 joueurs ont participé au concours officiel organisé par le club local.
 

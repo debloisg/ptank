@@ -5,30 +5,30 @@ date: 2017-01-05
 year: 2017
 category: "Journaux du club"
 journal: "2017-01"
-image: "/images/archives/2017/journal-2017-01/pfbonan17.png"
+image: "/images/archives/2017/journal-2017-01/pfbonan17.webp"
 joomlaId: 295
 hits: 4260
 ---
 
-![Journal janvier 2017](/images/archives/2017/journal-2017-01/pfbonan17.png){width="680" height="398"}
+![Journal janvier 2017](/images/archives/2017/journal-2017-01/pfbonan17.webp){width="680" height="398"}
 
 Plage de Fouesnant entre Mousterlin et Beg Meil
 
-![Journal janvier 2017](/images/archives/2017/journal-2017-01/blaspet70.png){width="70" height="66"} VOEUX DE LA PETANQUE FOUESNANTAISE ![Journal janvier 2017](/images/archives/2017/journal-2017-01/logoffpjp1.png){width="82" height="82"}
+![Journal janvier 2017](/images/archives/2017/journal-2017-01/blaspet70.webp){width="70" height="66"} VOEUX DE LA PETANQUE FOUESNANTAISE ![Journal janvier 2017](/images/archives/2017/journal-2017-01/logoffpjp1.webp){width="82" height="82"}
 
-![Journal janvier 2017](/images/archives/2017/journal-2017-01/voeux172.jpg){width="640" height="465"}
+![Journal janvier 2017](/images/archives/2017/journal-2017-01/voeux172.webp){width="640" height="465"}
 
 Désiré Floch, Gilbert Caroff et Jo Le Stum les coprésidents
 
-![Journal janvier 2017](/images/archives/2017/journal-2017-01/voeux171.jpg){width="640" height="361"}
+![Journal janvier 2017](/images/archives/2017/journal-2017-01/voeux171.webp){width="640" height="361"}
 
 L'assemblée avant la galette
 
-![Journal janvier 2017](/images/archives/2017/journal-2017-01/voeux173.jpg){width="640" height="361"}
+![Journal janvier 2017](/images/archives/2017/journal-2017-01/voeux173.webp){width="640" height="361"}
 
 Dégustation !
 
-![Journal janvier 2017](/images/archives/2017/journal-2017-01/voeux174.jpg){width="640" height="361"}
+![Journal janvier 2017](/images/archives/2017/journal-2017-01/voeux174.webp){width="640" height="361"}
 
 Il en reste !
 
@@ -62,7 +62,7 @@ Le règlement concernant la tenue des joueurs est visible en allant dans la rubr
 
 **\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_**
 
-![Journal janvier 2017](/images/archives/2017/journal-2017-01/imag1.jpg){width="100" height="65"}**CHALLENGE INTERNE D'HIVER**
+![Journal janvier 2017](/images/archives/2017/journal-2017-01/imag1.webp){width="100" height="65"}**CHALLENGE INTERNE D'HIVER**
 
 | **Mercredi 21/12/16** |  |  |
 | --- | --- | --- |

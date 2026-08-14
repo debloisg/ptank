@@ -5,16 +5,16 @@ date: 2014-11-29
 year: 2014
 category: "Journaux du club"
 journal: "2014-12"
-image: "/images/archives/2014/journal-2014-12/noel2.png"
+image: "/images/archives/2014/journal-2014-12/noel2.webp"
 joomlaId: 239
 hits: 5508
 ---
 
-![Journal Décembre 2014](/images/archives/2014/journal-2014-12/noel2.png){width="1024" height="189"}
+![Journal Décembre 2014](/images/archives/2014/journal-2014-12/noel2.webp){height="189" width="1024"}
 
-![Journal Décembre 2014](/images/archives/2014/journal-2014-12/z5qjdgq_e8icgrfqvgvm-eba8ls.gif){width="466" height="205"}
+![Journal Décembre 2014](/images/archives/2014/journal-2014-12/z5qjdgq_e8icgrfqvgvm-eba8ls.gif){height="205" width="466"}
 
-![Journal Décembre 2014](/images/archives/2014/journal-2014-12/logopet1.png){width="183" height="44"}
+![Journal Décembre 2014](/images/archives/2014/journal-2014-12/logopet1.webp){height="44" width="183"}
 
 ## ****CHALLENGE INTERNE D'HIVER****
 
@@ -22,12 +22,12 @@ En raison des mauvaises conditions météo, le concours en triplettes du 17 déc
 
 Nouvelle dates des concours
 
--   Le Samedi 20 Décembre concours en Triplettes
--   Le mercredii 7 Janvier concours en Tête à Tête
--   Le Samedi 10 Janvier concours en Doublettes
--   Le Mercredi 14 Janvier concours en Triplettes
+- Le Samedi 20 Décembre concours en Triplettes
+- Le mercredii 7 Janvier concours en Tête à Tête
+- Le Samedi 10 Janvier concours en Doublettes
+- Le Mercredi 14 Janvier concours en Triplettes
 
-![Journal Décembre 2014](/images/archives/2014/journal-2014-12/logoca1.png){width="141" height="120"}
+![Journal Décembre 2014](/images/archives/2014/journal-2014-12/logoca1.webp){height="120" width="141"}
 
 ## ****CHALLENGE INTERNE DU CREDIT AGRICOLE****
 
@@ -61,45 +61,32 @@ J. Le Stum, R. Le Tollec, P.E. Nédélec, J.Rolland.
 
 1e J. Rolland 9 pts G.A. + 25
 
-2) J.Y. Le Gall 9 pts + 21
-
-3) B. Vilatte 9 pts + 20
-
-4) P.Y. Nédélec 9 pts + 15
-
-5) Ch. Le Goff 9 pts + 14
-
-6) A. Gourven 9 pts + 12
-
-7) R Croguennec 9 pts +7
+2. J.Y. Le Gall 9 pts + 21
+3. B. Vilatte 9 pts + 20
+4. P.Y. Nédélec 9 pts + 15
+5. Ch. Le Goff 9 pts + 14
+6. A. Gourven 9 pts + 12
+7. R Croguennec 9 pts +7
 
 **2e journée**, concours en doublettes ; classement :
 
 1e G. Caroff 9 pts G.A. + 27
 
-2) J. Kermarec 9 pts + 23
-
-3) P.Y. Nédélec 9 pts + 17
-
-3) L. Mével 9 pts +17
-
-5) B. Jégou 9 pts + 9
+2. J. Kermarec 9 pts + 23
+3. P.Y. Nédélec 9 pts + 17
+4. L. Mével 9 pts +17
+5. B. Jégou 9 pts + 9
 
 **3e journée**, Concours en triplettes ; classement :
 
 1e B. Jégou 9 pts G.A. + 23
 
-2) D. Floch 9 pts + 20
-
-2) H. Gloaguen 9 pts + 20
-
-2) J. Le Stum 9 pts + 20
-
-5) P.E. Nédélec 9 pts + 18
-
-6) J.Y. Le Gall 9 pts + 15
-
-7) R. Le Tollec 9 pts + 11
+2. D. Floch 9 pts + 20
+3. H. Gloaguen 9 pts + 20
+4. J. Le Stum 9 pts + 20
+5. P.E. Nédélec 9 pts + 18
+6. J.Y. Le Gall 9 pts + 15
+7. R. Le Tollec 9 pts + 11
 
 \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
@@ -117,4 +104,4 @@ Ambiance conviviale et amicale assurée.
 
 **RESULTAT DU CONCOURS TELETHON**
 
-1) Gestin Pierre et Benjamin 2) Guillou Marie Yvonne et Le Marrec Pierre 3) Fouquet Patrick et Valette Christian 4) Bouffandeau Jean Paul et Piriou Yves A l'issue du concours, 200 euros ont été remis à l'association chargée de récolter les dons pour le Téléthon \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+1. Gestin Pierre et Benjamin 2) Guillou Marie Yvonne et Le Marrec Pierre 3) Fouquet Patrick et Valette Christian 4) Bouffandeau Jean Paul et Piriou Yves A l'issue du concours, 200 euros ont été remis à l'association chargée de récolter les dons pour le Téléthon \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_

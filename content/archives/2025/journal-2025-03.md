@@ -5,12 +5,12 @@ date: 2025-03-01
 year: 2025
 category: "Journaux du club"
 journal: "2025-03"
-image: "/images/archives/2025/journal-2025-03/imag1.jpg"
+image: "/images/archives/2025/journal-2025-03/imag1.webp"
 joomlaId: 479
 hits: 7027
 ---
 
-![Journal mars 25](/images/archives/2025/journal-2025-03/imag1.jpg){width="121" height="79"}
+![Journal mars 25](/images/archives/2025/journal-2025-03/imag1.webp){width="121" height="79"}
 
 ## CHAMPIONNAT SECTEUR DOUBLETTES MIXTES le dimanche 2 mars à Combrit à 10h
 
@@ -59,11 +59,11 @@ hits: 7027
 
 ---
 
-![Journal mars 25](/images/archives/2025/journal-2025-03/gif7.jpg){width="70" height="72"}
+![Journal mars 25](/images/archives/2025/journal-2025-03/gif7.webp){width="70" height="72"}
 
 ## FORMATION DES CAPITAINES D'EQUIPE
 
-![Journal mars 25](/images/archives/2025/journal-2025-03/form_cap_equip25.jpg){width="800" height="600"}
+![Journal mars 25](/images/archives/2025/journal-2025-03/form_cap_equip25.webp){width="800" height="600"}
 
 A la formation capitaine d'équipe Loic nous a présenté la feuille de jury, les feuilles de match, le rapport d'incident et nous a expliqué les changements possibles.
 
@@ -75,7 +75,7 @@ _Odile Rannou_
 
 ---
 
-![Journal mars 25](/images/archives/2025/journal-2025-03/gif6.jpg){width="48" height="70"}
+![Journal mars 25](/images/archives/2025/journal-2025-03/gif6.webp){width="48" height="70"}
 
 ## CHAMPIONNAT DES CLUBS VETERANS LE 4 MARS
 
@@ -86,7 +86,7 @@ _Odile Rannou_
 
 ---
 
-![Journal mars 25](/images/archives/2025/journal-2025-03/imag1-2.jpg){width="121" height="79"}
+![Journal mars 25](/images/archives/2025/journal-2025-03/imag1-2.webp){width="121" height="79"}
 
 ## ** CHAMPIONNAT SECTEUR TRIPLETTES MASCULINES le dimanche 9 mars à Douarnenez à 10h**
 
@@ -109,7 +109,7 @@ _Odile Rannou_
 
 ---
 
-![Journal mars 25](/images/archives/2025/journal-2025-03/gif6-2.jpg){width="48" height="70"}
+![Journal mars 25](/images/archives/2025/journal-2025-03/gif6-2.webp){width="48" height="70"}
 
 ## ** CHAMPIONNAT DES CLUBS VETERANS LE 11 MARS**
 
@@ -121,7 +121,7 @@ _Odile Rannou_
 
 ---
 
-![Journal mars 25](/images/archives/2025/journal-2025-03/gif7-2.jpg){width="70" height="72"}
+![Journal mars 25](/images/archives/2025/journal-2025-03/gif7-2.webp){width="70" height="72"}
 
 ## COUPE FRANCE 1er TOUR LE SAMEDI 15 MARS
 
@@ -133,7 +133,7 @@ Bonne chance à tous
 
 ### RESULTAT:
 
-![Journal mars 25](/images/archives/2025/journal-2025-03/cpe_fr_1er_tour.png){width="800" height="609"}
+![Journal mars 25](/images/archives/2025/journal-2025-03/cpe_fr_1er_tour.webp){width="800" height="609"}
 
 Très bonne prestation de nos joueurs puisqu'ils remportent la compétition sur un score sans appel de 24 points à 7 points.
 
@@ -143,7 +143,7 @@ Le deuxième tour de la coupe de France aura lieu le 26 avril . Tirage à venir.
 
 ---
 
-![Journal mars 25](/images/archives/2025/journal-2025-03/gif1.png){width="85" height="70"}
+![Journal mars 25](/images/archives/2025/journal-2025-03/gif1.webp){width="85" height="70"}
 
 ## COUPE DE FRANCE JEU PROVENCAL 1ER TOUR A FOUESNANT LE 16 MARS
 
@@ -159,7 +159,7 @@ Denis BON, André GUERIN, Bruno GIRARD, Yvon LANDOAS, Christelle GIRARD, Wilfrid
 
 **RESULTAT:**
 
-![Journal mars 25](/images/archives/2025/journal-2025-03/cpe_fr__provcl_1t.png){width="800" height="480"}
+![Journal mars 25](/images/archives/2025/journal-2025-03/cpe_fr__provcl_1t.webp){width="800" height="480"}
 
 L'équipe de Fouesnant remporte la compétition 11 points à 8.
 
@@ -169,7 +169,7 @@ Félicitations à toute l'équipe Fouesnantaise et merci aux bénévoles qui ont
 
 ---
 
-![Journal mars 25](/images/archives/2025/journal-2025-03/imag1-3.jpg){width="121" height="79"}
+![Journal mars 25](/images/archives/2025/journal-2025-03/imag1-3.webp){width="121" height="79"}
 
 ## CHAMPIONNAT SECTEUR TRIPLETTES VETERANS le mardi 18 mars à Pluguffan à 10h
 
@@ -179,7 +179,7 @@ Félicitations à toute l'équipe Fouesnantaise et merci aux bénévoles qui ont
 
 **RESULTATS:**
 
-![Journal mars 25](/images/archives/2025/journal-2025-03/chpt_tripvete_fem.jpg){width="800" height="600"}
+![Journal mars 25](/images/archives/2025/journal-2025-03/chpt_tripvete_fem.webp){width="800" height="600"}
 
 Martine Dumont, Roselyne Lebreton, Christelle Girard
 
@@ -197,7 +197,7 @@ Nos représentantes féminines ont bien assuré face aux "garçons" la qualif n'
 
 ---
 
-![Journal mars 25](/images/archives/2025/journal-2025-03/imag1-4.jpg){width="121" height="79"}
+![Journal mars 25](/images/archives/2025/journal-2025-03/imag1-4.webp){width="121" height="79"}
 
 ## CHAMPIONNAT DU FINISTERE TRIPLETTES PROMOTION samedi 22 et dimanche 23 mars à Ploudaniel à 9h
 
@@ -213,7 +213,7 @@ Nos représentantes féminines ont bien assuré face aux "garçons" la qualif n'
 
 ---
 
-![Journal mars 25](/images/archives/2025/journal-2025-03/gif6-3.jpg){width="48" height="70"}
+![Journal mars 25](/images/archives/2025/journal-2025-03/gif6-3.webp){width="48" height="70"}
 
 ## CHAMPIONNAT DES CLUBS VETERANS
 
@@ -231,7 +231,7 @@ Nos représentantes féminines ont bien assuré face aux "garçons" la qualif n'
 
 ---
 
-![Journal mars 25](/images/archives/2025/journal-2025-03/imag1-5.jpg){width="121" height="79"}
+![Journal mars 25](/images/archives/2025/journal-2025-03/imag1-5.webp){width="121" height="79"}
 
 ## CHAMPIONNAT DU FINISTERE DOUBLETTES FEMININES samedi 29 et dimanche 30 mars à Plourin les Morlaix à 9h
 

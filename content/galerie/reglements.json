@@ -15,7 +15,7 @@
       "to": "2018-10-30",
       "thumbs": [
         {
-          "src": "/images/galerie/reglements/tenues_rglmt_3.jpg",
+          "src": "/images/galerie/reglements/tenues_rglmt_3.webp",
           "w": 300,
           "h": 375,
           "alt": "Règlements — photo d'archive du club"
@@ -28,25 +28,25 @@
       "to": "2026-01",
       "thumbs": [
         {
-          "src": "/images/galerie/reglements/arbitrage.jpg",
+          "src": "/images/galerie/reglements/arbitrage.webp",
           "w": 300,
           "h": 375,
           "alt": "Règlements — photo d'archive du club"
         },
         {
-          "src": "/images/galerie/reglements/augmtion_cot.jpg",
+          "src": "/images/galerie/reglements/augmtion_cot.webp",
           "w": 300,
           "h": 375,
           "alt": "Règlements — photo d'archive du club"
         },
         {
-          "src": "/images/galerie/reglements/nlles_licences_3.jpg",
+          "src": "/images/galerie/reglements/nlles_licences_3.webp",
           "w": 300,
           "h": 375,
           "alt": "Règlements — photo d'archive du club"
         },
         {
-          "src": "/images/galerie/reglements/reglt_de_jeu_1.jpg",
+          "src": "/images/galerie/reglements/reglt_de_jeu_1.webp",
           "w": 300,
           "h": 375,
           "alt": "Règlements — photo d'archive du club"
@@ -54,10 +54,10 @@
       ]
     }
   },
-  "cover": "/images/galerie/reglements/arbitrage.jpg",
+  "cover": "/images/galerie/reglements/arbitrage.webp",
   "photos": [
     {
-      "src": "/images/galerie/reglements/tenues_rglmt_3.jpg",
+      "src": "/images/galerie/reglements/tenues_rglmt_3.webp",
       "w": 300,
       "h": 375,
       "alt": "Règlements — photo d'archive du club",
@@ -77,7 +77,7 @@
       ]
     },
     {
-      "src": "/images/galerie/reglements/arbitrage.jpg",
+      "src": "/images/galerie/reglements/arbitrage.webp",
       "w": 300,
       "h": 375,
       "alt": "Règlements — photo d'archive du club",
@@ -93,7 +93,7 @@
       ]
     },
     {
-      "src": "/images/galerie/reglements/augmtion_cot.jpg",
+      "src": "/images/galerie/reglements/augmtion_cot.webp",
       "w": 300,
       "h": 375,
       "alt": "Règlements — photo d'archive du club",
@@ -109,7 +109,7 @@
       ]
     },
     {
-      "src": "/images/galerie/reglements/nlles_licences_3.jpg",
+      "src": "/images/galerie/reglements/nlles_licences_3.webp",
       "w": 300,
       "h": 375,
       "alt": "Règlements — photo d'archive du club",
@@ -125,7 +125,7 @@
       ]
     },
     {
-      "src": "/images/galerie/reglements/reglt_de_jeu_1.jpg",
+      "src": "/images/galerie/reglements/reglt_de_jeu_1.webp",
       "w": 300,
       "h": 375,
       "alt": "Règlements — photo d'archive du club",

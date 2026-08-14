@@ -5,12 +5,12 @@ date: 2014-09-04
 year: 2014
 category: "Journaux du club"
 journal: "2014-09"
-image: "/images/archives/2014/journal-2014-09/gentl14.png"
+image: "/images/archives/2014/journal-2014-09/gentl14.webp"
 joomlaId: 236
 hits: 5045
 ---
 
-![journal septembre 2014](/images/archives/2014/journal-2014-09/gentl14.png){width="1024" height="326"}
+![journal septembre 2014](/images/archives/2014/journal-2014-09/gentl14.webp){height="326" width="1024"}
 
 ## ****GENTLEMEN PETANQUE****
 
@@ -44,13 +44,13 @@ Les concours populaires se sont arrêtés avec la rentrée scolaire ; c’est pl
 
 Maintenant place à la compétitition.
 
--   Mardi 2 septembre, La Pétanque Fouesnantaise accueille l'équipe de Ploudaniel pour le quart de finale du trophée vétérans complémentaire.
--   Samedi 6 Septembre concours seniors à Fouesnant en doublettes.
--   Vendredi 12 Septembre rassemblement triplettes à Bénodet.
+- Mardi 2 septembre, La Pétanque Fouesnantaise accueille l'équipe de Ploudaniel pour le quart de finale du trophée vétérans complémentaire.
+- Samedi 6 Septembre concours seniors à Fouesnant en doublettes.
+- Vendredi 12 Septembre rassemblement triplettes à Bénodet.
 
-\-Le championnat des clubs vétérans s'est terminé au mois de Juin avec une très bonne prestation de nos équipes tout au long de l'année (voir journal de Juin).
+-Le championnat des clubs vétérans s'est terminé au mois de Juin avec une très bonne prestation de nos équipes tout au long de l'année (voir journal de Juin).
 
-\-Le championnat des clubs seniors Division 2 poule D reprendra le 5 Octobre à Combrit, Fouesnant sera opposé au POC Quimper.
+-Le championnat des clubs seniors Division 2 poule D reprendra le 5 Octobre à Combrit, Fouesnant sera opposé au POC Quimper.
 
 ## ****1/4 DE FINALE TROPHEE 55 ans et +****
 
@@ -70,24 +70,22 @@ La Pétanque Fouesnantaise se qualifie pour la demi-finale et la finale qui auro
 
 Bonne chance à tous pour cette journée au pays des fraises.
 
-![journal septembre 2014](/images/archives/2014/journal-2014-09/bravo.gif){width="81" height="81"}
+![journal septembre 2014](/images/archives/2014/journal-2014-09/bravo.gif){height="81" width="81"}
 
 ## ******LES PERFORMANCES DU MOIS******
 
 **CONCOURS SENIORS DU SAMEDI 13 SEPTEMBRE EN DOUBLETTES AU POC QUIMPER**
 
--   **Finalistes du concours principal: GUERMEUR Michel,TROALEN Kévin**
+- **Finalistes du concours principal: GUERMEUR Michel,TROALEN Kévin**
 
 **CONCOURS VETERANS DU JEUDI 18 SEPTEMBRE EN DOUBLETTES A PLOMELIN**
 
 **Trois équipes gagnent trois parties sur quatre**
 
--   **LE STUM Joseph et GERMEUR Michel**
-
--   **GOURVEN Albert et LE MOULLEC Henry**
-
--   **GORSE Dominique et TROALEN Kévin**
+- **LE STUM Joseph et GERMEUR Michel**
+- **GOURVEN Albert et LE MOULLEC Henry**
+- **GORSE Dominique et TROALEN Kévin**
 
 ### **CONCOURS SENIORS DU SAMEDI 20 SEPTEMBRE EN DOUBLETTES A PONT L'ABBE**
 
--   **GORSE Dominique et TROALEN Kévin**
+- **GORSE Dominique et TROALEN Kévin**

@@ -18,13 +18,13 @@
       "to": "2024-11",
       "thumbs": [
         {
-          "src": "/images/galerie/24-proven/provenc_1.jpg",
+          "src": "/images/galerie/24-proven/provenc_1.webp",
           "w": 800,
           "h": 488,
           "alt": "Provençale 2024 — photo d'archive du club"
         },
         {
-          "src": "/images/galerie/24-proven/jeu_prov1.jpg",
+          "src": "/images/galerie/24-proven/jeu_prov1.webp",
           "w": 800,
           "h": 488,
           "alt": "Provençale 2024 — photo d'archive du club"
@@ -37,7 +37,7 @@
       "to": "2025-06",
       "thumbs": [
         {
-          "src": "/images/galerie/24-proven/jeuprovencal1.jpg",
+          "src": "/images/galerie/24-proven/jeuprovencal1.webp",
           "w": 800,
           "h": 534,
           "alt": "Provençale 2024 — photo d'archive du club"
@@ -45,10 +45,10 @@
       ]
     }
   },
-  "cover": "/images/galerie/24-proven/jeuprovencal1.jpg",
+  "cover": "/images/galerie/24-proven/jeuprovencal1.webp",
   "photos": [
     {
-      "src": "/images/galerie/24-proven/provenc_1.jpg",
+      "src": "/images/galerie/24-proven/provenc_1.webp",
       "w": 800,
       "h": 488,
       "alt": "Provençale 2024 — photo d'archive du club",
@@ -56,7 +56,7 @@
       "dateSource": "path"
     },
     {
-      "src": "/images/galerie/24-proven/jeu_prov1.jpg",
+      "src": "/images/galerie/24-proven/jeu_prov1.webp",
       "w": 800,
       "h": 488,
       "alt": "Provençale 2024 — photo d'archive du club",
@@ -72,7 +72,7 @@
       ]
     },
     {
-      "src": "/images/galerie/24-proven/jeuprovencal1.jpg",
+      "src": "/images/galerie/24-proven/jeuprovencal1.webp",
       "w": 800,
       "h": 534,
       "alt": "Provençale 2024 — photo d'archive du club",
@@ -88,7 +88,7 @@
       ]
     },
     {
-      "src": "/images/galerie/24-proven/jeu_provenc1.jpg",
+      "src": "/images/galerie/24-proven/jeu_provenc1.webp",
       "w": 800,
       "h": 524,
       "alt": "Provençale 2024 — photo d'archive du club"

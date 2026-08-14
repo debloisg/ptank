@@ -32,3 +32,7 @@ logs
 # One-time archive import staging (~330MB of Joomla-era originals). The SFTP
 # backup is the master; scripts/import-archive*.mjs regenerate this from it.
 .archive-import/
+
+# Derived image variants (-800/-ph) staged for R2 upload. Regenerable from
+# .archive-import + image-sources via scripts/generate-image-variants.mjs.
+.image-variants/

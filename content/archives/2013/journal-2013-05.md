@@ -16,11 +16,11 @@ Doublette secteur 4 et Championnats des Clubs....
 
 Journal du mois de Mai 2013
 
-![Journal Mai 2013](/images/archives/2013/journal-2013-05/muguet20.gif){width="92" height="142"}
+![Journal Mai 2013](/images/archives/2013/journal-2013-05/muguet20.gif){height="142" width="92"}
 
 ---
 
-![Journal Mai 2013](/images/archives/2013/journal-2013-05/bouleroule.gif){width="70" height="69"}
+![Journal Mai 2013](/images/archives/2013/journal-2013-05/bouleroule.gif){height="69" width="70"}
 
 ## SECTEUR DOUBLETTES DU 26 MAI A TREBOUL:
 
@@ -34,13 +34,13 @@ Six équipes de la Pétanque Fouesnantaise étaient présentes à Tréboul pour 
 
 ## CHAMPIONNAT DE CLUBS VETERANS DU MARDI 14 MAI (VOIR RESULTATS DANS RUBRIQUE "Calendrier-Résultats")
 
-### \-Division 1 Poule 3 à Fouesnant: Fouesnant 1 rencontre Pont Croix
+### -Division 1 Poule 3 à Fouesnant: Fouesnant 1 rencontre Pont Croix
 
-### \-Division 1 Poule 4 à Fouesnant: Fouesnant 2 rencontre Pluguffan
+### -Division 1 Poule 4 à Fouesnant: Fouesnant 2 rencontre Pluguffan
 
-### \-Division 2 Poule 8 à Pont L'Abbé: Fouesnant 3 rencontre Tréboul 3
+### -Division 2 Poule 8 à Pont L'Abbé: Fouesnant 3 rencontre Tréboul 3
 
-### \-Division 2 Poule 9 à Pont L'Abbé: Fouesnant 4 rencontre Ergué Gabéric 1
+### -Division 2 Poule 9 à Pont L'Abbé: Fouesnant 4 rencontre Ergué Gabéric 1
 
 \-
 
@@ -54,7 +54,7 @@ Six équipes de la Pétanque Fouesnantaise étaient présentes à Tréboul pour 
 
 ## RASSEMBLEMENT EN DOUBLETTES VETERANS DU 26 AVRIL A FOUESNANT
 
-![Journal Mai 2013](/images/archives/2013/journal-2013-05/rassfouav131.jpg){width="600" height="374"}
+![Journal Mai 2013](/images/archives/2013/journal-2013-05/rassfouav131.webp){height="374" width="600"}
 
 De gauche à droite:
 
@@ -88,7 +88,7 @@ table de marque, vente tickets boissons, tambola, arbitrage, inscriptions, parki
 
 ---
 
-![Journal Mai 2013](/images/archives/2013/journal-2013-05/bouleroule-2.gif){width="70" height="69"}
+![Journal Mai 2013](/images/archives/2013/journal-2013-05/bouleroule-2.gif){height="69" width="70"}
 
 ## CONCOURS SENIORS DU 1er MAI A FOUESNANT
 
@@ -121,7 +121,7 @@ table de marque, vente tickets boissons, tambola, arbitrage, inscriptions, parki
 
 ---
 
-![Journal Mai 2013](/images/archives/2013/journal-2013-05/bravo.gif){width="115" height="115"}
+![Journal Mai 2013](/images/archives/2013/journal-2013-05/bravo.gif){height="115" width="115"}
 
 ### meilleures performances du mois:
 

@@ -5,20 +5,20 @@ date: 2013-07-05
 year: 2013
 category: "Journaux du club"
 journal: "2013-04"
-image: "/images/archives/2013/journal-2013-04/ccpom131.jpg"
+image: "/images/archives/2013/journal-2013-04/ccpom131.webp"
 joomlaId: 87
 hits: 5194
 ---
 
 ## FÊTE DES POMMIERS QUELQUES PHOTOS
 
-![Journal Avril 2013](/images/archives/2013/journal-2013-04/ccpom131.jpg){width="640" height="427"}![Journal Avril 2013](/images/archives/2013/journal-2013-04/ccpom133.jpg){width="640" height="427"}![Journal Avril 2013](/images/archives/2013/journal-2013-04/ccpom135.jpg){width="640" height="427"}![Journal Avril 2013](/images/archives/2013/journal-2013-04/ccpom137.jpg){width="640" height="427"}![Journal Avril 2013](/images/archives/2013/journal-2013-04/ccpom138.jpg){width="640" height="427"}![Journal Avril 2013](/images/archives/2013/journal-2013-04/ccpom139.jpg){width="640" height="427"}
+![Journal Avril 2013](/images/archives/2013/journal-2013-04/ccpom131.webp){width="640" height="427"}![Journal Avril 2013](/images/archives/2013/journal-2013-04/ccpom133.webp){width="640" height="427"}![Journal Avril 2013](/images/archives/2013/journal-2013-04/ccpom135.webp){width="640" height="427"}![Journal Avril 2013](/images/archives/2013/journal-2013-04/ccpom137.webp){width="640" height="427"}![Journal Avril 2013](/images/archives/2013/journal-2013-04/ccpom138.webp){width="640" height="427"}![Journal Avril 2013](/images/archives/2013/journal-2013-04/ccpom139.webp){width="640" height="427"}
 
 Mois bien fourni avec notre premier rassemblement en doublettes et de très bons résultats pour le club en concours officiels....... Journal du mois d'Avril 2013
 
 ### RASSEMBLEMENT VETERANS EN DOUBLETTES DU 26 AVRIL
 
-![Journal Avril 2013](/images/archives/2013/journal-2013-04/rassfouav131.jpg){width="600" height="374"}        **![Journal Avril 2013](/images/archives/2013/journal-2013-04/vacasoleil.jpg){width="65" height="59"} Photos du rassemblement de la Pétanque fouesnantaise 2017 cliquez**  ICI
+![Journal Avril 2013](/images/archives/2013/journal-2013-04/rassfouav131.webp){width="600" height="374"}        **![Journal Avril 2013](/images/archives/2013/journal-2013-04/vacasoleil.webp){width="65" height="59"} Photos du rassemblement de la Pétanque fouesnantaise 2017 cliquez**  ICI
 
 ### Les vainqueurs avec 5 parties gagnées avec goal average:
 
@@ -30,7 +30,7 @@ Mois bien fourni avec notre premier rassemblement en doublettes et de très bons
 
 ---
 
-\- ![Journal Avril 2013](/images/archives/2013/journal-2013-04/rassfou132.jpg){width="600" height="400"}  La foule des grands jours  ![Journal Avril 2013](/images/archives/2013/journal-2013-04/rassfou133.jpg){width="600" height="400"}  Prêts à repartir!  ![Journal Avril 2013](/images/archives/2013/journal-2013-04/rassfou134.jpg){width="600" height="400"}  Anonymes, heureux d'être là!  ![Journal Avril 2013](/images/archives/2013/journal-2013-04/rassfou135.jpg){width="600" height="400"}  Terrains du bas  ![Journal Avril 2013](/images/archives/2013/journal-2013-04/rassfou136.jpg){width="600" height="400"}  Terrains du bas  ![Journal Avril 2013](/images/archives/2013/journal-2013-04/rassfou137.jpg){width="600" height="400"}  Terrains du bas  ![Journal Avril 2013](/images/archives/2013/journal-2013-04/rassfou138.jpg){width="600" height="400"}  terrains du bas  ![Journal Avril 2013](/images/archives/2013/journal-2013-04/rassfou139.jpg){width="600" height="400"}  Pas de temps à perdre!                  ![Journal Avril 2013](/images/archives/2013/journal-2013-04/rassfou1314.jpg){width="600" height="450"}  Le sentiment du devoir accompli.        ![Journal Avril 2013](/images/archives/2013/journal-2013-04/rassfou1316.jpg){width="600" height="450"}  Le coeur de la fouesnantaise, Tout à bien fonctionné!   ![Journal Avril 2013](/images/archives/2013/journal-2013-04/rassfou1317.jpg){width="600" height="450"}  Y a pu d'café!
+\- ![Journal Avril 2013](/images/archives/2013/journal-2013-04/rassfou132.webp){width="600" height="400"}  La foule des grands jours  ![Journal Avril 2013](/images/archives/2013/journal-2013-04/rassfou133.webp){width="600" height="400"}  Prêts à repartir!  ![Journal Avril 2013](/images/archives/2013/journal-2013-04/rassfou134.webp){width="600" height="400"}  Anonymes, heureux d'être là!  ![Journal Avril 2013](/images/archives/2013/journal-2013-04/rassfou135.webp){width="600" height="400"}  Terrains du bas  ![Journal Avril 2013](/images/archives/2013/journal-2013-04/rassfou136.webp){width="600" height="400"}  Terrains du bas  ![Journal Avril 2013](/images/archives/2013/journal-2013-04/rassfou137.webp){width="600" height="400"}  Terrains du bas  ![Journal Avril 2013](/images/archives/2013/journal-2013-04/rassfou138.webp){width="600" height="400"}  terrains du bas  ![Journal Avril 2013](/images/archives/2013/journal-2013-04/rassfou139.webp){width="600" height="400"}  Pas de temps à perdre!                  ![Journal Avril 2013](/images/archives/2013/journal-2013-04/rassfou1314.webp){width="600" height="450"}  Le sentiment du devoir accompli.        ![Journal Avril 2013](/images/archives/2013/journal-2013-04/rassfou1316.webp){width="600" height="450"}  Le coeur de la fouesnantaise, Tout à bien fonctionné!   ![Journal Avril 2013](/images/archives/2013/journal-2013-04/rassfou1317.webp){width="600" height="450"}  Y a pu d'café!
 
 ---
 
@@ -66,7 +66,7 @@ Encore une bonne performance pour nos participants au niveau départemental.
 
 ### RASSEMBLEMENT DE PONT L'ABBE
 
-![Journal Avril 2013](/images/archives/2013/journal-2013-04/rasptlab13.png){width="600" height="451"}
+![Journal Avril 2013](/images/archives/2013/journal-2013-04/rasptlab13.webp){width="600" height="451"}
 
 Le vendredi 5 Avril a eu lieu à Pont L'Abbé un rassemblement vétérans en triplettes. La Pétanque Fouesnantaise était très bien représentée par neuf triplettes.
 

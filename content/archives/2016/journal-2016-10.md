@@ -5,12 +5,12 @@ date: 2016-10-01
 year: 2016
 category: "Journaux du club"
 journal: "2016-10"
-image: "/images/archives/2016/journal-2016-10/blaspet80.png"
+image: "/images/archives/2016/journal-2016-10/blaspet80.webp"
 joomlaId: 290
 hits: 4939
 ---
 
-![Journal Octobre 2016](/images/archives/2016/journal-2016-10/blaspet80.png){width="80" height="75"}
+![Journal Octobre 2016](/images/archives/2016/journal-2016-10/blaspet80.webp){width="80" height="75"}
 
 ## ASSEMBLEE GENERALE DE LA PETANQUE FOUESNANTAISE
 
@@ -28,7 +28,7 @@ Lors de l'assemblée générale, le club devra adopter ces nouveaux status. Vous
 
 \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
-![Journal Octobre 2016](/images/archives/2016/journal-2016-10/dessipet1.gif){width="100" height="83"} **CHALLENGE CREDIT AGRICOLE** ![Journal Octobre 2016](/images/archives/2016/journal-2016-10/logoca1.png){width="100" height="85"}    Le challenge CREDIT AGRICOLE va débuter cette année le 9 Novembre.  Le déroulement de la compétition se fera en 3 parties.  Une participation de 1€ sera demandée pour chaque journée.     Voici les dates à retenir:
+![Journal Octobre 2016](/images/archives/2016/journal-2016-10/dessipet1.gif){width="100" height="83"} **CHALLENGE CREDIT AGRICOLE** ![Journal Octobre 2016](/images/archives/2016/journal-2016-10/logoca1.webp){width="100" height="85"}    Le challenge CREDIT AGRICOLE va débuter cette année le 9 Novembre.  Le déroulement de la compétition se fera en 3 parties.  Une participation de 1€ sera demandée pour chaque journée.     Voici les dates à retenir:
 
 -   Tête à Tête le 9 Novembre
 -   Doublettes le 16 Novembre

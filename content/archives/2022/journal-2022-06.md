@@ -5,16 +5,16 @@ date: 2021-12-31
 year: 2022
 category: "Journaux du club"
 journal: "2022-06"
-image: "/images/archives/2022/journal-2022-06/cc_ete_22.png"
+image: "/images/archives/2022/journal-2022-06/cc_ete_22.webp"
 joomlaId: 417
 hits: 4558
 ---
 
-![journal Juin 2022](/images/archives/2022/journal-2022-06/cc_ete_22.png){width="500" height="707"} ![journal Juin 2022](/images/archives/2022/journal-2022-06/fdes_pommiers_22.gif){width="375" height="601"}
+![journal Juin 2022](/images/archives/2022/journal-2022-06/cc_ete_22.webp){width="500" height="707"} ![journal Juin 2022](/images/archives/2022/journal-2022-06/fdes_pommiers_22.gif){width="375" height="601"}
 
 ---
 
-![journal Juin 2022](/images/archives/2022/journal-2022-06/imag1.jpg){width="121" height="79"}
+![journal Juin 2022](/images/archives/2022/journal-2022-06/imag1.webp){width="121" height="79"}
 
 ## ** CHAMPIONNAT DE LIGUE TRIPLETTES PROMOTION Le 4 JUIN à GOUESNOU**
 
@@ -34,11 +34,11 @@ Elimination après deux parties perdues en poules.
 
 ---
 
-![journal Juin 2022](/images/archives/2022/journal-2022-06/vacasoleil.jpg){width="78" height="71"}
+![journal Juin 2022](/images/archives/2022/journal-2022-06/vacasoleil.webp){width="78" height="71"}
 
 ## ** BOULODROME OUVERT A L'EXTERIEUR**
 
-  **![journal Juin 2022](/images/archives/2022/journal-2022-06/drap_irland.png){width="80" height="53"} ![journal Juin 2022](/images/archives/2022/journal-2022-06/drap_bret.png){width="80" height="53"} Rencontre amicale avec un groupe d'Irlandais de Dublin**
+  **![journal Juin 2022](/images/archives/2022/journal-2022-06/drap_irland.webp){width="80" height="53"} ![journal Juin 2022](/images/archives/2022/journal-2022-06/drap_bret.webp){width="80" height="53"} Rencontre amicale avec un groupe d'Irlandais de Dublin**
 
 Le **samedi 28 mai,** le club recevait des pétanqueurs Irlandais de Dublin venus passer un week-end à Fouesnant.
 
@@ -46,7 +46,7 @@ Lors de la première partie, les irlandais rencontraient les fouesnantais qui re
 
 **\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_**
 
-  **![journal Juin 2022](/images/archives/2022/journal-2022-06/ci_ortf.png){width="80" height="78"}  Mise à disposition de notre boulodrome** ****au CIORTF** pour une compétition de pétanque**
+  **![journal Juin 2022](/images/archives/2022/journal-2022-06/ci_ortf.webp){width="80" height="78"}  Mise à disposition de notre boulodrome** ****au CIORTF** pour une compétition de pétanque**
 
 **Le week-end de la Pentecôte**, le comité interentreprises des organismes de radio et de télévision Française (CIORTF) organisait à Fouesnant des rencontres interrégionales : course à pieds, football, tennis, tennis de table, natation et pétanque.
 
@@ -62,7 +62,7 @@ _Jo Le Stum_
 
 ---
 
-![journal Juin 2022](/images/archives/2022/journal-2022-06/gif6.jpg){width="48" height="70"}
+![journal Juin 2022](/images/archives/2022/journal-2022-06/gif6.webp){width="48" height="70"}
 
 ** CHAMPIONNAT DES CLUBS VETERANS 8 ème JOURNEE LE MARDI 7 JUIN.**
 
@@ -79,7 +79,7 @@ _Jo Le Stum_
 
 ---
 
-![journal Juin 2022](/images/archives/2022/journal-2022-06/imag1-2.jpg){width="121" height="79"}
+![journal Juin 2022](/images/archives/2022/journal-2022-06/imag1-2.webp){width="121" height="79"}
 
 ## ** CHAMPIONNAT QUALIFICATIF DEPARTEMENTAL DOUBLETTES VETERANS vendredi 10 Juin à Saint Pol de léon**
 
@@ -99,7 +99,7 @@ Le championnat départemental doublettes vétérans aura lieu le vendredi 10 jui
 
 ---
 
-![journal Juin 2022](/images/archives/2022/journal-2022-06/gif7.jpg){width="70" height="72"}
+![journal Juin 2022](/images/archives/2022/journal-2022-06/gif7.webp){width="70" height="72"}
 
 ## **COUPE DU FINISTERE 2ème TOUR LE SAMEDI 11 JUIN A FOUESNANT**
 
@@ -115,7 +115,7 @@ Le championnat départemental doublettes vétérans aura lieu le vendredi 10 jui
 
 **Résultat:**
 
-**![journal Juin 2022](/images/archives/2022/journal-2022-06/locm_plouz1.png){width="800" height="585"}**
+**![journal Juin 2022](/images/archives/2022/journal-2022-06/locm_plouz1.webp){width="800" height="585"}**
 
 Belle journée ensoleillée sur Fouesnant pour accueillir l'équipe de Locmaria Plouzané. Après un petit repas préparé pour l'accueil de nos invités, il a fallu passer aux choses sérieuses sur le terrain.
 
@@ -152,13 +152,13 @@ Marie-Hélène Primot, Charlotte Simonin, Patrick Quentel, Gérard Machart, Phil
 
 ---
 
-![journal Juin 2022](/images/archives/2022/journal-2022-06/barbecue1.png){width="150" height="149"}
+![journal Juin 2022](/images/archives/2022/journal-2022-06/barbecue1.webp){width="150" height="149"}
 
 ## BARBECUE DU CLUB LE SAMEDI 18 JUIN
 
 **Rendez vous à midi. N'oubliez pas de vous inscrire auprès de Christian Le Goff ou Patrick Olivry.**
 
-![journal Juin 2022](/images/archives/2022/journal-2022-06/couverts.png){width="67" height="55"} **Merci d'apporter vos couverts .**
+![journal Juin 2022](/images/archives/2022/journal-2022-06/couverts.webp){width="67" height="55"} **Merci d'apporter vos couverts .**
 
 **Le repas sera suivi d'un petit concours, vers 15 h00, pour les licenciés du club et leurs conjointes ou conjoints .**
 
@@ -178,15 +178,15 @@ Félicitations à tous ceux qui ont organisé cette journée festive.
 
 _Jo Le Stum_
 
-![journal Juin 2022](/images/archives/2022/journal-2022-06/barboc100.jpg){width="850" height="478"}
+![journal Juin 2022](/images/archives/2022/journal-2022-06/barboc100.webp){width="850" height="478"}
 
-![journal Juin 2022](/images/archives/2022/journal-2022-06/barboc101.jpg){width="850" height="384"}
+![journal Juin 2022](/images/archives/2022/journal-2022-06/barboc101.webp){width="850" height="384"}
 
 _Vous pouvez voir les photos du barbecue en cliquant sur les rubriques:_ **'ALBUM' 'photos 2022' 'Barbecue 2022'**
 
 ---
 
-![journal Juin 2022](/images/archives/2022/journal-2022-06/gif6-2.jpg){width="48" height="70"}
+![journal Juin 2022](/images/archives/2022/journal-2022-06/gif6-2.webp){width="48" height="70"}
 
 ** CHAMPIONNAT DES CLUBS VETERANS 9 ème JOURNEE LE MARDI 21 Juin.**
 

@@ -5,14 +5,14 @@ date: 2013-09-04
 year: 2013
 category: "Journaux du club"
 journal: "2013-09"
-image: "/images/archives/2013/journal-2013-09/gentl20.png"
+image: "/images/archives/2013/journal-2013-09/gentl20.webp"
 joomlaId: 170
 hits: 5225
 ---
 
 **GENTLEMEN PETANQUE DU 28 SEPTEMBRE A FOUESNANT (voir plus de photos dans la rubrique "Album")**
 
-![journal Septembre 2013](/images/archives/2013/journal-2013-09/gentl20.png){width="377" height="251"} Samedi, dans le cadre du Sport Adapté, 400 pétanqueurs se sont rassemblés pour participer au « Gentlemen Pétanque ».Venus de tout le département et quittant pour beaucoup d’entre eux le nord Finistère sous la pluie, ils ont trouvé un ciel clément et une température agréable en arrivant sur Fouesnant
+![journal Septembre 2013](/images/archives/2013/journal-2013-09/gentl20.webp){height="251" width="377"} Samedi, dans le cadre du Sport Adapté, 400 pétanqueurs se sont rassemblés pour participer au « Gentlemen Pétanque ».Venus de tout le département et quittant pour beaucoup d’entre eux le nord Finistère sous la pluie, ils ont trouvé un ciel clément et une température agréable en arrivant sur Fouesnant
 
 L’organisation sans faille était réalisée par l’association « Chiboudig » le comité départemental de la FFPJP, les papillons blancs, le comité départemental du sport adapté et le club local de La Pétanque Fouesnantaise.
 

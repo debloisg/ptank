@@ -5,7 +5,7 @@ date: 2013-07-05
 year: 2011
 category: "Journaux du club"
 journal: "2011-04"
-image: "/images/archives/2011/journal-2011-04/cc-sen-fou-25-4-11-2.jpg"
+image: "/images/archives/2011/journal-2011-04/cc-sen-fou-25-4-11-2.webp"
 joomlaId: 109
 hits: 4564
 ---
@@ -16,11 +16,11 @@ JOURNAL DU MOIS D'AVRIL 2011
 
 ## CONCOURS SENIORS DU 25 AVRIL A FOUESNANT
 
-![Journal Avril 2011](/images/archives/2011/journal-2011-04/cc-sen-fou-25-4-11-2.jpg){width="620" height="413"}
+![Journal Avril 2011](/images/archives/2011/journal-2011-04/cc-sen-fou-25-4-11-2.webp){height="413" width="620"}
 
-![Journal Avril 2011](/images/archives/2011/journal-2011-04/cc-sen-fou-25-4-11-3.jpg){width="620" height="413"}
+![Journal Avril 2011](/images/archives/2011/journal-2011-04/cc-sen-fou-25-4-11-3.webp){height="413" width="620"}
 
-![Journal Avril 2011](/images/archives/2011/journal-2011-04/cc-sen-fou-25-4-11.jpg){width="620" height="413"}
+![Journal Avril 2011](/images/archives/2011/journal-2011-04/cc-sen-fou-25-4-11.webp){height="413" width="620"}
 
 ### CONCOURS SENIORS A FOUESNANT
 

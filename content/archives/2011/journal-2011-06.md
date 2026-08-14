@@ -5,14 +5,14 @@ date: 2013-07-05
 year: 2011
 category: "Journaux du club"
 journal: "2011-06"
-image: "/images/archives/2011/journal-2011-06/hum-1.jpg"
+image: "/images/archives/2011/journal-2011-06/hum-1.webp"
 joomlaId: 107
 hits: 2635
 ---
 
 ### La Pétanque Fouesnantaise à l'honneur ....
 
-JOURNAL DU MOIS DE JUIN ![Journal Juin 2011](/images/archives/2011/journal-2011-06/hum-1.jpg){width="330" height="446"}
+JOURNAL DU MOIS DE JUIN ![Journal Juin 2011](/images/archives/2011/journal-2011-06/hum-1.webp){width="330" height="446"}
 
 ## RASSEMBLEMENT VETERANS DE KERHUON
 
@@ -24,11 +24,11 @@ Vainqueurs, avec un parcours sans faute, pour la triplette fouesnantaise compos�
 
 Notre club est bien représenté sur les différents boulodromes du Finistère et de bretagne et les bons résultats suivent. félicitation à nos représentants.
 
-![Journal Juin 2011](/images/archives/2011/journal-2011-06/rasskerhu20111.jpg){width="600" height="450"}
+![Journal Juin 2011](/images/archives/2011/journal-2011-06/rasskerhu20111.webp){width="600" height="450"}
 
 Jean CHAPALAIN, Françoise CHAPALAIN, Dominique GORSE, les deuxièmes de la compétition, avec leurs coupes.
 
-![Journal Juin 2011](/images/archives/2011/journal-2011-06/rasskerhu20112.jpg){width="600" height="450"}
+![Journal Juin 2011](/images/archives/2011/journal-2011-06/rasskerhu20112.webp){width="600" height="450"}
 
 Gilbert Caroff, désiré Floch, Guy Gouézec, les vainqueurs, entourés des meilleures équipes du jour.
 
@@ -54,7 +54,7 @@ Pendant la période estivale de juillet et d’août le club propose tous les me
 
 ## CHAMPIONNAT DE CLUBS VETERANS DU FINISTERE, POULE 9, A LOCTUDY:
 
-![Journal Juin 2011](/images/archives/2011/journal-2011-06/chp-cl-vete-111.jpg){width="600" height="400"}  Pierre en action  ![Journal Juin 2011](/images/archives/2011/journal-2011-06/chp-cl-vete-112.jpg){width="600" height="400"}  Jean Louis en position repos  ![Journal Juin 2011](/images/archives/2011/journal-2011-06/chp-cl-vete-113.jpg){width="600" height="400"}  l'ensemble des équipes
+![Journal Juin 2011](/images/archives/2011/journal-2011-06/chp-cl-vete-111.webp){width="600" height="400"}  Pierre en action  ![Journal Juin 2011](/images/archives/2011/journal-2011-06/chp-cl-vete-112.webp){width="600" height="400"}  Jean Louis en position repos  ![Journal Juin 2011](/images/archives/2011/journal-2011-06/chp-cl-vete-113.webp){width="600" height="400"}  l'ensemble des équipes
 
 Soleil et accueil chaleureux pour cette dernière journée de championnat vétérans à Loctudy. Fouesnant 2 rencontrait l'équipe de Pont l'Abbé et Fouesnant 3 l'équipe de Loctudy..
 

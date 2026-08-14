@@ -195,7 +195,12 @@ export default defineContentConfig({
             count: z.number(),
             from: z.string(),
             to: z.string(),
-            thumbs: z.array(z.object({ src: z.string(), w: z.number(), h: z.number(), alt: z.string() })),
+            thumbs: z.array(z.object({
+              src: z.string(),
+              w: z.number(),
+              h: z.number(),
+              alt: z.string(),
+            })),
           }),
         ),
         cover: z.string(),

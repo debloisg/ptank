@@ -4,12 +4,12 @@ description: "- 66ème Congrès Départemental - St Thégonnec le 16 Novembre 20
 date: 2020-01-21
 year: 2019
 category: "Journaux du club"
-image: "/images/archives/2019/congres-departemental-du-finistere-2019/blasoncd29.jpg"
+image: "/images/archives/2019/congres-departemental-du-finistere-2019/blasoncd29.webp"
 joomlaId: 382
 hits: 1653
 ---
 
-**![Congrès Départemental du Finistère 2019](/images/archives/2019/congres-departemental-du-finistere-2019/blasoncd29.jpg){width="64" height="70"}**
+**![Congrès Départemental du Finistère 2019](/images/archives/2019/congres-departemental-du-finistere-2019/blasoncd29.webp){width="64" height="70"}**
 
 - **66ème Congrès Départemental**
 - **St Thégonnec le 16 Novembre 2019**

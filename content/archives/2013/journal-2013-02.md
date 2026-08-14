@@ -5,7 +5,7 @@ date: 2013-07-05
 year: 2013
 category: "Journaux du club"
 journal: "2013-02"
-image: "/images/archives/2013/journal-2013-02/boules.jpg"
+image: "/images/archives/2013/journal-2013-02/boules.webp"
 joomlaId: 89
 hits: 4351
 ---
@@ -14,7 +14,7 @@ Un bon départ de saison en concours...
 
 -   Journal du mois de Février 2013
 
-![Journal Février 2013](/images/archives/2013/journal-2013-02/boules.jpg){width="305" height="222"}
+![Journal Février 2013](/images/archives/2013/journal-2013-02/boules.webp){width="305" height="222"}
 
 ### REPRISE DES COMPETITIONS
 
@@ -54,7 +54,7 @@ L'hiver a été long et humide, il est grand temps de sortir les boules avant qu
 
 ### RESULTATS DU PREMIER TOUR DU TROPHEE VETERANS
 
-![Journal Février 2013](/images/archives/2013/journal-2013-02/cpe-fr-vet-13-1.jpg){width="600" height="400"}  ![Journal Février 2013](/images/archives/2013/journal-2013-02/cpe-fr-vet-13-2.jpg){width="600" height="400"}  ![Journal Février 2013](/images/archives/2013/journal-2013-02/cpe-fr-vet-13-3.jpg){width="600" height="400"}  ![Journal Février 2013](/images/archives/2013/journal-2013-02/cpe-fr-vet-13-6.jpg){width="600" height="400"}
+![Journal Février 2013](/images/archives/2013/journal-2013-02/cpe-fr-vet-13-1.webp){width="600" height="400"}  ![Journal Février 2013](/images/archives/2013/journal-2013-02/cpe-fr-vet-13-2.webp){width="600" height="400"}  ![Journal Février 2013](/images/archives/2013/journal-2013-02/cpe-fr-vet-13-3.webp){width="600" height="400"}  ![Journal Février 2013](/images/archives/2013/journal-2013-02/cpe-fr-vet-13-6.webp){width="600" height="400"}
 
 Le 27 Février s'est déroulé sur nos terrains, le premier tour du trophée vétérans, contre l'équipe de Landerneau. Malgré la présence d'un public venu nombreux encourager nos joueurs, sous un froid glacial, Fouesnant n'a pas résisté à la pression de l'adversaire. Beaucoup de parties se sont terminées avec des scores très serrés .
 

@@ -19,25 +19,25 @@
       "to": "2020-12-21",
       "thumbs": [
         {
-          "src": "/images/galerie/calend-annuel/cale_21_jos.jpg",
+          "src": "/images/galerie/calend-annuel/cale_21_jos.webp",
           "w": 800,
           "h": 519,
           "alt": "Calendriers annuels — photo d'archive du club"
         },
         {
-          "src": "/images/galerie/calend-annuel/cale_21_jfm.jpg",
+          "src": "/images/galerie/calend-annuel/cale_21_jfm.webp",
           "w": 800,
           "h": 553,
           "alt": "Calendriers annuels — photo d'archive du club"
         },
         {
-          "src": "/images/galerie/calend-annuel/cale_21_ond.jpg",
+          "src": "/images/galerie/calend-annuel/cale_21_ond.webp",
           "w": 800,
           "h": 532,
           "alt": "Calendriers annuels — photo d'archive du club"
         },
         {
-          "src": "/images/galerie/calend-annuel/cale_21_amj.jpg",
+          "src": "/images/galerie/calend-annuel/cale_21_amj.webp",
           "w": 800,
           "h": 527,
           "alt": "Calendriers annuels — photo d'archive du club"
@@ -50,25 +50,25 @@
       "to": "2021",
       "thumbs": [
         {
-          "src": "/images/galerie/calend-annuel/cal_20_amj.jpg",
+          "src": "/images/galerie/calend-annuel/cal_20_amj.webp",
           "w": 650,
           "h": 425,
           "alt": "Calendriers annuels — photo d'archive du club"
         },
         {
-          "src": "/images/galerie/calend-annuel/cal_21_jfm.jpg",
+          "src": "/images/galerie/calend-annuel/cal_21_jfm.webp",
           "w": 650,
           "h": 453,
           "alt": "Calendriers annuels — photo d'archive du club"
         },
         {
-          "src": "/images/galerie/calend-annuel/cal_21_jos_2.jpg",
+          "src": "/images/galerie/calend-annuel/cal_21_jos_2.webp",
           "w": 650,
           "h": 422,
           "alt": "Calendriers annuels — photo d'archive du club"
         },
         {
-          "src": "/images/galerie/calend-annuel/cal_21_ond_1.jpg",
+          "src": "/images/galerie/calend-annuel/cal_21_ond_1.webp",
           "w": 650,
           "h": 432,
           "alt": "Calendriers annuels — photo d'archive du club"
@@ -81,25 +81,25 @@
       "to": "2024-11-24",
       "thumbs": [
         {
-          "src": "/images/galerie/calend-annuel/calend74_sect4_1.png",
+          "src": "/images/galerie/calend-annuel/calend74_sect4_1.webp",
           "w": 690,
           "h": 906,
           "alt": "Calendriers annuels — photo d'archive du club"
         },
         {
-          "src": "/images/galerie/calend-annuel/cal_24_3.png",
+          "src": "/images/galerie/calend-annuel/cal_24_3.webp",
           "w": 690,
           "h": 914,
           "alt": "Calendriers annuels — photo d'archive du club"
         },
         {
-          "src": "/images/galerie/calend-annuel/cal_24_4.png",
+          "src": "/images/galerie/calend-annuel/cal_24_4.webp",
           "w": 690,
           "h": 913,
           "alt": "Calendriers annuels — photo d'archive du club"
         },
         {
-          "src": "/images/galerie/calend-annuel/cal_24_5.png",
+          "src": "/images/galerie/calend-annuel/cal_24_5.webp",
           "w": 690,
           "h": 659,
           "alt": "Calendriers annuels — photo d'archive du club"
@@ -107,10 +107,10 @@
       ]
     }
   },
-  "cover": "/images/galerie/calend-annuel/cal_24_3.png",
+  "cover": "/images/galerie/calend-annuel/cal_24_3.webp",
   "photos": [
     {
-      "src": "/images/galerie/calend-annuel/cale_21_jos.jpg",
+      "src": "/images/galerie/calend-annuel/cale_21_jos.webp",
       "w": 800,
       "h": 519,
       "alt": "Calendriers annuels — photo d'archive du club",
@@ -126,7 +126,7 @@
       ]
     },
     {
-      "src": "/images/galerie/calend-annuel/cale_21_jfm.jpg",
+      "src": "/images/galerie/calend-annuel/cale_21_jfm.webp",
       "w": 800,
       "h": 553,
       "alt": "Calendriers annuels — photo d'archive du club",
@@ -142,7 +142,7 @@
       ]
     },
     {
-      "src": "/images/galerie/calend-annuel/cale_21_ond.jpg",
+      "src": "/images/galerie/calend-annuel/cale_21_ond.webp",
       "w": 800,
       "h": 532,
       "alt": "Calendriers annuels — photo d'archive du club",
@@ -158,7 +158,7 @@
       ]
     },
     {
-      "src": "/images/galerie/calend-annuel/cale_21_amj.jpg",
+      "src": "/images/galerie/calend-annuel/cale_21_amj.webp",
       "w": 800,
       "h": 527,
       "alt": "Calendriers annuels — photo d'archive du club",
@@ -174,7 +174,7 @@
       ]
     },
     {
-      "src": "/images/galerie/calend-annuel/cal_20_amj.jpg",
+      "src": "/images/galerie/calend-annuel/cal_20_amj.webp",
       "w": 650,
       "h": 425,
       "alt": "Calendriers annuels — photo d'archive du club",
@@ -182,7 +182,7 @@
       "dateSource": "path"
     },
     {
-      "src": "/images/galerie/calend-annuel/cal_21_jfm.jpg",
+      "src": "/images/galerie/calend-annuel/cal_21_jfm.webp",
       "w": 650,
       "h": 453,
       "alt": "Calendriers annuels — photo d'archive du club",
@@ -190,7 +190,7 @@
       "dateSource": "path"
     },
     {
-      "src": "/images/galerie/calend-annuel/cal_21_jos_2.jpg",
+      "src": "/images/galerie/calend-annuel/cal_21_jos_2.webp",
       "w": 650,
       "h": 422,
       "alt": "Calendriers annuels — photo d'archive du club",
@@ -198,7 +198,7 @@
       "dateSource": "path"
     },
     {
-      "src": "/images/galerie/calend-annuel/cal_21_ond_1.jpg",
+      "src": "/images/galerie/calend-annuel/cal_21_ond_1.webp",
       "w": 650,
       "h": 432,
       "alt": "Calendriers annuels — photo d'archive du club",
@@ -206,7 +206,7 @@
       "dateSource": "path"
     },
     {
-      "src": "/images/galerie/calend-annuel/calend74_sect4_1.png",
+      "src": "/images/galerie/calend-annuel/calend74_sect4_1.webp",
       "w": 690,
       "h": 906,
       "alt": "Calendriers annuels — photo d'archive du club",
@@ -214,7 +214,7 @@
       "dateSource": "path"
     },
     {
-      "src": "/images/galerie/calend-annuel/cal_24_3.png",
+      "src": "/images/galerie/calend-annuel/cal_24_3.webp",
       "w": 690,
       "h": 914,
       "alt": "Calendriers annuels — photo d'archive du club",
@@ -222,7 +222,7 @@
       "dateSource": "path"
     },
     {
-      "src": "/images/galerie/calend-annuel/cal_24_4.png",
+      "src": "/images/galerie/calend-annuel/cal_24_4.webp",
       "w": 690,
       "h": 913,
       "alt": "Calendriers annuels — photo d'archive du club",
@@ -230,7 +230,7 @@
       "dateSource": "path"
     },
     {
-      "src": "/images/galerie/calend-annuel/cal_24_5.png",
+      "src": "/images/galerie/calend-annuel/cal_24_5.webp",
       "w": 690,
       "h": 659,
       "alt": "Calendriers annuels — photo d'archive du club",
@@ -238,7 +238,7 @@
       "dateSource": "path"
     },
     {
-      "src": "/images/galerie/calend-annuel/cal_74_2.png",
+      "src": "/images/galerie/calend-annuel/cal_74_2.webp",
       "w": 690,
       "h": 905,
       "alt": "Calendriers annuels — photo d'archive du club",
@@ -246,7 +246,7 @@
       "dateSource": "path"
     },
     {
-      "src": "/images/galerie/calend-annuel/cal_cd29_24_1.jpg",
+      "src": "/images/galerie/calend-annuel/cal_cd29_24_1.webp",
       "w": 800,
       "h": 566,
       "alt": "Calendriers annuels — photo d'archive du club",
@@ -262,7 +262,7 @@
       ]
     },
     {
-      "src": "/images/galerie/calend-annuel/cal_cd29_24_2.jpg",
+      "src": "/images/galerie/calend-annuel/cal_cd29_24_2.webp",
       "w": 800,
       "h": 566,
       "alt": "Calendriers annuels — photo d'archive du club",
@@ -278,7 +278,7 @@
       ]
     },
     {
-      "src": "/images/galerie/calend-annuel/cal_cd29_24_3.jpg",
+      "src": "/images/galerie/calend-annuel/cal_cd29_24_3.webp",
       "w": 800,
       "h": 566,
       "alt": "Calendriers annuels — photo d'archive du club",
@@ -294,7 +294,7 @@
       ]
     },
     {
-      "src": "/images/galerie/calend-annuel/cal_cd29_24_4.jpg",
+      "src": "/images/galerie/calend-annuel/cal_cd29_24_4.webp",
       "w": 800,
       "h": 566,
       "alt": "Calendriers annuels — photo d'archive du club",
@@ -310,7 +310,7 @@
       ]
     },
     {
-      "src": "/images/galerie/calend-annuel/nx_calendrier_21_1.jpg",
+      "src": "/images/galerie/calend-annuel/nx_calendrier_21_1.webp",
       "w": 800,
       "h": 581,
       "alt": "Calendriers annuels — photo d'archive du club"

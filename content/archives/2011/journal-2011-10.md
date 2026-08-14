@@ -5,7 +5,7 @@ date: 2013-07-05
 year: 2011
 category: "Journaux du club"
 journal: "2011-10"
-image: "/images/archives/2011/journal-2011-10/ag2011bureau.jpg"
+image: "/images/archives/2011/journal-2011-10/ag2011bureau.webp"
 joomlaId: 104
 hits: 4632
 ---
@@ -16,11 +16,11 @@ Assemblée générale de la Pétanque Fouesnantaise et fin des championnats par 
 
 ## ASSEMBLEE GENERALE 2011
 
-![Journal Octobre 2011](/images/archives/2011/journal-2011-10/ag2011bureau.jpg){width="620" height="465"}
+![Journal Octobre 2011](/images/archives/2011/journal-2011-10/ag2011bureau.webp){width="620" height="465"}
 
 Présentation du site internet par Roger Croguennec
 
-![Journal Octobre 2011](/images/archives/2011/journal-2011-10/ag2011assemb.jpg){width="620" height="465"}
+![Journal Octobre 2011](/images/archives/2011/journal-2011-10/ag2011assemb.webp){width="620" height="465"}
 
 Assemblée
 

@@ -18,25 +18,25 @@
       "to": "2014-06-21",
       "thumbs": [
         {
-          "src": "/images/galerie/fete-du-club/fetepet141.jpg",
+          "src": "/images/galerie/fete-du-club/fetepet141.webp",
           "w": 640,
           "h": 480,
           "alt": "Fête du club — photo d'archive du club"
         },
         {
-          "src": "/images/galerie/fete-du-club/fetepet1410.jpg",
+          "src": "/images/galerie/fete-du-club/fetepet1410.webp",
           "w": 640,
           "h": 480,
           "alt": "Fête du club — photo d'archive du club"
         },
         {
-          "src": "/images/galerie/fete-du-club/fetepet1411.jpg",
+          "src": "/images/galerie/fete-du-club/fetepet1411.webp",
           "w": 640,
           "h": 480,
           "alt": "Fête du club — photo d'archive du club"
         },
         {
-          "src": "/images/galerie/fete-du-club/fetepet1412.jpg",
+          "src": "/images/galerie/fete-du-club/fetepet1412.webp",
           "w": 640,
           "h": 480,
           "alt": "Fête du club — photo d'archive du club"
@@ -49,25 +49,25 @@
       "to": "2017-06-25",
       "thumbs": [
         {
-          "src": "/images/galerie/fete-du-club/fetclub171a.jpg",
+          "src": "/images/galerie/fete-du-club/fetclub171a.webp",
           "w": 650,
           "h": 366,
           "alt": "Fête du club — photo d'archive du club"
         },
         {
-          "src": "/images/galerie/fete-du-club/fetclub1724a.jpg",
+          "src": "/images/galerie/fete-du-club/fetclub1724a.webp",
           "w": 650,
           "h": 366,
           "alt": "Fête du club — photo d'archive du club"
         },
         {
-          "src": "/images/galerie/fete-du-club/fetclub1728a.jpg",
+          "src": "/images/galerie/fete-du-club/fetclub1728a.webp",
           "w": 650,
           "h": 366,
           "alt": "Fête du club — photo d'archive du club"
         },
         {
-          "src": "/images/galerie/fete-du-club/fetclub1735a.jpg",
+          "src": "/images/galerie/fete-du-club/fetclub1735a.webp",
           "w": 650,
           "h": 366,
           "alt": "Fête du club — photo d'archive du club"
@@ -80,7 +80,7 @@
       "to": "2022-02",
       "thumbs": [
         {
-          "src": "/images/galerie/fete-du-club/pot22_2.jpg",
+          "src": "/images/galerie/fete-du-club/pot22_2.webp",
           "w": 800,
           "h": 450,
           "alt": "Fête du club — photo d'archive du club"
@@ -93,13 +93,13 @@
       "to": "2024-06",
       "thumbs": [
         {
-          "src": "/images/galerie/fete-du-club/repas_club_24.png",
+          "src": "/images/galerie/fete-du-club/repas_club_24.webp",
           "w": 796,
           "h": 162,
           "alt": "Fête du club — photo d'archive du club"
         },
         {
-          "src": "/images/galerie/fete-du-club/repas_club_24_1.png",
+          "src": "/images/galerie/fete-du-club/repas_club_24_1.webp",
           "w": 800,
           "h": 51,
           "alt": "Fête du club — photo d'archive du club"
@@ -107,10 +107,10 @@
       ]
     }
   },
-  "cover": "/images/galerie/fete-du-club/pot22_2.jpg",
+  "cover": "/images/galerie/fete-du-club/pot22_2.webp",
   "photos": [
     {
-      "src": "/images/galerie/fete-du-club/fetepet141.jpg",
+      "src": "/images/galerie/fete-du-club/fetepet141.webp",
       "w": 640,
       "h": 480,
       "alt": "Fête du club — photo d'archive du club",
@@ -118,7 +118,7 @@
       "dateSource": "exif"
     },
     {
-      "src": "/images/galerie/fete-du-club/fetepet1410.jpg",
+      "src": "/images/galerie/fete-du-club/fetepet1410.webp",
       "w": 640,
       "h": 480,
       "alt": "Fête du club — photo d'archive du club",
@@ -126,7 +126,7 @@
       "dateSource": "exif"
     },
     {
-      "src": "/images/galerie/fete-du-club/fetepet1411.jpg",
+      "src": "/images/galerie/fete-du-club/fetepet1411.webp",
       "w": 640,
       "h": 480,
       "alt": "Fête du club — photo d'archive du club",
@@ -134,7 +134,7 @@
       "dateSource": "exif"
     },
     {
-      "src": "/images/galerie/fete-du-club/fetepet1412.jpg",
+      "src": "/images/galerie/fete-du-club/fetepet1412.webp",
       "w": 640,
       "h": 480,
       "alt": "Fête du club — photo d'archive du club",
@@ -142,7 +142,7 @@
       "dateSource": "exif"
     },
     {
-      "src": "/images/galerie/fete-du-club/fetepet1413.jpg",
+      "src": "/images/galerie/fete-du-club/fetepet1413.webp",
       "w": 640,
       "h": 480,
       "alt": "Fête du club — photo d'archive du club",
@@ -150,7 +150,7 @@
       "dateSource": "exif"
     },
     {
-      "src": "/images/galerie/fete-du-club/fetepet1414.jpg",
+      "src": "/images/galerie/fete-du-club/fetepet1414.webp",
       "w": 640,
       "h": 480,
       "alt": "Fête du club — photo d'archive du club",
@@ -158,7 +158,7 @@
       "dateSource": "exif"
     },
     {
-      "src": "/images/galerie/fete-du-club/fetepet1415.jpg",
+      "src": "/images/galerie/fete-du-club/fetepet1415.webp",
       "w": 640,
       "h": 480,
       "alt": "Fête du club — photo d'archive du club",
@@ -166,7 +166,7 @@
       "dateSource": "exif"
     },
     {
-      "src": "/images/galerie/fete-du-club/fetepet1416.jpg",
+      "src": "/images/galerie/fete-du-club/fetepet1416.webp",
       "w": 640,
       "h": 480,
       "alt": "Fête du club — photo d'archive du club",
@@ -174,7 +174,7 @@
       "dateSource": "exif"
     },
     {
-      "src": "/images/galerie/fete-du-club/fetepet1417.jpg",
+      "src": "/images/galerie/fete-du-club/fetepet1417.webp",
       "w": 640,
       "h": 480,
       "alt": "Fête du club — photo d'archive du club",
@@ -182,7 +182,7 @@
       "dateSource": "exif"
     },
     {
-      "src": "/images/galerie/fete-du-club/fetepet1418.jpg",
+      "src": "/images/galerie/fete-du-club/fetepet1418.webp",
       "w": 640,
       "h": 480,
       "alt": "Fête du club — photo d'archive du club",
@@ -190,7 +190,7 @@
       "dateSource": "exif"
     },
     {
-      "src": "/images/galerie/fete-du-club/fetepet1419-1.jpg",
+      "src": "/images/galerie/fete-du-club/fetepet1419-1.webp",
       "w": 640,
       "h": 480,
       "alt": "Fête du club — photo d'archive du club",
@@ -198,7 +198,7 @@
       "dateSource": "exif"
     },
     {
-      "src": "/images/galerie/fete-du-club/fetepet1419.jpg",
+      "src": "/images/galerie/fete-du-club/fetepet1419.webp",
       "w": 640,
       "h": 480,
       "alt": "Fête du club — photo d'archive du club",
@@ -206,7 +206,7 @@
       "dateSource": "exif"
     },
     {
-      "src": "/images/galerie/fete-du-club/fetepet142-1.jpg",
+      "src": "/images/galerie/fete-du-club/fetepet142-1.webp",
       "w": 640,
       "h": 480,
       "alt": "Fête du club — photo d'archive du club",
@@ -214,7 +214,7 @@
       "dateSource": "exif"
     },
     {
-      "src": "/images/galerie/fete-du-club/fetepet142.jpg",
+      "src": "/images/galerie/fete-du-club/fetepet142.webp",
       "w": 640,
       "h": 480,
       "alt": "Fête du club — photo d'archive du club",
@@ -222,7 +222,7 @@
       "dateSource": "exif"
     },
     {
-      "src": "/images/galerie/fete-du-club/fetepet1420.jpg",
+      "src": "/images/galerie/fete-du-club/fetepet1420.webp",
       "w": 640,
       "h": 480,
       "alt": "Fête du club — photo d'archive du club",
@@ -230,7 +230,7 @@
       "dateSource": "exif"
     },
     {
-      "src": "/images/galerie/fete-du-club/fetepet1421.jpg",
+      "src": "/images/galerie/fete-du-club/fetepet1421.webp",
       "w": 640,
       "h": 480,
       "alt": "Fête du club — photo d'archive du club",
@@ -238,7 +238,7 @@
       "dateSource": "exif"
     },
     {
-      "src": "/images/galerie/fete-du-club/fetepet1422.jpg",
+      "src": "/images/galerie/fete-du-club/fetepet1422.webp",
       "w": 640,
       "h": 480,
       "alt": "Fête du club — photo d'archive du club",
@@ -246,7 +246,7 @@
       "dateSource": "exif"
     },
     {
-      "src": "/images/galerie/fete-du-club/fetepet1423.jpg",
+      "src": "/images/galerie/fete-du-club/fetepet1423.webp",
       "w": 640,
       "h": 480,
       "alt": "Fête du club — photo d'archive du club",
@@ -254,7 +254,7 @@
       "dateSource": "exif"
     },
     {
-      "src": "/images/galerie/fete-du-club/fetepet1424.jpg",
+      "src": "/images/galerie/fete-du-club/fetepet1424.webp",
       "w": 640,
       "h": 480,
       "alt": "Fête du club — photo d'archive du club",
@@ -262,7 +262,7 @@
       "dateSource": "exif"
     },
     {
-      "src": "/images/galerie/fete-du-club/fetepet1425.jpg",
+      "src": "/images/galerie/fete-du-club/fetepet1425.webp",
       "w": 640,
       "h": 480,
       "alt": "Fête du club — photo d'archive du club",
@@ -270,7 +270,7 @@
       "dateSource": "exif"
     },
     {
-      "src": "/images/galerie/fete-du-club/fetepet143.jpg",
+      "src": "/images/galerie/fete-du-club/fetepet143.webp",
       "w": 640,
       "h": 480,
       "alt": "Fête du club — photo d'archive du club",
@@ -278,7 +278,7 @@
       "dateSource": "exif"
     },
     {
-      "src": "/images/galerie/fete-du-club/fetepet144.jpg",
+      "src": "/images/galerie/fete-du-club/fetepet144.webp",
       "w": 640,
       "h": 480,
       "alt": "Fête du club — photo d'archive du club",
@@ -286,7 +286,7 @@
       "dateSource": "exif"
     },
     {
-      "src": "/images/galerie/fete-du-club/fetepet145.jpg",
+      "src": "/images/galerie/fete-du-club/fetepet145.webp",
       "w": 640,
       "h": 480,
       "alt": "Fête du club — photo d'archive du club",
@@ -294,7 +294,7 @@
       "dateSource": "exif"
     },
     {
-      "src": "/images/galerie/fete-du-club/fetepet146.jpg",
+      "src": "/images/galerie/fete-du-club/fetepet146.webp",
       "w": 640,
       "h": 480,
       "alt": "Fête du club — photo d'archive du club",
@@ -302,7 +302,7 @@
       "dateSource": "exif"
     },
     {
-      "src": "/images/galerie/fete-du-club/fetepet148.jpg",
+      "src": "/images/galerie/fete-du-club/fetepet148.webp",
       "w": 640,
       "h": 480,
       "alt": "Fête du club — photo d'archive du club",
@@ -310,7 +310,7 @@
       "dateSource": "exif"
     },
     {
-      "src": "/images/galerie/fete-du-club/fetepet149.jpg",
+      "src": "/images/galerie/fete-du-club/fetepet149.webp",
       "w": 640,
       "h": 480,
       "alt": "Fête du club — photo d'archive du club",
@@ -318,7 +318,7 @@
       "dateSource": "exif"
     },
     {
-      "src": "/images/galerie/fete-du-club/fetclub171a.jpg",
+      "src": "/images/galerie/fete-du-club/fetclub171a.webp",
       "w": 650,
       "h": 366,
       "alt": "Fête du club — photo d'archive du club",
@@ -334,7 +334,7 @@
       ]
     },
     {
-      "src": "/images/galerie/fete-du-club/fetclub1724a.jpg",
+      "src": "/images/galerie/fete-du-club/fetclub1724a.webp",
       "w": 650,
       "h": 366,
       "alt": "Fête du club — photo d'archive du club",
@@ -350,7 +350,7 @@
       ]
     },
     {
-      "src": "/images/galerie/fete-du-club/fetclub1728a.jpg",
+      "src": "/images/galerie/fete-du-club/fetclub1728a.webp",
       "w": 650,
       "h": 366,
       "alt": "Fête du club — photo d'archive du club",
@@ -366,7 +366,7 @@
       ]
     },
     {
-      "src": "/images/galerie/fete-du-club/fetclub1735a.jpg",
+      "src": "/images/galerie/fete-du-club/fetclub1735a.webp",
       "w": 650,
       "h": 366,
       "alt": "Fête du club — photo d'archive du club",
@@ -382,7 +382,7 @@
       ]
     },
     {
-      "src": "/images/galerie/fete-du-club/fetclub1757a.jpg",
+      "src": "/images/galerie/fete-du-club/fetclub1757a.webp",
       "w": 650,
       "h": 366,
       "alt": "Fête du club — photo d'archive du club",
@@ -398,7 +398,7 @@
       ]
     },
     {
-      "src": "/images/galerie/fete-du-club/fetclub177a.jpg",
+      "src": "/images/galerie/fete-du-club/fetclub177a.webp",
       "w": 640,
       "h": 361,
       "alt": "Fête du club — photo d'archive du club",
@@ -406,7 +406,7 @@
       "dateSource": "exif"
     },
     {
-      "src": "/images/galerie/fete-du-club/pot22_2.jpg",
+      "src": "/images/galerie/fete-du-club/pot22_2.webp",
       "w": 800,
       "h": 450,
       "alt": "Fête du club — photo d'archive du club",
@@ -422,7 +422,7 @@
       ]
     },
     {
-      "src": "/images/galerie/fete-du-club/repas_club_24.png",
+      "src": "/images/galerie/fete-du-club/repas_club_24.webp",
       "w": 796,
       "h": 162,
       "alt": "Fête du club — photo d'archive du club",
@@ -438,7 +438,7 @@
       ]
     },
     {
-      "src": "/images/galerie/fete-du-club/repas_club_24_1.png",
+      "src": "/images/galerie/fete-du-club/repas_club_24_1.webp",
       "w": 800,
       "h": 51,
       "alt": "Fête du club — photo d'archive du club",

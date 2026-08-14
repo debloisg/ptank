@@ -5,16 +5,16 @@ date: 2024-07-05
 year: 2024
 category: "Journaux du club"
 journal: "2024-07"
-image: "/images/archives/2024/journal-2024-07/affiche_cc_ete2.png"
+image: "/images/archives/2024/journal-2024-07/affiche_cc_ete2.webp"
 joomlaId: 457
 hits: 4768
 ---
 
-![Journal Juillet 24](/images/archives/2024/journal-2024-07/affiche_cc_ete2.png){width="400" height="566"} ![Journal Juillet 24](/images/archives/2024/journal-2024-07/fete_pom24.png){width="404" height="572"}
+![Journal Juillet 24](/images/archives/2024/journal-2024-07/affiche_cc_ete2.webp){width="400" height="566"} ![Journal Juillet 24](/images/archives/2024/journal-2024-07/fete_pom24.webp){width="404" height="572"}
 
 ---
 
-![Journal Juillet 24](/images/archives/2024/journal-2024-07/gif7.jpg){width="80" height="82"}
+![Journal Juillet 24](/images/archives/2024/journal-2024-07/gif7.webp){width="80" height="82"}
 
 ### CHAMPIONNATS DE CLUBS SENIORS 2024
 
@@ -22,7 +22,7 @@ Les tableaux des compétitions sont affichés dans la rubrique "**COMPETITIONS**
 
 ---
 
-![Journal Juillet 24](/images/archives/2024/journal-2024-07/anatole1.png){width="80" height="82"}
+![Journal Juillet 24](/images/archives/2024/journal-2024-07/anatole1.webp){width="80" height="82"}
 
 ## RESULTAT CONCOURS D'ETE 5ème JOURNEE 31/07 (60 Doublettes)
 
@@ -101,21 +101,21 @@ Les tableaux des compétitions sont affichés dans la rubrique "**COMPETITIONS**
 
 **Dimanche 21, André Guérin, Jessy et Stéphane Pasco terminent en 1/2 finale du concours A**
 
-![Journal Juillet 24](/images/archives/2024/journal-2024-07/nation_plom_ete24_5.jpg){width="800" height="600"}
+![Journal Juillet 24](/images/archives/2024/journal-2024-07/nation_plom_ete24_5.webp){width="800" height="600"}
 
 **Gérard Machard, , Denis Bon,** **Yves Cottarel** **vainqueurs du concours A . Bravo pour la performance !**
 
-![Journal Juillet 24](/images/archives/2024/journal-2024-07/nation_plom_ete24_1.png){width="800" height="514"}
+![Journal Juillet 24](/images/archives/2024/journal-2024-07/nation_plom_ete24_1.webp){width="800" height="514"}
 
 **Gérard Machard, Denis Bon,** **Yves Cottarel** **vainqueurs du concours A avec les 1/2 finalistes:** **André Guérin, Gessy Bollini et Stéphane Pasco**
 
-![Journal Juillet 24](/images/archives/2024/journal-2024-07/natio_plom_ete24_1.png){width="800" height="606"}
+![Journal Juillet 24](/images/archives/2024/journal-2024-07/natio_plom_ete24_1.webp){width="800" height="606"}
 
 **Belle photo souvenir avec notre multiple champion du monde Philippe Quintais**
 
 ---
 
-![Journal Juillet 24](/images/archives/2024/journal-2024-07/fetpomm.jpg){width="100" height="100"}
+![Journal Juillet 24](/images/archives/2024/journal-2024-07/fetpomm.webp){width="100" height="100"}
 
 ### FETE DES POMMIERS DU 20 JUILLET
 
@@ -136,9 +136,9 @@ Les tableaux des compétitions sont affichés dans la rubrique "**COMPETITIONS**
 
 ### ACCUEIL MULTIGENERATIONNEL AU BOULODROME
 
-![Journal Juillet 24](/images/archives/2024/journal-2024-07/epadh1.png){width="800" height="428"}
+![Journal Juillet 24](/images/archives/2024/journal-2024-07/epadh1.webp){width="800" height="428"}
 
-![Journal Juillet 24](/images/archives/2024/journal-2024-07/epadh2.png){width="800" height="733"}
+![Journal Juillet 24](/images/archives/2024/journal-2024-07/epadh2.webp){width="800" height="733"}
 
 -   Les Coprésidents de la Petanque Fouesnantaise ont accueilli les residents des EHPAD de Pleuven et Fouesnant, avec leurs accompagnateurs, dans le boulodrome, le mardi 16 Juillet 2024
 
@@ -160,7 +160,7 @@ _Désiré Floch et Gilbert Caroff_
 
 ### REFECTION DES TERRAINS DANS LE BOULODROME
 
-![Journal Juillet 24](/images/archives/2024/journal-2024-07/bene_terrains.jpg){width="800" height="381"}
+![Journal Juillet 24](/images/archives/2024/journal-2024-07/bene_terrains.webp){width="800" height="381"}
 
 Merci aux bénévoles du jour pour la mise en place des graviers. Il en manque un peu. La fin dans quelques jours.
 Le système d'arrosage est également en place.
@@ -169,11 +169,11 @@ Le système d'arrosage est également en place.
 
 ---
 
-![Journal Juillet 24](/images/archives/2024/journal-2024-07/anatole1-2.png){width="80" height="82"}
+![Journal Juillet 24](/images/archives/2024/journal-2024-07/anatole1-2.webp){width="80" height="82"}
 
 ## RESULTAT CONCOURS D'ETE 3ème JOURNEE 17/07 (68 Doublettes)
 
-![Journal Juillet 24](/images/archives/2024/journal-2024-07/cc-ete-j3.jpg){width="800" height="600"}
+![Journal Juillet 24](/images/archives/2024/journal-2024-07/cc-ete-j3.webp){width="800" height="600"}
 
 | Joueur1 | Joueur 2 | Pts | +/- |  |
 | --- | --- | --- | --- | --- |
@@ -204,11 +204,11 @@ Le système d'arrosage est également en place.
 
 ---
 
-![Journal Juillet 24](/images/archives/2024/journal-2024-07/anatole1-3.png){width="80" height="82"}
+![Journal Juillet 24](/images/archives/2024/journal-2024-07/anatole1-3.webp){width="80" height="82"}
 
 ## RESULTAT CONCOURS D'ETE 2ème JOURNEE 10/07 (72 Doublettes)
 
-![Journal Juillet 24](/images/archives/2024/journal-2024-07/cc_ete_24_2eme1.jpg){width="780" height="585"}
+![Journal Juillet 24](/images/archives/2024/journal-2024-07/cc_ete_24_2eme1.webp){width="780" height="585"}
 
 | Clst | N° Equipe | Joueur1 | Joueur 2 | Pts | +/- |  |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -235,7 +235,7 @@ Le système d'arrosage est également en place.
 
 \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
-![Journal Juillet 24](/images/archives/2024/journal-2024-07/anatole1-4.png){width="80" height="82"}
+![Journal Juillet 24](/images/archives/2024/journal-2024-07/anatole1-4.webp){width="80" height="82"}
 
 ## RESULTAT CONCOURS D'ETE 1ère JOURNEE 03/07 (52 Doublettes)
 
@@ -272,7 +272,7 @@ Venez nombreux l'encourager le samedi 6 juillet.
 
 **Résultat:**
 
-![Journal Juillet 24](/images/archives/2024/journal-2024-07/chpt_fr_24_4.png){width="850" height="458"}
+![Journal Juillet 24](/images/archives/2024/journal-2024-07/chpt_fr_24_4.webp){width="850" height="458"}
 
 Fouesnant perd 23 a 9 devant Locmaria-plouzané.
 

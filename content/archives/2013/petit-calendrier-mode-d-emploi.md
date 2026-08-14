@@ -4,21 +4,21 @@ description: "Le petit calendrier est très pratique car il vous propose une lec
 date: 2013-12-26
 year: 2013
 category: "Calendriers"
-image: "/images/archives/2013/petit-calendrier-mode-d-emploi/blaspet60.png"
+image: "/images/archives/2013/petit-calendrier-mode-d-emploi/blaspet60.webp"
 joomlaId: 208
 hits: 6693
 ---
 
-![Petit calendrier mode d'emploi](/images/archives/2013/petit-calendrier-mode-d-emploi/blaspet60.png){width="46" height="43"}
+![Petit calendrier mode d'emploi](/images/archives/2013/petit-calendrier-mode-d-emploi/blaspet60.webp){height="43" width="46"}
 
-## ****PETIT CALENDRIER DES COMPETITIONS
+## \*\*\*\*PETIT CALENDRIER DES COMPETITIONS
 
 Le petit calendrier est très pratique car il vous propose une lecture rapide des évènements.
 
 **Il permet de consulter rapidement les compétitions:**
 
-1.  **Du jour en cliquant sur la journée choisie**
-2.  **Du mois en cliquant sur le mois choisi**
-3.  **De l'année en cliquant sur l'année en cours**
+1. **Du jour en cliquant sur la journée choisie**
+2. **Du mois en cliquant sur le mois choisi**
+3. **De l'année en cliquant sur l'année en cours**
 
-![Petit calendrier mode d'emploi](/images/archives/2013/petit-calendrier-mode-d-emploi/jevent_m_d_e.gif){width="647" height="509"}
+![Petit calendrier mode d'emploi](/images/archives/2013/petit-calendrier-mode-d-emploi/jevent_m_d_e.gif){height="509" width="647"}

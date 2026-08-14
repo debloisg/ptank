@@ -20,7 +20,7 @@ const upcoming = computed(() =>
 const latestNews = computed(() => (news.value ?? []).slice(0, 3))
 
 const heroStyle = computed(() => home.value?.heroStyle ?? 'photo')
-const heroImage = computed(() => home.value?.image ?? '/images/hero-terrain.jpg')
+const heroImage = computed(() => home.value?.image ?? '/images/hero-terrain.webp')
 
 // Hero buttons: editable in Studio; fall back to the two default CTAs.
 const heroLinks = computed(() =>
@@ -87,8 +87,6 @@ useSeoMeta({
         <NuxtImg
           :src="heroImage"
           alt="Terrain de pétanque à Fouesnant"
-          format="auto"
-          sizes="sm:100vw md:100vw lg:600px"
           loading="eager"
           fetchpriority="high"
           :preload="{ fetchPriority: 'high' }"
@@ -101,8 +99,6 @@ useSeoMeta({
         <NuxtImg
           :src="heroImage"
           alt="Mouette avec un bandana du club sur un terrain de pétanque à Fouesnant"
-          format="auto"
-          sizes="sm:100vw md:100vw lg:100vw xl:100vw 2xl:100vw"
           loading="eager"
           fetchpriority="high"
           :preload="{ fetchPriority: 'high' }"

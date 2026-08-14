@@ -5,12 +5,12 @@ date: 2017-10-05
 year: 2017
 category: "Journaux du club"
 journal: "2017-10"
-image: "/images/archives/2017/journal-2017-10/imagpet7.png"
+image: "/images/archives/2017/journal-2017-10/imagpet7.webp"
 joomlaId: 309
 hits: 5696
 ---
 
-![Journal Octobre 2017](/images/archives/2017/journal-2017-10/imagpet7.png){width="85" height="70"}
+![Journal Octobre 2017](/images/archives/2017/journal-2017-10/imagpet7.webp){width="85" height="70"}
 
 ******CONCOURS +55ans DOUBLETTES Le 12 octobre à FOUESNANT******
 
@@ -37,7 +37,7 @@ hits: 5696
 | 15 | 35 | 02909664 DETOC MICHEL (PETANQUE FOUESNANTAISE) | 02911038 SALIOU JACQUES (PETANQUE FOUESNANTAISE) | 3 | 6 | GGPG |
 | 16 | 2 | 02902653 CHIBANI ALAIN (P C DE L'ODET BENODET) | 02911138 CARIOU GEORGES (PET DES VIRE COURT PLOMELIN) | 3 | \-1 | PGGG |
 
-**![Journal Octobre 2017](/images/archives/2017/journal-2017-10/blaspet70.png){width="70" height="66"}Conseil Administration:**
+**![Journal Octobre 2017](/images/archives/2017/journal-2017-10/blaspet70.webp){width="70" height="66"}Conseil Administration:**
 
 **Compte rendu partiel de la réunion du 4 Octobre 2017**
 
@@ -135,9 +135,9 @@ FOUESNANT 2 / BENODET
 
 \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
-![Journal Octobre 2017](/images/archives/2017/journal-2017-10/coupe.png){width="65" height="75"}   RASSEMBLEMENT DES + 55 ANS COMBRIT LE 6 OCTOBRE
+![Journal Octobre 2017](/images/archives/2017/journal-2017-10/coupe.webp){width="65" height="75"}   RASSEMBLEMENT DES + 55 ANS COMBRIT LE 6 OCTOBRE
 
-![Journal Octobre 2017](/images/archives/2017/journal-2017-10/rasscomb17.png){width="650" height="389"}
+![Journal Octobre 2017](/images/archives/2017/journal-2017-10/rasscomb17.webp){width="650" height="389"}
 
 Très belle victoire de nos représentants de La Pétanque Fouesnantaise ce vendredi à Combrit. Ils terminent premiers au classement de cette compétition qui avait rassemblé 122 équipes.
 

@@ -14,7 +14,7 @@ hits: 4773
 
 ---
 
-![Journal Décembre 24](/images/archives/2024/journal-2024-12/blasoncd29.jpg){width="64" height="70"}
+![Journal Décembre 24](/images/archives/2024/journal-2024-12/blasoncd29.webp){width="64" height="70"}
 
 ## LICENCES 2025
 
@@ -34,7 +34,7 @@ Modalités d'inscription, cliquez ICI
 
 ---
 
-![Journal Décembre 24](/images/archives/2024/journal-2024-12/blaspet80.png){width="53" height="50"}
+![Journal Décembre 24](/images/archives/2024/journal-2024-12/blaspet80.webp){width="53" height="50"}
 
 ## INFORMATION CLUB
 
@@ -45,7 +45,7 @@ D'ici là portez vous bien et passez de belles fêtes de Noël et de fin d'anné
 
 ## CHIBOUDIG
 
-![Journal Décembre 24](/images/archives/2024/journal-2024-12/chiboudig_noel24.png){width="700" height="370"}
+![Journal Décembre 24](/images/archives/2024/journal-2024-12/chiboudig_noel24.webp){width="700" height="370"}
 
 Beaucoup de licenciés du club étaient encore présents pour la dernière journée d'entrainement de pétanque de l'année. Toujours prêts à donner un petit peu de leurs temps pour accompagner les personnes en situation de handicap, venant de l'association Chiboudig de Concarneau.
 
@@ -55,7 +55,7 @@ Cette occasion nous permet de remercier encore une fois tous les bénévoles pr�
 
 ---
 
-![Journal Décembre 24](/images/archives/2024/journal-2024-12/blaspet80-2.png){width="53" height="50"}
+![Journal Décembre 24](/images/archives/2024/journal-2024-12/blaspet80-2.webp){width="53" height="50"}
 
 ## COMMUNIQUE DE PRESSE
 
@@ -83,13 +83,13 @@ Nous remercions notre Maire Roger Le Goff et les services techniques qui nous on
 
 ## TIR DE PRECISION
 
-Vous trouverez ci-joint l'organisation du tir de précision et surtout le tableau des joueurs avec les horaires de chacun. Merci de bien respecter ces horaires de passage pour une meilleure fluidité. Par ailleurs nous vous rappelons que la pétanque fouesnantaise sera présente au marché de Noël de 14h00 à 21h30 le mercredi 18 décembre. Pour que le bar ambulant roule au mieux, nous recherchons des bénévoles. Il n'est pas nécessaire d'avoir son permis de conduire ! Ce jour-là, le concours du mercredi se fera en 2 parties et la buvette du boulodrome sera fermée. A bientôt. Le conseil d'administration **RESULTATS** ![Journal Décembre 24](/images/archives/2024/journal-2024-12/tir_25.jpg){width="800" height="566"}    Félicitations aux joueurs et joueuses sélectionnés et bonne chance pour la suite de ces tirs de précision à Ergué Gabéric et Plougastel.  Ambiance studieuse autour de la table de marque où il fallait être précis également pour noter les résultats dans les cases. Il faut remercier tous les bénévoles qui ont participé à ces deux journées de sélections.     ![Journal Décembre 24](/images/archives/2024/journal-2024-12/tdp_25_masc.jpg){width="700" height="525"}
+Vous trouverez ci-joint l'organisation du tir de précision et surtout le tableau des joueurs avec les horaires de chacun. Merci de bien respecter ces horaires de passage pour une meilleure fluidité. Par ailleurs nous vous rappelons que la pétanque fouesnantaise sera présente au marché de Noël de 14h00 à 21h30 le mercredi 18 décembre. Pour que le bar ambulant roule au mieux, nous recherchons des bénévoles. Il n'est pas nécessaire d'avoir son permis de conduire ! Ce jour-là, le concours du mercredi se fera en 2 parties et la buvette du boulodrome sera fermée. A bientôt. Le conseil d'administration **RESULTATS** ![Journal Décembre 24](/images/archives/2024/journal-2024-12/tir_25.webp){width="800" height="566"}    Félicitations aux joueurs et joueuses sélectionnés et bonne chance pour la suite de ces tirs de précision à Ergué Gabéric et Plougastel.  Ambiance studieuse autour de la table de marque où il fallait être précis également pour noter les résultats dans les cases. Il faut remercier tous les bénévoles qui ont participé à ces deux journées de sélections.     ![Journal Décembre 24](/images/archives/2024/journal-2024-12/tdp_25_masc.webp){width="700" height="525"}
 
 **3ème Marc NICOLAS, 2ème Gildas RAZIL, 1er Jordan GUITON, 4ème Yves COTTAREL**
 
 Marc laisse sa place à Yves
 
-![Journal Décembre 24](/images/archives/2024/journal-2024-12/tdp25_fem.png){width="700" height="693"}
+![Journal Décembre 24](/images/archives/2024/journal-2024-12/tdp25_fem.webp){width="700" height="693"}
 
 **Qualifiées 1ère Christelle GIRARD et 2ème Marie Hélène PRIMOT**, 3ème Martine DUMONT
 
@@ -208,17 +208,17 @@ Durant ces 2 jours de qualifications, il sera interdit de s’entrainer dans le 
 
 ---
 
-![Journal Décembre 24](/images/archives/2024/journal-2024-12/pere_noel.png){width="90" height="76"}
+![Journal Décembre 24](/images/archives/2024/journal-2024-12/pere_noel.webp){width="90" height="76"}
 
 ## **PERE NOEL EST PASSE A LA PETANQUE FOUESNANTAISE**
 
-![Journal Décembre 24](/images/archives/2024/journal-2024-12/perenoel24.jpg){width="800" height="449"}
+![Journal Décembre 24](/images/archives/2024/journal-2024-12/perenoel24.webp){width="800" height="449"}
 
 Le père Noël est passé le jour de la St Nicolas à La pétanque Fouesnantaise. Il n'a pas oublié les enfants des pétanqueurs. Remerciements aux commerçants qui se sont associés à cette opération.
 
 ---
 
-![Journal Décembre 24](/images/archives/2024/journal-2024-12/logopet1.png){width="183" height="44"} **PROGRAMME DE FIN D'ANNEE**
+![Journal Décembre 24](/images/archives/2024/journal-2024-12/logopet1.webp){width="183" height="44"} **PROGRAMME DE FIN D'ANNEE**
 
 -   **Le mercredi 4 décembre : tournoi du Père Noël, tirage par les lutins du Père Noël**
 
@@ -364,7 +364,7 @@ Le père Noël est passé le jour de la St Nicolas à La pétanque Fouesnantaise
 
 ---
 
-![Journal Décembre 24](/images/archives/2024/journal-2024-12/blasoncd29-2.jpg){width="64" height="70"}
+![Journal Décembre 24](/images/archives/2024/journal-2024-12/blasoncd29-2.webp){width="64" height="70"}
 
 ## INSCRIPTIONS POUR LE CHAMPIONNAT PAR EQUIPES VETERANS SECTEUR 4 2025
 

@@ -7,7 +7,9 @@ import { formatAlbumSpan } from '~/utils/gallery'
 // records, and this page needs only the cover of each album. Selecting the whole
 // document would ship every photo of every album to the browser to render 34 cards.
 const { data: albums } = await useAsyncData('galerie-albums', () =>
-  queryCollection('galerie').select('key', 'title', 'kind', 'count', 'cover', 'years', 'dateRange').all(),
+  queryCollection('galerie')
+    .select('key', 'title', 'kind', 'count', 'cover', 'years', 'dateRange')
+    .all(),
 )
 
 // Photographs of people and events first; scans, posters and club emblems after.
@@ -60,14 +62,18 @@ useSeoMeta({
           :to="`/archives/galerie/${album.key}`"
           class="group relative overflow-hidden rounded-2xl border border-default bg-elevated shadow-sm transition-shadow duration-200 hover:shadow-md"
         >
+          <!-- ~400px grid slot: `sizes` maps to the pre-generated -800 rendition,
+               the blur placeholder to its -ph sibling. The skeleton pulses until
+               the (opaque, `relative`, later-in-DOM) image paints over it. -->
+          <USkeleton class="absolute inset-0" />
           <NuxtImg
             :src="album.cover"
             :alt="`Album ${album.title}`"
-            format="auto"
-            sizes="100vw sm:50vw lg:420px"
+            sizes="400px"
+            :placeholder="imagePlaceholder(album.cover)"
+            placeholder-class="blur-lg"
             loading="lazy"
-            placeholder
-            class="aspect-[4/3] w-full object-cover transition-transform duration-500 group-hover:scale-[1.04]"
+            class="relative aspect-[4/3] w-full bg-default object-cover transition-transform duration-500 group-hover:scale-[1.04]"
           />
           <div class="absolute inset-x-0 bottom-0 bg-gradient-to-t from-marine-950/85 via-marine-950/45 to-transparent p-4 pt-12">
             <p class="font-serif text-lg font-semibold text-white">{{ album.title }}</p>
@@ -99,10 +105,9 @@ useSeoMeta({
           <NuxtImg
             :src="album.cover"
             :alt="`Album ${album.title}`"
-            format="auto"
-            sizes="80px"
+            sizes="64px"
             loading="lazy"
-            class="size-14 shrink-0 rounded-lg border border-default object-cover"
+            class="size-14 shrink-0 rounded-lg border border-default bg-muted object-cover"
           />
           <span class="min-w-0">
             <span class="block truncate text-sm font-medium text-highlighted transition-colors group-hover:text-primary">

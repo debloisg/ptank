@@ -5,14 +5,14 @@ date: 2021-01-01
 year: 2021
 category: "Journaux du club"
 journal: "2021-05"
-image: "/images/archives/2021/journal-2021-05/muguet1.png"
+image: "/images/archives/2021/journal-2021-05/muguet1.webp"
 joomlaId: 392
 hits: 4482
 ---
 
-![Journal Mai 2021](/images/archives/2021/journal-2021-05/muguet1.png){width="340" height="148"}
+![Journal Mai 2021](/images/archives/2021/journal-2021-05/muguet1.webp){height="148" width="340"}
 
-![Journal Mai 2021](/images/archives/2021/journal-2021-05/vacasoleil.jpg){width="65" height="59"}
+![Journal Mai 2021](/images/archives/2021/journal-2021-05/vacasoleil.webp){height="59" width="65"}
 
 ## **REPRISE DES COMPETITIONS CALENDRIER 2021**
 
@@ -20,13 +20,13 @@ hits: 4482
 
 **Le petit calendrier est en ligne :** cliquez sur le mois choisi pour consulter tous les évènements du mois.
 
-![Journal Mai 2021](/images/archives/2021/journal-2021-05/icon-48-alert.png){width="48" height="48"}
+![Journal Mai 2021](/images/archives/2021/journal-2021-05/icon-48-alert.webp){height="48" width="48"}
 
-**** **Suite au COVID 19, le calendrier peut être être modifié, ceci en fonction des directives gouvernementales et fédérales.**
+\*\*\*\* **Suite au COVID 19, le calendrier peut être être modifié, ceci en fonction des directives gouvernementales et fédérales.**
 
 \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
-![Journal Mai 2021](/images/archives/2021/journal-2021-05/bouleroule.gif){width="55" height="54"} **COUPE DE FRANCE 1er TOUR LE SAMEDI 29 MAI**
+![Journal Mai 2021](/images/archives/2021/journal-2021-05/bouleroule.gif){height="54" width="55"} **COUPE DE FRANCE 1er TOUR LE SAMEDI 29 MAI**
 
 Le premier tour de la coupe de France aura lieu le samedi 29 Mai . Notre club rencontrera l'équipe d'ERGUE GABERIC à ERGUE GABERIC.
 
@@ -38,9 +38,9 @@ Bonne chance à toute l'équipe.
 
 **Notre équipe s'impose face à Ergué Gabéric sur un score serré de 16/31 points .**
 
--   **4 Tête à Tête gagnés sur 6**
--   **1 doublettes gagnées sur 3**
--   **1 triplette gagnée sur 2**
+- **4 Tête à Tête gagnés sur 6**
+- **1 doublettes gagnées sur 3**
+- **1 triplette gagnée sur 2**
 
 **L'équipe était composée de:**
 
@@ -56,27 +56,27 @@ Bonne chance à toute l'équipe.
 
 \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
-![Journal Mai 2021](/images/archives/2021/journal-2021-05/gif6.jpg){width="48" height="70"}
+![Journal Mai 2021](/images/archives/2021/journal-2021-05/gif6.webp){height="70" width="48"}
 
 ## RESULTATS CHAMPIONNAT PAR EQUIPES DE CLUBS 2021
 
--   Vous pouvez consulter les tableaux des résultats officiels de votre groupe en allant dans la rubrique **"COMPETITIONS "** **" Chpt de clubs 2021".**
--   Ce tableau est en lien direct avec le CD29
+- Vous pouvez consulter les tableaux des résultats officiels de votre groupe en allant dans la rubrique **"COMPETITIONS "** **" Chpt de clubs 2021".**
+- Ce tableau est en lien direct avec le CD29
 
 \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
 **CHAMPIONNAT DES CLUBS VETERANS 2ème JOURNEE LE MARDI 1er Juin.**
 
-| #### Championnat des Clubs vétérans 2ème journée |  |  |  |  |  |
-| --- | --- | --- | --- | --- | --- |
-|  | ##### Lieu de rencontres | ##### Equipe 1 | ##### Score 1 | ##### Score 2 | ##### Equipe 2 |
-| ##### DIVISION 1 Groupe B | _Douarnenez1_ | FOUESNANT 1 |  |  | DOUARNENEZ 1 |
-| ##### DIVISION 2 Groupe C | _Douarnenez_ | FOUESNANT 2 |  |  | DOUARNENEZ 3 |
-| ##### DIVISION 2 Groupe C | _Fouesnant_ | FOUESNANT 3 |  |  | PONT L'ABBE 1 |
-| ##### DIVISION 3 Groupe G | _Fouesnant_ | FOUESNANT 4 |  |  | LOCTUDY 1 |
-| ##### DIVISION 3 Groupe G | _Loctudy_ | FOUESNANT 5 |  |  | LOCTUDY 3 |
-| ##### DIVISION 3 Groupe H | _Fouesnant_ | FOUESNANT 6 |  |  | BENODET 1 |
-| ##### DIVISION 3 Groupe H | _Bénodet_ | FOUESNANT 7 |  |  | BENODET 2 |
+| #### Championnat des Clubs vétérans 2ème journée |                          |                |               |               |                |
+| ------------------------------------------------ | ------------------------ | -------------- | ------------- | ------------- | -------------- |
+|                                                  | ##### Lieu de rencontres | ##### Equipe 1 | ##### Score 1 | ##### Score 2 | ##### Equipe 2 |
+| ##### DIVISION 1 Groupe B                        | *Douarnenez1*            | FOUESNANT 1    |               |               | DOUARNENEZ 1   |
+| ##### DIVISION 2 Groupe C                        | *Douarnenez*             | FOUESNANT 2    |               |               | DOUARNENEZ 3   |
+| ##### DIVISION 2 Groupe C                        | *Fouesnant*              | FOUESNANT 3    |               |               | PONT L'ABBE 1  |
+| ##### DIVISION 3 Groupe G                        | *Fouesnant*              | FOUESNANT 4    |               |               | LOCTUDY 1      |
+| ##### DIVISION 3 Groupe G                        | *Loctudy*                | FOUESNANT 5    |               |               | LOCTUDY 3      |
+| ##### DIVISION 3 Groupe H                        | *Fouesnant*              | FOUESNANT 6    |               |               | BENODET 1      |
+| ##### DIVISION 3 Groupe H                        | *Bénodet*                | FOUESNANT 7    |               |               | BENODET 2      |
 
 **\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_**
 
@@ -94,20 +94,20 @@ Début des parties à 14 heures . Il est recommandé d'arriver 30 minutes avant 
 
 Rappel: Attention ! les tenues doivent être harmonisée avec un haut et bas identique pour chaque l'équipe ( voir rubrique "**COMPETITIONS**" " **uniformisation des tenues** "). Sinon risque d'interdiction de jouer.
 
-![Journal Mai 2021](/images/archives/2021/journal-2021-05/icon-48-alert-2.png){width="48" height="48"} **Compétition autorisée si et seulement si on suit le PROTOCOLE SANITAIRE DE REPRISE F.F.P.J ( à voir ci-dessous )**
+![Journal Mai 2021](/images/archives/2021/journal-2021-05/icon-48-alert-2.webp){height="48" width="48"} **Compétition autorisée si et seulement si on suit le PROTOCOLE SANITAIRE DE REPRISE F.F.P.J ( à voir ci-dessous )**
 
-**![Journal Mai 2021](/images/archives/2021/journal-2021-05/chpt_vet_j1-2.jpg){width="800" height="600"}**
+**![Journal Mai 2021](/images/archives/2021/journal-2021-05/chpt_vet_j1-2.webp){height="600" width="800"}**
 
-![Journal Mai 2021](/images/archives/2021/journal-2021-05/chpt_club_j1_fou.jpg){width="800" height="600"}
+![Journal Mai 2021](/images/archives/2021/journal-2021-05/chpt_club_j1_fou.webp){height="600" width="800"}
 
 Championnat des Clubs vétérans 1ère journée
 
-|  | ##### Lieu de rencontres | ##### Equipe 1 | ##### Score 1 | ##### Score 2 | ##### Equipe 2 |
-| --- | --- | --- | --- | --- | --- |
-| ##### DIVISION 1 Groupe B | _Fouesnant_ | FOUESNANT 1 | 16 | **20** | **COMBRIT 1** |
-| ##### DIVISION 2 Groupe C | _Fouesnant_ | **FOUESNANT 2** | **32** | 4 | FOUESNANT 3 |
-| ##### DIVISION 3 Groupe G | _Fouesnant_ | **FOUESNANT 4** | **26** | 10 | FOUESNANT 5 |
-| ##### DIVISION 3 Groupe H | _Fouesnant_ | **FOUESNANT 6** | **26** | 10 | FOUESNANT 7 |
+|                           | ##### Lieu de rencontres | ##### Equipe 1  | ##### Score 1 | ##### Score 2 | ##### Equipe 2 |
+| ------------------------- | ------------------------ | --------------- | ------------- | ------------- | -------------- |
+| ##### DIVISION 1 Groupe B | *Fouesnant*              | FOUESNANT 1     | 16            | **20**        | **COMBRIT 1**  |
+| ##### DIVISION 2 Groupe C | *Fouesnant*              | **FOUESNANT 2** | **32**        | 4             | FOUESNANT 3    |
+| ##### DIVISION 3 Groupe G | *Fouesnant*              | **FOUESNANT 4** | **26**        | 10            | FOUESNANT 5    |
+| ##### DIVISION 3 Groupe H | *Fouesnant*              | **FOUESNANT 6** | **26**        | 10            | FOUESNANT 7    |
 
 **\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_**
 
@@ -121,14 +121,14 @@ Championnat des Clubs vétérans 1ère journée
 
 Attention début de la compétition à 08h30. **(tenue sportive obligatoire avec pantalon de couleur identique ainsi que le haut identique avec logo du club obligatoire. )**
 
--   7h 30 accueil des participants (licence obligatoire)
--   8h 30 début du championnat par poules (11 points)
--   12h 30 arrêt des parties (pause déjeuner)
--   14h reprise du championnat.
+- 7h 30 accueil des participants (licence obligatoire)
+- 8h 30 début du championnat par poules (11 points)
+- 12h 30 arrêt des parties (pause déjeuner)
+- 14h reprise du championnat.
 
-![Journal Mai 2021](/images/archives/2021/journal-2021-05/icon-48-alert-3.png){width="48" height="48"}
+![Journal Mai 2021](/images/archives/2021/journal-2021-05/icon-48-alert-3.webp){height="48" width="48"}
 
-### ****Protocole sanitaire à respecter Restauration : possibilité de "pique-nique" Tables et chaise à disposition
+### \*\*\*\*Protocole sanitaire à respecter Restauration : possibilité de "pique-nique" Tables et chaise à disposition
 
 **\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_**
 
@@ -144,26 +144,26 @@ Attention début de la compétition à 08h30. **(tenue sportive obligatoire avec
 
 Attention début de la compétition à 08h30. **(tenue sportive obligatoire avec pantalon de couleur identique ainsi que le haut identique avec logo du club obligatoire. )**
 
--   7h 30 accueil des participants (licence obligatoire)
--   8h 30 début du championnat par poules (11 points)
--   12h 30 arrêt des parties (pause déjeuner)
--   14h reprise du championnat.
+- 7h 30 accueil des participants (licence obligatoire)
+- 8h 30 début du championnat par poules (11 points)
+- 12h 30 arrêt des parties (pause déjeuner)
+- 14h reprise du championnat.
 
 Protocole sanitaire à respecter Restauration : possibilité de "pique-nique" que vous apportez.Tables et chaise à disposition
 
 **\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_**
 
-![Journal Mai 2021](/images/archives/2021/journal-2021-05/calendrier_reprise_des_competitions_.gif){width="541" height="782"}
+![Journal Mai 2021](/images/archives/2021/journal-2021-05/calendrier_reprise_des_competitions_.gif){height="782" width="541"}
 
-![Journal Mai 2021](/images/archives/2021/journal-2021-05/protocole_sanitaire_2.png){width="539" height="583"}
+![Journal Mai 2021](/images/archives/2021/journal-2021-05/protocole_sanitaire_2.webp){height="583" width="539"}
 
 ## PROTOCOLE SANITAIRE DE REPRISE DES ACTIVITES SPORTIVES
 
--   [Protocole sanitaire de reprise des activités sportives](https://home.ffpjp.org/images/pdf/2021/ProtocoleSanitaireRepriseActivit%C3%A9sSportives.pdf)
+- [Protocole sanitaire de reprise des activités sportives](https://home.ffpjp.org/images/pdf/2021/ProtocoleSanitaireRepriseActivit%C3%A9sSportives.pdf)
 
 ## TABLEAU DES MESURES SANITAIRES
 
--   [Tableau des mesures sanitaires](https://home.ffpjp.org/images/pdf/2021/Tableau_mesures_sanitaires_Sport.pdf "TABLEAU")
+- [Tableau des mesures sanitaires](https://home.ffpjp.org/images/pdf/2021/Tableau_mesures_sanitaires_Sport.pdf "TABLEAU")
 
 \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 

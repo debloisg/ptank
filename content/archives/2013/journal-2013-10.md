@@ -12,7 +12,7 @@ hits: 5434
 
 ![Journal Octobre 2013](/images/archives/2013/journal-2013-10/sports-trophee-171.gif){width="142" height="139"}**UNE EQUIPE DE FOUESNANT CHAMPIONNE DU FINISTERE**
 
-![Journal Octobre 2013](/images/archives/2013/journal-2013-10/cdcd1fina-2013.png){width="400" height="300"}La phase finale du championnat des clubs vétérans s'est déroulée à MOELAN SUR MER le Vendredi 25/10/2013.
+![Journal Octobre 2013](/images/archives/2013/journal-2013-10/cdcd1fina-2013.webp){width="400" height="300"}La phase finale du championnat des clubs vétérans s'est déroulée à MOELAN SUR MER le Vendredi 25/10/2013.
 
 Très bonne réception et organisation par les Dirigeants locaux et leurs deux arbitres.
 

@@ -98,15 +98,14 @@ const neighbours = computed(() => {
   }
 })
 
-// Per-album social image, cropped to the OG canvas by Cloudflare Image
-// Transformations — same approach as pages/[...slug].vue. f=jpeg because social
-// scrapers don't negotiate AVIF/WebP.
-const siteConfig = useSiteConfig()
+// Per-album social image: the pre-generated cover file, served raw from R2.
+// Deliberately NOT a /cdn-cgi/image transform like the article pages: albums are
+// rarely shared, so burning a billed transformation per album isn't worth it.
+// Trade-off accepted: it's WebP (a few older scrapers prefer JPEG) and not
+// cropped to the 1200x630 OG canvas — scrapers crop to their own canvas anyway.
 const r2Base = useRuntimeConfig().public.imageR2Base
 const ogImage = computed(() =>
-  album.value?.cover
-    ? `${siteConfig.url}/cdn-cgi/image/w=1200,h=630,fit=cover,f=jpeg,q=80/${r2Base}${album.value.cover}`
-    : undefined,
+  album.value?.cover ? `${r2Base}${album.value.cover}` : undefined,
 )
 
 useSeoMeta({
@@ -147,9 +146,14 @@ useSeoMeta({
       </template>
     </UPageHeader>
 
-    <p class="mt-6 text-sm text-dimmed">
+    <!-- text-muted, not text-dimmed: dimmed is below AA contrast at this size. -->
+    <p class="mt-6 text-sm text-muted">
       Cliquez sur une image pour l'agrandir, puis naviguez avec les flèches.
     </p>
+
+    <!-- Bridges h1 -> the footer's h3 column headings for the heading-order
+         hierarchy (same pattern as the galerie index page). -->
+    <h2 class="sr-only">Photos de l'album</h2>
 
     <!-- Mosaic only: it preserves each photo's real aspect ratio while filling the
          width, which suits a photo album better than cropping everything square. -->

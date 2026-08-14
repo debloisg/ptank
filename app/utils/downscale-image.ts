@@ -10,21 +10,26 @@
 // Only loaded from the Studio upload path, as a separate chunk — see
 // app/plugins/studio-media-resize.client.ts.
 
-// Longest edge kept. 2200 still covers a full-bleed hero on a 2x display; every
-// smaller rendition is cut by Cloudflare Image Transformations at delivery.
-const MAX_EDGE = 2200
-const QUALITY = 0.82
+// Longest edge kept. This is a TRANSPORT cap, not the final output: what
+// visitors download is re-encoded server-side after the upload lands
+// (server/plugins/studio-media-variants.ts generates the <=1600 base, -800 and
+// -ph renditions via a one-time Cloudflare transform). So the only jobs left
+// here are keeping the base64 PUT body under Studio's 10 MB media limit and
+// handing the server transform a still-sharp source — hence a generous edge
+// and near-lossless quality.
+const MAX_EDGE = 2400
+const QUALITY = 0.9
 // Below this, re-encoding costs more bytes than it saves: running the curated
 // 2000px masters through canvas at q82 made them 4% BIGGER.
 const SKIP_BELOW_BYTES = 600 * 1024
 
 /**
  * Returns a downscaled JPEG data URL, or the input untouched when there is
- * nothing to gain. JPEG on purpose, not WebP: the stored file is the master,
- * and Cloudflare re-encodes it to AVIF/WebP per request anyway — storing lossy
- * WebP would make that a second lossy pass. Keeping the format also keeps the
- * file extension in the R2 key honest, since Studio derives it from the
- * original filename.
+ * nothing to gain. JPEG rather than WebP: Studio derives both the R2 key and
+ * the path it inserts into content from the ORIGINAL filename, so emitting
+ * WebP bytes would lie about the extension — and Safari cannot encode WebP
+ * from a canvas anyway. The server-side re-encode produces the WebP the
+ * visitors actually get.
  */
 export async function downscaleImage(dataUrl: string): Promise<string> {
   if (!dataUrl.startsWith('data:image/')) return dataUrl

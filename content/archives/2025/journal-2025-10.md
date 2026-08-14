@@ -1,64 +1,64 @@
 ---
-title: "Journal octobre 25"
-description: "Le bureau"
+title: Journal octobre 25
+category: Journaux du club
 date: 2025-09-28
-year: 2025
-category: "Journaux du club"
-journal: "2025-10"
-image: "/images/archives/2025/journal-2025-10/logoffpjppet.png"
-joomlaId: 486
+description: Le bureau
 hits: 4827
+image: /images/archives/2025/journal-2025-10/logoffpjppet.webp
+joomlaId: 486
+journal: 2025-10
+year: 2025
 ---
 
-![Journal octobre 25](/images/archives/2025/journal-2025-10/logoffpjppet.png){width="294" height="42"}
+![Journal octobre 25](/images/archives/2025/journal-2025-10/logoffpjppet.webp){height="42" width="294"}
 
 #### **ASSEMBLEE GENERALE**
 
-![Journal octobre 25](/images/archives/2025/journal-2025-10/ag25_1.jpg){width="800" height="533"}
+![Journal octobre 25](/images/archives/2025/journal-2025-10/ag25_1.webp){height="533" width="800"}
 
 **Le bureau**
 
-![Journal octobre 25](/images/archives/2025/journal-2025-10/ag25_licen3.jpg){width="800" height="533"}
+![Journal octobre 25](/images/archives/2025/journal-2025-10/ag25_licen3.webp){height="533" width="800"}
 
 **La coupe du Finistère du Trophée Vétérans 2025 remportée par notre club, avec une vue générale de l'assemblée**
 
-![Journal octobre 25](/images/archives/2025/journal-2025-10/ag25_pres_1.jpg){width="400" height="600"}
+![Journal octobre 25](/images/archives/2025/journal-2025-10/ag25_pres_1.webp){height="600" width="400"}
 
 **Le Président: Jean Michel PIGUEL LOZAC'H**
 
-![Journal octobre 25](/images/archives/2025/journal-2025-10/ag25_raz.jpg){width="450" height="675"}
+![Journal octobre 25](/images/archives/2025/journal-2025-10/ag25_raz.webp){height="675" width="450"}
 
 **Le Coprésident: Gildas RAZIL**
 
-![Journal octobre 25](/images/archives/2025/journal-2025-10/ag25_adj_asso.jpg){width="450" height="675"}
+![Journal octobre 25](/images/archives/2025/journal-2025-10/ag25_adj_asso.webp){height="675" width="450"}
 
 **Gildas CORNEC: Représentant de la mairie, adjoint Vie associative et matériels techniques**
 
-![Journal octobre 25](/images/archives/2025/journal-2025-10/ag25_desir2.jpg){width="450" height="675"}
+![Journal octobre 25](/images/archives/2025/journal-2025-10/ag25_desir2.webp){height="675" width="450"}
 
 **Désiré FLOCH: démissionnaire de son poste de Président adjoint.**
 
 **Désiré a été largement salué pour son investissement personnel et son engagement pour le club pendant plus d'une dizaine d'années, merci Désiré**
 
-![Journal octobre 25](/images/archives/2025/journal-2025-10/ag25_odil.jpg){width="800" height="533"}
+![Journal octobre 25](/images/archives/2025/journal-2025-10/ag25_odil.webp){height="533" width="800"}
 
 **Odile RANNOU: Secrétaire**
 
-![Journal octobre 25](/images/archives/2025/journal-2025-10/ag25_pierr.jpg){width="450" height="675"}
+![Journal octobre 25](/images/archives/2025/journal-2025-10/ag25_pierr.webp){height="675" width="450"}
 
 **Pierre DE BLOIS: Trésorier**
 
-![Journal octobre 25](/images/archives/2025/journal-2025-10/ag25_didier.jpg){width="450" height="675"}
+![Journal octobre 25](/images/archives/2025/journal-2025-10/ag25_didier.webp){height="675" width="450"}
 
 **Didier DULOIRD: démissionnaire du poste de Vice Président.**
 
 **Merci Didier pour ta présence et ton engagement total pour La Pétanque Fouesnantaise**
 
-![Journal octobre 25](/images/archives/2025/journal-2025-10/ag25_loic.jpg){width="450" height="675"}
+![Journal octobre 25](/images/archives/2025/journal-2025-10/ag25_loic.webp){height="675" width="450"}
 
 **Loïc CORIOU: Arbitre officiel**
 
-![Journal octobre 25](/images/archives/2025/journal-2025-10/ag25_bur4.jpg){width="800" height="533"}
+![Journal octobre 25](/images/archives/2025/journal-2025-10/ag25_bur4.webp){height="533" width="800"}
 
 Le nouveau bureau 2026 de gauche à droite
 
@@ -90,67 +90,67 @@ Jean-Michel Piguel-Lozac’h et Gildas Razil,
 
 **Article de presse Ouest France**
 
-![Journal octobre 25](/images/archives/2025/journal-2025-10/art_ouest_franceag26.jpg){width="657" height="986"}
+![Journal octobre 25](/images/archives/2025/journal-2025-10/art_ouest_franceag26.webp){height="986" width="657"}
 
 ---
 
-![Journal octobre 25](/images/archives/2025/journal-2025-10/logoffpjppet-2.png){width="294" height="42"}
+![Journal octobre 25](/images/archives/2025/journal-2025-10/logoffpjppet-2.webp){height="42" width="294"}
 
 #### **PROGRAMME DE FIN D'ANNEE**
 
-Le mercredi 5 Novembre, les concours internes vont commencer. Pour se faire une feuille d'organisation"buvette - table de marque" a été affichée au boulodrome: \- 1 personne est sollicitée pour la table de marque \- 2 personnes sont sollicitées pour la buvette (vin chaud,...) N'hésitez pas à vous proposer sachant que vous pouvez être accompagnés pour ces tâches par Joël et Odile. Les concours se dérouleront en doublette, ou triplette ou triplette mixte selon le nombre de participants. Cela sera vu sur place. Par ailleurs, le renouvellement de licence ou les demandes de mutation se feront à partir du 1er décembre. La prise de nouvelle licence est possible dès maintenant. 3 dates de festivités sont à retenir dès à présent: \- la rencontre des partenaires le jeudi 27 Novembre à partir de 18h00 \- le repas de Noël le 28 Novembre \- le téléthon le 6 Décembre. Pour ces 3 événements nous ne manquerons pas de vous donner les éléments d'organisation. _Odile Rannou : Secrétaire_
+Le mercredi 5 Novembre, les concours internes vont commencer. Pour se faire une feuille d'organisation"buvette - table de marque" a été affichée au boulodrome: - 1 personne est sollicitée pour la table de marque - 2 personnes sont sollicitées pour la buvette (vin chaud,...) N'hésitez pas à vous proposer sachant que vous pouvez être accompagnés pour ces tâches par Joël et Odile. Les concours se dérouleront en doublette, ou triplette ou triplette mixte selon le nombre de participants. Cela sera vu sur place. Par ailleurs, le renouvellement de licence ou les demandes de mutation se feront à partir du 1er décembre. La prise de nouvelle licence est possible dès maintenant. 3 dates de festivités sont à retenir dès à présent: - la rencontre des partenaires le jeudi 27 Novembre à partir de 18h00 - le repas de Noël le 28 Novembre - le téléthon le 6 Décembre. Pour ces 3 événements nous ne manquerons pas de vous donner les éléments d'organisation. *Odile Rannou : Secrétaire*
 
 ---
 
 #### **CHAMPIONNAT DES CLUBS SENIORS LE 19 OCTOBRE**
 
-![Journal octobre 25](/images/archives/2025/journal-2025-10/crdc_sen_26_1.jpg){width="800" height="593"}
+![Journal octobre 25](/images/archives/2025/journal-2025-10/crdc_sen_26_1.webp){height="593" width="800"}
 
 **Equipe Fouesnant 1 CRC D2 groupe B leader de son groupe**
 
-![Journal octobre 25](/images/archives/2025/journal-2025-10/cdc_sen_f2.jpg){width="800" height="600"}
+![Journal octobre 25](/images/archives/2025/journal-2025-10/cdc_sen_f2.webp){height="600" width="800"}
 
 **Equipe Fouesnant 1 Féminines D2 groupe C**
 
-![Journal octobre 25](/images/archives/2025/journal-2025-10/f2f_2.jpg){width="768" height="575"}
+![Journal octobre 25](/images/archives/2025/journal-2025-10/f2f_2.webp){height="575" width="768"}
 
 **Equipe Fouesnant 2 Féminines D2 groupe D leader de son groupe**
 
-![Journal octobre 25](/images/archives/2025/journal-2025-10/cdc_open_f3.jpg){width="800" height="510"}
+![Journal octobre 25](/images/archives/2025/journal-2025-10/cdc_open_f3.webp){height="510" width="800"}
 
 **Equipe Fouesnant 3 D2 groupe B leader de son groupe**
 
-| #### Championnat des Clubs Seniors (pour résultats complets, cliquez **ICI**) |  |  |  |  |  |  |
-| --- | --- | --- | --- | --- | --- | --- |
-|  | Classt | ##### Lieu de rencontres | ##### Equipe 1 | ##### Score 1 | ##### Score 2 | ##### Equipe 2 |
-| **Chpt Rég des Clubs**<br>**DIVISION 2 Grpe B** | **1er** | _Plounéour Ménez_ _(Matin)_ | **FOUESNANT 1** | **32** | 4 | LANESTER (56) |
-| **Chpt Rég des Clubs**<br>**DIVISION 2 Grpe B** |  | _Plounéour Ménez_ _(Après-midi))_ | **FOUESNANT 1** | **30** | 6 | SAINT JULIEN (22) |
-| ##### DIVISION 2 poule C Féminines | **3 ème** | _Fouesnant_ | **FOUESNANT 1F** | **30** | 6 | LESNEVEN 3 |
-| ##### DIVISION 2 poule D Féminines | **1 ère** | _Fouesnant_ | FOUESNANT 2F Exempt |  |  |  |
-| ##### DIVISION 3 poule F | **3 ème** | _Pont Aven_ | **FOUESNANT 2** | **26** | 10 | PONT L'ABBE 1 |
-| ##### DIVISION 4 poule M | **1er** | _POC Quimper_ | **FOUESNANT 3** | **26** | 10 | POC QAUIMPER 1 |
-| ##### DIVISION 4 poule N | **4 ème** | _Bénodet_ | FOUESNANT 4 | **2** | **34** | **PLUGUFFAN 1** |
+| #### Championnat des Clubs Seniors (pour résultats complets, cliquez **ICI**) |           |                                             |                     |               |               |                   |
+| ----------------------------------------------------------------------------- | --------- | ------------------------------------------- | ------------------- | ------------- | ------------- | ----------------- |
+|                                                                               | Classt    | ##### Lieu de rencontres                    | ##### Equipe 1      | ##### Score 1 | ##### Score 2 | ##### Equipe 2    |
+| **Chpt Rég des Clubs**:br**DIVISION 2 Grpe B**                                | **1er**   | *Plounéour Ménez* *(Matin)*       | **FOUESNANT 1**     | **32**        | 4             | LANESTER (56)     |
+| **Chpt Rég des Clubs**:br**DIVISION 2 Grpe B**                                |           | *Plounéour Ménez* *(Après-midi))* | **FOUESNANT 1**     | **30**        | 6             | SAINT JULIEN (22) |
+| ##### DIVISION 2 poule C Féminines                                            | **3 ème** | *Fouesnant*                                 | **FOUESNANT 1F**    | **30**        | 6             | LESNEVEN 3        |
+| ##### DIVISION 2 poule D Féminines                                            | **1 ère** | *Fouesnant*                                 | FOUESNANT 2F Exempt |               |               |                   |
+| ##### DIVISION 3 poule F                                                      | **3 ème** | *Pont Aven*                                 | **FOUESNANT 2**     | **26**        | 10            | PONT L'ABBE 1     |
+| ##### DIVISION 4 poule M                                                      | **1er**   | *POC Quimper*                               | **FOUESNANT 3**     | **26**        | 10            | POC QAUIMPER 1    |
+| ##### DIVISION 4 poule N                                                      | **4 ème** | *Bénodet*                                   | FOUESNANT 4         | **2**         | **34**        | **PLUGUFFAN 1**   |
 
 ---
 
 #### **CHAMPIONNAT DES CLUBS SENIORS LE 5 OCTOBRE**
 
-| #### Championnat des Clubs Seniors (pour résultats complets, cliquez **ICI**) |  |  |  |  |  |
-| --- | --- | --- | --- | --- | --- |
-|  | ##### Lieu de rencontres | ##### Equipe 1 | ##### Score 1 | ##### Score 2 | ##### Equipe 2 |
-| **Chpt Rég des Cl <br>DIVISION 2 Grpe B <br>4ème journée** | _Lanester (56) <br>(Matin)_ | FOUESNANT 1 | 12 | **24** | **LOCMARIAQUER** |
-| **Chpt Rég des Cl <br>DIVISION 2 Grpe B <br>5ème journée** | _Lanester (56) <br>(Après midi)_ | **FOUESNANT 1** | **18** | **18** | **SAINT MALO (35)** |
-| ##### DIVISION 2 poule C Féminines | _Plounéventer_ | FOUESNANT 1F Exempt |  |  |  |
-| ##### DIVISION 2 poule D Féminines | _Pluguffan_ | **FOUESNANT 2 F** | **30** | 6 | PONT L'ABBE |
-| ##### DIVISION 3 poule F | _Pont de Buis_ | FOUESNANT 2 | 14 | **22** | **PONT DE BUIS 2** |
-| ##### DIVISION 4 poule M | _Pluguffan_ | **FOUESNANT 3** | **24** | 12 | AUDIERNE 1 |
-| ##### DIVISION 4 poule N | _Ploneis_ | FOUESNANT 4 | 6 | **30** | **PLONEIS 2** |
+| #### Championnat des Clubs Seniors (pour résultats complets, cliquez **ICI**) |                                                   |                     |               |               |                     |
+| ----------------------------------------------------------------------------- | ------------------------------------------------- | ------------------- | ------------- | ------------- | ------------------- |
+|                                                                               | ##### Lieu de rencontres                          | ##### Equipe 1      | ##### Score 1 | ##### Score 2 | ##### Equipe 2      |
+| **Chpt Rég des Cl** :br**DIVISION 2 Grpe B** :br**4ème journée**              | *Lanester (56)* \:b&#x72;*(Matin)*      | FOUESNANT 1         | 12            | **24**        | **LOCMARIAQUER**    |
+| **Chpt Rég des Cl** :br**DIVISION 2 Grpe B** :br**5ème journée**              | *Lanester (56)* \:b&#x72;*(Après midi)* | **FOUESNANT 1**     | **18**        | **18**        | **SAINT MALO (35)** |
+| ##### DIVISION 2 poule C Féminines                                            | *Plounéventer*                                    | FOUESNANT 1F Exempt |               |               |                     |
+| ##### DIVISION 2 poule D Féminines                                            | *Pluguffan*                                       | **FOUESNANT 2 F**   | **30**        | 6             | PONT L'ABBE         |
+| ##### DIVISION 3 poule F                                                      | *Pont de Buis*                                    | FOUESNANT 2         | 14            | **22**        | **PONT DE BUIS 2**  |
+| ##### DIVISION 4 poule M                                                      | *Pluguffan*                                       | **FOUESNANT 3**     | **24**        | 12            | AUDIERNE 1          |
+| ##### DIVISION 4 poule N                                                      | *Ploneis*                                         | FOUESNANT 4         | 6             | **30**        | **PLONEIS 2**       |
 
 ---
 
-![Journal octobre 25](/images/archives/2025/journal-2025-10/gif6.jpg){width="48" height="70"}
+![Journal octobre 25](/images/archives/2025/journal-2025-10/gif6.webp){height="70" width="48"}
 
-## ** TROPHEE VETERANS A : 1/4 DE FINALE le mardi 7 octobre contre Quimperlé**
+## \*\* TROPHEE VETERANS A : 1/4 DE FINALE le mardi 7 octobre contre Quimperlé\*\*
 
 Pour le 1/4 de finale du trophée vétérans A, l'équipe de Fouesnant va se déplacer à Quimperlé et rencontrer le club" **COQS PET QUIMPERLE**" le mardi 7 octobre.
 
@@ -158,7 +158,7 @@ Bonne chance à nos représentants.
 
 **RESULTAT:**
 
-![Journal octobre 25](/images/archives/2025/journal-2025-10/troph_vet_25_3.jpg){width="800" height="641"}
+![Journal octobre 25](/images/archives/2025/journal-2025-10/troph_vet_25_3.webp){height="641" width="800"}
 
 Christelle Girard, Martine Dumont, Gilbert Caroff, Violeta Priol, Yvon Landoas, André Guérin, Alain Junot, Gilles Gélébart
 
@@ -166,15 +166,15 @@ L'équipe de Fouesnant se qualifie pour la 1/2 finale en s'imposant 17 à 14 con
 
 Notre équipe remporte :
 
--   **3 T à T sur 6**
--   **2 doublettes sur 3**
--   **1 triplette sur 2**
+- **3 T à T sur 6**
+- **2 doublettes sur 3**
+- **1 triplette sur 2**
 
 L'équipe de Fouesnant ira à Plougastel Daoulas pour jouer les demi finales et la finale peut être, le mardi 14 octobre.
 
 ---
 
-![Journal octobre 25](/images/archives/2025/journal-2025-10/sports-trophee-171.gif){width="69" height="68"}
+![Journal octobre 25](/images/archives/2025/journal-2025-10/sports-trophee-171.gif){height="68" width="69"}
 
 ## **TROPHEE VETERANS A : 1/2 FINALES ET FINALE le mardi 14 octobre à Plougastel Daoulas**
 
@@ -190,7 +190,7 @@ Bonne chance à nos représentants de **La Pétanque Fouesnantaise.**
 
 **RESULTAT:**
 
-![Journal octobre 25](/images/archives/2025/journal-2025-10/trophvetfinal_25_1.jpg){width="800" height="713"}
+![Journal octobre 25](/images/archives/2025/journal-2025-10/trophvetfinal_25_1.webp){height="713" width="800"}
 
 Christelle GIRARD, Gilbert CAROFF, André GUERIN,
 
@@ -198,7 +198,7 @@ Martine DUMONT,Violeta PRIOL, Alain JUNOT, Marc NICOLAS,
 
 Gilles GELEBART, Yvon LANDOAS, Jean Yves ELOIRE
 
-![Journal octobre 25](/images/archives/2025/journal-2025-10/trpvete_fin_25_1.jpg){width="800" height="571"}
+![Journal octobre 25](/images/archives/2025/journal-2025-10/trpvete_fin_25_1.webp){height="571" width="800"}
 
 LE MATIN:
 
@@ -208,9 +208,9 @@ Détail des scores:
 
 Gagnés:
 
--   4 TàT sur 6
--   3 doublettes sur 3 (suffisant pour gagner)
--   Triplettes non jouées
+- 4 TàT sur 6
+- 3 doublettes sur 3 (suffisant pour gagner)
+- Triplettes non jouées
 
 L'APRES-MIDI:
 
@@ -222,9 +222,9 @@ Détail des scores:
 
 Gagnés:
 
--   3 Tête à Tete gagnés sur 6
--   2 doublettes gagnées sur 3
--   1 triplette gagnée (suffisant pour gagner)
+- 3 Tête à Tete gagnés sur 6
+- 2 doublettes gagnées sur 3
+- 1 triplette gagnée (suffisant pour gagner)
 
 Fouesnant devient Championne du Finistère du Trophée Vétérans 2025.
 
@@ -232,7 +232,7 @@ Félicitations et bravo à tous les joueurs pour cette belle performance.
 
 ---
 
-![Journal octobre 25](/images/archives/2025/journal-2025-10/roger.jpg){width="74" height="73"}
+![Journal octobre 25](/images/archives/2025/journal-2025-10/roger.webp){height="73" width="74"}
 
 ### ASSEMBLEE GENERALE DE LA PETANQUE FOUESNANTAISE LE 17 OCTOBRE
 
@@ -260,17 +260,17 @@ Les rapports présentés seront suivis d’un vote.
 
 Un pot de l’amitié clôturera l’assemblée.
 
-_Le conseil d’administration_
+*Le conseil d’administration*
 
 ---
 
-![Journal octobre 25](/images/archives/2025/journal-2025-10/bravo.gif){width="68" height="68"}
+![Journal octobre 25](/images/archives/2025/journal-2025-10/bravo.gif){height="68" width="68"}
 
-### **** **MEILLEURES PERFORMANCES DU MOIS DE LA PETANQUE FOUESNANTAISE**
+### \*\*\*\* **MEILLEURES PERFORMANCES DU MOIS DE LA PETANQUE FOUESNANTAISE**
 
-_(En italique les joueurs externes au club)_
+*(En italique les joueurs externes au club)*
 
-_Vos performances du mois à renseigner par courriel :_ [lapetanquefouesnantaise@gmail.com](mailto:lapetanquefouesnantaise@gmail.com)
+*Vos performances du mois à renseigner par courriel :* <lapetanquefouesnantaise@gmail.com>
 
 **\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_**
 
@@ -282,15 +282,15 @@ _Vos performances du mois à renseigner par courriel :_ [lapetanquefouesnantaise
 
 **3 parties gagnées:**
 
--   Patrick MASSIE, Alain COQUILLON
--   Gilles GELEBARD, Bruno GIRARD
+- Patrick MASSIE, Alain COQUILLON
+- Gilles GELEBARD, Bruno GIRARD
 
 **2 parties gagnées:**
 
--   Patrick OLIVRY, Gilbert YQUEL
--   Odile RANNOU, Martine DUMONT
--   Yves PIRIOU, Luc LAMBERT
--   Georges L'ABBE, Christelle GIRARD
+- Patrick OLIVRY, Gilbert YQUEL
+- Odile RANNOU, Martine DUMONT
+- Yves PIRIOU, Luc LAMBERT
+- Georges L'ABBE, Christelle GIRARD
 
 ---
 
@@ -302,22 +302,22 @@ _Vos performances du mois à renseigner par courriel :_ [lapetanquefouesnantaise
 
 **4 parties gagnées:**
 
-![Journal octobre 25](/images/archives/2025/journal-2025-10/ala_patm.jpg){width="400" height="579"}
+![Journal octobre 25](/images/archives/2025/journal-2025-10/ala_patm.webp){height="579" width="400"}
 
--   Alain COQUILLON, Patrick MASSIE ( Premiers de la compétition)
+- Alain COQUILLON, Patrick MASSIE ( Premiers de la compétition)
 
 **3 parties gagnées:**
 
--   Roseline LEBRETON, Michel LEBRETON
--   Jean Luc FRANCES, Georges LABBE
--   Gilbert CAROFF, Bruno GIRARD
--   Philippe DUCHATEL, _Michel COPPOLA_
+- Roseline LEBRETON, Michel LEBRETON
+- Jean Luc FRANCES, Georges LABBE
+- Gilbert CAROFF, Bruno GIRARD
+- Philippe DUCHATEL, *Michel COPPOLA*
 
 **2 parties gagnées:**
 
--   Gilles GELEBART, Michel LAGADIC
--   Patrick OLIVY, Christian LE GOFF
--   Patrice QUINTIN, Eric BUATTI
+- Gilles GELEBART, Michel LAGADIC
+- Patrick OLIVY, Christian LE GOFF
+- Patrice QUINTIN, Eric BUATTI
 
 ---
 
@@ -329,13 +329,13 @@ _Vos performances du mois à renseigner par courriel :_ [lapetanquefouesnantaise
 
 **3 parties gagnées:**
 
--   Patrick FOUQUET, Patrick OLIVRY, Denis BON
--   Jean Luc FRANCES, Patrick MASSIE, Jean Yves DESANEAUX
+- Patrick FOUQUET, Patrick OLIVRY, Denis BON
+- Jean Luc FRANCES, Patrick MASSIE, Jean Yves DESANEAUX
 
 **2 parties gagnées:**
 
--   Gilles GELEBART, Luc LAMBERT, Eric PENNARUN
--   Yvon LANDOAS, Marc NICOLAS, Pascal LANGLAIS
+- Gilles GELEBART, Luc LAMBERT, Eric PENNARUN
+- Yvon LANDOAS, Marc NICOLAS, Pascal LANGLAIS
 
 ---
 
@@ -347,11 +347,11 @@ _Vos performances du mois à renseigner par courriel :_ [lapetanquefouesnantaise
 
 **4 parties gagnées:**
 
--   Christian LE GOFF, Patrick OLIVRY, Roger CROGUENNEC
+- Christian LE GOFF, Patrick OLIVRY, Roger CROGUENNEC
 
 **3 parties gagnées**
 
--   Martine DUMONT, Alain JUNOT, Eric PENNAREN
--   Michel LE BRETON, Georges LABBE, LAGADIC
+- Martine DUMONT, Alain JUNOT, Eric PENNAREN
+- Michel LE BRETON, Georges LABBE, LAGADIC
 
 **\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_**

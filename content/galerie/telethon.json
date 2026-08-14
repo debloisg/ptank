@@ -20,25 +20,25 @@
       "to": "2019-12",
       "thumbs": [
         {
-          "src": "/images/galerie/telethon/dscf3838.jpg",
+          "src": "/images/galerie/telethon/dscf3838.webp",
           "w": 1024,
           "h": 576,
           "alt": "Téléthon — photo d'archive du club"
         },
         {
-          "src": "/images/galerie/telethon/dscf3831.jpg",
+          "src": "/images/galerie/telethon/dscf3831.webp",
           "w": 1024,
           "h": 576,
           "alt": "Téléthon — photo d'archive du club"
         },
         {
-          "src": "/images/galerie/telethon/dscf3836.jpg",
+          "src": "/images/galerie/telethon/dscf3836.webp",
           "w": 1024,
           "h": 576,
           "alt": "Téléthon — photo d'archive du club"
         },
         {
-          "src": "/images/galerie/telethon/dscf3837.jpg",
+          "src": "/images/galerie/telethon/dscf3837.webp",
           "w": 1024,
           "h": 576,
           "alt": "Téléthon — photo d'archive du club"
@@ -51,25 +51,25 @@
       "to": "2022-12-04",
       "thumbs": [
         {
-          "src": "/images/galerie/telethon/telethon222.jpg",
+          "src": "/images/galerie/telethon/telethon222.webp",
           "w": 600,
           "h": 848,
           "alt": "Téléthon — photo d'archive du club"
         },
         {
-          "src": "/images/galerie/telethon/teleth22_1.jpg",
+          "src": "/images/galerie/telethon/teleth22_1.webp",
           "w": 680,
           "h": 510,
           "alt": "Téléthon — photo d'archive du club"
         },
         {
-          "src": "/images/galerie/telethon/teleth22_2.jpg",
+          "src": "/images/galerie/telethon/teleth22_2.webp",
           "w": 680,
           "h": 510,
           "alt": "Téléthon — photo d'archive du club"
         },
         {
-          "src": "/images/galerie/telethon/telthon22_result1.jpg",
+          "src": "/images/galerie/telethon/telthon22_result1.webp",
           "w": 680,
           "h": 958,
           "alt": "Téléthon — photo d'archive du club"
@@ -82,25 +82,25 @@
       "to": "2023-12",
       "thumbs": [
         {
-          "src": "/images/galerie/telethon/2me_teleth_2.jpg",
+          "src": "/images/galerie/telethon/2me_teleth_2.webp",
           "w": 680,
           "h": 383,
           "alt": "Téléthon — photo d'archive du club"
         },
         {
-          "src": "/images/galerie/telethon/3eme_teleth_3.jpg",
+          "src": "/images/galerie/telethon/3eme_teleth_3.webp",
           "w": 680,
           "h": 383,
           "alt": "Téléthon — photo d'archive du club"
         },
         {
-          "src": "/images/galerie/telethon/4eme_teleth_4.jpg",
+          "src": "/images/galerie/telethon/4eme_teleth_4.webp",
           "w": 680,
           "h": 383,
           "alt": "Téléthon — photo d'archive du club"
         },
         {
-          "src": "/images/galerie/telethon/5me_teleth_5.jpg",
+          "src": "/images/galerie/telethon/5me_teleth_5.webp",
           "w": 680,
           "h": 383,
           "alt": "Téléthon — photo d'archive du club"
@@ -113,19 +113,19 @@
       "to": "2025-12-06",
       "thumbs": [
         {
-          "src": "/images/galerie/telethon/telethon25.jpg",
+          "src": "/images/galerie/telethon/telethon25.webp",
           "w": 450,
           "h": 675,
           "alt": "Téléthon — photo d'archive du club"
         },
         {
-          "src": "/images/galerie/telethon/teleth25_2.jpg",
+          "src": "/images/galerie/telethon/teleth25_2.webp",
           "w": 800,
           "h": 478,
           "alt": "Téléthon — photo d'archive du club"
         },
         {
-          "src": "/images/galerie/telethon/teleth25_1.jpg",
+          "src": "/images/galerie/telethon/teleth25_1.webp",
           "w": 800,
           "h": 800,
           "alt": "Téléthon — photo d'archive du club"
@@ -133,10 +133,10 @@
       ]
     }
   },
-  "cover": "/images/galerie/telethon/telthon22_result1.jpg",
+  "cover": "/images/galerie/telethon/telthon22_result1.webp",
   "photos": [
     {
-      "src": "/images/galerie/telethon/dscf3838.jpg",
+      "src": "/images/galerie/telethon/dscf3838.webp",
       "w": 1024,
       "h": 576,
       "alt": "Téléthon — photo d'archive du club",
@@ -144,7 +144,7 @@
       "dateSource": "path"
     },
     {
-      "src": "/images/galerie/telethon/dscf3831.jpg",
+      "src": "/images/galerie/telethon/dscf3831.webp",
       "w": 1024,
       "h": 576,
       "alt": "Téléthon — photo d'archive du club",
@@ -160,7 +160,7 @@
       ]
     },
     {
-      "src": "/images/galerie/telethon/dscf3836.jpg",
+      "src": "/images/galerie/telethon/dscf3836.webp",
       "w": 1024,
       "h": 576,
       "alt": "Téléthon — photo d'archive du club",
@@ -176,7 +176,7 @@
       ]
     },
     {
-      "src": "/images/galerie/telethon/dscf3837.jpg",
+      "src": "/images/galerie/telethon/dscf3837.webp",
       "w": 1024,
       "h": 576,
       "alt": "Téléthon — photo d'archive du club",
@@ -192,7 +192,7 @@
       ]
     },
     {
-      "src": "/images/galerie/telethon/dscf3839.jpg",
+      "src": "/images/galerie/telethon/dscf3839.webp",
       "w": 1024,
       "h": 576,
       "alt": "Téléthon — photo d'archive du club",
@@ -208,7 +208,7 @@
       ]
     },
     {
-      "src": "/images/galerie/telethon/dscf3840.jpg",
+      "src": "/images/galerie/telethon/dscf3840.webp",
       "w": 1024,
       "h": 576,
       "alt": "Téléthon — photo d'archive du club",
@@ -224,7 +224,7 @@
       ]
     },
     {
-      "src": "/images/galerie/telethon/dscf3844.jpg",
+      "src": "/images/galerie/telethon/dscf3844.webp",
       "w": 1024,
       "h": 576,
       "alt": "Téléthon — photo d'archive du club",
@@ -240,7 +240,7 @@
       ]
     },
     {
-      "src": "/images/galerie/telethon/telethon222.jpg",
+      "src": "/images/galerie/telethon/telethon222.webp",
       "w": 600,
       "h": 848,
       "alt": "Téléthon — photo d'archive du club",
@@ -260,7 +260,7 @@
       ]
     },
     {
-      "src": "/images/galerie/telethon/teleth22_1.jpg",
+      "src": "/images/galerie/telethon/teleth22_1.webp",
       "w": 680,
       "h": 510,
       "alt": "Téléthon — photo d'archive du club",
@@ -276,7 +276,7 @@
       ]
     },
     {
-      "src": "/images/galerie/telethon/teleth22_2.jpg",
+      "src": "/images/galerie/telethon/teleth22_2.webp",
       "w": 680,
       "h": 510,
       "alt": "Téléthon — photo d'archive du club",
@@ -292,7 +292,7 @@
       ]
     },
     {
-      "src": "/images/galerie/telethon/telthon22_result1.jpg",
+      "src": "/images/galerie/telethon/telthon22_result1.webp",
       "w": 680,
       "h": 958,
       "alt": "Téléthon — photo d'archive du club",
@@ -308,7 +308,7 @@
       ]
     },
     {
-      "src": "/images/galerie/telethon/2me_teleth_2.jpg",
+      "src": "/images/galerie/telethon/2me_teleth_2.webp",
       "w": 680,
       "h": 383,
       "alt": "Téléthon — photo d'archive du club",
@@ -324,7 +324,7 @@
       ]
     },
     {
-      "src": "/images/galerie/telethon/3eme_teleth_3.jpg",
+      "src": "/images/galerie/telethon/3eme_teleth_3.webp",
       "w": 680,
       "h": 383,
       "alt": "Téléthon — photo d'archive du club",
@@ -340,7 +340,7 @@
       ]
     },
     {
-      "src": "/images/galerie/telethon/4eme_teleth_4.jpg",
+      "src": "/images/galerie/telethon/4eme_teleth_4.webp",
       "w": 680,
       "h": 383,
       "alt": "Téléthon — photo d'archive du club",
@@ -356,7 +356,7 @@
       ]
     },
     {
-      "src": "/images/galerie/telethon/5me_teleth_5.jpg",
+      "src": "/images/galerie/telethon/5me_teleth_5.webp",
       "w": 680,
       "h": 383,
       "alt": "Téléthon — photo d'archive du club",
@@ -372,7 +372,7 @@
       ]
     },
     {
-      "src": "/images/galerie/telethon/6eme_teleth_6.jpg",
+      "src": "/images/galerie/telethon/6eme_teleth_6.webp",
       "w": 680,
       "h": 383,
       "alt": "Téléthon — photo d'archive du club",
@@ -388,7 +388,7 @@
       ]
     },
     {
-      "src": "/images/galerie/telethon/7eme_teleth_7.jpg",
+      "src": "/images/galerie/telethon/7eme_teleth_7.webp",
       "w": 400,
       "h": 711,
       "alt": "Téléthon — photo d'archive du club",
@@ -404,7 +404,7 @@
       ]
     },
     {
-      "src": "/images/galerie/telethon/telethon23_3.jpg",
+      "src": "/images/galerie/telethon/telethon23_3.webp",
       "w": 690,
       "h": 708,
       "alt": "Téléthon — photo d'archive du club",
@@ -420,7 +420,7 @@
       ]
     },
     {
-      "src": "/images/galerie/telethon/vainqueurs_1_a.jpg",
+      "src": "/images/galerie/telethon/vainqueurs_1_a.webp",
       "w": 680,
       "h": 383,
       "alt": "Téléthon — photo d'archive du club",
@@ -436,7 +436,7 @@
       ]
     },
     {
-      "src": "/images/galerie/telethon/telethon25.jpg",
+      "src": "/images/galerie/telethon/telethon25.webp",
       "w": 450,
       "h": 675,
       "alt": "Téléthon — photo d'archive du club",
@@ -456,7 +456,7 @@
       ]
     },
     {
-      "src": "/images/galerie/telethon/teleth25_2.jpg",
+      "src": "/images/galerie/telethon/teleth25_2.webp",
       "w": 800,
       "h": 478,
       "alt": "Téléthon — photo d'archive du club",
@@ -472,7 +472,7 @@
       ]
     },
     {
-      "src": "/images/galerie/telethon/teleth25_1.jpg",
+      "src": "/images/galerie/telethon/teleth25_1.webp",
       "w": 800,
       "h": 800,
       "alt": "Téléthon — photo d'archive du club",

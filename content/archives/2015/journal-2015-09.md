@@ -5,7 +5,7 @@ date: 2015-09-07
 year: 2015
 category: "Journaux du club"
 journal: "2015-09"
-image: "/images/archives/2015/journal-2015-09/chpt_de_bret2015.png"
+image: "/images/archives/2015/journal-2015-09/chpt_de_bret2015.webp"
 joomlaId: 266
 hits: 6860
 ---
@@ -40,7 +40,7 @@ Répartition en trois groupes en fonction du goal average final:
 
 ****CHAMPIONS DU FINISTERE DU CHAMPIONNAT DES CLUBS VETERANS EN 2015****
 
-![Journal Septembre 2015](/images/archives/2015/journal-2015-09/chpt_de_bret2015.png){width="640" height="375"}
+![Journal Septembre 2015](/images/archives/2015/journal-2015-09/chpt_de_bret2015.webp){height="375" width="640"}
 
 ---
 
@@ -66,7 +66,7 @@ Gilbert Caroff
 
 \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
-![Journal Septembre 2015](/images/archives/2015/journal-2015-09/bouleroule.gif){width="53" height="52"}
+![Journal Septembre 2015](/images/archives/2015/journal-2015-09/bouleroule.gif){height="52" width="53"}
 
 ## ****CHAMPIONNAT DES CLUBS SENIORS DIVISION 3 GROUPE D LE 20 SEPTEMBRE A FOUESNANT****
 
@@ -114,7 +114,7 @@ Constitution de l’équipe fouesnantaise : G.Caroff, B.Furic, A.Gourven, A.Le M
 
 ******MEILLEURES PERFORMANCES DU MOIS******
 
-**_**(En italique les joueurs externes au club)**_**
+**\_**(En italique les joueurs externes au club)**\_**
 
 ****JOURNEE SPORT ADAPTE A COMBRIT LE 26 SEPTEMBRE EN DOUBLETTES****
 
@@ -124,17 +124,17 @@ Constitution de l’équipe fouesnantaise : G.Caroff, B.Furic, A.Gourven, A.Le M
 
 RESULTATS:
 
-1/2 finale A: 4 ème Roger CROGUENNEC, _Ch__ristian SILIEC_
+1/2 finale A: 4 ème Roger CROGUENNEC, *Ch\_\_ristian SILIEC*
 
 1/4 de finale B: Joseph LE STUM et sa partenaire
 
-1/4 de finale C: Henry LE MOULLEC et _Patrice SINQUIN_
+1/4 de finale C: Henry LE MOULLEC et *Patrice SINQUIN*
 
 ****CONCOURS SENIORS DU DIMANCHE 27 SEPTEMBRE EN TRIPLETTES A PONT L'ABBE****
 
 ****Concours A, B****
 
-****R****ESULTATS:
+****R****&#x45;SULTATS:
 
 Concours A
 
@@ -148,7 +148,7 @@ Concours A
 
 RESULTATS:
 
-Concours A 1er PARFAIT Bernard - _TREPOS Joêl_ Concours B 1er CROGUENNEC Roger - GRISART Jean Luc 4ème PICARD Alain - SIMONIN Gérard Concours C 2ème LE STUM Joseph - BRIAND Jean Luc
+Concours A 1er PARFAIT Bernard - *TREPOS Joêl* Concours B 1er CROGUENNEC Roger - GRISART Jean Luc 4ème PICARD Alain - SIMONIN Gérard Concours C 2ème LE STUM Joseph - BRIAND Jean Luc
 
 ********FINALE DU CHAMPIONNAT DES CLUBS VETERANS + 55 ans DU FINISTERE 2015 A FOUESNANT LE 22 SEPTEMBRE CONTRE GOUESNOU********
 
@@ -176,7 +176,7 @@ RESULTATS:
 
 4 parties gagnées: LE STUM Joseph, FLOCH Désiré, LE MOULLEC Henry
 
-4 parties gagnées: PARFAIT Bernard, GUILLERM Gilbert, _ELOIRE Jean Yves_
+4 parties gagnées: PARFAIT Bernard, GUILLERM Gilbert, *ELOIRE Jean Yves*
 
 3 parties gagnées: LE MARREC Pierre, LE GOFF Christian, JEGOU Bernard
 
@@ -190,6 +190,6 @@ RESULTATS:
 
 4 parties gagnées: CAROFF Gilbert, ROMIEUX Xavier, LE STUM Joseph
 
-4 parties gagnées: PARFAIT Bernard, GUILLERM Gilbert, _URVOIS Pierre_
+4 parties gagnées: PARFAIT Bernard, GUILLERM Gilbert, *URVOIS Pierre*
 
-3 parties gagnées: GUERMEUR Michel, GUILLOU Hervé, _GUIZIOU Alex_
+3 parties gagnées: GUERMEUR Michel, GUILLOU Hervé, *GUIZIOU Alex*

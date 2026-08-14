@@ -21,19 +21,19 @@
       "to": "2017-07",
       "thumbs": [
         {
-          "src": "/images/galerie/cc-ete/affccete176-2.jpg",
+          "src": "/images/galerie/cc-ete/affccete176-2.webp",
           "w": 650,
           "h": 765,
           "alt": "Coupe du club été — photo d'archive du club"
         },
         {
-          "src": "/images/galerie/cc-ete/ccete144.jpg",
+          "src": "/images/galerie/cc-ete/ccete144.webp",
           "w": 640,
           "h": 291,
           "alt": "Coupe du club été — photo d'archive du club"
         },
         {
-          "src": "/images/galerie/cc-ete/ccete173.jpg",
+          "src": "/images/galerie/cc-ete/ccete173.webp",
           "w": 640,
           "h": 590,
           "alt": "Coupe du club été — photo d'archive du club"
@@ -46,7 +46,7 @@
       "to": "2018-06",
       "thumbs": [
         {
-          "src": "/images/galerie/cc-ete/affccete176.jpg",
+          "src": "/images/galerie/cc-ete/affccete176.webp",
           "w": 650,
           "h": 765,
           "alt": "Coupe du club été — photo d'archive du club"
@@ -59,7 +59,7 @@
       "to": "2020-07-29",
       "thumbs": [
         {
-          "src": "/images/galerie/cc-ete/pet_ccete29_7_2.jpg",
+          "src": "/images/galerie/cc-ete/pet_ccete29_7_2.webp",
           "w": 640,
           "h": 381,
           "alt": "Coupe du club été — photo d'archive du club"
@@ -72,7 +72,7 @@
       "to": "2022-06",
       "thumbs": [
         {
-          "src": "/images/galerie/cc-ete/cc_ete_22.png",
+          "src": "/images/galerie/cc-ete/cc_ete_22.webp",
           "w": 500,
           "h": 707,
           "alt": "Coupe du club été — photo d'archive du club"
@@ -85,13 +85,13 @@
       "to": "2023-06-21",
       "thumbs": [
         {
-          "src": "/images/galerie/cc-ete/cc_ete23_1.jpg",
+          "src": "/images/galerie/cc-ete/cc_ete23_1.webp",
           "w": 680,
           "h": 314,
           "alt": "Coupe du club été — photo d'archive du club"
         },
         {
-          "src": "/images/galerie/cc-ete/cc_ete_mer_23.jpg",
+          "src": "/images/galerie/cc-ete/cc_ete_mer_23.webp",
           "w": 400,
           "h": 560,
           "alt": "Coupe du club été — photo d'archive du club"
@@ -104,25 +104,25 @@
       "to": "2024-08-28",
       "thumbs": [
         {
-          "src": "/images/galerie/cc-ete/affiche_cc_ete2.jpg",
+          "src": "/images/galerie/cc-ete/affiche_cc_ete2.webp",
           "w": 400,
           "h": 566,
           "alt": "Coupe du club été — photo d'archive du club"
         },
         {
-          "src": "/images/galerie/cc-ete/natio_plom_ete24_1.jpg",
+          "src": "/images/galerie/cc-ete/natio_plom_ete24_1.webp",
           "w": 800,
           "h": 606,
           "alt": "Coupe du club été — photo d'archive du club"
         },
         {
-          "src": "/images/galerie/cc-ete/nation_plom_ete24_1.jpg",
+          "src": "/images/galerie/cc-ete/nation_plom_ete24_1.webp",
           "w": 800,
           "h": 514,
           "alt": "Coupe du club été — photo d'archive du club"
         },
         {
-          "src": "/images/galerie/cc-ete/nation_plom_ete24_5.jpg",
+          "src": "/images/galerie/cc-ete/nation_plom_ete24_5.webp",
           "w": 800,
           "h": 600,
           "alt": "Coupe du club été — photo d'archive du club"
@@ -135,13 +135,13 @@
       "to": "2025-08",
       "thumbs": [
         {
-          "src": "/images/galerie/cc-ete/affic_ccete_25_1.jpg",
+          "src": "/images/galerie/cc-ete/affic_ccete_25_1.webp",
           "w": 1024,
           "h": 1536,
           "alt": "Coupe du club été — photo d'archive du club"
         },
         {
-          "src": "/images/galerie/cc-ete/cc_ete_3_8_25.jpg",
+          "src": "/images/galerie/cc-ete/cc_ete_3_8_25.webp",
           "w": 800,
           "h": 574,
           "alt": "Coupe du club été — photo d'archive du club"
@@ -154,7 +154,7 @@
       "to": "2026",
       "thumbs": [
         {
-          "src": "/images/galerie/cc-ete/ccete_affich_26.jpg",
+          "src": "/images/galerie/cc-ete/ccete_affich_26.webp",
           "w": 600,
           "h": 851,
           "alt": "Coupe du club été — photo d'archive du club"
@@ -162,10 +162,10 @@
       ]
     }
   },
-  "cover": "/images/galerie/cc-ete/affic_ccete_25_1.jpg",
+  "cover": "/images/galerie/cc-ete/affic_ccete_25_1.webp",
   "photos": [
     {
-      "src": "/images/galerie/cc-ete/affccete176-2.jpg",
+      "src": "/images/galerie/cc-ete/affccete176-2.webp",
       "w": 650,
       "h": 765,
       "alt": "Coupe du club été — photo d'archive du club",
@@ -181,7 +181,7 @@
       ]
     },
     {
-      "src": "/images/galerie/cc-ete/ccete144.jpg",
+      "src": "/images/galerie/cc-ete/ccete144.webp",
       "w": 640,
       "h": 291,
       "alt": "Coupe du club été — photo d'archive du club",
@@ -197,7 +197,7 @@
       ]
     },
     {
-      "src": "/images/galerie/cc-ete/ccete173.jpg",
+      "src": "/images/galerie/cc-ete/ccete173.webp",
       "w": 640,
       "h": 590,
       "alt": "Coupe du club été — photo d'archive du club",
@@ -213,7 +213,7 @@
       ]
     },
     {
-      "src": "/images/galerie/cc-ete/affccete176.jpg",
+      "src": "/images/galerie/cc-ete/affccete176.webp",
       "w": 650,
       "h": 765,
       "alt": "Coupe du club été — photo d'archive du club",
@@ -238,7 +238,7 @@
       ]
     },
     {
-      "src": "/images/galerie/cc-ete/pet_ccete29_7_2.jpg",
+      "src": "/images/galerie/cc-ete/pet_ccete29_7_2.webp",
       "w": 640,
       "h": 381,
       "alt": "Coupe du club été — photo d'archive du club",
@@ -254,7 +254,7 @@
       ]
     },
     {
-      "src": "/images/galerie/cc-ete/cc_ete_22.png",
+      "src": "/images/galerie/cc-ete/cc_ete_22.webp",
       "w": 500,
       "h": 707,
       "alt": "Coupe du club été — photo d'archive du club",
@@ -274,7 +274,7 @@
       ]
     },
     {
-      "src": "/images/galerie/cc-ete/cc_ete23_1.jpg",
+      "src": "/images/galerie/cc-ete/cc_ete23_1.webp",
       "w": 680,
       "h": 314,
       "alt": "Coupe du club été — photo d'archive du club",
@@ -294,7 +294,7 @@
       ]
     },
     {
-      "src": "/images/galerie/cc-ete/cc_ete_mer_23.jpg",
+      "src": "/images/galerie/cc-ete/cc_ete_mer_23.webp",
       "w": 400,
       "h": 560,
       "alt": "Coupe du club été — photo d'archive du club",
@@ -319,7 +319,7 @@
       ]
     },
     {
-      "src": "/images/galerie/cc-ete/affiche_cc_ete2.jpg",
+      "src": "/images/galerie/cc-ete/affiche_cc_ete2.webp",
       "w": 400,
       "h": 566,
       "alt": "Coupe du club été — photo d'archive du club",
@@ -344,7 +344,7 @@
       ]
     },
     {
-      "src": "/images/galerie/cc-ete/natio_plom_ete24_1.jpg",
+      "src": "/images/galerie/cc-ete/natio_plom_ete24_1.webp",
       "w": 800,
       "h": 606,
       "alt": "Coupe du club été — photo d'archive du club",
@@ -360,7 +360,7 @@
       ]
     },
     {
-      "src": "/images/galerie/cc-ete/nation_plom_ete24_1.jpg",
+      "src": "/images/galerie/cc-ete/nation_plom_ete24_1.webp",
       "w": 800,
       "h": 514,
       "alt": "Coupe du club été — photo d'archive du club",
@@ -376,7 +376,7 @@
       ]
     },
     {
-      "src": "/images/galerie/cc-ete/nation_plom_ete24_5.jpg",
+      "src": "/images/galerie/cc-ete/nation_plom_ete24_5.webp",
       "w": 800,
       "h": 600,
       "alt": "Coupe du club été — photo d'archive du club",
@@ -392,7 +392,7 @@
       ]
     },
     {
-      "src": "/images/galerie/cc-ete/cc_ete_24_2eme1.jpg",
+      "src": "/images/galerie/cc-ete/cc_ete_24_2eme1.webp",
       "w": 780,
       "h": 585,
       "alt": "Coupe du club été — photo d'archive du club",
@@ -408,7 +408,7 @@
       ]
     },
     {
-      "src": "/images/galerie/cc-ete/cc-ete-j3.jpg",
+      "src": "/images/galerie/cc-ete/cc-ete-j3.webp",
       "w": 800,
       "h": 600,
       "alt": "Coupe du club été — photo d'archive du club",
@@ -424,7 +424,7 @@
       ]
     },
     {
-      "src": "/images/galerie/cc-ete/cc_ete_1.jpg",
+      "src": "/images/galerie/cc-ete/cc_ete_1.webp",
       "w": 800,
       "h": 389,
       "alt": "Coupe du club été — photo d'archive du club",
@@ -440,7 +440,7 @@
       ]
     },
     {
-      "src": "/images/galerie/cc-ete/cc_ete_24_2.jpg",
+      "src": "/images/galerie/cc-ete/cc_ete_24_2.webp",
       "w": 800,
       "h": 587,
       "alt": "Coupe du club été — photo d'archive du club",
@@ -456,7 +456,7 @@
       ]
     },
     {
-      "src": "/images/galerie/cc-ete/cc_ete_robin_papy.jpg",
+      "src": "/images/galerie/cc-ete/cc_ete_robin_papy.webp",
       "w": 800,
       "h": 353,
       "alt": "Coupe du club été — photo d'archive du club",
@@ -472,7 +472,7 @@
       ]
     },
     {
-      "src": "/images/galerie/cc-ete/affic_ccete_25_1.jpg",
+      "src": "/images/galerie/cc-ete/affic_ccete_25_1.webp",
       "w": 1024,
       "h": 1536,
       "alt": "Coupe du club été — photo d'archive du club",
@@ -488,7 +488,7 @@
       ]
     },
     {
-      "src": "/images/galerie/cc-ete/cc_ete_3_8_25.jpg",
+      "src": "/images/galerie/cc-ete/cc_ete_3_8_25.webp",
       "w": 800,
       "h": 574,
       "alt": "Coupe du club été — photo d'archive du club",
@@ -504,7 +504,7 @@
       ]
     },
     {
-      "src": "/images/galerie/cc-ete/ccete_affich_26.jpg",
+      "src": "/images/galerie/cc-ete/ccete_affich_26.webp",
       "w": 600,
       "h": 851,
       "alt": "Coupe du club été — photo d'archive du club",

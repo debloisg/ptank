@@ -5,7 +5,7 @@ date: 2013-07-05
 year: 2012
 category: "Journaux du club"
 journal: "2012-04"
-image: "/images/archives/2012/journal-2012-04/paques3.png"
+image: "/images/archives/2012/journal-2012-04/paques3.webp"
 joomlaId: 98
 hits: 4680
 ---
@@ -14,9 +14,9 @@ Bonnes performances pour la pétanque Fouesnantaise...
 
 #### Journal du mois d'Avril 2012
 
-![Journal Avril 2012](/images/archives/2012/journal-2012-04/paques3.png){width="650" height="200"}
+![Journal Avril 2012](/images/archives/2012/journal-2012-04/paques3.webp){height="200" width="650"}
 
-![Journal Avril 2012](/images/archives/2012/journal-2012-04/paque1.gif){width="41" height="53"}
+![Journal Avril 2012](/images/archives/2012/journal-2012-04/paque1.gif){height="53" width="41"}
 
 ### CHAMPIONNAT DEPARTEMENTAL TRIPLETTES SENIORS DU 22 AVRIL A LESNEVEN
 
@@ -123,7 +123,7 @@ Il reste encore trois journées dans ce groupe. Pour les premières places du cl
 
 Prochain rendez vous le 17 Juin à CARHAIX LE POHER contre HANVEC LE FAOU.
 
-![Journal Avril 2012](/images/archives/2012/journal-2012-04/bravo.gif){width="115" height="115"}
+![Journal Avril 2012](/images/archives/2012/journal-2012-04/bravo.gif){height="115" width="115"}
 
 ## MEILLEURES PERFORMANCES DU MOIS.
 

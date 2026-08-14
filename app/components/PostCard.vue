@@ -28,17 +28,26 @@ const formattedDate = computed(() =>
 )
 
 // UBlogPost renders its image via NuxtImg (since @nuxt/image is installed).
-// Passing an object instead of a string forwards these props to NuxtImg, so
-// card images load lazily with a blurred placeholder. Undefined when no image.
+// Passing an object instead of a string forwards these props to NuxtImg.
+// Undefined when no image.
+//
+// The card box renders ~400px wide, so `sizes: '400px'` makes the provider pick
+// the pre-generated -800.webp rendition (retina-covered); the blur placeholder
+// is its pre-generated -ph.webp sibling (see nuxt.config.ts `image` block —
+// no edge transforms, every rendition is a real file in R2). UBlogPost's header
+// reserves an `aspect-[16/9]` box; `bg-muted` paints it grey behind the blur.
 const imageProps = computed(() =>
   props.image
     ? {
         src: props.image,
         alt: props.title,
-        format: 'auto',
-        sizes: 'sm:100vw md:768px lg:600px',
         loading: 'lazy' as const,
-        placeholder: true,
+        sizes: '400px',
+        placeholder: imagePlaceholder(props.image),
+        // Smooths the 24px placeholder's compression blocks while it shows;
+        // NuxtImg drops this class the moment the real file is loaded.
+        placeholderClass: 'blur-lg',
+        class: 'bg-muted',
       }
     : undefined,
 )

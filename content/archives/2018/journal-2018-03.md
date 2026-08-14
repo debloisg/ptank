@@ -5,28 +5,28 @@ date: 2018-02-02
 year: 2018
 category: "Le club de Fouesnant"
 journal: "2018-03"
-image: "/images/archives/2018/journal-2018-03/gif7.jpg"
+image: "/images/archives/2018/journal-2018-03/gif7.webp"
 joomlaId: 329
 hits: 5522
 ---
 
-| #### Championnat des Clubs Vétérans + de 60 ans le 6 Mars |  |  |  |  |  |
-| --- | --- | --- | --- | --- | --- |
-|  | ##### Lieu de rencontre | ##### Equipe 1 | ##### Score 1 | ##### Score 2 | ##### Equipe 2 |
-| ##### DIVISION 1 Poule G | _Combrit_ | **FOUESNANT 1** | **32** | 4 | PONT L'ABBE 1 |
-| ##### DIVISION 2 Poule D | _Douarnenez 2_ | **FOUESNANT 2** | **28** | 8 | PONT CROIX 2 |
+| #### Championnat des Clubs Vétérans + de 60 ans le 6 Mars |                         |                 |               |               |                |
+| --------------------------------------------------------- | ----------------------- | --------------- | ------------- | ------------- | -------------- |
+|                                                           | ##### Lieu de rencontre | ##### Equipe 1  | ##### Score 1 | ##### Score 2 | ##### Equipe 2 |
+| ##### DIVISION 1 Poule G                                  | *Combrit*               | **FOUESNANT 1** | **32**        | 4             | PONT L'ABBE 1  |
+| ##### DIVISION 2 Poule D                                  | *Douarnenez 2*          | **FOUESNANT 2** | **28**        | 8             | PONT CROIX 2   |
 
-| #### Championnat des Clubs + de 55 ans le 20 Mars |  |  |  |  |  |
-| --- | --- | --- | --- | --- | --- |
-|  | ##### Lieu de rencontre | ##### Equipe 1 | ##### Score 1 | ##### Score 2 | ##### Equipe 2 |
-| ##### DIVISION 1 Poule B | _Combrit_ | FOUESNANT 1 | 14 | **22** | **COMBRIT 1** |
-| ##### DIVISION 2 Poule C | _Combrit_ | **FOUESNANT 2** | **22** | 14 | COMBRIT 2 |
-| ##### DIVISION 3 Poule E | _Douarnenez_ | FOUESNANT 3 | 12 | **24** | **PONT L'ABBE 2** |
-| ##### DIVISION 3 Poule E | _Douarnenez_ | **FOUESNANT 4** | **34** | 2 | LOCTUDY |
-| ##### DIVISION 4 Poule D | _Quimper_ | **FOUESNANT 5** | **20** | 16 | ERGUE GABERIC 4 |
-| ##### DIVISION 4 Poule D | _Quimper_ | FOUESNANT 6 | 12 | **24** | **QUIMPER POCQ** |
+| #### Championnat des Clubs + de 55 ans le 20 Mars |                         |                 |               |               |                   |
+| ------------------------------------------------- | ----------------------- | --------------- | ------------- | ------------- | ----------------- |
+|                                                   | ##### Lieu de rencontre | ##### Equipe 1  | ##### Score 1 | ##### Score 2 | ##### Equipe 2    |
+| ##### DIVISION 1 Poule B                          | *Combrit*               | FOUESNANT 1     | 14            | **22**        | **COMBRIT 1**     |
+| ##### DIVISION 2 Poule C                          | *Combrit*               | **FOUESNANT 2** | **22**        | 14            | COMBRIT 2         |
+| ##### DIVISION 3 Poule E                          | *Douarnenez*            | FOUESNANT 3     | 12            | **24**        | **PONT L'ABBE 2** |
+| ##### DIVISION 3 Poule E                          | *Douarnenez*            | **FOUESNANT 4** | **34**        | 2             | LOCTUDY           |
+| ##### DIVISION 4 Poule D                          | *Quimper*               | **FOUESNANT 5** | **20**        | 16            | ERGUE GABERIC 4   |
+| ##### DIVISION 4 Poule D                          | *Quimper*               | FOUESNANT 6     | 12            | **24**        | **QUIMPER POCQ**  |
 
-![Journal Mars 2018](/images/archives/2018/journal-2018-03/gif7.jpg){width="70" height="72"}
+![Journal Mars 2018](/images/archives/2018/journal-2018-03/gif7.webp){height="72" width="70"}
 
 ### **COUPE DE FRANCE 1er TOUR**
 
@@ -36,7 +36,7 @@ La Pétanque Fouesnantaise rencontrera l'équipe de la Pétanque Combritoise
 
 \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
-![Journal Mars 2018](/images/archives/2018/journal-2018-03/imag1.jpg){width="100" height="65"}**CHAMPIONNAT SECTEUR DOUBLETTES VETERANS + 60 ANS LE JEUDI 29 MARS A CHÂTEAULIN**
+![Journal Mars 2018](/images/archives/2018/journal-2018-03/imag1.webp){height="65" width="100"}**CHAMPIONNAT SECTEUR DOUBLETTES VETERANS + 60 ANS LE JEUDI 29 MARS A CHÂTEAULIN**
 
 **Le jeudi 29 Mars aura lieu à Châteaulin le Championnat secteur Vétérans de plus de 60 ans .**
 
@@ -56,8 +56,8 @@ La Pétanque Fouesnantaise rencontrera l'équipe de la Pétanque Combritoise
 
 Deux équipes se qualifient pour le Départemental Triplettes Promotion qui aura lieu le 14 Avril à Combrit.
 
--   Roger CROGUENNEC, Albert GOURVEN, Henry LE MOULLEC
--   Pierre PAUL, Wilfried LE MAITRE, Yvan CRENN
+- Roger CROGUENNEC, Albert GOURVEN, Henry LE MOULLEC
+- Pierre PAUL, Wilfried LE MAITRE, Yvan CRENN
 
 Félicitation aux deux équipes et bonne chance pour la suite.
 
@@ -65,7 +65,7 @@ Voir ci-dessous les différentes catégories des joueurs de pétanque en fonctio
 
 \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
-![Journal Mars 2018](/images/archives/2018/journal-2018-03/gif6.jpg){width="48" height="70"}
+![Journal Mars 2018](/images/archives/2018/journal-2018-03/gif6.webp){height="70" width="48"}
 
 ### **CONCOURS VETERANS + de 55ANS A FOUESNANT EN TRIPLETTES LE JEUDI 15 MARS**
 
@@ -75,7 +75,7 @@ Dix équipes de La Pétanque fouesnantaise ont participer à ce concours. 4 équ
 
 \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
-![Journal Mars 2018](/images/archives/2018/journal-2018-03/gif1.png){width="85" height="70"}
+![Journal Mars 2018](/images/archives/2018/journal-2018-03/gif1.webp){height="70" width="85"}
 
 ### **TROPHEE 55 ANS ET + 1er TOUR A FOUESNANT CONTRE LA PETANQUE IGNACIENNE PLOUIGNEAU LE 13 MARS**
 
@@ -95,14 +95,14 @@ Andréa NEDELEC, Charlotte SIMONIN, Albert GOURVEN, Henry LE MOULLEC, Jo LE STUM
 
 \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
-![Journal Mars 2018](/images/archives/2018/journal-2018-03/imag1-2.jpg){width="100" height="65"}
+![Journal Mars 2018](/images/archives/2018/journal-2018-03/imag1-2.webp){height="65" width="100"}
 
 ### **CHAMPIONNAT SECTEUR TRIPLETTES OPEN DU 11 MARS A AUDIERNE**
 
 2 équipes de la pétanque Fouesnantaise participent à ce championnat:
 
--   Pierre PAUL, Raymond LE FUR, Yvan CRENN
--   Gilbert CAROFF, Philippe MARIANA, Christophe COLLARD
+- Pierre PAUL, Raymond LE FUR, Yvan CRENN
+- Gilbert CAROFF, Philippe MARIANA, Christophe COLLARD
 
 Résulta**ts:**
 
@@ -116,7 +116,7 @@ L'autre équipe se qualifie en tant que remplaçante : Gilbert CAROFF, Philippe 
 
 7 équipes Fouesnantaises ont participé à cette compétition.
 
--   2 équipes atteignent les 8èmes de finale et se qualifient pour le Départemental du 28/29 Avril à Gouesnou:
+- 2 équipes atteignent les 8èmes de finale et se qualifient pour le Départemental du 28/29 Avril à Gouesnou:
 
 \- Yvan CRENN et Raymond LE FUR
 
@@ -124,21 +124,21 @@ L'autre équipe se qualifie en tant que remplaçante : Gilbert CAROFF, Philippe 
 
 Bravo et bonne chance pour la suite.
 
--   2 équipes passent les poules, mais ne dépassent pas le 1er tour des qualifications:
+- 2 équipes passent les poules, mais ne dépassent pas le 1er tour des qualifications:
 
 \- Patrick OLIVRY et Roger CROGUENNEC
 
 \- Georges NEDELEC et Wilfried LEMAITRE
 
-_Gilbert Caroff_
+*Gilbert Caroff*
 
 \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
-![Journal Mars 2018](/images/archives/2018/journal-2018-03/gif9.jpg){width="70" height="73"}
+![Journal Mars 2018](/images/archives/2018/journal-2018-03/gif9.webp){height="73" width="70"}
 
 ## MEILLEURES PERFORMANCES DU MOIS
 
-_(En italique les joueurs externes au club)_
+*(En italique les joueurs externes au club)*
 
 CHAMPIONNAT SECTEUR 4 TRIPLETTES PROMOTION du 18 MARS A BENODET
 
@@ -146,8 +146,8 @@ CHAMPIONNAT SECTEUR 4 TRIPLETTES PROMOTION du 18 MARS A BENODET
 
 **RESULTATS:**
 
--   Roger CROGUENNEC, Albert GOURVEN, Henry LE MOULLEC : Qualifiés pour le championnat départemental triplettes Promotion
--   Pierre PAUL, Wilfried LE MAITRE, Yvan CRENN : Qualifiés pour le championnat départemental triplettes Promotion
+- Roger CROGUENNEC, Albert GOURVEN, Henry LE MOULLEC : Qualifiés pour le championnat départemental triplettes Promotion
+- Pierre PAUL, Wilfried LE MAITRE, Yvan CRENN : Qualifiés pour le championnat départemental triplettes Promotion
 
 \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
@@ -159,7 +159,7 @@ CHAMPIONNAT SECTEUR 4 TRIPLETTES PROMOTION du 18 MARS A BENODET
 
 **RESULTATS:**
 
--   **3 parties gagnées:**
+- **3 parties gagnées:**
 
 Joseph LE STUM, Gilbert CAROFF , Patrick OLIVRY
 
@@ -169,7 +169,7 @@ Pierre GESTIN, Bernard JEGOU, Gilbert GOARIN
 
 Jean Marie FALCAO, Joseph KERMAREC, Gaston VOILLEMIN,
 
--   **2 parties gagnées:**
+- **2 parties gagnées:**
 
 Henry LE MOULLEC, Roger CROGUENNEC, Albert GOURVEN
 
@@ -185,8 +185,8 @@ CHAMPIONNAT SECTEUR 4 TRIPLETTES OPEN du 11 MARS A AUDIERNE
 
 **RESULTATS:**
 
--   Pierre PAUL, Raymond LE FUR, Yvan CRENN : Qualifiés pour le championnat départemental triplettes open
--   Gilbert CAROFF, Philippe MARIANA, Christian COLLARD : Qualifiés en tant que remplaçants pour le championnat départemental open triplettes.
+- Pierre PAUL, Raymond LE FUR, Yvan CRENN : Qualifiés pour le championnat départemental triplettes open
+- Gilbert CAROFF, Philippe MARIANA, Christian COLLARD : Qualifiés en tant que remplaçants pour le championnat départemental open triplettes.
 
 \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
@@ -198,7 +198,7 @@ CHAMPIONNAT SECTEUR 4 TRIPLETTES OPEN du 11 MARS A AUDIERNE
 
 **RESULTATS:**
 
--   **3 parties gagnées**
+- **3 parties gagnées**
 
 Gilbert YQUEL , Patrick OLIVRY
 

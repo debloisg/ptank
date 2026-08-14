@@ -10,7 +10,7 @@ joomlaId: 311
 hits: 3542
 ---
 
-![Journal Décembre 2017](/images/archives/2017/journal-2017-12/z5qjdgq_e8icgrfqvgvm-eba8ls.gif){width="466" height="205"}
+![Journal Décembre 2017](/images/archives/2017/journal-2017-12/z5qjdgq_e8icgrfqvgvm-eba8ls.gif){height="205" width="466"}
 
 ## **CHALLENGE INTERNE D'HIVER**
 
@@ -20,31 +20,31 @@ hits: 3542
 
 \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
-![Journal Décembre 2017](/images/archives/2017/journal-2017-12/logoca1.png){width="100" height="85"}
+![Journal Décembre 2017](/images/archives/2017/journal-2017-12/logoca1.webp){height="85" width="100"}
 
-### ** CHALLENGE INTERNE D'AUTOMNE DU CREDIT AGRICOLE**
+### \*\* CHALLENGE INTERNE D'AUTOMNE DU CREDIT AGRICOLE\*\*
 
-![Journal Décembre 2017](/images/archives/2017/journal-2017-12/ca172.png){width="640" height="333"}
+![Journal Décembre 2017](/images/archives/2017/journal-2017-12/ca172.webp){height="333" width="640"}
 
 Au mois de novembre le club a organisé pour ses adhérents un challenge interne . Cette compétition, en doublette et en triplette, s’est déroulée sur quatre mercredis et en trois parties, les joueurs changeant de partenaire à chaque partie. En moyenne 56 joueurs se sont présentés par journée pour ce challenge.
 
 **Résultat :**
 
--   **1e C 23pts, G.A. + 66**
--   **2e J.L.Girard 23pts, G.A. + 61**
--   **3e M.Lancien 21pts, G.A. + 36**
--   **4e Ch.Gestin 20pts, G.A. + 10**
--   **5e D.Floch 20pts, G.A. +9**
+- **1e C 23pts, G.A. + 66**
+- **2e J.L.Girard 23pts, G.A. + 61**
+- **3e M.Lancien 21pts, G.A. + 36**
+- **4e Ch.Gestin 20pts, G.A. + 10**
+- **5e D.Floch 20pts, G.A. +9**
 
 Suivent avec 19pts :
 
 **H.Caradec, M.Coyac, M.Detoc, J.Le Bourgocq, G.Nédélec, Ch.Simonin**
 
-_Jo Le Stum_
+*Jo Le Stum*
 
 \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
-![Journal Décembre 2017](/images/archives/2017/journal-2017-12/blaspet70.png){width="70" height="66"}![Journal Décembre 2017](/images/archives/2017/journal-2017-12/tlthon-2017.png){width="311" height="162"}
+![Journal Décembre 2017](/images/archives/2017/journal-2017-12/blaspet70.webp){height="66" width="70"}![Journal Décembre 2017](/images/archives/2017/journal-2017-12/tlthon-2017.webp){height="162" width="311"}
 
 **Tous unis pour le Téléthon 2017 sur le boulodrome de la pétanque Fouesnantaise le samedi 9 décembre**
 
@@ -52,15 +52,15 @@ _Jo Le Stum_
 
 **Le début des parties est fixé à 14 heures, les inscriptions sont ouvertes à partir de 13h30 (3 €)**
 
-**![Journal Décembre 2017](/images/archives/2017/journal-2017-12/teleth171.jpg){width="640" height="361"}**
+**![Journal Décembre 2017](/images/archives/2017/journal-2017-12/teleth171.webp){height="361" width="640"}**
 
-**![Journal Décembre 2017](/images/archives/2017/journal-2017-12/teleth174.jpg){width="640" height="361"}**
+**![Journal Décembre 2017](/images/archives/2017/journal-2017-12/teleth174.webp){height="361" width="640"}**
 
-![Journal Décembre 2017](/images/archives/2017/journal-2017-12/teleth176.jpg){width="640" height="361"}
+![Journal Décembre 2017](/images/archives/2017/journal-2017-12/teleth176.webp){height="361" width="640"}
 
-![Journal Décembre 2017](/images/archives/2017/journal-2017-12/teleth177.jpg){width="640" height="361"}
+![Journal Décembre 2017](/images/archives/2017/journal-2017-12/teleth177.webp){height="361" width="640"}
 
-![Journal Décembre 2017](/images/archives/2017/journal-2017-12/teleth178.jpg){width="640" height="361"}
+![Journal Décembre 2017](/images/archives/2017/journal-2017-12/teleth178.webp){height="361" width="640"}
 
 ## TELETHON 2017
 
@@ -80,11 +80,11 @@ Les résultats : 5 doublettes ont gagné 3 parties,
 
 5e Janin L. et J.Y.Cosmao
 
-_Jo Le Stum_
+*Jo Le Stum*
 
 \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
-![Journal Décembre 2017](/images/archives/2017/journal-2017-12/pet10.jpg){width="70" height="47"}
+![Journal Décembre 2017](/images/archives/2017/journal-2017-12/pet10.webp){height="47" width="70"}
 
 ## TONNERRE DE PETANQUE A BREST
 
@@ -96,11 +96,11 @@ Journée passée autour des terrains et dans les tribunes pour admirer en direct
 
 La public était au rendez vous pour ce premier rassemblement. Grosse affluence toute la journée du samedi au parc expo. L'après midi plus de 1000 personnes, pour des raisons de sécurité, n'ont pu avoir accès au site.
 
-![Journal Décembre 2017](/images/archives/2017/journal-2017-12/petbrest1.jpg){width="640" height="480"}
+![Journal Décembre 2017](/images/archives/2017/journal-2017-12/petbrest1.webp){height="480" width="640"}
 
 Au premier plan le carré d'honneur
 
-![Journal Décembre 2017](/images/archives/2017/journal-2017-12/petbrest2.jpg){width="646" height="485"}
+![Journal Décembre 2017](/images/archives/2017/journal-2017-12/petbrest2.webp){height="485" width="646"}
 
 Philippe Quintais à l'appoint, Philippe Souchaud milieu, et le Brestois Philippe Pouymembrat tireur ( joueur du club de Plounéour Ménez).
 

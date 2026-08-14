@@ -5,7 +5,7 @@ date: 2013-07-05
 year: 2012
 category: "Journaux du club"
 journal: "2012-03"
-image: "/images/archives/2012/journal-2012-03/breton20petanque.jpg"
+image: "/images/archives/2012/journal-2012-03/breton20petanque.webp"
 joomlaId: 99
 hits: 4838
 ---
@@ -14,7 +14,7 @@ hits: 4838
 
 Très bonnes performances de nos joueurs pour ce mois dans différentes compétitions: championnat des clubs du finistère, concours vétérans et concours seniors du secteur 4.....
 
-![Journal Mars 2012](/images/archives/2012/journal-2012-03/breton20petanque.jpg){width="120" height="120"}
+![Journal Mars 2012](/images/archives/2012/journal-2012-03/breton20petanque.webp){height="120" width="120"}
 
 ## CONCOURS VETERANS EN TRIPLETTES DU JEUDI 29 MARS A FOUESNANT
 
@@ -32,7 +32,7 @@ Les résultats des fouesnantais sont plus que satisfaisants mais ils ont laissé
 - 2e Chapalain, Belbeoch, Le Goariguer de Tréboul
 - 3e Hémidy, Brosolo, Quéméré A. de Fouesnant.
 
-![Journal Mars 2012](/images/archives/2012/journal-2012-03/bouleroule.gif){width="70" height="69"}
+![Journal Mars 2012](/images/archives/2012/journal-2012-03/bouleroule.gif){height="69" width="70"}
 
 ## SECTEUR TRIPLETTES PROMOTION A COMBRIT LE 18 MARS 2012
 
@@ -42,7 +42,7 @@ L'équipe composée de : David KERDREUX, Michel GERMEUR, Dominique GORSE, est fi
 
 L'équipe composée de: Laurent GOMEZ, Bernard JEGOU, Yvon CHEVANCE se qualifie également en tant qu'équipe remplaçante.
 
-![Journal Mars 2012](/images/archives/2012/journal-2012-03/boules_fleche5b15d.gif){width="60" height="60"}
+![Journal Mars 2012](/images/archives/2012/journal-2012-03/boules_fleche5b15d.gif){height="60" width="60"}
 
 ## COUPE DU FINISTERE A PLOMELIN LE 17 MARS 2012
 
@@ -58,7 +58,7 @@ Le 17 Mars a eu lieu à plomelin le premier tour de la coupe du Finistère contr
 
 ### Gilbert CAROFF, Désiré FLOCH, J Pierre VIVES, Andrée NEDELEC, Georges NEDELEC, Dominique GORSE
 
-![Journal Mars 2012](/images/archives/2012/journal-2012-03/bouleroule-2.gif){width="70" height="69"}
+![Journal Mars 2012](/images/archives/2012/journal-2012-03/bouleroule-2.gif){height="69" width="70"}
 
 ## CONCOURS SENIORS A FOUESNANT LE SAMEDI 10 MARS
 
@@ -87,7 +87,7 @@ C’est par un temps agréable pour la saison que les 80 doublettes issues de 20
 - 2e Bouc’h T. et Péron C. du POCQ
 - 3e Le Moullec h. et Rolland J. de Fouesnant.
 
-![Journal Mars 2012](/images/archives/2012/journal-2012-03/boules_fleche5b15d-2.gif){width="60" height="60"}
+![Journal Mars 2012](/images/archives/2012/journal-2012-03/boules_fleche5b15d-2.gif){height="60" width="60"}
 
 ## SECTEUR TRIPLETTES OPEN A PLOMELIN
 
@@ -104,7 +104,7 @@ Fèlicitation à nos trois représentants et bonne chance pour la suite.
 - · Deux triplettes gagnées sur deux
 - FOUESNANT l'emporte avec un score de 22 pts à 14 pts .
 
-![Journal Mars 2012](/images/archives/2012/journal-2012-03/petanque.jpg){width="320" height="170"}
+![Journal Mars 2012](/images/archives/2012/journal-2012-03/petanque.webp){height="170" width="320"}
 
 ## CHAMPIONNAT PAR EQUIPES DE CLUBS VETERANS DIVISION 1 POULE 9 A COMBRIT contre TREBOUL LE 6 MARS
 
@@ -141,15 +141,13 @@ C'est sous un beau soleil et dans des conditions idéales que s'est déroulée c
 
 #### Résultats pour Fouesnant:
 
--   ## Quatre "Tête à Tête" sur six
-
--   ## Trois doublettes sur trois
-
--   ## Deux triplettes sur deux
+- ## Quatre "Tête à Tête" sur six
+- ## Trois doublettes sur trois
+- ## Deux triplettes sur deux
 
 ### Fouesnant l'emporte avec un score de 27 points à 4 points
 
-![Journal Mars 2012](/images/archives/2012/journal-2012-03/bravo.gif){width="115" height="115"}
+![Journal Mars 2012](/images/archives/2012/journal-2012-03/bravo.gif){height="115" width="115"}
 
 ## MEILLEURES PERFORMANCES DU MOIS:
 

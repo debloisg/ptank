@@ -15,19 +15,19 @@
       "to": "2022-12",
       "thumbs": [
         {
-          "src": "/images/galerie/marche-noel/3700902551251787940.jpg",
+          "src": "/images/galerie/marche-noel/3700902551251787940.webp",
           "w": 511,
           "h": 383,
           "alt": "Marché de Noël — photo d'archive du club"
         },
         {
-          "src": "/images/galerie/marche-noel/852368100807759216.jpg",
+          "src": "/images/galerie/marche-noel/852368100807759216.webp",
           "w": 511,
           "h": 383,
           "alt": "Marché de Noël — photo d'archive du club"
         },
         {
-          "src": "/images/galerie/marche-noel/march_noel_22_1.jpg",
+          "src": "/images/galerie/marche-noel/march_noel_22_1.webp",
           "w": 400,
           "h": 567,
           "alt": "Marché de Noël — photo d'archive du club"
@@ -35,10 +35,10 @@
       ]
     }
   },
-  "cover": "/images/galerie/marche-noel/march_noel_22_1.jpg",
+  "cover": "/images/galerie/marche-noel/march_noel_22_1.webp",
   "photos": [
     {
-      "src": "/images/galerie/marche-noel/3700902551251787940.jpg",
+      "src": "/images/galerie/marche-noel/3700902551251787940.webp",
       "w": 511,
       "h": 383,
       "alt": "Marché de Noël — photo d'archive du club",
@@ -54,7 +54,7 @@
       ]
     },
     {
-      "src": "/images/galerie/marche-noel/852368100807759216.jpg",
+      "src": "/images/galerie/marche-noel/852368100807759216.webp",
       "w": 511,
       "h": 383,
       "alt": "Marché de Noël — photo d'archive du club",
@@ -70,7 +70,7 @@
       ]
     },
     {
-      "src": "/images/galerie/marche-noel/march_noel_22_1.jpg",
+      "src": "/images/galerie/marche-noel/march_noel_22_1.webp",
       "w": 400,
       "h": 567,
       "alt": "Marché de Noël — photo d'archive du club",

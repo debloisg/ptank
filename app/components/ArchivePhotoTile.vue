@@ -17,7 +17,6 @@ const props = defineProps<{
   photo: IndexedGalleryPhoto
   /** `square` crops to a uniform grid; `natural` keeps the real aspect ratio. */
   variant?: 'square' | 'natural'
-  sizes?: string
   /** Pulses the tile — set when a URL fragment points at this photo. */
   flash?: boolean
 }>()
@@ -46,22 +45,32 @@ const openLabel = computed(() => {
 <template>
   <div
     :id="domId"
-    class="group relative overflow-hidden rounded-xl border border-default bg-muted"
+    class="group relative overflow-hidden rounded-xl border border-default bg-default"
     :class="flash ? 'photo-flash' : undefined"
   >
     <!-- `overflow-hidden` is safe alongside the flash: it clips this element's
          DESCENDANTS (the zooming image, the caption gradient), not the element's
          own box-shadow, which is what the glow is drawn with. -->
+    <!-- `variant: 'base'` pins the full-size file: this is the SAME file the
+         lightbox opens, so loading the grid warms its cache (and the median photo
+         is 680px anyway — the -800 rendition would be identical bytes under a
+         different URL). Without it the provider would map the `w` attribute, which
+         is only here to set the aspect ratio the CSS box reserves, which is what
+         keeps the grid from shifting as photos decode. The blur placeholder is the
+         photo's pre-generated -ph.webp sibling. -->
+    <!-- Pulses until the (opaque) placeholder or photo paints over it — the img
+         is `relative` and later in the DOM, so it stacks above the skeleton. -->
+    <USkeleton class="absolute inset-0" />
     <NuxtImg
       :src="photo.src"
       :alt="photo.alt"
       :width="photo.w"
       :height="photo.h"
-      format="auto"
-      :sizes="sizes ?? '50vw sm:33vw lg:25vw'"
+      :modifiers="{ variant: 'base' }"
+      :placeholder="imagePlaceholder(photo.src)"
+      placeholder-class="blur-lg"
       loading="lazy"
-      placeholder
-      class="w-full transition-transform duration-300 group-hover:scale-[1.03]"
+      class="relative w-full bg-default transition-transform duration-300 group-hover:scale-[1.03]"
       :class="variant === 'natural' ? 'h-full object-cover' : 'aspect-square object-cover'"
     />
 

@@ -24,7 +24,7 @@
       "to": "2014-07",
       "thumbs": [
         {
-          "src": "/images/galerie/fete-des-pommiers/fetedespom14.jpg",
+          "src": "/images/galerie/fete-des-pommiers/fetedespom14.webp",
           "w": 535,
           "h": 404,
           "alt": "Fête des pommiers — photo d'archive du club"
@@ -37,13 +37,13 @@
       "to": "2015-07",
       "thumbs": [
         {
-          "src": "/images/galerie/fete-des-pommiers/fdespomm1.jpg",
+          "src": "/images/galerie/fete-des-pommiers/fdespomm1.webp",
           "w": 300,
           "h": 424,
           "alt": "Fête des pommiers — photo d'archive du club"
         },
         {
-          "src": "/images/galerie/fete-des-pommiers/fetdespom15.jpg",
+          "src": "/images/galerie/fete-des-pommiers/fetdespom15.webp",
           "w": 640,
           "h": 290,
           "alt": "Fête des pommiers — photo d'archive du club"
@@ -69,25 +69,25 @@
       "to": "2017-07-12",
       "thumbs": [
         {
-          "src": "/images/galerie/fete-des-pommiers/fetpomm17.jpg",
+          "src": "/images/galerie/fete-des-pommiers/fetpomm17.webp",
           "w": 650,
           "h": 893,
           "alt": "Fête des pommiers — photo d'archive du club"
         },
         {
-          "src": "/images/galerie/fete-des-pommiers/fetpom171.jpg",
+          "src": "/images/galerie/fete-des-pommiers/fetpom171.webp",
           "w": 650,
           "h": 366,
           "alt": "Fête des pommiers — photo d'archive du club"
         },
         {
-          "src": "/images/galerie/fete-des-pommiers/fetpom172.jpg",
+          "src": "/images/galerie/fete-des-pommiers/fetpom172.webp",
           "w": 650,
           "h": 366,
           "alt": "Fête des pommiers — photo d'archive du club"
         },
         {
-          "src": "/images/galerie/fete-des-pommiers/fetpom173.jpg",
+          "src": "/images/galerie/fete-des-pommiers/fetpom173.webp",
           "w": 650,
           "h": 366,
           "alt": "Fête des pommiers — photo d'archive du club"
@@ -106,13 +106,13 @@
           "alt": "Fête des pommiers — photo d'archive du club"
         },
         {
-          "src": "/images/galerie/fete-des-pommiers/pommiers191.jpg",
+          "src": "/images/galerie/fete-des-pommiers/pommiers191.webp",
           "w": 640,
           "h": 360,
           "alt": "Fête des pommiers — photo d'archive du club"
         },
         {
-          "src": "/images/galerie/fete-des-pommiers/pommiers192.jpg",
+          "src": "/images/galerie/fete-des-pommiers/pommiers192.webp",
           "w": 640,
           "h": 360,
           "alt": "Fête des pommiers — photo d'archive du club"
@@ -125,7 +125,7 @@
       "to": "2022-06",
       "thumbs": [
         {
-          "src": "/images/galerie/fete-des-pommiers/fdes_pommiers_22.png",
+          "src": "/images/galerie/fete-des-pommiers/fdes_pommiers_22.webp",
           "w": 650,
           "h": 1042,
           "alt": "Fête des pommiers — photo d'archive du club"
@@ -138,7 +138,7 @@
       "to": "2023-06-21",
       "thumbs": [
         {
-          "src": "/images/galerie/fete-des-pommiers/cc-fete_des_pom_23.jpg",
+          "src": "/images/galerie/fete-des-pommiers/cc-fete_des_pom_23.webp",
           "w": 400,
           "h": 568,
           "alt": "Fête des pommiers — photo d'archive du club"
@@ -151,7 +151,7 @@
       "to": "2026",
       "thumbs": [
         {
-          "src": "/images/galerie/fete-des-pommiers/fete_pommiers_26.jpg",
+          "src": "/images/galerie/fete-des-pommiers/fete_pommiers_26.webp",
           "w": 500,
           "h": 707,
           "alt": "Fête des pommiers — photo d'archive du club"
@@ -159,10 +159,10 @@
       ]
     }
   },
-  "cover": "/images/galerie/fete-des-pommiers/fdes_pommiers_22.png",
+  "cover": "/images/galerie/fete-des-pommiers/fdes_pommiers_22.webp",
   "photos": [
     {
-      "src": "/images/galerie/fete-des-pommiers/fetedespom14.jpg",
+      "src": "/images/galerie/fete-des-pommiers/fetedespom14.webp",
       "w": 535,
       "h": 404,
       "alt": "Fête des pommiers — photo d'archive du club",
@@ -178,7 +178,7 @@
       ]
     },
     {
-      "src": "/images/galerie/fete-des-pommiers/fdespomm1.jpg",
+      "src": "/images/galerie/fete-des-pommiers/fdespomm1.webp",
       "w": 300,
       "h": 424,
       "alt": "Fête des pommiers — photo d'archive du club",
@@ -194,7 +194,7 @@
       ]
     },
     {
-      "src": "/images/galerie/fete-des-pommiers/fetdespom15.jpg",
+      "src": "/images/galerie/fete-des-pommiers/fetdespom15.webp",
       "w": 640,
       "h": 290,
       "alt": "Fête des pommiers — photo d'archive du club",
@@ -226,7 +226,7 @@
       ]
     },
     {
-      "src": "/images/galerie/fete-des-pommiers/fetpomm17.jpg",
+      "src": "/images/galerie/fete-des-pommiers/fetpomm17.webp",
       "w": 650,
       "h": 893,
       "alt": "Fête des pommiers — photo d'archive du club",
@@ -242,7 +242,7 @@
       ]
     },
     {
-      "src": "/images/galerie/fete-des-pommiers/fetpom171.jpg",
+      "src": "/images/galerie/fete-des-pommiers/fetpom171.webp",
       "w": 650,
       "h": 366,
       "alt": "Fête des pommiers — photo d'archive du club",
@@ -258,7 +258,7 @@
       ]
     },
     {
-      "src": "/images/galerie/fete-des-pommiers/fetpom172.jpg",
+      "src": "/images/galerie/fete-des-pommiers/fetpom172.webp",
       "w": 650,
       "h": 366,
       "alt": "Fête des pommiers — photo d'archive du club",
@@ -274,7 +274,7 @@
       ]
     },
     {
-      "src": "/images/galerie/fete-des-pommiers/fetpom173.jpg",
+      "src": "/images/galerie/fete-des-pommiers/fetpom173.webp",
       "w": 650,
       "h": 366,
       "alt": "Fête des pommiers — photo d'archive du club",
@@ -290,7 +290,7 @@
       ]
     },
     {
-      "src": "/images/galerie/fete-des-pommiers/fetpom174.jpg",
+      "src": "/images/galerie/fete-des-pommiers/fetpom174.webp",
       "w": 650,
       "h": 366,
       "alt": "Fête des pommiers — photo d'archive du club",
@@ -306,7 +306,7 @@
       ]
     },
     {
-      "src": "/images/galerie/fete-des-pommiers/fetpom176.jpg",
+      "src": "/images/galerie/fete-des-pommiers/fetpom176.webp",
       "w": 650,
       "h": 366,
       "alt": "Fête des pommiers — photo d'archive du club",
@@ -322,7 +322,7 @@
       ]
     },
     {
-      "src": "/images/galerie/fete-des-pommiers/fetpom177.jpg",
+      "src": "/images/galerie/fete-des-pommiers/fetpom177.webp",
       "w": 640,
       "h": 361,
       "alt": "Fête des pommiers — photo d'archive du club",
@@ -330,7 +330,7 @@
       "dateSource": "exif"
     },
     {
-      "src": "/images/galerie/fete-des-pommiers/fetpom179.jpg",
+      "src": "/images/galerie/fete-des-pommiers/fetpom179.webp",
       "w": 650,
       "h": 366,
       "alt": "Fête des pommiers — photo d'archive du club",
@@ -354,7 +354,7 @@
       "dateSource": "path"
     },
     {
-      "src": "/images/galerie/fete-des-pommiers/pommiers191.jpg",
+      "src": "/images/galerie/fete-des-pommiers/pommiers191.webp",
       "w": 640,
       "h": 360,
       "alt": "Fête des pommiers — photo d'archive du club",
@@ -370,7 +370,7 @@
       ]
     },
     {
-      "src": "/images/galerie/fete-des-pommiers/pommiers192.jpg",
+      "src": "/images/galerie/fete-des-pommiers/pommiers192.webp",
       "w": 640,
       "h": 360,
       "alt": "Fête des pommiers — photo d'archive du club",
@@ -386,7 +386,7 @@
       ]
     },
     {
-      "src": "/images/galerie/fete-des-pommiers/fdes_pommiers_22.png",
+      "src": "/images/galerie/fete-des-pommiers/fdes_pommiers_22.webp",
       "w": 650,
       "h": 1042,
       "alt": "Fête des pommiers — photo d'archive du club",
@@ -406,7 +406,7 @@
       ]
     },
     {
-      "src": "/images/galerie/fete-des-pommiers/cc-fete_des_pom_23.jpg",
+      "src": "/images/galerie/fete-des-pommiers/cc-fete_des_pom_23.webp",
       "w": 400,
       "h": 568,
       "alt": "Fête des pommiers — photo d'archive du club",
@@ -426,7 +426,7 @@
       ]
     },
     {
-      "src": "/images/galerie/fete-des-pommiers/fete_pommiers_26.jpg",
+      "src": "/images/galerie/fete-des-pommiers/fete_pommiers_26.webp",
       "w": 500,
       "h": 707,
       "alt": "Fête des pommiers — photo d'archive du club",

@@ -15,25 +15,25 @@
       "to": "2019-12-20",
       "thumbs": [
         {
-          "src": "/images/galerie/boulodrome/dscf3946.jpg",
+          "src": "/images/galerie/boulodrome/dscf3946.webp",
           "w": 1024,
           "h": 576,
           "alt": "Boulodrome — photo d'archive du club"
         },
         {
-          "src": "/images/galerie/boulodrome/boul12.jpg",
+          "src": "/images/galerie/boulodrome/boul12.webp",
           "w": 2000,
           "h": 1125,
           "alt": "Boulodrome — photo d'archive du club"
         },
         {
-          "src": "/images/galerie/boulodrome/boulo30.png",
+          "src": "/images/galerie/boulodrome/boulo30.webp",
           "w": 852,
           "h": 768,
           "alt": "Boulodrome — photo d'archive du club"
         },
         {
-          "src": "/images/galerie/boulodrome/boulod1.jpg",
+          "src": "/images/galerie/boulodrome/boulod1.webp",
           "w": 2000,
           "h": 1125,
           "alt": "Boulodrome — photo d'archive du club"
@@ -46,25 +46,25 @@
       "to": "2020-09-18",
       "thumbs": [
         {
-          "src": "/images/galerie/boulodrome/inaugboul10.jpg",
+          "src": "/images/galerie/boulodrome/inaugboul10.webp",
           "w": 750,
           "h": 500,
           "alt": "Boulodrome — photo d'archive du club"
         },
         {
-          "src": "/images/galerie/boulodrome/inaugboul6.jpg",
+          "src": "/images/galerie/boulodrome/inaugboul6.webp",
           "w": 700,
           "h": 467,
           "alt": "Boulodrome — photo d'archive du club"
         },
         {
-          "src": "/images/galerie/boulodrome/inaugboul7.jpg",
+          "src": "/images/galerie/boulodrome/inaugboul7.webp",
           "w": 750,
           "h": 500,
           "alt": "Boulodrome — photo d'archive du club"
         },
         {
-          "src": "/images/galerie/boulodrome/inaugboul8.jpg",
+          "src": "/images/galerie/boulodrome/inaugboul8.webp",
           "w": 700,
           "h": 467,
           "alt": "Boulodrome — photo d'archive du club"
@@ -72,10 +72,10 @@
       ]
     }
   },
-  "cover": "/images/galerie/boulodrome/boulod2.jpg",
+  "cover": "/images/galerie/boulodrome/boulod2.webp",
   "photos": [
     {
-      "src": "/images/galerie/boulodrome/dscf3946.jpg",
+      "src": "/images/galerie/boulodrome/dscf3946.webp",
       "w": 1024,
       "h": 576,
       "alt": "Boulodrome — photo d'archive du club",
@@ -91,7 +91,7 @@
       ]
     },
     {
-      "src": "/images/galerie/boulodrome/boul12.jpg",
+      "src": "/images/galerie/boulodrome/boul12.webp",
       "w": 2000,
       "h": 1125,
       "alt": "Boulodrome — photo d'archive du club",
@@ -107,7 +107,7 @@
       ]
     },
     {
-      "src": "/images/galerie/boulodrome/boulo30.png",
+      "src": "/images/galerie/boulodrome/boulo30.webp",
       "w": 852,
       "h": 768,
       "alt": "Boulodrome — photo d'archive du club",
@@ -123,7 +123,7 @@
       ]
     },
     {
-      "src": "/images/galerie/boulodrome/boulod1.jpg",
+      "src": "/images/galerie/boulodrome/boulod1.webp",
       "w": 2000,
       "h": 1125,
       "alt": "Boulodrome — photo d'archive du club",
@@ -139,7 +139,7 @@
       ]
     },
     {
-      "src": "/images/galerie/boulodrome/boulod14.jpg",
+      "src": "/images/galerie/boulodrome/boulod14.webp",
       "w": 2000,
       "h": 1125,
       "alt": "Boulodrome — photo d'archive du club",
@@ -155,7 +155,7 @@
       ]
     },
     {
-      "src": "/images/galerie/boulodrome/boulodr16.jpg",
+      "src": "/images/galerie/boulodrome/boulodr16.webp",
       "w": 2000,
       "h": 1125,
       "alt": "Boulodrome — photo d'archive du club",
@@ -171,7 +171,7 @@
       ]
     },
     {
-      "src": "/images/galerie/boulodrome/boulod2.jpg",
+      "src": "/images/galerie/boulodrome/boulod2.webp",
       "w": 2000,
       "h": 1500,
       "alt": "Boulodrome — photo d'archive du club",
@@ -191,7 +191,7 @@
       ]
     },
     {
-      "src": "/images/galerie/boulodrome/boulod9.jpg",
+      "src": "/images/galerie/boulodrome/boulod9.webp",
       "w": 2000,
       "h": 1500,
       "alt": "Boulodrome — photo d'archive du club",
@@ -207,7 +207,7 @@
       ]
     },
     {
-      "src": "/images/galerie/boulodrome/boulod4.jpg",
+      "src": "/images/galerie/boulodrome/boulod4.webp",
       "w": 2000,
       "h": 1500,
       "alt": "Boulodrome — photo d'archive du club",
@@ -227,7 +227,7 @@
       ]
     },
     {
-      "src": "/images/galerie/boulodrome/boulodr2.jpg",
+      "src": "/images/galerie/boulodrome/boulodr2.webp",
       "w": 2000,
       "h": 1500,
       "alt": "Boulodrome — photo d'archive du club",
@@ -243,7 +243,7 @@
       ]
     },
     {
-      "src": "/images/galerie/boulodrome/inaugboul10.jpg",
+      "src": "/images/galerie/boulodrome/inaugboul10.webp",
       "w": 750,
       "h": 500,
       "alt": "Boulodrome — photo d'archive du club",
@@ -251,7 +251,7 @@
       "dateSource": "exif"
     },
     {
-      "src": "/images/galerie/boulodrome/inaugboul6.jpg",
+      "src": "/images/galerie/boulodrome/inaugboul6.webp",
       "w": 700,
       "h": 467,
       "alt": "Boulodrome — photo d'archive du club",
@@ -259,7 +259,7 @@
       "dateSource": "exif"
     },
     {
-      "src": "/images/galerie/boulodrome/inaugboul7.jpg",
+      "src": "/images/galerie/boulodrome/inaugboul7.webp",
       "w": 750,
       "h": 500,
       "alt": "Boulodrome — photo d'archive du club",
@@ -275,7 +275,7 @@
       ]
     },
     {
-      "src": "/images/galerie/boulodrome/inaugboul8.jpg",
+      "src": "/images/galerie/boulodrome/inaugboul8.webp",
       "w": 700,
       "h": 467,
       "alt": "Boulodrome — photo d'archive du club",
@@ -283,7 +283,7 @@
       "dateSource": "exif"
     },
     {
-      "src": "/images/galerie/boulodrome/inauguboul1.jpg",
+      "src": "/images/galerie/boulodrome/inauguboul1.webp",
       "w": 700,
       "h": 467,
       "alt": "Boulodrome — photo d'archive du club",
@@ -291,19 +291,19 @@
       "dateSource": "exif"
     },
     {
-      "src": "/images/galerie/boulodrome/boulodr1.jpg",
+      "src": "/images/galerie/boulodrome/boulodr1.webp",
       "w": 500,
       "h": 375,
       "alt": "Boulodrome — photo d'archive du club"
     },
     {
-      "src": "/images/galerie/boulodrome/boulodr2-2.jpg",
+      "src": "/images/galerie/boulodrome/boulodr2-2.webp",
       "w": 500,
       "h": 375,
       "alt": "Boulodrome — photo d'archive du club"
     },
     {
-      "src": "/images/galerie/boulodrome/boulodr4.jpg",
+      "src": "/images/galerie/boulodrome/boulodr4.webp",
       "w": 390,
       "h": 293,
       "alt": "Boulodrome — photo d'archive du club"

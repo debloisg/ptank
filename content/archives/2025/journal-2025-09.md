@@ -5,18 +5,18 @@ date: 2025-09-01
 year: 2025
 category: "Journaux du club"
 journal: "2025-09"
-image: "/images/archives/2025/journal-2025-09/journ_de_la_fem251.jpg"
+image: "/images/archives/2025/journal-2025-09/journ_de_la_fem251.webp"
 joomlaId: 485
 hits: 4920
 ---
 
 #### JOURNEE DE LA FEMME LE DIMANCHE 28 SEPTEMBRE A BENODET
 
-![Journal septembre 25](/images/archives/2025/journal-2025-09/journ_de_la_fem251.jpg){width="800" height="452"}
+![Journal septembre 25](/images/archives/2025/journal-2025-09/journ_de_la_fem251.webp){width="800" height="452"}
 
 L'ensemble des équipes féminines
 
-![Journal septembre 25](/images/archives/2025/journal-2025-09/jour_de_la_fem25_2.jpg){width="800" height="462"}
+![Journal septembre 25](/images/archives/2025/journal-2025-09/jour_de_la_fem25_2.webp){width="800" height="462"}
 
 Nos représentantes de La Pétanque Fouesnantaise
 
@@ -32,7 +32,7 @@ _Responsable de la commission féminine._
 
 ---
 
-![Journal septembre 25](/images/archives/2025/journal-2025-09/gif1.png){width="85" height="70"}
+![Journal septembre 25](/images/archives/2025/journal-2025-09/gif1.webp){width="85" height="70"}
 
 ## Gentleman de pétanque sport adapté, le samedi 27 septembre à Fouesnant
 
@@ -58,13 +58,13 @@ Le concours est géré par le comité départemental. Nous vous remercions de vo
 
 ### JOURNEE GENTLEMAN PETANQUE
 
-![Journal septembre 25](/images/archives/2025/journal-2025-09/marie-laure_jacq.jpg){width="800" height="916"}
+![Journal septembre 25](/images/archives/2025/journal-2025-09/marie-laure_jacq.webp){width="800" height="916"}
 
 "Gagnante du concours B, Marie-Laure a su nous partager et communiquer sa joie tout au long de la journée. Même si elle jouait avec son beau-frère venu pour elle de Rennes c'est elle qui a fait le show. Ses boules étaient toujours bien placées. Elle a gagné également à l'applaudimètre. Sa mère même au téléphone à partagé son bonheur...Sûre qu'elle attend la prochaine édition " _Odile_
 
-![Journal septembre 25](/images/archives/2025/journal-2025-09/chibo_25_1.jpg){width="800" height="286"}
+![Journal septembre 25](/images/archives/2025/journal-2025-09/chibo_25_1.webp){width="800" height="286"}
 
-![Journal septembre 25](/images/archives/2025/journal-2025-09/chibou_25_2.jpg){width="800" height="307"}
+![Journal septembre 25](/images/archives/2025/journal-2025-09/chibou_25_2.webp){width="800" height="307"}
 
 Ce samedi 27 septembre les associations affiliées à la Fédération Française de Sport Adapté se sont rassemblées au boulodrome de Fouesnant pour leur traditionnel concours annuel « le gentlemen pétanque » géré par le comité départemental du Finistère et initialisé par Laurent Taulen animateur sportif aux Papillons Blancs du Finistère. Ce concours est en doublette composée d’une personne licenciée à la FFPJP et d’un joueur de sport adapté. Ces personnes sont dans des foyers de jour ou de nuit du département.
 
@@ -96,7 +96,7 @@ _Responsable de la commission féminine._
 
 ---
 
-![Journal septembre 25](/images/archives/2025/journal-2025-09/gif6.jpg){width="48" height="70"}
+![Journal septembre 25](/images/archives/2025/journal-2025-09/gif6.webp){width="48" height="70"}
 
 ## ** TROPHEE VETERANS A : 1er TOUR le mardi 2 Septembre à Fouesnant**
 
@@ -106,7 +106,7 @@ Bonne chance à nos représentants.
 
 RESULTAT:
 
-![Journal septembre 25](/images/archives/2025/journal-2025-09/trphvete_j1_25_1.jpg){width="800" height="361"}
+![Journal septembre 25](/images/archives/2025/journal-2025-09/trphvete_j1_25_1.webp){width="800" height="361"}
 
 Equipe de Fouesnant de G à D de H en B
 
@@ -128,19 +128,19 @@ _Christelle Girard_
 
 #### **CHAMPIONNAT DES CLUBS SENIORS 1ère JOURNEE LE 7 SEPTEMBRE**
 
-![Journal septembre 25](/images/archives/2025/journal-2025-09/cdc_senf_f2.jpg){width="800" height="581"}
+![Journal septembre 25](/images/archives/2025/journal-2025-09/cdc_senf_f2.webp){width="800" height="581"}
 
 Fouesnant 1 Féminines
 
 Roseline, Christelle, Gisèle, Sabrina, Nathalie, Martine, Anne Marie
 
-![Journal septembre 25](/images/archives/2025/journal-2025-09/cdc_f2_25.jpg){width="800" height="804"}
+![Journal septembre 25](/images/archives/2025/journal-2025-09/cdc_f2_25.webp){width="800" height="804"}
 
 Fouesnant 2 féminines
 
 Monique, Rozen, Marie Hélène, Marie-Yvonne, Annie, Danielle
 
-![Journal septembre 25](/images/archives/2025/journal-2025-09/cdc_sen_f3_d4.jpg){width="800" height="731"}
+![Journal septembre 25](/images/archives/2025/journal-2025-09/cdc_sen_f3_d4.webp){width="800" height="731"}
 
 Fouesnant 3
 
@@ -156,7 +156,7 @@ Fouesnant 3
 
 ---
 
-![Journal septembre 25](/images/archives/2025/journal-2025-09/gif6-2.jpg){width="48" height="70"}
+![Journal septembre 25](/images/archives/2025/journal-2025-09/gif6-2.webp){width="48" height="70"}
 
 ## ** TROPHEE VETERANS A : 2ème TOUR le mardi 9 Septembre à Fouesnant**
 
@@ -168,7 +168,7 @@ Bonne chance à nos représentants.
 
 **RESULTAT:**
 
-![Journal septembre 25](/images/archives/2025/journal-2025-09/trophvet_2e_25.jpg){width="800" height="504"}
+![Journal septembre 25](/images/archives/2025/journal-2025-09/trophvet_2e_25.webp){width="800" height="504"}
 
 Beaucoup de monde dans le boulodrome, venu encourager notre équipe.
 
@@ -190,11 +190,11 @@ Victoire des Fouesnantais avec:
 
 #### **CHAMPIONNAT DES CLUBS SENIORS 2ème JOURNEE LE 14 SEPTEMBRE**
 
-![Journal septembre 25](/images/archives/2025/journal-2025-09/cdc_sen_25_f2ff4.jpg){width="800" height="598"}
+![Journal septembre 25](/images/archives/2025/journal-2025-09/cdc_sen_25_f2ff4.webp){width="800" height="598"}
 
 Equipes Fouesnant 2F et Fouesnant 3 à Audierne
 
-![Journal septembre 25](/images/archives/2025/journal-2025-09/f2f_audierne_j2.jpg){width="800" height="493"}
+![Journal septembre 25](/images/archives/2025/journal-2025-09/f2f_audierne_j2.webp){width="800" height="493"}
 
 Equipes Fouesnant 2F et Douarnenez 2
 
@@ -209,7 +209,7 @@ Equipes Fouesnant 2F et Douarnenez 2
 
 ---
 
-![Journal septembre 25](/images/archives/2025/journal-2025-09/gif1-2.png){width="85" height="70"}
+![Journal septembre 25](/images/archives/2025/journal-2025-09/gif1-2.webp){width="85" height="70"}
 
 ### COUPE DE FRANCE JEU PROVENCAL 2ème TOUR DE ZONE A PLOEREN LE DIMANCHE 14 SEPTEMBRE
 
@@ -221,21 +221,21 @@ Bonne chance à toute l'équipe.
 
 **RESULTAT:**
 
-![Journal septembre 25](/images/archives/2025/journal-2025-09/pcal_25_ploeren1.jpg){width="800" height="505"}
+![Journal septembre 25](/images/archives/2025/journal-2025-09/pcal_25_ploeren1.webp){width="800" height="505"}
 
 Equipe de Fouesnant et Ploeren
 
 Fouesnant s'incline face à l'équipe de Ploeren sur un score de 8 à 11. Bonne chance à l'équipe de Ploeren pour la suite.
 
-![Journal septembre 25](/images/archives/2025/journal-2025-09/cpe_fr_jeuprov_3e.jpg){width="800" height="1245"}
+![Journal septembre 25](/images/archives/2025/journal-2025-09/cpe_fr_jeuprov_3e.webp){width="800" height="1245"}
 
 ---
 
-![Journal septembre 25](/images/archives/2025/journal-2025-09/blaspet70.png){width="70" height="66"}
+![Journal septembre 25](/images/archives/2025/journal-2025-09/blaspet70.webp){width="70" height="66"}
 
 ### FORUM DES ASSOCIATIONS
 
-![Journal septembre 25](/images/archives/2025/journal-2025-09/forum_25pf1.jpg){width="582" height="770"}
+![Journal septembre 25](/images/archives/2025/journal-2025-09/forum_25pf1.webp){width="582" height="770"}
 
 La pétanque Fouesnantaise, avec ses 2 co-présidents, était présente au forum des associations de Fouesnant et on a enregistré de nouvelles inscriptions. Le club se porte plutôt bien .
 
@@ -258,7 +258,7 @@ Jean Michel Piguel-Lozac'h
 
 ---
 
-![Journal septembre 25](/images/archives/2025/journal-2025-09/gif6-3.jpg){width="48" height="70"}
+![Journal septembre 25](/images/archives/2025/journal-2025-09/gif6-3.webp){width="48" height="70"}
 
 ## ** TROPHEE VETERANS A : 3ème TOUR le mardi 23 Septembre à BANNALEC**
 
@@ -270,7 +270,7 @@ Bonne chance à nos représentants.
 
 **RESULTAT:**
 
-![Journal septembre 25](/images/archives/2025/journal-2025-09/troph_vet_3e_25.jpg){width="800" height="409"}
+![Journal septembre 25](/images/archives/2025/journal-2025-09/troph_vet_3e_25.webp){width="800" height="409"}
 
 Fouesnant s'impose face à Bannalec sur un score de 22 pts à 9 pts.
 

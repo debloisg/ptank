@@ -5,12 +5,12 @@ date: 2021-12-31
 year: 2022
 category: "Journaux du club"
 journal: "2022-04"
-image: "/images/archives/2022/journal-2022-04/icon-48-alert.png"
+image: "/images/archives/2022/journal-2022-04/icon-48-alert.webp"
 joomlaId: 415
 hits: 5390
 ---
 
-![icon 48 alert](/images/archives/2022/journal-2022-04/icon-48-alert.png){width="48" height="48"}
+![icon 48 alert](/images/archives/2022/journal-2022-04/icon-48-alert.webp){width="48" height="48"}
 
 ### ******PROTOCOLE SANITAIRE COMMUNIQUE DE LA FFPJP**
 
@@ -21,7 +21,7 @@ protocole sanitaire F.F.P.J.P.**
 
 ---
 
-![journal Avril 2022](/images/archives/2022/journal-2022-04/gif6.jpg){width="48" height="70"}
+![journal Avril 2022](/images/archives/2022/journal-2022-04/gif6.webp){width="48" height="70"}
 
 ** CHAMPIONNAT DES CLUBS VETERANS 4ème JOURNEE LE MARDI 12 Avril.**
 
@@ -38,7 +38,7 @@ protocole sanitaire F.F.P.J.P.**
 
 ---
 
-![journal Avril 2022](/images/archives/2022/journal-2022-04/gif7.jpg){width="70" height="72"}
+![journal Avril 2022](/images/archives/2022/journal-2022-04/gif7.webp){width="70" height="72"}
 
 ## **COUPE FRANCE 1er TOUR**
 
@@ -66,7 +66,7 @@ _Gibert Caroff_
 
 ---
 
-![journal Avril 2022](/images/archives/2022/journal-2022-04/imag1.jpg){width="121" height="79"}
+![journal Avril 2022](/images/archives/2022/journal-2022-04/imag1.webp){width="121" height="79"}
 
 ## ** CHAMPIONNAT QUALIFICATIF SECTEUR DOUBLETTES MIXTES Dimanche 17 Avril à Plomelin**
 
@@ -105,7 +105,7 @@ Restauration sur place dans le boulodrome couvert.
 | 86 | 136 | 34 | COQUILLON Alain | LE PERRU Marc | KERADENNEC Jean Yves | Perdant Partie Barrage |
 | 90 | 137 | 37 | LE MOULLEC Henry | GESTIN Pierre | FOUQUET Patrick | Perdant Partie Barrage |
 
-![journal Avril 2022](/images/archives/2022/journal-2022-04/chpt_tri_vete_22_5.jpg){width="640" height="480"}
+![journal Avril 2022](/images/archives/2022/journal-2022-04/chpt_tri_vete_22_5.webp){width="640" height="480"}
 
 **Les vainqueurs, premiers de la compétition, du **Pétanque Club de Plounéour Ménez****
 
@@ -115,7 +115,7 @@ en compagnie de Joel LARREUR Président du Comité départemental du Finistère 
 
 Gilbert Caroff et Désiré Floch Coprésidents
 
-![journal Avril 2022](/images/archives/2022/journal-2022-04/chpt_tri_vete_22_7.jpg){width="640" height="480"}
+![journal Avril 2022](/images/archives/2022/journal-2022-04/chpt_tri_vete_22_7.webp){width="640" height="480"}
 
 **Les finalistes, deuxième, du club de l'intégrale Guilérienne**
 
@@ -125,31 +125,31 @@ Gildas Cornec, adjoint associations à la mairie de Fouesnant, Désiré Floch Co
 
 les délégués départementaux de pétanque : Joel Larreur , Patrice Nédélec ,Denise Le Guen et Corinne Nédélec .
 
-![journal Avril 2022](/images/archives/2022/journal-2022-04/sans_titre.png){width="800" height="332"}
+![journal Avril 2022](/images/archives/2022/journal-2022-04/sans_titre.webp){width="800" height="332"}
 
 Equipe de Guilers avec un des trois arbitres de la compétition et les coprésidents de la Pétanque Fouesnantaise
 
-![journal Avril 2022](/images/archives/2022/journal-2022-04/chpt_tri_vete_1.jpg){width="640" height="480"}
+![journal Avril 2022](/images/archives/2022/journal-2022-04/chpt_tri_vete_1.webp){width="640" height="480"}
 
 C'est parti pour les 149 triplettes sous le soleil radieux de Fouesnant
 
-![journal Avril 2022](/images/archives/2022/journal-2022-04/chpt_tri_vete4.jpg){width="640" height="333"}
+![journal Avril 2022](/images/archives/2022/journal-2022-04/chpt_tri_vete4.webp){width="640" height="333"}
 
 Les terrains n'étaient pas faciles, très sélectifs
 
-![journal Avril 2022](/images/archives/2022/journal-2022-04/chpt_tri_vete_2.jpg){width="640" height="458"}
+![journal Avril 2022](/images/archives/2022/journal-2022-04/chpt_tri_vete_2.webp){width="640" height="458"}
 
 Henry Le Moullec représentant de La Pétanque Fouesnantaise à l'oeuvre
 
-![journal Avril 2022](/images/archives/2022/journal-2022-04/chpt_tri_vete_22_9.jpg){width="640" height="611"}
+![journal Avril 2022](/images/archives/2022/journal-2022-04/chpt_tri_vete_22_9.webp){width="640" height="611"}
 
 Parmis les 50 bénévoles, les chefs ont assuré aux fourneaux pendant ces deux jours, les friteuses et les barbecues ont chauffé au max !
 
-![journal Avril 2022](/images/archives/2022/journal-2022-04/chpt_tri_vete_22_14.jpg){width="640" height="480"}
+![journal Avril 2022](/images/archives/2022/journal-2022-04/chpt_tri_vete_22_14.webp){width="640" height="480"}
 
 Les femmes aussi étaient bien représentées durant ces deux jours pour l'organistion et la tenue des différents postes
 
-![journal Avril 2022](/images/archives/2022/journal-2022-04/schuppe.png){width="640" height="485"}
+![journal Avril 2022](/images/archives/2022/journal-2022-04/schuppe.webp){width="640" height="485"}
 
 Bruno l'un des bénévoles très présent et actif pour ces deux journées.
 
@@ -171,7 +171,7 @@ _photos de: Jean Marie falco, Jean Pierre Guern, Bruno Schuppe, Roger Croguennec
 
 ---
 
-![journal Avril 2022](/images/archives/2022/journal-2022-04/imag1-2.jpg){width="121" height="79"}
+![journal Avril 2022](/images/archives/2022/journal-2022-04/imag1-2.webp){width="121" height="79"}
 
 ## ******CHAMPIONNAT DEPARTEMENTAL INDIVIDUEL le 24 Avril à Plounéour Ménez**
 
@@ -189,7 +189,7 @@ RESULTAT:
 
 ---
 
-![journal Avril 2022](/images/archives/2022/journal-2022-04/gif6-2.jpg){width="48" height="70"}
+![journal Avril 2022](/images/archives/2022/journal-2022-04/gif6-2.webp){width="48" height="70"}
 
 ** CHAMPIONNAT DES CLUBS VETERANS 5 ème JOURNEE Le mardi 26 Avril.**
 
@@ -206,7 +206,7 @@ RESULTAT:
 
 ---
 
-![journal Avril 2022](/images/archives/2022/journal-2022-04/gif7-2.jpg){width="70" height="72"}
+![journal Avril 2022](/images/archives/2022/journal-2022-04/gif7-2.webp){width="70" height="72"}
 
 ## **COUPE FRANCE 2ème TOUR le 30 Avril**
 
@@ -218,7 +218,7 @@ Bonne chance à nos représentants.
 
 **RESULTAT:**
 
-**![journal Avril 2022](/images/archives/2022/journal-2022-04/cpe_fr_22.jpg){width="680" height="397"}**
+**![journal Avril 2022](/images/archives/2022/journal-2022-04/cpe_fr_22.webp){width="680" height="397"}**
 
 \- 2ème tour de Coupe de France, Samedi 30 Avril à PLOUVORN:
 

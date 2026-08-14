@@ -104,6 +104,10 @@ defineExpose({ show })
         </div>
 
         <div class="relative flex min-h-0 flex-1 items-center justify-center px-2 sm:px-16">
+          <!-- `variant: 'base'`: the viewer wants the full-size file — the same
+               URL the grid tile already loaded, so it's warm in cache. Without
+               the pin the provider would map the aspect-ratio `w` attribute to
+               the -800 rendition. -->
           <NuxtImg
             v-if="current"
             :key="current.src"
@@ -111,8 +115,7 @@ defineExpose({ show })
             :alt="current.alt"
             :width="current.w"
             :height="current.h"
-            format="auto"
-            sizes="100vw lg:1400px"
+            :modifiers="{ variant: 'base' }"
             loading="eager"
             fetchpriority="high"
             class="max-h-full max-w-full object-contain"
@@ -174,8 +177,7 @@ defineExpose({ show })
             alt=""
             :width="photo.w"
             :height="photo.h"
-            format="auto"
-            sizes="100vw lg:1400px"
+            :modifiers="{ variant: 'base' }"
             loading="eager"
           />
         </div>

@@ -5,12 +5,12 @@ date: 2020-05-08
 year: 2020
 category: "Journaux du club"
 journal: "2020-05"
-image: "/images/archives/2020/journal-2020-05/muguet1.png"
+image: "/images/archives/2020/journal-2020-05/muguet1.webp"
 joomlaId: 376
 hits: 3933
 ---
 
-![journal mai 2020](/images/archives/2020/journal-2020-05/muguet1.png){width="340" height="148"}
+![journal mai 2020](/images/archives/2020/journal-2020-05/muguet1.webp){width="340" height="148"}
 
 _\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\__
 
@@ -126,7 +126,7 @@ _\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\
 
 \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
-![journal mai 2020](/images/archives/2020/journal-2020-05/gif9.jpg){width="70" height="73"}
+![journal mai 2020](/images/archives/2020/journal-2020-05/gif9.webp){width="70" height="73"}
 
 ## CHAMPIONNAT de CLUBS ( CdC ) 7 ème JOURNEE (ANNULE)
 

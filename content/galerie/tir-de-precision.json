@@ -17,19 +17,19 @@
       "to": "2024-12-14",
       "thumbs": [
         {
-          "src": "/images/galerie/tir-de-precision/tdp25_fem.jpg",
+          "src": "/images/galerie/tir-de-precision/tdp25_fem.webp",
           "w": 700,
           "h": 693,
           "alt": "Tir de précision — photo d'archive du club"
         },
         {
-          "src": "/images/galerie/tir-de-precision/tir_25.jpg",
+          "src": "/images/galerie/tir-de-precision/tir_25.webp",
           "w": 800,
           "h": 566,
           "alt": "Tir de précision — photo d'archive du club"
         },
         {
-          "src": "/images/galerie/tir-de-precision/tdp_25_masc.jpg",
+          "src": "/images/galerie/tir-de-precision/tdp_25_masc.webp",
           "w": 700,
           "h": 525,
           "alt": "Tir de précision — photo d'archive du club"
@@ -37,10 +37,10 @@
       ]
     }
   },
-  "cover": "/images/galerie/tir-de-precision/tdp25_fem.jpg",
+  "cover": "/images/galerie/tir-de-precision/tdp25_fem.webp",
   "photos": [
     {
-      "src": "/images/galerie/tir-de-precision/tdp25_fem.jpg",
+      "src": "/images/galerie/tir-de-precision/tdp25_fem.webp",
       "w": 700,
       "h": 693,
       "alt": "Tir de précision — photo d'archive du club",
@@ -56,7 +56,7 @@
       ]
     },
     {
-      "src": "/images/galerie/tir-de-precision/tir_25.jpg",
+      "src": "/images/galerie/tir-de-precision/tir_25.webp",
       "w": 800,
       "h": 566,
       "alt": "Tir de précision — photo d'archive du club",
@@ -72,7 +72,7 @@
       ]
     },
     {
-      "src": "/images/galerie/tir-de-precision/tdp_25_masc.jpg",
+      "src": "/images/galerie/tir-de-precision/tdp_25_masc.webp",
       "w": 700,
       "h": 525,
       "alt": "Tir de précision — photo d'archive du club",

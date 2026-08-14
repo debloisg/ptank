@@ -15,25 +15,25 @@
       "to": "2018-10-30",
       "thumbs": [
         {
-          "src": "/images/galerie/tenues/tenues_25_1.jpg",
+          "src": "/images/galerie/tenues/tenues_25_1.webp",
           "w": 800,
           "h": 566,
           "alt": "Tenues — photo d'archive du club"
         },
         {
-          "src": "/images/galerie/tenues/tenues_25_2.jpg",
+          "src": "/images/galerie/tenues/tenues_25_2.webp",
           "w": 800,
           "h": 566,
           "alt": "Tenues — photo d'archive du club"
         },
         {
-          "src": "/images/galerie/tenues/tenues_25_3.jpg",
+          "src": "/images/galerie/tenues/tenues_25_3.webp",
           "w": 800,
           "h": 566,
           "alt": "Tenues — photo d'archive du club"
         },
         {
-          "src": "/images/galerie/tenues/tenues_25_4.jpg",
+          "src": "/images/galerie/tenues/tenues_25_4.webp",
           "w": 800,
           "h": 566,
           "alt": "Tenues — photo d'archive du club"
@@ -41,10 +41,10 @@
       ]
     }
   },
-  "cover": "/images/galerie/tenues/tenues_25_cd29.jpg",
+  "cover": "/images/galerie/tenues/tenues_25_cd29.webp",
   "photos": [
     {
-      "src": "/images/galerie/tenues/tenues_25_1.jpg",
+      "src": "/images/galerie/tenues/tenues_25_1.webp",
       "w": 800,
       "h": 566,
       "alt": "Tenues — photo d'archive du club",
@@ -60,7 +60,7 @@
       ]
     },
     {
-      "src": "/images/galerie/tenues/tenues_25_2.jpg",
+      "src": "/images/galerie/tenues/tenues_25_2.webp",
       "w": 800,
       "h": 566,
       "alt": "Tenues — photo d'archive du club",
@@ -76,7 +76,7 @@
       ]
     },
     {
-      "src": "/images/galerie/tenues/tenues_25_3.jpg",
+      "src": "/images/galerie/tenues/tenues_25_3.webp",
       "w": 800,
       "h": 566,
       "alt": "Tenues — photo d'archive du club",
@@ -92,7 +92,7 @@
       ]
     },
     {
-      "src": "/images/galerie/tenues/tenues_25_4.jpg",
+      "src": "/images/galerie/tenues/tenues_25_4.webp",
       "w": 800,
       "h": 566,
       "alt": "Tenues — photo d'archive du club",
@@ -108,7 +108,7 @@
       ]
     },
     {
-      "src": "/images/galerie/tenues/tenues_25_cd29.jpg",
+      "src": "/images/galerie/tenues/tenues_25_cd29.webp",
       "w": 944,
       "h": 1389,
       "alt": "Tenues — photo d'archive du club"

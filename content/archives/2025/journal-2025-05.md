@@ -5,42 +5,42 @@ date: 2025-04-30
 year: 2025
 category: "Journaux du club"
 journal: "2025-05"
-image: "/images/archives/2025/journal-2025-05/gif7.jpg"
+image: "/images/archives/2025/journal-2025-05/gif7.webp"
 joomlaId: 481
 hits: 5515
 ---
 
-![Journal mai 25](/images/archives/2025/journal-2025-05/gif7.jpg){width="70" height="72"}
+![Journal mai 25](/images/archives/2025/journal-2025-05/gif7.webp){width="70" height="72"}
 
 ## RESULTAT RASSEMBLEMENT VETERANS DU 02 MAI A FOUESNANT
 
-![Journal mai 25](/images/archives/2025/journal-2025-05/rass25_9.jpg){width="800" height="600"}
+![Journal mai 25](/images/archives/2025/journal-2025-05/rass25_9.webp){width="800" height="600"}
 
-![Journal mai 25](/images/archives/2025/journal-2025-05/rass25_2.jpg){width="400" height="534"}
+![Journal mai 25](/images/archives/2025/journal-2025-05/rass25_2.webp){width="400" height="534"}
 
 1ers Antoine Guillou Thierry Bourc'h
 
-![Journal mai 25](/images/archives/2025/journal-2025-05/raas25_5.jpg){width="800" height="600"}
+![Journal mai 25](/images/archives/2025/journal-2025-05/raas25_5.webp){width="800" height="600"}
 
 2èmes Jean Luc Corrigou, Didier Fave
 
-![Journal mai 25](/images/archives/2025/journal-2025-05/rass25_11.jpg){width="800" height="600"}
+![Journal mai 25](/images/archives/2025/journal-2025-05/rass25_11.webp){width="800" height="600"}
 
 3èmes Gilbert Guillerm, Jean Charles Denic
 
-![Journal mai 25](/images/archives/2025/journal-2025-05/rass25_1.jpg){width="800" height="600"}
+![Journal mai 25](/images/archives/2025/journal-2025-05/rass25_1.webp){width="800" height="600"}
 
 1ères féminines Joelle Bosser, Brigittine Gallet
 
-![Journal mai 25](/images/archives/2025/journal-2025-05/rass25_10.jpg){width="800" height="600"}
+![Journal mai 25](/images/archives/2025/journal-2025-05/rass25_10.webp){width="800" height="600"}
 
 1ers mixtes Jean Baptiste Jacolot, Laure Thommelin
 
-![Journal mai 25](/images/archives/2025/journal-2025-05/rass25_1.png){width="800" height="552"}
+![Journal mai 25](/images/archives/2025/journal-2025-05/rass25_1-2.webp){width="800" height="552"}
 
 Merci à tous nos bénévoles qui ont assuré , la table de marque, les tickets, le bar, les plateaux repas et tous les bénévoles présents avant, pendant et après pour l'installation du mobilier
 
-![Journal mai 25](/images/archives/2025/journal-2025-05/rass25_2.png){width="800" height="493"}
+![Journal mai 25](/images/archives/2025/journal-2025-05/rass25_2-2.webp){width="800" height="493"}
 
 | **Clst** | **Joueur1** | **Joueur 2** | **Pts** | **+/-** |
 | --- | --- | --- | --- | --- |
@@ -95,7 +95,7 @@ Merci à tous nos bénévoles qui ont assuré , la table de marque, les tickets,
 
 ---
 
- **![Journal mai 25](/images/archives/2025/journal-2025-05/imag1.jpg){width="121" height="79"} CHAMPIONNAT DU FINISTERE TRIPLETTES FEMININES les samedi 3 et dimanche 4 mai à Baie du Kernic à 9h**
+ **![Journal mai 25](/images/archives/2025/journal-2025-05/imag1.webp){width="121" height="79"} CHAMPIONNAT DU FINISTERE TRIPLETTES FEMININES les samedi 3 et dimanche 4 mai à Baie du Kernic à 9h**
 
 -   -   **Championnat de Bretagne à Perros-Guirec (22) le 29 mai**
 
@@ -123,7 +123,7 @@ Merci à tous nos bénévoles qui ont assuré , la table de marque, les tickets,
 | T.68 | 299 | CAROFF GILBERT <br>GUITON JORDAN <br>RAZIL GILDAS <br>(0290149/PETANQUE FOUESNANTAISE/029) | Perdants 1/32 ième |
 | T.112 | 298 | LE DREZEN GAËTAN <br>LANDOAS YVON <br>FRAVAL GWERVYN <br>(0290149/PETANQUE FOUESNANTAISE/029) | Perdants poule partie P/P |
 
-![Journal mai 25](/images/archives/2025/journal-2025-05/gif6.jpg){width="48" height="70"}
+![Journal mai 25](/images/archives/2025/journal-2025-05/gif6.webp){width="48" height="70"}
 
 ## CHAMPIONNAT DES CLUBS VETERANS
 
@@ -143,7 +143,7 @@ Merci à tous nos bénévoles qui ont assuré , la table de marque, les tickets,
 
 ---
 
-![Journal mai 25](/images/archives/2025/journal-2025-05/imag1-2.jpg){width="121" height="79"}
+![Journal mai 25](/images/archives/2025/journal-2025-05/imag1-2.webp){width="121" height="79"}
 
 ## CHAMPIONNAT DU FINISTERE TRIPLETTES MIXTES le samedi 10 et dimanche 11 mai à Plounéour Ménez 9h
 
@@ -152,7 +152,7 @@ Merci à tous nos bénévoles qui ont assuré , la table de marque, les tickets,
 
 **RESULTATS**
 
-![Journal mai 25](/images/archives/2025/journal-2025-05/chpt_tr_mix_finis_25.jpg){width="800" height="564"}
+![Journal mai 25](/images/archives/2025/journal-2025-05/chpt_tr_mix_finis_25.webp){width="800" height="564"}
 
 Bravo et filiciatations à nos représentants qui terminent en 1/2 finale du championnat du Finistère Triplettes Mixtes représentés par:
 
@@ -165,7 +165,7 @@ Violeta PRIOL, André GUERIN, Pierre BOLLINI
 
 ---
 
-![Journal mai 25](/images/archives/2025/journal-2025-05/imag1-3.jpg){width="121" height="79"}
+![Journal mai 25](/images/archives/2025/journal-2025-05/imag1-3.webp){width="121" height="79"}
 
 ## CHAMPIONNAT DU FINISTERE DOUBLETTE MASCULIN les 17 et 18 mai à Lesneven 9 h
 
@@ -195,7 +195,7 @@ Violeta PRIOL, André GUERIN, Pierre BOLLINI
 
 ---
 
-![Journal mai 25](/images/archives/2025/journal-2025-05/gif6-2.jpg){width="48" height="70"}
+![Journal mai 25](/images/archives/2025/journal-2025-05/gif6-2.webp){width="48" height="70"}
 
 ## CHAMPIONNAT DES CLUBS VETERANS
 
@@ -215,7 +215,7 @@ Violeta PRIOL, André GUERIN, Pierre BOLLINI
 
 ---
 
-![Journal mai 25](/images/archives/2025/journal-2025-05/gif7-2.jpg){width="70" height="72"}
+![Journal mai 25](/images/archives/2025/journal-2025-05/gif7-2.webp){width="70" height="72"}
 
 ## COUPE FRANCE 3ème TOUR LE SAMEDI 24 MAI A FOUESNANT
 
@@ -227,7 +227,7 @@ Bonne chance à tous
 
 ### RESULTAT:
 
-![Journal mai 25](/images/archives/2025/journal-2025-05/cpe_fr__portsall25_1.jpg){width="800" height="500"}
+![Journal mai 25](/images/archives/2025/journal-2025-05/cpe_fr__portsall25_1.webp){width="800" height="500"}
 
 Fouesnant s'impose sur un score de 27 à 4 contre l'équipe de Porsall :
 
@@ -241,7 +241,7 @@ Le 4ème tour de la coupe de France aura lieu le samedi 14 juin à Bannalec cont
 
 ---
 
-![Journal mai 25](/images/archives/2025/journal-2025-05/imag1-4.jpg){width="121" height="79"}
+![Journal mai 25](/images/archives/2025/journal-2025-05/imag1-4.webp){width="121" height="79"}
 
 ## CHAMPIONNAT DE BRETAGNE TRIPLETTES VETERANS le 30 mai à 8h à Perros Guirec
 
@@ -251,11 +251,11 @@ Le 4ème tour de la coupe de France aura lieu le samedi 14 juin à Bannalec cont
 
 **RESULTATS**
 
-![Journal mai 25](/images/archives/2025/journal-2025-05/br_jb_mic.jpg){width="800" height="600"}
+![Journal mai 25](/images/archives/2025/journal-2025-05/br_jb_mic.webp){width="800" height="600"}
 
 Bruno GIRARD Jean Bernard HENAFF Michel LE BRETON
 
-![Journal mai 25](/images/archives/2025/journal-2025-05/chpt_bret_25_tv.jpg){width="800" height="667"}
+![Journal mai 25](/images/archives/2025/journal-2025-05/chpt_bret_25_tv.webp){width="800" height="667"}
 
 | Terrain | N° | Nom de l'équipe - N° du comité ou ligue | Résultats Championnats |
 | --- | --- | --- | --- |

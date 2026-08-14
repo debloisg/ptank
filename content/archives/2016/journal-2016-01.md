@@ -5,12 +5,12 @@ date: 2015-12-28
 year: 2016
 category: "Journaux du club"
 journal: "2016-01"
-image: "/images/archives/2016/journal-2016-01/voeux16.jpg"
+image: "/images/archives/2016/journal-2016-01/voeux16.webp"
 joomlaId: 273
 hits: 5772
 ---
 
-![Journal Janvier 2016](/images/archives/2016/journal-2016-01/voeux16.jpg){width="358" height="253"}  **CEREMONIE DES VOEUX 2016**
+![Journal Janvier 2016](/images/archives/2016/journal-2016-01/voeux16.webp){width="358" height="253"}  **CEREMONIE DES VOEUX 2016**
 
 La cérémonie des voeux aura lieu samedi 30/01 à 18h à la salle Mousterlin du restaurant scolaire. A l'issue de cette cérémonie, le repas annuel débutera vers 20h.
 
@@ -38,7 +38,7 @@ DATES RETENUES POUR CE CHALLENGE:
 
 \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
-![Journal Janvier 2016](/images/archives/2016/journal-2016-01/logopet1.png){width="262" height="63"} ![Journal Janvier 2016](/images/archives/2016/journal-2016-01/logoca1.png){width="100" height="85"}
+![Journal Janvier 2016](/images/archives/2016/journal-2016-01/logopet1.webp){width="262" height="63"} ![Journal Janvier 2016](/images/archives/2016/journal-2016-01/logoca1.webp){width="100" height="85"}
 
 **Challenge interne hiver de La Pétanque Fouesnantaise:**
 

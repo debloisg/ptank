@@ -14,7 +14,7 @@ _JOURNAL DU MOIS DE SEPTEMBRE_ _2010_
 
 ![Journal Septembre 2010](/images/archives/2010/journal-2010-09/img476e59afad75c1.gif){width="170" height="86"}
 
-![Journal Septembre 2010](/images/archives/2010/journal-2010-09/champ.-de-bretagne1.jpg){width="632" height="474"}
+![Journal Septembre 2010](/images/archives/2010/journal-2010-09/champ.-de-bretagne1.webp){width="632" height="474"}
 
 ### **NOS CHAMPIONS DE BRETAGNE PRESENTS AU CHAMPIONNAT DE FRANCE VETERANS A SEDAN**
 
@@ -34,11 +34,11 @@ Notre équipe ne sera pas toute seule à Sedan, elle sera soutenue sur place par
 
 ## RESULTAT DU CHAMPIONNAT DE FRANCE VETERANS 2010 A SEDAN
 
-![Journal Septembre 2010](/images/archives/2010/journal-2010-09/img476e59afad75c1-2.gif){width="135" height="68"}   ![Journal Septembre 2010](/images/archives/2010/journal-2010-09/championnat-de-france-sedan-2010-3.jpg){width="480" height="200"}  Vue globale des terrains  ![Journal Septembre 2010](/images/archives/2010/journal-2010-09/championnat-de-france-sedan-2010-2.jpg.png){width="480" height="360"}
+![Journal Septembre 2010](/images/archives/2010/journal-2010-09/img476e59afad75c1-2.gif){width="135" height="68"}   ![Journal Septembre 2010](/images/archives/2010/journal-2010-09/championnat-de-france-sedan-2010-3.webp){width="480" height="200"}  Vue globale des terrains  ![Journal Septembre 2010](/images/archives/2010/journal-2010-09/championnat-de-france-sedan-2010-2.jpg.webp){width="480" height="360"}
 
 La Bretagne représentée par notre équipe et le Finistère représenté par l'équipe de Quimperlé, ainsi qu' Annie KERVERN, la Présidente du CD29 qui était notre déléguée.
 
-![Journal Septembre 2010](/images/archives/2010/journal-2010-09/championnat-de-france-sedan-2010-1.jpg){width="480" height="360"}
+![Journal Septembre 2010](/images/archives/2010/journal-2010-09/championnat-de-france-sedan-2010-1.webp){width="480" height="360"}
 
 ##### L'équipe des supporters de la Pétanque Fouesnantaise
 

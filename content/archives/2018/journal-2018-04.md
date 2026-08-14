@@ -5,20 +5,20 @@ date: 2018-03-30
 year: 2018
 category: "Le club de Fouesnant"
 journal: "2018-04"
-image: "/images/archives/2018/journal-2018-04/affrassfou18.png"
+image: "/images/archives/2018/journal-2018-04/affrassfou18.webp"
 joomlaId: 330
 hits: 6277
 ---
 
-![Journal Avril 2018](/images/archives/2018/journal-2018-04/affrassfou18.png){width="598" height="845"}
+![Journal Avril 2018](/images/archives/2018/journal-2018-04/affrassfou18.webp){width="598" height="845"}
 
-![Journal Avril 2018](/images/archives/2018/journal-2018-04/roger.jpg){width="73" height="72"}
+![Journal Avril 2018](/images/archives/2018/journal-2018-04/roger.webp){width="73" height="72"}
 
 ### **6ème RASSEMBLEMENT DES 55 ANS ET +**
 
 ### **FOUESNANT LES GLENAN**
 
-**![Journal Avril 2018](/images/archives/2018/journal-2018-04/rassfou18.png){width="640" height="299"}**
+**![Journal Avril 2018](/images/archives/2018/journal-2018-04/rassfou18.webp){width="640" height="299"}**
 
 **Les vainqueurs des cinq parties avec les trois coprésidents de la Pétanque Fouesnantaise.**
 
@@ -115,7 +115,7 @@ _\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\
 
 \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
-![Journal Avril 2018](/images/archives/2018/journal-2018-04/imag1.jpg){width="100" height="65"}
+![Journal Avril 2018](/images/archives/2018/journal-2018-04/imag1.webp){width="100" height="65"}
 
 ### **CHAMPIONNAT DEPARTEMENTAL DOUBLETTES DES 28 ET 29 AVRIL A GOUESNOU**
 
@@ -159,7 +159,7 @@ Bonne chance à nos représentants.
 
 \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
-![Journal Avril 2018](/images/archives/2018/journal-2018-04/gif1.png){width="85" height="70"}
+![Journal Avril 2018](/images/archives/2018/journal-2018-04/gif1.webp){width="85" height="70"}
 
 ### **TROPHEE 55 ANS ET + 2ème TOUR A PLOUGASTEL CONTRE PLOUGASTEL**
 
@@ -199,7 +199,7 @@ _Gilbert Caroff_
 
 \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
-![Journal Avril 2018](/images/archives/2018/journal-2018-04/imag1-2.jpg){width="100" height="65"}
+![Journal Avril 2018](/images/archives/2018/journal-2018-04/imag1-2.webp){width="100" height="65"}
 
 ### **CHAMPIONNAT DEPARTEMENTAL TRIPLETTES PROMOTION DES 14 et 15 AVRIL A COMBRIT**
 
@@ -262,19 +262,19 @@ Bonne chance à cette équipe.
 
 **\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_**
 
-![Journal Avril 2018](/images/archives/2018/journal-2018-04/gif5.jpg){width="63" height="70"}
+![Journal Avril 2018](/images/archives/2018/journal-2018-04/gif5.webp){width="63" height="70"}
 
 ## **COUPE DE FRANCE 1er TOUR A FOUESNANT CONTRE COMBRIT**
 
-**![Journal Avril 2018](/images/archives/2018/journal-2018-04/cpe_fr_18_3.jpg){width="640" height="480"}**
+**![Journal Avril 2018](/images/archives/2018/journal-2018-04/cpe_fr_18_3.webp){width="640" height="480"}**
 
 **Ensemble des équipes**
 
-**![Journal Avril 2018](/images/archives/2018/journal-2018-04/cpe_fr_18_1.jpg){width="640" height="480"}**
+**![Journal Avril 2018](/images/archives/2018/journal-2018-04/cpe_fr_18_1.webp){width="640" height="480"}**
 
 **Equipe de Fouesnant**
 
-**![Journal Avril 2018](/images/archives/2018/journal-2018-04/cpe_fr_18__2.jpg){width="640" height="480"}**
+**![Journal Avril 2018](/images/archives/2018/journal-2018-04/cpe_fr_18__2.webp){width="640" height="480"}**
 
 **Equipe de Combrit**
 

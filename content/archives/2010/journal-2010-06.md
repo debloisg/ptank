@@ -18,9 +18,9 @@ hits: 6117
 
 ### CHAMPIONNE DE BRETAGNE
 
-![Journal Juin 2010](/images/archives/2010/journal-2010-06/drapeaubreton.gif){width="126" height="76"} ![Journal Juin 2010](/images/archives/2010/journal-2010-06/sports-trophee-171.gif){width="142" height="139"} ![Journal Juin 2010](/images/archives/2010/journal-2010-06/drapeaubreton-2.gif){width="129" height="77"}
+![Journal Juin 2010](/images/archives/2010/journal-2010-06/drapeaubreton.gif){height="76" width="126"} ![Journal Juin 2010](/images/archives/2010/journal-2010-06/sports-trophee-171.gif){height="139" width="142"} ![Journal Juin 2010](/images/archives/2010/journal-2010-06/drapeaubreton-2.gif){height="77" width="129"}
 
-![Journal Juin 2010](/images/archives/2010/journal-2010-06/champ.-de-bretagne1.jpg){width="674" height="506"}
+![Journal Juin 2010](/images/archives/2010/journal-2010-06/champ.-de-bretagne1.webp){height="506" width="674"}
 
 ##### Nos champions de Bretagne, de gauche à droite: Jean Yves ELOIRE, Gilbert CAROFF et Georges CAROFF
 
@@ -32,7 +32,7 @@ Encore bravo et félicitation à tous. Rendez vous est pris pour Sedan.
 
 ALLEZ LES BLEUS ! ...De la Pétanque Fouesnantaise naturellement ! Pour les autres ...????
 
-![Journal Juin 2010](/images/archives/2010/journal-2010-06/bouleroule.gif){width="70" height="69"} ![Journal Juin 2010](/images/archives/2010/journal-2010-06/coupe11.gif){width="57" height="94"}
+![Journal Juin 2010](/images/archives/2010/journal-2010-06/bouleroule.gif){height="69" width="70"} ![Journal Juin 2010](/images/archives/2010/journal-2010-06/coupe11.gif){height="94" width="57"}
 
 ## RASSEMBLEMENT DE BANNALEC:
 
@@ -40,35 +40,35 @@ Bannalec a été choisi cette année pour débuter la série des rassemblements 
 
 Décidemment, on n'arrête plus notre champion Gilbert, associé à Henry Le Moullec et Robert Zimmerman, ils s'imposent et remportent le concours.
 
-![Journal Juin 2010](/images/archives/2010/journal-2010-06/rassbannalaec104.jpg){width="600" height="450"}
+![Journal Juin 2010](/images/archives/2010/journal-2010-06/rassbannalaec104.webp){height="450" width="600"}
 
 ##### LES VAINQUEURS : Henry LE MOULLEC, Gilbert CAROFF, Robert ZIMMERMAN
 
-![Journal Juin 2010](/images/archives/2010/journal-2010-06/rassbannalec102.jpg){width="600" height="450"}
+![Journal Juin 2010](/images/archives/2010/journal-2010-06/rassbannalec102.webp){height="450" width="600"}
 
 PAS CHAMPION, MAIS PAS PERDANT NON PLUS, N'EST-CE PAS JEAN LOUIS ?
 
-![Journal Juin 2010](/images/archives/2010/journal-2010-06/rassbannalec103.jpg){width="600" height="450"}
+![Journal Juin 2010](/images/archives/2010/journal-2010-06/rassbannalec103.webp){height="450" width="600"}
 
 ##### LES DIGNES REPRESENTANTS DE LA PETANQUE FOUESNANTAISE
 
-![Journal Juin 2010](/images/archives/2010/journal-2010-06/rassbannalec106.jpg){width="600" height="450"}
+![Journal Juin 2010](/images/archives/2010/journal-2010-06/rassbannalec106.webp){height="450" width="600"}
 
 ##### LES FINALISTES
 
 . .
 
-![Journal Juin 2010](/images/archives/2010/journal-2010-06/bouleroule-2.gif){width="70" height="69"}
+![Journal Juin 2010](/images/archives/2010/journal-2010-06/bouleroule-2.gif){height="69" width="70"}
 
 ## LES PERFORMANCES DU MOIS
 
 ### Le 3 Juin Concours vétérans en doublettes à Audierne:
 
--   ### Finalistes, vainqueurs du concours A:
+- ### Finalistes, vainqueurs du concours A:
 
 #### Henry Le MOULLEC et Jean Yves ELOIRE.
 
--   ### 1/2 finalistes du concours A:
+- ### 1/2 finalistes du concours A:
 
 #### Georges GOLCHEN et Alain HEMIDY
 
@@ -76,7 +76,7 @@ PAS CHAMPION, MAIS PAS PERDANT NON PLUS, N'EST-CE PAS JEAN LOUIS ?
 
 Un petit rappel: Fouesnant est représenté cette année en division 2, poule 2 et en division 3, poule 11.
 
-#### Voir équipes et résultats dans la rubrique"_calendriers et résultats_"
+#### Voir équipes et résultats dans la rubrique"*calendriers et résultats*"
 
 Pour l'instant les chose se passent très bien, car nous sommes premiers en division 2 poule 2, ex aequo avec l'équipe du Poher.
 

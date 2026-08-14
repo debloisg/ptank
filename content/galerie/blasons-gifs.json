@@ -17,7 +17,7 @@
       "to": "2013-07-14",
       "thumbs": [
         {
-          "src": "/images/galerie/blasons-gifs/nxlogopf1-2.jpg",
+          "src": "/images/galerie/blasons-gifs/nxlogopf1-2.webp",
           "w": 490,
           "h": 95,
           "alt": "Blasons — photo d'archive du club"
@@ -30,13 +30,13 @@
       "to": "2014-12",
       "thumbs": [
         {
-          "src": "/images/galerie/blasons-gifs/logopet1.jpg",
+          "src": "/images/galerie/blasons-gifs/logopet1.webp",
           "w": 395,
           "h": 95,
           "alt": "Blasons — photo d'archive du club"
         },
         {
-          "src": "/images/galerie/blasons-gifs/noel2.jpg",
+          "src": "/images/galerie/blasons-gifs/noel2.webp",
           "w": 800,
           "h": 148,
           "alt": "Blasons — photo d'archive du club"
@@ -49,7 +49,7 @@
       "to": "2019-01",
       "thumbs": [
         {
-          "src": "/images/galerie/blasons-gifs/bon_an_19_1.jpg",
+          "src": "/images/galerie/blasons-gifs/bon_an_19_1.webp",
           "w": 640,
           "h": 370,
           "alt": "Blasons — photo d'archive du club"
@@ -62,19 +62,19 @@
       "to": "2020-12",
       "thumbs": [
         {
-          "src": "/images/galerie/blasons-gifs/bon_ann_20.png",
+          "src": "/images/galerie/blasons-gifs/bon_ann_20.webp",
           "w": 620,
           "h": 394,
           "alt": "Blasons — photo d'archive du club"
         },
         {
-          "src": "/images/galerie/blasons-gifs/blasonffpjp.jpg",
+          "src": "/images/galerie/blasons-gifs/blasonffpjp.webp",
           "w": 942,
           "h": 434,
           "alt": "Blasons — photo d'archive du club"
         },
         {
-          "src": "/images/galerie/blasons-gifs/noel3.png",
+          "src": "/images/galerie/blasons-gifs/noel3.webp",
           "w": 509,
           "h": 290,
           "alt": "Blasons — photo d'archive du club"
@@ -87,7 +87,7 @@
       "to": "2021-11",
       "thumbs": [
         {
-          "src": "/images/galerie/blasons-gifs/noel20_1.jpg",
+          "src": "/images/galerie/blasons-gifs/noel20_1.webp",
           "w": 800,
           "h": 268,
           "alt": "Blasons — photo d'archive du club"
@@ -100,13 +100,13 @@
       "to": "2022-11",
       "thumbs": [
         {
-          "src": "/images/galerie/blasons-gifs/bonan22_2.jpg",
+          "src": "/images/galerie/blasons-gifs/bonan22_2.webp",
           "w": 800,
           "h": 1088,
           "alt": "Blasons — photo d'archive du club"
         },
         {
-          "src": "/images/galerie/blasons-gifs/logoffpjppet.jpg",
+          "src": "/images/galerie/blasons-gifs/logoffpjppet.webp",
           "w": 483,
           "h": 69,
           "alt": "Blasons — photo d'archive du club"
@@ -119,7 +119,7 @@
       "to": "2023-01",
       "thumbs": [
         {
-          "src": "/images/galerie/blasons-gifs/bonann23_5.jpg",
+          "src": "/images/galerie/blasons-gifs/bonann23_5.webp",
           "w": 620,
           "h": 394,
           "alt": "Blasons — photo d'archive du club"
@@ -132,13 +132,13 @@
       "to": "2024-12",
       "thumbs": [
         {
-          "src": "/images/galerie/blasons-gifs/logtitrepf.png",
+          "src": "/images/galerie/blasons-gifs/logtitrepf.webp",
           "w": 490,
           "h": 95,
           "alt": "Blasons — photo d'archive du club"
         },
         {
-          "src": "/images/galerie/blasons-gifs/joyeux_noel_24_1.png",
+          "src": "/images/galerie/blasons-gifs/joyeux_noel_24_1.webp",
           "w": 600,
           "h": 570,
           "alt": "Blasons — photo d'archive du club"
@@ -151,7 +151,7 @@
       "to": "2025-12-12",
       "thumbs": [
         {
-          "src": "/images/galerie/blasons-gifs/nxlogopf1.jpg",
+          "src": "/images/galerie/blasons-gifs/nxlogopf1.webp",
           "w": 500,
           "h": 97,
           "alt": "Blasons — photo d'archive du club"
@@ -164,7 +164,7 @@
       "to": "2026-01",
       "thumbs": [
         {
-          "src": "/images/galerie/blasons-gifs/bonne_annee-2026.jpg",
+          "src": "/images/galerie/blasons-gifs/bonne_annee-2026.webp",
           "w": 925,
           "h": 931,
           "alt": "Blasons — photo d'archive du club"
@@ -172,10 +172,10 @@
       ]
     }
   },
-  "cover": "/images/galerie/blasons-gifs/imag_fond_site1.png",
+  "cover": "/images/galerie/blasons-gifs/imag_fond_site1.webp",
   "photos": [
     {
-      "src": "/images/galerie/blasons-gifs/nxlogopf1-2.jpg",
+      "src": "/images/galerie/blasons-gifs/nxlogopf1-2.webp",
       "w": 490,
       "h": 95,
       "alt": "Blasons — photo d'archive du club",
@@ -191,7 +191,7 @@
       ]
     },
     {
-      "src": "/images/galerie/blasons-gifs/logopet1.jpg",
+      "src": "/images/galerie/blasons-gifs/logopet1.webp",
       "w": 395,
       "h": 95,
       "alt": "Blasons — photo d'archive du club",
@@ -291,7 +291,7 @@
       ]
     },
     {
-      "src": "/images/galerie/blasons-gifs/noel2.jpg",
+      "src": "/images/galerie/blasons-gifs/noel2.webp",
       "w": 800,
       "h": 148,
       "alt": "Blasons — photo d'archive du club",
@@ -307,7 +307,7 @@
       ]
     },
     {
-      "src": "/images/galerie/blasons-gifs/bon_an_19_1.jpg",
+      "src": "/images/galerie/blasons-gifs/bon_an_19_1.webp",
       "w": 640,
       "h": 370,
       "alt": "Blasons — photo d'archive du club",
@@ -323,7 +323,7 @@
       ]
     },
     {
-      "src": "/images/galerie/blasons-gifs/bon_ann_20.png",
+      "src": "/images/galerie/blasons-gifs/bon_ann_20.webp",
       "w": 620,
       "h": 394,
       "alt": "Blasons — photo d'archive du club",
@@ -339,7 +339,7 @@
       ]
     },
     {
-      "src": "/images/galerie/blasons-gifs/blasonffpjp.jpg",
+      "src": "/images/galerie/blasons-gifs/blasonffpjp.webp",
       "w": 942,
       "h": 434,
       "alt": "Blasons — photo d'archive du club",
@@ -355,7 +355,7 @@
       ]
     },
     {
-      "src": "/images/galerie/blasons-gifs/noel3.png",
+      "src": "/images/galerie/blasons-gifs/noel3.webp",
       "w": 509,
       "h": 290,
       "alt": "Blasons — photo d'archive du club",
@@ -371,7 +371,7 @@
       ]
     },
     {
-      "src": "/images/galerie/blasons-gifs/noel20_1.jpg",
+      "src": "/images/galerie/blasons-gifs/noel20_1.webp",
       "w": 800,
       "h": 268,
       "alt": "Blasons — photo d'archive du club",
@@ -391,7 +391,7 @@
       ]
     },
     {
-      "src": "/images/galerie/blasons-gifs/bonan22_2.jpg",
+      "src": "/images/galerie/blasons-gifs/bonan22_2.webp",
       "w": 800,
       "h": 1088,
       "alt": "Blasons — photo d'archive du club",
@@ -407,7 +407,7 @@
       ]
     },
     {
-      "src": "/images/galerie/blasons-gifs/logoffpjppet.jpg",
+      "src": "/images/galerie/blasons-gifs/logoffpjppet.webp",
       "w": 483,
       "h": 69,
       "alt": "Blasons — photo d'archive du club",
@@ -447,7 +447,7 @@
       ]
     },
     {
-      "src": "/images/galerie/blasons-gifs/bonann23_5.jpg",
+      "src": "/images/galerie/blasons-gifs/bonann23_5.webp",
       "w": 620,
       "h": 394,
       "alt": "Blasons — photo d'archive du club",
@@ -463,7 +463,7 @@
       ]
     },
     {
-      "src": "/images/galerie/blasons-gifs/logtitrepf.png",
+      "src": "/images/galerie/blasons-gifs/logtitrepf.webp",
       "w": 490,
       "h": 95,
       "alt": "Blasons — photo d'archive du club",
@@ -488,7 +488,7 @@
       ]
     },
     {
-      "src": "/images/galerie/blasons-gifs/joyeux_noel_24_1.png",
+      "src": "/images/galerie/blasons-gifs/joyeux_noel_24_1.webp",
       "w": 600,
       "h": 570,
       "alt": "Blasons — photo d'archive du club",
@@ -504,7 +504,7 @@
       ]
     },
     {
-      "src": "/images/galerie/blasons-gifs/nxlogopf1.jpg",
+      "src": "/images/galerie/blasons-gifs/nxlogopf1.webp",
       "w": 500,
       "h": 97,
       "alt": "Blasons — photo d'archive du club",
@@ -520,7 +520,7 @@
       ]
     },
     {
-      "src": "/images/galerie/blasons-gifs/bonne_annee-2026.jpg",
+      "src": "/images/galerie/blasons-gifs/bonne_annee-2026.webp",
       "w": 925,
       "h": 931,
       "alt": "Blasons — photo d'archive du club",
@@ -536,49 +536,49 @@
       ]
     },
     {
-      "src": "/images/galerie/blasons-gifs/bonan22_3.jpg",
+      "src": "/images/galerie/blasons-gifs/bonan22_3.webp",
       "w": 595,
       "h": 390,
       "alt": "Blasons — photo d'archive du club"
     },
     {
-      "src": "/images/galerie/blasons-gifs/boule_1.jpg",
+      "src": "/images/galerie/blasons-gifs/boule_1.webp",
       "w": 800,
       "h": 309,
       "alt": "Blasons — photo d'archive du club"
     },
     {
-      "src": "/images/galerie/blasons-gifs/imag_fond_site1.png",
+      "src": "/images/galerie/blasons-gifs/imag_fond_site1.webp",
       "w": 1888,
       "h": 2000,
       "alt": "Blasons — photo d'archive du club"
     },
     {
-      "src": "/images/galerie/blasons-gifs/logo_pf3.jpg",
+      "src": "/images/galerie/blasons-gifs/logo_pf3.webp",
       "w": 395,
       "h": 95,
       "alt": "Blasons — photo d'archive du club"
     },
     {
-      "src": "/images/galerie/blasons-gifs/noel.jpg",
+      "src": "/images/galerie/blasons-gifs/noel.webp",
       "w": 640,
       "h": 118,
       "alt": "Blasons — photo d'archive du club"
     },
     {
-      "src": "/images/galerie/blasons-gifs/diapositive100.jpg",
+      "src": "/images/galerie/blasons-gifs/diapositive100.webp",
       "w": 1280,
       "h": 720,
       "alt": "Blasons — photo d'archive du club"
     },
     {
-      "src": "/images/galerie/blasons-gifs/voeux21.png",
+      "src": "/images/galerie/blasons-gifs/voeux21.webp",
       "w": 620,
       "h": 394,
       "alt": "Blasons — photo d'archive du club"
     },
     {
-      "src": "/images/galerie/blasons-gifs/voeux21_1.jpg",
+      "src": "/images/galerie/blasons-gifs/voeux21_1.webp",
       "w": 500,
       "h": 312,
       "alt": "Blasons — photo d'archive du club"

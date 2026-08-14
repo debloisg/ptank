@@ -5,14 +5,14 @@ date: 2015-05-08
 year: 2015
 category: "Journaux du club"
 journal: "2015-05"
-image: "/images/archives/2015/journal-2015-05/muguet1.jpg"
+image: "/images/archives/2015/journal-2015-05/muguet1.webp"
 joomlaId: 262
 hits: 5813
 ---
 
-![Journal Mai 2015](/images/archives/2015/journal-2015-05/muguet1.jpg){width="71" height="71"}
+![Journal Mai 2015](/images/archives/2015/journal-2015-05/muguet1.webp){height="71" width="71"}
 
-****![Journal Mai 2015](/images/archives/2015/journal-2015-05/bouleroule.gif){width="70" height="69"}****CHAMPIONNAT DES CLUBS + 55ans 6 ème JOURNEE LE 2 JUIN****
+\*\*\*\*![Journal Mai 2015](/images/archives/2015/journal-2015-05/bouleroule.gif){height="69" width="70"}****CHAMPIONNAT DES CLUBS + 55ans 6 ème JOURNEE LE 2 JUIN****
 
 **Championnat des clubs vétérans Division 1 Poule B à PLOMELIN**
 
@@ -20,25 +20,25 @@ hits: 5813
 
 **RESULTAT: 18 18**
 
--   **Championnat des clubs vétérans Division 2 Poule C à PLOMELIN**
+- **Championnat des clubs vétérans Division 2 Poule C à PLOMELIN**
 
 **FOUESNANT 2 / PLOMELIN 2**
 
 **RESULTAT: 12 24**
 
--   **Championnat des clubs vétérans Division 3 Poule H à DOUARNENEZ**
+- **Championnat des clubs vétérans Division 3 Poule H à DOUARNENEZ**
 
 **FOUESNANT 3 / AUDIERNE 2**
 
 **RESULTAT: Forfait 19**
 
--   **Championnat des clubs vétérans Division 3 Poule I à FOUESNANT**
+- **Championnat des clubs vétérans Division 3 Poule I à FOUESNANT**
 
 **FOUESNANT 4 / COMBRIT 2**
 
 **RESULTAT 10 26**
 
--   **Championnat des clubs vétérans Division 3 Poule I à FOUESNANT**
+- **Championnat des clubs vétérans Division 3 Poule I à FOUESNANT**
 
 **FOUESNANT 5 / PLUGUFFAN**
 
@@ -52,37 +52,37 @@ Nous recevrons l'équipe de Kerhuon (une grosse pointure). Venez nombreux souten
 
 ****CHAMPIONNAT DES CLUBS + 55ans 5 ème JOURNEE LE 19 MAI****
 
--   **Championnat des clubs vétérans Division 1 Poule B à DOUARNENEZ**
+- **Championnat des clubs vétérans Division 1 Poule B à DOUARNENEZ**
 
 **FOUESNANT 1 / DOUARNENEZ**
 
 **Résultat: 32 4**
 
--   **Championnat des clubs vétérans Division 2 Poule C à DOUARNENEZ**
+- **Championnat des clubs vétérans Division 2 Poule C à DOUARNENEZ**
 
 **FOUESNANT 2 Exempt**
 
--   **Championnat des clubs vétérans Division 3 Poule H à PONT CROIX**
+- **Championnat des clubs vétérans Division 3 Poule H à PONT CROIX**
 
 **FOUESNANT 3 / DOUARNENEZ 3**
 
 **Résultat: 14 22**
 
--   **Championnat des clubs vétérans Division 3 Poule I à BENODET**
+- **Championnat des clubs vétérans Division 3 Poule I à BENODET**
 
 **FOUESNANT 4 / LOCTUDY**
 
 **Résultat: 14 22**
 
--   **Championnat des clubs vétérans Division 3 Poule I à BENODET**
+- **Championnat des clubs vétérans Division 3 Poule I à BENODET**
 
 **FOUESNANT 5 / BENODET**
 
 **Résultat: 12 24**
 
-![Journal Mai 2015](/images/archives/2015/journal-2015-05/bouleroule-2.gif){width="70" height="69"}
+![Journal Mai 2015](/images/archives/2015/journal-2015-05/bouleroule-2.gif){height="69" width="70"}
 
-## ******DEPARTEMENTAL DOUBLETTES SENIORS A PLOUDANIEL LE 9 MAI**
+## \*\*\*\***DEPARTEMENTAL DOUBLETTES SENIORS A PLOUDANIEL LE 9 MAI**
 
 Une équipe de la Pétanque Fouesnantaise était présente pour ce départemental doublettes seniors qui affichait 128 équipes.
 

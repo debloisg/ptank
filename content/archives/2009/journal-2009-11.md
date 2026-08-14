@@ -5,7 +5,7 @@ date: 2013-11-01
 year: 2009
 category: "Journaux du club"
 journal: "2009-11"
-image: "/images/archives/2009/journal-2009-11/ag092.jpg"
+image: "/images/archives/2009/journal-2009-11/ag092.webp"
 joomlaId: 192
 hits: 4754
 ---
@@ -23,9 +23,9 @@ Novembre 09: Assemblée générale **Samedi 14 Novembre, à l’Archipel s’est
 · **TRESORIERE : Andrée NEDELEC.**
 · **TRESORIERS ADJOINTS : Désiré FLOCH et Yves PIRIOU.**
 · **INTENDANCE : Anne Marie CALVEZ.**
-· **RESPONSABLE TECHNIQUE:** **Jean Louis GIRARD****.** **.** · **MEMBRES : André LE BRIS, Henry LE MOULLEC, Christian CORDIER,** **Georges NEDELEC****,** **Pierre****Le MARREC. Jean Yves CAPP.** ![Journal Novembre 2009](/images/archives/2009/journal-2009-11/ag092.jpg){width="480" height="360"}  ![Journal Novembre 2009](/images/archives/2009/journal-2009-11/ag091.jpg){width="452" height="360"}  ![Journal Novembre 2009](/images/archives/2009/journal-2009-11/ag093.jpg){width="480" height="360"}
+· **RESPONSABLE TECHNIQUE:** **Jean Louis GIRARD****.** **.** · **MEMBRES : André LE BRIS, Henry LE MOULLEC, Christian CORDIER,** **Georges NEDELEC****,** **Pierre****Le MARREC. Jean Yves CAPP.** ![Journal Novembre 2009](/images/archives/2009/journal-2009-11/ag092.webp){width="480" height="360"}  ![Journal Novembre 2009](/images/archives/2009/journal-2009-11/ag091.webp){width="452" height="360"}  ![Journal Novembre 2009](/images/archives/2009/journal-2009-11/ag093.webp){width="480" height="360"}
 
-![Journal Novembre 2009](/images/archives/2009/journal-2009-11/ag094.jpg){width="480" height="360"}
+![Journal Novembre 2009](/images/archives/2009/journal-2009-11/ag094.webp){width="480" height="360"}
 
 Programme de fin d'année Programme de fin de saison, Tamalou, challenges du club, TELETHON etc... **CHAMPIONNAT PAR EQUIPES DE CLUBS DU FINISTERE DIVISION 3**
 **\_ Nous arrivons en fin de saison, le championnat est terminé. La Pétanque Fouesnantaise se trouvait dans la poule 11. Il y avait 5 équipes dans cette poule et Fouesnant termine première devant Concarneau Le Douric, Bannalec, Ergué Gabéric et Moelan.**
@@ -84,12 +84,12 @@ REPAS DE FIN D’ANNEE DE LA PETANQUE FOUESNANTAISE :
 
 -   ##### Rendez-vous est pris en 2010, deux équipes de la Pétanque Fouesnantaise seront présentes lors de ce championnat par équipes de clubs. Une équipe en division 2 et une équipe en division 3.
 
-![Journal Novembre 2009](/images/archives/2009/journal-2009-11/pb220032.jpg){width="480" height="360"}
+![Journal Novembre 2009](/images/archives/2009/journal-2009-11/pb220032.webp){width="480" height="360"}
 
-![Journal Novembre 2009](/images/archives/2009/journal-2009-11/pb220023.jpg){width="480" height="360"}
+![Journal Novembre 2009](/images/archives/2009/journal-2009-11/pb220023.webp){width="480" height="360"}
 
-![Journal Novembre 2009](/images/archives/2009/journal-2009-11/cimg0672.jpg){width="480" height="270"}
+![Journal Novembre 2009](/images/archives/2009/journal-2009-11/cimg0672.webp){width="480" height="270"}
 
-![Journal Novembre 2009](/images/archives/2009/journal-2009-11/cimg0674-1.jpg){width="480" height="270"}
+![Journal Novembre 2009](/images/archives/2009/journal-2009-11/cimg0674-1.webp){width="480" height="270"}
 
-![Journal Novembre 2009](/images/archives/2009/journal-2009-11/cimg0687-1.jpg){width="480" height="270"}
+![Journal Novembre 2009](/images/archives/2009/journal-2009-11/cimg0687-1.webp){width="480" height="270"}

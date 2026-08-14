@@ -5,7 +5,7 @@ date: 2013-11-01
 year: 2009
 category: "Journaux du club"
 journal: "2009-12"
-image: "/images/archives/2009/journal-2009-12/telethon.png"
+image: "/images/archives/2009/journal-2009-12/telethon.webp"
 joomlaId: 193
 hits: 5466
 ---
@@ -16,7 +16,7 @@ hits: 5466
 
 **Mercredi 2 Décembre : Suite du challenge d'automne en doublettes (Non constituées).**
 
-**·****![Journal Décembre 2009](/images/archives/2009/journal-2009-12/telethon.png){width="116" height="103"}****Samedi 5 Décembre** **:** **Journée du TELETHON,** **Concours de pétanque en doublettes pour tout public à 14 h sur nos terrains des Balnéides ( Derrière la piscine de Fouesnant) . Remise de la coupe au vainqueur vers 17H30 par la responsable de l'organisation de cette journée du TELETHON et notre président Joseph Le STUM.**
+**·****![Journal Décembre 2009](/images/archives/2009/journal-2009-12/telethon.webp){width="116" height="103"}****Samedi 5 Décembre** **:** **Journée du TELETHON,** **Concours de pétanque en doublettes pour tout public à 14 h sur nos terrains des Balnéides ( Derrière la piscine de Fouesnant) . Remise de la coupe au vainqueur vers 17H30 par la responsable de l'organisation de cette journée du TELETHON et notre président Joseph Le STUM.**
 
 **Remise de la coupe sur le podium du TELETHON, qui sera installé dans la Halle des sports de Bréhoulou, en présence du Bagad de Fouesnant.**
 
@@ -24,7 +24,7 @@ hits: 5466
 
 **1er Jean Yves LE GALL et André LE BRIS, 2ème Christian CORDIER et Jean Paul BOUFFANDEAU.**
 
-**![Journal Décembre 2009](/images/archives/2009/journal-2009-12/telethon109.jpg){width="480" height="360"}**
+**![Journal Décembre 2009](/images/archives/2009/journal-2009-12/telethon109.webp){width="480" height="360"}**
 
 **· Mercredi 9 Décembre: Concours interne "Tête à Tête", en partenariat avec le Crédit Agricole. Le concours était initialement prévu le 28/11, il avait été annulé pour cause de mauvais temps.**
 
@@ -32,7 +32,7 @@ hits: 5466
 
 **Samedi 12 Décembre****: Repas de fin d'année de la Pétanque Fouesnantaise:**
 
-**![Journal Décembre 2009](/images/archives/2009/journal-2009-12/pc120110.jpg){width="360" height="480"}**
+**![Journal Décembre 2009](/images/archives/2009/journal-2009-12/pc120110.webp){width="360" height="480"}**
 
 **Après l'effort le réconfort! Plus de soixante dix personnes étaient présentes samedi soir, au restaurant scolaire, dans les locaux de la mairie de Fouesnant pour déguster le repas de fin d'année. L'ambiance conviviale était au rendez-vous. Il fallait cette fois-ci , non pas placer la boule près du bouchon, mais faire plaisir à madame ou monsieur en déployant ses talents de danseur ou danseuse. Jo Le Stum notre président a encore une fois animé, avec son talent d'orateur la soirée, par ses histoires et des chansons. Suivi bien sûr par d'autres conteurs. Jean Yves , fidèle à la tradition bretonne nous a joué avec brio, quelques airs du folklore sur son accordéon diatonique. Soirée sympa, à renouveler sans modération.**
 
@@ -40,7 +40,7 @@ hits: 5466
 
 **.Partenariat Pétanque fouesnantaise - Crédit Agricole**
 
-**![Journal Décembre 2009](/images/archives/2009/journal-2009-12/partenca.jpg){width="529" height="397"}**
+**![Journal Décembre 2009](/images/archives/2009/journal-2009-12/partenca.webp){width="529" height="397"}**
 
 _Article de presse Ouest France Quimper_
 

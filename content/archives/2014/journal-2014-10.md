@@ -5,14 +5,14 @@ date: 2014-10-06
 year: 2014
 category: "Journaux du club"
 journal: "2014-10"
-image: "/images/archives/2014/journal-2014-10/div1_2014.jpg"
+image: "/images/archives/2014/journal-2014-10/div1_2014.webp"
 joomlaId: 237
 hits: 5798
 ---
 
 ## ****PHASES FINALES DIVISION 1 VETERANS A St MARTIN DES CHAMPS****
 
-****![Journal octobre 2014](/images/archives/2014/journal-2014-10/div1_2014.jpg){width="640" height="359"}****
+****![Journal octobre 2014](/images/archives/2014/journal-2014-10/div1_2014.webp){height="359" width="640"}****
 
 Le vendredi 31 octobre 2014 a eu lieu les phases finales de division 1 vétérans à St Martin des champs entre les équipes de:
 
@@ -20,13 +20,13 @@ PLOUVORN / GOUESNOU / MOELAN SUR MER / FOUESNANT.
 
 Le tirage au sort pour les demi finale ont mis en compétition les clubs de:
 
--   GOUESNOU / MOELAN : la victoire est revenue au club de MOELAN
--   PLOUVORN / FOUESNANT : la victoire est revenue au club de FOUESNANT
+- GOUESNOU / MOELAN : la victoire est revenue au club de MOELAN
+- PLOUVORN / FOUESNANT : la victoire est revenue au club de FOUESNANT
 
 L'après midi les deux équipes perdantes se rencontraient pour la troisiéme et quatrième place:
 
--   PLOUVORN / GOUESNOU : La victoire est revenue au club de PLOUVORN qui prend la troisième place, GOUESNOU quatrième
--   FOUESNANT/ MOELAN SUR MER : Victoire pour l'équipe de MOELAN qui devient championne départemantale division 1 vétérans
+- PLOUVORN / GOUESNOU : La victoire est revenue au club de PLOUVORN qui prend la troisième place, GOUESNOU quatrième
+- FOUESNANT/ MOELAN SUR MER : Victoire pour l'équipe de MOELAN qui devient championne départemantale division 1 vétérans
 
 Notre équipe perd avec les honneurs et devient vice-championne départementale de division 1 vétérans
 
@@ -44,7 +44,7 @@ Le président.
 
 ## ****DU 27 SEPTEMBRE 2014 A St PAUL DE LEON****
 
-![Journal octobre 2014](/images/archives/2014/journal-2014-10/gentl14.png){width="1024" height="326"}
+![Journal octobre 2014](/images/archives/2014/journal-2014-10/gentl14.webp){height="326" width="1024"}
 
 Le samedi 27/09/2014 a eu lieu à Saint Pol de Léon le départemental en sport adapté mettant un partenaire licencié FFPJP et un licencié FFSA.
 
@@ -78,27 +78,27 @@ GORSE Dominique.
 
 ### RESULTAT:
 
--   **D2 poule D Fouesnant était opposée à l'équipe de POC Quimper 2 à Combrit:**
+- **D2 poule D Fouesnant était opposée à l'équipe de POC Quimper 2 à Combrit:**
 
 **Fouesnant s'incline sur un score de 12 points à 24 points face au POC Quimper.**
 
 \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
--   **Le 19 Octobre l'équipe de Fouesnant sera opposée à Bannalec sur les terrains du POC Quimper**
+- **Le 19 Octobre l'équipe de Fouesnant sera opposée à Bannalec sur les terrains du POC Quimper**
 
 ### RESULTAT:
 
--   **D2 poule D Fouesnant était opposée à l'équipe de Bannalec sur les terrains du POC Quimper:**
+- **D2 poule D Fouesnant était opposée à l'équipe de Bannalec sur les terrains du POC Quimper:**
 
 **Fouesnant s'incline sur un score de 16 points à 20 points face à Bannalec.**
 
 **\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_**
 
--   **Le 26 Octobre l'équipe de Fouesnant sera opposée à Quimperlé sur les terrains de Douarnenez**
+- **Le 26 Octobre l'équipe de Fouesnant sera opposée à Quimperlé sur les terrains de Douarnenez**
 
 ### RESULTAT:
 
--   **D2 poule D Fouesnant était opposée à l'équipe de Quimperlé sur les terrains de Douarnenez:**
+- **D2 poule D Fouesnant était opposée à l'équipe de Quimperlé sur les terrains de Douarnenez:**
 
 **Fouesnant s'incline sur un score de 2 points à 34 points face à Quimperlé 3.**
 
@@ -106,19 +106,19 @@ GORSE Dominique.
 
 **\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_**
 
--   **Le 9 Novembre l'équipe de Fouesnant sera opposée à Combrit 1 sur les terrains de Bannalec**
+- **Le 9 Novembre l'équipe de Fouesnant sera opposée à Combrit 1 sur les terrains de Bannalec**
 
 **Rencontre décisive et victoire indispensable pour assurer le maintien de notre équipe seniors en 2ème division**
 
 \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
-![Journal octobre 2014](/images/archives/2014/journal-2014-10/bravo.gif){width="47" height="47"}
+![Journal octobre 2014](/images/archives/2014/journal-2014-10/bravo.gif){height="47" width="47"}
 
 ## ******LES PERFORMANCES DU MOIS******
 
 **DEMI FINALE ET FINALE DIVISION 1 VETERANS A ST MARTIN DES CHAMPS**
 
-**\- L'équipe de Fouesnant est vice championne du Finistère 2014, passe la demi finale mais ne gagne pas la finale face à Moelan.**
+**- L'équipe de Fouesnant est vice championne du Finistère 2014, passe la demi finale mais ne gagne pas la finale face à Moelan.**
 
 **Composition de l'équipe:**
 
@@ -130,17 +130,12 @@ GORSE Dominique.
 
 ## **Trois parties gagnées :**
 
--   # **SIMONIN Gérard, NELIAS Lucien (11ème)**
-
--   # **LE MOULLEC Henry, GOURVEN Albert (12ème)**
-
--   # **NEDELEC Pierre, DUGUET Yves (13ème)**
-
--   # **VIOL André, LE BRIS André (14ème)**
-
--   # **CROGUENNEC Roger, LE GALL Jean Yves (16ème)**
-
--   # **KERMAREC Joseph, VOILLEMIN Gaston (18ème)**
+- # **SIMONIN Gérard, NELIAS Lucien (11ème)**
+- # **LE MOULLEC Henry, GOURVEN Albert (12ème)**
+- # **NEDELEC Pierre, DUGUET Yves (13ème)**
+- # **VIOL André, LE BRIS André (14ème)**
+- # **CROGUENNEC Roger, LE GALL Jean Yves (16ème)**
+- # **KERMAREC Joseph, VOILLEMIN Gaston (18ème)**
 
 **CONCOURS SENIORS DU JEUDI 23 OCTOBRE EN DOUBLETTES A PLONEIS**
 
@@ -148,43 +143,38 @@ GORSE Dominique.
 
 **Quatre parties gagnées :**
 
--   # **FLOCH Désiré, LE STUM Joseph (3ème)**
+- # **FLOCH Désiré, LE STUM Joseph (3ème)**
 
 ## **Trois parties gagnées :**
 
--   # **CAROFF Gilbert, GUERMEUR Michel**
-
--   # **JEGOU Bernard, LE MARREC Pierre**
-
--   # **SIMONIN Charlotte, GOURVEN Albert**
+- # **CAROFF Gilbert, GUERMEUR Michel**
+- # **JEGOU Bernard, LE MARREC Pierre**
+- # **SIMONIN Charlotte, GOURVEN Albert**
 
 **CONCOURS SENIORS DU JEUDI 16 OCTOBRE EN TRIPLETTES A PONT L'ABBE**
 
 ## **Trois parties gagnées :**
 
--   # **FLOCH Désiré, CROGUENNEC Roger, LE GALL Jean Yves (3ème)**
-
--   # **JEGOU Bernard, LE GOFF Christian, KERMAREC Joseph**
-
--   # **GOURVEN Albert, LE MOULLEC Henry, LE STUM Joseph**
+- # **FLOCH Désiré, CROGUENNEC Roger, LE GALL Jean Yves (3ème)**
+- # **JEGOU Bernard, LE GOFF Christian, KERMAREC Joseph**
+- # **GOURVEN Albert, LE MOULLEC Henry, LE STUM Joseph**
 
 **CONCOURS SENIORS DU JEUDI 9 OCTOBRE EN TRIPLETTES A FOUESNANT**
 
 ## **Quatre parties gagnées et vainqueurs du concours au goal average :**
 
--   # **CAROFF Gilbert, CROGUENNEC Roger, GUERMEUR Michel**
+- # **CAROFF Gilbert, CROGUENNEC Roger, GUERMEUR Michel**
 
 ## **Quatre parties gagnées :**
 
--   # **JEGOU Bernard, LE MARREC Pierre, KERMAREC Joseph (2ème)**
+- # **JEGOU Bernard, LE MARREC Pierre, KERMAREC Joseph (2ème)**
 
 ## **Trois parties gagnées :**
 
--   # **LE STUM Gilbert, PIRIOU Yves, SIMONIN Gérard**
-
--   # **LE ROUX Jean, LE BRIS André, COSMAO Jean Yves**
+- # **LE STUM Gilbert, PIRIOU Yves, SIMONIN Gérard**
+- # **LE ROUX Jean, LE BRIS André, COSMAO Jean Yves**
 
 **RASSEMBLEMENT DE COMBRIT DU 3 OCTOBRE**
 
--   **Une équipe gagne quatre parties sur cinq: CROGUENNEC Roger, SIMONIN Gérard, PICARD Alain (6ème)**
--   **Une équipe gagne trois parties sur cinq :** **CAROFF Gilbert, LE STUM Joseph, GORSE Dominique**
+- **Une équipe gagne quatre parties sur cinq: CROGUENNEC Roger, SIMONIN Gérard, PICARD Alain (6ème)**
+- **Une équipe gagne trois parties sur cinq :** **CAROFF Gilbert, LE STUM Joseph, GORSE Dominique**

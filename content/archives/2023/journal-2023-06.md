@@ -5,12 +5,12 @@ date: 2023-01-28
 year: 2023
 category: "Journaux du club"
 journal: "2023-06"
-image: "/images/archives/2023/journal-2023-06/cc_ete_mer_23.jpg"
+image: "/images/archives/2023/journal-2023-06/cc_ete_mer_23.webp"
 joomlaId: 436
 hits: 4324
 ---
 
-![Journal Juin 23](/images/archives/2023/journal-2023-06/cc_ete_mer_23.jpg){width="456" height="638"} ![Journal Juin 23](/images/archives/2023/journal-2023-06/cc-fete_des_pom_23.jpg){width="452" height="642"}
+![Journal Juin 23](/images/archives/2023/journal-2023-06/cc_ete_mer_23.webp){width="456" height="638"} ![Journal Juin 23](/images/archives/2023/journal-2023-06/cc-fete_des_pom_23.webp){width="452" height="642"}
 
 **Autres concours d'été ouverts à tous en juillet et août dans le secteur 4:**
 
@@ -26,13 +26,13 @@ Ouvert aux licenciés,
 
 ---
 
-![Journal Juin 23](/images/archives/2023/journal-2023-06/gif7.jpg){width="70" height="72"}
+![Journal Juin 23](/images/archives/2023/journal-2023-06/gif7.webp){width="70" height="72"}
 
 ## **FINALE CHAMPIONNAT DES CLUBS VETERANS DU FINISTERE LE 30 JUIN A CLEDER**
 
-![Journal Juin 23](/images/archives/2023/journal-2023-06/final_cdc_finis_4.png){width="800" height="364"}
+![Journal Juin 23](/images/archives/2023/journal-2023-06/final_cdc_finis_4.webp){width="800" height="364"}
 
-![Journal Juin 23](/images/archives/2023/journal-2023-06/fin_cdc_finis_3.jpg){width="800" height="497"}
+![Journal Juin 23](/images/archives/2023/journal-2023-06/fin_cdc_finis_3.webp){width="800" height="497"}
 
 Résultat de la finale du Championnat des Clubs Vétérans du Finistère à Cleder contre Plourin les Morlaix .
 
@@ -54,7 +54,7 @@ _Gilbert Caroff_
 
 ---
 
-![Journal Juin 23](/images/archives/2023/journal-2023-06/gif7-2.jpg){width="70" height="72"}
+![Journal Juin 23](/images/archives/2023/journal-2023-06/gif7-2.webp){width="70" height="72"}
 
 ## **COUPE FRANCE 4 ème TOUR le samedi 1 juillet**
 
@@ -74,11 +74,11 @@ Bonne chance à notre équipe .
 
 ---
 
-![Journal Juin 23](/images/archives/2023/journal-2023-06/imag1.jpg){width="121" height="79"}
+![Journal Juin 23](/images/archives/2023/journal-2023-06/imag1.webp){width="121" height="79"}
 
 ## ** CHAMPIONNAT DE FRANCE TRIPLETTES VETERAN A FLAMANVILLE (50) les 4, 5, 6 Juillet**
 
-![Journal Juin 23](/images/archives/2023/journal-2023-06/chptdpt_tri_promo23.png){width="189" height="178"} Nos trois champions, Pierre PAUL, Henry LE MOULLEC et Xavier ROMIEUX ont remporté le titre de Champions du Finistère Triplettes Vétéran les 19 et 20 avril à Gouesnou. cette victoire leurs a permis d'accéder directement au Championnat de France Triplettes Vétéran qui aura lieu à Flamanville dans la Manche les 4, 5, 6 Juillet.
+![Journal Juin 23](/images/archives/2023/journal-2023-06/chptdpt_tri_promo23.webp){width="189" height="178"} Nos trois champions, Pierre PAUL, Henry LE MOULLEC et Xavier ROMIEUX ont remporté le titre de Champions du Finistère Triplettes Vétéran les 19 et 20 avril à Gouesnou. cette victoire leurs a permis d'accéder directement au Championnat de France Triplettes Vétéran qui aura lieu à Flamanville dans la Manche les 4, 5, 6 Juillet.
 
 Nous souhaitons bonne chance à toute l'équipe un bon parcours et pourquoi pas une place au plus près du sommet !
 
@@ -113,7 +113,7 @@ Bonne chance à l'équipe de La Pétanque fouesnantaise
 
 ---
 
-![Journal Juin 23](/images/archives/2023/journal-2023-06/gif6.jpg){width="48" height="70"}
+![Journal Juin 23](/images/archives/2023/journal-2023-06/gif6.webp){width="48" height="70"}
 
 ** CHAMPIONNAT DES CLUBS VETERANS 9ème JOURNEE LE MARDI 13 Juin.**
 
@@ -131,7 +131,7 @@ Bonne chance à l'équipe de La Pétanque fouesnantaise
 
 ---
 
-![Journal Juin 23](/images/archives/2023/journal-2023-06/barbecu.png){width="106" height="105"}
+![Journal Juin 23](/images/archives/2023/journal-2023-06/barbecu.webp){width="106" height="105"}
 
 ## **JOURNEE GRILLADE DE LA PETANQUE FOUESNANTAISE LE DIMANCHE 11 JUIN**
 
@@ -157,11 +157,11 @@ Inscriptions auprès de Christian Thiery ou Bruno Minel.
 
 ---
 
-![Journal Juin 23](/images/archives/2023/journal-2023-06/gif1.png){width="85" height="70"}
+![Journal Juin 23](/images/archives/2023/journal-2023-06/gif1.webp){width="85" height="70"}
 
 ## ASSOCIATION CHIBOUDIG DE CONCARNEAU
 
-![Journal Juin 23](/images/archives/2023/journal-2023-06/chiboud1.jpg){width="680" height="306"}
+![Journal Juin 23](/images/archives/2023/journal-2023-06/chiboud1.webp){width="680" height="306"}
 
 Chiboudig est une association concarnoise d'accompagnement et gestion du temps libre, de personnes en difficultés mentales ou sociales relevant des hébergements de Papillons Blancs ; elle favorise le développement, l'autonomie et l'insertion, adaptés à leur âge en leur proposant, entre autres, différentes activités sportives.
 
@@ -171,7 +171,7 @@ Ils étaient encore nombreux ce mardi 6 Juin accompagnés de leurs encadrants et
 
 ---
 
-![Journal Juin 23](/images/archives/2023/journal-2023-06/gif6-2.jpg){width="48" height="70"}
+![Journal Juin 23](/images/archives/2023/journal-2023-06/gif6-2.webp){width="48" height="70"}
 
 ** CHAMPIONNAT DES CLUBS VETERANS 8ème JOURNEE LE MARDI 06 Juin.**
 
@@ -189,7 +189,7 @@ Ils étaient encore nombreux ce mardi 6 Juin accompagnés de leurs encadrants et
 
 ---
 
-![Journal Juin 23](/images/archives/2023/journal-2023-06/gif7-3.jpg){width="70" height="72"}
+![Journal Juin 23](/images/archives/2023/journal-2023-06/gif7-3.webp){width="70" height="72"}
 
 ## **COUPE FRANCE 3ème TOUR le samedi 10 Juin**
 

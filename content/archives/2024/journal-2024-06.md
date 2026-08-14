@@ -5,18 +5,18 @@ date: 2024-01-01
 year: 2024
 category: "Journaux du club"
 journal: "2024-06"
-image: "/images/archives/2024/journal-2024-06/affiche_cc_ete2.png"
+image: "/images/archives/2024/journal-2024-06/affiche_cc_ete2.webp"
 joomlaId: 456
 hits: 5767
 ---
 
-![Journal Juin 24](/images/archives/2024/journal-2024-06/affiche_cc_ete2.png){width="400" height="566"} ![Journal Juin 24](/images/archives/2024/journal-2024-06/fete_pom24.png){width="404" height="572"}
+![Journal Juin 24](/images/archives/2024/journal-2024-06/affiche_cc_ete2.webp){height="566" width="400"} ![Journal Juin 24](/images/archives/2024/journal-2024-06/fete_pom24.webp){height="572" width="404"}
 
 ---
 
-![Journal Juin 24](/images/archives/2024/journal-2024-06/gif6.jpg){width="48" height="70"}
+![Journal Juin 24](/images/archives/2024/journal-2024-06/gif6.webp){height="70" width="48"}
 
-### ** TROPHEE VETERANS A : 1er TOUR**
+### \*\* TROPHEE VETERANS A : 1er TOUR\*\*
 
 Pour le 1er tour du trophée vétérans A, l'équipe de fouesnant va se déplacer à Loctudy
 
@@ -24,7 +24,7 @@ Bonne chance à toute l'équipe.
 
 ---
 
-![Journal Juin 24](/images/archives/2024/journal-2024-06/bouleroule.gif){width="59" height="58"}
+![Journal Juin 24](/images/archives/2024/journal-2024-06/bouleroule.gif){height="58" width="59"}
 
 ### COUPE DE FRANCE 4 ème TOUR LE 06 JUILLET
 
@@ -38,7 +38,7 @@ Bonne chance à toute l'équipe.
 
 ### ASSOCIATION CHIBOUDIG DE CONCARNEAU
 
-![Journal Juin 24](/images/archives/2024/journal-2024-06/chiboudig24.png){width="800" height="414"}
+![Journal Juin 24](/images/archives/2024/journal-2024-06/chiboudig24.webp){height="414" width="800"}
 
 **La Pétanque Fouesnantaise participe à une action sociale envers les personnes en situation de handicap depuis de nombreuses année**
 
@@ -50,7 +50,7 @@ Ils étaient encore nombreux pour cette dernière journée de la saison accompag
 
 ---
 
-![Journal Juin 24](/images/archives/2024/journal-2024-06/repas_club_24.png){width="989" height="201"}
+![Journal Juin 24](/images/archives/2024/journal-2024-06/repas_club_24.webp){height="201" width="989"}
 
 ### REPAS DU CLUB LE SAMEDI 22 JUIN 2024
 
@@ -70,7 +70,7 @@ Cette année nous vous proposons :
 
 **Glaces**
 
-![Journal Juin 24](/images/archives/2024/journal-2024-06/couverts.png){width="67" height="55"}
+![Journal Juin 24](/images/archives/2024/journal-2024-06/couverts.webp){height="55" width="67"}
 
 ### **Pour faciliter le service, merci d'apporter vos couverts ( assiette, fourchette, couteau, petite cuillère)**
 
@@ -80,59 +80,59 @@ Réponse pour les personnes intéressées pour le vendredi 14 juin, précisez le
 
 ### S'inscrire auprès de :
 
--   **Désiré FLOCH : 06 60 67 26 93**
--   **Alain COQUILLON : 06 87 09 14 05**
--   **Christelle GIRARD :06 71 58 22 07**
--   **Gildas RAZIL :** **[gildas.razil@orange.fr](mailto:gildas.razil@orange.fr)** **– 06.66.93.32.50, de préférence par mail .**
+- **Désiré FLOCH : 06 60 67 26 93**
+- **Alain COQUILLON : 06 87 09 14 05**
+- **Christelle GIRARD :06 71 58 22 07**
+- **Gildas RAZIL :** **<gildas.razil@orange.fr>** **– 06.66.93.32.50, de préférence par mail .**
 
-![Journal Juin 24](/images/archives/2024/journal-2024-06/repas_club_24_1.png){width="1024" height="65"}
+![Journal Juin 24](/images/archives/2024/journal-2024-06/repas_club_24_1.webp){height="65" width="1024"}
 
 ---
 
-![Journal Juin 24](/images/archives/2024/journal-2024-06/gif6-2.jpg){width="48" height="70"}
+![Journal Juin 24](/images/archives/2024/journal-2024-06/gif6-2.webp){height="70" width="48"}
 
-### ** 7****ème** **journée CRCV (Chpt Régional des Clubs Vétérans) et 9ème journée Chpt Départemental des Clubs Vétérans**
+### \*\* 7\*\*\*\*ème\*\* **journée CRCV (Chpt Régional des Clubs Vétérans) et 9ème journée Chpt Départemental des Clubs Vétérans**
 
-![Journal Juin 24](/images/archives/2024/journal-2024-06/equipe1_1.png){width="800" height="459"}
+![Journal Juin 24](/images/archives/2024/journal-2024-06/equipe1_1.webp){height="459" width="800"}
 
 Equipe 1 CRCV Parcours sans faute, bonne entrée dans le monde des élites vétérans bretonnes, fini 2ème de son championnat
 
-![Journal Juin 24](/images/archives/2024/journal-2024-06/fouesnant2.png){width="800" height="725"}
+![Journal Juin 24](/images/archives/2024/journal-2024-06/fouesnant2.webp){height="725" width="800"}
 
 Equipe CdC Fouesnant 2 : Le V de la victoire de Christian est bien sincère après une victoire très attendue... qui leur permet de finir la saison en beauté !
 
-![Journal Juin 24](/images/archives/2024/journal-2024-06/fouesnant_3_.jpg){width="800" height="674"}
+![Journal Juin 24](/images/archives/2024/journal-2024-06/fouesnant_3_.webp){height="674" width="800"}
 
 L'équipe Fouesnant 3, qui après un démarrage gagnant n'a pas réussi à tenir la cadence
 
-![Journal Juin 24](/images/archives/2024/journal-2024-06/fouesnant4_2.png){width="800" height="637"}
+![Journal Juin 24](/images/archives/2024/journal-2024-06/fouesnant4_2.webp){height="637" width="800"}
 
 Equipe Fouesnant 3 après un démarrage compliqué réussi une fin de saison en progression
 
-![Journal Juin 24](/images/archives/2024/journal-2024-06/f1_f2_24.png){width="800" height="485"}
+![Journal Juin 24](/images/archives/2024/journal-2024-06/f1_f2_24.webp){height="485" width="800"}
 
 Equipes Fouesnant 3 et Fouesnant 4
 
-![Journal Juin 24](/images/archives/2024/journal-2024-06/fouesnant5.png){width="800" height="416"}
+![Journal Juin 24](/images/archives/2024/journal-2024-06/fouesnant5.webp){height="416" width="800"}
 
 Une partie de l'équipe Fouesnant 5 qui termine 2ème au goal average de son groupe, super saison passée dans le secteur 5
 
-![Journal Juin 24](/images/archives/2024/journal-2024-06/quipe_9.png){width="800" height="509"}
+![Journal Juin 24](/images/archives/2024/journal-2024-06/quipe_9.webp){height="509" width="800"}
 
 Equipe 9, mélange de la nouvelle génération de retraités avec quelques anciens dont notre doyen André Le Reste qui assure toujours à plus de 90 ans, bravo Dédé
 
-| #### Mardi 11 juin |  |  |  |  |  |
-| --- | --- | --- | --- | --- | --- |
-|  | ##### Lieu de rencontres | ##### Equipe 1 | ##### Score 1 | ##### Score 2 | ##### Equipe 2 |
-| ##### CRCV Groupe A | _Pontivy (56)_ | FOUESNANT 1 | 14 | **22** | **MONTFORT (35)** |
-| ##### DIVISION 1 Groupe B | _Bannalec_ | **FOUESNANT 2** | **26** | 10 | COMBRIT 1 |
-| ##### DIVISION 2 Groupe D | _Ergué Gabéric_ | FOUESNANT 3 | 14 | **22** | **LOCTUDY 1** |
-| ##### DIVISION 2 Groupe D | _Ergué Gabéric_ | **FOUESNANT 4** | **24** | 12 | PLOMELIN 2 |
-| ##### DIVISION 3 Groupe K | _Châteauneuf_ | **FOUESNANT 5** | **22** | 14 | POHER 4 |
-| ##### DIVISION 3 Groupe J | _Fouesnant_ | FOUESNANT 6 | 16 | **20** | **BENODET 3** |
-| ##### DIVISION 3 Groupe I | _Plomelin_ | **FOUESNANT 7** | **26** | 10 | PONT DE BUIS 2 |
-| ##### DIVISION 3 Groupe J | _Fouesnant_ | FOUESNANT 8 | 4 | **32** | **PONT L'ABBE 2** |
-| ##### DIVISION 3 Groupe I | _Plomelin_ | FOUESNANT 9 | 4 | **32** | **PLUGUFFAN 2** |
+| #### Mardi 11 juin        |                          |                 |               |               |                   |
+| ------------------------- | ------------------------ | --------------- | ------------- | ------------- | ----------------- |
+|                           | ##### Lieu de rencontres | ##### Equipe 1  | ##### Score 1 | ##### Score 2 | ##### Equipe 2    |
+| ##### CRCV Groupe A       | *Pontivy (56)*           | FOUESNANT 1     | 14            | **22**        | **MONTFORT (35)** |
+| ##### DIVISION 1 Groupe B | *Bannalec*               | **FOUESNANT 2** | **26**        | 10            | COMBRIT 1         |
+| ##### DIVISION 2 Groupe D | *Ergué Gabéric*          | FOUESNANT 3     | 14            | **22**        | **LOCTUDY 1**     |
+| ##### DIVISION 2 Groupe D | *Ergué Gabéric*          | **FOUESNANT 4** | **24**        | 12            | PLOMELIN 2        |
+| ##### DIVISION 3 Groupe K | *Châteauneuf*            | **FOUESNANT 5** | **22**        | 14            | POHER 4           |
+| ##### DIVISION 3 Groupe J | *Fouesnant*              | FOUESNANT 6     | 16            | **20**        | **BENODET 3**     |
+| ##### DIVISION 3 Groupe I | *Plomelin*               | **FOUESNANT 7** | **26**        | 10            | PONT DE BUIS 2    |
+| ##### DIVISION 3 Groupe J | *Fouesnant*              | FOUESNANT 8     | 4             | **32**        | **PONT L'ABBE 2** |
+| ##### DIVISION 3 Groupe I | *Plomelin*               | FOUESNANT 9     | 4             | **32**        | **PLUGUFFAN 2**   |
 
 ---
 
@@ -144,34 +144,34 @@ Equipe 9, mélange de la nouvelle génération de retraités avec quelques ancie
 
 ---
 
-![Journal Juin 24](/images/archives/2024/journal-2024-06/gif6-3.jpg){width="48" height="70"}
+![Journal Juin 24](/images/archives/2024/journal-2024-06/gif6-3.webp){height="70" width="48"}
 
-### ** 6****ème** **journée CRCV (Chpt Régional des Clubs Vétérans) et 8ème journée Chpt Départemental des Clubs Vétérans**
+### \*\* 6\*\*\*\*ème\*\* **journée CRCV (Chpt Régional des Clubs Vétérans) et 8ème journée Chpt Départemental des Clubs Vétérans**
 
 Equipe Fouesnant 3 Absent sur la photo Eric Pennarun
 
-| #### Mardi 4 juin |  |  |  |  |  |
-| --- | --- | --- | --- | --- | --- |
-|  | ##### Lieu de rencontres | ##### Equipe 1 | ##### Score 1 | ##### Score 2 | ##### Equipe 2 |
-| ##### CRCV Groupe A | _Douarnenez Tréboul_ | **FOUESNANT 1** | **20** | 16 | PONTIVY (56) |
-| ##### DIVISION 1 Groupe B | _Moelan sur Mer_ | FOUESNANT 2 | 12 | **24** | **MOELAN SUR MER** |
-| ##### DIVISION 2 Groupe D | _Pont L'Abbé_ | FOUESNANT 3 | 10 | **20** | **PLOMELIN 2** |
-| ##### DIVISION 2 Groupe D | _Pont LAbbé_ | FOUESNANT 4 | 10 | **26** | **PONT L'ABBE 1** |
-| ##### DIVISION 3 Groupe K | _Moelan sur Mer_ | FOUESNANT 5 | 6 | **30** | **CHATEAUNEUF 1** |
-| ##### DIVISION 3 Groupe J | _Fouesnant_ | FOUESNANT 6 | 14 | 22 | AUDIERNE |
-| ##### DIVISION 3 Groupe I | _Pont de Buis_ | FOUESNANT 7 | 10 | **26** | **BENODET 2** |
-| ##### DIVISION 3 Groupe J | _Fouesnant_ | FOUESNANT 8 | 16 | **20** | **PLOMELIN 5** |
-| ##### DIVISION 3 Groupe I | _Exempt_ | FOUESNANT 9 |  |  |  |
+| #### Mardi 4 juin         |                          |                 |               |               |                    |
+| ------------------------- | ------------------------ | --------------- | ------------- | ------------- | ------------------ |
+|                           | ##### Lieu de rencontres | ##### Equipe 1  | ##### Score 1 | ##### Score 2 | ##### Equipe 2     |
+| ##### CRCV Groupe A       | *Douarnenez Tréboul*     | **FOUESNANT 1** | **20**        | 16            | PONTIVY (56)       |
+| ##### DIVISION 1 Groupe B | *Moelan sur Mer*         | FOUESNANT 2     | 12            | **24**        | **MOELAN SUR MER** |
+| ##### DIVISION 2 Groupe D | *Pont L'Abbé*            | FOUESNANT 3     | 10            | **20**        | **PLOMELIN 2**     |
+| ##### DIVISION 2 Groupe D | *Pont LAbbé*             | FOUESNANT 4     | 10            | **26**        | **PONT L'ABBE 1**  |
+| ##### DIVISION 3 Groupe K | *Moelan sur Mer*         | FOUESNANT 5     | 6             | **30**        | **CHATEAUNEUF 1**  |
+| ##### DIVISION 3 Groupe J | *Fouesnant*              | FOUESNANT 6     | 14            | 22            | AUDIERNE           |
+| ##### DIVISION 3 Groupe I | *Pont de Buis*           | FOUESNANT 7     | 10            | **26**        | **BENODET 2**      |
+| ##### DIVISION 3 Groupe J | *Fouesnant*              | FOUESNANT 8     | 16            | **20**        | **PLOMELIN 5**     |
+| ##### DIVISION 3 Groupe I | *Exempt*                 | FOUESNANT 9     |               |               |                    |
 
 ---
 
-**![Journal Juin 24](/images/archives/2024/journal-2024-06/bravo.gif){width="68" height="68"}** **MEILLEURES PERFORMANCES DU MOIS DE LA PETANQUE FOUESNANTAISE**
+**![Journal Juin 24](/images/archives/2024/journal-2024-06/bravo.gif){height="68" width="68"}** **MEILLEURES PERFORMANCES DU MOIS DE LA PETANQUE FOUESNANTAISE**
 
-_(En italique les joueurs externes au club)_
+*(En italique les joueurs externes au club)*
 
-_Vos performances du mois à renseigner par courriel :_ [lapetanquefouesnantaise@gmail.com](mailto:lapetanquefouesnantaise@gmail.com)
+*Vos performances du mois à renseigner par courriel :* <lapetanquefouesnantaise@gmail.com>
 
-**\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_****\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_**
+**\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\*\*\*\*\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_**
 
 **CONCOURS DOUBLETTES VETERANS du mardi 25 /06 à Plomelin**
 
@@ -181,13 +181,13 @@ _Vos performances du mois à renseigner par courriel :_ [lapetanquefouesnantaise
 
 **4 parties gagnées:**
 
--   Christian LE GOFF, Christian CHAPELLE
+- Christian LE GOFF, Christian CHAPELLE
 
 **3 parties gagnées:**
 
--   Henry LE MOULLEC, Alain COQUILLON
--   Martine DUMONT, Alain JUNOT
--   Jacques SALIOU, Claude LE GALL
+- Henry LE MOULLEC, Alain COQUILLON
+- Martine DUMONT, Alain JUNOT
+- Jacques SALIOU, Claude LE GALL
 
 **\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_**
 
@@ -201,11 +201,11 @@ _Vos performances du mois à renseigner par courriel :_ [lapetanquefouesnantaise
 
 **Gagnants du concours A**
 
--   Gwervyn FRAVAL, Pierre BOLLINI, _Guilaume MOAL_
+- Gwervyn FRAVAL, Pierre BOLLINI, *Guilaume MOAL*
 
 **\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_**
 
-**CONCOURS DOUBLETTES VETERANS du jeud****i 20/06 à Quimper**
+**CONCOURS DOUBLETTES VETERANS du jeud\*\*\*\*i 20/06 à Quimper**
 
 **11 équipes présentes de la Pétanque Fouesnantaise / 54 équipes**
 
@@ -213,23 +213,23 @@ _Vos performances du mois à renseigner par courriel :_ [lapetanquefouesnantaise
 
 **Vainqueurs du concours:**
 
--   Bruno GIRARD, Gilbert CAROFF
+- Bruno GIRARD, Gilbert CAROFF
 
 **3 parties gagnées:**
 
--   Henry LE MOULLEC, _Christian CHAPELLE_
--   Joseph LE STUM, Patrick OLIVRY
--   Désiré FLOCH, Jean Luc BRIAND
--   Philippe DUCHATEL, _Michel LAGADIC_
--   Marc NICOLAS, Yvon LANDOAS
--   André GUERIN, Denis BON
+- Henry LE MOULLEC, *Christian CHAPELLE*
+- Joseph LE STUM, Patrick OLIVRY
+- Désiré FLOCH, Jean Luc BRIAND
+- Philippe DUCHATEL, *Michel LAGADIC*
+- Marc NICOLAS, Yvon LANDOAS
+- André GUERIN, Denis BON
 
 **2 parties gagnées:**
 
--   Eric PENNARUN, Alain ARNOLD
--   Claude LE GALL, Patrick MASSIE
--   Anne Marie KERADENNEC, Jean Yves KERADENNEC
--   Alain COQUILLON, Patrick FOUQUET
+- Eric PENNARUN, Alain ARNOLD
+- Claude LE GALL, Patrick MASSIE
+- Anne Marie KERADENNEC, Jean Yves KERADENNEC
+- Alain COQUILLON, Patrick FOUQUET
 
 **\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_**
 
@@ -241,7 +241,7 @@ _Vos performances du mois à renseigner par courriel :_ [lapetanquefouesnantaise
 
 **2 parties gagnées:**
 
--   Eric PENNARUN, Patrick MASSIE, Alain COQUILLON
+- Eric PENNARUN, Patrick MASSIE, Alain COQUILLON
 
 **\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_**
 
@@ -251,7 +251,7 @@ _Vos performances du mois à renseigner par courriel :_ [lapetanquefouesnantaise
 
 **1/4 DE FINALE**
 
--   Christelle GIRARD, _Fabienne BERDOYES, Laëticia FORNER,_
+- Christelle GIRARD, *Fabienne BERDOYES, Laëticia FORNER,*
 
 **\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_**
 
@@ -261,7 +261,7 @@ _Vos performances du mois à renseigner par courriel :_ [lapetanquefouesnantaise
 
 **4 PARTIES GAGNEES SUR 5**
 
--   Denis BON, Bruno GIRARD, André GUERIN
+- Denis BON, Bruno GIRARD, André GUERIN
 
 **\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_**
 
@@ -273,12 +273,12 @@ _Vos performances du mois à renseigner par courriel :_ [lapetanquefouesnantaise
 
 **3 parties gagnées:**
 
--   Christian LE GOFF, Patrick OLIVRY, _Michel COPPOLA_
+- Christian LE GOFF, Patrick OLIVRY, *Michel COPPOLA*
 
 **2 parties gagnées:**
 
--   Charlotte SIMONIN, Jean Luc HERVE, _Maryvonne BIARD_
--   Patrick FOUQUET, _Jean Claude LE BERRE, Yvonne LE GAC_
+- Charlotte SIMONIN, Jean Luc HERVE, *Maryvonne BIARD*
+- Patrick FOUQUET, *Jean Claude LE BERRE, Yvonne LE GAC*
 
 **\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_**
 
@@ -292,13 +292,13 @@ _Vos performances du mois à renseigner par courriel :_ [lapetanquefouesnantaise
 
 **Perdants en 1/2 finale**
 
--   Pierre BOLLINI, Gaëtan LE DREZEN
+- Pierre BOLLINI, Gaëtan LE DREZEN
 
 **CONCOURS B**
 
 **Vainqueurs du concours B**
 
--   Yvon LANDOAS, Gwervyn FRAVAL
+- Yvon LANDOAS, Gwervyn FRAVAL
 
 **\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_**
 
@@ -312,18 +312,18 @@ _Vos performances du mois à renseigner par courriel :_ [lapetanquefouesnantaise
 
 **Finalistes du concours A**
 
--   Gaetan LE DREZEN, Enzo LANDAUER
+- Gaetan LE DREZEN, Enzo LANDAUER
 
 **CONCOURS B**
 
 **Vainqueurs du concours B**
 
--   Yves COTTAREL, Denis BON
+- Yves COTTAREL, Denis BON
 
 **Perdants en 1/4 de finale**
 
--   Gwervyn FRAVAL, Gildas RAZIL
--   Alain COQUILLON, Marie Hélène PRIMOT
--   Martine DUMONT, Alain JUNOT
+- Gwervyn FRAVAL, Gildas RAZIL
+- Alain COQUILLON, Marie Hélène PRIMOT
+- Martine DUMONT, Alain JUNOT
 
 **\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_**

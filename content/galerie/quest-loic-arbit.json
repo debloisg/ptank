@@ -15,25 +15,25 @@
       "to": "2025-05-10",
       "thumbs": [
         {
-          "src": "/images/galerie/quest-loic-arbit/reponses_04_1.jpg",
+          "src": "/images/galerie/quest-loic-arbit/reponses_04_1.webp",
           "w": 900,
           "h": 1273,
           "alt": "Questionnaire de Loïc, arbitre — photo d'archive du club"
         },
         {
-          "src": "/images/galerie/quest-loic-arbit/rep_q2_loic.jpg",
+          "src": "/images/galerie/quest-loic-arbit/rep_q2_loic.webp",
           "w": 800,
           "h": 948,
           "alt": "Questionnaire de Loïc, arbitre — photo d'archive du club"
         },
         {
-          "src": "/images/galerie/quest-loic-arbit/rep_q1_loic.jpg",
+          "src": "/images/galerie/quest-loic-arbit/rep_q1_loic.webp",
           "w": 800,
           "h": 980,
           "alt": "Questionnaire de Loïc, arbitre — photo d'archive du club"
         },
         {
-          "src": "/images/galerie/quest-loic-arbit/rep_q3_loic.jpg",
+          "src": "/images/galerie/quest-loic-arbit/rep_q3_loic.webp",
           "w": 800,
           "h": 1070,
           "alt": "Questionnaire de Loïc, arbitre — photo d'archive du club"
@@ -41,10 +41,10 @@
       ]
     }
   },
-  "cover": "/images/galerie/quest-loic-arbit/reponses_04_1.jpg",
+  "cover": "/images/galerie/quest-loic-arbit/reponses_04_1.webp",
   "photos": [
     {
-      "src": "/images/galerie/quest-loic-arbit/reponses_04_1.jpg",
+      "src": "/images/galerie/quest-loic-arbit/reponses_04_1.webp",
       "w": 900,
       "h": 1273,
       "alt": "Questionnaire de Loïc, arbitre — photo d'archive du club",
@@ -60,7 +60,7 @@
       ]
     },
     {
-      "src": "/images/galerie/quest-loic-arbit/rep_q2_loic.jpg",
+      "src": "/images/galerie/quest-loic-arbit/rep_q2_loic.webp",
       "w": 800,
       "h": 948,
       "alt": "Questionnaire de Loïc, arbitre — photo d'archive du club",
@@ -76,7 +76,7 @@
       ]
     },
     {
-      "src": "/images/galerie/quest-loic-arbit/rep_q1_loic.jpg",
+      "src": "/images/galerie/quest-loic-arbit/rep_q1_loic.webp",
       "w": 800,
       "h": 980,
       "alt": "Questionnaire de Loïc, arbitre — photo d'archive du club",
@@ -92,7 +92,7 @@
       ]
     },
     {
-      "src": "/images/galerie/quest-loic-arbit/rep_q3_loic.jpg",
+      "src": "/images/galerie/quest-loic-arbit/rep_q3_loic.webp",
       "w": 800,
       "h": 1070,
       "alt": "Questionnaire de Loïc, arbitre — photo d'archive du club",

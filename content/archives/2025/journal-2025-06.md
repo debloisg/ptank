@@ -5,12 +5,12 @@ date: 2025-05-31
 year: 2025
 category: "Journaux du club"
 journal: "2025-06"
-image: "/images/archives/2025/journal-2025-06/imag1.jpg"
+image: "/images/archives/2025/journal-2025-06/imag1.webp"
 joomlaId: 482
 hits: 5169
 ---
 
-![Journal juin 25](/images/archives/2025/journal-2025-06/imag1.jpg){width="121" height="79"}
+![Journal juin 25](/images/archives/2025/journal-2025-06/imag1.webp){width="121" height="79"}
 
 ### CHAMPIONNAT DE BRETAGNE TRIPLETTES MIXTES le dimanche 1er Juin à PERROS GUIREC 8h
 
@@ -18,7 +18,7 @@ hits: 5169
 
 **RESULTAT:**
 
-![Journal juin 25](/images/archives/2025/journal-2025-06/triplmixtvet.jpg){width="800" height="602"}
+![Journal juin 25](/images/archives/2025/journal-2025-06/triplmixtvet.webp){width="800" height="602"}
 
 | Nom de l'équipe - N° du comité ou ligue | Résultats Championnats |
 | --- | --- |
@@ -42,35 +42,35 @@ hits: 5169
 
 ---
 
-![Journal juin 25](/images/archives/2025/journal-2025-06/gif1.png){width="85" height="70"}
+![Journal juin 25](/images/archives/2025/journal-2025-06/gif1.webp){width="85" height="70"}
 
 ## RENCONTRE AMICALE AVEC LOCTUDY POUR ENTRAINEMENT AU JEU PROVENCAL
 
-![Journal juin 25](/images/archives/2025/journal-2025-06/jeuprovencal1.jpg){width="800" height="534"}
+![Journal juin 25](/images/archives/2025/journal-2025-06/jeuprovencal1.webp){width="800" height="534"}
 
 Belle rencontre d'entrainement au jeu provençal avec Loctudy en prévision du prochain tour de la coupe de France qui aura lieu le 28 juin à Fouesnant contre l'équipe de Broons (22)
 
 ---
 
-![Journal juin 25](/images/archives/2025/journal-2025-06/gif6.jpg){width="48" height="70"} **CHAMPIONNAT DES CLUBS VETERANS**
+![Journal juin 25](/images/archives/2025/journal-2025-06/gif6.webp){width="48" height="70"} **CHAMPIONNAT DES CLUBS VETERANS**
 
-![Journal juin 25](/images/archives/2025/journal-2025-06/fouesnant1.jpg){width="800" height="490"}
+![Journal juin 25](/images/archives/2025/journal-2025-06/fouesnant1.webp){width="800" height="490"}
 
 **Fouesnant 1** Reste 1 match à Pontivy contre Bourg Des Comptes le 17 juin
 
-![Journal juin 25](/images/archives/2025/journal-2025-06/fouesnant2.jpg){width="800" height="600"}
+![Journal juin 25](/images/archives/2025/journal-2025-06/fouesnant2.webp){width="800" height="600"}
 
 **Fouesnant 2**
 
-![Journal juin 25](/images/archives/2025/journal-2025-06/fouesnan4.jpg){width="800" height="616"}
+![Journal juin 25](/images/archives/2025/journal-2025-06/fouesnan4.webp){width="800" height="616"}
 
 **Fouesnant 4**
 
-![Journal juin 25](/images/archives/2025/journal-2025-06/fouesnant5.jpg){width="800" height="410"}
+![Journal juin 25](/images/archives/2025/journal-2025-06/fouesnant5.webp){width="800" height="410"}
 
 **Fouesnant 5**
 
-![Journal juin 25](/images/archives/2025/journal-2025-06/fouesnant7.jpg){width="800" height="504"}
+![Journal juin 25](/images/archives/2025/journal-2025-06/fouesnant7.webp){width="800" height="504"}
 
 **Fouesnant 7**
 
@@ -90,7 +90,7 @@ Belle rencontre d'entrainement au jeu provençal avec Loctudy en prévision du p
 
 ---
 
-![Journal juin 25](/images/archives/2025/journal-2025-06/gif7.jpg){width="70" height="72"}
+![Journal juin 25](/images/archives/2025/journal-2025-06/gif7.webp){width="70" height="72"}
 
 ### COUPE FRANCE 4ème TOUR LE SAMEDI 14 JUIN
 
@@ -100,7 +100,7 @@ Bonne chance à tous
 
 #### RESULTAT:
 
-![Journal juin 25](/images/archives/2025/journal-2025-06/cpz_fr4eme25.jpg){width="800" height="472"}
+![Journal juin 25](/images/archives/2025/journal-2025-06/cpz_fr4eme25.webp){width="800" height="472"}
 
 Christelle GIRARD, Sabrina Quiltin, Gessy BOLLINI, Hervé DUBACH, Gwervyn FRAVAL, André GUERIN, Jordan GUITON, Gaêtan LE DREZEN,
 
@@ -174,25 +174,25 @@ Venez nombreux découvrir le jeu provençal et soutenir notre équipe.
 
 **RESULTAT:**
 
-![Journal juin 25](/images/archives/2025/journal-2025-06/je_pvcal_4.png){width="800" height="488"}
+![Journal juin 25](/images/archives/2025/journal-2025-06/je_pvcal_4.webp){width="800" height="488"}
 
 De gauche à droite:
 
 Christelle Girard, André Guérin, Bruno Girard, Yvon Landoas, Denis Bon, Gérard Machard, Yves Cottarel, Wilfried Lemaitre
 
-![Journal juin 25](/images/archives/2025/journal-2025-06/cpe_fr_jeupcal.jpg){width="800" height="455"}
+![Journal juin 25](/images/archives/2025/journal-2025-06/cpe_fr_jeupcal.webp){width="800" height="455"}
 
 Les équpes de Fouesnant et Broons (22)
 
-![Journal juin 25](/images/archives/2025/journal-2025-06/jeu_pvcal_5.png){width="800" height="483"}
+![Journal juin 25](/images/archives/2025/journal-2025-06/jeu_pvcal_5.webp){width="800" height="483"}
 
 Merci à nos supporter
 
-![Journal juin 25](/images/archives/2025/journal-2025-06/je_pvcal_3.png){width="800" height="647"}
+![Journal juin 25](/images/archives/2025/journal-2025-06/je_pvcal_3.webp){width="800" height="647"}
 
 Pas facile de tenir sur un pied et pointer !
 
-![Journal juin 25](/images/archives/2025/journal-2025-06/jeu_pvcal_1.png){width="800" height="473"}
+![Journal juin 25](/images/archives/2025/journal-2025-06/jeu_pvcal_1.webp){width="800" height="473"}
 
 Le chemin est long pour arriver au bouchon !
 

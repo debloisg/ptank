@@ -5,16 +5,16 @@ date: 2017-03-06
 year: 2017
 category: "Journaux du club"
 journal: "2017-05"
-image: "/images/archives/2017/journal-2017-05/vacasoleil.jpg"
+image: "/images/archives/2017/journal-2017-05/vacasoleil.webp"
 joomlaId: 305
 hits: 5442
 ---
 
-**![Journal Mai 2017](/images/archives/2017/journal-2017-05/vacasoleil.jpg){width="65" height="59"} Photos du rassemblement de la Pétanque fouesnantaise 2017 cliquez** ICI
+**![Journal Mai 2017](/images/archives/2017/journal-2017-05/vacasoleil.webp){width="65" height="59"} Photos du rassemblement de la Pétanque fouesnantaise 2017 cliquez** ICI
 
 \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
- **![Journal Mai 2017](/images/archives/2017/journal-2017-05/imagpet7.png){width="85" height="70"} COUPE  DE FRANCE 1er TOUR A BREST CONTRE LE MOULIN BLANC LE 20 MAI**
+ **![Journal Mai 2017](/images/archives/2017/journal-2017-05/imagpet7.webp){width="85" height="70"} COUPE  DE FRANCE 1er TOUR A BREST CONTRE LE MOULIN BLANC LE 20 MAI**
 
 Le tirage du deuxième tour de la coupe de france qui aura lieu le samedi 6 Juin vient d'être effectué.
 
@@ -48,7 +48,7 @@ Coach: Charlotte SIMONIN
 
 **\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_**
 
- **![Journal Mai 2017](/images/archives/2017/journal-2017-05/imagpet1.jpg){width="70" height="73"} **CHAMPIONNAT DEPARTEMENTAL DOUBLETTES VETERANS +60ANS A LANNILIS LE 19 MAI****
+ **![Journal Mai 2017](/images/archives/2017/journal-2017-05/imagpet1.webp){width="70" height="73"} **CHAMPIONNAT DEPARTEMENTAL DOUBLETTES VETERANS +60ANS A LANNILIS LE 19 MAI****
 
 **64 équipes qualifées dont 2 de Fouesnant:**
 
@@ -98,7 +98,7 @@ Championnat des clubs vétérans + 55 ans Division 4 Groupe D à Fouesnant
 
 \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
-**![Journal Mai 2017](/images/archives/2017/journal-2017-05/imag1.jpg){width="100" height="65"}**CHAMPIONNAT DE BRETAGNE TRIPLETTES VETERANS A YFFIGNAC LES 8 et 9 MAI****
+**![Journal Mai 2017](/images/archives/2017/journal-2017-05/imag1.webp){width="100" height="65"}**CHAMPIONNAT DE BRETAGNE TRIPLETTES VETERANS A YFFIGNAC LES 8 et 9 MAI****
 
 64 équipes qualifées dans les 4 Départements dont 1 de Fouesnant:
 

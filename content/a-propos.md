@@ -45,7 +45,7 @@ Plus de 40 ans d'existence, et toujours la même mêlée du lundi : le club
 n'a jamais cessé de jouer depuis sa création en 1982.
 ::
 
-![Partie de pétanque en famille, ambiance conviviale](/images/a-propos-famille.jpg){format="auto" loading="lazy" placeholder="" sizes="sm:100vw md:720px"}
+![Partie de pétanque en famille, ambiance conviviale](/images/a-propos-famille.webp){loading="lazy"}
 
 *Illustration —* [Alex59123](https://commons.wikimedia.org/wiki/File\:Partie_de_petanque.jpg)*, Wikimedia Commons, CC BY-SA 4.0.*
 
@@ -90,7 +90,7 @@ Le boulodrome se situe Allée de Loc'Hilaire, à côté du centre aquatique « L
 Balnéides » et du terrain de football. Le siège social de l'association est
 domicilié à la Mairie de Fouesnant.
 
-![Joueur au tir, boules pétanque](/images/a-propos-partie.jpg){format="auto" loading="lazy" placeholder="" sizes="sm:100vw md:720px"}
+![Joueur au tir, boules pétanque](/images/a-propos-partie.webp){loading="lazy"}
 
 *Illustration —* [Peter Gugerell](https://commons.wikimedia.org/wiki/File\:Boule_GUG.jpg)*, Wikimedia Commons, CC BY-SA 3.0.*
 

@@ -5,12 +5,12 @@ date: 2022-10-30
 year: 2022
 category: "Journaux du club"
 journal: "2022-11"
-image: "/images/archives/2022/journal-2022-11/logoffpjppet.png"
+image: "/images/archives/2022/journal-2022-11/logoffpjppet.webp"
 joomlaId: 429
 hits: 3901
 ---
 
-![Journal Nov 22](/images/archives/2022/journal-2022-11/logoffpjppet.png){width="327" height="47"}
+![Journal Nov 22](/images/archives/2022/journal-2022-11/logoffpjppet.webp){width="327" height="47"}
 
 ## DATES A RETENIR POUR LES LICENCES 2023
 
@@ -26,7 +26,7 @@ hits: 3901
 
 -   ### Samedi 14 janvier
 
-![Journal Nov 22](/images/archives/2022/journal-2022-11/icon-48-alert.png){width="48" height="48"}
+![Journal Nov 22](/images/archives/2022/journal-2022-11/icon-48-alert.webp){width="48" height="48"}
 
 Merci de bien respecter ces dates pour faciliter le travail administratif.
 
@@ -44,7 +44,7 @@ _Rappel: Vous pouvez consulter les informations concernant , inscription, renouv
 
 ---
 
-![Journal Nov 22](/images/archives/2022/journal-2022-11/telethon2022.png){width="250" height="108"}
+![Journal Nov 22](/images/archives/2022/journal-2022-11/telethon2022.webp){width="250" height="108"}
 
 ## ** CONCOURS DU TELETHON 2022**
 
@@ -66,7 +66,7 @@ Le samedi 3 décembre est organisé un concours ouvert à tous, licenciés ou am
 
 ---
 
-  **![Journal Nov 22](/images/archives/2022/journal-2022-11/gif1.png){width="85" height="70"}  PROGRAMME DE FIN D'ANNEE** (suite à la réunion du bureau)
+  **![Journal Nov 22](/images/archives/2022/journal-2022-11/gif1.webp){width="85" height="70"}  PROGRAMME DE FIN D'ANNEE** (suite à la réunion du bureau)
 
 -   04 octobre : Trophée Vétérans B 1/4 de finale, à Fouesnant contre Gouesnou
 -   5 octobre Concours interne reproduit tous les mercredis jusqu'au 15 décembre
