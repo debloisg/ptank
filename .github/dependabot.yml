@@ -66,10 +66,8 @@ updates:
       # Pinned for Nuxt Studio; 0.22.x destabilizes its tiptap editor.
       - dependency-name: '@nuxtjs/mdc'
 
-  - package-ecosystem: github-actions
-    directory: /
-    schedule:
-      interval: weekly
-      day: monday
-    commit-message:
-      prefix: chore(ci)
+# No `github-actions` ecosystem entry on purpose: this repo has no workflows
+# (deploys run through Cloudflare Workers Builds on push to main). Adding one
+# makes every run fail with
+#   dependency_file_not_found: /action.yml or /.github/workflows/<anything>.yml
+# Add it back only if real workflow files land under .github/workflows/.
