@@ -3,6 +3,37 @@
 // and standalone pages (content/a-propos.md).
 const route = useRoute()
 
+// Shape gate before any D1 query: vulnerability scanners spray hundreds of
+// probe paths (/wp-json, /.env, /_profiler/…) and every one of them used to
+// fall through to this catch-all, query the database and SSR the error page.
+// Same belt-to-braces pattern as archives/[year].vue.
+//
+// The segment list duplicates COLLECTION_BY_SEGMENT below on purpose:
+// definePageMeta is a build-time macro compiled out of the component and cannot
+// reference file-scope bindings. Keep the two in sync.
+//
+// Accepted shapes (checked against app/pages/ and content/):
+//   /<slug>                          standalone pages collection (/a-propos —
+//                                    kept open so Studio can add root pages
+//                                    without a deploy)
+//   /<section>/<slug>                the four dated collections
+//   /archives/<4-digit year>/<slug>  imported Joomla articles
+definePageMeta({
+  validate: (route) => {
+    const slug = /^[a-z0-9][a-z0-9-]*$/
+    const segs = Array.isArray(route.params.slug)
+      ? route.params.slug
+      : [String(route.params.slug ?? '')]
+    if (segs.length === 1) return slug.test(segs[0]!)
+    if (segs.length === 2)
+      return ['actualites', 'evenements', 'competitions', 'resultats'].includes(segs[0]!)
+        && slug.test(segs[1]!)
+    if (segs.length === 3)
+      return segs[0] === 'archives' && /^\d{4}$/.test(segs[1]!) && slug.test(segs[2]!)
+    return false
+  },
+})
+
 // Pick the collection from the first path segment (Phase 0 split); top-level
 // pages like /a-propos fall back to the `pages` collection.
 const COLLECTION_BY_SEGMENT = {

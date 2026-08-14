@@ -404,6 +404,28 @@ sequenceDiagram
 > trusts the module's own check and still exposes the routes to any GitHub login),
 > but while the routes are public it is **not optional**.
 
+### 404s: `assets.not_found_handling` is deliberately unset
+
+Do not "fix" wrangler.jsonc by setting `assets.not_found_handling: "404-page"`.
+It looks like a free win (serve a static `404.html`, skip the Worker) but it was
+evaluated and rejected:
+
+- `assets_navigation_prefers_asset_serving` is already active (default-on since
+  compat date 2025-04-01; ours is later), so with `404-page` set, any **browser
+  navigation** (`Sec-Fetch-Mode: navigate`) to a path with no matching static
+  asset would be answered with `404.html` **without ever running the Worker**.
+  `/_studio` is not prerendered → Studio would break in every browser — and
+  `curl` won't catch it, because curl sends no `Sec-Fetch-Mode` header.
+- Any prerender gap (a page `crawlLinks` missed) would turn into a silent hard
+  404 instead of falling back to SSR.
+- It does nothing against scanners anyway: they don't send the navigation
+  header, so they'd still reach the Worker.
+
+Scanner-burst protection lives elsewhere: WAF custom rules + a 404
+rate-limiting rule (zone config, dashboard-only, not in this repo), a shape
+`validate` on `app/pages/[...slug].vue` so probe paths never query D1, and the
+branded `app/error.vue` (served with `X-Robots-Tag: noindex`).
+
 ## Local development
 
 ```bash

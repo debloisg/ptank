@@ -16,8 +16,8 @@ const r2Base = (process.env.NUXT_IMAGE_R2_BASE || 'https://image.petanque-fouesn
   .replace(/\/+$/, '')
 // ── Content-Security-Policy ────────────────────────────────────────────────
 // Two policies: a strict one for the public site, a relaxed one for the Studio
-// editor. Both are still REPORT-ONLY (see the routeRules below) — the values
-// here were derived from the violations the first report-only pass logged.
+// editor. ENFORCED since Aug 2026 — the values were derived from the
+// violations a report-only pass logged before the switch.
 //
 // `script-src` keeps 'unsafe-inline' because the pages are prerendered static
 // HTML: there is no per-request step in which to mint a nonce, and Nuxt inlines
@@ -161,12 +161,11 @@ export default defineNuxtConfig({
       //                        iframeable is a clickjacking route to the CMS.
       //   referrer-policy    — don't leak full URLs to third parties.
       //   permissions-policy — deny camera/mic/geolocation outright.
-      // CSP is REPORT-ONLY on purpose: Nuxt hydration inlines scripts/styles
-      // and Studio's editor loads its own assets, so enforcing a strict policy
-      // blind would break the site. Watch the browser console for violation
-      // reports, then tighten and switch to `content-security-policy`.
+      // CSP is ENFORCED (was report-only through Aug 2026; the policies were
+      // tightened from the violations that pass logged — 'wasm-unsafe-eval' for
+      // the client-side content database, the R2 img-src, iconify connect-src).
       '/**': {
-        headers: { ...securityHeaders, 'content-security-policy-report-only': publicCsp },
+        headers: { ...securityHeaders, 'content-security-policy': publicCsp },
       },
       // Studio's editor legitimately needs what the public site must never have:
       // eval() and WebAssembly (its markdown/tiptap tooling), plus a service
@@ -175,13 +174,17 @@ export default defineNuxtConfig({
       // so only signed-in editors can reach them.
       // Each rule repeats the full header set on purpose: a browser that receives
       // TWO CSPs enforces the INTERSECTION of them, so a leftover strict policy
-      // alongside the relaxed one would still block Studio's eval once these are
-      // enforced rather than report-only.
+      // alongside the relaxed one would still block Studio's eval.
+      // '/_studio' AND '/_studio/**': nitro's `/**` glob does not match the bare
+      // path itself, and the bare path is the editor page.
+      '/_studio': {
+        headers: { ...securityHeaders, 'content-security-policy': studioCsp },
+      },
       '/_studio/**': {
-        headers: { ...securityHeaders, 'content-security-policy-report-only': studioCsp },
+        headers: { ...securityHeaders, 'content-security-policy': studioCsp },
       },
       '/__nuxt_studio/**': {
-        headers: { ...securityHeaders, 'content-security-policy-report-only': studioCsp },
+        headers: { ...securityHeaders, 'content-security-policy': studioCsp },
       },
     },
     // Cloudflare presets replace `typeof window` → `"undefined"`. unhead ships
