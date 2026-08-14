@@ -156,10 +156,13 @@ if (segment === 'evenements' || segment === 'competitions') {
 }
 </script>
 
+<!-- Archives get a wider measure: their imported tables are far wider than the
+     3xl prose column the hand-written pages are set to. -->
 <template>
-  <!-- Archives get a wider measure: their imported tables are far wider than the
-       3xl prose column the hand-written pages are set to. -->
-  <UContainer class="py-12 sm:py-16" :class="isArchive ? 'max-w-5xl' : 'max-w-3xl'">
+  <UContainer
+    class="py-12 sm:py-16"
+    :class="isArchive ? 'max-w-5xl' : 'max-w-3xl'"
+  >
     <UButton
       v-if="backLink"
       :to="backLink.to"

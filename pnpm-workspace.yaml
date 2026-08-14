@@ -17,9 +17,29 @@ onlyBuiltDependencies:
 # one — see typescript-eslint#10940), and `pnpm add -D typescript@^6` alone isn't
 # enough: the parser still resolved a hoisted 7.x. Pin the whole tree to TS 6
 # until typescript-eslint supports 7.
+# Security overrides for transitive deps whose direct parents still resolve a
+# vulnerable version. Each is a patch-level bump inside the range the parent
+# already declares, EXCEPT sharp (see below). Drop an entry once every parent
+# ships a fixed floor on its own — `pnpm why <pkg>` shows a single version then.
+#   js-yaml         GHSA-5p4m-2wfm-xmqj  high    quadratic CPU in !!omap
+#   brace-expansion GHSA-rgw5-rvv9-x895  high    + GHSA-mh99-v99m-4gvg
+#   tar             GHSA-r292-9mhp-454m  medium
+#   sharp           GHSA-f88m-g3jw-g9cj  high    0.34.5 via ipx@3.1.1 (nuxt-studio)
+# sharp is the one semver-violating entry: ipx@3.1.1 declares ^0.34.3, so 0.35.x
+# is outside its range. sharp's JS API is unchanged across 0.34->0.35 (the bump
+# is libvips), and this tree only uses sharp at build time — ptank serves
+# pre-built R2 renditions, no runtime image transforms. Build verified.
 overrides:
   typescript: ^6.0.3
-  unhead: ^3.2.3
-  '@unhead/vue@^3.0.0': ^3.2.3
-  '@unhead/bundler': ^3.2.3
+  # Floor raised from 3.2.3 to 3.3.2: nuxt-schema-org 6.2.9 (via @nuxtjs/seo
+  # 5.3.12) imports `hasOwn` from unhead/utils, which only exists from 3.3.x.
+  # On 3.2.3 module init dies with "does not provide an export named 'hasOwn'".
+  unhead: ^3.3.2
+  '@unhead/vue@^3.0.0': ^3.3.2
+  '@unhead/bundler': ^3.3.2
   '@nuxtjs/mdc': 0.21.1
+  js-yaml: ^4.3.1
+  'brace-expansion@^2.0.0': ^2.1.4
+  'brace-expansion@^5.0.0': ^5.0.9
+  tar: ^7.5.22
+  sharp: ^0.35.3

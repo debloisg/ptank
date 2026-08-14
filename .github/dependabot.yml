@@ -1,0 +1,75 @@
+version: 2
+
+# Security-only updates were already enabled in repo settings, but with no
+# version-updates schedule here Dependabot never opened PRs for transitive
+# deps in pnpm-lock.yaml — 28 of 29 alerts sat with no PR. The weekly sweep
+# below keeps the lockfile fresh so those resolve on their own.
+#
+# Held back on purpose (see pnpm-workspace.yaml overrides + package.json):
+#   typescript 6 -> 7        typescript-eslint 8.x needs the TS 6 API
+#   better-sqlite3 12 -> 13  native rebuild, content DB
+#   jsdom 29 -> 30           only used by the import scripts
+#   @nuxtjs/mdc              pinned to 0.21.1 for Nuxt Studio editor stability
+updates:
+  - package-ecosystem: npm
+    directory: /
+    schedule:
+      interval: weekly
+      day: monday
+    open-pull-requests-limit: 5
+    versioning-strategy: increase
+    commit-message:
+      prefix: chore(deps)
+      prefix-development: chore(deps-dev)
+    groups:
+      nuxt:
+        patterns:
+          - nuxt
+          - '@nuxt/*'
+          - '@nuxthub/*'
+          - '@nuxtjs/*'
+          - nuxt-*
+        update-types:
+          - minor
+          - patch
+      vue:
+        patterns:
+          - vue
+          - vue-router
+          - '@vue/*'
+        update-types:
+          - minor
+          - patch
+      dev-tooling:
+        dependency-type: development
+        patterns:
+          - eslint
+          - '@nuxt/eslint'
+          - typescript-eslint
+          - vue-tsc
+          - wrangler
+          - axe-core
+        update-types:
+          - minor
+          - patch
+    ignore:
+      # typescript-eslint 8.x refuses to run against the TS 7.0 API.
+      - dependency-name: typescript
+        versions:
+          - '>=7'
+      - dependency-name: better-sqlite3
+        update-types:
+          - version-update:semver-major
+      - dependency-name: jsdom
+        update-types:
+          - version-update:semver-major
+      # Pinned for Nuxt Studio; 0.22.x destabilizes its tiptap editor.
+      - dependency-name: '@nuxtjs/mdc'
+
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: weekly
+      day: monday
+    commit-message:
+      prefix: chore(ci)
