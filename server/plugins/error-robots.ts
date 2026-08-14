@@ -9,9 +9,19 @@
 // skips /__ paths, so useRobotsRule() crashes there — the error page sets the
 // robots META tag only).
 //
-// beforeResponse fires on the ORIGINAL event, after the status is known and
-// last-writer-wins on the header. Covers the JSON error variant too.
+// TWO hooks, verified against the deployed Worker (not just dev, where the
+// robots module masks everything with its own dev-noindex header):
+//   - 'error' is what actually fires for the SSR'd error page and the JSON
+//     error variant — nitro's error handler sends the response itself and
+//     never reaches beforeResponse;
+//   - beforeResponse stays for handlers that set an error STATUS without
+//     throwing (nothing does today, but it costs one integer comparison).
 export default defineNitroPlugin((nitroApp) => {
+  nitroApp.hooks.hook('error', (_error, { event }) => {
+    if (event) {
+      setResponseHeader(event, 'x-robots-tag', 'noindex')
+    }
+  })
   nitroApp.hooks.hook('beforeResponse', (event) => {
     if (getResponseStatus(event) >= 400) {
       setResponseHeader(event, 'x-robots-tag', 'noindex')
