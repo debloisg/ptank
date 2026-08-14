@@ -62,19 +62,41 @@ export default defineNitroPlugin((nitroApp) => {
 
 async function generateRenditions(sourceUrl: string, pathname: string) {
   const stem = pathname.replace(IMAGE_KEY, '')
+
+  // Fetched once up front as the fallback: when a transform fails — the free
+  // transformation quota being exhausted returns 429 "ERROR 9422", and that is
+  // not hypothetical, it's the incident this whole pipeline exists for — the
+  // variant KEYS must still be created. The provider maps width requests to
+  // -800.webp unconditionally (its no-metadata contract), so a missing variant
+  // is a 404 on every card that renders the upload. Oversized copies are the
+  // degraded-but-correct fallback; re-uploading the image after the quota
+  // resets regenerates them properly.
+  const original = await fetch(sourceUrl)
+  if (!original.ok) {
+    console.error(`[studio-media-variants] ${pathname}: source fetch ${original.status}`)
+    return
+  }
+  const originalBytes = new Uint8Array(await original.arrayBuffer())
+  const originalType = original.headers.get('content-type') ?? 'application/octet-stream'
+
   for (const [suffix, width, quality] of RENDITIONS) {
+    const key = suffix ? `${stem}${suffix}` : pathname
     try {
       const res = await fetch(sourceUrl, {
         cf: { image: { width, quality, format: 'webp', fit: 'scale-down' } },
       } as RequestInit)
-      if (!res.ok) throw new Error(`transform fetch ${res.status}`)
-      await blob.put(suffix ? `${stem}${suffix}` : pathname, new Uint8Array(await res.arrayBuffer()), {
-        contentType: 'image/webp',
-      })
+      // A failed transform can still be a 200/429 with a text/plain error body
+      // — never store non-image bytes under an image key.
+      const type = res.headers.get('content-type') ?? ''
+      if (!res.ok || !type.startsWith('image/')) throw new Error(`transform ${res.status} ${type}`)
+      await blob.put(key, new Uint8Array(await res.arrayBuffer()), { contentType: type })
     }
     catch (error) {
-      console.error(`[studio-media-variants] ${pathname}${suffix} failed:`, error)
-      if (!suffix) return
+      console.error(`[studio-media-variants] ${pathname}${suffix} transform failed, storing copy:`, error)
+      // Base key already holds the original — only the variant names need filling.
+      if (suffix) {
+        await blob.put(key, originalBytes, { contentType: originalType })
+      }
     }
   }
 }
