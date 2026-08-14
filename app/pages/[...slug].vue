@@ -101,16 +101,15 @@ const backLink = computed(() => {
   return sections[route.path.split('/').filter(Boolean)[0] ?? '']
 })
 
-// Per-article social image: crop the article's own photo to the 1200x630 OG
-// canvas through Cloudflare Image Transformations, so a shared article previews
-// with its own picture instead of the site-wide default set in nuxt.config.
-// f=jpeg because social scrapers don't negotiate AVIF/WebP.
-const siteConfig = useSiteConfig()
+// Per-article social image: the article's own photo, served raw from R2 —
+// same policy as the galerie album pages. Deliberately NOT a /cdn-cgi/image
+// crop: only the homepage og keeps a transformation (see nuxt.config.ts), so
+// article publishing never depends on the transformation quota. Trade-off
+// accepted: it's WebP (a few older scrapers prefer JPEG) and not cropped to
+// the 1200x630 OG canvas — scrapers crop to their own canvas anyway.
 const r2Base = useRuntimeConfig().public.imageR2Base
 const ogImage = computed(() =>
-  page.value?.image
-    ? `${siteConfig.url}/cdn-cgi/image/w=1200,h=630,fit=cover,f=jpeg,q=80/${r2Base}${page.value.image}`
-    : undefined,
+  page.value?.image ? `${r2Base}${page.value.image}` : undefined,
 )
 
 useSeoMeta({

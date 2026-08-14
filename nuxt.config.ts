@@ -14,6 +14,10 @@ import { fileURLToPath } from 'node:url'
 const r2Base = (process.env.NUXT_IMAGE_R2_BASE || 'https://image.petanque-fouesnantaise.fr')
   .trim()
   .replace(/\/+$/, '')
+
+const siteUrl = (process.env.NUXT_PUBLIC_SITE_URL || 'https://petanque-fouesnantaise.fr')
+  .trim()
+  .replace(/\/+$/, '')
 // ── Content-Security-Policy ────────────────────────────────────────────────
 // Two policies: a strict one for the public site, a relaxed one for the Studio
 // editor. ENFORCED since Aug 2026 — the values were derived from the
@@ -25,8 +29,11 @@ const r2Base = (process.env.NUXT_IMAGE_R2_BASE || 'https://image.petanque-fouesn
 const cspBase = [
   "default-src 'self'",
   // data: kept for inline SVG/icon data URIs; the blur placeholders are real
-  // files served from the R2 domain like every other image.
-  `img-src 'self' data: ${r2Base}`,
+  // files served from the R2 domain like every other image. siteUrl is 'self'
+  // in production but NOT in dev, where the page runs on localhost and the
+  // homepage hero's /cdn-cgi/image URLs point at the production zone —
+  // without it, dev enforces the policy against its own hero.
+  `img-src 'self' data: ${r2Base} ${siteUrl}`,
   "style-src 'self' 'unsafe-inline'",
   "font-src 'self' data:",
   "frame-ancestors 'none'",
@@ -46,10 +53,6 @@ const ICONIFY = 'https://api.iconify.design'
 // Analytics → add a site.
 const cfBeaconToken = process.env.NUXT_PUBLIC_CF_BEACON_TOKEN?.trim()
 const CF_INSIGHTS = 'https://static.cloudflareinsights.com'
-
-const siteUrl = (process.env.NUXT_PUBLIC_SITE_URL || 'https://petanque-fouesnantaise.fr')
-  .trim()
-  .replace(/\/+$/, '')
 
 // Social-share image. There is no dynamic OG renderer (satori/wasm would blow the
 // Worker past the free-tier size limit), so this is one existing photo cropped to
@@ -302,6 +305,18 @@ export default defineNuxtConfig({
         provider: fileURLToPath(new URL('./app/providers/r2-variants.ts', import.meta.url)),
         options: { baseURL: r2Base },
       },
+    },
+    // Opt-in per image via provider="cloudflare": real edge transforms for the
+    // FEW images worth a unique-transformation budget (the homepage hero — the
+    // LCP element of the most-visited page: per-width AVIF/WebP via f=auto).
+    // A handful of uniques/month; the blanket no-transform rule above exists
+    // because of the 2,700-image corpus, not because transforms are banned.
+    // Callers must pass `:modifiers="{ onerror: 'redirect' }"`: when the free
+    // quota is exhausted (ERROR 9422 — the founding incident of this config),
+    // the transform URL then 307s to the original file instead of returning a
+    // text error, so the image degrades to its untransformed self.
+    cloudflare: {
+      baseURL: siteUrl,
     },
   },
 

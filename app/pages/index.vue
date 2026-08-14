@@ -21,6 +21,14 @@ const latestNews = computed(() => (news.value ?? []).slice(0, 3))
 
 const heroStyle = computed(() => home.value?.heroStyle ?? 'photo')
 const heroImage = computed(() => home.value?.image ?? '/images/hero-terrain.webp')
+// The hero renders through the CLOUDFLARE provider, unlike every other image
+// on the site: it's the LCP element of the most-visited page, worth a real
+// per-width AVIF/WebP srcset (~a dozen transformation uniques/month). The src
+// must be the absolute R2 URL — the transform source is fetched by Cloudflare,
+// not resolved by the r2Variants provider. `onerror: 'redirect'` is mandatory:
+// with the free quota exhausted, the transform 307s to this original file
+// instead of erroring, so the hero degrades gracefully until the reset.
+const heroSrc = computed(() => `${useRuntimeConfig().public.imageR2Base}${heroImage.value}`)
 
 // Hero buttons: editable in Studio; fall back to the two default CTAs.
 const heroLinks = computed(() =>
@@ -85,19 +93,29 @@ useSeoMeta({
         :links="heroButtons"
       >
         <NuxtImg
-          :src="heroImage"
+          provider="cloudflare"
+          :src="heroSrc"
+          :modifiers="{ onerror: 'redirect' }"
+          format="auto"
+          quality="75"
+          sizes="640px lg:800px"
           alt="Terrain de pétanque à Fouesnant"
           loading="eager"
           fetchpriority="high"
           :preload="{ fetchPriority: 'high' }"
-          class="w-full rounded-2xl border border-default object-cover shadow-xl aspect-[4/3]"
+          class="w-full rounded-2xl border border-default object-cover shadow-xl aspect-[4/3] bg-muted"
         />
       </UPageHero>
 
       <!-- ============ HERO — photo (brand, default) ============ -->
       <section v-else class="relative overflow-hidden">
         <NuxtImg
-          :src="heroImage"
+          provider="cloudflare"
+          :src="heroSrc"
+          :modifiers="{ onerror: 'redirect' }"
+          format="auto"
+          quality="75"
+          sizes="640px sm:960px md:1280px lg:1600px"
           alt="Mouette avec un bandana du club sur un terrain de pétanque à Fouesnant"
           loading="eager"
           fetchpriority="high"

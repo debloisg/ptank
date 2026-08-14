@@ -19,10 +19,14 @@
 import { defineProvider } from '@nuxt/image/runtime'
 import type { ProviderGetImage } from '@nuxt/image'
 
-// Registers `variant` as a legal entry for `:modifiers` on NuxtImg site-wide.
+// Registers the extra `:modifiers` keys used on NuxtImg site-wide:
+// `variant` for this provider, `onerror` for the opt-in cloudflare provider
+// (mandatory there — it's what degrades an exhausted-quota transform to a
+// 307 onto the original file instead of a text error).
 declare module '@nuxt/image' {
   interface ImageModifiers {
     variant: 'base'
+    onerror: 'redirect'
   }
 }
 
