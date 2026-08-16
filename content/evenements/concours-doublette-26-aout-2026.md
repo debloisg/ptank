@@ -1,8 +1,8 @@
 ---
 title: Concours de pétanque en doublette
-category: Ouvert à tous
-date: 2026-08-19
 description: Concours en doublette ouvert à tous, départ à 13h30 au boulodrome de l'Allée de Loc'Hilaire.
+category: Ouvert à tous
+date: 2026-08-26
 location: Boulodrome de l'Allée de Loc'Hilaire
 ---
 
