@@ -10,6 +10,4 @@ seo:
 
 concours d’été 
 
-/
-
 Tous les mercredi le club organise un concours ouvert à tous : 4 parties en doublette à partir de 14h (inscriptions 13h30)
