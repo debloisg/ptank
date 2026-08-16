@@ -26,14 +26,10 @@ const siteUrl = (process.env.NUXT_PUBLIC_SITE_URL || 'https://petanque-fouesnant
 // `script-src` keeps 'unsafe-inline' because the pages are prerendered static
 // HTML: there is no per-request step in which to mint a nonce, and Nuxt inlines
 // its hydration payload. That's the remaining weak point of this policy.
+
 const cspBase = [
   "default-src 'self'",
-  // data: kept for inline SVG/icon data URIs; the blur placeholders are real
-  // files served from the R2 domain like every other image. siteUrl is 'self'
-  // in production but NOT in dev, where the page runs on localhost and the
-  // homepage hero's /cdn-cgi/image URLs point at the production zone —
-  // without it, dev enforces the policy against its own hero.
-  `img-src 'self' data: ${r2Base} ${siteUrl}`,
+  `img-src 'self' data: ${r2Base} ${siteUrl} https://avatars.githubusercontent.com`,
   "style-src 'self' 'unsafe-inline'",
   "font-src 'self' data:",
   "frame-ancestors 'none'",
@@ -72,12 +68,8 @@ const securityHeaders = {
 
 const publicCsp = [
   ...cspBase,
-  // 'wasm-unsafe-eval': @nuxt/content's client-side sqlite database is
-  // WebAssembly and runs on PUBLIC pages during client-side navigation — an
-  // enforced policy without it would break every client-nav for every visitor.
   `script-src 'self' 'unsafe-inline' 'wasm-unsafe-eval' ${CF_INSIGHTS}`,
-  // cloudflareinsights.com is where the analytics beacon POSTs its payload.
-  `connect-src 'self' ${ICONIFY} https://cloudflareinsights.com`,
+  `connect-src 'self' ${ICONIFY} https://cloudflareinsights.com https://api.github.com`,
 ].join('; ')
 
 const studioCsp = [
