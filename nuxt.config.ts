@@ -86,7 +86,7 @@ const studioCsp = [
   // instantiates WebAssembly. worker-src: it registers /sw.js.
   "script-src 'self' 'unsafe-inline' 'unsafe-eval' 'wasm-unsafe-eval'",
   "worker-src 'self'",
-  `connect-src 'self' ${ICONIFY}`,
+  `connect-src 'self' ${ICONIFY} https://api.github.com`,
 ].join('; ')
 
 export default defineNuxtConfig({
