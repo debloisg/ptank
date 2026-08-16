@@ -69,7 +69,7 @@ const securityHeaders = {
 const publicCsp = [
   ...cspBase,
   `script-src 'self' 'unsafe-inline' 'wasm-unsafe-eval' ${CF_INSIGHTS}`,
-  `connect-src 'self' ${ICONIFY} https://cloudflareinsights.com https://api.github.com`,
+  `connect-src 'self' ${ICONIFY} https://cloudflareinsights.com https://api.github.com https://raw.githubusercontent.com`,
 ].join('; ')
 
 const studioCsp = [
