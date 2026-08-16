@@ -27,9 +27,13 @@ const links = [
     <!-- Wordmark -->
     <template #left>
       <NuxtLink to="/" class="flex items-center gap-3 shrink-0">
-        <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-primary text-inverted font-serif font-semibold text-sm tracking-tight">
-          PF
-        </span>
+        <img
+          src="/logo.webp"
+          alt="Pétanque Fouesnantaise"
+          width="40"
+          height="40"
+          class="w-10 h-10 shrink-0"
+        >
         <span class="font-serif text-lg sm:text-xl font-semibold text-highlighted leading-none">
           Pétanque<span class="hidden sm:inline"> Fouesnantaise</span>
         </span>

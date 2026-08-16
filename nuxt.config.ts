@@ -423,7 +423,14 @@ export default defineNuxtConfig({
         { property: 'og:locale', content: 'fr_FR' },
         { name: 'twitter:image', content: ogImage },
       ],
-      link: [{ rel: 'icon', type: 'image/svg+xml', href: '/favicon.svg' }],
+      // Club crest as tab icon. Raster rather than SVG: the crest is a raster
+      // logo, so /favicon.ico (legacy, 16/32/48) covers old browsers and the
+      // PNGs cover everything else.
+      link: [
+        { rel: 'icon', type: 'image/png', sizes: '32x32', href: '/favicon-32.png' },
+        { rel: 'icon', type: 'image/png', sizes: '192x192', href: '/favicon-192.png' },
+        { rel: 'apple-touch-icon', sizes: '180x180', href: '/apple-touch-icon.png' },
+      ],
       // Analytics beacon, only when a token is configured (see cfBeaconToken
       // above). `defer` keeps it off the critical path so it can't affect LCP.
       script: cfBeaconToken
