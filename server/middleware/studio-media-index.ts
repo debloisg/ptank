@@ -43,8 +43,13 @@ const PAGE_SIZE = 1000
 // loop, not a real limit.
 const MAX_PAGES = 20
 
-let index: { keys: Set<string>, expires: number } | undefined
+let index: { keys: Set<string>, rootListing: string[], expires: number } | undefined
 let inflight: Promise<Set<string>> | undefined
+
+/** `public-assets:`, `:` and `/` all mean "everything under the media prefix". */
+function isRootListing(path: string) {
+  return /^(?:public-assets)?[:/]$/.test(path)
+}
 
 export default defineEventHandler(async (event) => {
   if (event.method !== 'GET' || !event.path.startsWith('/__nuxt_studio/')) return
@@ -60,10 +65,29 @@ export default defineEventHandler(async (event) => {
   if (!event.path.startsWith(MEDIA_ENDPOINT)) return
 
   const path = decodeURIComponent(event.path.slice(MEDIA_ENDPOINT.length).split('?')[0]!)
-  // A trailing separator is a directory listing — one cheap call, left alone.
-  if (!path || path.endsWith('/') || path.endsWith(':')) return
+  if (!path) return
 
   if (!await isStudioEditor(event)) return
+
+  // The ROOT listing is the first thing the client asks for and the answer
+  // everything else waits on: until it lands the picker says "No images
+  // available in your media library". nuxt-studio's handler pays a fresh
+  // `blob.list()` for it on every page load — 8-17 s here, through wrangler's
+  // remote-bindings proxy — so it is served from the cached first page instead.
+  //
+  // The FIRST PAGE specifically, not the whole index: that is exactly the set
+  // nuxt-studio's own un-paginated call returns, and the client fetches
+  // metadata for every key it is handed. Sub-folder listings are rare and fall
+  // through to the real handler.
+  if (isRootListing(path)) {
+    const { prefix } = mediaConfig(event)
+    await mediaKeys(prefix)
+    if (!index?.rootListing.length) return
+
+    setResponseHeader(event, 'cache-control', 'private, max-age=60')
+    return index.rootListing
+  }
+  if (path.endsWith('/') || path.endsWith(':')) return
 
   const { prefix, publicUrl } = mediaConfig(event)
   const blobPath = path.replace(VIRTUAL_COLLECTION, '').replace(/:/g, '/')
@@ -163,6 +187,7 @@ function refresh(prefix: string): Promise<Set<string>> {
 
   void (async () => {
     const keys = new Set<string>()
+    let rootListing: string[] = []
     const strip = prefix ? `${prefix}/`.length : 0
     try {
       let cursor: string | undefined
@@ -173,9 +198,14 @@ function refresh(prefix: string): Promise<Set<string>> {
           cursor,
           limit: PAGE_SIZE,
         })
-        for (const item of result.blobs) keys.add(item.pathname.slice(strip))
+        const page_ = result.blobs.map(item => item.pathname.slice(strip))
+        for (const key of page_) keys.add(key)
+        // The first page IS what nuxt-studio's own un-paginated `blob.list()`
+        // returns, so it is what the root listing must answer with — byte for
+        // byte the same media library the editor had before this middleware.
+        if (!page) rootListing = page_
         // Never cache an empty result: a blip should be retried, not remembered.
-        if (keys.size) index = { keys, expires: Date.now() + CACHE_TTL }
+        if (keys.size) index = { keys, rootListing, expires: Date.now() + CACHE_TTL }
         publishFirstPage(keys)
         cursor = result.hasMore ? result.cursor : undefined
       } while (cursor && ++page < MAX_PAGES)
