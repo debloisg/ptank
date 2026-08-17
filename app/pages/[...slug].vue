@@ -107,10 +107,10 @@ const backLink = computed(() => {
 // article publishing never depends on the transformation quota. Trade-off
 // accepted: it's WebP (a few older scrapers prefer JPEG) and not cropped to
 // the 1200x630 OG canvas — scrapers crop to their own canvas anyway.
+// Base read here, in setup: unhead resolves the computed below outside any
+// component context, where composables throw.
 const r2Base = useRuntimeConfig().public.imageR2Base
-const ogImage = computed(() =>
-  page.value?.image ? `${r2Base}${page.value.image}` : undefined,
-)
+const ogImage = computed(() => absoluteImageUrl(page.value?.image, r2Base))
 
 useSeoMeta({
   title: () => (page.value?.title ? `${page.value.title} · Pétanque Fouesnantaise` : undefined),

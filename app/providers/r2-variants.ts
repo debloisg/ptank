@@ -31,6 +31,11 @@ declare module '@nuxt/image' {
 }
 
 const VARIANT_SRC = /\.(webp|jpe?g|png)$/i
+// @nuxt/image hands absolute URLs to the provider untouched (it only skips the
+// provider for `data:`), so prefixing blindly would double the origin on any
+// src that already carries one — which Studio's media picker used to write.
+// Content should hold `/images/…`, but a stray absolute URL must still render.
+const ABSOLUTE = /^(?:[a-z][a-z\d+\-.]*:)?\/\//i
 
 const getImage: ProviderGetImage = (src, { modifiers, baseURL = '' }) => {
   // `:modifiers="{ variant: 'base' }"` pins the base file regardless of any
@@ -41,7 +46,7 @@ const getImage: ProviderGetImage = (src, { modifiers, baseURL = '' }) => {
   const url = modifiers.variant !== 'base' && width > 0 && width <= 800 && VARIANT_SRC.test(src)
     ? src.replace(VARIANT_SRC, '-800.webp')
     : src
-  return { url: `${baseURL}${url}` }
+  return { url: ABSOLUTE.test(url) ? url : `${baseURL}${url}` }
 }
 
 export default defineProvider({ getImage })

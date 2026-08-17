@@ -29,7 +29,25 @@
 	"r2_buckets": [
 		{
 			"binding": "BLOB",
-			"bucket_name": "ptank-images"
+			"bucket_name": "ptank-images",
+			// `nuxt dev` uses the REAL bucket, not the miniflare copy: the media
+			// tab browses what production browses, and an upload made locally is
+			// a real object in the production bucket — deliberately, so the
+			// editor behaves identically in both places. Not a sandbox.
+			//
+			// This replaces `hub.remote: 'production'`, which never worked here:
+			// @nuxthub/core has been 0.10 since it was installed and 0.10 dropped
+			// the option with NuxtHub's hosted platform (removed 2026-07-25,
+			// b22c7b3).
+			//
+			// REQUIRES an Access service token. Wrangler's remote proxy talks to
+			// ptank.gab-2-blois.workers.dev, which Cloudflare Access gates, and it
+			// runs without a TTY so it cannot do the interactive login — without
+			// credentials it fails, falls back to a stub, and dev ends up with NO
+			// binding at all (media tab 500). Set CLOUDFLARE_ACCESS_CLIENT_ID and
+			// CLOUDFLARE_ACCESS_CLIENT_SECRET in .env (see .env.example).
+			// `remote` applies to local development only; deploys ignore it.
+			"remote": true
 		}
 	],
 	"observability": {

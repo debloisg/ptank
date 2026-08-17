@@ -181,8 +181,13 @@ rewrites that to the R2 bucket and wraps it in `/cdn-cgi/image/<opts>/…`.
 5. **Set the env vars** (Worker Settings → Variables, and local `.env` — see
    `.env.example`):
    - `NUXT_IMAGE_R2_BASE=https://image.petanque-fouesnantaise.fr` — how `/images/**` is served (this is also the built-in default, so the var is only needed to override it).
-   - `S3_PUBLIC_URL=https://image.petanque-fouesnantaise.fr` — how Studio's `studio/**` uploads
-     are served (normally the same value).
+   - `S3_PUBLIC_URL=https://image.petanque-fouesnantaise.fr` — how Studio's media
+     uploads are served (normally the same value; defaults to it). Must stay
+     ABSOLUTE: Studio's ipx proxy reads a relative media path off the filesystem
+     and 404s every thumbnail in the media tab.
+   - `CLOUDFLARE_ACCESS_CLIENT_ID` / `CLOUDFLARE_ACCESS_CLIENT_SECRET` — local dev
+     only, so `nuxt dev` can bind the real R2 bucket past Cloudflare Access. See
+     `.env.example`.
 
 Until `NUXT_IMAGE_R2_BASE` is set the images won't resolve, so do the upload
 (step 2) before flipping the env var live. The `BLOB` R2 binding is already in
@@ -439,6 +444,21 @@ Build / preview a production bundle locally:
 pnpm build
 pnpm preview
 ```
+
+### End-to-end tests
+
+Playwright drives the running dev server and guards the Studio editor and the
+image pipeline (picked images resolving to a single absolute R2 URL, the CSP
+that lets the code editor load, the media tab listing the R2 bucket):
+
+```bash
+pnpm exec playwright install chromium   # first run only
+pnpm test:e2e                           # reuses your dev server if one is up
+pnpm test:e2e:ui
+```
+
+Details — including why it never builds and why an "empty" media tab in the
+first minute is just indexing — are in [`tests/e2e/README.md`](tests/e2e/README.md).
 
 ### Secret scanning (optional but recommended)
 

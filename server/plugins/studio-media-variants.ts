@@ -23,12 +23,27 @@
 // In dev the wrangler proxy ignores `cf.image`, so the variants are byte-copies
 // of the original — harmless, and the names the provider expects still exist.
 //
+// QUOTA: when the account's free transformation allowance for the month is gone,
+// every transform here answers `429 … cf-resized: err=9422` and the catch below
+// can only store oversized copies. The browser therefore probes the transform
+// endpoint BEFORE uploading and, when it is dead, encodes the renditions itself
+// and marks the request with the header below so this plugin does not run at all
+// (app/utils/studio-renditions.ts). This path stays the default because
+// Cloudflare's encoder beats canvas.
+//
 // Failure mode: the original stays live (correct pixels, heavy file) and the
 // error is logged; re-uploading the image retries everything.
 import { blob } from '@nuxthub/blob'
 
 const MEDIA_PUT = '/__nuxt_studio/medias/'
 const IMAGE_KEY = /\.(jpe?g|png|webp)$/i
+// Set by app/plugins/studio-media-resize.client.ts on the base upload AND on the
+// rendition uploads that follow it, when the browser built them itself because
+// the transformation quota was spent. Without this the fallback below would
+// overwrite those renditions with oversized copies — and each rendition PUT
+// would itself be treated as a new image (`foo-800-800.webp`).
+const CLIENT_RENDITIONS = 'x-ptank-renditions'
+const RENDITION_KEY = /-(?:800|ph)\.webp$/i
 
 // [suffix, width, quality]; '' = the base overwrite, which must stay last.
 const RENDITIONS: [string, number, number][] = [
@@ -41,6 +56,7 @@ export default defineNitroPlugin((nitroApp) => {
   nitroApp.hooks.hook('afterResponse', async (event) => {
     if (event.method !== 'PUT' || !event.path.startsWith(MEDIA_PUT)) return
     if (getResponseStatus(event) >= 300) return
+    if (getRequestHeader(event, CLIENT_RENDITIONS)) return
 
     // Same key derivation as nuxt-studio's medias route ("public-assets" is its
     // virtual collection segment; `prefix` is the studio.media prefix, "images").
@@ -49,6 +65,8 @@ export default defineNitroPlugin((nitroApp) => {
       .slice(MEDIA_PUT.length)
       .replace(/^public-assets\//, '')
     if (!IMAGE_KEY.test(blobPath)) return
+    // Belt and braces behind the header above: a rendition is never a source.
+    if (RENDITION_KEY.test(blobPath)) return
 
     const pathname = prefix ? `${prefix}/${blobPath}` : blobPath
     const r2Base = useRuntimeConfig(event).public.imageR2Base

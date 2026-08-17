@@ -36,3 +36,7 @@ logs
 # Derived image variants (-800/-ph) staged for R2 upload. Regenerable from
 # .archive-import + image-sources via scripts/generate-image-variants.mjs.
 .image-variants/
+
+# Playwright
+test-results
+playwright-report

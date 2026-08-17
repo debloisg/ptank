@@ -11,7 +11,9 @@
     "deploy": "wrangler deploy",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
-    "typecheck": "nuxt typecheck"
+    "typecheck": "nuxt typecheck",
+    "test:e2e": "playwright test",
+    "test:e2e:ui": "playwright test --ui"
   },
   "dependencies": {
     "@iconify-json/lucide": "^1.2.123",
@@ -30,6 +32,7 @@
   },
   "devDependencies": {
     "@nuxt/eslint": "^1.17.0",
+    "@playwright/test": "^1.62.1",
     "axe-core": "^4.13.0",
     "eslint": "^10.8.1",
     "jsdom": "^29.1.1",

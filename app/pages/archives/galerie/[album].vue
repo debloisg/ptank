@@ -103,10 +103,9 @@ const neighbours = computed(() => {
 // rarely shared, so burning a billed transformation per album isn't worth it.
 // Trade-off accepted: it's WebP (a few older scrapers prefer JPEG) and not
 // cropped to the 1200x630 OG canvas — scrapers crop to their own canvas anyway.
+// Base read here, in setup — see the same note in pages/[...slug].vue.
 const r2Base = useRuntimeConfig().public.imageR2Base
-const ogImage = computed(() =>
-  album.value?.cover ? `${r2Base}${album.value.cover}` : undefined,
-)
+const ogImage = computed(() => absoluteImageUrl(album.value?.cover, r2Base))
 
 useSeoMeta({
   title: () => `${album.value?.title ?? 'Album'} · Archives · Pétanque Fouesnantaise`,

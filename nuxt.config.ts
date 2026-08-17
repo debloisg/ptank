@@ -43,6 +43,12 @@ const cspBase = [
 // locally, which inflates the Worker — kept remote, so the host is allowlisted.
 const ICONIFY = 'https://api.iconify.design'
 
+// esm.sh: Studio's "use code editor" panel lazily imports modern-monaco (plus
+// its locale bundles and cross-origin editor worker) straight from this CDN at
+// runtime — the URLs are hardcoded in nuxt-studio's shipped bundle, so the build
+// cannot vendor them. Studio-only; the public site never touches it.
+const ESM_SH = 'https://esm.sh'
+
 // Cloudflare Web Analytics: free, cookieless (sets no identifiers, so it needs no
 // consent banner under GDPR). Loads only when the token is provided — dev, forks
 // and previews stay beacon-free. Token: Cloudflare → Analytics & Logs → Web
@@ -66,19 +72,51 @@ const securityHeaders = {
   'permissions-policy': 'camera=(), microphone=(), geolocation=()',
 }
 
+// esm.sh + `worker-src blob:` are here, on the PUBLIC policy, and not only in
+// studioCsp below, because the Studio editor does not live on its own document:
+// /_studio is a 302 into the OAuth dance that lands the editor back on an
+// ordinary site page, and the panel then mounts into it. So the page hosting the
+// code editor is always served by the '/**' rule, and under a policy without
+// esm.sh the `import("https://esm.sh/modern-monaco")` is blocked and the panel
+// stays blank. Not 'unsafe-eval' though — monaco does not need it, and that one
+// stays confined to studioCsp.
 const publicCsp = [
   ...cspBase,
-  `script-src 'self' 'unsafe-inline' 'wasm-unsafe-eval' ${CF_INSIGHTS}`,
-  `connect-src 'self' ${ICONIFY} https://cloudflareinsights.com https://api.github.com https://raw.githubusercontent.com`,
+  `script-src 'self' 'unsafe-inline' 'wasm-unsafe-eval' ${CF_INSIGHTS} ${ESM_SH}`,
+  "worker-src 'self' blob:",
+  `connect-src 'self' ${ICONIFY} https://cloudflareinsights.com https://api.github.com https://raw.githubusercontent.com ${ESM_SH}`,
 ].join('; ')
 
 const studioCsp = [
   ...cspBase,
   // 'unsafe-eval' + 'wasm-unsafe-eval': the editor evaluates strings and
   // instantiates WebAssembly. worker-src: it registers /sw.js.
-  "script-src 'self' 'unsafe-inline' 'unsafe-eval' 'wasm-unsafe-eval'",
-  "worker-src 'self'",
-  `connect-src 'self' ${ICONIFY} https://api.github.com`,
+  // esm.sh: the code-editor panel's runtime imports (see above) — without it
+  // the dynamic import is blocked and the panel stays blank.
+  `script-src 'self' 'unsafe-inline' 'unsafe-eval' 'wasm-unsafe-eval' ${ESM_SH}`,
+  // blob:: monaco's editor worker lives on esm.sh, and a Worker cannot be
+  // constructed from a cross-origin URL — so it wraps a one-line
+  // `import "https://esm.sh/…"` in a Blob and constructs the worker from that
+  // blob: URL. The worker inherits this policy, hence esm.sh in script-src.
+  "worker-src 'self' blob:",
+  `connect-src 'self' ${ICONIFY} ${ESM_SH} https://api.github.com`,
+].join('; ')
+
+// Studio's service worker, served from /sw.js and registered on the SITE pages
+// (only for a signed-in editor — a visitor never registers it). It intercepts
+// every same-origin media request, serves unsaved uploads from IndexedDB and
+// re-`fetch`es everything else.
+//
+// That re-fetch is what needs its own policy: a service worker is governed by
+// the CSP delivered with its OWN script, not by the page's, and the request it
+// makes is checked against `connect-src` — including the R2 host our
+// `/images/**` rule redirects it to. Under the site policy that redirect is
+// blocked, and every already-uploaded image in the editor fails to load.
+// Nothing else here: the worker only fetches, so `script-src 'self'` alone.
+const swCsp = [
+  ...cspBase,
+  "script-src 'self'",
+  `connect-src 'self' ${r2Base}`,
 ].join('; ')
 
 export default defineNuxtConfig({
@@ -91,6 +129,13 @@ export default defineNuxtConfig({
   // so the lint rules know about auto-imports, `#imports`, page/component dirs.
   modules: ['@nuxthub/core', '@nuxt/image', '@nuxt/content', '@nuxt/ui', '@nuxtjs/seo', 'nuxt-a11y', 'nuxt-studio', '@nuxt/eslint'],
   css: ['~/assets/css/main.css'],
+
+  // Playwright writes screenshots/videos/reports into the project root while a
+  // dev server is running (the E2E suite drives `nuxt dev` — see
+  // playwright.config.ts). Without this the file watcher treats each artifact
+  // as a source change and reloads the app mid-test, which shows up as the
+  // Studio panel failing to mount.
+  ignore: ['test-results/**', 'playwright-report/**'],
 
   // Strict TS everywhere. typeCheck stays OFF for `nuxt build` on purpose: it
   // would add vue-tsc to every Cloudflare deploy build (slower, and a type error
@@ -108,7 +153,11 @@ export default defineNuxtConfig({
       stylistic: false,
     },
   },
-  devtools: { enabled: true },
+  // componentInspector: false — its Vue tracer instruments every component
+  // render, and Studio's "use code editor" panel (modern-monaco) creates enough
+  // of them to wedge the renderer: the tab freezes for good the moment the
+  // editor mounts. Nothing else about DevTools is affected, and it is dev-only.
+  devtools: { enabled: true, componentInspector: false },
   // Recent date so Nitro selects the modern `cloudflare_module` preset
   // (nodejs_compat) instead of `cloudflare-module-legacy`, whose polyfill
   // injection fails to parse unhead's iife bundle. Matches wrangler.jsonc.
@@ -180,6 +229,10 @@ export default defineNuxtConfig({
       },
       '/__nuxt_studio/**': {
         headers: { ...securityHeaders, 'content-security-policy': studioCsp },
+      },
+      // The editor's service worker — its own policy, see swCsp above.
+      '/sw.js': {
+        headers: { ...securityHeaders, 'content-security-policy': swCsp },
       },
     },
     // Cloudflare presets replace `typeof window` → `"undefined"`. unhead ships
@@ -367,7 +420,19 @@ export default defineNuxtConfig({
       // nuxt-studio defaults this to "studio/" (module.mjs) — an empty prefix here,
       // which is why the Media tab showed nothing despite R2 being full.
       prefix: 'images',
-      // Same bucket as images — defaults to r2Base (one bucket, images/ prefix).
+      // MUST BE THE ABSOLUTE R2 DOMAIN — a root-relative '/' breaks the media
+      // tab. Studio serves every thumbnail through its own ipx proxy, which
+      // branches on the media path: `hasProtocol(id)` fetches it over HTTP,
+      // anything else is resolved as a FILESYSTEM path under `publicUrl`
+      // (runtime/server/utils/media/ipx.js). Our images are in R2, not on disk,
+      // so a relative path 404s every thumbnail.
+      //
+      // The cost of keeping it absolute is that the picker writes the full URL
+      // into the content (`joinURL(publicUrl, prefix, fsPath)` is the exact
+      // string it inserts). That used to break the page — <NuxtImg> prefixed the
+      // R2 base a SECOND time — which is now handled where it belongs, in the
+      // renderers: app/providers/r2-variants.ts and absoluteImageUrl() both pass
+      // an already-absolute src through untouched.
       publicUrl: (process.env.S3_PUBLIC_URL || r2Base).trim().replace(/\/+$/, ''),
       // Studio uploads whatever the editor picked, untouched (upstream
       // nuxt-content/nuxt-studio#348). app/plugins/studio-media-resize.client.ts

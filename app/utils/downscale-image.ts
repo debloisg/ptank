@@ -71,6 +71,50 @@ export async function downscaleImage(dataUrl: string): Promise<string> {
   return out.length < dataUrl.length ? out : dataUrl
 }
 
+/**
+ * Re-encode a data URL to at most `maxWidth` px wide, as `mime`.
+ *
+ * Used only by the quota fallback in studio-media-resize.client.ts: when
+ * Cloudflare's transformation quota is exhausted the server cannot build the
+ * -800/-ph renditions, so the browser builds them from the same bytes it is
+ * about to upload. Returns undefined when the browser cannot produce the
+ * requested format — the caller then leaves the renditions to the server.
+ *
+ * Images already narrower than maxWidth are re-encoded at their natural size,
+ * never upscaled: the rendition KEY must exist for every image (the
+ * r2-variants provider maps to it without probing), even when it is a
+ * byte-for-byte-sized copy.
+ */
+export async function resizeImage(
+  dataUrl: string,
+  maxWidth: number,
+  quality: number,
+  mime = 'image/webp',
+): Promise<string | undefined> {
+  const bitmap = await createImageBitmap(dataUrlToBlob(dataUrl), { imageOrientation: 'from-image' })
+  const scale = Math.min(1, maxWidth / bitmap.width)
+  const canvas = document.createElement('canvas')
+  canvas.width = Math.max(1, Math.round(bitmap.width * scale))
+  canvas.height = Math.max(1, Math.round(bitmap.height * scale))
+
+  const ctx = canvas.getContext('2d')
+  if (!ctx) {
+    bitmap.close()
+    return undefined
+  }
+  ctx.imageSmoothingEnabled = true
+  ctx.imageSmoothingQuality = 'high'
+  ctx.drawImage(bitmap, 0, 0, canvas.width, canvas.height)
+  bitmap.close()
+
+  // toDataURL silently falls back to PNG for a format it cannot encode (Safari
+  // < 14 for WebP). A PNG under a .webp key would still render — the object is
+  // served with the Content-Type we store — but it is far heavier than the
+  // rendition is meant to be, so treat it as a failure.
+  const out = canvas.toDataURL(mime, quality)
+  return out.startsWith(`data:${mime}`) ? out : undefined
+}
+
 function dataUrlToBlob(dataUrl: string): Blob {
   // Decoded by hand rather than with fetch(dataUrl): the Studio CSP allows only
   // `connect-src 'self' <iconify>`, so fetching a data: URL would be blocked.

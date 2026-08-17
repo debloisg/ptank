@@ -1,0 +1,53 @@
+import { expect, test } from '@playwright/test'
+
+// Images live in R2 and are referenced by ABSOLUTE URL once Studio has picked
+// them (`image: https://image.…/images/x.jpg`). The regression these tests
+// guard: the @nuxt/image provider and the og:image helper used to prepend the
+// R2 base a second time, producing
+// `https://image.…fr/https://image.…fr/images/x.jpg` — a broken link on every
+// page that had a picked image.
+const R2_HOST = 'https://image.petanque-fouesnantaise.fr'
+const EVENT = '/evenements/octobre-rose-2026'
+
+test.describe('public site images', () => {
+  test('every image resolves to a single, absolute R2 URL', async ({ page }) => {
+    await page.goto(EVENT)
+
+    const sources = await page.locator('img').evaluateAll(imgs =>
+      imgs.map(img => (img as HTMLImageElement).currentSrc || (img as HTMLImageElement).src),
+    )
+    expect(sources.length).toBeGreaterThan(0)
+
+    for (const src of sources) {
+      // The host may appear at most once — twice means the base was prepended
+      // to an already-absolute URL.
+      expect(src.split(R2_HOST).length - 1, `double-prefixed: ${src}`).toBeLessThanOrEqual(1)
+      expect(src, `nested protocol: ${src}`).not.toMatch(/https?:\/\/[^/]+\/https?:\/\//)
+    }
+  })
+
+  test('the picked frontmatter image renders as the page hero', async ({ page }) => {
+    await page.goto(EVENT)
+
+    const hero = page.locator('img').first()
+    await expect(hero).toBeVisible()
+    // naturalWidth > 0 is the only proof the bytes actually arrived; a broken
+    // URL still yields a visible <img> box.
+    await expect
+      .poll(() => hero.evaluate(img => (img as HTMLImageElement).naturalWidth))
+      .toBeGreaterThan(0)
+  })
+
+  test('og:image is absolute and not double-prefixed', async ({ page }) => {
+    await page.goto(EVENT)
+
+    const ogImage = await page
+      .locator('meta[property="og:image"]')
+      .first()
+      .getAttribute('content')
+
+    if (!ogImage) test.skip(true, 'no og:image on this page')
+    expect(ogImage!).toMatch(/^https?:\/\//)
+    expect(ogImage!).not.toMatch(/https?:\/\/[^/]+\/https?:\/\//)
+  })
+})
