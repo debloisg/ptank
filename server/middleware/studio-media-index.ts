@@ -32,6 +32,9 @@ const MEDIA_ENDPOINT = '/__nuxt_studio/medias/'
 // nuxt-studio addresses the bucket through a virtual collection name and uses
 // `:` as its key separator (unstorage), so both spellings reach us.
 const VIRTUAL_COLLECTION = /^public-assets[:/]/
+// Derived files, generated per image by server/plugins/studio-media-variants.ts
+// (and, for the existing corpus, scripts/generate-image-variants.mjs).
+const GENERATED_RENDITION = /-(?:800|ph)\.webp$/i
 
 // Listing ~2.4k objects costs 7-17 s through wrangler's remote-bindings proxy,
 // so the index is kept for a good while and refreshed in the background: a stale
@@ -76,16 +79,24 @@ export default defineEventHandler(async (event) => {
   // remote-bindings proxy — so it is served from the cached first page instead.
   //
   // The FIRST PAGE specifically, not the whole index: that is exactly the set
-  // nuxt-studio's own un-paginated call returns, and the client fetches
-  // metadata for every key it is handed. Sub-folder listings are rare and fall
-  // through to the real handler.
+  // nuxt-studio's own un-paginated call returns. Sub-folder listings are rare
+  // and fall through to the real handler.
+  //
+  // The listing is also where the library's SIZE is decided, and size is what
+  // makes it slow: the client fetches metadata for every key it is handed, one
+  // request each. Two thirds of this bucket are the `-800`/`-ph` renditions the
+  // site generates for each image — files no editor should ever pick (picking
+  // one puts a derived file in the content and leaves the renderer looking for
+  // `foo-800-800.webp`). Dropping them from the LISTING alone cuts the cold
+  // library to a third without hiding anything real: every key is still served
+  // individually, so content that already points at a rendition still resolves.
   if (isRootListing(path)) {
     const { prefix } = mediaConfig(event)
     await mediaKeys(prefix)
     if (!index?.rootListing.length) return
 
     setResponseHeader(event, 'cache-control', 'private, max-age=60')
-    return index.rootListing
+    return index.rootListing.filter(key => !GENERATED_RENDITION.test(key))
   }
   if (path.endsWith('/') || path.endsWith(':')) return
 

@@ -35,6 +35,26 @@ test.describe('inserting an image from the rich-text editor', () => {
     await expect(studio.imagePicker).toBeVisible({ timeout: 30_000 })
   })
 
+  // The reported bug: `/image` opens on an empty library — "No images available
+  // in your media library" — for an editor who never opened the Media tab. The
+  // picker reads the same store the Media tab fills, so whatever fills it must
+  // not depend on that tab having been visited.
+  test('the picker lists the library without a visit to the media tab', async ({ page, studio }) => {
+    test.slow()
+    await studio.goto(EVENT)
+    await studio.waitForMount()
+    await studio.openDocument('Evenements', 'Octobre Rose 2026')
+
+    await studio.focusEndOfDocument()
+    await studio.runSlashCommand('image', 'Image')
+    await expect(studio.imagePicker).toBeVisible({ timeout: 30_000 })
+
+    // Generous, but bounded: an editor who waits half a minute in front of an
+    // empty dialog has already gone looking for another way to add the picture.
+    await expect(studio.pickerTiles.first()).toBeVisible({ timeout: 30_000 })
+    await expect(page.getByText('No images available in your media library')).toBeHidden()
+  })
+
   test('a picked image lands in the document and renders in the preview', async ({ page, studio }) => {
     test.slow()
     await studio.goto(EVENT)
