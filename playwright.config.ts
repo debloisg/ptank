@@ -15,6 +15,8 @@ const baseURL = process.env.E2E_BASE_URL || `http://localhost:${PORT}`
 
 export default defineConfig({
   testDir: './tests/e2e',
+  // Pays the dev server's cold costs once, before the first spec.
+  globalSetup: './tests/e2e/global-setup.ts',
   // Every spec is independent: no shared editor state, no ordering.
   fullyParallel: true,
   forbidOnly: !!process.env.CI,

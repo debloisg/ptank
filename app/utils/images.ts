@@ -25,6 +25,30 @@ export function absoluteImageUrl(src: string | undefined, base: string): string 
   return ABSOLUTE.test(src) ? src : `${base}${src}`
 }
 
+/**
+ * Is this page being rendered inside the Nuxt Studio editor?
+ *
+ * The panel writes `studio-active` before it boots and never clears it while
+ * the page lives, so the answer cannot change after load — hence the cache,
+ * which also keeps this to a single localStorage read per page instead of one
+ * per component that asks. Always false on the server: the flag is a browser
+ * fact, and the editor re-renders on the client anyway.
+ */
+let studioSession: boolean | undefined
+export function isStudioSession(): boolean {
+  if (import.meta.server) return false
+  if (studioSession === undefined) {
+    try {
+      studioSession = JSON.parse(localStorage.getItem('studio-active') || '{}')?.active === true
+    }
+    catch {
+      // A corrupt flag is not a reason to change how the site renders.
+      studioSession = false
+    }
+  }
+  return studioSession
+}
+
 // The composable is safe here: this one is only ever called from a component's
 // setup/render (ProseImg's template).
 export function imagePlaceholder(src?: string): string | undefined {

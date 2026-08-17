@@ -30,6 +30,20 @@ defineOptions({ inheritAttrs: false })
 
 const attrs = useAttrs()
 const eager = computed(() => attrs.loading === 'eager')
+
+// Studio re-renders the preview on every keystroke, which REMOUNTS every image
+// in it. A remounted NuxtImg paints its placeholder first and swaps to the real
+// file once it loads, so with a placeholder set every picture in the article
+// blinks on every character typed. Visitors keep the placeholder — it is what
+// hides the decode on a cold load; editors get the file straight away, already
+// in the browser cache from the render before.
+//
+// Read in SETUP, not in `onMounted`: a mounted hook fires after the first paint,
+// which is exactly the frame the placeholder is visible in, so the blink would
+// survive. The flag is written before the panel boots and never changes for the
+// life of the page, so a module-level cache reads localStorage once per load
+// instead of once per image.
+const placeholder = computed(() => (eager.value || isStudioSession() ? undefined : imagePlaceholder(props.src)))
 </script>
 
 <template>
@@ -40,7 +54,7 @@ const eager = computed(() => attrs.loading === 'eager')
     :height="props.height"
     sizes="100vw sm:680px"
     loading="lazy"
-    :placeholder="eager ? undefined : imagePlaceholder(props.src)"
+    :placeholder="placeholder"
     placeholder-class="blur-lg"
     v-bind="$attrs"
   />

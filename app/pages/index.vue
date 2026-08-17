@@ -211,15 +211,19 @@ useSeoMeta({
         <UButton to="/evenements" variant="link" color="primary" class="shrink-0" label="Tout l'agenda" trailing-icon="i-lucide-arrow-right" />
       </div>
 
-      <div v-if="upcoming.length" class="grid gap-5 sm:grid-cols-2">
+      <!-- One per row, like the news list above it: the rows now carry a
+           description and a photo, which a two-column grid would crush. -->
+      <div v-if="upcoming.length" class="grid gap-5">
         <AgendaCard
           v-for="e in upcoming"
           :key="e.path"
           :to="e.path"
           :title="e.title"
+          :description="e.description"
           :date="e.date"
           :location="e.location"
           :category="e.category"
+          :image="e.image"
         />
       </div>
       <p v-else class="text-muted">Aucun événement à venir pour le moment.</p>

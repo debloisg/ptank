@@ -112,6 +112,28 @@ const backLink = computed(() => {
 const r2Base = useRuntimeConfig().public.imageR2Base
 const ogImage = computed(() => absoluteImageUrl(page.value?.image, r2Base))
 
+// Affiches are portrait; photos are landscape. Nothing in the frontmatter says
+// which — Studio writes a bare URL — so the file itself is asked, off the
+// critical path: the decode is free (the hero request is already in flight, and
+// this reuses it from cache), and until it answers the landscape box stands.
+// `1.05` keeps near-square photos on the landscape path, where the crop is
+// harmless.
+const isPortraitImage = ref(false)
+if (import.meta.client) {
+  watch(() => page.value?.image, (src) => {
+    isPortraitImage.value = false
+    if (!src) return
+    const probe = new Image()
+    probe.onload = () => {
+      isPortraitImage.value = probe.naturalHeight > probe.naturalWidth * 1.05
+    }
+    // The 800px rendition, not the base: same ratio, a few dozen KB, and it is
+    // the file the hero itself loads on phones — so on the narrow screens where
+    // this matters most it costs nothing.
+    probe.src = useImage()(src, { width: 800 })
+  }, { immediate: true })
+}
+
 useSeoMeta({
   title: () => (page.value?.title ? `${page.value.title} · Pétanque Fouesnantaise` : undefined),
   description: () => page.value?.description,
@@ -190,7 +212,13 @@ if (segment === 'evenements' || segment === 'competitions') {
       <!-- Fixed aspect box + object-cover so the article never reflows while the
            image decodes (CLS). Studio uploads carry no dimensions in frontmatter,
            so the ratio can't come from the content — hence a fixed 4/3 on mobile,
-           16/9 from sm up. Portrait uploads are cropped to fit, by design.
+           16/9 from sm up.
+           PORTRAIT is the exception: these are affiches (the concours poster),
+           and a 16/9 crop of a poster cuts off exactly what it is there to say.
+           Orientation is only knowable once the file has been decoded, so the
+           landscape box is what gets reserved and a portrait image swaps to its
+           own height-capped box afterwards — one reflow on the minority case,
+           no reflow on the common one.
            Eager + high priority because this is the page's LCP element. -->
       <ProseImg
         v-if="page?.image"
@@ -199,7 +227,9 @@ if (segment === 'evenements' || segment === 'competitions') {
         sizes="100vw sm:768px"
         loading="eager"
         fetchpriority="high"
-        class="w-full aspect-[4/3] sm:aspect-video object-cover rounded-2xl border border-default bg-muted"
+        :class="isPortraitImage
+          ? 'mx-auto w-auto max-h-[80vh] object-contain rounded-2xl border border-default bg-muted'
+          : 'w-full aspect-[4/3] sm:aspect-video object-cover rounded-2xl border border-default bg-muted'"
       />
 
       <!-- Tells the reader why the layout and tone differ from the rest of the
