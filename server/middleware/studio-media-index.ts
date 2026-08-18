@@ -14,16 +14,20 @@
 // the key itself — `joinURL(publicUrl, prefix, fsPath)` — and only touches R2 to
 // decide whether the key exists (`meta.url` is unset for R2 blobs). One `list()`
 // gives the same answer for every key at once, so this middleware keeps a short
-// lived key index and answers the per-key GETs from it, in the exact shape
-// nuxt-studio's handler returns.
+// lived key index (server/utils/media-index.ts) and answers the per-key GETs
+// from it, in the exact shape nuxt-studio's handler returns.
 //
-// FALLING THROUGH is always safe: any key the index does not know (a fresh
-// upload, a typo) is left to nuxt-studio's own handler, which does the HEAD and
-// 404s if needed. The index is therefore never authoritative for absence — only
-// for presence, and only for CACHE_TTL. A file deleted elsewhere can linger in
-// the picker for that long, which is the whole cost of this.
+// FALLING THROUGH is always safe, and is what this does whenever the index has
+// no answer ready — an unknown key, a listing that failed, a listing still in
+// flight when the request's patience ran out. nuxt-studio's own handler then
+// does the HEAD (or the listing) itself and 404s if needed. The index is
+// therefore never authoritative for absence — only for presence, and only for
+// its TTL. A file deleted elsewhere can linger in the picker for that long,
+// which is the whole cost of this.
 import { blob } from '@nuxthub/blob'
 import { getRequestProtocol, useSession } from 'h3'
+import type { WaitUntil } from '../utils/media-index'
+import { createMediaIndex } from '../utils/media-index'
 // joinURL/withLeadingSlash come from Nitro's auto-imported ufo preset — `ufo`
 // itself is a transitive dependency here, not a direct one, so importing it by
 // name does not type-resolve under pnpm's strict node_modules.
@@ -36,23 +40,28 @@ const VIRTUAL_COLLECTION = /^public-assets[:/]/
 // (and, for the existing corpus, scripts/generate-image-variants.mjs).
 const GENERATED_RENDITION = /-(?:800|ph)\.webp$/i
 
-// Listing ~2.4k objects costs 7-17 s through wrangler's remote-bindings proxy,
-// so the index is kept for a good while and refreshed in the background: a stale
-// key set is still correct for everything it contains, and anything it misses
-// falls through to nuxt-studio's handler.
-const CACHE_TTL = 10 * 60_000
-const PAGE_SIZE = 1000
-// Bucket is ~2.4k objects; the cap is a guard against a pathological cursor
-// loop, not a real limit.
-const MAX_PAGES = 20
+// Listing this bucket costs ~1 s on Cloudflare and 7-17 s through wrangler's
+// remote-bindings proxy in dev, so a request's patience is set per environment:
+// dev would otherwise give up on a listing that was about to land and fall back
+// to the slow path it exists to avoid.
+const REQUEST_BUDGET = import.meta.dev ? 60_000 : 8_000
 
-let index: { keys: Set<string>, rootListing: string[], expires: number } | undefined
-let inflight: Promise<Set<string>> | undefined
+// The media prefix is build-time config (nuxt.config.ts studio.media.prefix) and
+// the same for every request, but it is only readable from an event — so the
+// first request that has one hands it to the index, which is otherwise a
+// process-wide singleton.
+let PREFIX = 'images'
 
-/** `public-assets:`, `:` and `/` all mean "everything under the media prefix". */
-function isRootListing(path: string) {
-  return /^(?:public-assets)?[:/]$/.test(path)
-}
+const mediaIndex = createMediaIndex({
+  budget: REQUEST_BUDGET,
+  async list({ cursor, limit }) {
+    const result = await blob.list({ prefix: `${PREFIX}/`, cursor, limit })
+    return {
+      keys: result.blobs.map(item => item.pathname.slice(`${PREFIX}/`.length)),
+      cursor: result.hasMore ? result.cursor : undefined,
+    }
+  },
+})
 
 export default defineEventHandler(async (event) => {
   if (event.method !== 'GET' || !event.path.startsWith('/__nuxt_studio/')) return
@@ -60,8 +69,14 @@ export default defineEventHandler(async (event) => {
   // The panel asks for its meta before it asks for any media, so this is the
   // moment to start building the index — off the critical path, so the first
   // editor to open the media tab does not wait for the listing.
+  //
+  // `waitUntil` is not optional here: on Workers the listing would otherwise be
+  // cancelled the instant this response is sent.
   if (event.path.startsWith('/__nuxt_studio/meta')) {
-    if (await isStudioEditor(event)) void mediaKeys(mediaConfig(event).prefix)
+    if (await isStudioEditor(event)) {
+      PREFIX = mediaConfig(event).prefix
+      mediaIndex.prefetch(waitUntil(event))
+    }
     return
   }
 
@@ -72,11 +87,14 @@ export default defineEventHandler(async (event) => {
 
   if (!await isStudioEditor(event)) return
 
+  const { prefix, publicUrl } = mediaConfig(event)
+  PREFIX = prefix
+
   // The ROOT listing is the first thing the client asks for and the answer
   // everything else waits on: until it lands the picker says "No images
   // available in your media library". nuxt-studio's handler pays a fresh
-  // `blob.list()` for it on every page load — 8-17 s here, through wrangler's
-  // remote-bindings proxy — so it is served from the cached first page instead.
+  // `blob.list()` for it on every page load, so it is served from the cached
+  // first page instead.
   //
   // The FIRST PAGE specifically, not the whole index: that is exactly the set
   // nuxt-studio's own un-paginated call returns. Sub-folder listings are rare
@@ -91,18 +109,16 @@ export default defineEventHandler(async (event) => {
   // library to a third without hiding anything real: every key is still served
   // individually, so content that already points at a rendition still resolves.
   if (isRootListing(path)) {
-    const { prefix } = mediaConfig(event)
-    await mediaKeys(prefix)
-    if (!index?.rootListing.length) return
+    const listing = await mediaIndex.rootListing(waitUntil(event))
+    if (!listing) return
 
     setResponseHeader(event, 'cache-control', 'private, max-age=60')
-    return index.rootListing.filter(key => !GENERATED_RENDITION.test(key))
+    return listing.filter(key => !GENERATED_RENDITION.test(key))
   }
   if (path.endsWith('/') || path.endsWith(':')) return
 
-  const { prefix, publicUrl } = mediaConfig(event)
   const blobPath = path.replace(VIRTUAL_COLLECTION, '').replace(/:/g, '/')
-  const keys = await mediaKeys(prefix)
+  const keys = await mediaIndex.keys(waitUntil(event))
   if (!keys.has(blobPath)) return
 
   // Private and short: the editor asks for hundreds of these per session, and
@@ -119,6 +135,21 @@ export default defineEventHandler(async (event) => {
     path: joinSegments(publicUrl, prefix, fsPath),
   }
 })
+
+/** `public-assets:`, `:` and `/` all mean "everything under the media prefix". */
+function isRootListing(path: string) {
+  return /^(?:public-assets)?[:/]$/.test(path)
+}
+
+/**
+ * Cloudflare's `ctx.waitUntil`, wired into the event context by Nitro's
+ * cloudflare preset. Undefined under plain `nuxt dev` (Node), where a detached
+ * promise keeps running by itself and nothing needs registering.
+ */
+function waitUntil(event: Parameters<Parameters<typeof defineEventHandler>[0]>[0]): WaitUntil {
+  const registered = (event.context as { waitUntil?: WaitUntil }).waitUntil
+  return typeof registered === 'function' ? registered : undefined
+}
 
 /**
  * `joinURL` without the import: `ufo` is a transitive dependency here, not a
@@ -161,77 +192,4 @@ async function isStudioEditor(event: Parameters<Parameters<typeof defineEventHan
 
 function mediaConfig(event: Parameters<Parameters<typeof defineEventHandler>[0]>[0]) {
   return useRuntimeConfig(event).public.studio.media as { prefix: string, publicUrl: string }
-}
-
-/**
- * Every key under the media prefix, so far.
- *
- * Two things keep this off the critical path:
- *   * stale-while-revalidate — an expired index is served as is and refreshed
- *     behind the request;
- *   * incremental publication — the listing is paginated (1000 keys a page,
- *     ~12 s each through wrangler's remote proxy for this bucket), and each page
- *     is published as it lands rather than after the last one.
- *
- * A partial index is still correct: it is only ever consulted for PRESENCE, and
- * a key it does not have yet falls through to nuxt-studio's own handler.
- */
-async function mediaKeys(prefix: string): Promise<Set<string>> {
-  if (index) {
-    if (index.expires <= Date.now()) void refresh(prefix)
-    return index.keys
-  }
-  return refresh(prefix)
-}
-
-/** Resolves as soon as the FIRST page is indexed; the rest streams in after. */
-function refresh(prefix: string): Promise<Set<string>> {
-  // Single-flight: the client fires hundreds of metadata requests in parallel,
-  // and each one starting its own listing would be worse than the problem being
-  // solved.
-  if (inflight) return inflight
-
-  let publishFirstPage!: (keys: Set<string>) => void
-  inflight = new Promise<Set<string>>((resolve) => {
-    publishFirstPage = resolve
-  })
-
-  void (async () => {
-    const keys = new Set<string>()
-    let rootListing: string[] = []
-    const strip = prefix ? `${prefix}/`.length : 0
-    try {
-      let cursor: string | undefined
-      let page = 0
-      do {
-        const result = await blob.list({
-          prefix: prefix ? `${prefix}/` : undefined,
-          cursor,
-          limit: PAGE_SIZE,
-        })
-        const page_ = result.blobs.map(item => item.pathname.slice(strip))
-        for (const key of page_) keys.add(key)
-        // The first page IS what nuxt-studio's own un-paginated `blob.list()`
-        // returns, so it is what the root listing must answer with — byte for
-        // byte the same media library the editor had before this middleware.
-        if (!page) rootListing = page_
-        // Never cache an empty result: a blip should be retried, not remembered.
-        if (keys.size) index = { keys, rootListing, expires: Date.now() + CACHE_TTL }
-        publishFirstPage(keys)
-        cursor = result.hasMore ? result.cursor : undefined
-      } while (cursor && ++page < MAX_PAGES)
-    }
-    catch (error) {
-      // Falling through to per-key HEADs is slow, not broken — the right way to
-      // degrade when wrangler's remote proxy answers `internal error` under
-      // load, as it does in dev.
-      console.warn('[studio-media-index] listing failed, falling back to per-key HEADs:', error)
-    }
-    finally {
-      publishFirstPage(keys)
-      inflight = undefined
-    }
-  })()
-
-  return inflight
 }

@@ -54,3 +54,16 @@ app the moment a screenshot is written, and the Studio panel unmounts mid-test.
 - Studio activation is seeded via `localStorage` in the `studio` fixture
   (`fixtures/studio.ts`), so specs stay independent and order-free.
 - Web-first assertions (`toBeVisible`, `expect.poll`) rather than sleeps.
+
+## The other suite: `pnpm test:unit` (`tests/node`)
+
+Some failures are invisible from here on purpose. `nuxt dev` is Node; production
+is Cloudflare Workers, where a promise still pending when the response is sent is
+cancelled outright — it never resolves, never rejects, never reaches a `finally`.
+The media library went permanently empty in production that way while every spec
+in this directory stayed green.
+
+So the media index's own logic lives in `server/utils/media-index.ts`, free of
+Nitro, and `tests/node/media-index.spec.ts` drives it with a listing that simply
+never settles. Same Playwright runner, no browser and no dev server:
+`playwright.node.config.ts`.
