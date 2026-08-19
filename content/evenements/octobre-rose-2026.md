@@ -15,7 +15,7 @@ Dans le cadre d’OCTOBRE ROSE Concours de pétanque en triplette 100% féminin.
 **Départ** : 13h30
 
 - **Lieu** : boulodrome de l'Allée de Loc'Hilaire
-- **Inscriptions** : à partir de 13h30 
+- **Inscriptions** : à partir de 13h30 (5€/personne)
 - jet du bouchon à 14h - 3 parties
 - venez nombreuses avec vos supporters !
 
