@@ -12,10 +12,10 @@ seo:
 
 Dans le cadre d’OCTOBRE ROSE Concours de pétanque en triplette 100% féminin. L’intégralité des bénéfices sera reversée à l’association CAP ROSE. 
 
-**Départ** : 13h30
+ **Inscriptions (voir affiche)** : au plus tard le **samedi 26 septembre** (5€/personne)
 
 - **Lieu** : boulodrome de l'Allée de Loc'Hilaire
-- **Inscriptions** : à partir de 13h30 (5€/personne)
+- **Enregistrement sur place** : de 13h30 à 14h
 - jet du bouchon à 14h - 3 parties
 - venez nombreuses avec vos supporters !
 
