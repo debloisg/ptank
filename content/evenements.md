@@ -1,6 +1,6 @@
 ---
 title: Octobre Rose
-description: Après les concours populaires du mercredi 3n juillet et août la Pétanque Fouesnantaise participera à l’action de Cap Rose
+description: Après les concours populaires du mercredi en juillet et août la Pétanque Fouesnantaise participera à l’action de Cap Rose
 eyebrow: Agenda
 seo:
   title: Concours d'été en doublette
