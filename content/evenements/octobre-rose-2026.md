@@ -10,7 +10,7 @@ seo:
   description: Concours en doublette ouvert à tous, départ à 13h30 au boulodrome de l'Allée de Loc'Hilaire.
 ---
 
-Dans le cadre d’OCTOBRE ROSE Concours de pétanque en triplette 100% féminin. Bénéfices du bar reversés a l’association CAP ROSE
+Dans le cadre d’OCTOBRE ROSE Concours de pétanque en triplette 100% féminin. L’intégralité des bénéfices sera reversée à l’association CAP ROSE. 
 
 **Départ** : 13h30
 
