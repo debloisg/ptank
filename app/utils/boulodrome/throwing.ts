@@ -61,7 +61,7 @@ export function simulateFlight(
   const v = throwVelocity(angle, power)
   let x = origin.x
   let y = origin.y
-  let vx = v.x
+  const vx = v.x
   let vy = v.y
   const dt = 1 / 120
   const path: Vec[] = [{ x, y }]

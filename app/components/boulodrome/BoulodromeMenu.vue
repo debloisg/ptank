@@ -20,6 +20,10 @@ const rulesOpen = ref(false)
       une petite brise de Fouesnant — à vous de jouer, en solo contre
       l'ordinateur ou à deux sur le même écran.
     </p>
+    <p class="mt-2 text-xs italic text-muted/70 sm:text-sm">
+      Chut… ce coin du site est un petit secret entre nous : gardez-le pour
+      les amis du club.
+    </p>
 
     <div class="mt-10 grid gap-4 sm:grid-cols-2">
       <button

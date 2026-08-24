@@ -1,13 +1,25 @@
-// Everything that puts pixels on the canvas. World units are meters; a single
-// camera transform maps them to CSS pixels, and the play area keeps a fixed
-// 2.4:1 aspect (letterboxed on narrow screens).
+// Everything that puts pixels on the canvas. World units are metres; a single
+// camera transform maps them to CSS pixels.
 //
-// Target look: a July evening in Fouesnant — warm sky, flat silhouettes, café
-// fairy lights, sandy gravel. Everything procedural, no image assets.
+// Framing: the *gameplay* framing is a fixed 2.4:1 window (VIEW_W metres wide),
+// but the picture is not letterboxed — it fills the whole canvas. The scale is
+// still the min-fit of that 2.4:1 window, so what you can reach and how big a
+// boule looks never depend on the screen; the extra room on a wider or taller
+// canvas simply shows more sky, more sea and more gravel. `refW`/`refH` are the
+// pixel size of that nominal window and every *feature* (sun radius, hill
+// amplitude, cloud size, garland sag…) is measured against them, while spans
+// and fills use the real canvas size. That is what keeps the composition
+// identical from a 2.4:1 embed to a 2.2:1 phone in fullscreen to an ultrawide.
+//
+// Target look: a flat, illustrative Breton coast — either a July evening in
+// Fouesnant or a bright summer day (see palette.ts). Everything procedural, no
+// image assets.
 
 import type { Effects } from './effects'
-import { PALETTE, playerColor } from './palette'
+import type { SceneKind, ScenePalette } from './palette'
+import { PALETTE, PALETTES, playerColor } from './palette'
 import { createRng } from './rng'
+import type { Seagull } from './seagull'
 import type { Terrain } from './terrain'
 import type { PlayerId, Vec } from './types'
 
@@ -24,10 +36,16 @@ export interface Camera {
 
 export interface View {
   ctx: CanvasRenderingContext2D
+  /** Always 0/0 now: the scene fills the canvas. Kept so callers can keep
+   *  mapping screen → world with the same formula. */
   ox: number
   oy: number
+  /** Full canvas size in CSS pixels. */
   w: number
   h: number
+  /** The nominal 2.4:1 window in pixels — the yardstick for feature sizes. */
+  refW: number
+  refH: number
   scale: number
   cam: Camera
   X: (x: number) => number
@@ -42,44 +60,75 @@ export function makeView(
   cam: Camera,
 ): View {
   const viewH = cam.viewW / WORLD_ASPECT
+  // Same min-fit scale as the old letterboxed view: gameplay framing unchanged.
   const scale = Math.min(cssW / cam.viewW, cssH / viewH)
-  const w = cam.viewW * scale
-  const h = viewH * scale
-  const ox = (cssW - w) / 2
-  const oy = (cssH - h) / 2
+  const refW = cam.viewW * scale
+  const refH = viewH * scale
+  // The camera centre stays at the centre of the canvas; the surplus is split
+  // evenly around it, which is why ox/oy are simply 0.
   return {
     ctx,
-    ox,
-    oy,
-    w,
-    h,
+    ox: 0,
+    oy: 0,
+    w: cssW,
+    h: cssH,
+    refW,
+    refH,
     scale,
     cam,
-    X: (x: number) => ox + w / 2 + (x - cam.cx) * scale,
-    Y: (y: number) => oy + h / 2 - (y - cam.cy) * scale,
+    X: (x: number) => cssW / 2 + (x - cam.cx) * scale,
+    Y: (y: number) => cssH / 2 - (y - cam.cy) * scale,
     S: (m: number) => m * scale,
   }
+}
+
+/** Positive modulo — used to wrap drifting backdrop layers. */
+function mod(a: number, m: number): number {
+  const r = a % m
+  return r < 0 ? r + m : r
+}
+
+/**
+ * How many copies of the nominal window fit across the canvas (plus one, for
+ * the drift). Backdrop layers are laid out per copy so their *density* stays
+ * constant instead of stretching on a wide screen.
+ */
+function tileCount(v: View): number {
+  return Math.ceil(v.w / v.refW) + 1
 }
 
 // ---------------------------------------------------------------- backdrop
 
 export interface Backdrop {
+  /** Picked once per game, from the seed. Drives every colour below. */
+  scene: SceneKind
   hillPhase: number[]
   trees: { x: number, h: number, w: number, kind: 0 | 1 }[]
-  bulbs: { t: number, color: string, phase: number }[]
+  /** Fairy-light bulbs (sunset) — colour + twinkle phase, cycled along the wire. */
+  bulbs: { color: string, phase: number }[]
+  /** Breton bunting fanions (day) — colour + sway phase, cycled the same way. */
+  bunting: { color: string, phase: number }[]
   clouds: { x: number, y: number, w: number, h: number, hi: boolean }[]
   glints: { x: number, y: number, w: number }[]
+  /** Position of the phare along the far coastline, 0..1. */
+  lighthouse: { t: number, phase: number }
+  /** One or two sloops drifting on the sea band. */
+  boats: { t: number, y: number, s: number, speed: number, dir: 1 | -1 }[]
 }
 
 /** Generated once per game: the horizon shouldn't change between mènes. */
 export function createBackdrop(seed: number): Backdrop {
   const rng = createRng(seed)
+  // Scene first, so it is a clean coin flip rather than a function of the rest.
+  const scene: SceneKind = rng() < 0.5 ? 'sunset' : 'day'
+  const pal = PALETTES[scene]
+
   const hillPhase = [rng() * 7, rng() * 7, rng() * 7, rng() * 7]
 
   const trees: Backdrop['trees'] = []
-  for (let i = 0; i < 26; i++) {
+  for (let i = 0; i < 30; i++) {
     trees.push({
-      x: -0.25 + rng() * 1.6,
+      x: rng(), // 0..1 across the tree band, widened at draw time
       h: 0.06 + rng() * 0.1,
       w: 0.02 + rng() * 0.035,
       kind: rng() < 0.45 ? 0 : 1,
@@ -88,10 +137,21 @@ export function createBackdrop(seed: number): Backdrop {
   trees.sort((a, b) => a.h - b.h)
 
   const bulbs: Backdrop['bulbs'] = []
-  for (let i = 0; i <= 26; i++) {
+  for (let i = 0; i < 27; i++) {
     bulbs.push({
-      t: i / 26,
       color: PALETTE.bulbs[i % PALETTE.bulbs.length]!,
+      phase: rng() * Math.PI * 2,
+    })
+  }
+
+  // Gwenn ha Du bunting: mostly black/white, with the odd red or blue fanion.
+  const bunting: Backdrop['bunting'] = []
+  for (let i = 0; i < 27; i++) {
+    const accent = rng() < 0.14
+    bunting.push({
+      color: accent
+        ? pal.buntingAccents[Math.floor(rng() * pal.buntingAccents.length)]!
+        : (i % 2 === 0 ? pal.flagBlack : pal.flagWhite),
       phase: rng() * Math.PI * 2,
     })
   }
@@ -99,7 +159,7 @@ export function createBackdrop(seed: number): Backdrop {
   const clouds: Backdrop['clouds'] = []
   for (let i = 0; i < 7; i++) {
     clouds.push({
-      x: -0.2 + rng() * 1.5,
+      x: rng(),
       y: 0.08 + rng() * 0.3,
       w: 0.12 + rng() * 0.22,
       h: 0.012 + rng() * 0.022,
@@ -112,7 +172,21 @@ export function createBackdrop(seed: number): Backdrop {
     glints.push({ x: rng(), y: rng(), w: 0.01 + rng() * 0.05 })
   }
 
-  return { hillPhase, trees, bulbs, clouds, glints }
+  // Keep the phare off to one side so it never sits behind the play area.
+  const lighthouse = { t: rng() < 0.5 ? 0.1 + rng() * 0.14 : 0.76 + rng() * 0.14, phase: rng() * 6 }
+
+  const boats: Backdrop['boats'] = []
+  for (let i = 0; i < (rng() < 0.5 ? 1 : 2); i++) {
+    boats.push({
+      t: rng(),
+      y: rng(),
+      s: rng(),
+      speed: 0.006 + rng() * 0.008,
+      dir: rng() < 0.5 ? 1 : -1,
+    })
+  }
+
+  return { scene, hillPhase, trees, bulbs, bunting, clouds, glints, lighthouse, boats }
 }
 
 function hillY(x: number, phase: number[], amp: number, base: number): number {
@@ -122,96 +196,244 @@ function hillY(x: number, phase: number[], amp: number, base: number): number {
   )
 }
 
-function drawSky(v: View) {
+/** Where the horizon falls inside the sky wash in the nominal 2.4:1 framing. */
+const SKY_HORIZON_AT = 0.65
+
+function drawSky(v: View, p: ScenePalette, horizon: number) {
   const { ctx } = v
-  const g = ctx.createLinearGradient(0, v.oy, 0, v.oy + v.h)
-  for (const stop of PALETTE.sky) g.addColorStop(stop.at, stop.color)
+  // The wash is hung off the horizon and measured in nominal-window units, so
+  // the warm band always lands *at* the waterline. Anchoring it to the canvas
+  // instead would push the warm end down behind the gravel as soon as there is
+  // extra height (fullscreen on a phone), leaving a flat mid-tone horizon.
+  // Beyond both ends the gradient clamps, which is exactly what the surplus
+  // sky should be: more of the deep top colour.
+  const g = ctx.createLinearGradient(
+    0,
+    horizon - v.refH * SKY_HORIZON_AT,
+    0,
+    horizon + v.refH * (1 - SKY_HORIZON_AT),
+  )
+  for (const stop of p.sky) g.addColorStop(stop.at, stop.color)
   ctx.fillStyle = g
-  ctx.fillRect(v.ox, v.oy, v.w, v.h)
+  ctx.fillRect(0, 0, v.w, v.h)
 }
 
-function drawSun(v: View, pan: number, horizon: number) {
+function drawSun(v: View, p: ScenePalette, pan: number, horizon: number) {
   const { ctx } = v
-  const cx = v.ox + v.w * 0.74 - pan * 0.04
-  const cy = horizon - v.h * 0.24
-  const r = v.h * 0.1
+  // Anchored to the nominal window, not to the canvas: on an ultrawide screen
+  // the sun stays where it was composed rather than sliding into the corner.
+  const cx = v.w / 2 + v.refW * 0.24 - pan * 0.04
+  const cy = horizon - v.refH * p.sunY
+  const r = v.refH * p.sunR
 
-  const glow = ctx.createRadialGradient(cx, cy, r * 0.4, cx, cy, r * 5)
-  glow.addColorStop(0, PALETTE.sunGlow)
-  glow.addColorStop(1, 'rgba(255, 190, 120, 0)')
+  const glow = ctx.createRadialGradient(cx, cy, r * 0.4, cx, cy, r * p.sunGlowR)
+  glow.addColorStop(0, p.sunGlow)
+  glow.addColorStop(1, p.sunGlowEdge)
   ctx.fillStyle = glow
-  ctx.fillRect(v.ox, v.oy, v.w, v.h)
+  ctx.fillRect(0, 0, v.w, v.h)
 
-  ctx.fillStyle = PALETTE.sun
+  ctx.fillStyle = p.sun
   ctx.beginPath()
   ctx.arc(cx, cy, r, 0, Math.PI * 2)
   ctx.fill()
 }
 
-function drawClouds(v: View, b: Backdrop, pan: number, horizon: number) {
+function drawClouds(v: View, b: Backdrop, p: ScenePalette, pan: number, horizon: number) {
   const { ctx } = v
-  ctx.globalAlpha = 0.55
+  const tiles = tileCount(v)
+  const span = tiles * v.refW
+  const x0 = v.w / 2 - span / 2
+  const drift = pan * 0.06
+
+  ctx.globalAlpha = p.cloudAlpha
   for (const c of b.clouds) {
-    const x = v.ox + ((c.x - (pan * 0.06) / v.w) % 1.7) * v.w
-    const y = horizon - v.h * (0.2 + c.y * 0.55)
-    ctx.fillStyle = c.hi ? PALETTE.cloudHi : PALETTE.cloud
-    const rx = c.w * v.w * 0.32
-    const ry = Math.max(2, c.h * v.h * 0.6)
+    const y = horizon - v.refH * (0.2 + c.y * 0.55)
+    const rx = c.w * v.refW * 0.32
+    const ry = Math.max(2, c.h * v.refH * 0.6)
+    ctx.fillStyle = c.hi ? p.cloudHi : p.cloud
     ctx.beginPath()
-    ctx.ellipse(x, y, rx, ry, 0, 0, Math.PI * 2)
-    ctx.ellipse(x + rx * 0.7, y + ry * 0.3, rx * 0.55, ry * 0.7, 0, 0, Math.PI * 2)
+    for (let i = 0; i < tiles; i++) {
+      const x = x0 + mod(c.x * v.refW + i * v.refW - drift, span)
+      if (x < -rx * 2 || x > v.w + rx * 2) continue
+      ctx.ellipse(x, y, rx, ry, 0, 0, Math.PI * 2)
+      ctx.ellipse(x + rx * 0.7, y + ry * 0.3, rx * 0.55, ry * 0.7, 0, 0, Math.PI * 2)
+      // Cumulus get a third, taller lobe so they read as cotton, not haze.
+      if (p.cloudPuffy) ctx.ellipse(x - rx * 0.62, y + ry * 0.34, rx * 0.5, ry * 0.62, 0, 0, Math.PI * 2)
+    }
     ctx.fill()
   }
   ctx.globalAlpha = 1
 }
 
-function drawHorizon(v: View, b: Backdrop, pan: number, horizon: number) {
+/** The phare: a tiny white tower on the far ridge. Blinks at dusk. */
+function drawLighthouse(
+  v: View,
+  b: Backdrop,
+  p: ScenePalette,
+  pan: number,
+  amp: number,
+  base: number,
+  time: number,
+) {
   const { ctx } = v
-  const seaTop = horizon - v.h * 0.2
+  const x = v.w / 2 + (b.lighthouse.t - 0.5) * v.refW * 1.3
+  if (x < -40 || x > v.w + 40) return
+  // Same parallax and the same wave as the far hills, so it stands *on* them.
+  const hx = (x - v.w / 2 + pan * 0.1) / v.refW
+  const groundY = hillY(hx, b.hillPhase, amp, base)
+  const h = v.refH * 0.075
+  const w = Math.max(2, v.refH * 0.016)
+
+  // Tower: a slight taper reads as masonry even at a dozen pixels.
+  ctx.fillStyle = p.lighthouseTower
+  ctx.beginPath()
+  ctx.moveTo(x - w * 0.62, groundY)
+  ctx.lineTo(x + w * 0.62, groundY)
+  ctx.lineTo(x + w * 0.36, groundY - h)
+  ctx.lineTo(x - w * 0.36, groundY - h)
+  ctx.closePath()
+  ctx.fill()
+
+  // Lantern room + its band, then the gallery lip.
+  const ly = groundY - h
+  ctx.fillStyle = p.lighthouseBand
+  ctx.fillRect(x - w * 0.5, ly - h * 0.28, w, h * 0.28)
+  ctx.fillStyle = p.lighthouseTower
+  ctx.fillRect(x - w * 0.58, ly - h * 0.32, w * 1.16, Math.max(1, h * 0.05))
+
+  const lampX = x
+  const lampY = ly - h * 0.15
+  // A four-second sweep: mostly dark, one bright beat, like a real characteristic.
+  const beat = p.lighthouseBlink ? Math.max(0, Math.sin(time * 1.6 + b.lighthouse.phase)) ** 8 : 0.25
+  ctx.fillStyle = p.lighthouseLantern
+  ctx.globalAlpha = 0.5 + 0.5 * beat
+  ctx.beginPath()
+  ctx.arc(lampX, lampY, Math.max(1, w * 0.22), 0, Math.PI * 2)
+  ctx.fill()
+  if (beat > 0.02) {
+    const glow = ctx.createRadialGradient(lampX, lampY, 0, lampX, lampY, w * 3.2)
+    glow.addColorStop(0, p.lighthouseLantern)
+    glow.addColorStop(1, 'rgba(255, 233, 168, 0)')
+    ctx.globalAlpha = 0.55 * beat
+    ctx.fillStyle = glow
+    ctx.beginPath()
+    ctx.arc(lampX, lampY, w * 3.2, 0, Math.PI * 2)
+    ctx.fill()
+  }
+  ctx.globalAlpha = 1
+}
+
+/** A classic sloop silhouette: hull, mast, mainsail, jib. */
+function drawBoat(v: View, p: ScenePalette, x: number, y: number, size: number, dir: 1 | -1) {
+  const { ctx } = v
+  const hw = size
+  const hh = size * 0.34
+  const mast = size * 1.9
+
+  ctx.fillStyle = p.boatSail
+  // Mainsail behind the mast, jib in front — mirrored by the drift direction.
+  ctx.beginPath()
+  ctx.moveTo(x, y - mast)
+  ctx.lineTo(x - dir * hw * 0.82, y - hh * 0.6)
+  ctx.lineTo(x - dir * hw * 0.08, y - hh * 0.6)
+  ctx.closePath()
+  ctx.fill()
+  ctx.beginPath()
+  ctx.moveTo(x, y - mast * 0.86)
+  ctx.lineTo(x + dir * hw * 0.62, y - hh * 0.6)
+  ctx.lineTo(x + dir * hw * 0.06, y - hh * 0.6)
+  ctx.closePath()
+  ctx.fill()
+
+  ctx.fillStyle = p.boatHull
+  ctx.fillRect(x - Math.max(0.5, size * 0.05), y - mast, Math.max(1, size * 0.1), mast - hh * 0.6)
+  ctx.beginPath()
+  ctx.moveTo(x - hw, y - hh)
+  ctx.lineTo(x + hw, y - hh)
+  ctx.lineTo(x + hw * 0.55, y)
+  ctx.lineTo(x - hw * 0.55, y)
+  ctx.closePath()
+  ctx.fill()
+}
+
+function drawHorizon(v: View, b: Backdrop, p: ScenePalette, pan: number, horizon: number, time: number) {
+  const { ctx } = v
+  const seaTop = horizon - v.refH * 0.2
+  const steps = Math.min(160, Math.max(64, Math.round(v.w / 12)))
 
   // Coastline first: the sea band is painted over their feet, so the hills
   // read as standing behind the water.
   const layers = [
-    { color: PALETTE.hillsFar, amp: v.h * 0.075, base: seaTop - v.h * 0.005, factor: 0.1 },
-    { color: PALETTE.hillsNear, amp: v.h * 0.05, base: seaTop + v.h * 0.008, factor: 0.18 },
+    { color: p.hillsFar, amp: v.refH * 0.075, base: seaTop - v.refH * 0.005, factor: 0.1 },
+    { color: p.hillsNear, amp: v.refH * 0.05, base: seaTop + v.refH * 0.008, factor: 0.18 },
   ]
   for (const layer of layers) {
     ctx.fillStyle = layer.color
     ctx.beginPath()
-    ctx.moveTo(v.ox, v.oy + v.h)
-    for (let i = 0; i <= 64; i++) {
-      const t = i / 64
-      const sx = v.ox + t * v.w
-      const hx = t + (pan * layer.factor) / v.w
+    ctx.moveTo(0, v.h)
+    for (let i = 0; i <= steps; i++) {
+      const sx = (i / steps) * v.w
+      // Wave coordinates are in nominal-window units, so the ridge keeps its
+      // wavelength instead of stretching with the canvas.
+      const hx = (sx - v.w / 2 + pan * layer.factor) / v.refW
       ctx.lineTo(sx, hillY(hx, b.hillPhase, layer.amp, layer.base))
     }
-    ctx.lineTo(v.ox + v.w, v.oy + v.h)
+    ctx.lineTo(v.w, v.h)
     ctx.closePath()
     ctx.fill()
   }
 
-  // Sea band
-  const seaBottom = seaTop + v.h * 0.115
-  ctx.fillStyle = PALETTE.sea
-  ctx.fillRect(v.ox, seaTop + v.h * 0.02, v.w, seaBottom - seaTop)
-  ctx.fillStyle = PALETTE.seaGlint
-  for (const g of b.glints) {
-    const x = v.ox + ((g.x - (pan * 0.02) / v.w + 1) % 1) * v.w
-    ctx.fillRect(x, seaTop + v.h * 0.03 + g.y * v.h * 0.075, g.w * v.w * 0.06, Math.max(1, v.h * 0.004))
+  drawLighthouse(v, b, p, pan, layers[0]!.amp, layers[0]!.base, time)
+
+  // Sea band — always edge to edge, whatever the aspect ratio.
+  const seaBottom = seaTop + v.refH * 0.115
+  ctx.fillStyle = p.sea
+  ctx.fillRect(0, seaTop + v.refH * 0.02, v.w, seaBottom - seaTop)
+
+  const tiles = tileCount(v)
+  const span = tiles * v.refW
+  const x0 = v.w / 2 - span / 2
+
+  // Boats exist once each (not tiled), so they wrap over the *canvas* plus a
+  // margin — otherwise a wide screen would park them off-frame most of the time.
+  const boatSpan = v.w + v.refW * 0.3
+  const boatX0 = -v.refW * 0.15
+  for (const boat of b.boats) {
+    const bx = boatX0 + mod((boat.t + time * boat.speed * boat.dir) * boatSpan - pan * 0.05, boatSpan)
+    const by = seaTop + v.refH * (0.055 + boat.y * 0.05)
+    const size = v.refH * (0.02 + boat.s * 0.014)
+    if (bx > -20 && bx < v.w + 20) drawBoat(v, p, bx, by, size, boat.dir)
   }
+
+  ctx.fillStyle = p.seaGlint
+  const glintH = Math.max(1, v.refH * 0.004)
+  ctx.beginPath()
+  for (const g of b.glints) {
+    const gy = seaTop + v.refH * 0.03 + g.y * v.refH * 0.075
+    const gw = g.w * v.refW * 0.06
+    for (let i = 0; i < tiles; i++) {
+      const x = x0 + mod(g.x * v.refW + i * v.refW - pan * 0.02, span)
+      ctx.rect(x, gy, gw, glintH)
+    }
+  }
+  ctx.fill()
 }
 
-function drawTreeLine(v: View, b: Backdrop, pan: number, horizon: number) {
+function drawTreeLine(v: View, b: Backdrop, p: ScenePalette, pan: number, horizon: number) {
   const { ctx } = v
-  const base = horizon - v.h * 0.035
-  ctx.fillStyle = PALETTE.treeLine
-  ctx.fillRect(v.ox, base, v.w, horizon - base + v.h * 0.02)
+  const base = horizon - v.refH * 0.035
+  ctx.fillStyle = p.treeLine
+  ctx.fillRect(0, base, v.w, horizon - base + v.refH * 0.02)
+
+  // The band always over-covers the canvas so the drift never reveals an edge.
+  const spread = v.w + v.refW * 1.2
+  const left = -(spread - v.w) / 2
   for (const t of b.trees) {
-    const x = v.ox + (t.x * v.w - pan * 0.3)
-    if (x < v.ox - 80 || x > v.ox + v.w + 80) continue
-    const h = t.h * v.h
-    const w = t.w * v.w
-    ctx.fillStyle = PALETTE.treeLine
+    const x = left + t.x * spread - pan * 0.3
+    if (x < -80 || x > v.w + 80) continue
+    const h = t.h * v.refH
+    const w = t.w * v.refW
+    ctx.fillStyle = p.treeLine
     if (t.kind === 0) {
       // pine
       ctx.beginPath()
@@ -220,8 +442,8 @@ function drawTreeLine(v: View, b: Backdrop, pan: number, horizon: number) {
       ctx.lineTo(x - w * 0.7, base + 2)
       ctx.closePath()
       ctx.fill()
-      ctx.strokeStyle = PALETTE.treeRim
-      ctx.lineWidth = Math.max(1, v.h * 0.003)
+      ctx.strokeStyle = p.treeRim
+      ctx.lineWidth = Math.max(1, v.refH * 0.003)
       ctx.beginPath()
       ctx.moveTo(x, base - h * 1.6)
       ctx.lineTo(x + w * 0.7, base)
@@ -233,76 +455,114 @@ function drawTreeLine(v: View, b: Backdrop, pan: number, horizon: number) {
       ctx.beginPath()
       ctx.ellipse(x, cy, w * 0.95, h * 0.8, 0, 0, Math.PI * 2)
       ctx.fill()
-      ctx.strokeStyle = PALETTE.treeRim
-      ctx.lineWidth = Math.max(1, v.h * 0.004)
+      ctx.strokeStyle = p.treeRim
+      ctx.lineWidth = Math.max(1, v.refH * 0.004)
       ctx.beginPath()
       ctx.ellipse(x, cy, w * 0.93, h * 0.78, 0, -1.9, 0.15)
       ctx.stroke()
     }
   }
-  ctx.fillStyle = PALETTE.treeHi
-  ctx.fillRect(v.ox, base - 2, v.w, 2)
+  ctx.fillStyle = p.treeHi
+  ctx.fillRect(0, base - 2, v.w, 2)
 }
 
-function drawFairyLights(v: View, b: Backdrop, pan: number, time: number, reduced: boolean) {
+/**
+ * The café garland strung over the pitch. Same wire in both scenes; what hangs
+ * off it is a scene decision — fairy lights at dusk, Breton bunting by day.
+ */
+function drawGarland(v: View, b: Backdrop, p: ScenePalette, pan: number, time: number, reduced: boolean) {
   const { ctx } = v
-  const x0 = v.ox - v.w * 0.05 - pan * 0.12
+  const x0 = -v.w * 0.05 - pan * 0.12
   const x1 = x0 + v.w * 1.1
-  const top = v.oy + v.h * 0.045
-  const sag = v.h * 0.1
-  const yAt = (t: number) => {
-    // three catenary swags
-    const s = (t * 3) % 1
-    return top + Math.sin(s * Math.PI) * sag + Math.sin(t * Math.PI) * v.h * 0.02
-  }
+  // Hung against the nominal window's top edge, not the canvas', so it doesn't
+  // float away when there is extra sky above.
+  const top = v.h / 2 - v.refH * 0.455
+  const sag = v.refH * 0.1
+  const swagW = v.refW / 3
+  // Three swags per nominal window — one more per extra window of width.
+  const yAt = (x: number) => top + Math.sin((mod(x - x0, swagW) / swagW) * Math.PI) * sag
 
-  ctx.strokeStyle = PALETTE.wire
-  ctx.lineWidth = Math.max(1, v.h * 0.004)
+  ctx.strokeStyle = p.wire
+  ctx.lineWidth = Math.max(1, v.refH * 0.004)
   ctx.beginPath()
-  for (let i = 0; i <= 90; i++) {
-    const t = i / 90
-    const x = x0 + (x1 - x0) * t
-    const y = yAt(t)
-    if (i === 0) ctx.moveTo(x, y)
-    else ctx.lineTo(x, y)
+  const steps = Math.min(200, Math.max(90, Math.round((x1 - x0) / 8)))
+  for (let i = 0; i <= steps; i++) {
+    const x = x0 + ((x1 - x0) * i) / steps
+    if (i === 0) ctx.moveTo(x, yAt(x))
+    else ctx.lineTo(x, yAt(x))
   }
   ctx.stroke()
 
-  for (const bulb of b.bulbs) {
-    const x = x0 + (x1 - x0) * bulb.t
-    if (x < v.ox - 20 || x > v.ox + v.w + 20) continue
-    const y = yAt(bulb.t) + v.h * 0.012
-    const tw = reduced ? 1 : 0.82 + 0.18 * Math.sin(time * 2.1 + bulb.phase)
-    const r = v.h * 0.011
+  // Fixed spacing (≈ 9 per swag) keeps the density identical at any width; the
+  // stored colour/phase arrays are simply cycled.
+  const spacing = swagW / 9
+  const count = Math.ceil((x1 - x0) / spacing)
 
-    const glow = ctx.createRadialGradient(x, y, 0, x, y, r * 5)
-    glow.addColorStop(0, bulb.color)
-    glow.addColorStop(1, 'rgba(255, 200, 120, 0)')
-    ctx.globalAlpha = 0.42 * tw
-    ctx.fillStyle = glow
-    ctx.beginPath()
-    ctx.arc(x, y, r * 5, 0, Math.PI * 2)
-    ctx.fill()
-    ctx.globalAlpha = 1
+  if (p.garland === 'bulbs') {
+    const r = v.refH * 0.011
+    for (let i = 0; i <= count; i++) {
+      const x = x0 + i * spacing
+      if (x < -20 || x > v.w + 20) continue
+      const bulb = b.bulbs[i % b.bulbs.length]!
+      const y = yAt(x) + v.refH * 0.012
+      const tw = reduced ? 1 : 0.82 + 0.18 * Math.sin(time * 2.1 + bulb.phase)
 
-    ctx.fillStyle = PALETTE.wire
-    ctx.fillRect(x - r * 0.35, y - r * 1.5, r * 0.7, r * 0.8)
-    ctx.fillStyle = bulb.color
-    ctx.globalAlpha = tw
+      const glow = ctx.createRadialGradient(x, y, 0, x, y, r * 5)
+      glow.addColorStop(0, bulb.color)
+      glow.addColorStop(1, 'rgba(255, 200, 120, 0)')
+      ctx.globalAlpha = 0.42 * tw
+      ctx.fillStyle = glow
+      ctx.beginPath()
+      ctx.arc(x, y, r * 5, 0, Math.PI * 2)
+      ctx.fill()
+      ctx.globalAlpha = 1
+
+      ctx.fillStyle = p.wire
+      ctx.fillRect(x - r * 0.35, y - r * 1.5, r * 0.7, r * 0.8)
+      ctx.fillStyle = bulb.color
+      ctx.globalAlpha = tw
+      ctx.beginPath()
+      ctx.arc(x, y, r, 0, Math.PI * 2)
+      ctx.fill()
+      ctx.globalAlpha = 1
+    }
+    return
+  }
+
+  // Bunting: small triangular fanions, apex down, swaying on their own phase.
+  // A few dozen flat triangles — cheap enough to fill one by one.
+  const fw = v.refH * 0.03
+  const fh = v.refH * 0.058
+  for (let i = 0; i <= count; i++) {
+    const x = x0 + i * spacing
+    if (x < -20 || x > v.w + 20) continue
+    const fan = b.bunting[i % b.bunting.length]!
+    const y = yAt(x) + v.refH * 0.004
+    const a = reduced ? 0 : Math.sin(time * 1.7 + fan.phase) * 0.17
+    // Rotate by hand rather than with save/rotate/restore: three points is
+    // less work than four context state changes.
+    const dx = Math.sin(a)
+    const dy = Math.cos(a)
+    ctx.fillStyle = fan.color
     ctx.beginPath()
-    ctx.arc(x, y, r, 0, Math.PI * 2)
+    ctx.moveTo(x - dy * fw * 0.5, y + dx * fw * 0.5)
+    ctx.lineTo(x + dy * fw * 0.5, y - dx * fw * 0.5)
+    ctx.lineTo(x + dx * fh, y + dy * fh)
+    ctx.closePath()
     ctx.fill()
-    ctx.globalAlpha = 1
   }
 }
 
 // ---------------------------------------------------------------- terrain
 
-function drawGround(v: View, terrain: Terrain) {
+function drawGround(v: View, p: ScenePalette, terrain: Terrain) {
   const { ctx } = v
-  const left = v.cam.cx - v.cam.viewW / 2 - 0.5
-  const right = v.cam.cx + v.cam.viewW / 2 + 0.5
-  const bottom = v.oy + v.h
+  // Half the *canvas* in world units, not half the nominal window: on a wide
+  // screen the gravel has to keep running to both edges.
+  const halfW = v.w / 2 / v.scale
+  const left = v.cam.cx - halfW - 0.5
+  const right = v.cam.cx + halfW + 0.5
+  const bottom = v.h
 
   ctx.beginPath()
   ctx.moveTo(v.X(left), bottom)
@@ -312,9 +572,9 @@ function drawGround(v: View, terrain: Terrain) {
 
   const gTop = v.Y(0.1)
   const g = ctx.createLinearGradient(0, gTop, 0, bottom)
-  g.addColorStop(0, PALETTE.sandTop)
-  g.addColorStop(0.35, PALETTE.sandMid)
-  g.addColorStop(1, PALETTE.sandLow)
+  g.addColorStop(0, p.sandTop)
+  g.addColorStop(0.35, p.sandMid)
+  g.addColorStop(1, p.sandLow)
   ctx.fillStyle = g
   ctx.fill()
 
@@ -324,7 +584,7 @@ function drawGround(v: View, terrain: Terrain) {
   // Speckled grain — two batched passes (one path per tone) rather than a
   // fill per grain, which matters on phones.
   for (const pass of [0, 1]) {
-    ctx.fillStyle = pass ? PALETTE.speckleLight : PALETTE.speckleDark
+    ctx.fillStyle = pass ? p.speckleLight : p.speckleDark
     ctx.globalAlpha = pass ? 0.45 : 0.32
     ctx.beginPath()
     for (const s of terrain.speckles) {
@@ -341,7 +601,7 @@ function drawGround(v: View, terrain: Terrain) {
   ctx.globalAlpha = 1
 
   // Rake lines
-  ctx.strokeStyle = PALETTE.sandRake
+  ctx.strokeStyle = p.sandRake
   ctx.lineWidth = Math.max(1, v.S(0.012))
   ctx.beginPath()
   for (const rx of terrain.rakes) {
@@ -363,10 +623,10 @@ function drawGround(v: View, terrain: Terrain) {
     }
     ctx.stroke()
   }
-  ctx.strokeStyle = 'rgba(120, 82, 45, 0.28)'
+  ctx.strokeStyle = p.groundEdgeShade
   ctx.lineWidth = Math.max(2, v.S(0.1))
   traceEdge(v.S(0.075))
-  ctx.strokeStyle = 'rgba(255, 236, 195, 0.75)'
+  ctx.strokeStyle = p.groundEdgeLight
   ctx.lineWidth = Math.max(1.2, v.S(0.02))
   traceEdge(0)
 }
@@ -380,7 +640,7 @@ function drawThrowCircle(v: View, terrain: Terrain, x: number) {
   ctx.stroke()
 }
 
-function drawBackboard(v: View, terrain: Terrain, boardX: number, boardH: number, boardHw: number) {
+function drawBackboard(v: View, p: ScenePalette, terrain: Terrain, boardX: number, boardH: number, boardHw: number) {
   const { ctx } = v
   const base = terrain.heightAt(boardX)
   const x = v.X(boardX - boardHw)
@@ -395,18 +655,199 @@ function drawBackboard(v: View, terrain: Terrain, boardX: number, boardH: number
   ctx.fill()
 
   // Back post visible behind, then the planks
-  ctx.fillStyle = PALETTE.woodDark
+  ctx.fillStyle = p.woodDark
   ctx.fillRect(x - v.S(0.05), top - v.S(0.06), w + v.S(0.1), h + v.S(0.06))
 
   const planks = 3
   for (let i = 0; i < planks; i++) {
     const py = top + (h * i) / planks
     const ph = h / planks
-    ctx.fillStyle = i % 2 === 0 ? PALETTE.wood : PALETTE.woodLight
+    ctx.fillStyle = i % 2 === 0 ? p.wood : p.woodLight
     ctx.fillRect(x, py + 1, w, ph - 2)
   }
-  ctx.fillStyle = 'rgba(255, 226, 180, 0.5)'
+  ctx.fillStyle = p.plankHi
   ctx.fillRect(x, top - v.S(0.06), w, Math.max(2, v.S(0.045)))
+}
+
+/**
+ * Gwenn ha Du on a pole at the far end of the lane. Deliberately simplified —
+ * five stripes instead of nine and three ermine spots in the canton — because
+ * the whole thing is about twenty pixels tall and the real flag turns to mush
+ * at that size.
+ */
+function drawFlag(v: View, p: ScenePalette, terrain: Terrain, worldX: number, time: number, reduced: boolean) {
+  const { ctx } = v
+  const baseY = v.Y(terrain.heightAt(worldX))
+  const x = v.X(worldX)
+  const poleH = v.S(1.15)
+  const fw = v.S(0.66)
+  const fh = v.S(0.42)
+  const top = baseY - poleH
+
+  // Pole, with a small foot shadow so it isn't floating on the gravel.
+  ctx.fillStyle = 'rgba(90, 58, 32, 0.25)'
+  ctx.beginPath()
+  ctx.ellipse(x, baseY, v.S(0.14), v.S(0.04), 0, 0, Math.PI * 2)
+  ctx.fill()
+  ctx.fillStyle = p.flagPole
+  ctx.fillRect(x - Math.max(0.5, v.S(0.018)), top, Math.max(1.5, v.S(0.036)), poleH)
+
+  const rows = 5 // black / white / black / white / black
+  const rh = fh / rows
+  const amp = reduced ? 0 : fh * 0.16
+  const cols = 6
+  // One wavy quad strip per stripe: cheap, and the ripple carries across the
+  // whole flag because every row samples the same wave.
+  const waveAt = (t: number) => Math.sin(t * 5.2 - time * 4.2) * amp * t
+  for (let r = 0; r < rows; r++) {
+    ctx.fillStyle = r % 2 === 0 ? p.flagBlack : p.flagWhite
+    ctx.beginPath()
+    for (let i = 0; i <= cols; i++) {
+      const t = i / cols
+      const px = x + t * fw
+      const py = top + r * rh + waveAt(t)
+      if (i === 0) ctx.moveTo(px, py)
+      else ctx.lineTo(px, py)
+    }
+    for (let i = cols; i >= 0; i--) {
+      const t = i / cols
+      ctx.lineTo(x + t * fw, top + (r + 1) * rh + waveAt(t))
+    }
+    ctx.closePath()
+    ctx.fill()
+  }
+
+  // Canton: white block at the hoist with a hint of ermine.
+  const cw = fw * 0.4
+  const ch = fh * 0.55
+  ctx.fillStyle = p.flagWhite
+  ctx.beginPath()
+  ctx.moveTo(x, top)
+  ctx.lineTo(x + cw, top + waveAt(cw / fw))
+  ctx.lineTo(x + cw, top + ch + waveAt(cw / fw))
+  ctx.lineTo(x, top + ch)
+  ctx.closePath()
+  ctx.fill()
+
+  const dot = Math.max(0.8, cw * 0.11)
+  ctx.fillStyle = p.flagBlack
+  ctx.beginPath()
+  for (const [ex, ey] of [[0.28, 0.3], [0.62, 0.3], [0.45, 0.68]] as const) {
+    const px = x + cw * ex
+    ctx.rect(px - dot / 2, top + ch * ey + waveAt((cw * ex) / fw), dot, dot * 1.4)
+  }
+  ctx.fill()
+}
+
+// ---------------------------------------------------------------- seagull
+
+/**
+ * The ambient gull. Flat two-tone bird: body + head + beak, wings either beating
+ * (in flight) or folded (on the gravel). It lives in world coordinates, so the
+ * camera carries it for free.
+ */
+export function drawSeagull(v: View, p: ScenePalette, g: Seagull) {
+  if (!g.visible) return
+  const { ctx } = v
+  const cx = v.X(g.x)
+  const cy = v.Y(g.y)
+  const f = g.dir
+  const bl = v.S(0.24) // body half-length
+  const bh = v.S(0.1) // body half-height
+  if (bl < 1) return
+
+  // Shadow, only while the bird is near the ground: it fades as it climbs.
+  const height = g.y - g.gy
+  if (height < 1.4) {
+    const k = 1 - height / 1.4
+    ctx.globalAlpha = 0.28 * k
+    ctx.fillStyle = PALETTE.shadow
+    ctx.beginPath()
+    ctx.ellipse(cx, v.Y(g.gy - 0.01), bl * (0.9 + 0.5 * (1 - k)), bh * 0.45, 0, 0, Math.PI * 2)
+    ctx.fill()
+    ctx.globalAlpha = 1
+  }
+
+  // Tail, then body.
+  ctx.fillStyle = p.gullBody
+  ctx.beginPath()
+  ctx.moveTo(cx - f * bl * 0.85, cy - bh * 0.2)
+  ctx.lineTo(cx - f * bl * 1.5, cy - bh * 0.7)
+  ctx.lineTo(cx - f * bl * 1.45, cy + bh * 0.25)
+  ctx.closePath()
+  ctx.fill()
+  ctx.beginPath()
+  ctx.ellipse(cx, cy, bl, bh, 0, 0, Math.PI * 2)
+  ctx.fill()
+
+  // Head: leans forward and down while pecking.
+  const peck = g.peck
+  const hx = cx + f * bl * 0.82 + f * peck * bl * 0.35
+  const hy = cy - bh * 0.75 + peck * bh * 2.1
+  ctx.beginPath()
+  ctx.arc(hx, hy, bh * 0.75, 0, Math.PI * 2)
+  ctx.fill()
+  ctx.fillStyle = p.gullBeak
+  ctx.beginPath()
+  ctx.moveTo(hx + f * bh * 0.5, hy - bh * 0.1 + peck * bh * 0.3)
+  ctx.lineTo(hx + f * bh * 1.5, hy + bh * 0.25 + peck * bh * 0.5)
+  ctx.lineTo(hx + f * bh * 0.5, hy + bh * 0.45 + peck * bh * 0.3)
+  ctx.closePath()
+  ctx.fill()
+
+  if (g.grounded) {
+    // Folded wing + two twig legs.
+    ctx.fillStyle = p.gullWing
+    ctx.beginPath()
+    ctx.ellipse(cx - f * bl * 0.15, cy + bh * 0.05, bl * 0.62, bh * 0.55, f * 0.12, 0, Math.PI * 2)
+    ctx.fill()
+    ctx.fillStyle = p.gullTip
+    ctx.beginPath()
+    ctx.moveTo(cx - f * bl * 0.7, cy - bh * 0.05)
+    ctx.lineTo(cx - f * bl * 1.25, cy + bh * 0.15)
+    ctx.lineTo(cx - f * bl * 0.7, cy + bh * 0.35)
+    ctx.closePath()
+    ctx.fill()
+
+    ctx.strokeStyle = p.gullBeak
+    ctx.lineWidth = Math.max(1, bh * 0.18)
+    ctx.beginPath()
+    ctx.moveTo(cx - f * bl * 0.1, cy + bh * 0.7)
+    ctx.lineTo(cx - f * bl * 0.14, cy + bh * 1.6)
+    ctx.moveTo(cx + f * bl * 0.22, cy + bh * 0.7)
+    ctx.lineTo(cx + f * bl * 0.18, cy + bh * 1.6)
+    ctx.stroke()
+    return
+  }
+
+  // In flight: a shallow "M". The near wing swings from up to down, the far one
+  // mirrors it a beat behind and is drawn in the shade tone for depth.
+  const beat = g.gliding ? 0.15 : Math.sin(g.wing)
+  const span = bl * 1.9
+  const lift = bh * 3.2
+  // Swept back from the shoulder, the way a gull's wing actually sits: leading
+  // edge out to the tip, trailing edge back down to the flank.
+  const wing = (t: number, color: string) => {
+    ctx.fillStyle = color
+    ctx.beginPath()
+    ctx.moveTo(cx + f * bl * 0.1, cy - bh * 0.25)
+    ctx.quadraticCurveTo(
+      cx - f * span * 0.15,
+      cy - t * lift * 0.95,
+      cx - f * span * 0.55,
+      cy - t * lift,
+    )
+    ctx.quadraticCurveTo(
+      cx - f * span * 0.22,
+      cy - t * lift * 0.3 + bh * 0.45,
+      cx - f * bl * 0.45,
+      cy + bh * 0.35,
+    )
+    ctx.closePath()
+    ctx.fill()
+  }
+  wing(-beat * 0.7, p.gullShade)
+  wing(beat, p.gullWing)
 }
 
 // ---------------------------------------------------------------- boules
@@ -667,7 +1108,7 @@ function drawMeasures(v: View, measures: SceneMeasure[]) {
 
     const mx = v.X((m.from.x + m.to.x) / 2)
     const my = Math.max(
-      v.oy + v.h * 0.14,
+      v.h / 2 - v.refH * 0.36,
       v.Y(Math.max(m.from.y, m.to.y)) - v.S(0.35) - i * v.S(0.42),
     )
     const tw = ctx.measureText(m.label).width + v.S(0.2)
@@ -734,33 +1175,39 @@ export interface SceneData {
   reducedMotion: boolean
   throwX: number
   board: { x: number, h: number, hw: number }
+  /** Ambient wildlife; omitted is fine. */
+  seagull?: Seagull | null
 }
 
 export function drawScene(v: View, s: SceneData) {
   const { ctx } = v
   ctx.save()
   ctx.beginPath()
-  ctx.rect(v.ox, v.oy, v.w, v.h)
+  // Clip to the whole canvas — the scene fills it, there is no letterbox left.
+  ctx.rect(0, 0, v.w, v.h)
   ctx.clip()
 
+  const p = PALETTES[s.backdrop.scene]
   const pan = (v.cam.cx - LANE_MID) * v.scale
 
   // The whole backdrop hangs off the ground's screen position, so the
   // composition holds together at any zoom level.
   const horizon = Math.max(
-    v.oy + v.h * 0.42,
-    Math.min(v.oy + v.h * 0.9, v.Y(s.terrain.heightAt(v.cam.cx)) - v.h * 0.03),
+    v.h * 0.42,
+    Math.min(v.h * 0.9, v.Y(s.terrain.heightAt(v.cam.cx)) - v.refH * 0.03),
   )
 
-  drawSky(v)
-  drawSun(v, pan, horizon)
-  drawClouds(v, s.backdrop, pan, horizon)
-  drawHorizon(v, s.backdrop, pan, horizon)
-  drawTreeLine(v, s.backdrop, pan, horizon)
-  drawFairyLights(v, s.backdrop, pan, s.time, s.reducedMotion)
-  drawGround(v, s.terrain)
+  drawSky(v, p, horizon)
+  drawSun(v, p, pan, horizon)
+  drawClouds(v, s.backdrop, p, pan, horizon)
+  drawHorizon(v, s.backdrop, p, pan, horizon, s.time)
+  drawTreeLine(v, s.backdrop, p, pan, horizon)
+  drawGarland(v, s.backdrop, p, pan, s.time, s.reducedMotion)
+  drawGround(v, p, s.terrain)
   drawThrowCircle(v, s.terrain, s.throwX)
-  drawBackboard(v, s.terrain, s.board.x, s.board.h, s.board.hw)
+  drawBackboard(v, p, s.terrain, s.board.x, s.board.h, s.board.hw)
+  drawFlag(v, p, s.terrain, s.board.x + 0.55, s.time, s.reducedMotion)
+  if (s.seagull) drawSeagull(v, p, s.seagull)
 
   for (const e of s.entities) drawShadow(v, e)
   for (const e of s.entities) if (e.kind === 'cochonnet') drawCochonnet(v, e)
@@ -780,6 +1227,11 @@ export function drawScene(v: View, s: SceneData) {
   ctx.restore()
 }
 
+/**
+ * Fallback fill only: the scene now paints every pixel itself, but a frame that
+ * bails out early (canvas resized mid-frame, backdrop not ready) should show a
+ * deep neutral rather than whatever was there before.
+ */
 export function clearCanvas(ctx: CanvasRenderingContext2D, cssW: number, cssH: number) {
   ctx.fillStyle = PALETTE.letterbox
   ctx.fillRect(0, 0, cssW, cssH)

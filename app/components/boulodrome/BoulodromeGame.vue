@@ -15,6 +15,7 @@ import type { Backdrop, Camera, SceneEntity, SceneMeasure, View } from '~/utils/
 import { clearCanvas, createBackdrop, drawScene, makeView, VIEW_W, WORLD_ASPECT } from '~/utils/boulodrome/render'
 import { between, clamp, createRng } from '~/utils/boulodrome/rng'
 import { bestDistance, distance, isGameOver, scoreMene } from '~/utils/boulodrome/scoring'
+import { Seagull } from '~/utils/boulodrome/seagull'
 import type { Terrain } from '~/utils/boulodrome/terrain'
 import { createTerrain } from '~/utils/boulodrome/terrain'
 import { clampAngle, powerForTarget, previewArc, throwVelocity } from '~/utils/boulodrome/throwing'
@@ -69,6 +70,8 @@ const toast = ref<string | null>(null)
 const winner = ref<PlayerId | null>(null)
 const soundOn = ref(false)
 const announcement = ref('')
+const isFullscreen = ref(false)
+const fullscreenEnabled = ref(true)
 
 const names = computed<[string, string]>(() =>
   props.mode === 'ai' ? ['Vous', 'L’ordinateur'] : ['Joueur 1', 'Joueur 2'],
@@ -94,9 +97,22 @@ const gameOverLine = computed(() => {
   const w = winner.value
   if (w === null) return ''
   const loser: PlayerId = w === 0 ? 1 : 0
-  const verb = props.mode === 'ai' && w === 0 ? 'gagnez' : 'gagne'
-  return `${nameOf(w)} ${verb} ${scores.value[w]} à ${scores.value[loser]} !`
+  const scoreLine = `${scores.value[w]} à ${scores.value[loser]}`
+  if (props.mode === 'ai') {
+    return w === 0
+      ? `Vous avez gagné ${scoreLine} !`
+      : `L’ordinateur a gagné ${scoreLine}.`
+  }
+  return `${nameOf(w)} gagne ${scoreLine} !`
 })
+
+// Wrapper classes/styles for the fullscreen toggle: no aspect-ratio/height cap
+// and square corners once the element itself is the whole screen.
+const wrapperStyle = computed(() => (
+  isFullscreen.value
+    ? { width: '100%', height: '100%' }
+    : { aspectRatio: '2.4 / 1', maxHeight: 'min(70vh, 620px)' }
+))
 
 // ------------------------------------------------------------- simulation
 
@@ -138,6 +154,7 @@ interface Sim {
 let sim: Sim
 let effects: Effects
 let backdrop: Backdrop
+let gull: Seagull
 let audio: GameAudio
 let rng: () => number
 let reducedMotion = false
@@ -410,7 +427,7 @@ function advanceAfterMene() {
     sim.camTargetW = VIEW_W
     effects.confetti(sim.cam.cx - 6, sim.cam.cx + 6, sim.cam.cy + 2.4)
     audio.cheer()
-    announcement.value = `${nameOf(winner.value)} gagne ${scores.value[winner.value]} à ${scores.value[winner.value === 0 ? 1 : 0]}.`
+    announcement.value = gameOverLine.value
     return
   }
   // A tie or a void mène is replayed under the same number.
@@ -710,6 +727,11 @@ function update(dt: number) {
   sim.time += dt
   effects.update(dt)
 
+  // Ambient seagull: it may only settle on the gravel while nothing is in play,
+  // and takes off at once as soon as a boule (or the cochonnet) is flying.
+  const calm = phase.value !== 'flight' && phase.value !== 'cochonnet'
+  gull.update(dt, calm, groundY, LANE_START, LANE_END)
+
   if (sim.bannerTimer > 0) {
     sim.bannerTimer -= dt
     if (sim.bannerTimer <= 0) banner.value = null
@@ -811,6 +833,7 @@ function render() {
     measures: phase.value === 'mene-end' ? sim.measures : [],
     effects,
     backdrop,
+    seagull: gull,
     reducedMotion,
     throwX: THROW_X,
     board: { x: BOARD_X, h: BOARD_H, hw: BOARD_HW },
@@ -883,12 +906,68 @@ function toggleSound() {
   }
 }
 
+// --------------------------------------------------------- fullscreen
+
+function isCoarsePointer() {
+  return window.matchMedia?.('(pointer: coarse)').matches ?? false
+}
+
+function onFullscreenChange() {
+  const doc = document as Document & { webkitFullscreenElement?: Element | null }
+  const fsEl = doc.fullscreenElement ?? doc.webkitFullscreenElement ?? null
+  isFullscreen.value = fsEl === wrapperEl.value
+}
+
+async function enterFullscreen() {
+  const el = wrapperEl.value as (HTMLDivElement & { webkitRequestFullscreen?: () => void }) | null
+  if (!el) return
+  try {
+    if (el.requestFullscreen) {
+      await el.requestFullscreen()
+    } else if (el.webkitRequestFullscreen) {
+      // Older WebKit (iPadOS) fallback — no promise returned.
+      el.webkitRequestFullscreen()
+    }
+  } catch {
+    // Rejected: no user activation, unsupported, etc. — silently no-op.
+  }
+  if (isCoarsePointer()) {
+    screen.orientation?.lock?.('landscape').catch(() => {})
+  }
+}
+
+async function exitFullscreen() {
+  const doc = document as Document & { webkitExitFullscreen?: () => void }
+  try {
+    if (document.exitFullscreen) {
+      await document.exitFullscreen()
+    } else if (doc.webkitExitFullscreen) {
+      doc.webkitExitFullscreen()
+    }
+  } catch {
+    // ignore
+  }
+  try {
+    screen.orientation?.unlock?.()
+  } catch {
+    // unsupported — no-op
+  }
+}
+
+function toggleFullscreen() {
+  if (isFullscreen.value) exitFullscreen()
+  else enterFullscreen()
+}
+
 onMounted(() => {
   reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches
   rng = createRng((Date.now() ^ 0x5bd1e995) >>> 0)
   effects = new Effects(reducedMotion)
   audio = new GameAudio()
-  backdrop = createBackdrop(1337)
+  // Random seed: it picks the scene (July evening or bright day) once per game,
+  // along with the horizon, the garland and the boats.
+  backdrop = createBackdrop((rng() * 0xFFFFFFFF) >>> 0)
+  gull = new Seagull(reducedMotion, rng)
   sim = makeSim()
 
   try {
@@ -906,8 +985,16 @@ onMounted(() => {
   window.addEventListener('keyup', onKeyUp)
   document.addEventListener('visibilitychange', onVisibility)
 
+  fullscreenEnabled.value = document.fullscreenEnabled ?? true
+  document.addEventListener('fullscreenchange', onFullscreenChange)
+  document.addEventListener('webkitfullscreenchange', onFullscreenChange)
+
   startGame()
   startLoop()
+
+  // User activation from the menu tap is still live here — try to go
+  // fullscreen automatically on phones so the game gets the whole screen.
+  if (isCoarsePointer()) enterFullscreen()
 })
 
 onBeforeUnmount(() => {
@@ -917,6 +1004,8 @@ onBeforeUnmount(() => {
   window.removeEventListener('keydown', onKeyDown)
   window.removeEventListener('keyup', onKeyUp)
   document.removeEventListener('visibilitychange', onVisibility)
+  document.removeEventListener('fullscreenchange', onFullscreenChange)
+  document.removeEventListener('webkitfullscreenchange', onFullscreenChange)
   destroyLane(sim?.lane ?? null)
   if (sim) sim.lane = null
   audio?.close()
@@ -928,8 +1017,9 @@ onBeforeUnmount(() => {
     <div
       ref="wrapperEl"
       :data-phase="phase"
-      class="relative w-full select-none overflow-hidden rounded-2xl bg-[#1a1526] shadow-lg"
-      style="aspect-ratio: 2.4 / 1; max-height: min(70vh, 620px)"
+      class="relative w-full select-none overflow-hidden bg-[#1a1526] shadow-lg"
+      :class="isFullscreen ? 'h-full rounded-none' : 'rounded-2xl'"
+      :style="wrapperStyle"
     >
       <canvas
         ref="canvasEl"
@@ -991,6 +1081,16 @@ onBeforeUnmount(() => {
               :icon="soundOn ? 'i-lucide-volume-2' : 'i-lucide-volume-x'"
               :aria-label="soundOn ? 'Couper le son' : 'Activer le son'"
               @click="toggleSound"
+            />
+            <UButton
+              v-if="fullscreenEnabled"
+              class="pointer-events-auto"
+              size="xs"
+              color="neutral"
+              variant="solid"
+              :icon="isFullscreen ? 'i-lucide-minimize' : 'i-lucide-maximize'"
+              :aria-label="isFullscreen ? 'Quitter le plein écran' : 'Plein écran'"
+              @click="toggleFullscreen"
             />
             <UButton
               class="pointer-events-auto"
