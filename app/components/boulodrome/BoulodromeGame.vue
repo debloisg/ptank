@@ -6,9 +6,9 @@
 // Per-frame data deliberately never goes through Vue reactivity: the `sim`
 // object below is plain, and only the handful of refs the HUD reads are
 // reactive.
+import type { CSSProperties } from 'vue'
 import type { AiPlan } from '~/utils/boulodrome/ai'
 import { planAiThrow } from '~/utils/boulodrome/ai'
-import { GameAudio } from '~/utils/boulodrome/audio'
 import { Effects } from '~/utils/boulodrome/effects'
 import { playerColor } from '~/utils/boulodrome/palette'
 import type { Backdrop, Camera, SceneEntity, SceneMeasure, View } from '~/utils/boulodrome/render'
@@ -54,7 +54,6 @@ const FIXED = 1 / 60
 const CHARGE_RATE = 1.25
 const DEFAULT_ANGLE = 42 * DEG
 const MENE_END_DURATION = 3
-const SOUND_KEY = 'ptank:boulodrome:sound'
 
 // ------------------------------------------------------------- HUD state
 
@@ -69,10 +68,15 @@ const thrower = ref<PlayerId | null>(null)
 const banner = ref<string | null>(null)
 const toast = ref<string | null>(null)
 const winner = ref<PlayerId | null>(null)
-const soundOn = ref(false)
 const announcement = ref('')
 const isFullscreen = ref(false)
-const fullscreenEnabled = ref(true)
+/** CSS stand-in for browsers without Element fullscreen (Safari on iPhone). */
+const pseudoFullscreen = ref(false)
+/** Phone held upright: the 2.4:1 terrain only gets a thin band of a portrait
+ *  screen, so we ask for a quarter turn (and let it be waved off). */
+const portraitPhone = ref(false)
+const rotateDismissed = ref(false)
+const fullscreenActive = computed(() => isFullscreen.value || pseudoFullscreen.value)
 
 const names = computed<[string, string]>(() => {
   const [p1, p2] = props.playerNames ?? ['', '']
@@ -114,13 +118,31 @@ const gameOverLine = computed(() => {
   return `${nameOf(w)} gagne ${scoreLine} !`
 })
 
-// Wrapper classes/styles for the fullscreen toggle: no aspect-ratio/height cap
-// and square corners once the element itself is the whole screen.
-const wrapperStyle = computed(() => (
-  isFullscreen.value
-    ? { width: '100%', height: '100%' }
-    : { aspectRatio: '2.4 / 1', maxHeight: 'min(70vh, 620px)' }
-))
+// Wrapper geometry, three cases:
+//  - native fullscreen: the element *is* the screen, so just fill it;
+//  - pseudo fullscreen (iPhone): a fixed overlay sized in `dvh`, which follows
+//    Safari's collapsing toolbars instead of overflowing behind them;
+//  - inline: a 2.4:1 strip on desktop, but that is only ~160 px tall on a phone
+//    in portrait — there we go taller (4:3, up to 62% of the small viewport) so
+//    the terrain gets real screen.
+const wrapperStyle = computed<CSSProperties>(() => {
+  if (isFullscreen.value) return { width: '100%', height: '100%' }
+  // `dvh` tracks Safari's collapsing toolbars, so the HUD never ends up behind
+  // them. Anything older than Safari 15.4 drops this declaration as invalid and
+  // falls back to the `h-screen` (100vh) class below.
+  // Inline, not a class: the wrapper's static `relative` and a `fixed` utility
+  // have the same specificity, and the cascade picked `relative`.
+  if (pseudoFullscreen.value) {
+    return { position: 'fixed', inset: '0', width: '100%', height: '100dvh' }
+  }
+  return {}
+})
+
+const wrapperClass = computed(() => {
+  if (isFullscreen.value) return 'h-full rounded-none'
+  if (pseudoFullscreen.value) return 'z-50 h-screen rounded-none'
+  return 'rounded-2xl aspect-[4/3] max-h-[62svh] sm:aspect-[2.4/1] sm:max-h-[min(70vh,620px)]'
+})
 
 // ------------------------------------------------------------- simulation
 
@@ -165,7 +187,6 @@ let sim: Sim
 let effects: Effects
 let backdrop: Backdrop
 let gull: Seagull
-let audio: GameAudio
 let rng: () => number
 let reducedMotion = false
 let raf = 0
@@ -418,7 +439,6 @@ function endMene() {
     scores.value = next
     toast.value = `${nameOf(outcome.winner)} marque ${outcome.points} point${outcome.points > 1 ? 's' : ''} !`
     sim.starter = outcome.winner
-    audio.cheer()
   } else if (outcome.reason === 'tie') {
     toast.value = 'Égalité au cochonnet : la mène est rejouée.'
   } else {
@@ -441,7 +461,6 @@ function advanceAfterMene() {
     toast.value = null
     sim.camTargetW = VIEW_W
     effects.confetti(sim.cam.cx - 6, sim.cam.cx + 6, sim.cam.cy + 2.4)
-    audio.cheer()
     announcement.value = gameOverLine.value
     return
   }
@@ -486,7 +505,6 @@ function stepPhysics(dt: number) {
       const strength = Math.max(vy, Math.abs(v.x)) * 0.28
       if (strength > 0.18) {
         effects.puff(e.pos.x, groundY(e.pos.x) + 0.02, strength)
-        audio.thud(strength * 0.8)
         if (vy > 6) effects.kick(0.05)
       }
     }
@@ -502,7 +520,6 @@ function stepPhysics(dt: number) {
 
 function killEntity(e: Entity) {
   effects.puff(e.pos.x, groundY(e.pos.x) + 0.05, 1.4)
-  audio.pop()
   e.dead = true
   if (sim.lane) sim.lane.world.destroyBody(e.body)
   if (e === sim.cochonnet) {
@@ -527,7 +544,6 @@ function processContacts() {
     sim.lastClack = sim.time
     const x = (a.pos.x + b.pos.x) / 2
     const y = (a.pos.y + b.pos.y) / 2
-    audio.clack(Math.min(1.4, hard / 3))
     if (hard > 2) {
       effects.sparks(x, y, Math.min(1.6, hard / 4))
       effects.kick(Math.min(0.16, hard * 0.02))
@@ -813,18 +829,30 @@ function update(dt: number) {
   updateCamera(dt)
 }
 
+/** Physics runs on a fixed 60 Hz step, the display does not — and the two beat
+ *  against each other: a frame that arrives a hair early takes no step, the
+ *  next one takes two, and a boule in flight visibly stutters even at 60 Hz
+ *  (worse on a 120 Hz phone, where half the frames are duplicates). So render
+ *  the state `alpha` of the way from the last step to the current one, with
+ *  `alpha` the leftover accumulator. Gameplay still reads `pos`: only the
+ *  drawing is interpolated. */
 function sceneEntities(): SceneEntity[] {
+  const alpha = phase.value === 'flight' || phase.value === 'cochonnet'
+    ? Math.min(1, Math.max(0, acc / FIXED))
+    : 1
   const out: SceneEntity[] = []
   for (const e of sim.entities) {
     if (e.dead) continue
+    const x = e.prev.x + (e.pos.x - e.prev.x) * alpha
+    const y = e.prev.y + (e.pos.y - e.prev.y) * alpha
     out.push({
       kind: e.kind,
       owner: e.owner,
-      x: e.pos.x,
-      y: e.pos.y,
-      angle: e.angle,
+      x,
+      y,
+      angle: e.prevAngle + (e.angle - e.prevAngle) * alpha,
       r: e.kind === 'boule' ? BOULE_R : COCH_R,
-      groundY: groundY(e.pos.x),
+      groundY: groundY(x),
     })
   }
   return out
@@ -955,20 +983,21 @@ function measure() {
   }
 }
 
-function toggleSound() {
-  soundOn.value = !soundOn.value
-  audio.setEnabled(soundOn.value)
-  try {
-    window.localStorage.setItem(SOUND_KEY, soundOn.value ? '1' : '0')
-  } catch {
-    // private mode — the preference simply doesn't persist
-  }
-}
-
 // --------------------------------------------------------- fullscreen
 
 function isCoarsePointer() {
   return window.matchMedia?.('(pointer: coarse)').matches ?? false
+}
+
+// Safari on iPhone has no Element fullscreen at all (only <video> goes
+// fullscreen), so the API check has to be per-element, not just
+// `document.fullscreenEnabled`. Where it is missing we fake it: the wrapper
+// becomes a fixed, viewport-sized overlay — see `pseudoFullscreen`.
+function hasNativeFullscreen() {
+  const el = wrapperEl.value as (HTMLDivElement & { webkitRequestFullscreen?: () => void }) | null
+  if (!el) return false
+  if (typeof el.requestFullscreen === 'function' && (document.fullscreenEnabled ?? true)) return true
+  return typeof el.webkitRequestFullscreen === 'function'
 }
 
 function onFullscreenChange() {
@@ -977,9 +1006,19 @@ function onFullscreenChange() {
   isFullscreen.value = fsEl === wrapperEl.value
 }
 
+function lockPageScroll(on: boolean) {
+  document.documentElement.style.overflow = on ? 'hidden' : ''
+  document.body.style.overflow = on ? 'hidden' : ''
+}
+
 async function enterFullscreen() {
   const el = wrapperEl.value as (HTMLDivElement & { webkitRequestFullscreen?: () => void }) | null
   if (!el) return
+  if (!hasNativeFullscreen()) {
+    pseudoFullscreen.value = true
+    lockPageScroll(true)
+    return
+  }
   try {
     if (el.requestFullscreen) {
       await el.requestFullscreen()
@@ -988,7 +1027,11 @@ async function enterFullscreen() {
       el.webkitRequestFullscreen()
     }
   } catch {
-    // Rejected: no user activation, unsupported, etc. — silently no-op.
+    // Rejected: no user activation, unsupported, etc. — fall back to the
+    // overlay so the button still does something visible.
+    pseudoFullscreen.value = true
+    lockPageScroll(true)
+    return
   }
   if (isCoarsePointer()) {
     screen.orientation?.lock?.('landscape').catch(() => {})
@@ -997,6 +1040,11 @@ async function enterFullscreen() {
 
 async function exitFullscreen() {
   const doc = document as Document & { webkitExitFullscreen?: () => void }
+  if (pseudoFullscreen.value) {
+    pseudoFullscreen.value = false
+    lockPageScroll(false)
+    return
+  }
   try {
     if (document.exitFullscreen) {
       await document.exitFullscreen()
@@ -1014,27 +1062,25 @@ async function exitFullscreen() {
 }
 
 function toggleFullscreen() {
-  if (isFullscreen.value) exitFullscreen()
+  if (fullscreenActive.value) exitFullscreen()
   else enterFullscreen()
+}
+
+let portraitQuery: MediaQueryList | null = null
+
+function onOrientation() {
+  portraitPhone.value = isCoarsePointer() && (portraitQuery?.matches ?? false)
 }
 
 onMounted(() => {
   reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches
   rng = createRng((Date.now() ^ 0x5bd1e995) >>> 0)
   effects = new Effects(reducedMotion)
-  audio = new GameAudio()
   // Random seed: it picks the scene (July evening or bright day) once per game,
   // along with the horizon, the garland and the boats.
   backdrop = createBackdrop((rng() * 0xFFFFFFFF) >>> 0)
   gull = new Seagull(reducedMotion, rng)
   sim = makeSim()
-
-  try {
-    soundOn.value = window.localStorage.getItem(SOUND_KEY) === '1'
-  } catch {
-    soundOn.value = false
-  }
-  if (soundOn.value) audio.setEnabled(true)
 
   measure()
   resizeObserver = new ResizeObserver(measure)
@@ -1044,9 +1090,12 @@ onMounted(() => {
   window.addEventListener('keyup', onKeyUp)
   document.addEventListener('visibilitychange', onVisibility)
 
-  fullscreenEnabled.value = document.fullscreenEnabled ?? true
   document.addEventListener('fullscreenchange', onFullscreenChange)
   document.addEventListener('webkitfullscreenchange', onFullscreenChange)
+
+  portraitQuery = window.matchMedia('(orientation: portrait)')
+  portraitQuery.addEventListener('change', onOrientation)
+  onOrientation()
 
   startGame()
   startLoop()
@@ -1058,6 +1107,9 @@ onMounted(() => {
 
 onBeforeUnmount(() => {
   stopLoop()
+  // Leaving the game from inside the CSS fullscreen overlay must give the page
+  // its scrollbar back.
+  if (pseudoFullscreen.value) lockPageScroll(false)
   resizeObserver?.disconnect()
   resizeObserver = null
   window.removeEventListener('keydown', onKeyDown)
@@ -1065,11 +1117,12 @@ onBeforeUnmount(() => {
   document.removeEventListener('visibilitychange', onVisibility)
   document.removeEventListener('fullscreenchange', onFullscreenChange)
   document.removeEventListener('webkitfullscreenchange', onFullscreenChange)
+  portraitQuery?.removeEventListener('change', onOrientation)
+  portraitQuery = null
   // The offscreen backdrop is a second full-size canvas; don't leave it behind.
   releaseBackdropCache()
   destroyLane(sim?.lane ?? null)
   if (sim) sim.lane = null
-  audio?.close()
 })
 </script>
 
@@ -1079,7 +1132,7 @@ onBeforeUnmount(() => {
       ref="wrapperEl"
       :data-phase="phase"
       class="relative w-full select-none overflow-hidden bg-[#1a1526] shadow-lg"
-      :class="isFullscreen ? 'h-full rounded-none' : 'rounded-2xl'"
+      :class="wrapperClass"
       :style="wrapperStyle"
     >
       <canvas
@@ -1139,18 +1192,8 @@ onBeforeUnmount(() => {
               size="xs"
               color="neutral"
               variant="solid"
-              :icon="soundOn ? 'i-lucide-volume-2' : 'i-lucide-volume-x'"
-              :aria-label="soundOn ? 'Couper le son' : 'Activer le son'"
-              @click="toggleSound"
-            />
-            <UButton
-              v-if="fullscreenEnabled"
-              class="pointer-events-auto"
-              size="xs"
-              color="neutral"
-              variant="solid"
-              :icon="isFullscreen ? 'i-lucide-minimize' : 'i-lucide-maximize'"
-              :aria-label="isFullscreen ? 'Quitter le plein écran' : 'Plein écran'"
+              :icon="fullscreenActive ? 'i-lucide-minimize' : 'i-lucide-maximize'"
+              :aria-label="fullscreenActive ? 'Quitter le plein écran' : 'Plein écran'"
               @click="toggleFullscreen"
             />
             <UButton
@@ -1185,6 +1228,24 @@ onBeforeUnmount(() => {
           </p>
           <span v-else />
         </div>
+      </div>
+
+      <!-- Quart de tour : le terrain est bien plus lisible en paysage -->
+      <div
+        v-if="portraitPhone && !rotateDismissed && phase !== 'game-over'"
+        class="absolute inset-0 z-10 flex flex-col items-center justify-center gap-4 bg-black/70 p-6 text-center backdrop-blur-sm"
+      >
+        <UIcon name="i-lucide-rotate-cw-square" class="size-10 text-white/80" />
+        <p class="text-base font-semibold text-white">
+          Tournez votre téléphone
+        </p>
+        <p class="max-w-xs text-sm text-white/75">
+          Le boulodrome tient dans la largeur : en paysage, vous voyez tout le
+          terrain.
+        </p>
+        <UButton color="neutral" variant="subtle" size="sm" @click="rotateDismissed = true">
+          Jouer quand même
+        </UButton>
       </div>
 
       <!-- Fin de mène -->

@@ -47,12 +47,19 @@ export interface Entity {
   /** Mirror of the body transform, kept valid after the body is destroyed. */
   pos: Vec
   angle: number
+  /** The transform *before* the last fixed step. Rendering interpolates
+   *  `prev → pos` so the 60 Hz simulation reads smooth on any refresh rate. */
+  prev: Vec
+  prevAngle: number
 }
 
 /** Copy the body transform into the entity so rendering and scoring never
  *  touch a destroyed body. */
 export function syncEntity(e: Entity) {
   if (e.dead) return
+  e.prev.x = e.pos.x
+  e.prev.y = e.pos.y
+  e.prevAngle = e.angle
   const p = e.body.getPosition()
   e.pos.x = p.x
   e.pos.y = p.y
@@ -119,7 +126,7 @@ export function spawnBoule(lane: Lane, owner: PlayerId, at: Vec, velocity: Vec):
     friction: 0.72,
     restitution: 0.16,
   })
-  const entity: Entity = { id: nextId++, kind: 'boule', owner, body, dead: false, airborne: true, pos: { x: at.x, y: at.y }, angle: 0 }
+  const entity: Entity = { id: nextId++, kind: 'boule', owner, body, dead: false, airborne: true, pos: { x: at.x, y: at.y }, angle: 0, prev: { x: at.x, y: at.y }, prevAngle: 0 }
   body.setUserData(entity)
   return entity
 }
@@ -140,7 +147,7 @@ export function spawnCochonnet(lane: Lane, at: Vec, velocity: Vec): Entity {
     friction: 0.8,
     restitution: 0.2,
   })
-  const entity: Entity = { id: nextId++, kind: 'cochonnet', owner: null, body, dead: false, airborne: true, pos: { x: at.x, y: at.y }, angle: 0 }
+  const entity: Entity = { id: nextId++, kind: 'cochonnet', owner: null, body, dead: false, airborne: true, pos: { x: at.x, y: at.y }, angle: 0, prev: { x: at.x, y: at.y }, prevAngle: 0 }
   body.setUserData(entity)
   return entity
 }
