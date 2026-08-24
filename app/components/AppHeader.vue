@@ -32,7 +32,7 @@ const links = [
           alt="Pétanque Fouesnantaise"
           width="40"
           height="40"
-          class="w-10 h-10 shrink-0"
+          class="size-10 aspect-square shrink-0"
         >
         <span class="font-serif text-lg sm:text-xl font-semibold text-highlighted leading-none">
           Pétanque<span class="hidden sm:inline"> Fouesnantaise</span>

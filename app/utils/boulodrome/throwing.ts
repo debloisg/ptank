@@ -9,6 +9,16 @@ import type { Vec } from './types'
 
 export const GRAVITY = 9.8
 
+/** Strongest breeze a mène can draw, in m/s. Signed: + blows down the lane. */
+export const WIND_MAX = 1.6
+/**
+ * Horizontal acceleration a 1 m/s breeze puts on anything still in the air,
+ * in m/s². Deliberately gentle: the drift is ½·a·t², so a flat 0.6 s throw
+ * moves ~10 cm at full strength while a 1.4 s lob moves ~55 cm. You feel it
+ * when you loft one, you can ignore it when you roll one.
+ */
+export const WIND_ACCEL = 0.35
+
 export const ANGLE_MIN = (8 * Math.PI) / 180
 export const ANGLE_MAX = (78 * Math.PI) / 180
 export const SPEED_MIN = 4
@@ -49,25 +59,28 @@ export interface Landing {
   path: Vec[]
 }
 
-/** Numeric ballistic flight over a bumpy ground profile. */
+/** Numeric ballistic flight over a bumpy ground profile, breeze included. */
 export function simulateFlight(
   origin: Vec,
   angle: number,
   power: number,
   groundY: (x: number) => number,
   radius = 0.2,
+  wind = 0,
   maxT = 4,
 ): Landing {
   const v = throwVelocity(angle, power)
   let x = origin.x
   let y = origin.y
-  const vx = v.x
+  let vx = v.x
   let vy = v.y
+  const ax = wind * WIND_ACCEL
   const dt = 1 / 120
   const path: Vec[] = [{ x, y }]
   let t = 0
   while (t < maxT) {
     vy -= GRAVITY * dt
+    vx += ax * dt
     x += vx * dt
     y += vy * dt
     t += dt
@@ -85,10 +98,13 @@ export function previewArc(
   power: number,
   groundY: (x: number) => number,
   radius = 0.2,
+  wind = 0,
   fraction = 0.2,
   dots = 9,
 ): Vec[] {
-  const flight = simulateFlight(origin, angle, power, groundY, radius)
+  // The preview has to bend with the breeze, otherwise the dots lie about the
+  // one thing the player can't see.
+  const flight = simulateFlight(origin, angle, power, groundY, radius, wind)
   const last = Math.max(1, Math.floor(flight.path.length * fraction))
   const out: Vec[] = []
   for (let i = 1; i <= dots; i++) {
@@ -105,9 +121,10 @@ export function predictedRest(
   power: number,
   groundY: (x: number) => number,
   radius = 0.2,
+  wind = 0,
   rollFactor = ROLL_FACTOR,
 ): number {
-  const f = simulateFlight(origin, angle, power, groundY, radius)
+  const f = simulateFlight(origin, angle, power, groundY, radius, wind)
   return f.x + Math.max(0, f.vx) * rollFactor
 }
 
@@ -119,13 +136,14 @@ export function powerForTarget(
   targetX: number,
   groundY: (x: number) => number,
   radius = 0.2,
+  wind = 0,
   rollFactor = ROLL_FACTOR,
 ): number {
   let lo = 0
   let hi = 1
   for (let i = 0; i < 26; i++) {
     const mid = (lo + hi) / 2
-    if (predictedRest(origin, angle, mid, groundY, radius, rollFactor) < targetX) lo = mid
+    if (predictedRest(origin, angle, mid, groundY, radius, wind, rollFactor) < targetX) lo = mid
     else hi = mid
   }
   return (lo + hi) / 2

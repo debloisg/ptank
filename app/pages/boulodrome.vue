@@ -17,8 +17,17 @@ useSeoMeta({
 
 const mode = ref<BoulodromeMode | null>(null)
 
-function onStart(picked: BoulodromeMode) {
+// Warm the game chunk (Planck + renderer) as soon as the page is reached: the
+// menu confetti reuses the game's own Effects, and the first « Jouer » click
+// then starts instantly instead of waiting on the network.
+onMounted(() => {
+  import('~/components/boulodrome/BoulodromeGame.vue')
+})
+const playerNames = ref<[string, string]>(['', ''])
+
+function onStart(picked: BoulodromeMode, names: [string, string]) {
   mode.value = picked
+  playerNames.value = names
 }
 
 function backToMenu() {
@@ -31,7 +40,7 @@ function backToMenu() {
     <BoulodromeMenu v-if="!mode" @start="onStart" />
 
     <ClientOnly v-else>
-      <LazyBoulodromeGame :mode="mode" @quit="backToMenu" />
+      <LazyBoulodromeGame :mode="mode" :player-names="playerNames" @quit="backToMenu" />
       <template #fallback>
         <p class="py-24 text-center font-serif text-lg text-muted">
           Préparation du terrain…

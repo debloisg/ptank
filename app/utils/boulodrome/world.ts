@@ -5,7 +5,7 @@
 
 import { Box, Chain, Circle, Edge, World } from 'planck'
 import type { Body, World as PlanckWorld } from 'planck'
-import { GRAVITY } from './throwing'
+import { GRAVITY, WIND_ACCEL } from './throwing'
 import type { Terrain } from './terrain'
 import type { PlayerId, Vec } from './types'
 
@@ -143,6 +143,18 @@ export function spawnCochonnet(lane: Lane, at: Vec, velocity: Vec): Entity {
   const entity: Entity = { id: nextId++, kind: 'cochonnet', owner: null, body, dead: false, airborne: true, pos: { x: at.x, y: at.y }, angle: 0 }
   body.setUserData(entity)
   return entity
+}
+
+/**
+ * The mène's breeze, pushed onto whatever is still in the air. Grounded boules
+ * are left alone — the gravel's friction swallows anything this gentle — so the
+ * whole effect is "how long was it up there", which is exactly the feel we want:
+ * invisible on a rolled boule, real on a lob. Force scales with mass so the
+ * cochonnet drifts at the same rate as a boule.
+ */
+export function applyWind(entity: Entity, wind: number) {
+  if (wind === 0 || entity.dead || !entity.airborne) return
+  entity.body.applyForceToCenter({ x: wind * WIND_ACCEL * entity.body.getMass(), y: 0 }, true)
 }
 
 /** Swap air/ground damping and report a fresh landing (for the dust puff). */

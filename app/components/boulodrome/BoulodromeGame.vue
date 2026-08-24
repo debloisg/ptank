@@ -12,17 +12,18 @@ import { GameAudio } from '~/utils/boulodrome/audio'
 import { Effects } from '~/utils/boulodrome/effects'
 import { playerColor } from '~/utils/boulodrome/palette'
 import type { Backdrop, Camera, SceneEntity, SceneMeasure, View } from '~/utils/boulodrome/render'
-import { clearCanvas, createBackdrop, drawScene, makeView, VIEW_W, WORLD_ASPECT } from '~/utils/boulodrome/render'
+import { clearCanvas, createBackdrop, drawScene, makeView, releaseBackdropCache, VIEW_W, WORLD_ASPECT } from '~/utils/boulodrome/render'
 import { between, clamp, createRng } from '~/utils/boulodrome/rng'
 import { bestDistance, distance, isGameOver, scoreMene } from '~/utils/boulodrome/scoring'
 import { Seagull } from '~/utils/boulodrome/seagull'
 import type { Terrain } from '~/utils/boulodrome/terrain'
 import { createTerrain } from '~/utils/boulodrome/terrain'
-import { clampAngle, powerForTarget, previewArc, throwVelocity } from '~/utils/boulodrome/throwing'
+import { clampAngle, powerForTarget, previewArc, throwVelocity, WIND_MAX } from '~/utils/boulodrome/throwing'
 import { nextThrower } from '~/utils/boulodrome/turns'
 import type { BoulodromeMode, BouleSnapshot, Phase, PlayerId, Vec } from '~/utils/boulodrome/types'
 import type { Entity, Lane } from '~/utils/boulodrome/world'
 import {
+  applyWind,
   atRest,
   BOARD_H,
   BOARD_HW,
@@ -45,7 +46,7 @@ import {
   updateDamping,
 } from '~/utils/boulodrome/world'
 
-const props = defineProps<{ mode: BoulodromeMode }>()
+const props = defineProps<{ mode: BoulodromeMode, playerNames?: [string, string] }>()
 const emit = defineEmits<{ quit: [] }>()
 
 const DEG = Math.PI / 180
@@ -73,9 +74,12 @@ const announcement = ref('')
 const isFullscreen = ref(false)
 const fullscreenEnabled = ref(true)
 
-const names = computed<[string, string]>(() =>
-  props.mode === 'ai' ? ['Vous', 'L’ordinateur'] : ['Joueur 1', 'Joueur 2'],
-)
+const names = computed<[string, string]>(() => {
+  const [p1, p2] = props.playerNames ?? ['', '']
+  return props.mode === 'ai'
+    ? [p1 || 'Vous', 'L’ordinateur']
+    : [p1 || 'Joueur 1', p2 || 'Joueur 2']
+})
 const nameOf = (p: PlayerId) => names.value[p]
 
 const isHumanTurn = computed(() =>
@@ -99,9 +103,13 @@ const gameOverLine = computed(() => {
   const loser: PlayerId = w === 0 ? 1 : 0
   const scoreLine = `${scores.value[w]} à ${scores.value[loser]}`
   if (props.mode === 'ai') {
-    return w === 0
+    if (w === 1) return `L’ordinateur a gagné ${scoreLine}.`
+    // Default (no custom name) keeps the familiar « Vous avez gagné » phrasing;
+    // a chosen pirate name reads better with the same « {name} gagne » form
+    // used in hotseat below.
+    return nameOf(0) === 'Vous'
       ? `Vous avez gagné ${scoreLine} !`
-      : `L’ordinateur a gagné ${scoreLine}.`
+      : `${nameOf(0)} gagne ${scoreLine} !`
   }
   return `${nameOf(w)} gagne ${scoreLine} !`
 })
@@ -149,6 +157,8 @@ interface Sim {
   followId: number | null
   lastClack: number
   time: number
+  /** The mène's breeze, m/s. Signed: + pushes down the lane. */
+  wind: number
 }
 
 let sim: Sim
@@ -204,6 +214,7 @@ function makeSim(): Sim {
     followId: null,
     lastClack: 0,
     time: 0,
+    wind: 0,
   }
 }
 
@@ -269,6 +280,10 @@ function startMene() {
   sim.elapsed = 0
   sim.cochTries = 0
   sim.camTargetW = VIEW_W
+  // One breeze per mène, squared towards zero so most ends are calm-ish and the
+  // odd one is worth aiming off for. The pennant by the circle is the only tell.
+  const gust = between(rng, -1, 1)
+  sim.wind = WIND_MAX * gust * Math.abs(gust)
   impactVy.clear()
   contacts = []
   effects.clear()
@@ -284,7 +299,7 @@ function startMene() {
 function throwCochonnet() {
   const target = between(rng, COCH_MIN, COCH_MAX)
   const angle = between(rng, 38 * DEG, 48 * DEG)
-  const power = powerForTarget(sim.origin, angle, target, groundY, COCH_R, 0.3)
+  const power = powerForTarget(sim.origin, angle, target, groundY, COCH_R, sim.wind, 0.3)
   const c = spawnCochonnet(sim.lane!, { ...sim.origin }, throwVelocity(angle, power))
   sim.cochonnet = c
   sim.entities.push(c)
@@ -449,6 +464,9 @@ function stepPhysics(dt: number) {
   for (const e of sim.entities) {
     if (e.dead) continue
     impactVy.set(e.id, e.body.getLinearVelocity().y)
+    // Breeze, on airborne bodies only — applied before the step so it is part of
+    // this integration rather than a correction after it.
+    applyWind(e, sim.wind)
   }
 
   lane.world.step(dt, 8, 3)
@@ -554,6 +572,7 @@ function tickAi(dt: number) {
         self: 1,
         groundY,
         bouleRadius: BOULE_R,
+        wind: sim.wind,
       },
       rng,
     )
@@ -692,16 +711,27 @@ function updateCamera(dt: number) {
   const flying = phase.value === 'flight' || phase.value === 'cochonnet'
   const coch = cochonnetPos()
 
+  const aiming = phase.value === 'aiming' || phase.value === 'charging'
+
   let tx: number
   if (flying && follow) {
     tx = follow.pos.x + 0.9
   } else if (phase.value === 'mene-end' && coch) {
     tx = coch.x
+  } else if (aiming) {
+    // The thrower, their power gauge (origin.x - 0.75) and the cochonnet must
+    // all be in frame at once: with a long cochonnet the fixed view can't hold
+    // both ends, so widen it instead of cutting the player out of their own
+    // throw.
+    const left = THROW_X - 1.5
+    const right = (coch?.x ?? 8) + 1.3
+    tx = (left + right) / 2
+    sim.camTargetW = clamp(right - left, VIEW_W, 14.5)
   } else {
     tx = ((coch?.x ?? 8) + THROW_X) / 2 + 0.4
   }
 
-  const half = sim.cam.viewW / 2
+  const half = (aiming ? sim.camTargetW : sim.cam.viewW) / 2
   const lo = LANE_START + half - 0.4
   const hi = BOARD_X + 1.2 - half
   sim.camTargetX = clamp(tx, Math.min(lo, hi), Math.max(lo, hi))
@@ -800,12 +830,28 @@ function sceneEntities(): SceneEntity[] {
   return out
 }
 
+/** Device-pixel budget for the backing store. The scene is fill-rate bound —
+ *  flat vector art over the whole canvas — so frame cost tracks pixel count
+ *  almost exactly: fullscreen at 5.3 Mpx measured ~20 ms/frame against ~10 ms
+ *  for a 1.4 Mpx window. 3.3 Mpx keeps the worst case inside a 120 Hz budget,
+ *  and flat fills survive the downscale. Pure function of the CSS size and the
+ *  dpr, so it can never oscillate. */
+const MAX_CANVAS_PX = 3_300_000
+
+function deviceScale(): number {
+  const dpr = Math.min(2, window.devicePixelRatio || 1)
+  const px = cssW * cssH * dpr * dpr
+  return px > MAX_CANVAS_PX ? dpr * Math.sqrt(MAX_CANVAS_PX / px) : dpr
+}
+
 function render() {
   const canvas = canvasEl.value
-  const ctx = canvas?.getContext('2d')
+  // Opaque: the scene paints every pixel, and telling the compositor so removes
+  // the per-frame blend of the canvas against the page behind it.
+  const ctx = canvas?.getContext('2d', { alpha: false })
   if (!canvas || !ctx) return
 
-  const dpr = Math.min(2, window.devicePixelRatio || 1)
+  const dpr = deviceScale()
   const wantW = Math.round(cssW * dpr)
   const wantH = Math.round(cssH * dpr)
   if (canvas.width !== wantW || canvas.height !== wantH) {
@@ -835,6 +881,7 @@ function render() {
     backdrop,
     seagull: gull,
     reducedMotion,
+    wind: sim.wind,
     throwX: THROW_X,
     board: { x: BOARD_X, h: BOARD_H, hw: BOARD_HW },
     aim: aiming && p !== null
@@ -845,12 +892,15 @@ function render() {
           owner: p,
           groundY: groundY(sim.origin.x),
           idle: isAiTurn(p) && sim.ai.stage === 'think',
+          // The computer throws as a robot; hotseat keeps two human silhouettes.
+          robot: isAiTurn(p),
           preview: previewArc(
             sim.origin,
             sim.angle,
             phase.value === 'charging' ? sim.power : 0.5,
             groundY,
             BOULE_R,
+            sim.wind,
           ),
         }
       : null,
@@ -887,8 +937,17 @@ function measure() {
   const el = wrapperEl.value
   if (!el) return
   const rect = el.getBoundingClientRect()
-  cssW = Math.max(1, Math.round(rect.width))
-  cssH = Math.max(1, Math.round(rect.height))
+  const w = Math.max(1, Math.round(rect.width))
+  const h = Math.max(1, Math.round(rect.height))
+  // Bail out unless the rounded CSS size actually moved. The wrapper's rect is
+  // fractional on a scaled display, so the observer fires with sizes that round
+  // to the same pixel; writing the canvas' inline size back on every one of them
+  // re-entered the resize loop and made `render()` reallocate (and therefore
+  // clear) the backing store mid-frame — visible as flicker in fullscreen,
+  // where the store is tens of megabytes.
+  if (w === cssW && h === cssH) return
+  cssW = w
+  cssH = h
   const canvas = canvasEl.value
   if (canvas) {
     canvas.style.width = `${cssW}px`
@@ -1006,6 +1065,8 @@ onBeforeUnmount(() => {
   document.removeEventListener('visibilitychange', onVisibility)
   document.removeEventListener('fullscreenchange', onFullscreenChange)
   document.removeEventListener('webkitfullscreenchange', onFullscreenChange)
+  // The offscreen backdrop is a second full-size canvas; don't leave it behind.
+  releaseBackdropCache()
   destroyLane(sim?.lane ?? null)
   if (sim) sim.lane = null
   audio?.close()

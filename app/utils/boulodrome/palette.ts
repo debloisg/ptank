@@ -10,6 +10,8 @@
 // cochonnet, ink/paper of the measuring labels — is shared, so the two scenes
 // stay the same game rather than two different games.
 
+export type SceneKind = 'sunset' | 'day'
+
 export interface SkyStop {
   at: number
   color: string
@@ -17,6 +19,9 @@ export interface SkyStop {
 
 /** Everything a scene repaints. Both scenes must define the whole set. */
 export interface ScenePalette {
+  /** Which scene this is. Used as a cache key by the renderer's gradient store,
+   *  so two palettes can never share a cached gradient. */
+  id: SceneKind
   sky: readonly SkyStop[]
   sun: string
   sunGlow: string
@@ -88,6 +93,7 @@ export interface ScenePalette {
 
 /** A July evening in Fouesnant. These values are the original palette, verbatim. */
 const SUNSET: ScenePalette = {
+  id: 'sunset',
   sky: [
     { at: 0, color: '#3f3277' },
     { at: 0.28, color: '#7b4a8c' },
@@ -156,6 +162,7 @@ const SUNSET: ScenePalette = {
 
 /** Late morning on the same shore: the Glénan look — turquoise water, hard light. */
 const DAY: ScenePalette = {
+  id: 'day',
   sky: [
     { at: 0, color: '#1c63b6' },
     { at: 0.3, color: '#3f8ed8' },
@@ -222,8 +229,6 @@ const DAY: ScenePalette = {
   gullBeak: '#f2a33c',
 }
 
-export type SceneKind = 'sunset' | 'day'
-
 export const PALETTES: Record<SceneKind, ScenePalette> = {
   sunset: SUNSET,
   day: DAY,
@@ -246,6 +251,12 @@ export const PALETTE = {
   boule2Dark: '#1d6a99',
   cochonnet: '#ff7a18',
   cochonnetHi: '#ffd39a',
+
+  // Marinière + bachi worn by the first player's thrower. Bleu marine is a fixed
+  // colour, not a scene colour: the jersey looks the same at dusk or at noon.
+  marinWhite: '#f2ece0',
+  marinNavy: '#1e3462',
+  pompom: '#c8262c',
 
   grassEdge: '#5d6b3c',
   shadow: 'rgba(70, 45, 30, 0.28)',
