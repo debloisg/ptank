@@ -43,13 +43,13 @@ const links = [
     <!-- Desktop nav -->
     <UNavigationMenu :items="links" variant="link" />
 
-    <!-- Adhérer CTA -->
+    <!-- Contact CTA -->
     <template #right>
       <UButton
         to="/contact"
         color="secondary"
         class="rounded-full px-5 font-medium hidden sm:inline-flex"
-        label="Adhérer"
+        label="Nous contacter"
       />
     </template>
 
@@ -61,7 +61,7 @@ const links = [
         color="secondary"
         block
         class="rounded-full mt-6"
-        label="Adhérer au club"
+        label="Nous contacter"
       />
     </template>
   </UHeader>

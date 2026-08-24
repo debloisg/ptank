@@ -35,7 +35,7 @@ const heroLinks = computed(() =>
   home.value?.links?.length
     ? home.value.links
     : [
-        { label: "Adhérer à l'association", to: '/contact' },
+        { label: 'Nous contacter', to: '/contact' },
         { label: 'Voir les concours', to: '/evenements' },
       ],
 )

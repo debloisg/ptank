@@ -16,6 +16,7 @@ export interface FeedArticle {
   category?: string
   date?: string
   journal?: string
+  description?: string
   /** The article's hero image, shown as the row's thumbnail when it has one. */
   image?: string
 }
@@ -50,6 +51,8 @@ export interface ArchiveEvent {
   /** Sortable, zero-padded date used for ordering. */
   sortKey: string
   category?: string
+  /** Articles only: the frontmatter summary, shown under the card title. */
+  description?: string
   /** Articles only: the hero image, if the article has one. */
   image?: string
   /** Albums only. */
@@ -132,6 +135,7 @@ export function buildArchiveFeed(
       year,
       sortKey: sortKeyFor(date, year),
       category: article.category,
+      description: article.description,
       image: article.image,
     })
   }

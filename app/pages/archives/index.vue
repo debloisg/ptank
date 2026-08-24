@@ -15,20 +15,16 @@
 import type { ArchiveEvent } from '~/utils/archives'
 import { buildArchiveFeed, formatEventDate } from '~/utils/archives'
 
-// The feed renders two kinds of row through one UTimeline. `isYear` is a literal
-// discriminant so the template narrows on `v-if="item.isYear"` / `v-else` and
-// `item.event` stays fully typed in the second branch.
-type FeedRow =
-  | { value: string, icon: string, title: string, isYear: true, year: number }
-  | {
-    value: string
-    icon: string
-    title: string
-    isYear: false
-    event: ArchiveEvent
-    dateLabel: string
-    metaLabel: string | null
-  }
+// One card of the feed, precomputed so the template stays declarative.
+interface FeedCard {
+  value: string
+  event: ArchiveEvent
+  dateLabel: string
+  metaLabel: string | null
+  badgeLabel: string
+  /** Albums/documents carry the clay accent; everything else stays neutral. */
+  isVisual: boolean
+}
 
 const { data } = await useAsyncData('archives-hub', async () => {
   const [cfg, articles, albums] = await Promise.all([
@@ -37,7 +33,7 @@ const { data } = await useAsyncData('archives-hub', async () => {
     // ~240 short paths to the payload, which is worth it — without them the feed
     // is a wall of text next to the albums' thumbnail strips.
     queryCollection('archives')
-      .select('path', 'title', 'year', 'category', 'date', 'journal', 'image')
+      .select('path', 'title', 'year', 'category', 'date', 'journal', 'image', 'description')
       .order('date', 'DESC')
       .all(),
     // `byYear` is a precomputed aggregate — see content.config.ts. Selecting
@@ -99,47 +95,48 @@ const filteredFeed = computed(() =>
 
 const visibleFeed = computed(() => filteredFeed.value.slice(0, feedShown.value))
 
-// Only `icon` (the rail indicator) and the row data are passed through: the whole
-// row is rendered from the #title slot as a single card, so `date`/`description`
-// are deliberately absent — UTimeline renders those slots only when the item has
-// the matching key, and splitting the row across three slots would put the date
-// and the thumbnails outside the card.
-//
-// Each year gets its OWN row rather than a label stacked above the first card of
-// the year. The rail indicator aligns to the top of an item's wrapper, so a label
-// sitting above the card pushed the card away from its own icon — the icon then
-// read as belonging to the year, and the card looked like it had none.
-// Year rows are inserted after slicing, so they never consume a page's quota.
-const feedItems = computed(() => {
-  const items: FeedRow[] = []
-  let lastYear: number | null = null
+// The chip on each card names the kind of thing in the singular — TYPE_LABELS
+// above stays plural because it counts ("Journaux (192)").
+const BADGE_LABELS: Record<string, string> = {
+  journal: 'Journal',
+  competition: 'Compétition',
+  album: 'Photos',
+  documents: 'Documents',
+  calendar: 'Calendrier',
+  club: 'Vie du club',
+  article: 'Article',
+  flash: 'Flash info',
+}
+
+// The feed grouped by year, one group per section: the year pill is `sticky`
+// inside its group, so the current year stays pinned under the header while its
+// cards scroll past, then hands over to the next year — each pill needs its own
+// containing block for that, which a flat item list can't provide. Groups are
+// built after slicing, so pills never consume a page's quota.
+const feedGroups = computed(() => {
+  const groups: Array<{ year: number, cards: FeedCard[] }> = []
   for (const event of visibleFeed.value) {
-    if (event.year !== lastYear) {
-      items.push({
-        value: `year-${event.year}`,
-        icon: 'i-lucide-calendar',
-        title: String(event.year),
-        isYear: true,
-        year: event.year,
-      })
-      lastYear = event.year
+    let group = groups[groups.length - 1]
+    if (!group || group.year !== event.year) {
+      group = { year: event.year, cards: [] }
+      groups.push(group)
     }
-    items.push({
+    group.cards.push({
       value: event.id,
-      icon: event.icon,
-      title: event.title,
-      isYear: false,
       event,
       dateLabel: formatEventDate(event),
-      // The row's second meta fact, beside the date: how many photos for an album,
-      // the category for an article. Precomputed so the template doesn't have to
-      // branch three ways around the responsive date.
+      // The card's subtitle: how many photos for an album, the category for an
+      // article.
       metaLabel: event.photoCount
-        ? `${event.photoCount} ${event.type === 'documents' ? 'élément' : 'photo'}${event.photoCount > 1 ? 's' : ''}`
+        ? event.type === 'documents'
+          ? `${event.photoCount} élément${event.photoCount > 1 ? 's' : ''} ajouté${event.photoCount > 1 ? 's' : ''} à l'album`
+          : `${event.photoCount} photo${event.photoCount > 1 ? 's' : ''} ajoutée${event.photoCount > 1 ? 's' : ''} à l'album`
         : event.category ?? null,
+      badgeLabel: BADGE_LABELS[event.type] ?? event.type,
+      isVisual: event.type === 'album' || event.type === 'documents',
     })
   }
-  return items
+  return groups
 })
 
 function setTypeFilter(type: string | null) {
@@ -395,121 +392,128 @@ useSeoMeta({
           />
         </div>
 
-        <!-- The row spacing lives on `wrapper`, NOT on `item`: the theme lays the
-             item out as `flex` with the indicator+separator `container` beside the
-             wrapper, so padding on `item` sits outside the container and the
-             `flex-1` separator can't grow into it — which breaks the rail into
-             disconnected segments between rows. Padding inside the wrapper makes
-             the item taller, the container stretches with it, and the line runs
-             continuously from the first row to the last. -->
-        <UTimeline
-          :items="feedItems"
-          orientation="vertical"
-          size="3xl"
-          color="primary"
-          class="mt-8"
-          :ui="{
-            // `lg:ps-32` reserves a left gutter OUTSIDE the rail. `item` is
-            // `relative` in the theme, so the date can be absolutely positioned
-            // into that gutter — UTimeline has no slot before the indicator.
-            item: 'lg:ps-32',
-            wrapper: 'w-full pb-3',
-            title: 'font-normal',
-            // ── Centering the icon on its card ──────────────────────────────
-            // The theme stacks the container as [avatar, separator(flex-1)], so
-            // the avatar is pinned to the TOP and the line only exists below it.
-            // Simply centering the avatar would therefore tear a gap in the rail
-            // above it. So: drop the separator element entirely and draw the rail
-            // as a full-height pseudo-element on the container, then centre the
-            // avatar over it. `group-first`/`group-last` clip the line at the
-            // first and last icon so it doesn't overshoot the ends of the list
-            // (`group` is on `item` in the theme).
-            separator: 'hidden',
-            container: [
-              'relative justify-center',
-              'before:absolute before:inset-y-0 before:left-1/2 before:w-0.5 before:-translate-x-1/2 before:bg-accented',
-              'group-first:before:top-1/2 group-last:before:bottom-1/2',
-            ].join(' '),
-            // size=3xl is the largest the underlying UAvatar offers (size-12 with
-            // a text-2xl glyph). `relative z-10` lifts it above the rail line it
-            // now sits on top of. `-mt-1.5` compensates for the wrapper's `pb-3`,
-            // so the icon centres on the CARD rather than on card-plus-gap.
-            indicator: 'relative z-10 -mt-1.5 text-primary bg-elevated ring ring-default',
-          }"
+        <!-- One thin rail drawn as a pseudo-element on the wrapper; each card
+             gets a small dot (clay for photo albums, navy for everything else)
+             and each year a pill sitting ON the rail. The pill is sticky INSIDE
+             its year's section, so the current year stays pinned under the app
+             header while its cards scroll past, then yields to the next one. -->
+        <div
+          class="relative mt-8 before:absolute before:inset-y-3 before:left-[7px] before:w-0.5 before:bg-accented sm:mt-10"
         >
-          <template #title="{ item }">
-            <!-- A year's own row. Its icon lands on the rail like any other, so
-                 the content rows below keep theirs aligned to their cards. -->
-            <span
-              v-if="item.isYear"
-              class="block pb-1 font-serif text-3xl font-bold tabular-nums text-primary"
-            >{{ item.year }}</span>
+          <section
+            v-for="group in feedGroups"
+            :key="group.year"
+            class="relative pb-6 last:pb-0 sm:pb-8"
+          >
+            <!-- `pointer-events-none` on the sticky wrapper: it is a full-width
+                 block floating over the cards once stuck, and must not eat their
+                 clicks — only the pill itself stays interactive. -->
+            <div class="pointer-events-none sticky top-20 z-10 mb-5 sm:mb-7">
+              <UBadge
+                color="neutral"
+                variant="outline"
+                size="lg"
+                class="pointer-events-auto gap-2.5 rounded-full bg-elevated py-1.5 pl-4 pr-5 shadow-sm"
+              >
+                <span class="size-2 rounded-full bg-secondary" />
+                <span class="font-serif text-lg font-bold tabular-nums text-highlighted">{{ group.year }}</span>
+              </UBadge>
+            </div>
 
-            <template v-else>
-              <!-- Desktop: the date sits in the gutter to the left of the rail.
-                   Below `lg` there is no gutter, so it falls back to the card's
-                   meta line (see the `lg:hidden` span there). -->
-              <!-- `inset-y-0 pb-3` + `items-center` centres the date on the card
-                   the same way the icon is centred (pb-3 mirrors the wrapper's
-                   bottom gap), so date, icon and card all share one baseline. -->
-              <span
-                class="absolute inset-y-0 left-0 hidden w-28 items-center justify-end pb-3 pr-4 text-right text-xs tabular-nums text-dimmed lg:flex"
-              >{{ item.dateLabel }}</span>
-
-              <!-- One card per row, whatever the row is. Same shape as the article
-                   rows elsewhere in the archive, with an optional thumbnail strip. -->
-            <NuxtLink
-              :to="item.event.to"
-              class="group flex items-center gap-3 rounded-xl border border-default bg-elevated px-3 py-3.5 shadow-sm transition-all duration-200 hover:border-primary/40 hover:shadow-md sm:gap-4 sm:px-4 sm:py-4"
-            >
-              <!-- Albums show a strip of that year's photos; an article shows its
-                   hero image. Both land in the same slot so every row with a
-                   picture reads alike. -->
-              <span v-if="item.event.thumbs?.length" class="flex shrink-0 gap-1.5">
-                <NuxtImg
-                  v-for="thumb in item.event.thumbs"
-                  :key="thumb.src"
-                  :src="thumb.src"
-                  :alt="thumb.alt"
-                  :width="thumb.w"
-                  :height="thumb.h"
-                  loading="lazy"
-                  class="size-14 rounded-lg border border-default bg-muted object-cover sm:size-16"
+            <ol class="space-y-5 ps-7 sm:space-y-7 sm:ps-12">
+              <li v-for="card in group.cards" :key="card.value" class="relative">
+                <!-- Rail dot, vertically aligned with the card's badge line. The
+                     arbitrary lefts centre the 12px dot on the rail (rail centre
+                     is 8px from the wrapper's left edge; the list's padding is
+                     28px / 48px). -->
+                <span
+                  class="absolute top-6 -left-[26px] size-3 rounded-full sm:-left-[46px]"
+                  :class="card.isVisual ? 'bg-secondary' : 'bg-primary'"
                 />
-              </span>
-              <!-- No width/height: article frontmatter carries no dimensions, and
-                   the fixed CSS box already reserves the space, so there's no CLS
-                   to guard against here. `sizes` makes the provider serve the
-                   -800 rendition — article heroes can be 1600px files, far too
-                   heavy for a 64px box. -->
-              <NuxtImg
-                v-else-if="item.event.image"
-                :src="item.event.image"
-                :alt="item.event.title"
-                sizes="64px"
-                loading="lazy"
-                class="size-14 shrink-0 rounded-lg border border-default bg-muted object-cover sm:size-16"
-              />
 
-              <span class="min-w-0 flex-1">
-                <span class="block truncate font-medium text-highlighted transition-colors group-hover:text-primary sm:text-[0.95rem]">
-                  {{ item.event.title }}
-                </span>
-                <span class="mt-0.5 flex flex-wrap items-center gap-x-2 gap-y-0.5 text-xs text-muted">
-                  <span class="tabular-nums lg:hidden">{{ item.dateLabel }}</span>
-                  <span v-if="item.metaLabel" class="text-dimmed lg:hidden">·</span>
-                  <span v-if="item.metaLabel">{{ item.metaLabel }}</span>
-                </span>
-              </span>
+                <UPageCard
+                  :to="card.event.to"
+                  variant="outline"
+                  :title="card.event.title"
+                  :ui="{
+                    root: 'rounded-2xl bg-elevated shadow-sm transition-all duration-200 hover:border-primary/40 hover:shadow-md',
+                    // `min-w-0` on both flex layers: the theme's container is
+                    // `flex-1` (min-width:auto), so without it the card refuses
+                    // to shrink below its content's min-content width and
+                    // overflows the viewport on phones.
+                    container: 'min-w-0 p-5 sm:p-6 gap-2.5',
+                    wrapper: 'min-w-0',
+                    title: 'font-serif text-xl font-semibold leading-snug text-highlighted wrap-anywhere sm:text-2xl',
+                    footer: 'pt-0',
+                  }"
+                >
+                  <template #header>
+                    <div class="flex flex-wrap items-center gap-x-3 gap-y-1.5">
+                      <UBadge
+                        :color="card.isVisual ? 'secondary' : 'neutral'"
+                        variant="subtle"
+                        size="sm"
+                        :icon="card.event.icon"
+                        class="rounded-full !text-[0.65rem] font-semibold uppercase tracking-wide"
+                      >
+                        {{ card.badgeLabel }}
+                      </UBadge>
+                      <span class="text-xs tabular-nums text-muted">{{ card.dateLabel }}</span>
+                    </div>
+                  </template>
 
-              <UIcon
-                name="i-lucide-chevron-right"
-                class="hidden size-4 shrink-0 text-dimmed transition-transform duration-200 group-hover:translate-x-0.5 group-hover:text-primary sm:block"
-              />
-              </NuxtLink>
-            </template>
-          </template>
-        </UTimeline>
+                  <!-- `wrap-anywhere` (overflow-wrap:anywhere): some imported
+                       descriptions are one giant unbroken word (e.g.
+                       "FEDERATIONFRANCAISEde…"), and unlike break-word this also
+                       shrinks the text's min-content — without it the word
+                       propagates its full width up the flex chain and pushes the
+                       whole card past the viewport on phones. -->
+                  <template #description>
+                    <span v-if="card.metaLabel" class="block text-sm text-muted wrap-anywhere">{{ card.metaLabel }}</span>
+                    <span v-if="card.event.description" class="mt-1.5 line-clamp-2 block text-sm text-toned wrap-anywhere">
+                      {{ card.event.description }}
+                    </span>
+                  </template>
+
+                  <template #footer>
+                    <!-- Albums show a strip of that year's photos; an article
+                         shows its hero image. Fixed small boxes that wrap, so
+                         the strip can never overflow the card. -->
+                    <div v-if="card.event.thumbs?.length" class="flex flex-wrap gap-2 sm:gap-3">
+                      <NuxtImg
+                        v-for="thumb in card.event.thumbs"
+                        :key="thumb.src"
+                        :src="thumb.src"
+                        :alt="thumb.alt"
+                        :width="thumb.w"
+                        :height="thumb.h"
+                        loading="lazy"
+                        class="h-24 w-32 rounded-lg border border-default bg-muted object-cover sm:h-28 sm:w-40"
+                      />
+                    </div>
+                    <!-- No width/height: article frontmatter carries no
+                         dimensions, and the fixed CSS box already reserves the
+                         space, so there's no CLS to guard against here. `sizes`
+                         keeps 1600px heroes off a 160px box. -->
+                    <NuxtImg
+                      v-else-if="card.event.image"
+                      :src="card.event.image"
+                      :alt="card.event.title"
+                      sizes="320px"
+                      loading="lazy"
+                      class="h-24 w-32 rounded-lg border border-default bg-muted object-cover sm:h-28 sm:w-40"
+                    />
+
+                    <span class="mt-3 inline-flex items-center gap-1.5 text-sm font-medium text-primary">
+                      {{ card.isVisual ? "Voir l'album" : 'Lire la suite' }}
+                      <UIcon name="i-lucide-arrow-right" class="size-4" />
+                    </span>
+                  </template>
+                </UPageCard>
+              </li>
+            </ol>
+          </section>
+        </div>
 
         <div v-if="feedShown < filteredFeed.length" class="mt-6 flex justify-center">
           <UButton
