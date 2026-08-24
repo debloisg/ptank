@@ -392,8 +392,11 @@ export default defineNuxtConfig({
 
   // Sitemap: emit <lastmod> so crawlers can tell what actually changed. Dates
   // come from each entry's frontmatter `date` (see content.config.ts).
+  // /boulodrome (hidden minigame, noindex) excluded on top of its own robots
+  // meta — @nuxtjs/seo docs recommend `sitemap.exclude` for this.
   sitemap: {
     discoverImages: false,
+    exclude: ['/boulodrome'],
   },
 
   // Nuxt Studio — the in-browser CMS non-coders use to edit content, at /_studio.

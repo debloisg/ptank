@@ -77,13 +77,15 @@ const columns: FooterColumn[] = [
     >
       <template #left>
         <div class="flex items-center gap-3 mb-4">
-          <img
-            src="/logo.webp"
-            alt="Pétanque Fouesnantaise"
-            width="36"
-            height="36"
-            class="w-9 h-9 shrink-0"
-          >
+          <NuxtLink to="/boulodrome" aria-label="Le boulodrome — jeu de pétanque" :prefetch="false">
+            <img
+              src="/logo.webp"
+              alt="Pétanque Fouesnantaise"
+              width="36"
+              height="36"
+              class="w-9 h-9 shrink-0"
+            >
+          </NuxtLink>
           <span class="font-serif text-lg font-semibold text-highlighted">Pétanque Fouesnantaise</span>
         </div>
         <p class="text-sm text-muted max-w-xs">
