@@ -2,7 +2,7 @@
 title: "OCTOBRE ROSE "
 category: Ouvert à toutes
 date: 2026-10-03
-description: Concours en doublette ouvert à tous, départ à 13h30 au boulodrome de l'Allée de Loc'Hilaire.
+description: Concours en triplette ouvert à tous, départ à 13h30 au boulodrome de l'Allée de Loc'Hilaire.
 image: https://image.petanque-fouesnantaise.fr/images/Affiche-octobrerose.jpg
 location: Boulodrome de l'Allée de Loc'Hilaire
 seo:
