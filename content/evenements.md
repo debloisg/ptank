@@ -1,11 +1,15 @@
 ---
-title: Octobre Rose
-description: Après les concours populaires du mercredi en juillet et août la Pétanque Fouesnantaise participera à l’action de Cap Rose
+title: "Coupe du Finistère "
+description: "Événements à venir au boulodrome de Fouesnant "
 eyebrow: Agenda
 seo:
-  title: Concours d'été en doublette
-  description: Grand concours ouvert à tous en doublette formée. Buvette et ambiance conviviale sur place.
+  title: "Événements et concours "
+  description: "Activités du club "
 category: Ouvert à tous
 date: 2026-1003
 location: Boulodrome de Bréhoulou
 ---
+
+Le club reçoit pour la coupe du Finistère 
+
+[Contact](/contact).
