@@ -1,6 +1,6 @@
 ---
 title: "Coupe du Finistère "
-category: Découverte
+category: "Officiel "
 date: 2026-09-12
 description: "Envie d'essayer la pétanque ? Venez vous renseigner au forum des associations au stad de la Pétanque "
 location: complexe sportif de Bréhoulou
