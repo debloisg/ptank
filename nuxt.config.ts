@@ -137,6 +137,17 @@ export default defineNuxtConfig({
   // Studio panel failing to mount.
   ignore: ['test-results/**', 'playwright-report/**'],
 
+  // Server sourcemaps OFF. Nuxt defaults `sourcemap.server` to true, and
+  // generating them is what pushed the Cloudflare build's Rollup pass over the
+  // ~2 GB heap ("Ineffective mark-compacts near heap limit") right after the 650
+  // prerendered routes were written. Nothing consumes them: the Worker uploads
+  // no source maps (`upload_source_maps` is not set in wrangler.jsonc), so
+  // observability stack traces are unmapped either way.
+  sourcemap: {
+    server: false,
+    client: false,
+  },
+
   // Strict TS everywhere. typeCheck stays OFF for `nuxt build` on purpose: it
   // would add vue-tsc to every Cloudflare deploy build (slower, and a type error
   // in content types could block a content-only deploy). Run it explicitly with
