@@ -1,10 +1,10 @@
 ---
-title: "Événements a venir :"
-description: Concours populaires, octobre rose...
+title: "Telethon "
+description: Grand concours ouvert à tous en doublette formée. Buvette et ambiance conviviale sur place.
 eyebrow: Agenda
 seo:
-  title: "Concours d'été, journée des associations "
-  description: Concours populaires et  octobre rose ...
+  title: Concours en doublette
+  description: Grand concours ouvert à tous en doublette formée. Buvette et ambiance conviviale sur place.
 category: Ouvert à tous
 date: 2026-1003
 location: Boulodrome de Bréhoulou
