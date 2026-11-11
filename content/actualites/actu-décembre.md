@@ -1,7 +1,7 @@
 ---
 title: "Notre contribution au Téléthon "
+date: 2026-12-05
 description: "La Pétanque Fouesnantaises participe au Téléthon "
-date: 2026-10-03
 seo:
   title: "Téléthon "
   description: "La Pétanque Fouesnantaises participe au Téléthon "
