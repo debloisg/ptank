@@ -1,9 +1,9 @@
 ---
-title: Octobre rose
+title: "Actualités "
 description: Les dernières nouvelles de Pétanque Fouesnantaise.
 eyebrow: La vie du club
 navigation:
-  description: Concours en Triplettes féminines
+  description: ""
 orientation: vertical
 seo:
   title: Octobre rose
