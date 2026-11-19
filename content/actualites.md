@@ -3,7 +3,7 @@ title: "Téléthon "
 description: Les dernières nouvelles de Pétanque Fouesnantaise.
 eyebrow: La vie du club
 navigation:
-  description: Concours en Triplettes féminines
+  description: Concours en Triplettes
 orientation: vertical
 seo:
   title: "Téléthon "
