@@ -1,5 +1,5 @@
 ---
-title: Marché de Noël  file
+title: Marché de Noël
 description: "La Pétanque Fouesnantaise sera présente sur le marché de Noël "
 eyebrow: La vie du club
 navigation:
