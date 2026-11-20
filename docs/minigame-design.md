@@ -27,7 +27,7 @@ Non-goals (v1): online multiplayer, server-side anything, 3D, leaderboards.
 
 ## 2. Entry point
 
-`app/components/AppFooter.vue` — wrap the brand `<img src="/logo.webp">`
+`app/components/AppFooter.vue` — wrap the brand `<img src="/logo.svg">`
 (line ~80) in `<NuxtLink to="/boulodrome" aria-label="Le boulodrome — jeu de
 pétanque">`. The club-name text next to it stays a non-link; normal footer
 behaviour otherwise unchanged.

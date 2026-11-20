@@ -502,10 +502,13 @@ export default defineNuxtConfig({
         { property: 'og:locale', content: 'fr_FR' },
         { name: 'twitter:image', content: ogImage },
       ],
-      // Club crest as tab icon. Raster rather than SVG: the crest is a raster
-      // logo, so /favicon.ico (legacy, 16/32/48) covers old browsers and the
-      // PNGs cover everything else.
+      // Club mark (the 2026 logo without its lettering, which is unreadable at
+      // icon size; masters in logo/) as tab icon. Browsers that support SVG
+      // icons take /logo.svg; the PNGs and /favicon.ico (legacy, 16/32/48)
+      // are rasterised from the same SVG for the rest, and iOS needs the
+      // opaque apple-touch-icon since it drops alpha.
       link: [
+        { rel: 'icon', type: 'image/svg+xml', href: '/logo.svg' },
         { rel: 'icon', type: 'image/png', sizes: '32x32', href: '/favicon-32.png' },
         { rel: 'icon', type: 'image/png', sizes: '192x192', href: '/favicon-192.png' },
         { rel: 'apple-touch-icon', sizes: '180x180', href: '/apple-touch-icon.png' },

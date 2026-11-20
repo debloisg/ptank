@@ -79,7 +79,7 @@ const columns: FooterColumn[] = [
         <div class="flex items-center gap-3 mb-4">
           <NuxtLink to="/boulodrome" aria-label="Le boulodrome — jeu de pétanque" :prefetch="false" class="shrink-0">
             <img
-              src="/logo.webp"
+              src="/logo.svg"
               alt="Pétanque Fouesnantaise"
               width="36"
               height="36"

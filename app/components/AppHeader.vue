@@ -28,7 +28,7 @@ const links = [
     <template #left>
       <NuxtLink to="/" class="flex items-center gap-3 shrink-0">
         <img
-          src="/logo.webp"
+          src="/logo.svg"
           alt="Pétanque Fouesnantaise"
           width="40"
           height="40"
