@@ -1,5 +1,5 @@
 ---
-title: "Marché de Noël "
+title: Marché de Noël
 date: 2026/12/15
 description: "La Pétanque Fouesnantaise sera présente sur le marché de Noël "
 image: https://image.petanque-fouesnantaise.fr/images/affiches/Marche-Noel-2026-261120-103315.jpg
